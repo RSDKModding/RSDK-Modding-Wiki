@@ -1,3 +1,4 @@
 # RSDK v5 Functions
 
-TODO: the rest
+## Sprites & Animations
+- [LoadSpriteAnimation](Animations-Sprites/LoadSpriteAnimation/README.md)
