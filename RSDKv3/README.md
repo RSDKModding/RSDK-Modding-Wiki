@@ -1,6 +1,6 @@
-# Retro Engine v5
+# Retro Engine v3
 
-TODO: write info about RSDKv5 & RSDKv5U and anything relating to Mania/S3
+TODO: write info about RSDKv3 and anything relating to CD
 
 ## Documentation
 - [Overview](./Overview)

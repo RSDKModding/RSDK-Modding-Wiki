@@ -1,6 +1,6 @@
-# Retro Engine v5
+# Retro Engine v3
 
-TODO: write info about RSDKv5 & RSDKv5U and anything relating to Mania/S3
+TODO: write info about RSDKv4 and anything relating to Sonic 1/Sonic 2
 
 ## Documentation
 - [Overview](./Overview)
