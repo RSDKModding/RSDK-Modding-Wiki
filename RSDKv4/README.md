@@ -1,6 +1,7 @@
-# Retro Engine v3
+# Retro Engine v4
 
-TODO: write info about RSDKv4 and anything relating to Sonic 1/Sonic 2
+Retro Engine v4, debuting in 2013, is the version of RSDK used for the Sonic 1 and Sonic 2 remasters. 
+TODO: y'know
 
 ## Documentation
 - [Overview](./Overview)
@@ -11,6 +12,7 @@ TODO: write info about RSDKv4 and anything relating to Sonic 1/Sonic 2
 - [RSDK Animation Editor](./../Common/Tools/RSDK-Anim-Editor)
 
 ## Tutorials
+- TODO: yo m
 
 ## Other Resources
 
