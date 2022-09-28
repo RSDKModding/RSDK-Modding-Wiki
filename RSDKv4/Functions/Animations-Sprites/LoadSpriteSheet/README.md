@@ -15,4 +15,4 @@ None.
 ```LoadSpriteSheet(string path)```
 
 ## Examples
-- ```LoadSpriteSheet("Test/Objects.gif");```
+- ```LoadSpriteSheet("Test/Objects.gif")```
