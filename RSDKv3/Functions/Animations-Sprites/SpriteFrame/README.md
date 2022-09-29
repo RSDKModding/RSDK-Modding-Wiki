@@ -1,12 +1,10 @@
-# EditFrame
+# SpriteFrame
 
 ## Description
-Edits pivots, width, height and sheet coordinates of a spriteFrame with matching `id`.
+Adds a Sprite with the specified values.
 
 ## Parameters
 
-- `id`
-The ID of the spriteFrame to edit
 - `xPivot`
 The horizontal offset of the sprite, negative values will move it to the left, while positive values will move it to the right
 - `yPivot`
@@ -24,10 +22,7 @@ The position of the upper-left border of the sprite, on the Y axis
 None.
 
 ## Syntax
-```EditFrame(int id, int xPivot, int yPivot, int width, int height, int sheetXPos, int sheetYPos)```
+```SpriteFrame(int xPivot, int yPivot, int width, int height, int sheetXPos, int sheetYPos)```
 
 ## Examples
-- ```EditFrame(2, -8, -8, 8, 8, 1, 35)```
-
-## Notes
-This function is not available in Blit releases of Sonic CD
+- ```SpriteFrame(-16, -16, 32, 32, 75, 129)```

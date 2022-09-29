@@ -16,3 +16,6 @@ None.
 
 ## Examples
 - ```LoadSpriteSheet("Test/Objects.gif")```
+
+## Note
+Lite versions of CD could load PVR format.
