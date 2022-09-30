@@ -1,7 +1,7 @@
-# LoadSpriteAnimation
+# FindSpriteAnimation
 
 ## Description
-Loads a Sprite Animation and returns the id of it.
+Attempts to find an animation entry by name.
 
 ## Parameters
 

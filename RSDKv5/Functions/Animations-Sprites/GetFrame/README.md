@@ -1,4 +1,4 @@
-# LoadSpriteAnimation
+# GetFrame
 
 ## Description
 Retrieves a specific sprite frame from a sprite animation.

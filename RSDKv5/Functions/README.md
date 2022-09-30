@@ -2,7 +2,7 @@
 
 ## Spritesheets
 - [LoadSpriteSheet](SpriteSheets/LoadSpriteSheet/README.md)
-- 
+
 ## Sprites & Animations
 - [LoadSpriteAnimation](Animations-Sprites/LoadSpriteAnimation/README.md)
 - [CreateSpriteAnimation](Animations-Sprites/CreateSpriteAnimation/README.md)
