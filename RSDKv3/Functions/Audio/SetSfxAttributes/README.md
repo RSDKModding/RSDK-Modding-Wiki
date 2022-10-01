@@ -1,12 +1,12 @@
 # SetSfxAttributes
 
 ## Description
-Sets the loop count and panning of the given sound effect to the given values.
+Sets the loop count and panning of the given sound effect slot in the GameConfig to the given values. Unlike `PlaySfx` and `StopSfx`, this function does not have an equivalent for sound effects in the StageConfig.
 
 ## Parameters
 
 - `sfx`
-The slot of the sound effect. It's recommended to the `SfxName` alias for this.
+The slot of the sound effect in the GameConfig
 - `loopCount`
 The number of times the sound effect should loop, if it's set to play on loop. Setting this to -1 will leave the loop count unchanged.
 - `panning`
@@ -19,4 +19,4 @@ None.
 ```SetSfxAttributes(int sfx, int loopCount, int panning)```
 
 ## Examples
-- ```SetSfxAttributes(SfxName[Test], 5, -50)```
+- ```SetSfxAttributes(0, 5, -50)```
