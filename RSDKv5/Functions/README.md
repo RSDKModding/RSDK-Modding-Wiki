@@ -17,8 +17,8 @@
 - [ProcessAnimation](Animations-Sprites/ProcessAnimation/README.md)
 
 ## Debugging
-- [ClearViewableVariables](Editor/ClearViewableVariables/README.md)
-- [AddViewableVariable](Editor/AddViewableVariable/README.md)
+- [ClearViewableVariables](Debugging/ClearViewableVariables/README.md)
+- [AddViewableVariable](Debugging/AddViewableVariable/README.md)
 
 ## Editor
 - [RSDK_ACTIVE_VAR](Editor/RSDK_ACTIVE_VAR/README.md)
