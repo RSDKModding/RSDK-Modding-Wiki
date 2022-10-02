@@ -20,3 +20,6 @@ None.
 
 ## Examples (C++)
 - ```Dev::ClearViewableVariables();```
+
+## Remarks
+This function is suppported by RSDKv5 Revision 02 & RSDKv5U only. It does not exist in RSDKv5 Revision 01.

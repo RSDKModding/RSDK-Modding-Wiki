@@ -34,3 +34,6 @@ None.
 
 ## Examples (C++)
 - ```Dev::AddViewableVariable("Debug Mode", &sceneInfo->debugMode, Dev::VIEWVAR_BOOL, false, true)```
+
+## Remarks
+This function is suppported by RSDKv5 Revision 02 & RSDKv5U only. It does not exist in RSDKv5 Revision 01.
