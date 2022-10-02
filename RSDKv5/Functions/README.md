@@ -15,3 +15,13 @@
 - [GetFrameID](Animations-Sprites/GetFrameID/README.md)
 - [GetStringWidth](Animations-Sprites/GetStringWidth/README.md)
 - [ProcessAnimation](Animations-Sprites/ProcessAnimation/README.md)
+
+## Debugging
+- [ClearViewableVariables](Editor/ClearViewableVariables/README.md)
+- [AddViewableVariable](Editor/AddViewableVariable/README.md)
+
+## Editor
+- [RSDK_ACTIVE_VAR](Editor/RSDK_ACTIVE_VAR/README.md)
+- [RSDK_ENUM_VAR](Editor/RSDK_ENUM_VAR/README.md)
+- [showGizmos](Editor/showGizmos/README.md)
+- [RSDK_DRAWING_OVERLAY](Editor/RSDK_DRAWING_OVERLAY/README.md)
