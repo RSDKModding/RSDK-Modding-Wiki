@@ -9,20 +9,20 @@ Adds a Sprite with the specified values.
 The horizontal offset of the sprite, negative values will move it to the left, while positive values will move it to the right
 - `yPivot`
 The vertical offset of the sprite, negative values will move it upwards, and positive values downwards
-- `width`
+- `Width`
 The width of the sprite
-- `height`
+- `Height`
 The height of the sprite
-- `sheetXPos`
+- `SheetXPos`
 The position of the upper-left border of the sprite, on the X axis
-- `sheetYPos`
+- `SheetYPos`
 The position of the upper-left border of the sprite, on the Y axis
 
 ## Return Value
 None.
 
 ## Syntax
-```SpriteFrame(int xPivot, int yPivot, int width, int height, int sheetXPos, int sheetYPos)```
+```SpriteFrame(int xPivot, int yPivot, int Width, int Height, int SheetXPos, int SheetYPos)```
 
 ## Examples
 - ```SpriteFrame(-16, -16, 32, 32, 75, 129)```

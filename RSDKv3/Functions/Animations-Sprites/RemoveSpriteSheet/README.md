@@ -5,14 +5,14 @@ Removes a Sprite Sheet if it's loaded in the object.
 
 ## Parameters
 
-- `path`
+- `Path`
 The file path to the sprite sheet to remove, relative to `Data/Sprites/`
 
 ## Return Value
 None.
 
 ## Syntax
-```RemoveSpriteSheet(string path)```
+```RemoveSpriteSheet("string Path")```
 
 ## Examples
 - ```RemoveSpriteSheet("Test/Objects.gif")```

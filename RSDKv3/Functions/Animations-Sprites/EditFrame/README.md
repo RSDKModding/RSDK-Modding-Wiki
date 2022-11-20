@@ -1,30 +1,30 @@
 # EditFrame
 
 ## Description
-Edits pivots, width, height and sheet coordinates of a spriteFrame with matching `id`.
+Edits pivots, width, height and sheet coordinates of a spriteFrame with matching `ID`.
 
 ## Parameters
 
-- `id`
+- `ID`
 The ID of the spriteFrame to edit
 - `xPivot`
 The horizontal offset of the sprite, negative values will move it to the left, while positive values will move it to the right
 - `yPivot`
 The vertical offset of the sprite, negative values will move it upwards, and positive values downwards
-- `width`
+- `Width`
 The width of the sprite
-- `height`
+- `Height`
 The height of the sprite
-- `sheetXPos`
+- `SheetXPos`
 The position of the upper-left border of the sprite, on the X axis
-- `sheetYPos`
+- `SheetYPos`
 The position of the upper-left border of the sprite, on the Y axis
 
 ## Return Value
 None.
 
 ## Syntax
-```EditFrame(int id, int xPivot, int yPivot, int width, int height, int sheetXPos, int sheetYPos)```
+```EditFrame(int ID, int xPivot, int yPivot, int Width, int Height, int SheetXPos, int SheetYPos)```
 
 ## Examples
 - ```EditFrame(2, -8, -8, 8, 8, 1, 35)```

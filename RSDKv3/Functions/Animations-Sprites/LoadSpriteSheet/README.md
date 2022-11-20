@@ -1,18 +1,18 @@
 # LoadSpriteSheet
 
 ## Description
-Loads a Sprite Sheet and assigns the id to `Object.SpriteSheet`. The spritesheet must be in GIF format.
+Loads a GIF formatted Sprite Sheet and assigns the id to `Object.SpriteSheet`.
 
 ## Parameters
 
-- `path`
+- `Path`
 The file path to load the sprite sheet from, relative to `Data/Sprites/`
 
 ## Return Value
 None.
 
 ## Syntax 
-```LoadSpriteSheet(string path)```
+```LoadSpriteSheet("string Path")```
 
 ## Examples
 - ```LoadSpriteSheet("Test/Objects.gif")```
