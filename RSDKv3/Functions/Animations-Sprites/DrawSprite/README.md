@@ -1,17 +1,17 @@
 # DrawSprite
 
 ## Description
-Draws `frame` at the object's X and Y position
+Draws `Frame` at the object's X and Y position
 
 ## Parameters
-- `frame`
+- `Frame`
 The ID of the sprite to draw
 
 ## Return Value
 None.
 
 ## Syntax
-```DrawSprite(int frame)```
+```DrawSprite(int Frame)```
 
 ## Examples
 - ```DrawSprite(0)```
