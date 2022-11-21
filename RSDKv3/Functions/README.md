@@ -1,5 +1,15 @@
 # RSDK v3 Functions
 
+## 3D
+- [Draw3DScene](3D/Draw3DScene/README.md)
+- [MatrixMultiply](3D/MatrixMultiply/README.md)
+- [MatrixRotate](3D/MatrixRotate/README.md)
+- [MatrixRotateXYZ](3D/MatrixRotateXYZ/README.md)
+- [MatrixTranslateXYZ](3D/MatrixTranslateXYZ/README.md)
+- [ScaleMatrixXYZ](3D/ScaleMatrixXYZ/README.md)
+- [SetIdentityMatrix](3D/SetIdentityMatrix/README.md)
+- [TransformVertices](3D/TransformVertices/README.md)
+
 ## Audio
 - [SetMusicTrack](Audio/SetMusicTrack/README.md)
 - [PlayMusic](Audio/PlayMusic/README.md)
@@ -12,8 +22,83 @@
 - [StopStageSfx](Audio/StopStageSfx/README.md)
 - [SetSfxAttributes](Audio/SetSfxAttributes/README.md)
 
+## Drawing
+- [AddDrawListEntityRef](Drawing/AddDrawListEntityRef/README.md)
+- [ClearDrawList](Drawing/ClearDrawList/README.md)
+- [ClearScreen](Drawing/ClearScreen/README.md)
+- [CopyPalette](Drawing/CopyPalette/README.md)
+- [DrawRect](Drawing/DrawRect/README.md)
+- [DrawTintRect](Drawing/DrawTintRect/README.md)
+- [GetDrawListEntityRef](Drawing/GetDrawListEntityRef/README.md)
+- [LoadPalette](Drawing/LoadPalette/README.md)
+- [RotatePalette](Drawing/RotatePalette/README.md)
+- [SetActivePalette](Drawing/SetActivePalette/README.md)
+- [SetDrawListEntityRef](Drawing/SetDrawListEntityRef/README.md)
+- [SetPaletteFade](Drawing/SetPaletteFade/README.md)
+- [SetScreenFade](Drawing/SetScreenFade/README.md)
+
+## Math
+- [ATan2](Math/ATan2/README.md)
+- [Cos](Math/Cos/README.md)
+- [Cos256](Math/Cos256/README.md)
+- [GetBit](Math/GetBit/README.md)
+- [Interpolate](Math/Interpolate/README.md)
+- [InterpolateXY](Math/InterpolateXY/README.md)
+- [Not](Math/Not/README.md)
+- [Rand](Math/Rand/README.md)
+- [SetBit](Math/SetBit/README.md)
+- [Sin](Math/Sin/README.md)
+- [Sin256](Math/Sin256/README.md)
+
+## Miscellaneous
+- [AddMenuEntry](Misc/AddMenuEntry/README.md)
+- [CheckTouchRect](Misc/CheckTouchRect/README.md)
+- [DrawMenu](Misc/DrawMenu/README.md)
+- [DrawText](Misc/DrawText/README.md)
+- [EditMenuEntry](Misc/EditMenuEntry/README.md)
+- [EngineCallback](Misc/EngineCallback/README.md)
+- [GetTextInfo](Misc/GetTextInfo/README.md)
+- [GetVersionNumber](Misc/GetVersionNumber/README.md)
+- [LoadOnlineMenu](Misc/LoadOnlineMenu/README.md)
+- [LoadTextFile](Misc/LoadTextFile/README.md)
+- [LoadTextFont](Misc/LoadTextFont/README.md)
+- [LoadVideo](Misc/LoadVideo/README.md)
+- [NextVideoFrame](Misc/NextVideoFrame/README.md)
+- [ReadSaveRAM](Misc/ReadSaveRAM/README.md)
+- [SetAchievement](Misc/SetAchievement/README.md)
+- [SetLeaderboards](Misc/SetLeaderboards/README.md)
+- [SetupMenu](Misc/SetupMenu/README.md)
+- [WriteSaveRAM](Misc/WriteSaveRAM/README.md)
+
+## Object
+- [CreateTempObject](Object/CreateTempObject/README.md)
+- [ObjectTileCollision](Object/ObjectTileCollision/README.md)
+- [ObjectTileGrip](Object/ObjectTileGrip/README.md)
+- [PlayerObjectCollision](Object/PlayerObjectCollision/README.md)
+- [PlayerTileCollision](Object/PlayerTileCollision/README.md)
+- [ProcessPlayerControl](Object/ProcessPlayerControl/README.md)
+- [ResetObjectEntity](Object/ResetObjectEntity/README.md)
+
+   
 ## Sprites & Animations
+- [DrawObjectAnimation](Animations-Sprites/DrawObjectAnimation/README.md)
+- [DrawPlayerAnimation](Animations-Sprites/DrawPlayerAnimation/README.md)
+- [DrawSprite](Animations-Sprites/DrawSprite/README.md)
+- [DrawSpriteFX](Animations-Sprites/DrawSpriteFX/README.md)
+- [DrawSpriteScreenFX](Animations-Sprites/DrawSpriteScreenFX/README.md)
+- [DrawSpriteScreenXY](Animations-Sprites/DrawSpriteScreenXY/README.md)
+- [DrawSpriteXY](Animations-Sprites/DrawSpriteXY/README.md)
+- [EditFrame](Animations-Sprites/EditFrame/README.md)
+- [LoadAnimation](Animations-Sprites/LoadAnimation/README.md)
 - [LoadSpriteSheet](Animations-Sprites/LoadSpriteSheet/README.md)
 - [RemoveSpriteSheet](Animations-Sprites/RemoveSpriteSheet/README.md)
 - [SpriteFrame](Animations-Sprites/SpriteFrame/README.md)
-- [EditFrame](Animations-Sprites/EditFrame/README.md)
+
+## Stages
+- [Copy16x16Tile](Stage/Copy16x16Tile/README.md)
+- [Get16x16TileInfo](Stage/Get16x16TileInfo/README.md)
+- [GetTileLayerEntry](Stage/GetTileLayerEntry/README.md)
+- [LoadStage](Stage/LoadStage/README.md)
+- [Set16x16TileInfo](Stage/Set16x16TileInfo/README.md)
+- [SetLayerDeformation](Stage/SetLayerDeformation/README.md)
+- [SetTileLayerEntry](Stage/SetTileLayerEntry/README.md)
