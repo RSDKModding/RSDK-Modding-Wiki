@@ -15,7 +15,7 @@ Updated boolean value
 None.
 
 ## Syntax
-```SetBit(var Value, int BitPos, bool bit)```
+```SetBit(var Value, int BitPos, bool Bit)```
 
 ## Examples
 - ```SetBit(Object.Value7, 3, 1)```

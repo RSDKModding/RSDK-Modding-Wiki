@@ -4,10 +4,10 @@
 Adds `ObjectPos` to the drawList layer
 
 ## Parameters
-- `layer`
-layer of the drawList to add the reference, indices 0-7 are valid, additionally 8 is available in V5U.
+- `Layer`
+Layer of the drawList to add the reference, indices 0-7 are valid, additionally 8 is available in V5U.
 - `ObjectPos`
-the position of the object to add
+The position of the object to add
 
 ## Return Value
 None.
@@ -16,4 +16,4 @@ None.
 ```AddDrawListEntityRef(int Layer, int ObjectPos)```
 
 ## Examples
-- ```AddDrawListEntityRef(4, object.entityNo)```
+- ```AddDrawListEntityRef(4, Object.EntityNo)```

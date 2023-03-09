@@ -18,7 +18,7 @@ Boolean that determines if the text will be highlighted always
 None.
 
 ## Syntax
-```EditMenuEntry(int menu, "string Text", bool highlightEntry)```
+```EditMenuEntry(int Menu, "string Text", bool HighlightEntry)```
 
 ## Examples
 - ```EditMenuEntry(MENU_1, "THIS IS AN EXAMPLE", 0, true)```

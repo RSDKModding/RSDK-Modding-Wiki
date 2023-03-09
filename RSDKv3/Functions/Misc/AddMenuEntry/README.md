@@ -16,7 +16,7 @@ Boolean that determines if the text will be highlighted always
 None.
 
 ## Syntax
-```AddMenuEntry(int menu, "string Text", bool highlightEntry)```
+```AddMenuEntry(int Menu, "string Text", bool HighlightEntry)```
 
 ## Examples
 - ```AddMenuEntry(MENU_1, "WELCOME TO THE SECRET SPECIAL STAGE", true)```

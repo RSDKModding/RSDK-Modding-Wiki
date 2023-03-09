@@ -1,5 +1,16 @@
 # RSDK v4 Functions
 
+## 3D
+- [Draw3DScene](3D/Draw3DScene/README.md)
+- [InverseMatrix](3D/InverseMatrix/README.md)
+- [MatrixMultiply](3D/MatrixMultiply/README.md)
+- [MatrixRotate](3D/MatrixRotate/README.md)
+- [MatrixRotateXYZ](3D/MatrixRotateXYZ/README.md)
+- [MatrixTranslateXYZ](3D/MatrixTranslateXYZ/README.md)
+- [ScaleMatrixXYZ](3D/ScaleMatrixXYZ/README.md)
+- [SetIdentityMatrix](3D/SetIdentityMatrix/README.md)
+- [TransformVertices](3D/TransformVertices/README.md)
+
 ## Audio
 - [SetMusicTrack](Audio/SetMusicTrack/README.md)
 - [PlayMusic](Audio/PlayMusic/README.md)
@@ -10,10 +21,74 @@
 - [PlaySfx](Audio/PlaySfx/README.md)
 - [StopSfx](Audio/StopSfx/README.md)
 - [SetSfxAttributes](Audio/SetSfxAttributes/README.md)
+- 
+## Deprecated
+- [DrawText](Deprecated/DrawText/README.md)
+- [LoadTextFont](Deprecated/LoadTextFont/README.md)
 
 ## Sprites & Animations
-- [LoadAnimation](Animations-Sprites/LoadAnimation/README.md)
-- [ProcessAnimation](Animations-Sprites/ProcessAnimation/README.md)
 - [DrawObjectAnimation](Animations-Sprites/DrawObjectAnimation/README.md)
+- [DrawSprite](Animations-Sprites/DrawSprite/README.md)
+- [DrawSpriteFX](Animations-Sprites/DrawSpriteFX/README.md)
+- [DrawSpriteScreenFX](Animations-Sprites/DrawSpriteScreenFX/README.md)
+- [DrawSpriteScreenXY](Animations-Sprites/DrawSpriteScreenXY/README.md)
+- [DrawSpriteXY](Animations-Sprites/DrawSpriteXY/README.md)
+- [EditFrame](Animations-Sprites/EditFrame/README.md)
+- [LoadAnimation](Animations-Sprites/LoadAnimation/README.md)
 - [LoadSpriteSheet](Animations-Sprites/LoadSpriteSheet/README.md)
+- [ProcessAnimation](Animations-Sprites/ProcessAnimation/README.md)
 - [RemoveSpriteSheet](Animations-Sprites/RemoveSpriteSheet/README.md)
+- [SpriteFrame](Animations-Sprites/SpriteFrame/README.md)
+
+## Math
+- [Abs](Math/Abs/README.md)
+- [ATan2](Math/ATan2/README.md)
+- [Cos](Math/Cos/README.md)
+- [Cos256](Math/Cos256/README.md)
+- [GetBit](Math/GetBit/README.md)
+- [GetTableValue](Math/GetTableValue/README.md)
+- [Interpolate](Math/Interpolate/README.md)
+- [InterpolateXY](Math/InterpolateXY/README.md)
+- [Not](Math/Not/README.md)
+- [Rand](Math/Rand/README.md)
+- [SetBit](Math/SetBit/README.md)
+- [SetTableValue](Math/SetTableValue/README.md)
+- [Sin](Math/Sin/README.md)
+- [Sin256](Math/Sin256/README.md)
+
+## Miscellaneous
+- [AddMenuEntry](Misc/AddMenuEntry/README.md)
+- [CallNativeFunction](Misc/CallNativeFunction/README.md)
+- [CheckTouchRect](Misc/CheckTouchRect/README.md)
+- [DrawMenu](Misc/DrawMenu/README.md)
+- [EditMenuEntry](Misc/EditMenuEntry/README.md)
+- [GetTextInfo](Misc/GetTextInfo/README.md)
+- [GetVersionNumber](Misc/GetVersionNumber/README.md)
+- [LoadTextFile](Misc/LoadTextFile/README.md)
+- [Print](Misc/Print/README.md)
+- [ReadSaveRAM](Misc/ReadSaveRAM/README.md)
+- [SetupMenu](Misc/SetupMenu/README.md)
+- [WriteSaveRAM](Misc/WriteSaveRAM/README.md)
+
+## Object
+- [BoxCollisionTest](Object/BoxCollisionTest/README.md)
+- [CopyObject](Object/CopyObject/README.md)
+- [CreateTempObject](Object/CreateTempObject/README.md)
+- [GetObjectValue](Object/GetObjectValue/README.md)
+- [ObjectTileCollision](Object/ObjectTileCollision/README.md)
+- [ObjectTileGrip](Object/ObjectTileGrip/README.md)
+- [ProcessObjectControl](Object/ProcessObjectControl/README.md)
+- [ProcessObjectMovement](Object/ProcessObjectMovement/README.md)
+- [ResetObjectEntity](Object/ResetObjectEntity/README.md)
+- [SetObjectRange](Object/SetObjectRange/README.md)
+- [SetObjectValue](Object/SetObjectValue/README.md)
+
+## Stages
+- [CheckCurrentStageFolder](Stage/CheckCurrentStageFolder/README.md)
+- [Copy16x16Tile](Stage/Copy16x16Tile/README.md)
+- [Get16x16TileInfo](Stage/Get16x16TileInfo/README.md)
+- [GetTileLayerEntry](Stage/GetTileLayerEntry/README.md)
+- [LoadStage](Stage/LoadStage/README.md)
+- [Set16x16TileInfo](Stage/Set16x16TileInfo/README.md)
+- [SetLayerDeformation](Stage/SetLayerDeformation/README.md)
+- [SetTileLayerEntry](Stage/SetTileLayerEntry/README.md)

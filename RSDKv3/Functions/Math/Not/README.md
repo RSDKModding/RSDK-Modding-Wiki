@@ -1,7 +1,7 @@
 # Not
 
 ## Description
-Performs a NOT operation on `Value` and updates it (`Value` = `-Value`)
+Performs a NOT operation on `Value` and updates it (`Value` = `~Value`)
 
 ## Parameters
 - `Value`

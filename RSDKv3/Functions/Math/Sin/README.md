@@ -1,7 +1,7 @@
 # Sin
 
 ## Description
-Gets the value from lookup table `sin512` based on `Angle` and sets it in `Store`
+Gets the value from lookup table `Sin512` based on `Angle` and sets it in `Store`
 
 ## Parameters
 - `Store`
@@ -13,7 +13,7 @@ The value of angle
 None.
 
 ## Syntax
-```Sin(var store, int angle)```
+```Sin(var Store, int Angle)```
 
 ## Examples
 - ```Sin(Object.Value3, TempValue0)```

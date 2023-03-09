@@ -13,7 +13,7 @@ The path to the text file
 None.
 
 ## Syntax
-```LoadTextFile(int menu, "string FilePath")```
+```LoadTextFile(int Menu, "string FilePath")```
 
 ## Examples
 - ```LoadTextFile(MENU_1, "Data/Game/Credits_Mobile.txt")```

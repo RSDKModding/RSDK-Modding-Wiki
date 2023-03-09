@@ -8,16 +8,16 @@ Draws a tinted rectangle to a specified X and Y position in the screen.
 The position of the rectangle on the horizontal axis in screen-space
 - `iYPos`
 The position of the rectangle on the vertical axis in screen-space
-- `width`
+- `Width`
 The width of the rectangle
-- `height`
+- `Height`
 The height of the rectangle
 
 ## Return Value
 None.
 
 ## Syntax
-```DrawTintRect(int iXPos, int iYPos, int width, int height)```
+```DrawTintRect(int iXPos, int iYPos, int Width, int Height)```
 
 ## Examples
 - ```DrawTintRect(30, 220, 60, 20)```

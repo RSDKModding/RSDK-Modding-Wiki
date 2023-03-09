@@ -1,7 +1,7 @@
 # MatrixScaleXYZ
 
 ## Description
-Scales `Matrix` to `ScaleX`, `ScaleY` and `Scale>`
+Scales `Matrix` to `ScaleX`, `ScaleY` and `ScaleZ`
 
 ## Parameters
 - `Matrix`
