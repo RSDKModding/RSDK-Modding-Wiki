@@ -1,0 +1,67 @@
+site_name: RSDK Modding Wiki
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.path
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+
+nav:
+  - Home: README.md
+  - Retro Engine:
+    - Intro:
+      - Intro/README.md
+    - RSDKv3:
+      - RSDKv3/README.md
+      - Documentation:
+        - Overview: RSDKv3/Overview/README.md
+        - Events: RSDKv3/Events/README.md
+        - Functions: RSDKv3/Functions/README.md
+      # - Tools:
+      # - Tutorials:
+      # - Other resources:
+    - RSDKv4:
+      - RSDKv4/README.md
+      - Documentation:
+        - Overview: RSDKv4/Overview/README.md
+        - Events: RSDKv4/Events/README.md
+        - Functions: RSDKv4/Functions/README.md
+      # - Tools:
+      # - Tutorials:
+      # - Other resources:
+    - RSDKv5:
+      - RSDKv5/README.md
+      - Documentation:
+        - Overview: RSDKv5/Overview/README.md
+        - Events: RSDKv5/Events/README.md
+        - Functions: RSDKv5/Functions/README.md
+      # - Tools:
+      # - Tutorials:
+      # - Other resources:
+  - Tools:
+    - RSDK Anim Editor:
+      - Tools/RSDK-Anim-Editor/README.md
+
