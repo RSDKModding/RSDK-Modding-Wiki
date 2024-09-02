@@ -1,33 +1,35 @@
-# Update
+# Create
 
 ## Description
-Called once every frame per entity if Entity::[active](TODO) allows for it.
+Called on Engine initialization, or when the game code manually creates an entity (usually on [StageLoad](../StageLoad/README.md) or when a temporary entity is spawned).
 
 ## Parameters
-None.
+
+- `data`
+Optional pointer to a user defined data (object type, value...).
 
 ## Syntax
 === "C"
 
 	```c
-	void Update();
+	void Create(void *data);
 	```
 
 === "C++"
 
 	```cpp
-	void Update();
+	void Create(void *data);
 	```
 
 ## Examples
 === "C"
 
 	```c
-	void MyObject_Update() { }
+	void MyObject_Create(void *data) { }
 	```
 
 === "C++"
 
 	```cpp
-	void MyObject::Update() { }
+	void MyObject::Create(void *data) { }
 	```
