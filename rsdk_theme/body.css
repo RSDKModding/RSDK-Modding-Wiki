@@ -1,0 +1,28 @@
+.md-content {
+    border-radius: 1em;
+    background-color: color-mix(in srgb, var(--content-bg-color), transparent 30%);
+}
+
+/* Disable drop shadow for nav title */
+.md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link {
+    background: none;
+    box-shadow: none;
+}
+
+/* Disable drop shadow for secondary nav title (table of contents) */
+.md-nav--secondary .md-nav__title {
+    background: none;
+    box-shadow: none;
+}
+
+.md-typeset h1 {
+    font-weight: bold;
+}
+
+.md-typeset h2 {
+    font-weight: bold;
+}
+
+.tabbed-labels {
+    background-color: var(--content-bg-color);
+}

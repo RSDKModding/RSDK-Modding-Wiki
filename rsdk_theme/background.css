@@ -1,0 +1,99 @@
+.background-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.background-square {
+    position: absolute;
+    background: transparent;
+}
+
+.background-circle {
+    position: absolute;
+    background: transparent;
+}
+
+.background-square::before,
+.background-square::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1.5vmin dashed var(--square-border-color);
+}
+
+.background-circle::before,
+.background-circle::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5vmin dashed var(--circle-border-color);
+}
+
+.square-1 {
+    width: 30vmin;
+    height: 30vmin;
+    bottom: -2%;
+    right: -2%;
+    rotate: 20deg;
+    animation: rotate-circle-counterclockwise 400s linear infinite;
+}
+
+.circle-1 {
+    width: 54vmin;
+    height: 54vmin;
+    top: -5%;
+    left: -5%;
+    animation: rotate-circle-clockwise 400s linear infinite;
+}
+
+.circle-2 {
+    width: 70vmin;
+    height: 70vmin;
+    bottom: -20%;
+    left: 1%;
+    rotate: 180deg;
+    animation: rotate-circle-counterclockwise 400s linear infinite;
+}
+
+.circle-2::before, .circle-2::after {
+    border-style: solid dashed solid dashed;
+}
+
+.circle-3 {
+    width: 50vmin;
+    height: 50vmin;
+    top: 13%;
+    right: 15%;
+    animation: rotate-circle-counterclockwise 400s linear infinite;
+}
+
+.circle-3::before, .circle-3::after {
+    border-style: solid dashed dashed dashed;
+}
+
+.circle-4 {
+    width: 44vmin;
+    height: 44vmin;
+    top: 30%;
+    right: 3%;
+    animation: rotate-circle-clockwise 400s linear infinite;
+}
+
+@keyframes rotate-circle-clockwise {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-circle-counterclockwise {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
