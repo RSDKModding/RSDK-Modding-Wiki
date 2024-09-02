@@ -15,7 +15,11 @@ Percentage of interpolation, can go from 0 to 256
 None.
 
 ## Syntax
-```InterpolateXY(var storeX, var storeY, int aX, int aY, int bX, int bY, int percent)```
+```
+InterpolateXY(var storeX, var storeY, int aX, int aY, int bX, int bY, int percent)
+```
 
 ## Examples
-- ```InterpolateXY(object.value2, object.value3, 26, 29, 33, 37, 220)```
+```
+InterpolateXY(object.value2, object.value3, 26, 29, 33, 37, 220)
+```

@@ -18,7 +18,11 @@ Depending of `CollisionType` used:
 - C_PLATFORM: `CheckResult` will only be `true` if the top of the object was collided
 
 ## Syntax
-```PlayerObjectCollision(int CollisionType, int LeftHitbox, int TopHitbox, int RightHitbox, int BottomHitbox)```
+```
+PlayerObjectCollision(int CollisionType, int LeftHitbox, int TopHitbox, int RightHitbox, int BottomHitbox)
+```
 
 ## Examples
-- ```PlayerObjectCollision(C_PLATFORM, -24, -8, 24, 8)```
+```
+PlayerObjectCollision(C_PLATFORM, -24, -8, 24, 8)
+```

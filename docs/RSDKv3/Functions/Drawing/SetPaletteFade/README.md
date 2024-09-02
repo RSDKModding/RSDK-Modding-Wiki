@@ -23,7 +23,11 @@ The ending index of the palette bank to blend
 None.
 
 ## Syntax
-```SetPaletteFade(int DestPalBank, int R, int G, int B, int BlendAmount, int StartIndex, int EndIndex)```
+```
+SetPaletteFade(int DestPalBank, int R, int G, int B, int BlendAmount, int StartIndex, int EndIndex)
+```
 
 ## Examples
-- ```SetPaletteFade(1, 128, 128, 128, 255, 64, 144)```
+```
+SetPaletteFade(1, 128, 128, 128, 255, 64, 144)
+```

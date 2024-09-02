@@ -11,7 +11,11 @@ The matrix to invert, valid matrices are MAT_WORLD, MAT_VIEW and MAT_TEMP
 None.
 
 ## Syntax
-```MatrixInverse(int matrix)```
+```
+MatrixInverse(int matrix)
+```
 
 ## Examples
-```MatrixInverse(MAT_WORLD)```
+```
+MatrixInverse(MAT_WORLD)
+```

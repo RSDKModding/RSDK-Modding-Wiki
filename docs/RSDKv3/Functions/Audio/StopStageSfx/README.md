@@ -11,8 +11,12 @@ The slot of the sound effect in the StageConfig
 ## Return Value
 None.
 
-## Syntax 
-```StopStageSfx(int sfx)```
+## Syntax
+```
+StopStageSfx(int sfx)
+```
 
 ## Examples
-- ```StopStageSfx(0)```
+```
+StopStageSfx(0)
+```

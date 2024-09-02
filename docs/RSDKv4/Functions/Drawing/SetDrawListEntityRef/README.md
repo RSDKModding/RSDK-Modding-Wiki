@@ -15,7 +15,11 @@ The new value for `objectPos`
 None.
 
 ## Syntax
-```SetDrawListEntityRef(int newValue, int layer, int objectPos)```
+```
+SetDrawListEntityRef(int newValue, int layer, int objectPos)
+```
 
 ## Examples
-- ```SetDrawListEntityRef(object.value0, 4, object.entityPos)```
+```
+SetDrawListEntityRef(object.value0, 4, object.entityPos)
+```

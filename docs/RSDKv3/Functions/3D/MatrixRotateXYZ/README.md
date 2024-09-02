@@ -13,7 +13,11 @@ Angle of the rotation, values are 512-based
 None.
 
 ## Syntax
-```MatrixRotateXYZ(mat Matrix, int AngleX, int AngleY, int AngleZ)```
+```
+MatrixRotateXYZ(mat Matrix, int AngleX, int AngleY, int AngleZ)
+```
 
 ## Examples
-- ```MatrixRotateXYZ(MAT_WORLD, 43, 85, 29)```
+```
+MatrixRotateXYZ(MAT_WORLD, 43, 85, 29)
+```

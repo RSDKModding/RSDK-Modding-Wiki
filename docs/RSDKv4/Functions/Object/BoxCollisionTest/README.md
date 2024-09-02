@@ -24,7 +24,11 @@ Depending of `collisionType` used:
 - C_PLATFORM: `checkResult` will only be `true` if the top of the object was collided
 
 ## Syntax
-```BoxCollisionTest(int collisionType, int thisObject, int thisLeft, int thisTop, int thisRight, int thisBottom, int otherObject, int otherLeft, int otherTop, int otherRight, int otherBottom)```
+```
+BoxCollisionTest(int collisionType, int thisObject, int thisLeft, int thisTop, int thisRight, int thisBottom, int otherObject, int otherLeft, int otherTop, int otherRight, int otherBottom)
+```
 
 ## Examples
-- ```BoxCollisionTest(C_TOUCH, object.entityPos, -24, -8, 24, 8, object[0].entityPos, C_BOX, C_BOX, C_BOX, C_BOX)```
+```
+BoxCollisionTest(C_TOUCH, object.entityPos, -24, -8, 24, 8, object[0].entityPos, C_BOX, C_BOX, C_BOX, C_BOX)
+```

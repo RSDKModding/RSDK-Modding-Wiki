@@ -17,7 +17,11 @@ The direction of the rotation
 None.
 
 ## Syntax
-```RotatePalette(int palBank, int startIndex, int endIndex, int rotDir)```
+```
+RotatePalette(int palBank, int startIndex, int endIndex, int rotDir)
+```
 
 ## Examples
-- ```RotatePalette(2, 16, 24, 1)```
+```
+RotatePalette(2, 16, 24, 1)
+```

@@ -26,13 +26,21 @@ The index of the frame to set to.
 None.
 
 ## Syntax (C)
-```RSDK.SetSpriteAnimation(uint16 aniFrames, uint16 listID, Animator *animator, bool32 forceApply, int16 frameID);```
+```c
+RSDK.SetSpriteAnimation(uint16 aniFrames, uint16 listID, Animator *animator, bool32 forceApply, int16 frameID);
+```
 
 ## Syntax (C++)
-```animator.SetAnimation(SpriteAnimation aniFrames, uint16 listID, bool32 forceApply, int16 frameID)```
+```cpp
+animator.SetAnimation(SpriteAnimation aniFrames, uint16 listID, bool32 forceApply, int16 frameID);
+```
 
 ## Examples (C)
-- ```animator.SetAnimation(MyObject->aniFrames, 0, true, 0);```
+```c
+animator.SetAnimation(MyObject->aniFrames, 0, true, 0);
+```
 
 ## Examples (C++)
-- ```this->animator.SetAnimation(sVars->aniFrames, 0, true, 0);```
+```cpp
+this->animator.SetAnimation(sVars->aniFrames, 0, true, 0);
+```

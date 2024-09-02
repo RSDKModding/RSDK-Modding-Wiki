@@ -15,7 +15,11 @@ the final screen-line for the new active palette
 None.
 
 ## Syntax
-```SetActivePalette(int PalBank, int StartLine, int EndLine)```
+```
+SetActivePalette(int PalBank, int StartLine, int EndLine)
+```
 
 ## Examples
-- ```SetActivePalette(0, 76, Screen.YSize)```
+```
+SetActivePalette(0, 76, Screen.YSize)
+```

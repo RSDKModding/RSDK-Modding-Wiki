@@ -11,7 +11,11 @@ Variable from where to read the value
 Updates `value` with the result.
 
 ## Syntax
-```Abs(var value)```
+```
+Abs(var value)
+```
 
 ## Examples
-```Abs(object.value3)```
+```
+Abs(object.value3)
+```

@@ -24,10 +24,14 @@ The position of the upper-left border of the sprite, on the Y axis
 None.
 
 ## Syntax
-```EditFrame(int ID, int xPivot, int yPivot, int Width, int Height, int SheetXPos, int SheetYPos)```
+```
+EditFrame(int ID, int xPivot, int yPivot, int Width, int Height, int SheetXPos, int SheetYPos)
+```
 
 ## Examples
-- ```EditFrame(2, -8, -8, 8, 8, 1, 35)```
+```
+EditFrame(2, -8, -8, 8, 8, 1, 35)
+```
 
 ## Notes
 This function is not available in Blit releases of Sonic CD

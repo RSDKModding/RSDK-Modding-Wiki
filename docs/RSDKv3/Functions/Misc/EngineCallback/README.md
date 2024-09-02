@@ -11,10 +11,14 @@ The index value of the callback
 Normally not, but some Origins functions will return a value to `game.callbackResult`
 
 ## Syntax
-```EngineCallback(int CallbackFunctID)```
+```
+EngineCallback(int CallbackFunctID)
+```
 
 ## Examples
-- ```EngineCallback(4)```
+```
+EngineCallback(4)
+```
 
 ## Notes
 Origins functions may use `game.callbackParam` from 0 to 3 to replicate v4's `CallNativeFunction2/4` function

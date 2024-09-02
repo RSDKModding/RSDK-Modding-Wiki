@@ -12,13 +12,21 @@ The animator used to handle animation of the frames.
 None
 
 ## Syntax (C)
-```RSDK.ProcessAnimation(Animator *animator)```
+```c
+RSDK.ProcessAnimation(Animator *animator);
+```
 
 ## Syntax (C++)
-```animator.Process()```
+```cpp
+animator.Process();
+```
 
 ## Examples (C)
-- ```RSDK.ProcessAnimation(&animator);```
+```c
+RSDK.ProcessAnimation(&animator);
+```
 
 ## Examples (C++)
-- ```animator.Process();```
+```cpp
+animator.Process();
+```

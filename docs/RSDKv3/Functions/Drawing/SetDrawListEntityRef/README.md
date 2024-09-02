@@ -15,7 +15,11 @@ The new value for `ObjectPos`
 None.
 
 ## Syntax
-```SetDrawListEntityRef(int NewValue, int Layer, int ObjectPos)```
+```
+SetDrawListEntityRef(int NewValue, int Layer, int ObjectPos)
+```
 
 ## Examples
-- ```SetDrawListEntityRef(Object.Value0, 4, Object.EntityNo)```
+```
+SetDrawListEntityRef(Object.Value0, 4, Object.EntityNo)
+```

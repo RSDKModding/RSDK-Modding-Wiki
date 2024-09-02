@@ -12,7 +12,11 @@ New internal width of the object
 None.
 
 ## Syntax
-```SetObjectRange(int width)```
+```
+SetObjectRange(int width)
+```
 
 ## Examples
-```SetObjectRange(424)```
+```
+SetObjectRange(424)
+```

@@ -10,11 +10,15 @@ The file path to load the sprite sheet from, relative to `Data/Sprites/`
 ## Return Value
 None.
 
-## Syntax 
-```LoadSpriteSheet("string Path")```
+## Syntax
+```
+LoadSpriteSheet("string Path")
+```
 
 ## Examples
-- ```LoadSpriteSheet("Test/Objects.gif")```
+```
+LoadSpriteSheet("Test/Objects.gif")
+```
 
 ## Note
 Lite versions of CD could load PVR format.

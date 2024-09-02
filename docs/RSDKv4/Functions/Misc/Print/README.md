@@ -15,9 +15,17 @@ Jump line if true, otherwise keep on the same line
 None.
 
 ## Syntax
-```Print(string/int message, bool isInt, bool useEndLine)```
+```
+Print(string/int message, bool isInt, bool useEndLine)
+```
 
 ## Examples
-- ```Print("This is a test message, ", false, false)```
-- ```Print("The next print will be an int: ", false, false)```
-- ```Print(object.value7, true, true)```
+```
+Print("This is a test message, ", false, false)
+```
+```
+Print("The next print will be an int: ", false, false)
+```
+```
+Print(object.value7, true, true)
+```

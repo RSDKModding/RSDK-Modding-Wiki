@@ -15,7 +15,11 @@ the variable where `objectPos` will be stored
 None.
 
 ## Syntax
-```GetDrawListEntityRef(var Store, int Layer, int objectPos)```
+```
+GetDrawListEntityRef(var Store, int Layer, int objectPos)
+```
 
 ## Examples
-- ```GetDrawListEntityRef(object.value0, 4, object.entityPos)```
+```
+GetDrawListEntityRef(object.value0, 4, object.entityPos)
+```

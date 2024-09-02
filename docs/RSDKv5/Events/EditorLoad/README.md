@@ -7,13 +7,21 @@ Similar to [StageLoad](../StageLoad/README.md), though only called when the obje
 None.
 
 ## Syntax (C)
-```void EditorLoad()```
+```c
+void EditorLoad();
+```
 
 ## Syntax (C++)
-```static void EditorLoad()```
+```cpp
+static void EditorLoad();
+```
 
 ## Examples (C)
-- ```void MyObject_EditorLoad() { }```
+```c
+void MyObject_EditorLoad() { }
+```
 
 ## Examples (C++)
-- ```void MyObject::EditorLoad() { }```
+```cpp
+void MyObject::EditorLoad() { }
+```

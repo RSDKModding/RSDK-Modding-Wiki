@@ -26,7 +26,11 @@ The ID for the type of info read from the tile, valid values are:
 None.
 
 ## Syntax
-```Get16x16TileInfo(var ChunkStore, int TileX, int TileY, int InfoType)```
+```
+Get16x16TileInfo(var ChunkStore, int TileX, int TileY, int InfoType)
+```
 
 ## Examples
-- ```Get16x16TileInfo(Object.Value2, 25, 24, 8)```
+```
+Get16x16TileInfo(Object.Value2, 25, 24, 8)
+```

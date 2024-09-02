@@ -16,7 +16,11 @@ Position of the menu on the vertical axis
 None.
 
 ## Syntax
-```DrawMenu(int menu, int xPos, int yPos)```
+```
+DrawMenu(int menu, int xPos, int yPos)
+```
 
 ## Examples
-- ```DrawMenu(MENU_1, screen.xcenter, screen.ycenter)```
+```
+DrawMenu(MENU_1, screen.xcenter, screen.ycenter)
+```

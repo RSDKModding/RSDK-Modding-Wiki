@@ -13,7 +13,11 @@ The value of angle
 None.
 
 ## Syntax
-```Sin(var store, int angle)```
+```
+Sin(var store, int angle)
+```
 
 ## Examples
-- ```Sin(object.value3, temp0)```
+```
+Sin(object.value3, temp0)
+```

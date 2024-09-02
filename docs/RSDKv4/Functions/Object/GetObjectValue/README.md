@@ -15,7 +15,11 @@ The ID of the object from where to get `object.value`
 None.
 
 ## Syntax
-```GetObjectValue(var result, int valueID, int entitySlot)```
+```
+GetObjectValue(var result, int valueID, int entitySlot)
+```
 
 ## Examples
-- ```GetObjectValue(arrayPos0, 34, 2)```
+```
+GetObjectValue(arrayPos0, 34, 2)
+```

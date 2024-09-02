@@ -15,7 +15,11 @@ The end of the range of tranforming vertices
 None.
 
 ## Syntax
-```TransformVertices(mat Matrix, int StartIndex, int EndIndex)```
+```
+TransformVertices(mat Matrix, int StartIndex, int EndIndex)
+```
 
 ## Examples
-```TransformVertices(MAT_VIEW, 0xFFE, 0x1000)```
+```
+TransformVertices(MAT_VIEW, 0xFFE, 0x1000)
+```

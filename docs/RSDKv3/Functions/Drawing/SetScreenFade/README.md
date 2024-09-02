@@ -17,7 +17,11 @@ a value range of 0-255 for transparency (255 being no transparency)
 None.
 
 ## Syntax
-```SetScreenFade(int R, int G, int B, int Alpha)```
+```
+SetScreenFade(int R, int G, int B, int Alpha)
+```
 
 ## Examples
-- ```SetScreenFade(255, 0, 0, object.alpha)```
+```
+SetScreenFade(255, 0, 0, object.alpha)
+```

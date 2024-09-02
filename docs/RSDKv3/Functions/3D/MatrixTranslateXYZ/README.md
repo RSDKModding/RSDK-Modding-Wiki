@@ -13,7 +13,11 @@ Translate value for the matrix, all shifted 8 bits (0x100 = 1.0)
 None.
 
 ## Syntax
-```MatrixTranslateXYZ(mat Matrix, int TranslateX, int TranslateY, int TranslateZ)```
+```
+MatrixTranslateXYZ(mat Matrix, int TranslateX, int TranslateY, int TranslateZ)
+```
 
 ## Examples
-- ```MatrixTranslateXYZ(MAT_WORLD, -512, 720, TempValue0)```
+```
+MatrixTranslateXYZ(MAT_WORLD, -512, 720, TempValue0)
+```

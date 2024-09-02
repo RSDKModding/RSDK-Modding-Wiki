@@ -13,7 +13,11 @@ The values used in the arctan operation
 None.
 
 ## Syntax
-```ATan2(var Store, int x, int y)```
+```
+ATan2(var Store, int x, int y)
+```
 
 ## Examples
-- ```ATan2(TempValue1, Object.Value5, TempValue0)```
+```
+ATan2(TempValue1, Object.Value5, TempValue0)
+```

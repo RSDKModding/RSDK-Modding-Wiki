@@ -15,7 +15,11 @@ Name of the table from where to set the value
 None.
 
 ## Syntax
-```SetTableValue(int value, int index, table)```
+```
+SetTableValue(int value, int index, table)
+```
 
 ## Examples
-```SetTableValue(55, 3, TestObject_Table)```
+```
+SetTableValue(55, 3, TestObject_Table)
+```

@@ -10,7 +10,9 @@ None.
 None.
 
 ## Syntax
-```DrawObjectAnimation()```
+```
+DrawObjectAnimation()
+```
 
 ## Notes
 objects that use animation files cannot use transparency, scale or rotation

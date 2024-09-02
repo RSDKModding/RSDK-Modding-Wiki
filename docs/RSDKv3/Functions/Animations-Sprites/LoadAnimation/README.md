@@ -11,7 +11,11 @@ The file path to load the animation from, relative to `Data/Animations/`
 None.
 
 ## Syntax
-```LoadAnimation(string Path)```
+```
+LoadAnimation(string Path)
+```
 
 ## Examples
-- ```LoadAnimation("Tails.Ani")```
+```
+LoadAnimation("Tails.Ani")
+```

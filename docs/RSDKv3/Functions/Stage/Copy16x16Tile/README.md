@@ -13,10 +13,14 @@ The tile that will be copied
 None.
 
 ## Syntax
-```Copy16x16Tile(int DestTile, int SourceTile)```
+```
+Copy16x16Tile(int DestTile, int SourceTile)
+```
 
 ## Examples
-- ```Copy16x16Tile(174, 173)```
+```
+Copy16x16Tile(174, 173)
+```
 
 ## Notes
 Used for animated tiles

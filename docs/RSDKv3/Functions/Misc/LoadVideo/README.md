@@ -11,10 +11,14 @@ The name of the video, from path `Videos/`
 None.
 
 ## Syntax
-```LoadVideo("string VideoName")```
+```
+LoadVideo("string VideoName")
+```
 
 ## Examples
-- ```LoadVideo("Opening")```
+```
+LoadVideo("Opening")
+```
 
 ## Notes
 The supported video formats are .rsv and .ogv, the original mobile version uses .mp4

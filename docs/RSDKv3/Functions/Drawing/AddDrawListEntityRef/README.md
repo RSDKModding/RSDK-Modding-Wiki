@@ -13,7 +13,11 @@ The position of the object to add
 None.
 
 ## Syntax
-```AddDrawListEntityRef(int Layer, int ObjectPos)```
+```
+AddDrawListEntityRef(int Layer, int ObjectPos)
+```
 
 ## Examples
-- ```AddDrawListEntityRef(4, Object.EntityNo)```
+```
+AddDrawListEntityRef(4, Object.EntityNo)
+```

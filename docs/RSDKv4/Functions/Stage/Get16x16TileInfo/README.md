@@ -26,7 +26,11 @@ The ID for the type of info read from the tile, valid values are:
 None.
 
 ## Syntax
-```Get16x16TileInfo(var chunkStore, int tileX, int tileY, int infoType)```
+```
+Get16x16TileInfo(var chunkStore, int tileX, int tileY, int infoType)
+```
 
 ## Examples
-- ```Get16x16TileInfo(object.value2, 25, 24, 8)```
+```
+Get16x16TileInfo(object.value2, 25, 24, 8)
+```

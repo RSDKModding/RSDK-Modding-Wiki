@@ -15,7 +15,11 @@ The ID of the object to assign the new `object.value` value
 None.
 
 ## Syntax
-```SetObjectValue(int value, int valueID, int entitySlot)```
+```
+SetObjectValue(int value, int valueID, int entitySlot)
+```
 
 ## Examples
-```SetObjectValue(3, 24, 7)```
+```
+SetObjectValue(3, 24, 7)
+```

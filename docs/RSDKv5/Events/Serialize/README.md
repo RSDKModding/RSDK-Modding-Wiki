@@ -7,13 +7,21 @@ Called once per object class, upon the scene being loaded, no logic should be wr
 None.
 
 ## Syntax (C)
-```void Serialize()```
+```c
+void Serialize();
+```
 
 ## Syntax (C++)
-```static void Serialize()```
+```cpp
+static void Serialize();
+```
 
 ## Examples (C)
-- ```void MyObject_Serialize() { }```
+```c
+void MyObject_Serialize() { }
+```
 
 ## Examples (C++)
-- ```void MyObject::Serialize() { }```
+```cpp
+void MyObject::Serialize() { }
+```

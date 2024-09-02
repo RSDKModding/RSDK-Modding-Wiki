@@ -13,7 +13,11 @@ New status of the achievement, valid values are 0 for locked, and 100 for unlock
 None.
 
 ## Syntax
-```SetAchievement(int ID, int Status)```
+```
+SetAchievement(int ID, int Status)
+```
 
 ## Examples
-- ```SetAchievement(3, 100)```
+```
+SetAchievement(3, 100)
+```

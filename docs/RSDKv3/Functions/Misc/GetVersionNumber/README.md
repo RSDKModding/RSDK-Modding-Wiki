@@ -14,7 +14,11 @@ Boolean that determines if the text will be highlighted always
 None.
 
 ## Syntax
-```GetVersionNumber(int Menu, bool highlightEntry)```
+```
+GetVersionNumber(int Menu, bool highlightEntry)
+```
 
 ## Examples
-- ```GetVersionNumber(MENU_2, true)```
+```
+GetVersionNumber(MENU_2, true)
+```

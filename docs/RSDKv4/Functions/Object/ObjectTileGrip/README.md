@@ -17,10 +17,14 @@ Collision plane to take into account
 Sets CheckResult to true if there was collision, false otherwise
 
 ## Syntax
-```ObjectTileGrip(int cSide, int xOffset, int yOffset, int cPlane)```
+```
+ObjectTileGrip(int cSide, int xOffset, int yOffset, int cPlane)
+```
 
 ## Examples
-- ```ObjectTileGrip(2, 8, -12, 0)```
+```
+ObjectTileGrip(2, 8, -12, 0)
+```
 
 ## Notes
 This function is best used to handle moving along surfaces

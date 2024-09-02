@@ -19,6 +19,8 @@ Offset for the text at `Index`, only used if `Type` is TEXTINFO_TEXTDATA
 None.
 
 ## Syntax
-```GetTextInfo(var Store, int Menu, int Type, int Index, int Offset)```
+```
+GetTextInfo(var Store, int Menu, int Type, int Index, int Offset)
+```
 
 ## Examples

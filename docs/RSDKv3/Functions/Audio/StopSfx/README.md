@@ -11,8 +11,12 @@ The slot of the sound effect in the GameConfig
 ## Return Value
 None.
 
-## Syntax 
-```StopSfx(int sfx)```
+## Syntax
+```
+StopSfx(int sfx)
+```
 
 ## Examples
-- ```StopSfx(0)```
+```
+StopSfx(0)
+```

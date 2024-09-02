@@ -12,8 +12,12 @@ Processes the current object's animation, based on an animation file loaded prio
 
 None.
 
-## Syntax 
-```ProcessAnimation()```
+## Syntax
+```
+ProcessAnimation()
+```
 
 ## Examples
-- ```ProcessAnimation()```
+```
+ProcessAnimation()
+```

@@ -21,7 +21,11 @@ Position of the 128x128 chunk in the map on the vertical axis
 None.
 
 ## Syntax
-```SetTileLayerEntry(int value, int layer, int chunkX, int chunkY)```
+```
+SetTileLayerEntry(int value, int layer, int chunkX, int chunkY)
+```
 
 ## Examples
-- ```SetTileLayerEntry(35, 0, 24, 96)```
+```
+SetTileLayerEntry(35, 0, 24, 96)
+```

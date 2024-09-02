@@ -13,7 +13,11 @@ Exclusive maximum for the random value to get
 None.
 
 ## Syntax
-```Rand(var store, int max)```
+```
+Rand(var store, int max)
+```
 
 ## Examples
-- ```Rand(object.value3, 8)```
+```
+Rand(object.value3, 8)
+```

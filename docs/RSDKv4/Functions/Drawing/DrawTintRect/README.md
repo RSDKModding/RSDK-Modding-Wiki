@@ -17,7 +17,11 @@ The height of the rectangle
 None.
 
 ## Syntax
-```DrawTintRect(int ixPos, int iyPos, int width, int height)```
+```
+DrawTintRect(int ixPos, int iyPos, int width, int height)
+```
 
 ## Examples
-- ```DrawTintRect(30, 220, 60, 20)```
+```
+DrawTintRect(30, 220, 60, 20)
+```

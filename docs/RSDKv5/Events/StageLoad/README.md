@@ -7,13 +7,21 @@ Called once per object class, once when the stage loads. Used for loading assets
 None.
 
 ## Syntax (C)
-```void StageLoad()```
+```c
+void StageLoad();
+```
 
 ## Syntax (C++)
-```static void StageLoad()```
+```cpp
+static void StageLoad();
+```
 
 ## Examples (C)
-- ```void MyObject_StageLoad() { }```
+```c
+void MyObject_StageLoad() { }
+```
 
 ## Examples (C++)
-- ```void MyObject::StageLoad() { }```
+```cpp
+void MyObject::StageLoad() { }
+```

@@ -13,7 +13,11 @@ The value of angle
 None.
 
 ## Syntax
-```Sin256(var store, int angle)```
+```
+Sin256(var store, int angle)
+```
 
 ## Examples
-- ```Sin256(object.value3, temp0)```
+```
+Sin256(object.value3, temp0)
+```

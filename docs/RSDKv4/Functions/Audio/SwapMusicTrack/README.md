@@ -17,8 +17,12 @@ The ratio to base setting the position on if the track automatically plays as de
 ## Return Value
 None.
 
-## Syntax 
-```SwapMusicTrack(string path, int trackID, int loopPoint, int ratio)```
+## Syntax
+```
+SwapMusicTrack(string path, int trackID, int loopPoint, int ratio)
+```
 
 ## Examples
-- ```SwapMusicTrack("Test2xSpeed.ogg", 0, 1, 20000)```
+```
+SwapMusicTrack("Test2xSpeed.ogg", 0, 1, 20000)
+```

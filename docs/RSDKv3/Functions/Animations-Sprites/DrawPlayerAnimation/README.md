@@ -10,7 +10,9 @@ None.
 None.
 
 ## Syntax
-```DrawPlayerAnimation()```
+```
+DrawPlayerAnimation()
+```
 
 ## Notes
 Player animations cannot use transparency or scale

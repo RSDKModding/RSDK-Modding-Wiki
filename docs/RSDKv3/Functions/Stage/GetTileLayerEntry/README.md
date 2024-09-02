@@ -21,7 +21,11 @@ Position of the 128x128 chunk in the map on the vertical axis
 None.
 
 ## Syntax
-```GetTileLayerEntry(var ChunkStore, int Layer, int ChunkX, int ChunkY)```
+```
+GetTileLayerEntry(var ChunkStore, int Layer, int ChunkX, int ChunkY)
+```
 
 ## Examples
-- ```GetTileLayerEntry(Object.Value2, 0, 24, 96)```
+```
+GetTileLayerEntry(Object.Value2, 0, 24, 96)
+```

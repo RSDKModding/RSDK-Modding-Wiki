@@ -27,13 +27,21 @@ The number of pixels between each character.
 This function returns the width of the string in pixels. This width is the same as it would be if [DrawText](TODO) was called with the same parameters.
 
 ## Syntax (C)
-```RSDK.GetStringWidth(uint16 aniFrames, uint16 listID, String *string, int32 startIndex, int32 length, int32 spacing)```
+```c
+RSDK.GetStringWidth(uint16 aniFrames, uint16 listID, String *string, int32 startIndex, int32 length, int32 spacing);
+```
 
 ## Syntax (C++)
-```String.GetWidth(SpriteAnimation aniFrames, uint16 listID, int32 startIndex, int32 length, int32 spacing)```
+```cpp
+String.GetWidth(SpriteAnimation aniFrames, uint16 listID, int32 startIndex, int32 length, int32 spacing);
+```
 
 ## Examples (C)
-- ```int32 width = RSDK.LoadSpriteAnimation(MyObject->aniFrames, 0, &string, 0, string.length, 1);```
+```c
+int32 width = RSDK.LoadSpriteAnimation(MyObject->aniFrames, 0, &string, 0, string.length, 1);
+```
 
 ## Examples (C++)
-- ```int32 width = string.GetWidth(sVars->aniFrames, 0, 0, string.length, 1);```
+```cpp
+int32 width = string.GetWidth(sVars->aniFrames, 0, 0, string.length, 1);
+```

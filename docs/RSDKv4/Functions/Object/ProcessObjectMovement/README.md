@@ -13,4 +13,6 @@ None.
 - Determines if the character is `flailing`, `pushing` or is now in the air.
 
 ## Syntax
-```ProcessObjectMovement()```
+```
+ProcessObjectMovement()
+```

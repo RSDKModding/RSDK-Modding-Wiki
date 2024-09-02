@@ -11,7 +11,11 @@ The path to the font
 None.
 
 ## Syntax
-```LoadTextFont("string FilePath")```
+```
+LoadTextFont("string FilePath")
+```
 
 ## Examples
-- ```LoadTextFont("Data/Game/SystemText.gif")```
+```
+LoadTextFont("Data/Game/SystemText.gif")
+```

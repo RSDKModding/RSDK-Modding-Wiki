@@ -15,7 +15,11 @@ Name of the table from where to get the value
 None.
 
 ## Syntax
-```GetTableValue(var store, int index, table)```
+```
+GetTableValue(var store, int index, table)
+```
 
 ## Examples
-```GetTableValue(arrayPos0, 3, TestObject_Table)```
+```
+GetTableValue(arrayPos0, 3, TestObject_Table)
+```

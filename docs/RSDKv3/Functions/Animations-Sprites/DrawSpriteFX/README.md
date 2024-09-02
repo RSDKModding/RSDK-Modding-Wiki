@@ -17,10 +17,14 @@ The position of the sprite on the vertical axis in world-space
 None.
 
 ## Syntax
-```DrawSpriteFX(int Frame, int DrawFXFlag, int XPos, int YPos)```
+```
+DrawSpriteFX(int Frame, int DrawFXFlag, int XPos, int YPos)
+```
 
 ## Examples
-- ```DrawSpriteFX(2, FX_FLIP, Object.Value0, Object.YPos)```
+```
+DrawSpriteFX(2, FX_FLIP, Object.Value0, Object.YPos)
+```
 
 ## Note
 The flags for visual effects are

@@ -15,7 +15,11 @@ The position of the sprite on the vertical axis in screen-space
 None.
 
 ## Syntax
-```DrawSpriteScreenXY(int Frame, int iXPos, int iYPos)```
+```
+DrawSpriteScreenXY(int Frame, int iXPos, int iYPos)
+```
 
 ## Examples
-- ```DrawSpriteScreenXY(0, 200, 15)```
+```
+DrawSpriteScreenXY(0, 200, 15)
+```

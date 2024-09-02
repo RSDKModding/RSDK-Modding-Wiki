@@ -13,7 +13,11 @@ Exclusive maximum for the random value to get
 None.
 
 ## Syntax
-```Rand(var Store, int Max)```
+```
+Rand(var Store, int Max)
+```
 
 ## Examples
-- ```Rand(Object.Value3, 8)```
+```
+Rand(Object.Value3, 8)
+```

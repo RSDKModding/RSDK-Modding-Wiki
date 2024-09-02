@@ -11,7 +11,11 @@ The variable to negate
 None.
 
 ## Syntax
-```Not(var value)```
+```
+Not(var value)
+```
 
 ## Examples
-- ```Not(temp4)```
+```
+Not(temp4)
+```

@@ -11,7 +11,11 @@ The file path to the sprite sheet to remove, relative to `Data/Sprites/`
 None.
 
 ## Syntax
-```RemoveSpriteSheet("string Path")```
+```
+RemoveSpriteSheet("string Path")
+```
 
 ## Examples
-- ```RemoveSpriteSheet("Test/Objects.gif")```
+```
+RemoveSpriteSheet("Test/Objects.gif")
+```

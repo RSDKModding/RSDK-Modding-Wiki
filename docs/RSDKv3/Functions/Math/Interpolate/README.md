@@ -15,7 +15,11 @@ Percentage of interpolation, can go from 0 to 256
 None.
 
 ## Syntax
-```Interpolate(var Store, int x, int y, int Percent)```
+```
+Interpolate(var Store, int x, int y, int Percent)
+```
 
 ## Examples
-- ```Interpolate(Object.Value2, 26, 29, 128)```
+```
+Interpolate(Object.Value2, 26, 29, 128)
+```

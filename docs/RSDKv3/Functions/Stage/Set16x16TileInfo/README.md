@@ -25,7 +25,11 @@ The ID for the type of info that will be overwritten from the tile, valid values
 None.
 
 ## Syntax
-```Set16x16TileInfo(int Value, int TileX, int TileY, int InfoType)```
+```
+Set16x16TileInfo(int Value, int TileX, int TileY, int InfoType)
+```
 
 ## Examples
-- ```Set16x16TileInfo(3, TempValue0, TempValue1, 7)```
+```
+Set16x16TileInfo(3, TempValue0, TempValue1, 7)
+```

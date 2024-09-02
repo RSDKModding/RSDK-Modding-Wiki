@@ -8,16 +8,24 @@ Called once per object class, once when the static variables are allocated. Used
 a pointer to the static variables that will be initialized during this event.
 
 ## Syntax (C)
-```void StaticLoad(Object[ObjectName] *sVars)```
+```c
+void StaticLoad(Object[ObjectName] *sVars);
+```
 
 ## Syntax (C++)
-```static void StaticLoad(Static *sVars)```
+```cpp
+static void StaticLoad(Static *sVars);
+```
 
 ## Examples (C)
-- ```void MyObject_StaticLoad(ObjectMyObject *sVars) { }```
+```c
+void MyObject_StaticLoad(ObjectMyObject *sVars) { }
+```
 
 ## Examples (C++)
-- ```void MyObject::StaticLoad(Static *sVars) { }```
+```cpp
+void MyObject::StaticLoad(Static *sVars) { }
+```
 
 ## Remarks
 This function is ONLY suppported by RSDKv5U. It does not exist in RSDKv5 Revision 01 or RSDKv5 Revision 02.

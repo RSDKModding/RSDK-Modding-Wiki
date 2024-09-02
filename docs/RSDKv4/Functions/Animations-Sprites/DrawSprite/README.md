@@ -11,7 +11,11 @@ The ID of the sprite to draw
 None.
 
 ## Syntax
-```DrawSprite(int Frame)```
+```
+DrawSprite(int Frame)
+```
 
 ## Examples
-- ```DrawSprite(0)```
+```
+DrawSprite(0)
+```

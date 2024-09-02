@@ -11,7 +11,11 @@ The string to match.
 Sets `checkResult` to `true` if the current folder's name matches `checkFolder`, otherwise `checkResult` will be `false`.
 
 ## Syntax
-```CheckCurrentStageFolder(string checkFolder)```
+```
+CheckCurrentStageFolder(string checkFolder)
+```
 
 ## Examples
-```CheckCurrentStageFolder("Zone01")```
+```
+CheckCurrentStageFolder("Zone01")
+```

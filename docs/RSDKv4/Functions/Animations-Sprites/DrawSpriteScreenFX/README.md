@@ -18,10 +18,14 @@ The position of the sprite on the vertical axis in screen-space
 None.
 
 ## Syntax
-```DrawSpriteScreenFX(int Frame, int DrawFXFlag, int iXPos, int iYPos)```
+```
+DrawSpriteScreenFX(int Frame, int DrawFXFlag, int iXPos, int iYPos)
+```
 
 ## Examples
-- ```DrawSpriteScreenFX(2, FX_FLIP, 20, 200)```
+```
+DrawSpriteScreenFX(2, FX_FLIP, 20, 200)
+```
 
 ## Note
 The flags for visual effects are

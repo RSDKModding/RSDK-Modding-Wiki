@@ -15,7 +15,11 @@ valid Matrices for both factors are MAT_WORLD, MAT_VIEW and MAT_TEMP
 The result will be stored in `MatrixA`
 
 ## Syntax
-```MatrixMultiply(mat MatrixA, mat MatrixB)```
+```
+MatrixMultiply(mat MatrixA, mat MatrixB)
+```
 
 ## Examples
-- ```MatrixMultiply(mat MatrixA, mat MatrixB)```
+```
+MatrixMultiply(mat MatrixA, mat MatrixB)
+```

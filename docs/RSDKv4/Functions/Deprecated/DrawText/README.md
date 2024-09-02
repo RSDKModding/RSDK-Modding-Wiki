@@ -25,7 +25,11 @@ The amount of rows to draw
 None.
 
 ## Syntax
-```DrawText(int menu, int xPos, int yPos, int scale, int spacing, int rowStart, int rowCount)```
+```
+DrawText(int menu, int xPos, int yPos, int scale, int spacing, int rowStart, int rowCount)
+```
 
 ## Examples
-- ```DrawText(MENU_1, temp0, temp1, 192, 0, 0, 1)```
+```
+DrawText(MENU_1, temp0, temp1, 192, 0, 0, 1)
+```

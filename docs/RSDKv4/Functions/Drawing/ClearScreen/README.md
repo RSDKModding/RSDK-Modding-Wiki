@@ -11,7 +11,11 @@ The color that will override the pixels on the screen
 None.
 
 ## Syntax
-```ClearScreen(int clearIndex)```
+```
+ClearScreen(int clearIndex)
+```
 
 ## Examples
-- ```ClearScreen(5)```
+```
+ClearScreen(5)
+```

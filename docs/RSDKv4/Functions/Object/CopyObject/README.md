@@ -15,7 +15,11 @@ Amount of objects to copy
 None.
 
 ## Syntax
-```CopyObject(int destSlot, int scrSlot, int count)```
+```
+CopyObject(int destSlot, int scrSlot, int count)
+```
 
 ## Examples
-- ```CopyObject(0, 43, 1)```
+```
+CopyObject(0, 43, 1)
+```

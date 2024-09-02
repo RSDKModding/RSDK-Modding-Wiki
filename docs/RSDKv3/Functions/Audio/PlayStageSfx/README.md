@@ -13,8 +13,12 @@ Determines whether or not the sound effect should loop
 ## Return Value
 None.
 
-## Syntax 
-```PlayStageSfx(int sfx, bool loop)```
+## Syntax
+```
+PlayStageSfx(int sfx, bool loop)
+```
 
 ## Examples
-- ```PlayStageSfx(0, false)```
+```
+PlayStageSfx(0, false)
+```

@@ -16,7 +16,11 @@ Position of the menu on the vertical axis
 None.
 
 ## Syntax
-```DrawMenu(int Menu, int XPos, int YPos)```
+```
+DrawMenu(int Menu, int XPos, int YPos)
+```
 
 ## Examples
-- ```DrawMenu(MENU_1, Screen.CenterX, Screen.CenterY)```
+```
+DrawMenu(MENU_1, Screen.CenterX, Screen.CenterY)
+```

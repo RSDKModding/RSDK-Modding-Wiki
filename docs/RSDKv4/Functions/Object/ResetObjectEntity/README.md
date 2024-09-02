@@ -19,7 +19,11 @@ The new position of the object on the vertical axis in world-space
 None.
 
 ## Syntax
-```ResetObjectEntity(int objectSlot, int objectType, int propertyValue, int xPos, int yPos)```
+```
+ResetObjectEntity(int objectSlot, int objectType, int propertyValue, int xPos, int yPos)
+```
 
 ## Examples
-- ```ResetObjectEntity(object.entityPos, TypeName[Flower], 0, Object.xpos, Object.ypos)```
+```
+ResetObjectEntity(object.entityPos, TypeName[Flower], 0, Object.xpos, Object.ypos)
+```

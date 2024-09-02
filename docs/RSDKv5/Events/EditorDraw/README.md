@@ -7,13 +7,21 @@ Similar to [Draw](../Draw/README.md), though only called when the object class i
 None.
 
 ## Syntax (C)
-```void EditorDraw()```
+```c
+void EditorDraw();
+```
 
 ## Syntax (C++)
-```void EditorDraw()```
+```cpp
+void EditorDraw();
+```
 
 ## Examples (C)
-- ```void MyObject_EditorDraw() { }```
+```c
+void MyObject_EditorDraw() { }
+```
 
 ## Examples (C++)
-- ```void MyObject::EditorDraw() { }```
+```cpp
+void MyObject::EditorDraw() { }
+```

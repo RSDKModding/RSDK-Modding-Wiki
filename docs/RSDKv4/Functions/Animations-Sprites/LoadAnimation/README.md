@@ -13,8 +13,12 @@ The file path to load the sprite sheet from, relative to `Data/Animations/`
 
 None.
 
-## Syntax 
-```LoadAnimation(string path)```
+## Syntax
+```
+LoadAnimation(string path)
+```
 
 ## Examples
-- ```LoadAnimation("Test.ani")```
+```
+LoadAnimation("Test.ani")
+```

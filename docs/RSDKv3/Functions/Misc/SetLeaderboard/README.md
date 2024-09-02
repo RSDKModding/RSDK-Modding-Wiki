@@ -13,7 +13,11 @@ The new leaderboard record
 None.
 
 ## Syntax
-```SetLeaderBoard(int ID, int Result)```
+```
+SetLeaderBoard(int ID, int Result)
+```
 
 ## Examples
-- ```SetLeaderBoard(TempValue0, TempValue1)```
+```
+SetLeaderBoard(TempValue0, TempValue1)
+```

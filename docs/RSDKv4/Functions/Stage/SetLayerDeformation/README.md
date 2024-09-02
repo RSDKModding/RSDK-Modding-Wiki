@@ -25,7 +25,11 @@ The size of the wave
 None.
 
 ## Syntax
-```SetLayerDeformation(int deformID, int waveLength, int waveWidth, int waveType, int yPos, int waveSize)```
+```
+SetLayerDeformation(int deformID, int waveLength, int waveWidth, int waveType, int yPos, int waveSize)
+```
 
 ## Examples
-- ```SetLayerDeformation(0, 16, 2, 1, 96, 128)```
+```
+SetLayerDeformation(0, 16, 2, 1, 96, 128)
+```

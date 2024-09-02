@@ -13,7 +13,11 @@ The value of angle
 None.
 
 ## Syntax
-```Sin(var Store, int Angle)```
+```
+Sin(var Store, int Angle)
+```
 
 ## Examples
-- ```Sin(Object.Value3, TempValue0)```
+```
+Sin(Object.Value3, TempValue0)
+```

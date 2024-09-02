@@ -17,7 +17,11 @@ Bottom side of the rectangle
 Will set `CheckResult` to `true` if there was a touch press inside the rectangle
 
 ## Syntax
-```CheckTouchRect(int X1, int Y1, int X2, int Y2)```
+```
+CheckTouchRect(int X1, int Y1, int X2, int Y2)
+```
 
 ## Examples
-- ```CheckTouchRect(0, 0, Screen.XSize, Screen.YSize)```
+```
+CheckTouchRect(0, 0, Screen.XSize, Screen.YSize)
+```

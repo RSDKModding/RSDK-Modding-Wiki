@@ -10,4 +10,6 @@ None.
 None.
 
 ## Syntax
-```LoadStage()```
+```
+LoadStage()
+```

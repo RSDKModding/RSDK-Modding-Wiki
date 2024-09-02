@@ -13,7 +13,11 @@ The value of angle
 None.
 
 ## Syntax
-```Sin256(var Store, int Angle)```
+```
+Sin256(var Store, int Angle)
+```
 
 ## Examples
-- ```Sin256(Object.Value3, TempValue0)```
+```
+Sin256(Object.Value3, TempValue0)
+```

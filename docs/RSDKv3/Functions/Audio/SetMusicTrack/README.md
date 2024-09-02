@@ -15,8 +15,12 @@ The track's loop point, in samples. 0 will disable looping, 1 will loop from the
 ## Return Value
 None.
 
-## Syntax 
-```SetMusicTrack(string path, int trackID, int loopPoint)```
+## Syntax
+```
+SetMusicTrack(string path, int trackID, int loopPoint)
+```
 
 ## Examples
-- ```SetMusicTrack("Test.ogg", 0, 1)```
+```
+SetMusicTrack("Test.ogg", 0, 1)
+```

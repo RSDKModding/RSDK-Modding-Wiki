@@ -15,7 +15,11 @@ Percentage of interpolation, can go from 0 to 256
 None.
 
 ## Syntax
-```Interpolate(var store, int x, int y, int percent)```
+```
+Interpolate(var store, int x, int y, int percent)
+```
 
 ## Examples
-- ```Interpolate(object.value2, 26, 29, 128)```
+```
+Interpolate(object.value2, 26, 29, 128)
+```

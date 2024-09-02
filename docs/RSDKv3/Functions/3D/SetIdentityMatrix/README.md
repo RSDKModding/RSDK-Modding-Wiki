@@ -11,7 +11,11 @@ The matrix to set the identity, valid matrices are MAT_WORLD, MAT_VIEW and MAT_T
 None.
 
 ## Syntax
-```SetIdentityMatrix(mat MatID)```
+```
+SetIdentityMatrix(mat MatID)
+```
 
 ## Examples
-```SetIdentityMatrix(MAT_WORLD)```
+```
+SetIdentityMatrix(MAT_WORLD)
+```

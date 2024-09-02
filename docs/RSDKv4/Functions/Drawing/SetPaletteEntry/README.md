@@ -15,7 +15,11 @@ Color value, the format of the color is 0xRRGGBB
 None.
 
 ## Syntax
-```SetPaletteEntry(int palBankID, int palIndex, int color)```
+```
+SetPaletteEntry(int palBankID, int palIndex, int color)
+```
 
 ## Examples
-```SetPaletteEntry(0, 134, 0xFF607F)```
+```
+SetPaletteEntry(0, 134, 0xFF607F)
+```

@@ -13,11 +13,23 @@ Angle of the rotation, values are 512-based
 None.
 
 ## Syntax
-```MatrixRotateX(mat matrix, int angle)```
-```MatrixRotateY(mat matrix, int angle)```
-```MatrixRotateZ(mat matrix, int angle)```
+```
+MatrixRotateX(mat matrix, int angle)
+```
+```
+MatrixRotateY(mat matrix, int angle)
+```
+```
+MatrixRotateZ(mat matrix, int angle)
+```
 
 ## Examples
-- ```MatrixRotateX(MAT_WORLD, 43)```
-- ```MatrixRotateY(MAT_VIEW,  76)```
-- ```MatrixRotateZ(MAT_TEMP,  22)```
+```
+MatrixRotateX(MAT_WORLD, 43)
+```
+```
+MatrixRotateY(MAT_VIEW,  76)
+```
+```
+MatrixRotateZ(MAT_TEMP,  22)
+```

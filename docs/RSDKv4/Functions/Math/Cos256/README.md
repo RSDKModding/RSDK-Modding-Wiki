@@ -13,7 +13,11 @@ The value of angle
 None.
 
 ## Syntax
-```Cos256(var store, int angle)```
+```
+Cos256(var store, int angle)
+```
 
 ## Examples
-- ```Cos256(temp0, object.value2)```
+```
+Cos256(temp0, object.value2)
+```

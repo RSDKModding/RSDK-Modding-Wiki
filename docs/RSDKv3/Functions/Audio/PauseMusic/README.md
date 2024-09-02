@@ -9,8 +9,12 @@ None.
 ## Return Value
 None.
 
-## Syntax 
-```PauseMusic()```
+## Syntax
+```
+PauseMusic()
+```
 
 ## Examples
-- ```PauseMusic()```
+```
+PauseMusic()
+```

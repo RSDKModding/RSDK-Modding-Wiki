@@ -15,7 +15,11 @@ The position of the bit to get, indices 0-7 are valid
 None.
 
 ## Syntax
-```GetBit(var store, var value, int bitPos)```
+```
+GetBit(var store, var value, int bitPos)
+```
 
 ## Examples
-- ```GetBit(arrayPos0, temp3, 6)```
+```
+GetBit(arrayPos0, temp3, 6)
+```

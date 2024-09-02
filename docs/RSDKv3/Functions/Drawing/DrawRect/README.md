@@ -25,7 +25,11 @@ a value range of 0-255 for transparency (255 being no transparency)
 None.
 
 ## Syntax
-```DrawTintRect(int iXPos, int iYPos, int Width, int Height, int R, int G, int B, int A)```
+```
+DrawTintRect(int iXPos, int iYPos, int Width, int Height, int R, int G, int B, int A)
+```
 
 ## Examples
-- ```DrawRect(30, 220, 60, 20, 255, 128, 128, 255)```
+```
+DrawRect(30, 220, 60, 20, 255, 128, 128, 255)
+```

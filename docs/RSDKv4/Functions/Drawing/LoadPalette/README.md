@@ -19,7 +19,11 @@ The ending index of the palette bank from which the loaded palette will override
 None.
 
 ## Syntax
-```LoadPalette("string path", int palBank, int startPalIndex, int startIndex, int endIndex) ```
+```
+LoadPalette("string path", int palBank, int startPalIndex, int startIndex, int endIndex) 
+```
 
 ## Examples
-- ```LoadPalette("Masterpalette.act", 2, 16, 24, 32)```
+```
+LoadPalette("Masterpalette.act", 2, 16, 24, 32)
+```

@@ -19,7 +19,11 @@ The amount of colors to copy from `srcPalStart` to `destPalStart`
 None.
 
 ## Syntax
-```CopyPalette(int scrPal, int srcPalStart, int destPal, int destPalStart, int count)```
+```
+CopyPalette(int scrPal, int srcPalStart, int destPal, int destPalStart, int count)
+```
 
 ## Examples
-```CopyPalette(1, 1, 0, 1, 4)```
+```
+CopyPalette(1, 1, 0, 1, 4)
+```

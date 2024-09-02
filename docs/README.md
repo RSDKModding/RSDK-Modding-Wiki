@@ -1,4 +1,4 @@
-# Retro Engine Wiki 
+# Retro Engine Wiki
 
 Retro Engine Wiki (TODO: write an actual description)
 

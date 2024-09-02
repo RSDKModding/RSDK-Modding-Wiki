@@ -15,7 +15,11 @@ Updated boolean value
 None.
 
 ## Syntax
-```SetBit(var value, int bitPos, bool bit)```
+```
+SetBit(var value, int bitPos, bool bit)
+```
 
 ## Examples
-- ```SetBit(object.value7, 3, 1)```
+```
+SetBit(object.value7, 3, 1)
+```

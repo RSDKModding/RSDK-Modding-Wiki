@@ -15,13 +15,21 @@ The asset's scope, may be `SCOPE_GLOBAL` or `SCOPE_STAGE`.
 This function returns an id to the loaded spritesheet as a `uint16`. The return value will be `-1` if the animation file failed to load.
 
 ## Syntax (C)
-```RSDK.LoadSpriteSheet(const char* path, Scopes scope)```
+```c
+RSDK.LoadSpriteSheet(const char* path, Scopes scope);
+```
 
 ## Syntax (C++)
-```SpriteSheet.Load(const char* path, Scopes scope)```
+```cpp
+SpriteSheet.Load(const char* path, Scopes scope);
+```
 
 ## Examples (C)
-- ```MyObject->mySheet = RSDK.LoadSpriteSheet("Test/Objects.gif", SCOPE_STAGE);```
+```c
+MyObject->mySheet = RSDK.LoadSpriteSheet("Test/Objects.gif", SCOPE_STAGE);
+```
 
 ## Examples (C++)
-- ```sVars->mySheet.Load("Test/Objects.gif", SCOPE_STAGE);```
+```cpp
+sVars->mySheet.Load("Test/Objects.gif", SCOPE_STAGE);
+```

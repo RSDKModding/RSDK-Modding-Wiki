@@ -11,8 +11,12 @@ The trackList slot the music is loaded in
 ## Return Value
 None.
 
-## Syntax 
-```PlayMusic(int trackID)```
+## Syntax
+```
+PlayMusic(int trackID)
+```
 
 ## Examples
-- ```PlayMusic(0)```
+```
+PlayMusic(0)
+```

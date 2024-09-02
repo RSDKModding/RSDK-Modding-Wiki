@@ -13,7 +13,11 @@ Scale value for the matrix, all shifted 8 bits (0x100 = 1.0)
 None.
 
 ## Syntax
-```MatrixScaleXYZ(mat matrix, int scaleX, int scaleY, int scaleZ)```
+```
+MatrixScaleXYZ(mat matrix, int scaleX, int scaleY, int scaleZ)
+```
 
 ## Examples
-- ```MatrixScaleXYZ(MAT_VIEW, 0x200, 0x1A0, 0x180)```
+```
+MatrixScaleXYZ(MAT_VIEW, 0x200, 0x1A0, 0x180)
+```

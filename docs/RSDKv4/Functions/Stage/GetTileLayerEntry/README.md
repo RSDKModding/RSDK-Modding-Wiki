@@ -21,7 +21,11 @@ Position of the 128x128 chunk in the map on the vertical axis
 None.
 
 ## Syntax
-```GetTileLayerEntry(var chunkStore, int layer, int chunkX, int chunkY)```
+```
+GetTileLayerEntry(var chunkStore, int layer, int chunkX, int chunkY)
+```
 
 ## Examples
-- ```GetTileLayerEntry(object.value2, 0, 24, 96)```
+```
+GetTileLayerEntry(object.value2, 0, 24, 96)
+```

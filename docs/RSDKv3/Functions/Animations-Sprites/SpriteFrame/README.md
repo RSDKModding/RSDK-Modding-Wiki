@@ -22,7 +22,11 @@ The position of the upper-left border of the sprite, on the Y axis
 None.
 
 ## Syntax
-```SpriteFrame(int xPivot, int yPivot, int Width, int Height, int SheetXPos, int SheetYPos)```
+```
+SpriteFrame(int xPivot, int yPivot, int Width, int Height, int SheetXPos, int SheetYPos)
+```
 
 ## Examples
-- ```SpriteFrame(-16, -16, 32, 32, 75, 129)```
+```
+SpriteFrame(-16, -16, 32, 32, 75, 129)
+```

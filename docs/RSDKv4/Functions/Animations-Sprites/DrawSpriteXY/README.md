@@ -15,7 +15,11 @@ The position of the sprite on the vertical axis in world-space
 None.
 
 ## Syntax
-```DrawSpriteXY(int Frame, int XPos, int YPos)```
+```
+DrawSpriteXY(int Frame, int XPos, int YPos)
+```
 
 ## Examples
-- ```DrawSpriteXY(0, Object.Value0, Object.YPos)```
+```
+DrawSpriteXY(0, Object.Value0, Object.YPos)
+```

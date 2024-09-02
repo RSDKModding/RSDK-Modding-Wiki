@@ -17,10 +17,14 @@ Collision plane to take into account
 Sets CheckResult to true if there was collision, false otherwise
 
 ## Syntax
-```ObjectTileCollision(int CSide, int xOffset, int yOffset, int cPlane)```
+```
+ObjectTileCollision(int CSide, int xOffset, int yOffset, int cPlane)
+```
 
 ## Examples
-- ```ObjectTileCollision(1, -15, -4, 0)```
+```
+ObjectTileCollision(1, -15, -4, 0)
+```
 
 ## Notes
 This function is best used to check if a tile is there, not to move along it

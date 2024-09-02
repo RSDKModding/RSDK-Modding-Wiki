@@ -7,13 +7,21 @@ Called once every frame per entity if Entity::[active](TODO) allows for it. The 
 None.
 
 ## Syntax (C)
-```void Draw()```
+```c
+void Draw();
+```
 
 ## Syntax (C++)
-```void Draw()```
+```cpp
+void Draw();
+```
 
 ## Examples (C)
-- ```void MyObject_Draw() { }```
+```c
+void MyObject_Draw() { }
+```
 
 ## Examples (C++)
-- ```void MyObject::Draw() { }```
+```cpp
+void MyObject::Draw() { }
+```

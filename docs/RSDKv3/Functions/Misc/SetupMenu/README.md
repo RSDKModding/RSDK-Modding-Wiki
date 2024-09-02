@@ -18,7 +18,11 @@ Alignment of the text, 0 will be to the right, 1 to the left, and 2 centered
 None.
 
 ## Syntax
-```SetupMenu(int Menu, int RowCount, int SelectionCount, int Alignment)```
+```
+SetupMenu(int Menu, int RowCount, int SelectionCount, int Alignment)
+```
 
 ## Examples
-- ```SetupMenu(MENU_1, 0, 3, 1)```
+```
+SetupMenu(MENU_1, 0, 3, 1)
+```

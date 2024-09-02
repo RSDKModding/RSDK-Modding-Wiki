@@ -15,7 +15,11 @@ Variable to store the copied palette.
 None.
 
 ## Syntax
-```GetPaletteEntry(int palBankID, int palIndex, var palStore)```
+```
+GetPaletteEntry(int palBankID, int palIndex, var palStore)
+```
 
 ## Examples
-- ```GetPaletteEntry(3, 131, temp6)```
+```
+GetPaletteEntry(3, 131, temp6)
+```

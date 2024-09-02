@@ -17,10 +17,14 @@ The position of the object on the vertical axis in world-space
 `tempObjectPos` is set to the created object's `slotID`.
 
 ## Syntax
-```CreateTempObject(int objectType, int propertyValue, int xPos, int yPos)```
+```
+CreateTempObject(int objectType, int propertyValue, int xPos, int yPos)
+```
 
 ## Examples
-- ```CreateTempObject(TypeName[Invincibility], 0, object.xPos, object.yPos)```
+```
+CreateTempObject(TypeName[Invincibility], 0, object.xPos, object.yPos)
+```
 
 ## Notes
 This should only be used for misc objects that aren't required for too long in the stage.

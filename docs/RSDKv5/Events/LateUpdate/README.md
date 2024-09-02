@@ -7,13 +7,21 @@ Same as [Update](../Update/README.md), though this is called after [Update](../U
 None.
 
 ## Syntax (C)
-```void LateUpdate()```
+```c
+void LateUpdate();
+```
 
 ## Syntax (C++)
-```void LateUpdate()```
+```cpp
+void LateUpdate();
+```
 
 ## Examples (C)
-- ```void MyObject_LateUpdate() { }```
+```c
+void MyObject_LateUpdate() { }
+```
 
 ## Examples (C++)
-- ```void MyObject::LateUpdate() { }```
+```cpp
+void MyObject::LateUpdate() { }
+```

@@ -15,8 +15,12 @@ The panning of the sound effect. The minimum and maximum values are -100 and 100
 ## Return Value
 None.
 
-## Syntax 
-```SetSfxAttributes(int sfx, int loopCount, int panning)```
+## Syntax
+```
+SetSfxAttributes(int sfx, int loopCount, int panning)
+```
 
 ## Examples
-- ```SetSfxAttributes(0, 5, -50)```
+```
+SetSfxAttributes(0, 5, -50)
+```

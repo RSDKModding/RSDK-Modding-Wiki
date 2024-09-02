@@ -12,8 +12,12 @@ Draws an object's sprites from an animation file, loaded prior via `LoadAnimatio
 
 None.
 
-## Syntax 
-```DrawObjectAnimation()```
+## Syntax
+```
+DrawObjectAnimation()
+```
 
 ## Examples
-- ```DrawObjectAnimation()```
+```
+DrawObjectAnimation()
+```

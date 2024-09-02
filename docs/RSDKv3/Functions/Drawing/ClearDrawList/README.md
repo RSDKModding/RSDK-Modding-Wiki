@@ -11,7 +11,11 @@ Layer of the drawList to clean
 None.
 
 ## Syntax
-```ClearDrawList(int Layer)```
+```
+ClearDrawList(int Layer)
+```
 
 ## Examples
-- ```ClearDrawList(3)```
+```
+ClearDrawList(3)
+```

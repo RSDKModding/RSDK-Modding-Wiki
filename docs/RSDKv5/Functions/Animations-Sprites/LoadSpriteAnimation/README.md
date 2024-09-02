@@ -15,13 +15,21 @@ The asset's scope, may be `SCOPE_GLOBAL` or `SCOPE_STAGE`.
 This function returns an id to the loaded animation file as a `uint16`. The return value will be `-1` if the animation file failed to load.
 
 ## Syntax (C)
-```RSDK.LoadSpriteAnimation(const char* path, Scopes scope)```
+```c
+RSDK.LoadSpriteAnimation(const char* path, Scopes scope);
+```
 
 ## Syntax (C++)
-```SpriteAnimation.Load(const char* path, Scopes scope)```
+```cpp
+SpriteAnimation.Load(const char* path, Scopes scope);
+```
 
 ## Examples (C)
-- ```MyObject->aniFrames = RSDK.LoadSpriteAnimation("Test/MyAnim.bin", SCOPE_STAGE);```
+```c
+MyObject->aniFrames = RSDK.LoadSpriteAnimation("Test/MyAnim.bin", SCOPE_STAGE);
+```
 
 ## Examples (C++)
-- ```sVars->aniFrames.Load("Test/MyAnim.bin", SCOPE_STAGE);```
+```cpp
+sVars->aniFrames.Load("Test/MyAnim.bin", SCOPE_STAGE);
+```
