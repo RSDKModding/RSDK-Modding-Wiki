@@ -5,11 +5,11 @@ Linearly interpolates (LERPs) `x` and `y` by `Percent` and stores the result in 
 
 ## Parameters
 - `Store`
-The variable to store the result
+The variable to store the result.
 - `x`,`y`
-The values used for the interpolation
+The values used for the interpolation.
 - `Percent`
-Percentage of interpolation, can go from 0 to 256
+Percentage of interpolation, can go from 0 to 256.
 
 ## Return Value
 None.

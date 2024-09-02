@@ -6,9 +6,9 @@ Plays the sound effect in the given slot in the GameConfig, looping it if set to
 ## Parameters
 
 - `sfx`
-The slot of the sound effect in the GameConfig
+The slot of the sound effect in the GameConfig.
 - `loop`
-Determines whether or not the sound effect should loop
+Determines whether or not the sound effect should loop.
 
 ## Return Value
 None.

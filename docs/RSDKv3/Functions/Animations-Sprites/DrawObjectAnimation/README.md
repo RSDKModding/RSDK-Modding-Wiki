@@ -15,4 +15,4 @@ DrawObjectAnimation()
 ```
 
 ## Notes
-objects that use animation files cannot use transparency, scale or rotation
+Objects that use animation files cannot use transparency, scale or rotation.

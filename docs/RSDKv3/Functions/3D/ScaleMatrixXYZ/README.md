@@ -1,11 +1,11 @@
 # MatrixScaleXYZ
 
 ## Description
-Scales `Matrix` to `ScaleX`, `ScaleY` and `ScaleZ`
+Scales `Matrix` to `ScaleX`, `ScaleY` and `ScaleZ`.
 
 ## Parameters
 - `Matrix`
-The selected matrix for scalling, valid Matrices are MAT_WORLD, MAT_VIEW and MAT_TEMP
+The selected matrix for scalling, valid Matrices are MAT_WORLD, MAT_VIEW and MAT_TEMP.
 - `ScaleX`, `ScaleY`, `ScaleZ`
 Scale value for the matrix, all shifted 8 bits (0x100 = 1.0)
 

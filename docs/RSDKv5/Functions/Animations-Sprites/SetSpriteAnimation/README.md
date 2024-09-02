@@ -9,7 +9,7 @@ Applies a set of frames to an animator.
 The sprite animation to use frames from. id 0-1023 is valid, any other values will clear the existing sprite frames.
 
 - `listID`
-the index of the animation in the animation list to use frames from. negative indices or indices above the count are considered invalid and will result in the frames not being set.
+The index of the animation in the animation list to use frames from. negative indices or indices above the count are considered invalid and will result in the frames not being set.
 
 - `animator`
 - the animator to apply the frames to. in C++ this function is a instance method of the animator instead. See examples for further info.
@@ -29,13 +29,13 @@ None.
 === "C"
 
 	```c
-	RSDK.SetSpriteAnimation(uint16 aniFrames, uint16 listID, Animator *animator, bool32 forceApply, int16 frameID);
+	RSDK.SetSpriteAnimation(uint16 aniFrames, uint16 listID, Animator *animator, bool32 forceApply, int32 frameID);
 	```
 
 === "C++"
 
 	```cpp
-	animator.SetAnimation(SpriteAnimation aniFrames, uint16 listID, bool32 forceApply, int16 frameID);
+	animator.SetAnimation(SpriteAnimation aniFrames, uint16 listID, bool32 forceApply, int32 frameID);
 	```
 
 ## Examples

@@ -1,13 +1,13 @@
 # Cos256
 
 ## Description
-Gets the value from lookup table `Cos256` based on `Angle` and sets it in `Store`
+Gets the value from lookup table `Cos256` based on `Angle` and sets it in `Store`.
 
 ## Parameters
 - `Store`
-The variable to store the result
+The variable to store the result.
 - `Angle`
-The value of angle
+The value of angle.
 
 ## Return Value
 None.

@@ -5,11 +5,11 @@ Get the `object.value` of `entitySlot` corresponding to `valueID` and stores it 
 
 ## Parameters
 - `result`
-Variable where to store `valueID`
+Variable where to store `valueID`.
 - `valueID`
-The corresponding `object.value` to get
+The corresponding `object.value` to get.
 - `entitySlot`
-The ID of the object from where to get `object.value`
+The ID of the object from where to get `object.value`.
 
 ## Return Value
 None.

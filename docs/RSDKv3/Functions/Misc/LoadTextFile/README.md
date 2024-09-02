@@ -1,13 +1,13 @@
 # LoadTextFile
 
 ## Description
-Loads a `Menu` based on the file loaded from `FilePath`
+Loads a `Menu` based on the file loaded from `FilePath`.
 
 ## Parameters
 - `Menu`
-The menu to which the file will load, MENU_1 or MENU_2 are valid
+The menu to which the file will load, MENU_1 or MENU_2 are valid.
 - `FilePath`
-The path to the text file
+The path to the text file.
 
 ## Return Value
 None.

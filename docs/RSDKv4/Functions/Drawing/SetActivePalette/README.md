@@ -5,11 +5,11 @@ Sets the active palette for `palBank` for all screen lines from `startLine` thro
 
 ## Parameters
 - `palBank`
-the ID of the new active palette, indices 0-7 are valid
+The ID of the new active palette, indices 0-7 are valid.
 - `startLine`
-the starting screen-line for the new active palette
+The starting screen-line for the new active palette.
 - `endLine`
-the final screen-line for the new active palette
+The final screen-line for the new active palette.
 
 ## Return Value
 None.

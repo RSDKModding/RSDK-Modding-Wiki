@@ -1,11 +1,11 @@
 # Abs
 
 ## Description
-Gets the absolute number of `value`
+Gets the absolute number of `value`.
 
 ## Parameters
 - `value`
-Variable from where to read the value
+Variable from where to read the value.
 
 ## Return Value
 Updates `value` with the result.

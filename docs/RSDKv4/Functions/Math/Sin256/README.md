@@ -1,13 +1,13 @@
 # Sin256
 
 ## Description
-Gets the value from lookup table `sin256` based on `angle` and sets it in `store`
+Gets the value from lookup table `sin256` based on `angle` and sets it in `store`.
 
 ## Parameters
 - `store`
-The variable to store the result
+The variable to store the result.
 - `angle`
-The value of angle
+The value of angle.
 
 ## Return Value
 None.

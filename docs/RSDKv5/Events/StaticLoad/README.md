@@ -5,7 +5,7 @@ Called once per object class, once when the static variables are allocated. Used
 
 ## Parameters
 - `sVars`
-a pointer to the static variables that will be initialized during this event.
+A pointer to the static variables that will be initialized during this event.
 
 ## Syntax
 === "C"

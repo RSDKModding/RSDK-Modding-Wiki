@@ -5,11 +5,11 @@ Linearly interpolates two points at once, `aX` with `aY`, and `bX` with `bY`. By
 
 ## Parameters
 - `StoreX`, `StoreY`
-The variables to store the results
+The variables to store the results.
 - `aX`, `aY`, `bX`, `bY`
-The values used for the interpolations
+The values used for the interpolations.
 - `Percent`
-Percentage of interpolation, can go from 0 to 256
+Percentage of interpolation, can go from 0 to 256.
 
 ## Return Value
 None.

@@ -5,9 +5,9 @@ Adds a text entry to `menu` with the game's version as the text, The text will d
 
 ## Parameters
 - `menu`
-The menu to add the text to, MENU_1 or MENU_2 are valid
+The menu to add the text to, MENU_1 or MENU_2 are valid.
 - `highlightEntry`
-Boolean that determines if the text will be highlighted always
+Boolean that determines if the text will be highlighted always.
 
 
 ## Return Value

@@ -1,25 +1,25 @@
 # DrawRect
 
 ## Description
-Draws a rectangle to a specified X and Y position in the screen with a color based on combination of red, green, blue and transparency
+Draws a rectangle to a specified X and Y position in the screen with a color based on combination of red, green, blue and transparency.
 
 ## Parameters
 - `iXPos`
-The position of the rectangle on the horizontal axis in screen-space
+The position of the rectangle on the horizontal axis in screen-space.
 - `iYPos`
-The position of the rectangle on the vertical axis in screen-space
+The position of the rectangle on the vertical axis in screen-space.
 - `Width`
-The width of the rectangle
+The width of the rectangle.
 - `Height`
-The height of the rectangle
+The height of the rectangle.
 - `R`
-a value range of 0-255 for the color red
+A value range of 0-255 for the color red.
 - `G`
-a value range of 0-255 for the color green
+A value range of 0-255 for the color green.
 - `B`
-a value range of 0-255 for the color blue
+A value range of 0-255 for the color blue.
 - `A`
-a value range of 0-255 for transparency (255 being no transparency)
+A value range of 0-255 for transparency (255 being no transparency)
 
 ## Return Value
 None.

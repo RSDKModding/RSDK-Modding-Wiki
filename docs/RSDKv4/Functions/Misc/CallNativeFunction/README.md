@@ -9,7 +9,7 @@ Depending of the amount of parameters needed for the callback, the function to u
 
 ## Parameters
 - `callbackFuncID`
-The index value of the callback
+The index value of the callback.
 - `param1`,`param2`,`param3`,`param4`
 
 ## Return Value

@@ -5,15 +5,15 @@ Resets an object in the `objectSlot` position to the `objectType`, `propertyValu
 
 ## Parameters
 - `objectSlot`
-The position of the object to reset
+The position of the object to reset.
 - `objectType`
-The updated type of object
+The updated type of object.
 - `propertyValue`
-The new Property Value of the object
+The new Property Value of the object.
 - `xPos`
-The new position of the object on the horizontal axis in world-space
+The new position of the object on the horizontal axis in world-space.
 - `yPos`
-The new position of the object on the vertical axis in world-space
+The new position of the object on the vertical axis in world-space.
 
 ## Return Value
 None.

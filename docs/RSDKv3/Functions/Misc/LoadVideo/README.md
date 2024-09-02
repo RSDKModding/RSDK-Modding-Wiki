@@ -5,7 +5,7 @@ Loads a video with the name of `VideoName`.
 
 ## Parameters
 - `VideoName`
-The name of the video, from path `Videos/`
+The name of the video, from path `Videos/`.
 
 ## Return Value
 None.
@@ -21,4 +21,4 @@ LoadVideo("Opening")
 ```
 
 ## Notes
-The supported video formats are .rsv and .ogv, the original mobile version uses .mp4
+The supported video formats are .rsv and .ogv, the original mobile version uses .mp4.

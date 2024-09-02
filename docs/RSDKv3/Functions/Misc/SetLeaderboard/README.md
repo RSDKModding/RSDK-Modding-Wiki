@@ -5,9 +5,9 @@ Sets the entry of the leaderboard with index of `ID` to `Result`.
 
 ## Parameters
 - `ID`
-The ID of the leaderboard to edit
+The ID of the leaderboard to edit.
 - `Result`
-The new leaderboard record
+The new leaderboard record.
 
 ## Return Value
 None.

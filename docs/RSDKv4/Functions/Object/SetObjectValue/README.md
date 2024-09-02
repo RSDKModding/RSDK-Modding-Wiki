@@ -5,11 +5,11 @@ Set the `object.value` of `entitySlot` corresponding to `valueID` to the value o
 
 ## Parameters
 - `value`
-New value for `bject.Value`
+New value for `bject.Value`.
 - `valueID`
-The corresponding `object.value` to set
+The corresponding `object.value` to set.
 - `entitySlot`
-The ID of the object to assign the new `object.value` value
+The ID of the object to assign the new `object.value` value.
 
 ## Return Value
 None.

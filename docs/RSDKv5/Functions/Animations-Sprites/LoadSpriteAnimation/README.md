@@ -6,7 +6,7 @@ Loads a Sprite Animation and returns the id of it.
 ## Parameters
 
 - `path`
-The file path to load the sprite animation file from, relative to `Data/Sprites/`
+The file path to load the sprite animation file from, relative to `Data/Sprites/`.
 
 - `scope`
 The asset's scope, may be `SCOPE_GLOBAL` or `SCOPE_STAGE`.

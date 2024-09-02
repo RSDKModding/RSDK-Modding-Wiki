@@ -9,7 +9,7 @@ Processes the animation applied to an animator.
 The animator used to handle animation of the frames.
 
 ## Return Value
-None
+None.
 
 ## Syntax
 === "C"

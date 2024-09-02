@@ -1,11 +1,11 @@
 # SetIdentityMatrix
 
 ## Description
-Sets the matrix of `MatID` to the identity state
+Sets the matrix of `MatID` to the identity state.
 
 ## Parameters
 - `MatID`
-The matrix to set the identity, valid matrices are MAT_WORLD, MAT_VIEW and MAT_TEMP
+The matrix to set the identity, valid matrices are MAT_WORLD, MAT_VIEW and MAT_TEMP.
 
 ## Return Value
 None.

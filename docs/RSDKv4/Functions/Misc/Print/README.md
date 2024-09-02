@@ -1,15 +1,15 @@
 # Print
 
 ## Description
-Prints a message to `log.txt`
+Prints a message to `log.txt`.
 
 ## Parameters
 - `Message`
-The string or int to be printed
+The string or int to be printed.
 - `isInt`
 `Message` will be printed as a string if `false`, and as an integer if `true`
 - `useEndLine`
-Jump line if true, otherwise keep on the same line
+Jump line if true, otherwise keep on the same line.
 
 ## Return Value
 None.

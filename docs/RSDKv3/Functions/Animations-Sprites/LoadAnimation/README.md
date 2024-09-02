@@ -1,11 +1,11 @@
 # LoadAnimation
 
 ## Description
-Loads an animation for the object to use
+Loads an animation for the object to use.
 
 ## Parameters
 - `Path`
-The file path to load the animation from, relative to `Data/Animations/`
+The file path to load the animation from, relative to `Data/Animations/`.
 
 ## Return Value
 None.

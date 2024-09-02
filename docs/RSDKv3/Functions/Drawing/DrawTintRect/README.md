@@ -5,13 +5,13 @@ Draws a tinted rectangle to a specified X and Y position in the screen.
 
 ## Parameters
 - `iXPos`
-The position of the rectangle on the horizontal axis in screen-space
+The position of the rectangle on the horizontal axis in screen-space.
 - `iYPos`
-The position of the rectangle on the vertical axis in screen-space
+The position of the rectangle on the vertical axis in screen-space.
 - `Width`
-The width of the rectangle
+The width of the rectangle.
 - `Height`
-The height of the rectangle
+The height of the rectangle.
 
 ## Return Value
 None.

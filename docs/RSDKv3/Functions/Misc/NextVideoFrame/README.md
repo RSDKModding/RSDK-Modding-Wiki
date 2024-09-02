@@ -1,7 +1,7 @@
 # NextVideoFrame
 
 ## Description
-Advances the video frame from an RSV video
+Advances the video frame from an RSV video.
 
 ## Parameters
 None.

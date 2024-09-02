@@ -5,13 +5,13 @@ Rotates all colors in `palBank` starting from `startIndex` through to `endIndex`
 
 ## Parameters
 - `PalBank`
-The ID of the palette bank for the palette to rotate, indices 0-7 are valid
+The ID of the palette bank for the palette to rotate, indices 0-7 are valid.
 - `StartIndex`
-The starting index of the palette bank for the rotation
+The starting index of the palette bank for the rotation.
 - `EndIndex`
-The ending index of the palette bank for the rotation
+The ending index of the palette bank for the rotation.
 - `RotDir`
-The direction of the rotation
+The direction of the rotation.
 
 ## Return Value
 None.
@@ -27,4 +27,4 @@ RotatePalette(2, 16, 24, 1)
 ```
 
 ## Note
-HW Renderer cannot use this function
+HW Renderer cannot use this function.

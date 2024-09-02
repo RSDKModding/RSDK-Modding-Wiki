@@ -1,15 +1,15 @@
 # TransformVertices
 
 ## Description
-Transform all vertices from `StartIndex` to `EndIndex` using `Matrix`
+Transform all vertices from `StartIndex` to `EndIndex` using `Matrix`.
 
 ## Parameters
 - `Matrix`
-The matrix used to transform the vertices, valid matrices are MAT_WORLD, MAT_VIEW and MAT_TEMP
+The matrix used to transform the vertices, valid matrices are MAT_WORLD, MAT_VIEW and MAT_TEMP.
 - `StartIndex`
-The start of the range of tranforming vertices
+The start of the range of tranforming vertices.
 - `EndIndex`
-The end of the range of tranforming vertices
+The end of the range of tranforming vertices.
 
 ## Return Value
 None.

@@ -1,17 +1,17 @@
 # Set16x16TileInfo
 
 ## Description
-Sets the info for `infoTile` from a tile at `tileX`, `tileY` to the new `value`
+Sets the info for `infoTile` from a tile at `tileX`, `tileY` to the new `value`.
 
 ## Parameters
 - `value`
-The new value for the tile's specified `infoType`
+The new value for the tile's specified `infoType`.
 - `tileX`
-Position of the 16x16 tile in the map on the horizontal axis
+Position of the 16x16 tile in the map on the horizontal axis.
 - `tileY`
-Position of the 16x16 tile in the map on the vertical axis
+Position of the 16x16 tile in the map on the vertical axis.
 - `infoType`
-The ID for the type of info that will be overwritten from the tile, valid values are: 
+The ID for the type of info that will be overwritten from the tile, valid values are:
     0 - TILEINFO_INDEX
     1 - TILEINFO_DIRECTION
     2 - TILEINFO_VISUALPLANE

@@ -5,19 +5,19 @@ Blends the currectly active palette, starting at `palIndex` through to `endIndex
 
 ## Parameters
 - `destPalBank`
-the ID of the palette for store, indices 0-7 are valid
+The ID of the palette for store, indices 0-7 are valid.
 - `R`
-a value range of 0-255 for the color red
+A value range of 0-255 for the color red.
 - `G`
-a value range of 0-255 for the color green
+A value range of 0-255 for the color green.
 - `B`
-a value range of 0-255 for the color blue
+A value range of 0-255 for the color blue.
 - `blendAmount`
-a value range of 0-255 for blending
+A value range of 0-255 for blending.
 - `startIndex`
-The starting index of the palette bank to blend
+The starting index of the palette bank to blend.
 - `endIndex`
-The ending index of the palette bank to blend
+The ending index of the palette bank to blend.
 
 ## Return Value
 None.

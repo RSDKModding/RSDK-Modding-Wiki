@@ -79,7 +79,7 @@
 - [ProcessPlayerControl](Object/ProcessPlayerControl/README.md)
 - [ResetObjectEntity](Object/ResetObjectEntity/README.md)
 
-   
+
 ## Sprites & Animations
 - [DrawObjectAnimation](Animations-Sprites/DrawObjectAnimation/README.md)
 - [DrawPlayerAnimation](Animations-Sprites/DrawPlayerAnimation/README.md)

@@ -1,13 +1,13 @@
 # MatrixRotate X/Y/Z
 
 ## Description
-Rotates `Matrix` to `Angle` on the specified axis
+Rotates `Matrix` to `Angle` on the specified axis.
 
 ## Parameters
 - `Matrix`
-The selected matrix for rotation, valid Matrices are MAT_WORLD, MAT_VIEW and MAT_TEMP
+The selected matrix for rotation, valid Matrices are MAT_WORLD, MAT_VIEW and MAT_TEMP.
 - `Angle`
-Angle of the rotation, values are 512-based
+Angle of the rotation, values are 512-based.
 
 ## Return Value
 None.

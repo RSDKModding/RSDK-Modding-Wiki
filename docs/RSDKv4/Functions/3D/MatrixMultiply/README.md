@@ -1,18 +1,18 @@
 # MatrixMultiply
 
 ## Description
-Multiplies `matrixA` by `matrixB`
+Multiplies `matrixA` by `matrixB`.
 
 ## Parameters
 - `matrixA`
-First factor of the multiplication
+First factor of the multiplication.
 - `matrixB`
-Second factor of the multiplication
+Second factor of the multiplication.
 
-valid Matrices for both factors are MAT_WORLD, MAT_VIEW and MAT_TEMP
+Valid Matrices for both factors are MAT_WORLD, MAT_VIEW and MAT_TEMP.
 
 ## Return Value
-The result will be stored in `matrixA`
+The result will be stored in `matrixA`.
 
 ## Syntax
 ```

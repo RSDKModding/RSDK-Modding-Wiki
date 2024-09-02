@@ -5,19 +5,19 @@ Draws the contents of `RowCount` rows, starting from `RowStart` in `Menu` at `XP
 
 ## Parameters
 - `Menu`
-The menu from where to read the text, MENU_1 or MENU_2 are valid
+The menu from where to read the text, MENU_1 or MENU_2 are valid.
 - `XPos`
-Position of the text on the horizontal axis
+Position of the text on the horizontal axis.
 - `YPos`
-Position of the text on the vertical axis
+Position of the text on the vertical axis.
 - `Scale`
-Scale of the text
+Scale of the text.
 - `Spacing`
-Space between each letter
+Space between each letter.
 - `RowStart`
-The starting index from where to read
+The starting index from where to read.
 - `RowCount`
-The amount of rows to draw
+The amount of rows to draw.
 
 
 ## Return Value

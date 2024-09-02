@@ -6,7 +6,7 @@ Gets a Hitbox from the animator's current frame.
 ## Parameters
 
 - `animator`
-- the animator to get the hitbox from. the animation entry will use `animator.frames` and the frame id uses `animator.frameID`.
+The animator to get the hitbox from. the animation entry will use `animator.frames` and the frame id uses `animator.frameID`.
 
 - `hitboxID`
 The hitbox id to retrieve, indices 0-7 are valid.

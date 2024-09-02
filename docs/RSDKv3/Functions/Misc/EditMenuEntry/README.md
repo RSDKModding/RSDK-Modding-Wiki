@@ -5,13 +5,13 @@ Edits an entry of `Menu` with the contents of `Text` in `RowID`, The text will d
 
 ## Parameters
 - `Menu`
-The menu to setup, MENU_1 or MENU_2 are valid
+The menu to setup, MENU_1 or MENU_2 are valid.
 - `Text`
-New text to add in the menu
+New text to add in the menu.
 - `RowID`
-The row to edit
+The row to edit.
 - `HighlightEntry`
-Boolean that determines if the text will be highlighted always
+Boolean that determines if the text will be highlighted always.
 
 
 ## Return Value

@@ -9,7 +9,7 @@ Converts a string into a sprite string. Calling this function will replace each 
 The sprite animation to use frames from.
 
 - `listID`
-the index of the animation in the animation list to use frames from.
+The index of the animation in the animation list to use frames from.
 
 - `string`
 The string to apply the frame indices to.

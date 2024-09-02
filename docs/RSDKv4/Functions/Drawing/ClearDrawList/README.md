@@ -1,11 +1,11 @@
 # ClearDrawList
 
 ## Description
-Removes all entries in drawList `layer`
+Removes all entries in drawList `layer`.
 
 ## Parameters
 - `layer`
-Layer of the drawList to clean
+Layer of the drawList to clean.
 
 ## Return Value
 None.

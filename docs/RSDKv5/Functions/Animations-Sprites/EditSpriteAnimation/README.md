@@ -9,7 +9,7 @@ Loads a Sprite Animation and returns the id of it.
 The sprite animation to be edited.
 
 - `listID`
-The index of the animation entry to be edited
+The index of the animation entry to be edited.
 
 - `name`
 The animation's name.
@@ -24,10 +24,10 @@ The number of frames in the animation.
 The speed of the animation.
 
 - `loopIndex`
-The index of the frame the animation should loop from
+The index of the frame the animation should loop from.
 
 - `rotationStyle`
-The style of rotation snapping to use for frames in this animation. 
+The style of rotation snapping to use for frames in this animation.
 
 ## Return Value
 None.

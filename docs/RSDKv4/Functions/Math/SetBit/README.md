@@ -1,15 +1,15 @@
 # SetBit
 
 ## Description
-Sets index `bitPos` of `value` to `bit` and updates `value` accordingly
+Sets index `bitPos` of `value` to `bit` and updates `value` accordingly.
 
 ## Parameters
 - `value`
-The variable to update
+The variable to update.
 - `bitPos`
-The position of the bit to set, indices 0-7 are valid
+The position of the bit to set, indices 0-7 are valid.
 - `bit`
-Updated boolean value
+Updated boolean value.
 
 ## Return Value
 None.

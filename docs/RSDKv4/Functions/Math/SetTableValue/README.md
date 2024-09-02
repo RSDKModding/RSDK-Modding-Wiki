@@ -1,15 +1,15 @@
 # SetTableValue
 
 ## Description
-Sets value on `table` at `index` to `value`
+Sets value on `table` at `index` to `value`.
 
 ## Parameters
 - `value`
 `index` new value
 - `index`
-Tables's index to set
+Tables's index to set.
 - `table`
-Name of the table from where to set the value
+Name of the table from where to set the value.
 
 ## Return Value
 None.

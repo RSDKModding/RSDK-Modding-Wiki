@@ -5,13 +5,13 @@ Creates a temporary object specified by `ObjectType`, `PropertyValue`, `XPos` an
 
 ## Parameters
 - `ObjectType`
-The type of object that will be created
+The type of object that will be created.
 - `PropertyValue`
-The Property Value of the object
+The Property Value of the object.
 - `XPos`
-The position of the object on the horizontal axis in world-space
+The position of the object on the horizontal axis in world-space.
 - `YPos`
-The position of the object on the vertical axis in world-space
+The position of the object on the vertical axis in world-space.
 
 ## Return Value
 `TempObjectPos` is set to the created object's `SlotID`.

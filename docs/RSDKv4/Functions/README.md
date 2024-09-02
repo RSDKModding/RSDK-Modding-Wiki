@@ -21,7 +21,7 @@
 - [PlaySfx](Audio/PlaySfx/README.md)
 - [StopSfx](Audio/StopSfx/README.md)
 - [SetSfxAttributes](Audio/SetSfxAttributes/README.md)
-- 
+-
 ## Deprecated
 - [DrawText](Deprecated/DrawText/README.md)
 - [LoadTextFont](Deprecated/LoadTextFont/README.md)

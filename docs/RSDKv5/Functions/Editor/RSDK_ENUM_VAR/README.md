@@ -12,7 +12,7 @@ The name of the enum var to add to the active variable. The value of the enum va
 **(UNUSED)** in the C API this is to visibly show what enum var correlates to what enum value in the code. This parameter never does anything in the code due to the way the system works in RSDKv5.
 
 ## Return Value
-None
+None.
 
 ## Syntax
 === "C"

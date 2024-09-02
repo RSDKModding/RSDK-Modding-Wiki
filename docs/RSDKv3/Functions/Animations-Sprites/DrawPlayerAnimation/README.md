@@ -1,7 +1,7 @@
 # DrawPlayerAnimation
 
 ## Description
-Draws the player at it's X and Y position, based on the loaded animation file and current `Player.Frame` and `Player.Animation` values
+Draws the player at it's X and Y position, based on the loaded animation file and current `Player.Frame` and `Player.Animation` values.
 
 ## Parameters
 None.
@@ -15,4 +15,4 @@ DrawPlayerAnimation()
 ```
 
 ## Notes
-Player animations cannot use transparency or scale
+Player animations cannot use transparency or scale.

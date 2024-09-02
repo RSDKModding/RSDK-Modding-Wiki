@@ -7,7 +7,7 @@ Removes the given Sprite Sheet from memory, if it is already loaded. This does *
 ## Parameters
 
 - `path`
-The file path of the target sprite sheet to remove, relative to `Data/Sprites/`
+The file path of the target sprite sheet to remove, relative to `Data/Sprites/`.
 
 ## Return Value
 

@@ -6,9 +6,9 @@ Plays the sound effect in the given slot in the StageConfig, looping it if set t
 ## Parameters
 
 - `sfx`
-The slot of the sound effect in the StageConfig
+The slot of the sound effect in the StageConfig.
 - `loop`
-Determines whether or not the sound effect should loop
+Determines whether or not the sound effect should loop.
 
 ## Return Value
 None.

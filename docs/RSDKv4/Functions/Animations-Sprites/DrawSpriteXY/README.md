@@ -5,11 +5,11 @@ Draws `Frame` to a specified X and Y position.
 
 ## Parameters
 - `Frame`
-The ID of the sprite to draw
+The ID of the sprite to draw.
 - `XPos`
-The position of the sprite on the horizontal axis in world-space
+The position of the sprite on the horizontal axis in world-space.
 - `YPos`
-The position of the sprite on the vertical axis in world-space
+The position of the sprite on the vertical axis in world-space.
 
 ## Return Value
 None.

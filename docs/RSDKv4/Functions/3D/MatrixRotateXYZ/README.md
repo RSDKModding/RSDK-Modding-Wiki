@@ -1,13 +1,13 @@
 # MatrixRotateXYZ
 
 ## Description
-Rotates `matrix` to `angleX`, `angleY` and `angleZ`
+Rotates `matrix` to `angleX`, `angleY` and `angleZ`.
 
 ## Parameters
 - `matrix`
-The selected matrix for rotation, valid Matrices are MAT_WORLD, MAT_VIEW and MAT_TEMP
+The selected matrix for rotation, valid Matrices are MAT_WORLD, MAT_VIEW and MAT_TEMP.
 - `angleX`, `angleY`, `angleZ`
-Angle of the rotation, values are 512-based
+Angle of the rotation, values are 512-based.
 
 ## Return Value
 None.

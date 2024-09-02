@@ -6,7 +6,7 @@ Loads a Sprite Sheet and assigns the id to `object.spritesheet`. The spritesheet
 ## Parameters
 
 - `path`
-The file path to load the sprite sheet from, relative to `Data/Sprites/`
+The file path to load the sprite sheet from, relative to `Data/Sprites/`.
 
 ## Return Value
 None.

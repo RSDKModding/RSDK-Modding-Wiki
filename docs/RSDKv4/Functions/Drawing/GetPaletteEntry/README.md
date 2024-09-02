@@ -1,7 +1,7 @@
 # GetPaletteEntry
 
 ## Description
-Gets the palette entry in `palBankID` at `palIndex` and stores it in `palStore`
+Gets the palette entry in `palBankID` at `palIndex` and stores it in `palStore`.
 
 ## Parameters
 - `palBankID`

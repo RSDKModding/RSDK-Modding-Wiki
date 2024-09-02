@@ -1,15 +1,15 @@
 # DrawSpriteScreenXY
 
 ## Description
-Draws `Frame` to a specified X and Y position in the screen
+Draws `Frame` to a specified X and Y position in the screen.
 
 ## Parameters
 - `Frame`
-The ID of the sprite to draw
+The ID of the sprite to draw.
 - `iXPos`
-The position of the sprite on the horizontal axis in screen-space
+The position of the sprite on the horizontal axis in screen-space.
 - `iYPos`
-The position of the sprite on the vertical axis in screen-space
+The position of the sprite on the vertical axis in screen-space.
 
 ## Return Value
 None.

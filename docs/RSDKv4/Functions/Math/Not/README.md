@@ -5,7 +5,7 @@ Performs a NOT operation on `value` and updates it (`value` = `~value`)
 
 ## Parameters
 - `value`
-The variable to negate
+The variable to negate.
 
 ## Return Value
 None.

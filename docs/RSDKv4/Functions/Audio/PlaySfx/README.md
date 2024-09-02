@@ -8,7 +8,7 @@ Plays the sound effect in the given slot in the GameConfig or StageConfig, loopi
 - `sfx`
 The slot of the sound effect. It's recommended to the `SfxName` alias for this.
 - `loop`
-Determines whether or not the sound effect should loop
+Determines whether or not the sound effect should loop.
 
 ## Return Value
 None.

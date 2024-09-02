@@ -9,7 +9,7 @@ Loads a Sprite Animation and returns the id of it.
 The sprite animation to use frames from.
 
 - `listID`
-the index of the animation in the animation list to use frames from.
+The index of the animation in the animation list to use frames from.
 
 - `string`
 The string that characters are retrieved from.

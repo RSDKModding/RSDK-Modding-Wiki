@@ -1,17 +1,17 @@
 # Get16x16TileInfo
 
 ## Description
-Gets the info of `InfoTile` from a tile at `TileX`, `TileY`. And stores it in `ChunkStore`
+Gets the info of `InfoTile` from a tile at `TileX`, `TileY`. And stores it in `ChunkStore`.
 
 ## Parameters
 - `ChunkStore`
-The variable that will store the tile's specified `InfoType` data
+The variable that will store the tile's specified `InfoType` data.
 - `TileX`
-Position of the 16x16 tile in the map on the horizontal axis
+Position of the 16x16 tile in the map on the horizontal axis.
 - `TileY`
-Position of the 16x16 tile in the map on the vertical axis
+Position of the 16x16 tile in the map on the vertical axis.
 - `InfoType`
-The ID for the type of info read from the tile, valid values are: 
+The ID for the type of info read from the tile, valid values are:
     0 - TILEINFO_INDEX
     1 - TILEINFO_DIRECTION
     2 - TILEINFO_VISUALPLANE
@@ -21,7 +21,7 @@ The ID for the type of info read from the tile, valid values are:
     6 - TILEINFO_ANGLEA
     7 - TILEINFO_FLAGSB
     8 - TILEINFO_ANGLEB
-    
+
 ## Return Value
 None.
 

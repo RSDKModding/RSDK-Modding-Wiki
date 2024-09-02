@@ -6,7 +6,7 @@ Sets the loop count and panning of the given sound effect slot in the GameConfig
 ## Parameters
 
 - `sfx`
-The slot of the sound effect in the GameConfig
+The slot of the sound effect in the GameConfig.
 - `loopCount`
 The number of times the sound effect should loop, if it's set to play on loop. Setting this to -1 will leave the loop count unchanged.
 - `panning`

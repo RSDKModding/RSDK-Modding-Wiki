@@ -1,15 +1,15 @@
 # RSDK_DRAWING_OVERLAY
 
 ## Description
-enables/disables "overlay" mode when drawing.
+Enables/disables "overlay" mode when drawing.
 
 ## Parameters
 
 - `isDrawingOverlay`
-Determines if the following code should be considered an "overlay", used for gizmos and stuff that shouldn't effect the selection area
+Determines if the following code should be considered an "overlay", used for gizmos and stuff that shouldn't effect the selection area.
 
 ## Return Value
-None
+None.
 
 ## Syntax
 === "C"

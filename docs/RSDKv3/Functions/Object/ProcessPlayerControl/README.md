@@ -1,7 +1,7 @@
 # ProcessPlayerControl
 
 ## Description
-Handles control inputs
+Handles control inputs.
 
 ## Parameters
 None.
