@@ -6,22 +6,28 @@ Called once per object class, once per frame if Object::[active](TODO) allows fo
 ## Parameters
 None.
 
-## Syntax (C)
-```c
-void StaticUpdate();
-```
+## Syntax
+=== "C"
 
-## Syntax (C++)
-```cpp
-static void StaticUpdate();
-```
+	```c
+	void StaticUpdate();
+	```
 
-## Examples (C)
-```c
-void MyObject_StaticUpdate() { }
-```
+=== "C++"
 
-## Examples (C++)
-```cpp
-void MyObject::StaticUpdate() { }
-```
+	```cpp
+	static void StaticUpdate();
+	```
+
+## Examples
+=== "C"
+
+	```c
+	void MyObject_StaticUpdate() { }
+	```
+
+=== "C++"
+
+	```cpp
+	void MyObject::StaticUpdate() { }
+	```

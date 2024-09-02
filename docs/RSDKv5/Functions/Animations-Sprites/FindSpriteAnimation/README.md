@@ -14,22 +14,28 @@ The name of the animation entry to search for.
 ## Return Value
 This function returns an id to the found animation entry as a `uint16`. The return value will be `-1` if the animation entry wasn't found.
 
-## Syntax (C)
-```c
-RSDK.FindSpriteAnimation(uint16 aniFrames, const char *name);
-```
+## Syntax
+=== "C"
 
-## Syntax (C++)
-```cpp
-SpriteAnimation.Find(const char *name);
-```
+	```c
+	RSDK.FindSpriteAnimation(uint16 aniFrames, const char *name);
+	```
 
-## Examples (C)
-```c
-uint16 listID = RSDK.LoadSpriteAnimation(MyObject->aniFrames, "My Animation Entry");
-```
+=== "C++"
 
-## Examples (C++)
-```cpp
-uint16 listID = sVars->aniFrames.Find(sVars->aniFrames, "My Animation Entry");
-```
+	```cpp
+	SpriteAnimation.Find(const char *name);
+	```
+
+## Examples
+=== "C"
+
+	```c
+	uint16 listID = RSDK.LoadSpriteAnimation(MyObject->aniFrames, "My Animation Entry");
+	```
+
+=== "C++"
+
+	```cpp
+	uint16 listID = sVars->aniFrames.Find(sVars->aniFrames, "My Animation Entry");
+	```

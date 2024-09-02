@@ -9,25 +9,31 @@ None.
 ## Return Value
 None.
 
-## Syntax (C)
-```c
-RSDK.ClearViewableVariables();
-```
+## Syntax
+=== "C"
 
-## Syntax (C++)
-```cpp
-Dev::ClearViewableVariables();
-```
+	```c
+	RSDK.ClearViewableVariables();
+	```
 
-## Examples (C)
-```c
-RSDK.ClearViewableVariables();
-```
+=== "C++"
 
-## Examples (C++)
-```cpp
-Dev::ClearViewableVariables();
-```
+	```cpp
+	Dev::ClearViewableVariables();
+	```
+
+## Examples
+=== "C"
+
+	```c
+	RSDK.ClearViewableVariables();
+	```
+
+=== "C++"
+
+	```cpp
+	Dev::ClearViewableVariables();
+	```
 
 ## Remarks
 This function is suppported by RSDKv5 Revision 02 & RSDKv5U only. It does not exist in RSDKv5 Revision 01.

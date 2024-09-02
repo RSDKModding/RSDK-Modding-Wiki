@@ -32,22 +32,28 @@ The style of rotation snapping to use for frames in this animation.
 ## Return Value
 None.
 
-## Syntax (C)
-```c
-RSDK.EditSpriteAnimation(uint16 aniFrames, uint16 listID, const char *name, int32 frameOffset, uint16 frameCount, int16 speed, uint8 loopIndex, uint8 rotationStyle);
-```
+## Syntax
+=== "C"
 
-## Syntax (C++)
-```cpp
-SpriteAnimation.Edit(uint16 listID, const char *name, int32 frameOffset, uint16 frameCount, int16 speed, uint8 loopIndex, uint8 rotationStyle);
-```
+	```c
+	RSDK.EditSpriteAnimation(uint16 aniFrames, uint16 listID, const char *name, int32 frameOffset, uint16 frameCount, int16 speed, uint8 loopIndex, uint8 rotationStyle);
+	```
 
-## Examples (C)
-```c
-RSDK.EditSpriteAnimation(MyObject->aniFrames, 1, "My Edited Anim", 8, 16, 1, 12, ROTSTYLE_NONE);
-```
+=== "C++"
 
-## Examples (C++)
-```cpp
-sVars->aniFrames.Edit(1, "My Edited Anim", 8, 16, 1, 12, Animator::RotateNone);
-```
+	```cpp
+	SpriteAnimation.Edit(uint16 listID, const char *name, int32 frameOffset, uint16 frameCount, int16 speed, uint8 loopIndex, uint8 rotationStyle);
+	```
+
+## Examples
+=== "C"
+
+	```c
+	RSDK.EditSpriteAnimation(MyObject->aniFrames, 1, "My Edited Anim", 8, 16, 1, 12, ROTSTYLE_NONE);
+	```
+
+=== "C++"
+
+	```cpp
+	sVars->aniFrames.Edit(1, "My Edited Anim", 8, 16, 1, 12, Animator::RotateNone);
+	```

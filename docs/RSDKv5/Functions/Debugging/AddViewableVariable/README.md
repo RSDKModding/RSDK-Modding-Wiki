@@ -23,25 +23,31 @@ The maximum value of the viewable variable (inclusive).
 ## Return Value
 None.
 
-## Syntax (C)
-```c
-RSDK.AddViewableVariable(const char *name, void *value, int32 type, int32 min, int32 max);
-```
+## Syntax
+=== "C"
 
-## Syntax (C++)
-```cpp
-Dev::AddViewableVariable(const char *name, void *value, int32 type, int32 min, int32 max);
-```
+	```c
+	RSDK.AddViewableVariable(const char *name, void *value, int32 type, int32 min, int32 max);
+	```
 
-## Examples (C)
-```c
-RSDK.AddViewableVariable("Debug Mode", &SceneInfo->debugMode, VIEWVAR_BOOL, false, true);
-```
+=== "C++"
 
-## Examples (C++)
-```cpp
-Dev::AddViewableVariable("Debug Mode", &sceneInfo->debugMode, Dev::VIEWVAR_BOOL, false, true)
-```
+	```cpp
+	Dev::AddViewableVariable(const char *name, void *value, int32 type, int32 min, int32 max);
+	```
+
+## Examples
+=== "C"
+
+	```c
+	RSDK.AddViewableVariable("Debug Mode", &SceneInfo->debugMode, VIEWVAR_BOOL, false, true);
+	```
+
+=== "C++"
+
+	```cpp
+	Dev::AddViewableVariable("Debug Mode", &sceneInfo->debugMode, Dev::VIEWVAR_BOOL, false, true)
+	```
 
 ## Remarks
 This function is suppported by RSDKv5 Revision 02 & RSDKv5U only. It does not exist in RSDKv5 Revision 01.

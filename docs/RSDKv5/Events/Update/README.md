@@ -6,22 +6,28 @@ Called once every frame per entity if Entity::[active](TODO) allows for it.
 ## Parameters
 None.
 
-## Syntax (C)
-```c
-void Update();
-```
+## Syntax
+=== "C"
 
-## Syntax (C++)
-```cpp
-void Update();
-```
+	```c
+	void Update();
+	```
 
-## Examples (C)
-```c
-void MyObject_Update() { }
-```
+=== "C++"
 
-## Examples (C++)
-```cpp
-void MyObject::Update() { }
-```
+	```cpp
+	void Update();
+	```
+
+## Examples
+=== "C"
+
+	```c
+	void MyObject_Update() { }
+	```
+
+=== "C++"
+
+	```cpp
+	void MyObject::Update() { }
+	```

@@ -17,22 +17,28 @@ The string to apply the frame indices to.
 ## Return Value
 None.
 
-## Syntax (C)
-```c
-RSDK.SetSpriteString(uint16 aniFrames, uint16 listID, String *string);
-```
+## Syntax
+=== "C"
 
-## Syntax (C++)
-```cpp
-String.SetSpriteString(SpriteAnimation aniFrames, uint16 listID);
-```
+    ```c
+    RSDK.SetSpriteString(uint16 aniFrames, uint16 listID, String *string);
+    ```
 
-## Examples (C)
-```c
-RSDK.LoadSpriteAnimation(MyObject->aniFrames, 0, &string);
-```
+=== "C++"
 
-## Examples (C++)
-```cpp
-string.Load(sVars->aniFrames, 0);
-```
+    ```cpp
+    String.SetSpriteString(SpriteAnimation aniFrames, uint16 listID);
+    ```
+
+## Examples
+=== "C"
+
+    ```c
+    RSDK.LoadSpriteAnimation(MyObject->aniFrames, 0, &string);
+    ```
+
+=== "C++"
+
+    ```cpp
+    string.Load(sVars->aniFrames, 0);
+    ```

@@ -6,22 +6,28 @@ Similar to [Draw](../Draw/README.md), though only called when the object class i
 ## Parameters
 None.
 
-## Syntax (C)
-```c
-void EditorDraw();
-```
+## Syntax
+=== "C"
 
-## Syntax (C++)
-```cpp
-void EditorDraw();
-```
+	```c
+	void EditorDraw();
+	```
 
-## Examples (C)
-```c
-void MyObject_EditorDraw() { }
-```
+=== "C++"
 
-## Examples (C++)
-```cpp
-void MyObject::EditorDraw() { }
-```
+	```cpp
+	void EditorDraw();
+	```
+
+## Examples
+=== "C"
+
+	```c
+	void MyObject_EditorDraw() { }
+	```
+
+=== "C++"
+
+	```cpp
+	void MyObject::EditorDraw() { }
+	```

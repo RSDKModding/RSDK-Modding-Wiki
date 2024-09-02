@@ -14,22 +14,28 @@ The hitbox id to retrieve, indices 0-7 are valid.
 ## Return Value
 This function returns a pointer the desired hitbox of the animator's current frame as a `Hitbox`. The return value will be `NULL` if an error occurred.
 
-## Syntax (C)
-```c
-RSDK.GetHitbox(Animator *animator, uint8 hitboxID);
-```
+## Syntax
+=== "C"
 
-## Syntax (C++)
-```cpp
-animator.GetHitbox(uint8 hitboxID);
-```
+	```c
+	RSDK.GetHitbox(Animator *animator, uint8 hitboxID);
+	```
 
-## Examples (C)
-```c
-Hitbox *hitbox = RSDK.GetHitbox(&animator, 0);
-```
+=== "C++"
 
-## Examples (C++)
-```cpp
-Hitbox *hitbox = animator.Load(0);
-```
+	```cpp
+	animator.GetHitbox(uint8 hitboxID);
+	```
+
+## Examples
+=== "C"
+
+	```c
+	Hitbox *hitbox = RSDK.GetHitbox(&animator, 0);
+	```
+
+=== "C++"
+
+	```cpp
+	Hitbox *hitbox = animator.Load(0);
+	```

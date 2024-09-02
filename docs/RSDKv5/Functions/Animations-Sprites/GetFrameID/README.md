@@ -11,22 +11,28 @@ Gets the `unicode char` value of the animator's current frame.
 ## Return Value
 This function returns the `unicode char` value of the animator's current frame as a `uint16`. The return value will be `0` if an error occurred.
 
-## Syntax (C)
-```c
-RSDK.GetFrameID(Animator *animator);
-```
+## Syntax
+=== "C"
 
-## Syntax (C++)
-```cpp
-animator.GetFrameID();
-```
+	```c
+	RSDK.GetFrameID(Animator *animator);
+	```
 
-## Examples (C)
-```c
-uint16 id = RSDK.GetFrameID(&animator);
-```
+=== "C++"
 
-## Examples (C++)
-```cpp
-uint16 id = animator.GetFrameID();
-```
+	```cpp
+	animator.GetFrameID();
+	```
+
+## Examples
+=== "C"
+
+	```c
+	uint16 id = RSDK.GetFrameID(&animator);
+	```
+
+=== "C++"
+
+	```cpp
+	uint16 id = animator.GetFrameID();
+	```

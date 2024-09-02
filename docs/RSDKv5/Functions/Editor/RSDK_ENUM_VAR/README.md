@@ -14,25 +14,31 @@ The name of the enum var to add to the active variable. The value of the enum va
 ## Return Value
 None
 
-## Syntax (C)
-```c
-RSDK_ENUM_VAR(const char* varName, int32 varValue);
-```
+## Syntax
+=== "C"
 
-## Syntax (C++)
-```cpp
-RSDK_ENUM_VAR(const char* varName);
-```
+	```c
+	RSDK_ENUM_VAR(const char* varName, int32 varValue);
+	```
 
-## Examples (C)
-```c
-RSDK_ENUM_VAR("Sonic", PLAYER_CHAR_SONIC);
-```
+=== "C++"
 
-## Examples (C++)
-```cpp
-RSDK_ENUM_VAR("Sonic");
-```
+	```cpp
+	RSDK_ENUM_VAR(const char* varName);
+	```
+
+## Examples
+=== "C"
+
+	```c
+	RSDK_ENUM_VAR("Sonic", PLAYER_CHAR_SONIC);
+	```
+
+=== "C++"
+
+	```cpp
+	RSDK_ENUM_VAR("Sonic");
+	```
 
 ## Remarks
 This is a macro, which is designed to make programming in RSDK easier. The underlying function is `void (*AddVarEnumValue)(const char *name)`, with `name` being the enum var's name as a string. The underlying function should NEVER be called as it's less safe than the macro, this remark is here for anyone wishing to learn about the internals or hoping to develop a wrapper for another language that doesn't support macros.

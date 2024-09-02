@@ -6,22 +6,28 @@ Called once per object class, upon the scene being loaded, no logic should be wr
 ## Parameters
 None.
 
-## Syntax (C)
-```c
-void Serialize();
-```
+## Syntax
+=== "C"
 
-## Syntax (C++)
-```cpp
-static void Serialize();
-```
+	```c
+	void Serialize();
+	```
 
-## Examples (C)
-```c
-void MyObject_Serialize() { }
-```
+=== "C++"
 
-## Examples (C++)
-```cpp
-void MyObject::Serialize() { }
-```
+	```cpp
+	static void Serialize();
+	```
+
+## Examples
+=== "C"
+
+	```c
+	void MyObject_Serialize() { }
+	```
+
+=== "C++"
+
+	```cpp
+	void MyObject::Serialize() { }
+	```

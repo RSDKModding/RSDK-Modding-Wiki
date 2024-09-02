@@ -11,22 +11,28 @@ The animator used to handle animation of the frames.
 ## Return Value
 None
 
-## Syntax (C)
-```c
-RSDK.ProcessAnimation(Animator *animator);
-```
+## Syntax
+=== "C"
 
-## Syntax (C++)
-```cpp
-animator.Process();
-```
+	```c
+	RSDK.ProcessAnimation(Animator *animator);
+	```
 
-## Examples (C)
-```c
-RSDK.ProcessAnimation(&animator);
-```
+=== "C++"
 
-## Examples (C++)
-```cpp
-animator.Process();
-```
+	```cpp
+	animator.Process();
+	```
+
+## Examples
+=== "C"
+
+	```c
+	RSDK.ProcessAnimation(&animator);
+	```
+
+=== "C++"
+
+	```cpp
+	animator.Process();
+	```

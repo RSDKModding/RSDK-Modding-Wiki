@@ -6,22 +6,28 @@ Called once every frame per entity if Entity::[active](TODO) allows for it. The 
 ## Parameters
 None.
 
-## Syntax (C)
-```c
-void Draw();
-```
+## Syntax
+=== "C"
 
-## Syntax (C++)
-```cpp
-void Draw();
-```
+	```c
+	void Draw();
+	```
 
-## Examples (C)
-```c
-void MyObject_Draw() { }
-```
+=== "C++"
 
-## Examples (C++)
-```cpp
-void MyObject::Draw() { }
-```
+	```cpp
+	void Draw();
+	```
+
+## Examples
+=== "C"
+
+	```c
+	void MyObject_Draw() { }
+	```
+
+=== "C++"
+
+	```cpp
+	void MyObject::Draw() { }
+	```

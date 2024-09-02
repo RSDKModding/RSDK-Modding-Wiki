@@ -22,3 +22,7 @@
 .md-typeset h2 {
     font-weight: bold;
 }
+
+.tabbed-labels {
+    background-color: var(--content-bg-color);
+}

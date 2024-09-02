@@ -6,22 +6,28 @@ Same as [Update](../Update/README.md), though this is called after [Update](../U
 ## Parameters
 None.
 
-## Syntax (C)
-```c
-void LateUpdate();
-```
+## Syntax
+=== "C"
 
-## Syntax (C++)
-```cpp
-void LateUpdate();
-```
+	```c
+	void LateUpdate();
+	```
 
-## Examples (C)
-```c
-void MyObject_LateUpdate() { }
-```
+=== "C++"
 
-## Examples (C++)
-```cpp
-void MyObject::LateUpdate() { }
-```
+	```cpp
+	void LateUpdate();
+	```
+
+## Examples
+=== "C"
+
+	```c
+	void MyObject_LateUpdate() { }
+	```
+
+=== "C++"
+
+	```cpp
+	void MyObject::LateUpdate() { }
+	```

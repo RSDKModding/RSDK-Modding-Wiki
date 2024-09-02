@@ -25,22 +25,28 @@ The index of the frame to set to.
 ## Return Value
 None.
 
-## Syntax (C)
-```c
-RSDK.SetSpriteAnimation(uint16 aniFrames, uint16 listID, Animator *animator, bool32 forceApply, int16 frameID);
-```
+## Syntax
+=== "C"
 
-## Syntax (C++)
-```cpp
-animator.SetAnimation(SpriteAnimation aniFrames, uint16 listID, bool32 forceApply, int16 frameID);
-```
+	```c
+	RSDK.SetSpriteAnimation(uint16 aniFrames, uint16 listID, Animator *animator, bool32 forceApply, int16 frameID);
+	```
 
-## Examples (C)
-```c
-animator.SetAnimation(MyObject->aniFrames, 0, true, 0);
-```
+=== "C++"
 
-## Examples (C++)
-```cpp
-this->animator.SetAnimation(sVars->aniFrames, 0, true, 0);
-```
+	```cpp
+	animator.SetAnimation(SpriteAnimation aniFrames, uint16 listID, bool32 forceApply, int16 frameID);
+	```
+
+## Examples
+=== "C"
+
+	```c
+	animator.SetAnimation(MyObject->aniFrames, 0, true, 0);
+	```
+
+=== "C++"
+
+	```cpp
+	this->animator.SetAnimation(sVars->aniFrames, 0, true, 0);
+	```

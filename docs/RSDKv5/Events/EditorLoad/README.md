@@ -6,22 +6,28 @@ Similar to [StageLoad](../StageLoad/README.md), though only called when the obje
 ## Parameters
 None.
 
-## Syntax (C)
-```c
-void EditorLoad();
-```
+## Syntax
+=== "C"
 
-## Syntax (C++)
-```cpp
-static void EditorLoad();
-```
+	```c
+	void EditorLoad();
+	```
 
-## Examples (C)
-```c
-void MyObject_EditorLoad() { }
-```
+=== "C++"
 
-## Examples (C++)
-```cpp
-void MyObject::EditorLoad() { }
-```
+	```cpp
+	static void EditorLoad();
+	```
+
+## Examples
+=== "C"
+
+	```c
+	void MyObject_EditorLoad() { }
+	```
+
+=== "C++"
+
+	```cpp
+	void MyObject::EditorLoad() { }
+	```
