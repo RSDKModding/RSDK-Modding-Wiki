@@ -1,12 +1,17 @@
 site_name: RSDK Modding Wiki
+site_description: Retro Engine modding guides and tools
+repo_url: https://github.com/RSDKModding/RSDK-Modding-Wiki
+repo_name: RSDK-Modding-Wiki
 theme:
   name: material
+  logo: assets/RSDK_Logo.svg
+  favicon: assets/RSDK_Icon_Color.svg
   features:
     - navigation.instant
     - navigation.indexes
     - navigation.sections
     - navigation.tabs
-    - navigation.path
+    - navigation.top
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -28,6 +33,13 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 
+extra_css:
+  - rsdk_theme/colors.css
+  - rsdk_theme/background.css
+  - rsdk_theme/header.css
+  - rsdk_theme/body.css
+extra_javascript:
+  - rsdk_theme/background.js
 
 nav:
   - Home: README.md
