@@ -75,33 +75,36 @@ nav:
   - Retro Engine:
     - Intro:
       - Intro/README.md
+
+    - RSonic:
+      - RSonic/README.md
+
+    - Nexus:
+      - Nexus/README.md
+
     - RSDKv3:
       - RSDKv3/README.md
       - Documentation:
         - Overview: RSDKv3/Overview/README.md
         - Events: RSDKv3/Events/README.md
-        - Functions: RSDKv3/Functions/README.md
-      # - Tools:
-      # - Tutorials:
-      # - Other resources:
+        - Functions:
+          - RSDKv3/Functions/README.md
+          - RSDKv3/Functions/README.md
+
     - RSDKv4:
       - RSDKv4/README.md
       - Documentation:
         - Overview: RSDKv4/Overview/README.md
         - Events: RSDKv4/Events/README.md
         - Functions: RSDKv4/Functions/README.md
-      # - Tools:
-      # - Tutorials:
-      # - Other resources:
+
     - RSDKv5:
       - RSDKv5/README.md
       - Documentation:
         - Overview: RSDKv5/Overview/README.md
         - Events: RSDKv5/Events/README.md
         - Functions: RSDKv5/Functions/README.md
-      # - Tools:
-      # - Tutorials:
-      # - Other resources:
+
   - Tools:
     - RSDK Anim Editor:
       - Tools/RSDK-Anim-Editor/README.md
