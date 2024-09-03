@@ -4,12 +4,12 @@ Retro Engine v4, debuting in 2013, is the version of RSDK used for the Sonic 1 a
 TODO: write info about RSDKv4 and anything relating to S1/S2
 
 ## Documentation
-- [Overview](./Overview)
-- [Events](./Events)
-- [Functions](./Functions)
+- [Overview](./Overview/README.md)
+- [Events](./Events/README.md)
+- [Functions](./Functions/README.md)
 
 ## Tools
-- [RSDK Animation Editor](./../Common/Tools/RSDK-Anim-Editor)
+- [RSDK Animation Editor](../Tools/RSDK-Anim-Editor/README.md)
 
 ## Tutorials
 - TODO: yo m

@@ -5,12 +5,12 @@ A version of the engine adding backwards compatibility with RSDKv3/4 games, amon
 TODO: write info about RSDKv5(U) and anything relating to Mania/S3
 
 ## Documentation
-- [Overview](./Overview)
-- [Events](./Events)
-- [Functions](./Functions)
+- [Overview](./Overview/README.md)
+- [Events](./Events/README.md)
+- [Functions](./Functions/README.md)
 
 ## Tools
-- [RSDK Animation Editor](./../Common/Tools/RSDK-Anim-Editor)
+- [RSDK Animation Editor](../Tools/RSDK-Anim-Editor/README.md)
 
 ## Tutorials
 
