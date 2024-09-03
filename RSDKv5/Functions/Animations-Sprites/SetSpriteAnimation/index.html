@@ -1231,14 +1231,12 @@ The sprite animation to use frames from. id 0-1023 is valid, any other values wi
 The index of the animation in the animation list to use frames from. negative indices or indices above the count are considered invalid and will result in the frames not being set.</p>
 </li>
 <li>
-<p><code>animator</code></p>
-</li>
-<li>
-<p>the animator to apply the frames to. in C++ this function is a instance method of the animator instead. See examples for further info.</p>
+<p><code>animator</code>
+The animator to apply the frames to. in C++ this function is a instance method of the animator instead. See examples for further info.</p>
 </li>
 <li>
 <p><code>forceApply</code>
-whether or not to forcefully set the animation.
+Whether or not to forcefully set the animation.
 If true then the frames will be set unless the parameters are invalid.
 If false then the frames will ONLY be set if they don't match the existing frames (same aniFrames, same listID, frameID is ignored) this allows multiple calls to not restart an animation if already playing.</p>
 </li>
