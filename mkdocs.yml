@@ -2,6 +2,7 @@ site_name: RSDK Modding Wiki
 site_description: Retro Engine modding guides and tools
 repo_url: https://github.com/RSDKModding/RSDK-Modding-Wiki
 repo_name: RSDK-Modding-Wiki
+copyright: Not affiliated with Evening Star or SEGA
 theme:
   name: material
   logo: assets/RSDK_Logo.svg
@@ -116,3 +117,11 @@ nav:
         - Animation Editor: Guides/RetroED-Guide/RetroED-AnimEditor.md
         - Scene Editor: Guides/RetroED-Guide/RetroED-ScnEditor.md
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/RSDKModding
+      name: RSDKModding GitHub
+    - icon: fontawesome/brands/discord
+      link: https://dc.railgun.works/retroengine
+      name: Retro Engine Modding Discord Server
