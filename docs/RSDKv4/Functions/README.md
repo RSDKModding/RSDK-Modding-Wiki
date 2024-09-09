@@ -21,7 +21,7 @@
 - [PlaySfx](Audio/PlaySfx.md)
 - [StopSfx](Audio/StopSfx.md)
 - [SetSfxAttributes](Audio/SetSfxAttributes.md)
--
+
 ## Deprecated
 - [DrawText](Deprecated/DrawText.md)
 - [LoadTextFont](Deprecated/LoadTextFont.md)
@@ -58,7 +58,7 @@
 
 ## Miscellaneous
 - [AddMenuEntry](Misc/AddMenuEntry.md)
-- [CallNativeFunction](Misc/CallNativeFunction.md)
+- [CallNativeFunction](Misc/CallNativeFunction/README.md)
 - [CheckTouchRect](Misc/CheckTouchRect.md)
 - [DrawMenu](Misc/DrawMenu.md)
 - [EditMenuEntry](Misc/EditMenuEntry.md)
