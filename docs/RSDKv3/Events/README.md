@@ -1,3 +1,3 @@
-# RSDK v3 Events
+# RSDKv3 Events
 
 TODO: this

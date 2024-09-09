@@ -1,4 +1,4 @@
-# RSDK v3 Functions
+# RSDKv3 Functions
 
 ## 3D
 - [Draw3DScene](3D/Draw3DScene.md)

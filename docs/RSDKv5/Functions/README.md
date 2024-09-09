@@ -1,4 +1,4 @@
-# RSDK v5 Functions
+# RSDKv5 Functions
 
 ## Spritesheets
 - [LoadSpriteSheet](SpriteSheets/LoadSpriteSheet.md)

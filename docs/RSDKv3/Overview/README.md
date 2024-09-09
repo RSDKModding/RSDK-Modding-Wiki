@@ -1,3 +1,3 @@
-# RSDK v3 Overview
+# RSDKv3 Overview
 
 TODO: this

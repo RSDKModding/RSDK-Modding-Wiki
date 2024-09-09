@@ -1,4 +1,4 @@
-# RSDK v5 Events
+# RSDKv5 Events
 
 Events can be easily thought of as "default functions" and are all called periodically during gameplay.
 To define events, you simply have to follow the syntax required for them.

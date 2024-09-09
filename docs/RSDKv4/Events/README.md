@@ -1,4 +1,4 @@
-# RSDK v4 Events
+# RSDKv4 Events
 
 RetroScript v4, the scripting language used by RSDKv4, is comprised three main events, along with three optional editor events. Events are akin to "default functions" of sorts, and are called by the engine every frame to achieve a specific task. To define events, `event [name]` is used to open one and `end event` is used to close one. The available events are as follows:
 
