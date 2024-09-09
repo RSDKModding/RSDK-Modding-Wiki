@@ -91,7 +91,7 @@ nav:
       - Decompilation: RSDKv3/Decompilation.md
       - Documentation:
         - Overview: RSDKv3/Overview/README.md
-        - Subs: RSDKv3/Subs/README.md
+        - Subs: RSDKv3/Subs.md
         - Functions: RSDKv3/Functions/README.md
 
     - RSDKv4:
@@ -99,7 +99,7 @@ nav:
       - Decompilation: RSDKv4/Decompilation.md
       - Documentation:
         - Overview: RSDKv4/Overview/README.md
-        - Events: RSDKv4/Events/README.md
+        - Events: RSDKv4/Events.md
         - Functions: RSDKv4/Functions/README.md
 
     - RSDKv5:
