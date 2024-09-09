@@ -58,7 +58,7 @@
 
 ## Miscellaneous
 - [AddMenuEntry](Misc/AddMenuEntry.md)
-- [CallNativeFunction](Misc/CallNativeFunction.md)
+- [CallNativeFunction](Misc/CallNativeFunction/README.md)
 - [CheckTouchRect](Misc/CheckTouchRect.md)
 - [DrawMenu](Misc/DrawMenu.md)
 - [EditMenuEntry](Misc/EditMenuEntry.md)
