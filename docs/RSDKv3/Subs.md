@@ -21,11 +21,20 @@ sub ObjectMain
 end sub
 ```
 
-!!! note
-	`ObjectMain` is parallel to the `ObjectUpdate` event seen in RSDKv4, though there the name was changed to match better.
+## ObjectPlayerInteraction
+Called after `ObjectMain` for each active player to handle interactions between the object and the player(s).
+
+``` title="Example"
+sub ObjectPlayerInteraction
+	PlayerObjectCollision(C_TOUCH, -8, -8, 8, 8)
+	if CheckResult == true
+		Object.State = 2
+	end if
+end sub
+```
 
 ## ObjectDraw
-Called once every frame (if priority allows) to draw the object. Although some objects in Sonic CD also have movement or animation processing code in this sub, it's strongly recommended to only include drawing code. Draw order is based on the object's `Object.drawOrder` value.
+Called once every frame (if priority allows) to draw the object. Although some objects in Sonic CD also have movement or animation processing code in this sub, it's strongly recommended to only include drawing code. Draw order is based on the object's `Object.DrawOrder` value.
 
 ``` title="Example"
 sub ObjectDraw
