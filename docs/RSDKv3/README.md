@@ -5,10 +5,11 @@ TODO: write info about RSDKv3 and anything relating to CD
 
 ## Documentation
 - [Overview](./Overview/README.md)
-- [Events](./Events/README.md)
+- [Subs](./Subs/README.md)
 - [Functions](./Functions/README.md)
 
 ## Tools
+- [RetroED](../Tools/RetroED/README.md)
 - [RSDK Animation Editor](../Tools/RSDK-Anim-Editor/README.md)
 
 ## Tutorials

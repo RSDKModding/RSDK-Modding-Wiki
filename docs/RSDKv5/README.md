@@ -10,6 +10,7 @@ TODO: write info about RSDKv5(U) and anything relating to Mania/S3
 - [Functions](./Functions/README.md)
 
 ## Tools
+- [RetroED](../Tools/RetroED/README.md)
 - [RSDK Animation Editor](../Tools/RSDK-Anim-Editor/README.md)
 
 ## Tutorials

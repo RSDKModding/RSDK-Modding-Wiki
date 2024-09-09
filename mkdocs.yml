@@ -12,6 +12,7 @@ theme:
     - navigation.sections
     - navigation.tabs
     - navigation.top
+    - content.code.copy
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -85,10 +86,8 @@ nav:
       - RSDKv3/README.md
       - Documentation:
         - Overview: RSDKv3/Overview/README.md
-        - Events: RSDKv3/Events/README.md
-        - Functions:
-          - RSDKv3/Functions/README.md
-          - RSDKv3/Functions/README.md
+        - Subs: RSDKv3/Subs/README.md
+        - Functions: RSDKv3/Functions/README.md
 
     - RSDKv4:
       - RSDKv4/README.md
@@ -109,6 +108,7 @@ nav:
       - Tools/RSDK-Anim-Editor/README.md
     - RetroED:
       - Tools/RetroED/README.md
+
   - Guides:
     - RetroED:
       - Guides/RetroED-Guide.md
