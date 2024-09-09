@@ -100,9 +100,6 @@ event RSDKLoad
 	LoadSpriteSheet("Global/Items.gif")
 	SpriteFrame(-8, -8, 16, 16, 1, 1)
 	SpriteFrame(-8, -8, 16, 16, 1, 18)
-	if Editor.ShowGizmos == true
-		DrawSprite(1)
-	end if
 
 	AddEditorVariable("alignment")
 	SetActiveVariable("alignment")
