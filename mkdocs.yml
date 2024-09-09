@@ -84,9 +84,11 @@ nav:
 
     - Nexus:
       - Nexus/README.md
+      - Decompilation: Nexus/Decompilation.md
 
     - RSDKv3:
       - RSDKv3/README.md
+      - Decompilation: RSDKv3/Decompilation.md
       - Documentation:
         - Overview: RSDKv3/Overview/README.md
         - Subs: RSDKv3/Subs/README.md
@@ -94,6 +96,7 @@ nav:
 
     - RSDKv4:
       - RSDKv4/README.md
+      - Decompilation: RSDKv4/Decompilation.md
       - Documentation:
         - Overview: RSDKv4/Overview/README.md
         - Events: RSDKv4/Events/README.md
@@ -101,6 +104,7 @@ nav:
 
     - RSDKv5:
       - RSDKv5/README.md
+      - Decompilation: RSDKv5/Decompilation.md
       - Documentation:
         - Overview: RSDKv5/Overview/README.md
         - Events: RSDKv5/Events/README.md
