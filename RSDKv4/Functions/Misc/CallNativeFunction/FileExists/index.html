@@ -1746,21 +1746,21 @@
 
 <h1 id="fileexists">FileExists</h1>
 <h2 id="description">Description</h2>
-<p>Todo.</p>
+<p>Checks if a file exists in the Data assets.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
-<li><code>todo</code>
-Todo.</li>
-<li><code>todo</code>
-Todo.</li>
+<li><code>unused</code>
+Unused parameter.</li>
+<li><code>filePath</code>
+The path to the target file, relative to the root of the Data assets.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
-<p>None.</p>
+<p>Sets <code>checkResult</code> to <code>true</code> if the given file exists, or <code>false</code> if it doesn't.</p>
 <h2 id="syntax">Syntax</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>CallNativeFunction2(NativeFunction, int todo, int todo)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>CallNativeFunction2(FileExists, int unused, string filePath)
 </span></code></pre></div>
 <h2 id="examples">Examples</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>CallNativeFunction2(NativeFunction, 0, 0)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>CallNativeFunction2(FileExists, 0, &quot;Data/Game/GameConfig.bin&quot;)
 </span></code></pre></div>
 
 

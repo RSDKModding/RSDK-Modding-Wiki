@@ -1746,21 +1746,19 @@
 
 <h1 id="notify_character_select">NOTIFY_CHARACTER_SELECT</h1>
 <h2 id="description">Description</h2>
-<p>Todo.</p>
+<p>Opens Sonic Origins's character select menu, then sets <code>game.callbackResult</code> and <code>game.continueFlag</code> when the menu is closed.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
-<li><code>todo</code>
-Todo.</li>
-<li><code>todo</code>
-Todo.</li>
+<li><code>unused</code>
+Unused parameter.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
-<p>None.</p>
+<p>If the menu is backed out of without selecting a save slot, <code>game.callbackResult</code> is set to <code>0</code>; otherwise, it's set to <code>1</code>. If the selected save slot is an existing save, <code>game.continueFlag</code> is set to <code>1</code>.</p>
 <h2 id="syntax">Syntax</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>CallNativeFunction2(NotifyCallback, int todo, int todo)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>CallNativeFunction2(NotifyCallback, NOTIFY_CHARACTER_SELECT, int unused)
 </span></code></pre></div>
 <h2 id="examples">Examples</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>CallNativeFunction2(NotifyCallback, 0, 0)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>CallNativeFunction2(NotifyCallback, NOTIFY_CHARACTER_SELECT, 0)
 </span></code></pre></div>
 
 

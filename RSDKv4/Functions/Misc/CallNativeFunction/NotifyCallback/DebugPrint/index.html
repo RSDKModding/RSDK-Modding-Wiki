@@ -1746,22 +1746,24 @@
 
 <h1 id="notify_debugprint">NOTIFY_DEBUGPRINT</h1>
 <h2 id="description">Description</h2>
-<p>Todo.</p>
+<p>Has no effect in-game, but would have likely printed the given values to the console in debug builds of Sonic Origins.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
-<li><code>todo</code>
-Todo.</li>
-<li><code>todo</code>
-Todo.</li>
+<li><code>value1</code>, <code>value2</code>, <code>value3</code>
+The values to (supposedly) print.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
 <p>None.</p>
 <h2 id="syntax">Syntax</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>CallNativeFunction2(NotifyCallback, int todo, int todo)
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>CallNativeFunction2(NotifyCallback, NOTIFY_DEBUGPRINT, int value1)
 </span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>CallNativeFunction4(NotifyCallback, NOTIFY_DEBUGPRINT, int value1, int value2, int value3)
+</span></code></pre></div></p>
 <h2 id="examples">Examples</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>CallNativeFunction2(NotifyCallback, 0, 0)
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>CallNativeFunction2(NotifyCallback, NOTIFY_DEBUGPRINT, object.state)
 </span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>CallNativeFunction4(NotifyCallback, NOTIFY_DEBUGPRINT, 100, object.propertyValue, object.timer)
+</span></code></pre></div></p>
 
 
 

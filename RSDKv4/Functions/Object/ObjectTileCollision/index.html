@@ -1759,7 +1759,7 @@
 <h2 id="parameters">Parameters</h2>
 <ul>
 <li><code>cSide</code>
-Determines to which side of the tile the object has to collide, it can be 0(CSIDE_FLOOR), 1(CSIDE_LWALL), 2(CSIDE_RWALL) or 3(CSIDE_ROOF)</li>
+Determines to which side of the tile the object has to collide. Can be <code>CSIDE_FLOOR</code>, <code>CSIDE_LWALL</code>, <code>CSIDE_RWALL</code>, or <code>CSIDE_ROOF</code>. In Sonic Origins, <code>CSIDE_LENTITY</code> and <code>CSIDE_RENTITY</code> are available as well.</li>
 <li><code>xOffset</code>
 Horizontal offset of the object.</li>
 <li><code>yOffset</code>
@@ -1773,7 +1773,7 @@ Collision plane to take into account.</li>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>ObjectTileCollision(int cSide, int xOffset, int yOffset, int cPlane)
 </span></code></pre></div>
 <h2 id="examples">Examples</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>ObjectTileCollision(1, -15, -4, 0)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>ObjectTileCollision(CSIDE_LWALL, -15, -4, 0)
 </span></code></pre></div>
 <h2 id="notes">Notes</h2>
 <p>This function is best used to check if a tile is there, not to move along it.</p>

@@ -1746,21 +1746,27 @@
 
 <h1 id="notify_controller_support">NOTIFY_CONTROLLER_SUPPORT</h1>
 <h2 id="description">Description</h2>
-<p>Todo.</p>
+<p>Opens the controller setup screen in the Nintendo Switch version of the game, then sets <code>game.callbackResult</code> based on the platform and controller count.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
-<li><code>todo</code>
-Todo.</li>
-<li><code>todo</code>
-Todo.</li>
+<li><code>unused</code>
+Unused parameter.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
-<p>None.</p>
+<p><code>game.callbackResult</code> is set based on the platform and controller count:
+<pre class="mermaid"><code>%%{init: {"flowchart": {"htmlLabels": false}} }%%
+graph LR
+  A[Callback called] --&gt; B{Is on Nintendo Switch version?}
+  B --&gt; |Yes| C[Wait until controller setup screen is closed]
+  C --&gt; D{Are two controllers connected?}
+  D --&gt; |Yes| E[game.callbackResult is set to 1]
+  D --&gt; |No| F[game.callbackResult is set to 0]
+  B --&gt; |No| E</code></pre></p>
 <h2 id="syntax">Syntax</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>CallNativeFunction2(NotifyCallback, int todo, int todo)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>CallNativeFunction2(NotifyCallback, NOTIFY_CONTROLLER_SUPPORT, int unused)
 </span></code></pre></div>
 <h2 id="examples">Examples</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>CallNativeFunction2(NotifyCallback, 0, 0)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>CallNativeFunction2(NotifyCallback, NOTIFY_CONTROLLER_SUPPORT, 0)
 </span></code></pre></div>
 
 
