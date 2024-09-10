@@ -1754,7 +1754,7 @@ Unused parameter.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
 <p><code>game.callbackResult</code> is set based on the platform and controller count:
-<pre class="mermaid"><code>graph LR
+<pre class="mermaid"><code>flowchart LR
   A[Callback called] --&gt; B{Is on Nintendo\nSwitch version?}
   B --&gt; |Yes| C[Wait until controller\nsetup screen is closed]
   C --&gt; D{Are two controllers\nconnected?}
