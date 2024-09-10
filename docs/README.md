@@ -20,7 +20,7 @@ The structure of the repository is as shown below: (TODO: Maybe add icons?)
 
     ---
 
-    Doumentation, Tools & Resources for RSDKv5
+    Documentation, Tools & Resources for RSDKv5
 
     [:octicons-arrow-right-24: RSDKv5](./RSDKv5/README.md)
 
@@ -28,7 +28,7 @@ The structure of the repository is as shown below: (TODO: Maybe add icons?)
 
     ---
 
-    Doumentation, Tools & Resources for RSDKv4
+    Documentation, Tools & Resources for RSDKv4
 
     [:octicons-arrow-right-24: RSDKv4](./RSDKv4/README.md)
 
@@ -36,7 +36,7 @@ The structure of the repository is as shown below: (TODO: Maybe add icons?)
 
     ---
 
-    Doumentation, Tools & Resources for RSDKv3
+    Documentation, Tools & Resources for RSDKv3
 
     [:octicons-arrow-right-24: RSDKv3](./RSDKv3/README.md)
 
@@ -44,7 +44,7 @@ The structure of the repository is as shown below: (TODO: Maybe add icons?)
 
     ---
 
-    Doumentation, Tools & Resources for Sonic Nexus
+    Documentation, Tools & Resources for Sonic Nexus
 
     [:octicons-arrow-right-24: Sonic Nexus](./Nexus/README.md)
 
@@ -52,7 +52,7 @@ The structure of the repository is as shown below: (TODO: Maybe add icons?)
 
     ---
 
-    Doumentation, Tools & Resources for Retro Sonic
+    Documentation, Tools & Resources for Retro Sonic
 
     [:octicons-arrow-right-24: Retro Sonic](./RSonic/README.md)
 
