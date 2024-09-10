@@ -1754,13 +1754,12 @@ Unused parameter.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
 <p><code>game.callbackResult</code> is set based on the platform and controller count:
-<pre class="mermaid"><code>%%{init: {"flowchart": {"htmlLabels": false}} }%%
-graph LR
-  A[Callback called] --&gt; B{Is on Nintendo Switch version?}
-  B --&gt; |Yes| C[Wait until controller setup screen is closed]
-  C --&gt; D{Are two controllers connected?}
-  D --&gt; |Yes| E[game.callbackResult is set to 1]
-  D --&gt; |No| F[game.callbackResult is set to 0]
+<pre class="mermaid"><code>graph LR
+  A[Callback called] --&gt; B{Is on Nintendo\nSwitch version?}
+  B --&gt; |Yes| C[Wait until controller\nsetup screen is closed]
+  C --&gt; D{Are two controllers\nconnected?}
+  D --&gt; |Yes| E[game.callbackResult\nis set to 1]
+  D --&gt; |No| F[game.callbackResult\nis set to 0]
   B --&gt; |No| E</code></pre></p>
 <h2 id="syntax">Syntax</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>CallNativeFunction2(NotifyCallback, NOTIFY_CONTROLLER_SUPPORT, int unused)
