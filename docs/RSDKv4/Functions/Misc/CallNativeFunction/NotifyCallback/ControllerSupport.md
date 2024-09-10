@@ -10,7 +10,7 @@ Unused parameter.
 ## Return Value
 `game.callbackResult` is set based on the platform and controller count:
 ``` mermaid
-graph LR
+flowchart LR
   A[Callback called] --> B{Is on Nintendo\nSwitch version?}
   B --> |Yes| C[Wait until controller\nsetup screen is closed]
   C --> D{Are two controllers\nconnected?}
