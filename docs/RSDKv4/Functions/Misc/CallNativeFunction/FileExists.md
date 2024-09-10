@@ -1,23 +1,23 @@
 # FileExists
 
 ## Description
-Todo.
+Checks if a file exists in the Data assets.
 
 ## Parameters
-- `todo`
-Todo.
-- `todo`
-Todo.
+- `unused`
+Unused parameter.
+- `filePath`
+The path to the target file, relative to the root of the Data assets.
 
 ## Return Value
-None.
+Sets `checkResult` to `true` if the given file exists, or `false` if it doesn't.
 
 ## Syntax
 ```
-CallNativeFunction2(NativeFunction, int todo, int todo)
+CallNativeFunction2(FileExists, int unused, string filePath)
 ```
 
 ## Examples
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(FileExists, 0, "Data/Game/GameConfig.bin")
 ```

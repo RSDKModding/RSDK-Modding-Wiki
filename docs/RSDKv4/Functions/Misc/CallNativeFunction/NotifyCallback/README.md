@@ -3,7 +3,7 @@
 ## Description
 Sends the given callback to communicate to Hedgehog Engine 2.
 
-Unlike native functions, NotifyCallback callbacks do not have their IDs automatically set by the engine; they must be manually specified instead. However, Sonic Team still elected to define callback names as global varaiables.
+Unlike native functions, NotifyCallback callbacks do not have their IDs automatically set by the engine; they must be manually specified instead. However, Sonic Team still elected to define callback aliases as global varaiables.
 
 This native function only exists in Sonic Origins.
 

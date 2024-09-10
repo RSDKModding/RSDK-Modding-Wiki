@@ -1,23 +1,21 @@
 # NOTIFY_ADD_COIN
 
 ## Description
-Todo.
+Awards the player the given amount of coins.
 
 ## Parameters
-- `todo`
-Todo.
-- `todo`
-Todo.
+- `count`
+The number of coins to give the player.
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-CallNativeFunction2(NotifyCallback, int todo, int todo)
+CallNativeFunction2(NotifyCallback, NOTIFY_ADD_COIN, int count)
 ```
 
 ## Examples
 ```
-CallNativeFunction2(NotifyCallback, 0, 0)
+CallNativeFunction2(NotifyCallback, NOTIFY_ADD_COIN, 1)
 ```

@@ -21,6 +21,9 @@ sub ObjectMain
 end sub
 ```
 
+!!! note
+	`ObjectMain` is parallel to the `ObjectUpdate` event seen in RSDKv4, though there the name was changed to match better.
+
 ## ObjectPlayerInteraction
 Called after `ObjectMain` for each active player to handle interactions between the object and the player(s).
 
