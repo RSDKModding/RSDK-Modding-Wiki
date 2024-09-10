@@ -10,13 +10,12 @@ Unused parameter.
 ## Return Value
 `game.callbackResult` is set based on the platform and controller count:
 ``` mermaid
-%%{init: {"flowchart": {"htmlLabels": false}} }%%
 graph LR
-  A[Callback called] --> B{Is on Nintendo Switch version?}
-  B --> |Yes| C[Wait until controller setup screen is closed]
-  C --> D{Are two controllers connected?}
-  D --> |Yes| E[game.callbackResult is set to 1]
-  D --> |No| F[game.callbackResult is set to 0]
+  A[Callback called] --> B{Is on Nintendo\nSwitch version?}
+  B --> |Yes| C[Wait until controller\nsetup screen is closed]
+  C --> D{Are two controllers\nconnected?}
+  D --> |Yes| E[game.callbackResult\nis set to 1]
+  D --> |No| F[game.callbackResult\nis set to 0]
   B --> |No| E
 ```
 
