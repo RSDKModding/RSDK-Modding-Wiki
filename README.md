@@ -1,6 +1,6 @@
 <h1>
     <a href="#rsdk">
-        <img width="120" align="left" src="docs/assets/RSDK_Icon_Color.svg">
+        <img width="120" align="left" src="docs/favicon.svg">
     </a>
     RSDK<span style="font-weight: 200;"> Modding Wiki</span>
 </h1>
