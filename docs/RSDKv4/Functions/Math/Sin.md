@@ -1,7 +1,7 @@
 # Sin
 
 ## Description
-Gets the value from lookup table `sin512` based on `angle` and sets it in `store`.
+Gets the value from the `sin512` lookup table based on `angle` and sets it in `store`.
 
 ## Parameters
 - `store`
@@ -10,14 +10,14 @@ The variable to store the result.
 The value of angle.
 
 ## Return Value
-None.
+Sets `store` to the result.
 
 ## Syntax
 ```
 Sin(var store, int angle)
 ```
 
-## Examples
+## Example
 ```
 Sin(object.value3, temp0)
 ```

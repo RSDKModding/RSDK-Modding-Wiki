@@ -1,27 +1,27 @@
 # CheckTouchRect
 
 ## Description
-Check if there was a touch input between the inputted coordinates.
+Checks if there's a touch input between the given coordinates.
 
 ## Parameters
-- `X1`
+- `x1`
 Left side of the rectangle.
-- `X2`
-Right side of the rectangle.
-- `Y1`
+- `y1`
 Top side of the rectangle.
-- `Y2`
+- `x2`
+Right side of the rectangle.
+- `y2`
 Bottom side of the rectangle.
 
 ## Return Value
-Will set `checkResult` to `true` if there was a touch press inside the rectangle.
+Sets `checkResult` to the ID of the touch input within the coordinates. If there are no such touch inputs, `checkResult` is set to `-1`.
 
 ## Syntax
 ```
-CheckTouchRect(int X1, int Y1, int X2, int Y2)
+CheckTouchRect(int x1, int y1, int x2, int y2)
 ```
 
-## Examples
+## Example
 ```
-CheckTouchRect(0, 0, Screen.XSize, Screen.YSize)
+CheckTouchRect(0, 0, screen.xsize, screen.ysize)
 ```

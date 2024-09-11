@@ -1,17 +1,17 @@
 # SetTileLayerEntry
 
 ## Description
-Sets the Chunk at `chunkX`, `chunkY` on tilelayer `layer` to the index of `value`.
+Sets the chunk at `chunkX`, `chunkY` in tile layer `layer` to the index of `value`.
 
 ## Parameters
 - `value`
 The index value of the new chunk.
 - `layer`
 The ID of the layer where the chunk comes from, valid values are:
-    0(DEFORM_FG)
-    1(DEFORM_FG_WATER)
-    2(DEFORM_BG)
-    3(DEFORM_BG_WATER)
+    - 0 (DEFORM_FG)
+    - 1 (DEFORM_FG_WATER)
+    - 2 (DEFORM_BG)
+    - 3 (DEFORM_BG_WATER)
 - `chunkX`
 Position of the 128x128 chunk in the map on the horizontal axis.
 - `chunkY`
@@ -25,7 +25,7 @@ None.
 SetTileLayerEntry(int value, int layer, int chunkX, int chunkY)
 ```
 
-## Examples
+## Example
 ```
 SetTileLayerEntry(35, 0, 24, 96)
 ```

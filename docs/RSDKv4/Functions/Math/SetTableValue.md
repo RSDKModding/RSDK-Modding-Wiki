@@ -1,13 +1,13 @@
 # SetTableValue
 
 ## Description
-Sets value on `table` at `index` to `value`.
+Sets the value at `index` from `table` to `value`.
 
 ## Parameters
 - `value`
-`index` new value
+The value to replace `index` with.
 - `index`
-Tables's index to set.
+The index to replace the value of.
 - `table`
 Name of the table from where to set the value.
 
@@ -19,7 +19,7 @@ None.
 SetTableValue(int value, int index, table)
 ```
 
-## Examples
+## Example
 ```
 SetTableValue(55, 3, TestObject_Table)
 ```

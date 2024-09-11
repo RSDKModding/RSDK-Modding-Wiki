@@ -1,25 +1,25 @@
 # GetPaletteEntry
 
 ## Description
-Gets the palette entry in `palBankID` at `palIndex` and stores it in `palStore`.
+Gets the palette entry in `bank` at `index` and stores it in `store`.
 
 ## Parameters
-- `palBankID`
+- `bank`
 Palette bank from where to get the entry, valid value range: 0-7.
-- `palIndex`
+- `index`
 Index of the entry to copy, valid value range: 0-255.
-- `palStore`
+- `store`
 Variable to store the copied palette.
 
 ## Return Value
-None.
+Sets `store` to the retrieved color.
 
 ## Syntax
 ```
-GetPaletteEntry(int palBankID, int palIndex, var palStore)
+GetPaletteEntry(int bank, int index, var store)
 ```
 
-## Examples
+## Example
 ```
 GetPaletteEntry(3, 131, temp6)
 ```

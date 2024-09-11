@@ -1,26 +1,25 @@
 # DrawMenu
 
 ## Description
-Draws `menu` at `xPos` and `yPos` relative to the screen.
+Draws `menu` at `xpos` and `ypos` relative to the screen.
 
 ## Parameters
 - `menu`
-The menu to draw, MENU_1 or MENU_2 are valid.
-- `xPos`
+The menu to draw. MENU_1 or MENU_2 are valid.
+- `xpos`
 Position of the menu on the horizontal axis.
-- `yPos`
+- `ypos`
 Position of the menu on the vertical axis.
-
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-DrawMenu(int menu, int xPos, int yPos)
+DrawMenu(int menu, int xpos, int ypos)
 ```
 
-## Examples
+## Example
 ```
 DrawMenu(MENU_1, screen.xcenter, screen.ycenter)
 ```

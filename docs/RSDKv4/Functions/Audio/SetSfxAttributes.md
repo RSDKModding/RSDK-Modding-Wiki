@@ -20,7 +20,7 @@ None.
 SetSfxAttributes(int sfx, int loopCount, int panning)
 ```
 
-## Examples
+## Example
 ```
 SetSfxAttributes(SfxName[Test], 5, -50)
 ```

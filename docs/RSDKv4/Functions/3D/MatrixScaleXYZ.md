@@ -17,7 +17,7 @@ None.
 MatrixScaleXYZ(mat matrix, int scaleX, int scaleY, int scaleZ)
 ```
 
-## Examples
+## Example
 ```
 MatrixScaleXYZ(MAT_VIEW, 0x200, 0x1A0, 0x180)
 ```

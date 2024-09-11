@@ -1,25 +1,25 @@
 ## SetDrawListEntityRef
 
 ## Description
-Sets `objectPos` in the drawList layer to the value of `newValue`.
+Sets `objectPos` in drawList `layer` to `value`.
 
 ## Parameters
+- `value`
+The new value for `objectPos`.
 - `layer`
-The Layer of the drawList to add the reference, indices 0-7 are valid, additionally 8 is available in V5U.
+The Layer of the drawList to add the reference. Indices 0-6 are valid, as well as 7 in RSDKv5U.
 - `objectPos`
 The position of the object to add.
-- `newValue`
-The new value for `objectPos`.
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-SetDrawListEntityRef(int newValue, int layer, int objectPos)
+SetDrawListEntityRef(int value, int layer, int objectPos)
 ```
 
-## Examples
+## Example
 ```
 SetDrawListEntityRef(object.value0, 4, object.entityPos)
 ```

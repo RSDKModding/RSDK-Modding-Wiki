@@ -15,7 +15,7 @@ If the menu is backed out of without selecting a save slot, `game.callbackResult
 CallNativeFunction2(NotifyCallback, NOTIFY_CHARACTER_SELECT, int unused)
 ```
 
-## Examples
+## Example
 ```
 CallNativeFunction2(NotifyCallback, NOTIFY_CHARACTER_SELECT, 0)
 ```

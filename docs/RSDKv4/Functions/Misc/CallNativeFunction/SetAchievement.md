@@ -1,7 +1,10 @@
 # SetAchievement
 
 ## Description
-Sets the status of the given achievement. This function does nothing if trial mode or debug mode are enabled.
+Sets the status of the given achievement.
+
+!!! note
+    This function has no effect if trial mode or debug mode are enabled.
 
 ## Parameters
 - `id`
@@ -17,7 +20,7 @@ None.
 CallNativeFunction2(SetAchievement, int id, int status)
 ```
 
-## Examples
+## Example
 ```
 CallNativeFunction2(SetAchievement, 0, 100)
 ```

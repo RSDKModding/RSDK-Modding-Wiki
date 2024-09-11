@@ -17,7 +17,7 @@ None.
 CallNativeFunction2(NativeFunction, int todo, int todo)
 ```
 
-## Examples
+## Example
 ```
 CallNativeFunction2(NativeFunction, 0, 0)
 ```

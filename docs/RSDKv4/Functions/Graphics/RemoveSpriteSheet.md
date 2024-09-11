@@ -1,11 +1,13 @@
 # RemoveSpriteSheet
 
 ## Description
+Removes the given spritesheet from memory, if it is already loaded.
 
-Removes the given Sprite Sheet from memory, if it is already loaded. This does *not* delete the file from the computer or anything, it purely only affects the game memory.
+!!! note
+    - This function does not affect files in the datafile or device storage, only the engine memory.
+    - Spritesheets loaded from animation files cannot be removed.
 
 ## Parameters
-
 - `path`
 The file path of the target sprite sheet to remove, relative to `Data/Sprites/`.
 
@@ -18,7 +20,7 @@ None.
 RemoveSpriteSheet(string path)
 ```
 
-## Examples
+## Example
 ```
 RemoveSpriteSheet("Test/Objects.gif")
 ```

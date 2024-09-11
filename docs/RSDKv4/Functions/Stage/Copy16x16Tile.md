@@ -1,7 +1,7 @@
 # Copy16x16Tile
 
 ## Description
-Copies the tileset image data of `scrTile` into `destTile`.
+Copies the tileset image data of `scrTile` to `destTile`.
 
 ## Parameters
 - `destTile`
@@ -17,7 +17,7 @@ None.
 Copy16x16Tile(int destTile, int scrTile)
 ```
 
-## Examples
+## Example
 ```
 Copy16x16Tile(174, 173)
 ```

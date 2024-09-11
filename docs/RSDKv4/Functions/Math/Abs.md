@@ -15,7 +15,7 @@ Updates `value` with the result.
 Abs(var value)
 ```
 
-## Examples
+## Example
 ```
 Abs(object.value3)
 ```

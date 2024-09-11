@@ -19,7 +19,7 @@ The result will be stored in `matrixA`.
 MatrixMultiply(mat matrixA, mat matrixB)
 ```
 
-## Examples
+## Example
 ```
 MatrixMultiply(mat matrixA, mat matrixB)
 ```

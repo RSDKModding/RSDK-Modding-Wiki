@@ -16,7 +16,7 @@ None.
 PlayMusic(int trackID)
 ```
 
-## Examples
+## Example
 ```
 PlayMusic(0)
 ```

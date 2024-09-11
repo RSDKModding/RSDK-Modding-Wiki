@@ -1,23 +1,23 @@
 # Cos
 
 ## Description
-Gets the value from lookup table `cos512` based on `angle` and sets it in `store`.
+Gets the value from the `cos512` lookup table based on `angle` and sets it in `store`.
 
 ## Parameters
 - `store`
 The variable to store the result.
-- `sngle`
+- `angle`
 The value of angle.
 
 ## Return Value
-None.
+Sets `store` to the result.
 
 ## Syntax
 ```
 Cos(var store, int angle)
 ```
 
-## Examples
+## Example
 ```
 Cos(temp0, object.value2)
 ```

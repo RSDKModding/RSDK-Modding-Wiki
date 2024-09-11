@@ -1,7 +1,7 @@
 # LoadStage
 
 ## Description
-Loads a stage based on `stage.listPos` and `stage.activeList`.
+Loads a stage based on `stage.activeList` and `stage.listPos`.
 
 ## Parameters
 None.
@@ -9,7 +9,7 @@ None.
 ## Return Value
 None.
 
-## Syntax
+## Example
 ```
 LoadStage()
 ```

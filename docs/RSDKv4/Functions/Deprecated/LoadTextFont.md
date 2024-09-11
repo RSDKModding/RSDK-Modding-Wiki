@@ -1,8 +1,10 @@
 # LoadTextFont
 
+!!! failure "Deprecated"
+    This function was removed from RSDKv4 in REV02.
+
 ## Description
 Loads a bitmap font from `filePath` for use with text menus.
-(Removed from the engine in REV02)
 
 ## Parameters
 - `filePath`
@@ -16,7 +18,7 @@ None.
 LoadTextFont("string filePath")
 ```
 
-## Examples
+## Example
 ```
 LoadTextFont("Data/Game/SystemText.gif")
 ```

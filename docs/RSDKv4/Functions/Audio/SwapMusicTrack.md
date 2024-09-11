@@ -22,7 +22,7 @@ None.
 SwapMusicTrack(string path, int trackID, int loopPoint, int ratio)
 ```
 
-## Examples
+## Example
 ```
 SwapMusicTrack("Test2xSpeed.ogg", 0, 1, 20000)
 ```

@@ -10,14 +10,14 @@ The variable to store the result.
 The values used in the arctan operation.
 
 ## Return Value
-None.
+Sets `store` to the result.
 
 ## Syntax
 ```
 ATan2(var store, int x, int y)
 ```
 
-## Examples
+## Example
 ```
 ATan2(temp1, object.value5, temp0)
 ```

@@ -1,35 +1,35 @@
 # DrawRect
 
 ## Description
-Draws a rectangle to a specified X and Y position in the screen with a color based on combination of red, green, blue and transparency.
+Draws a rectangle to `ixpos` and `iypos` in screen-space, with a color based on the `r`, `g`, `b`, and `alpha`.
 
 ## Parameters
-- `ixPos`
+- `ixpos`
 The position of the rectangle on the horizontal axis in screen-space.
-- `iyPos`
+- `iypos`
 The position of the rectangle on the vertical axis in screen-space.
 - `width`
 The width of the rectangle.
 - `height`
 The height of the rectangle.
-- `R`
+- `r`
 A value range of 0-255 for the color red.
-- `G`
+- `g`
 A value range of 0-255 for the color green.
-- `B`
+- `b`
 A value range of 0-255 for the color blue.
-- `A`
-A value range of 0-255 for transparency (255 being no transparency)
+- `alpha`
+A value range of 0-255 for transparency (255 being no transparency).
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-DrawTintRect(int ixPos, int iyPos, int width, int height, int R, int G, int B, int A)
+DrawTintRect(int ixpos, int iypos, int width, int height, int r, int g, int b, int alpha)
 ```
 
-## Examples
+## Example
 ```
 DrawRect(30, 220, 60, 20, 255, 128, 128, 255)
 ```

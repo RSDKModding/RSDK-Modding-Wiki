@@ -1,12 +1,12 @@
 # SetObjectRange
 
 ## Description
-Changes internal bounds.
-Used mainly so attract mode looks the same regardless of current screen width.
+Changes internal bounds, affecting all objects.
+Used mainly so that objects behave the same regardless of current screen width in attract mode.
 
 ## Parameters
 - `width`
-New internal width of the object.
+The new horizantal boundaries for objects.
 
 ## Return Value
 None.
@@ -16,7 +16,7 @@ None.
 SetObjectRange(int width)
 ```
 
-## Examples
+## Example
 ```
 SetObjectRange(424)
 ```

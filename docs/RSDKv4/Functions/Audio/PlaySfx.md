@@ -18,7 +18,7 @@ None.
 PlaySfx(int sfx, bool loop)
 ```
 
-## Examples
+## Example
 ```
 PlaySfx(SfxName[Test], false)
 ```

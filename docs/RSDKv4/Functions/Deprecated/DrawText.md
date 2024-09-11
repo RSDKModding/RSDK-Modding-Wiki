@@ -1,8 +1,10 @@
 # DrawText
 
+!!! failure "Deprecated"
+    This function was removed from RSDKv4 in REV02.
+
 ## Description
-Draws the contents of `rowCount` rows, starting from `rowStart` in `menu` at `xPos` and `yPos` relative to the screen. Using `spacing` pixels between them and scalling it with `scale`.
-(Removed from the engine in REV02)
+Draws the contents of `rowCount` rows, starting from `rowStart` in `menu` at `xPos` and `yPos` relative to the screen, using `spacing` pixels between them and scaling it with `scale`.
 
 ## Parameters
 - `menu`
@@ -29,7 +31,7 @@ None.
 DrawText(int menu, int xPos, int yPos, int scale, int spacing, int rowStart, int rowCount)
 ```
 
-## Examples
+## Example
 ```
 DrawText(MENU_1, temp0, temp1, 192, 0, 0, 1)
 ```

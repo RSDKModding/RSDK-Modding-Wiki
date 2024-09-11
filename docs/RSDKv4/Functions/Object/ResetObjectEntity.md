@@ -1,18 +1,18 @@
 # ResetObjectEntity
 
 ## Description
-Resets an object in the `objectSlot` position to the `objectType`, `propertyValue`, `xPos` and `yPos` specified.
+Resets an object in the `slot` position with the `type`, `propertyValue`, `xpos` and `ypos` specified.
 
 ## Parameters
-- `objectSlot`
-The position of the object to reset.
-- `objectType`
-The updated type of object.
+- `slot`
+The index of the object to reset.
+- `type`
+The new type of the object.
 - `propertyValue`
-The new Property Value of the object.
-- `xPos`
+The new property value of the object.
+- `xpos`
 The new position of the object on the horizontal axis in world-space.
-- `yPos`
+- `ypos`
 The new position of the object on the vertical axis in world-space.
 
 ## Return Value
@@ -20,10 +20,10 @@ None.
 
 ## Syntax
 ```
-ResetObjectEntity(int objectSlot, int objectType, int propertyValue, int xPos, int yPos)
+ResetObjectEntity(int slot, int type, int propertyValue, int xpos, int ypos)
 ```
 
-## Examples
+## Example
 ```
-ResetObjectEntity(object.entityPos, TypeName[Flower], 0, Object.xpos, Object.ypos)
+ResetObjectEntity(object.entityPos, TypeName[Test Object], 0, object.xpos, object.ypos)
 ```

@@ -17,7 +17,7 @@ None.
 MatrixTranslateXYZ(mat matrix, int translateX, int translateY, int translateZ)
 ```
 
-## Examples
+## Example
 ```
 MatrixTranslateXYZ(MAT_WORLD, -512, 720, temp0)
 ```

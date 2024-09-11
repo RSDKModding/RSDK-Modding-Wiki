@@ -1,17 +1,18 @@
 # SetPaletteFade
 
+!!! note
+    This function's behavior was changed starting in REV01; in REV00, it worked the same as [its equivalent function in RSDKv3](../../../RSDKv3/Functions/Drawing/SetPaletteFade.md).
+
 ## Description
-Blends the currectly active palette, starting at `palIndex` through to `endIndex`. With a mix based on `R`, `G`, `B` by `blendAmount`, and stores it in `destPalBank`.
+Blends palettes `srcBankA` and `srcBankB`, from indexes `startIndex` to `endIndex`, by `blendAmount`, and stores the new palette in `dstBank`.
 
 ## Parameters
-- `destPalBank`
+- `dstBank`
 The ID of the palette for store, indices 0-7 are valid.
-- `R`
-A value range of 0-255 for the color red.
-- `G`
-A value range of 0-255 for the color green.
-- `B`
-A value range of 0-255 for the color blue.
+- `srcBankA`
+The first palette to blend.
+- `srcBankB`
+The second palette to blend.
 - `blendAmount`
 A value range of 0-255 for blending.
 - `startIndex`
@@ -24,10 +25,10 @@ None.
 
 ## Syntax
 ```
-SetPaletteFade(int destPalBank, int R, int G, int B, int blendAmount, int startIndex, int endIndex)
+SetPaletteFade(int dstBank, int srcBankA, int srcBankB, int blendAmount, int startIndex, int endIndex)
 ```
 
-## Examples
+## Example
 ```
-SetPaletteFade(1, 128, 128, 128, 255, 64, 144)
+SetPaletteFade(5, 3, 4, 48, 0, 4)
 ```

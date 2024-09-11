@@ -17,7 +17,7 @@ Sets `checkResult` to `true` if the given file exists, or `false` if it doesn't.
 CallNativeFunction2(FileExists, int unused, string filePath)
 ```
 
-## Examples
+## Example
 ```
 CallNativeFunction2(FileExists, 0, "Data/Game/GameConfig.bin")
 ```

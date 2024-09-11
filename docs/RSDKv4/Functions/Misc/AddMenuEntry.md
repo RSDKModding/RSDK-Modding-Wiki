@@ -1,26 +1,25 @@
 # AddMenuEntry
 
 ## Description
-Adds an entry to `menu` with the contents of `text`, The text will display highlighted if `highlightEntry` is set to true.
+Adds an entry to `menu` with the contents of `text`. The text will display highlighted if `highlightEntry` is set to true.
 
 ## Parameters
 - `menu`
-The menu to setup, MENU_1 or MENU_2 are valid.
+The menu to setup. MENU_1 or MENU_2 are valid.
 - `text`
 New text to add in the menu.
 - `highlightEntry`
-Boolean that determines if the text will be highlighted always.
-
+Determines if the text will always be highlighted.
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-AddMenuEntry(int menu, "string Text", bool highlightEntry)
+AddMenuEntry(int menu, string text, bool highlightEntry)
 ```
 
-## Examples
+## Example
 ```
-AddMenuEntry(MENU_1, "WELCOME TO THE SECRET SPECIAL STAGE", true)
+AddMenuEntry(MENU_1, "THIS IS AN EXAMPLE", true)
 ```

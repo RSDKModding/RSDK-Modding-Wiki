@@ -15,7 +15,7 @@ None.
 CallNativeFunction2(NotifyCallback, NOTIFY_TOUCH_CHECKPOINT, int unused)
 ```
 
-## Examples
+## Example
 ```
 CallNativeFunction2(NotifyCallback, NOTIFY_TOUCH_CHECKPOINT, 0)
 ```

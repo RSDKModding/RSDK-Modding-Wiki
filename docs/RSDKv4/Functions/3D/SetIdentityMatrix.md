@@ -15,7 +15,7 @@ None.
 SetIdentityMatrix(mat matID)
 ```
 
-## Examples
+## Example
 ```
 SetIdentityMatrix(MAT_WORLD)
 ```

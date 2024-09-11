@@ -12,14 +12,14 @@ The values used for the interpolation.
 Percentage of interpolation, can go from 0 to 256.
 
 ## Return Value
-None.
+Sets `store` to the result.
 
 ## Syntax
 ```
 Interpolate(var store, int x, int y, int percent)
 ```
 
-## Examples
+## Example
 ```
 Interpolate(object.value2, 26, 29, 128)
 ```

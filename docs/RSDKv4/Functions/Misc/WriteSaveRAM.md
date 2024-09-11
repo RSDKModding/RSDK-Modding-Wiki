@@ -1,15 +1,15 @@
 # WriteSaveRAM
 
 ## Description
-Writes the contents of the save file on disk.
+Writes the contents of SaveRAM to the save file on disk.
 
 ## Parameters
 None.
 
 ## Return Value
-None.
+Sets `checkResult` to `true` if the save file is successfully written to; otherwise, sets it to `false`.
 
-## Syntax
+## Example
 ```
 WriteSaveRAM()
 ```

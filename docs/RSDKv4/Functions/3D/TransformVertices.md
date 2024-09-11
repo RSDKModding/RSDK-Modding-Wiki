@@ -19,7 +19,7 @@ None.
 TransformVertices(mat matrix, int startIndex, int endIndex)
 ```
 
-## Examples
+## Example
 ```
 TransformVertices(MAT_VIEW, 0xFFE, 0x1000)
 ```

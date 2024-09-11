@@ -1,13 +1,13 @@
 # CopyObject
 
 ## Description
-Copies `count` objects from `srcSlot` to `destSlot`.
+Copies `count` objects starting from `srcSlot` and pastes them to the object slots starting from `destSlot`.
 
 ## Parameters
 - `destSlot`
-Starting slot ID from where to paste the objects.
+Starting slot ID for where to paste the objects.
 - `srcSlot`
-Starting slot ID from where to copy the objects.
+Starting slot ID for where to copy the objects.
 - `count`
 Amount of objects to copy.
 
@@ -16,10 +16,10 @@ None.
 
 ## Syntax
 ```
-CopyObject(int destSlot, int scrSlot, int count)
+CopyObject(int destSlot, int srcSlot, int count)
 ```
 
-## Examples
+## Example
 ```
 CopyObject(0, 43, 1)
 ```

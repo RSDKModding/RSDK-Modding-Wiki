@@ -1,25 +1,25 @@
 # GetObjectValue
 
 ## Description
-Get the `object.value` of `entitySlot` corresponding to `valueID` and stores it in `result`.
+Gets `object.valueXX` of the object in `slot` corresponding to `valueID` and stores it in `store`.
 
 ## Parameters
-- `result`
+- `store`
 Variable where to store `valueID`.
 - `valueID`
-The corresponding `object.value` to get.
-- `entitySlot`
+The corresponding `object.valueXX` to get, with a range of 0-47.
+- `slot`
 The ID of the object from where to get `object.value`.
 
 ## Return Value
-None.
+Sets `store` to the result.
 
 ## Syntax
 ```
-GetObjectValue(var result, int valueID, int entitySlot)
+GetObjectValue(var store, int valueID, int slot)
 ```
 
-## Examples
+## Example
 ```
 GetObjectValue(arrayPos0, 34, 2)
 ```

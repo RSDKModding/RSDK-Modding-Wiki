@@ -1,11 +1,11 @@
 # AddDrawListEntityRef
 
 ## Description
-Adds `ObjectPos` to the drawList layer.
+Adds `objectPos` to drawList `layer`.
 
 ## Parameters
 - `layer`
-Layer of the drawList to add the reference, indices 0-7 are valid, additionally 8 is available in V5U.
+Layer of the drawList to add the reference. Indices 0-6 are valid, as well as 7 in RSDKv5U.
 - `objectPos`
 The position of the object to add.
 
@@ -17,7 +17,7 @@ None.
 AddDrawListEntityRef(int layer, int objectPos)
 ```
 
-## Examples
+## Example
 ```
 AddDrawListEntityRef(4, object.entityPos)
 ```

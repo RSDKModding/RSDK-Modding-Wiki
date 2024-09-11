@@ -1,16 +1,16 @@
 # LoadAnimation
 
 ## Description
+Loads an animation file for the current object type.
 
-Loads an Animation file, and assigns it to the current object type.
+!!! note
+    Loaded animation files are stored per object *type*, not per object *entity*.
 
 ## Parameters
-
 - `path`
 The file path to load the sprite sheet from, relative to `Data/Animations/`.
 
 ## Return Value
-
 None.
 
 ## Syntax
@@ -18,7 +18,7 @@ None.
 LoadAnimation(string path)
 ```
 
-## Examples
+## Example
 ```
 LoadAnimation("Test.ani")
 ```

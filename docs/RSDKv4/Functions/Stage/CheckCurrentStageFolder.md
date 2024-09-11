@@ -8,7 +8,7 @@ Reads the name of the current stage's folder.
 The string to match.
 
 ## Return Value
-Sets `checkResult` to `true` if the current folder's name matches `checkFolder`, otherwise `checkResult` will be `false`.
+Sets `checkResult` to `true` if the current folder's name matches `checkFolder`; otherwise, it's set to`false`.
 
 ## Syntax
 ```

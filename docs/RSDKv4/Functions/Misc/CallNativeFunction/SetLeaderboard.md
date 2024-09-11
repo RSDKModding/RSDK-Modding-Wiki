@@ -1,7 +1,10 @@
 # SetLeaderboard
 
 ## Description
-Submits the given score to the given leaderboard. This function does nothing if trial mode or debug mode are enabled.
+Submits the given score to the given leaderboard.
+
+!!! note
+    This function has no effect if trial mode or debug mode are enabled.
 
 ## Parameters
 - `leaderboardID`
@@ -17,7 +20,7 @@ None.
 CallNativeFunction2(SetLeaderboard, int leaderboardID, int score)
 ```
 
-## Examples
+## Example
 ```
 CallNativeFunction2(SetLeaderboard, 19, player.score)
 ```

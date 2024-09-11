@@ -1,29 +1,29 @@
 # LoadPalette
 
 ## Description
-Loads a palette into a `palBank` starting from `startPalIndex`, with an offset of `startIndex` and reading all colors through to `endIndex`.
+Loads a palette into `palBank` starting from `startPalIndex`, with an offset of `startIndex` and reading all colors through to `endIndex`.
 
 ## Parameters
 - `path`
 The path to the palette file, relative to `Data/Palettes/`.
 - `palBank`
-The ID of the palette bank for the palette to load, indices 0-7 are valid.
+The ID of the palette bank for the palette to load into. Indices 0-7 are valid.
 - `startPalIndex`
-The starting index of the loaded palette.
+The starting index to load colors from in the loaded palette file.
 - `startIndex`
-The starting index of the palette bank from which the loaded palette will override.
+The starting index of the palette bank from which the loaded palette will overwrite.
 - `endIndex`
-The ending index of the palette bank from which the loaded palette will override.
+The ending index of the palette bank from which the loaded palette will overwrite.
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-LoadPalette("string path", int palBank, int startPalIndex, int startIndex, int endIndex)
+LoadPalette(string path, int palBank, int startPalIndex, int startIndex, int endIndex)
 ```
 
-## Examples
+## Example
 ```
-LoadPalette("Masterpalette.act", 2, 16, 24, 32)
+LoadPalette("MasterPalette.act", 2, 16, 24, 32)
 ```

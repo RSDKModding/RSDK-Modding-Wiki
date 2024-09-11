@@ -16,7 +16,7 @@ None.
 StopSfx(int sfx)
 ```
 
-## Examples
+## Example
 ```
 StopSfx(SfxName[Test])
 ```

@@ -1,27 +1,27 @@
 # SetScreenFade
 
 ## Description
-Sets the fade-out effect based on `R`, `G`, `B` and `alpha` values.
+Adds a screen fade effect based on the `r`, `g`, `b` and `alpha` values.
 
 ## Parameters
-- `R`
+- `r`
 A value range of 0-255 for the color red.
-- `G`
+- `g`
 A value range of 0-255 for the color green.
-- `B`
+- `b`
 A value range of 0-255 for the color blue.
 - `alpha`
-A value range of 0-255 for transparency (255 being no transparency)
+A value range of 0-255 for transparency (255 being no transparency).
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-SetScreenFade(int R, int G, int B, int alpha)
+SetScreenFade(int r, int g, int b, int alpha)
 ```
 
-## Examples
+## Example
 ```
-SetScreenFade(255, 0, 0, object.alpha)
+SetScreenFade(255, 255, 255, object.alpha)
 ```

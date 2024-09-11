@@ -1,29 +1,29 @@
 # CopyPalette
 
 ## Description
-Copies `count` colors from `srcPal`, starting from `srcPalStart`. To `destPal`, starting at `destPalStart`.
+Copies `count` colors from `srcBank`, starting from `srcIndex`, to `destBank`, starting at `destIndex`.
 
 ## Parameters
-- `srcPal`
-The palette bank to copy, valid range: 0-7.
-- `srcPalStart`
-The palette entry from where to start copying, valid range: 0-255.
-- `destPal`
-The palette bank to paste, valid range: 0-7.
-- `destPalStart`
-The palette entry from where to start pasting, valid range: 0-255.
+- `srcBank`
+The palette bank to copy. Valid range: 0-7.
+- `srcIndex`
+The color index from where to start copying. Valid range: 0-255.
+- `destBank`
+The palette bank to paste. Valid range: 0-7.
+- `destIndex`
+The color index from where to start pasting. Valid range: 0-255.
 - `count`
-The amount of colors to copy from `srcPalStart` to `destPalStart`.
+The amount of colors to copy from `srcIndex` to `destIndex`.
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-CopyPalette(int scrPal, int srcPalStart, int destPal, int destPalStart, int count)
+CopyPalette(int srcBank, int srcIndex, int destBank, int destIndex, int count)
 ```
 
-## Examples
+## Example
 ```
 CopyPalette(1, 1, 0, 1, 4)
 ```

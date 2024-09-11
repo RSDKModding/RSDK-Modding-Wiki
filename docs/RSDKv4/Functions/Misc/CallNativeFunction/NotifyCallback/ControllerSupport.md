@@ -24,7 +24,7 @@ flowchart LR
 CallNativeFunction2(NotifyCallback, NOTIFY_CONTROLLER_SUPPORT, int unused)
 ```
 
-## Examples
+## Example
 ```
 CallNativeFunction2(NotifyCallback, NOTIFY_CONTROLLER_SUPPORT, 0)
 ```

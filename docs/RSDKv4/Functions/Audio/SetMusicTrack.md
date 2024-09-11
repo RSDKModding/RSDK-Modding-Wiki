@@ -20,7 +20,7 @@ None.
 SetMusicTrack(string path, int trackID, int loopPoint)
 ```
 
-## Examples
+## Example
 ```
 SetMusicTrack("Test.ogg", 0, 1)
 ```

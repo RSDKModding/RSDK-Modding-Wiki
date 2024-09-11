@@ -9,7 +9,7 @@ None.
 ## Return Value
 None.
 
-## Examples
+## Example
 ```
 CallNativeFunction(ExitGame)
 ```

@@ -1,28 +1,27 @@
 # EditMenuEntry
 
 ## Description
-Edits an entry of `menu` with the contents of `text` in `rowID`, The text will display highlighted if `highlightEntry` is set to true.
+Edits an entry of `menu` with the contents of `text` in `rowID`. The text will display highlighted if `highlightEntry` is set to true.
 
 ## Parameters
 - `menu`
 The menu to setup, MENU_1 or MENU_2 are valid.
 - `text`
-New text to add in the menu.
+Text to replace the current text with.
 - `rowID`
-The row to edit.
+The index of the row to edit.
 - `highlightEntry`
-Boolean that determines if the text will be highlighted always.
-
+Determines if the text will always be highlighted.
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-EditMenuEntry(int menu, "string Text", bool highlightEntry)
+EditMenuEntry(int menu, string text, int rowID, bool highlightEntry)
 ```
 
-## Examples
+## Example
 ```
 EditMenuEntry(MENU_1, "THIS IS AN EXAMPLE", 0, true)
 ```

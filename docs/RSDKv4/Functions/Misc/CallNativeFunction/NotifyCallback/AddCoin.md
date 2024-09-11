@@ -15,7 +15,7 @@ None.
 CallNativeFunction2(NotifyCallback, NOTIFY_ADD_COIN, int count)
 ```
 
-## Examples
+## Example
 ```
 CallNativeFunction2(NotifyCallback, NOTIFY_ADD_COIN, 1)
 ```

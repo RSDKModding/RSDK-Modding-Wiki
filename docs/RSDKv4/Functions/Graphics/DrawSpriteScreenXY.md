@@ -1,14 +1,14 @@
 # DrawSpriteScreenXY
 
 ## Description
-Draws `Frame` to a specified X and Y position in the screen.
+Draws `frame` to a specified X and Y position in screen-space.
 
 ## Parameters
-- `Frame`
-The ID of the sprite to draw.
-- `iXPos`
+- `frame`
+The ID of the SpriteFrame to draw.
+- `ixpos`
 The position of the sprite on the horizontal axis in screen-space.
-- `iYPos`
+- `iypos`
 The position of the sprite on the vertical axis in screen-space.
 
 ## Return Value
@@ -16,10 +16,10 @@ None.
 
 ## Syntax
 ```
-DrawSpriteScreenXY(int Frame, int iXPos, int iYPos)
+DrawSpriteScreenXY(int frame, int ixpos, int iypos)
 ```
 
-## Examples
+## Example
 ```
-DrawSpriteScreenXY(0, 200, 15)
+DrawSpriteScreenXY(0, screen.xcenter, 15)
 ```

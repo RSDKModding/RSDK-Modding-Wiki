@@ -1,7 +1,10 @@
 # ObjectTileCollision
 
 ## Description
-Tries to collide with the foreground layer based on the position of iXPos + xOffset, iYPos + yOffset.
+Tries to collide with the foreground layer based on the position of `object.ixpos` + `xOffset`, `object.iypos` + `yOffset`.
+
+!!! note
+    This function is best used for checking a tile is present. For moving along tiles, use [ObjectTileGrip()](ObjectTileGrip.md) instead.
 
 ## Parameters
 - `cSide`
@@ -14,17 +17,14 @@ Vertical offset of the object.
 Collision plane to take into account.
 
 ## Return Value
-Sets CheckResult to true if there was collision, false otherwise.
+Sets `checkResult` to `true` if there was collision; otherwise, it's set to `false`.
 
 ## Syntax
 ```
 ObjectTileCollision(int cSide, int xOffset, int yOffset, int cPlane)
 ```
 
-## Examples
+## Example
 ```
 ObjectTileCollision(CSIDE_LWALL, -15, -4, 0)
 ```
-
-## Notes
-This function is best used to check if a tile is there, not to move along it.

@@ -1,5 +1,5 @@
 <h1>
-    <a href="#hedgedocs">
+    <a href="#rsdk">
         <img width="120" align="left" src="docs/assets/RSDK_Icon_Color.svg">
     </a>
     RSDK<span style="font-weight: 200;"> Modding Wiki</span>

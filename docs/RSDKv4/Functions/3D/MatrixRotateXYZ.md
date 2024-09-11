@@ -17,7 +17,7 @@ None.
 MatrixRotateXYZ(mat matrix, int angleX, int angleY, int angleZ)
 ```
 
-## Examples
+## Example
 ```
 MatrixRotateXYZ(MAT_WORLD, 43, 85, 29)
 ```
