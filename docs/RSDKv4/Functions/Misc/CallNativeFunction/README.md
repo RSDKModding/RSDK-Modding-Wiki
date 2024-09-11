@@ -57,7 +57,7 @@ CallNativeFunction4(NotifyCallback, NOTIFY_STATS_ENEMY, StageStatsUsabilityParam
 | [**ShowPromoPopup**](ShowPromoPopup.md)                           |                                                                           |
 | [**NativePlayerWaitingAds**](NativePlayerWaitingAds.md)           | Creates a `RewardAds` native object, prompting the player to watch an ad. |
 | [**NativeWaterPlayerWaitingAds**](NativeWaterPlayerWaitingAds.md) | Creates a `RewardAds` native object, prompting the player to watch an ad. |
-| [**NotifyCallback**](NotifyCallback/README.md)                    | Sends the given callback to communicate to Hedgehog Engine 2.             |
+| [**NotifyCallback**](NotifyCallback.md)                           | Sends the given callback to communicate to Hedgehog Engine 2.             |
 
 ## Decomp-Only Native Functions
 | Function                                                      | Description                                 |

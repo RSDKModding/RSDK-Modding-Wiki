@@ -307,46 +307,7 @@ nav:
                 - ShowPromoPopup: RSDKv4/Functions/Misc/CallNativeFunction/ShowPromoPopup.md
                 - NativePlayerWaitingAds: RSDKv4/Functions/Misc/CallNativeFunction/NativePlayerWaitingAds.md
                 - NativeWaterPlayerWaitingAds: RSDKv4/Functions/Misc/CallNativeFunction/NativeWaterPlayerWaitingAds.md
-                - NotifyCallback:
-                  - RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/README.md
-                  - NOTIFY_DEATH_EVENT: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/DeathEvent.md
-                  - NOTIFY_TOUCH_SIGNPOST: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/TouchSignPost.md
-                  - NOTIFY_HUD_ENABLE: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/HUDEnable.md
-                  - NOTIFY_ADD_COIN: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/AddCoin.md
-                  - NOTIFY_KILL_ENEMY: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/KillEnemy.md
-                  - NOTIFY_SAVESLOT_SELECT: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/SaveSlotSelect.md
-                  - NOTIFY_FUTURE_PAST: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/FuturePast.md
-                  - NOTIFY_GOTO_FUTURE_PAST: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/GotoFuturePast.md
-                  - NOTIFY_BOSS_END: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/BossEnd.md
-                  - NOTIFY_SPECIAL_END: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/SpecialEnd.md
-                  - NOTIFY_DEBUGPRINT: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/DebugPrint.md
-                  - NOTIFY_KILL_BOSS: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/KillBoss.md
-                  - NOTIFY_TOUCH_EMERALD: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/TouchEmerald.md
-                  - NOTIFY_STATS_ENEMY: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/StatsEnemy.md
-                  - NOTIFY_STATS_CHARA_ACTION: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/StatsCharaAction.md
-                  - NOTIFY_STATS_RING: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/StatsRing.md
-                  - NOTIFY_STATS_MOVIE: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/StatsMovie.md
-                  - NOTIFY_STATS_PARAM_1: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/StatsParam1.md
-                  - NOTIFY_STATS_PARAM_2: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/StatsParam2.md
-                  - NOTIFY_CHARACTER_SELECT: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/CharacterSelect.md
-                  - NOTIFY_SPECIAL_RETRY: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/SpecialRetry.md
-                  - NOTIFY_TOUCH_CHECKPOINT: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/TouchCheckpoint.md
-                  - NOTIFY_ACT_FINISH: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/ActFinish.md
-                  - NOTIFY_1P_VS_SELECT: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/1PVSSelect.md
-                  - NOTIFY_CONTROLLER_SUPPORT: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/ControllerSupport.md
-                  - NOTIFY_STAGE_RETRY: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/StageRetry.md
-                  - NOTIFY_SOUND_TRACK: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/SoundTrack.md
-                  - NOTIFY_GOOD_ENDING: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/GoodEnding.md
-                  - NOTIFY_BACK_TO_MAINMENU: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/BackToMainMenu.md
-                  - NOTIFY_LEVEL_SELECT_MENU: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/LevelSelectMenu.md
-                  - NOTIFY_PLAYER_SET: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/PlayerSet.md
-                  - NOTIFY_EXTRAS_MODE: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/ExtrasMode.md
-                  - NOTIFY_SPIN_DASH_TYPE: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/SpindashType.md
-                  - NOTIFY_TIME_OVER: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/TimeOver.md
-                  - NOTIFY_TIMEATTACK_MODE: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/TimeAttackMode.md
-                  - NOTIFY_STATS_BREAK_OBJECT: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/StatsBreakObject.md
-                  - NOTIFY_STATS_SAVE_FUTURE: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/StatsSaveFuture.md
-                  - NOTIFY_STATS_CHARA_ACTION2: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/StatsCharaAction2.md
+                - NotifyCallback: RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback.md
               - Decomp-Only Native Functions:
                 - SetNetworkGameName: RSDKv4/Functions/Misc/CallNativeFunction/SetNetworkGameName.md
                 - ExitGame: RSDKv4/Functions/Misc/CallNativeFunction/ExitGame.md
@@ -432,11 +393,60 @@ nav:
           - Debugging:
             - ClearViewableVariables: RSDKv5/Functions/Debugging/ClearViewableVariables.md
             - AddViewableVariable: RSDKv5/Functions/Debugging/AddViewableVariable.md
+          - Miscellaneous:
+            - NotifyCallback: RSDKv5/Functions/Misc/NotifyCallback.md
           - Editor:
             - RSDK_ACTIVE_VAR: RSDKv5/Functions/Editor/RSDK_ACTIVE_VAR.md
             - RSDK_ENUM_VAR: RSDKv5/Functions/Editor/RSDK_ENUM_VAR.md
             - showGizmos: RSDKv5/Functions/Editor/showGizmos.md
             - RSDK_DRAWING_OVERLAY: RSDKv5/Functions/Editor/RSDK_DRAWING_OVERLAY.md
+
+  - Games:
+    - Games/README.md
+    - Sonic Origins:
+      - Documentation:
+        - NotifyCallback:
+          - Games/SonicOrigins/Documentation/NotifyCallback/README.md
+          - NOTIFY_DEATH_EVENT: Games/SonicOrigins/Documentation/NotifyCallback/DeathEvent.md
+          - NOTIFY_TOUCH_SIGNPOST: Games/SonicOrigins/Documentation/NotifyCallback/TouchSignPost.md
+          - NOTIFY_HUD_ENABLE: Games/SonicOrigins/Documentation/NotifyCallback/HUDEnable.md
+          - NOTIFY_ADD_COIN: Games/SonicOrigins/Documentation/NotifyCallback/AddCoin.md
+          - NOTIFY_KILL_ENEMY: Games/SonicOrigins/Documentation/NotifyCallback/KillEnemy.md
+          - NOTIFY_SAVESLOT_SELECT: Games/SonicOrigins/Documentation/NotifyCallback/SaveSlotSelect.md
+          - NOTIFY_FUTURE_PAST: Games/SonicOrigins/Documentation/NotifyCallback/FuturePast.md
+          - NOTIFY_GOTO_FUTURE_PAST: Games/SonicOrigins/Documentation/NotifyCallback/GotoFuturePast.md
+          - NOTIFY_BOSS_END: Games/SonicOrigins/Documentation/NotifyCallback/BossEnd.md
+          - NOTIFY_SPECIAL_END: Games/SonicOrigins/Documentation/NotifyCallback/SpecialEnd.md
+          - NOTIFY_DEBUGPRINT: Games/SonicOrigins/Documentation/NotifyCallback/DebugPrint.md
+          - NOTIFY_KILL_BOSS: Games/SonicOrigins/Documentation/NotifyCallback/KillBoss.md
+          - NOTIFY_TOUCH_EMERALD: Games/SonicOrigins/Documentation/NotifyCallback/TouchEmerald.md
+          - NOTIFY_STATS_ENEMY: Games/SonicOrigins/Documentation/NotifyCallback/StatsEnemy.md
+          - NOTIFY_STATS_CHARA_ACTION: Games/SonicOrigins/Documentation/NotifyCallback/StatsCharaAction.md
+          - NOTIFY_STATS_RING: Games/SonicOrigins/Documentation/NotifyCallback/StatsRing.md
+          - NOTIFY_STATS_MOVIE: Games/SonicOrigins/Documentation/NotifyCallback/StatsMovie.md
+          - NOTIFY_STATS_PARAM_1: Games/SonicOrigins/Documentation/NotifyCallback/StatsParam1.md
+          - NOTIFY_STATS_PARAM_2: Games/SonicOrigins/Documentation/NotifyCallback/StatsParam2.md
+          - NOTIFY_CHARACTER_SELECT: Games/SonicOrigins/Documentation/NotifyCallback/CharacterSelect.md
+          - NOTIFY_SPECIAL_RETRY: Games/SonicOrigins/Documentation/NotifyCallback/SpecialRetry.md
+          - NOTIFY_TOUCH_CHECKPOINT: Games/SonicOrigins/Documentation/NotifyCallback/TouchCheckpoint.md
+          - NOTIFY_ACT_FINISH: Games/SonicOrigins/Documentation/NotifyCallback/ActFinish.md
+          - NOTIFY_1P_VS_SELECT: Games/SonicOrigins/Documentation/NotifyCallback/1PVSSelect.md
+          - NOTIFY_CONTROLLER_SUPPORT: Games/SonicOrigins/Documentation/NotifyCallback/ControllerSupport.md
+          - NOTIFY_STAGE_RETRY: Games/SonicOrigins/Documentation/NotifyCallback/StageRetry.md
+          - NOTIFY_SOUND_TRACK: Games/SonicOrigins/Documentation/NotifyCallback/SoundTrack.md
+          - NOTIFY_GOOD_ENDING: Games/SonicOrigins/Documentation/NotifyCallback/GoodEnding.md
+          - NOTIFY_BACK_TO_MAINMENU: Games/SonicOrigins/Documentation/NotifyCallback/BackToMainMenu.md
+          - NOTIFY_LEVEL_SELECT_MENU: Games/SonicOrigins/Documentation/NotifyCallback/LevelSelectMenu.md
+          - NOTIFY_PLAYER_SET: Games/SonicOrigins/Documentation/NotifyCallback/PlayerSet.md
+          - NOTIFY_EXTRAS_MODE: Games/SonicOrigins/Documentation/NotifyCallback/ExtrasMode.md
+          - NOTIFY_SPIN_DASH_TYPE: Games/SonicOrigins/Documentation/NotifyCallback/SpindashType.md
+          - NOTIFY_TIME_OVER: Games/SonicOrigins/Documentation/NotifyCallback/TimeOver.md
+          - NOTIFY_TIMEATTACK_MODE: Games/SonicOrigins/Documentation/NotifyCallback/TimeAttackMode.md
+          - NOTIFY_STATS_BREAK_OBJECT: Games/SonicOrigins/Documentation/NotifyCallback/StatsBreakObject.md
+          - NOTIFY_STATS_SAVE_FUTURE: Games/SonicOrigins/Documentation/NotifyCallback/StatsSaveFuture.md
+          - NOTIFY_STATS_CHARA_ACTION2: Games/SonicOrigins/Documentation/NotifyCallback/StatsCharaAction2.md
+          - NOTIFY_PLAYER_SAVED_VALUES: Games/SonicOrigins/Documentation/NotifyCallback/PlayerSavedValues.md
+          - NOTIFY_TITLECARD_INIT: Games/SonicOrigins/Documentation/NotifyCallback/TitleCardInit.md
 
   - Tools:
     - Tools/README.md

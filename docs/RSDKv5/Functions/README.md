@@ -20,6 +20,9 @@
 - [**ClearViewableVariables**](Debugging/ClearViewableVariables.md)
 - [**AddViewableVariable**](Debugging/AddViewableVariable.md)
 
+## Miscellaneous
+- [**NotifyCallback**](Misc/NotifyCallback.md)
+
 ## Editor
 - [**RSDK_ACTIVE_VAR**](Editor/RSDK_ACTIVE_VAR.md)
 - [**RSDK_ENUM_VAR**](Editor/RSDK_ENUM_VAR.md)
