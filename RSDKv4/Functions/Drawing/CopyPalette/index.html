@@ -1718,9 +1718,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -1746,26 +1746,26 @@
 
 <h1 id="copypalette">CopyPalette</h1>
 <h2 id="description">Description</h2>
-<p>Copies <code>count</code> colors from <code>srcPal</code>, starting from <code>srcPalStart</code>. To <code>destPal</code>, starting at <code>destPalStart</code>.</p>
+<p>Copies <code>count</code> colors from <code>srcBank</code>, starting from <code>srcIndex</code>, to <code>destBank</code>, starting at <code>destIndex</code>.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
-<li><code>srcPal</code>
-The palette bank to copy, valid range: 0-7.</li>
-<li><code>srcPalStart</code>
-The palette entry from where to start copying, valid range: 0-255.</li>
-<li><code>destPal</code>
-The palette bank to paste, valid range: 0-7.</li>
-<li><code>destPalStart</code>
-The palette entry from where to start pasting, valid range: 0-255.</li>
+<li><code>srcBank</code>
+The palette bank to copy. Valid range: 0-7.</li>
+<li><code>srcIndex</code>
+The color index from where to start copying. Valid range: 0-255.</li>
+<li><code>destBank</code>
+The palette bank to paste. Valid range: 0-7.</li>
+<li><code>destIndex</code>
+The color index from where to start pasting. Valid range: 0-255.</li>
 <li><code>count</code>
-The amount of colors to copy from <code>srcPalStart</code> to <code>destPalStart</code>.</li>
+The amount of colors to copy from <code>srcIndex</code> to <code>destIndex</code>.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
 <p>None.</p>
 <h2 id="syntax">Syntax</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>CopyPalette(int scrPal, int srcPalStart, int destPal, int destPalStart, int count)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>CopyPalette(int srcBank, int srcIndex, int destBank, int destIndex, int count)
 </span></code></pre></div>
-<h2 id="examples">Examples</h2>
+<h2 id="example">Example</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>CopyPalette(1, 1, 0, 1, 4)
 </span></code></pre></div>
 

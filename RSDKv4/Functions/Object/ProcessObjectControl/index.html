@@ -1709,9 +1709,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#syntax" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Syntax
+      Example
     </span>
   </a>
   
@@ -1737,12 +1737,24 @@
 
 <h1 id="processobjectcontrol">ProcessObjectControl</h1>
 <h2 id="description">Description</h2>
-<p>Handles control inputs.</p>
+<p>Handles object input variables.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In standalone RSDKv4, this function has no effect unless <code>object.controlMode</code> is set to <code>0</code>. In RSDKv5U, <code>object.controlMode</code> must be lower than <code>4</code>.</p>
+</div>
 <h2 id="parameters">Parameters</h2>
 <p>None.</p>
 <h2 id="return-value">Return Value</h2>
-<p>Sets the value for object.up, object.down, object.left and object.right to true if their equivalent <code>keyPress</code>/<code>keyDown</code> is pressed. And player.jumpPress or player.jumpHold to true if buttonA/buttonB/buttonC are pressed/held, the next frame will return to false if not pressed.</p>
-<h2 id="syntax">Syntax</h2>
+<ul>
+<li>Sets <code>object.up</code>, <code>object.down</code>, <code>object.left</code>, and <code>object.right</code> to their equivalent <code>keyDown</code> values.</li>
+<li>Sets <code>object.jumpPress</code> to <code>true</code> if <code>keyPress.buttonA</code>, <code>keyPress.buttonB</code>, or <code>keyPress.buttonC</code> are true; otherwise, it's set to <code>false</code>.</li>
+<li>Sets <code>object.jumpHold</code> to <code>true</code> if <code>keyDown.buttonA</code>, <code>keyDown.buttonB</code>, or <code>keyDown.buttonC</code> are true; otherwise, it's set to <code>false</code>.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In RSDKv5U, the controller ID used for the inputs is the value of <code>object.controlMode</code> plus 1.</p>
+</div>
+<h2 id="example">Example</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>ProcessObjectControl()
 </span></code></pre></div>
 

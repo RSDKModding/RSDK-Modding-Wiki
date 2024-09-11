@@ -18,7 +18,7 @@
     
     
       
-        <title>LoadAnimation - RSDK Modding Wiki</title>
+        <title>MatrixInverse - RSDK Modding Wiki</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#loadanimation" class="md-skip">
+        <a href="#matrixinverse" class="md-skip">
           Skip to content
         </a>
       
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              LoadAnimation
+              MatrixInverse
             
           </span>
         </div>
@@ -1718,9 +1718,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -1744,21 +1744,25 @@
   
 
 
-<h1 id="loadanimation">LoadAnimation</h1>
+<h1 id="matrixinverse">MatrixInverse</h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This function does not exist in REV00.</p>
+</div>
 <h2 id="description">Description</h2>
-<p>Loads an Animation file, and assigns it to the current object type.</p>
+<p>Performs an inversion on <code>matrix</code>'s values.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
-<li><code>path</code>
-The file path to load the sprite sheet from, relative to <code>Data/Animations/</code>.</li>
+<li><code>matrix</code>
+The matrix to invert, valid matrices are <code>MAT_WORLD</code>, <code>MAT_VIEW</code> and <code>MAT_TEMP</code>.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
 <p>None.</p>
 <h2 id="syntax">Syntax</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>LoadAnimation(string path)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>MatrixInverse(int matrix)
 </span></code></pre></div>
-<h2 id="examples">Examples</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>LoadAnimation(&quot;Test.ani&quot;)
+<h2 id="example">Example</h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>MatrixInverse(MAT_WORLD)
 </span></code></pre></div>
 
 

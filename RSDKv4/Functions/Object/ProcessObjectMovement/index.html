@@ -1709,9 +1709,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#syntax" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Syntax
+      Example
     </span>
   </a>
   
@@ -1737,17 +1737,17 @@
 
 <h1 id="processobjectmovement">ProcessObjectMovement</h1>
 <h2 id="description">Description</h2>
-<p>Handles tile collision of an object (player)</p>
+<p>Handles tile collision of an object/player.</p>
 <h2 id="parameters">Parameters</h2>
 <p>None.</p>
 <h2 id="return-value">Return Value</h2>
 <ul>
-<li>Handles movement, both on ground and on air.</li>
-<li>Will return CMODE_FLOOR, CMODE_LWALL, CMODE_RWALL or CMODE_ROOF depending of the object's angle to <code>player.collisionMode</code>, along with updating <code>player.angle</code> based on the current tile stepped.</li>
-<li>It handles <code>player.speed</code>, along with <code>player.xVel</code> and <code>Player.yVel</code>.</li>
-<li>Determines if the character is <code>flailing</code>, <code>pushing</code> or is now in the air.</li>
+<li>Handles movement, both on ground and in the air.</li>
+<li>Sets <code>object.collisionMode</code> to <code>CMODE_FLOOR</code>, <code>CMODE_LWALL</code>, <code>CMODE_RWALL</code>, or <code>CMODE_ROOF</code> depending on the object's angle, along with updating <code>player.angle</code> based on the current tile stepped.</li>
+<li>Updates <code>object.speed</code>, <code>object.xvel</code>, and <code>object.yvel</code>.</li>
+<li>Determines if the character is <code>flailing</code>, <code>pushing</code>, or is now in the air.</li>
 </ul>
-<h2 id="syntax">Syntax</h2>
+<h2 id="example">Example</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>ProcessObjectMovement()
 </span></code></pre></div>
 

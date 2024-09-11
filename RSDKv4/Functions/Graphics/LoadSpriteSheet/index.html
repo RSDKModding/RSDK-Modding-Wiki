@@ -18,7 +18,7 @@
     
     
       
-        <title>DrawSprite - RSDK Modding Wiki</title>
+        <title>LoadSpriteSheet - RSDK Modding Wiki</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#drawsprite" class="md-skip">
+        <a href="#loadspritesheet" class="md-skip">
           Skip to content
         </a>
       
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              DrawSprite
+              LoadSpriteSheet
             
           </span>
         </div>
@@ -1718,9 +1718,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -1744,21 +1744,21 @@
   
 
 
-<h1 id="drawsprite">DrawSprite</h1>
+<h1 id="loadspritesheet">LoadSpriteSheet</h1>
 <h2 id="description">Description</h2>
-<p>Draws <code>Frame</code> at the object's X and Y position.</p>
+<p>Loads a spritesheet and assigns the ID to <code>object.spritesheet</code>. The spritesheet must be a GIF file.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
-<li><code>Frame</code>
-The ID of the sprite to draw.</li>
+<li><code>path</code>
+The file path to load the sprite sheet from, relative to <code>Data/Sprites/</code>.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
 <p>None.</p>
 <h2 id="syntax">Syntax</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>DrawSprite(int Frame)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>LoadSpriteSheet(string path)
 </span></code></pre></div>
-<h2 id="examples">Examples</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>DrawSprite(0)
+<h2 id="example">Example</h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>LoadSpriteSheet(&quot;Test/Objects.gif&quot;)
 </span></code></pre></div>
 
 

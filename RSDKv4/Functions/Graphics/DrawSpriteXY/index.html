@@ -18,7 +18,7 @@
     
     
       
-        <title>ProcessAnimation - RSDK Modding Wiki</title>
+        <title>DrawSpriteXY - RSDK Modding Wiki</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#processanimation" class="md-skip">
+        <a href="#drawspritexy" class="md-skip">
           Skip to content
         </a>
       
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              ProcessAnimation
+              DrawSpriteXY
             
           </span>
         </div>
@@ -1718,9 +1718,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -1744,20 +1744,25 @@
   
 
 
-<h1 id="processanimation">ProcessAnimation</h1>
+<h1 id="drawspritexy">DrawSpriteXY</h1>
 <h2 id="description">Description</h2>
-<p>Processes the current object's animation, based on an animation file loaded prior via <code>LoadAnimation()</code>. The animation is processed based on <code>object.animation</code>, and uses <code>object.animationSpeed</code>, <code>object.animationTimer</code>, and <code>object.frame</code> as well.</p>
+<p>Draws <code>frame</code> to a specified X and Y position.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
-<li>None.</li>
+<li><code>frame</code>
+The ID of the SpriteFrame to draw.</li>
+<li><code>xpos</code>
+The position of the sprite on the horizontal axis in world-space.</li>
+<li><code>ypos</code>
+The position of the sprite on the vertical axis in world-space.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
 <p>None.</p>
 <h2 id="syntax">Syntax</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>ProcessAnimation()
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>DrawSpriteXY(int frame, int xpos, int ypos)
 </span></code></pre></div>
-<h2 id="examples">Examples</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>ProcessAnimation()
+<h2 id="example">Example</h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>DrawSpriteXY(0, object.value0, object.ypos)
 </span></code></pre></div>
 
 

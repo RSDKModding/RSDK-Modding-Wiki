@@ -1718,9 +1718,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -1764,7 +1764,11 @@
 
 <h1 id="setachievement">SetAchievement</h1>
 <h2 id="description">Description</h2>
-<p>Sets the status of the given achievement. This function does nothing if trial mode or debug mode are enabled.</p>
+<p>Sets the status of the given achievement.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This function has no effect if trial mode or debug mode are enabled.</p>
+</div>
 <h2 id="parameters">Parameters</h2>
 <ul>
 <li><code>id</code>
@@ -1777,7 +1781,7 @@ The status (progress) to set the achievement to, with a range of 0 to 100. If th
 <h2 id="syntax">Syntax</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>CallNativeFunction2(SetAchievement, int id, int status)
 </span></code></pre></div>
-<h2 id="examples">Examples</h2>
+<h2 id="example">Example</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>CallNativeFunction2(SetAchievement, 0, 100)
 </span></code></pre></div>
 <h2 id="sonic-1-achievement-ids">Sonic 1 Achievement IDs</h2>

@@ -1754,10 +1754,13 @@
 
 
 <h1 id="notifycallback">NotifyCallback</h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This native function only exists in Sonic Origins.</p>
+</div>
 <h2 id="description">Description</h2>
 <p>Sends the given callback to communicate to Hedgehog Engine 2.</p>
 <p>Unlike native functions, NotifyCallback callbacks do not have their IDs automatically set by the engine; they must be manually specified instead. However, Sonic Team still elected to define callback aliases as global varaiables.</p>
-<p>This native function only exists in Sonic Origins.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
 <li><code>callback</code>
@@ -1783,160 +1786,199 @@ Parameters to use for the callback.</li>
 <tr>
 <th>ID</th>
 <th>Callback</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>128</td>
 <td><a href="DeathEvent/">NOTIFY_DEATH_EVENT</a></td>
+<td></td>
 </tr>
 <tr>
 <td>129</td>
 <td><a href="TouchSignPost/">NOTIFY_TOUCH_SIGNPOST</a></td>
+<td></td>
 </tr>
 <tr>
 <td>130</td>
 <td><a href="HUDEnable/">NOTIFY_HUD_ENABLE</a></td>
+<td></td>
 </tr>
 <tr>
 <td>131</td>
 <td><a href="AddCoin/">NOTIFY_ADD_COIN</a></td>
+<td>Awards the player the given amount of coins.</td>
 </tr>
 <tr>
 <td>132</td>
 <td><a href="KillEnemy/">NOTIFY_KILL_ENEMY</a></td>
+<td></td>
 </tr>
 <tr>
 <td>133</td>
 <td><a href="SaveSlotSelect/">NOTIFY_SAVESLOT_SELECT</a></td>
+<td></td>
 </tr>
 <tr>
 <td>134</td>
 <td><a href="FuturePast/">NOTIFY_FUTURE_PAST</a></td>
+<td></td>
 </tr>
 <tr>
 <td>135</td>
 <td><a href="GotoFuturePast/">NOTIFY_GOTO_FUTURE_PAST</a></td>
+<td></td>
 </tr>
 <tr>
 <td>136</td>
 <td><a href="BossEnd/">NOTIFY_BOSS_END</a></td>
+<td></td>
 </tr>
 <tr>
 <td>137</td>
 <td><a href="SpecialEnd/">NOTIFY_SPECIAL_END</a></td>
+<td></td>
 </tr>
 <tr>
 <td>138</td>
 <td><a href="DebugPrint/">NOTIFY_DEBUGPRINT</a></td>
+<td>Has no effect in-game, but would have likely printed the given values to the console in debug builds of Sonic Origins.</td>
 </tr>
 <tr>
 <td>139</td>
 <td><a href="KillBoss/">NOTIFY_KILL_BOSS</a></td>
+<td></td>
 </tr>
 <tr>
 <td>140</td>
 <td><a href="TouchEmerald/">NOTIFY_TOUCH_EMERALD</a></td>
+<td></td>
 </tr>
 <tr>
 <td>141</td>
 <td><a href="StatsEnemy/">NOTIFY_STATS_ENEMY</a></td>
+<td></td>
 </tr>
 <tr>
 <td>142</td>
 <td><a href="StatsCharaAction/">NOTIFY_STATS_CHARA_ACTION</a></td>
+<td></td>
 </tr>
 <tr>
 <td>143</td>
 <td><a href="StatsRing/">NOTIFY_STATS_RING</a></td>
+<td></td>
 </tr>
 <tr>
 <td>144</td>
 <td><a href="StatsMovie/">NOTIFY_STATS_MOVIE</a></td>
+<td></td>
 </tr>
 <tr>
 <td>145</td>
 <td><a href="StatsParam1/">NOTIFY_STATS_PARAM_1</a></td>
+<td></td>
 </tr>
 <tr>
 <td>146</td>
 <td><a href="StatsParam2/">NOTIFY_STATS_PARAM_2</a></td>
+<td></td>
 </tr>
 <tr>
 <td>147</td>
 <td><a href="CharacterSelect/">NOTIFY_CHARACTER_SELECT</a></td>
+<td>Opens Sonic Origins's character select menu, then sets <code>game.callbackResult</code> and <code>game.continueFlag</code> when the menu is closed.</td>
 </tr>
 <tr>
 <td>148</td>
 <td><a href="SpecialRetry/">NOTIFY_SPECIAL_RETRY</a></td>
+<td></td>
 </tr>
 <tr>
 <td>149</td>
 <td><a href="TouchCheckpoint/">NOTIFY_TOUCH_CHECKPOINT</a></td>
+<td>Notifies Hedgehog Engine 2 that a Lamp Post/Star Post has been touched.</td>
 </tr>
 <tr>
 <td>150</td>
 <td><a href="ActFinish/">NOTIFY_ACT_FINISH</a></td>
+<td></td>
 </tr>
 <tr>
 <td>151</td>
 <td><a href="1PVSSelect/">NOTIFY_1P_VS_SELECT</a></td>
+<td></td>
 </tr>
 <tr>
 <td>152</td>
 <td><a href="ControllerSupport/">NOTIFY_CONTROLLER_SUPPORT</a></td>
+<td>Opens the controller setup screen in the Nintendo Switch version of the game, then sets <code>game.callbackResult</code> based on the platform and controller count.</td>
 </tr>
 <tr>
 <td>153</td>
 <td><a href="StageRetry/">NOTIFY_STAGE_RETRY</a></td>
+<td></td>
 </tr>
 <tr>
 <td>154</td>
 <td><a href="SoundTrack/">NOTIFY_SOUND_TRACK</a></td>
+<td></td>
 </tr>
 <tr>
 <td>155</td>
 <td><a href="GoodEnding/">NOTIFY_GOOD_ENDING</a></td>
+<td></td>
 </tr>
 <tr>
 <td>156</td>
 <td><a href="BackToMainMenu/">NOTIFY_BACK_TO_MAINMENU</a></td>
+<td></td>
 </tr>
 <tr>
 <td>157</td>
 <td><a href="LevelSelectMenu/">NOTIFY_LEVEL_SELECT_MENU</a></td>
+<td></td>
 </tr>
 <tr>
 <td>158</td>
 <td><a href="PlayerSet/">NOTIFY_PLAYER_SET</a></td>
+<td></td>
 </tr>
 <tr>
 <td>159</td>
 <td><a href="ExtrasMode/">NOTIFY_EXTRAS_MODE</a></td>
+<td></td>
 </tr>
 <tr>
 <td>160</td>
 <td><a href="SpindashType/">NOTIFY_SPIN_DASH_TYPE</a></td>
+<td></td>
 </tr>
 <tr>
 <td>161</td>
 <td><a href="TimeOver/">NOTIFY_TIME_OVER</a></td>
+<td></td>
 </tr>
 <tr>
 <td>162</td>
 <td><a href="TimeAttackMode/">NOTIFY_TIMEATTACK_MODE</a></td>
+<td></td>
 </tr>
 <tr>
 <td>163</td>
 <td><a href="StatsBreakObject/">NOTIFY_STATS_BREAK_OBJECT</a></td>
+<td></td>
 </tr>
 <tr>
 <td>164</td>
 <td><a href="StatsSaveFuture/">NOTIFY_STATS_SAVE_FUTURE</a></td>
+<td></td>
 </tr>
 <tr>
 <td>165</td>
 <td><a href="StatsCharaAction2/">NOTIFY_STATS_CHARA_ACTION2</a></td>
+<td></td>
 </tr>
 </tbody>
 </table>

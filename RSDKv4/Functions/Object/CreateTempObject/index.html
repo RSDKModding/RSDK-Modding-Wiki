@@ -1718,18 +1718,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#notes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Notes
+      Example
     </span>
   </a>
   
@@ -1755,28 +1746,30 @@
 
 <h1 id="createtempobject">CreateTempObject</h1>
 <h2 id="description">Description</h2>
-<p>Creates a temporary object specified by <code>objectType</code>, <code>propertyValue</code>, <code>xPos</code> and <code>yPos</code> near the end of the object list.</p>
+<p>Creates a temporary object specified by <code>type</code>, <code>propertyValue</code>, <code>xpos</code> and <code>ypos</code> near the end of the object list.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If there are too many temporary objects loaded when this function is called, the engine will start overwritting them. Therefore, it's recommended to only use this function for objects that quickly get destroyed or unloaded.</p>
+</div>
 <h2 id="parameters">Parameters</h2>
 <ul>
-<li><code>objectType</code>
+<li><code>type</code>
 The type of object that will be created.</li>
 <li><code>propertyValue</code>
-The Property Value of the object.</li>
-<li><code>xPos</code>
+The property value of the object.</li>
+<li><code>xpos</code>
 The position of the object on the horizontal axis in world-space.</li>
-<li><code>yPos</code>
+<li><code>ypos</code>
 The position of the object on the vertical axis in world-space.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
-<p><code>tempObjectPos</code> is set to the created object's <code>slotID</code>.</p>
+<p>Sets <code>tempObjectPos</code> to the created object's <code>entityPos</code>.</p>
 <h2 id="syntax">Syntax</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>CreateTempObject(int objectType, int propertyValue, int xPos, int yPos)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>CreateTempObject(int type, int propertyValue, int xpos, int ypos)
 </span></code></pre></div>
-<h2 id="examples">Examples</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>CreateTempObject(TypeName[Invincibility], 0, object.xPos, object.yPos)
+<h2 id="example">Example</h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>CreateTempObject(TypeName[Test Object], 0, object.xpos, object.ypos)
 </span></code></pre></div>
-<h2 id="notes">Notes</h2>
-<p>This should only be used for misc objects that aren't required for too long in the stage.</p>
 
 
 

@@ -1718,9 +1718,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -1746,32 +1746,32 @@
 
 <h1 id="drawrect">DrawRect</h1>
 <h2 id="description">Description</h2>
-<p>Draws a rectangle to a specified X and Y position in the screen with a color based on combination of red, green, blue and transparency.</p>
+<p>Draws a rectangle to <code>ixpos</code> and <code>iypos</code> in screen-space, with a color based on the <code>r</code>, <code>g</code>, <code>b</code>, and <code>alpha</code>.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
-<li><code>ixPos</code>
+<li><code>ixpos</code>
 The position of the rectangle on the horizontal axis in screen-space.</li>
-<li><code>iyPos</code>
+<li><code>iypos</code>
 The position of the rectangle on the vertical axis in screen-space.</li>
 <li><code>width</code>
 The width of the rectangle.</li>
 <li><code>height</code>
 The height of the rectangle.</li>
-<li><code>R</code>
+<li><code>r</code>
 A value range of 0-255 for the color red.</li>
-<li><code>G</code>
+<li><code>g</code>
 A value range of 0-255 for the color green.</li>
-<li><code>B</code>
+<li><code>b</code>
 A value range of 0-255 for the color blue.</li>
-<li><code>A</code>
-A value range of 0-255 for transparency (255 being no transparency)</li>
+<li><code>alpha</code>
+A value range of 0-255 for transparency (255 being no transparency).</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
 <p>None.</p>
 <h2 id="syntax">Syntax</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>DrawTintRect(int ixPos, int iyPos, int width, int height, int R, int G, int B, int A)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>DrawTintRect(int ixpos, int iypos, int width, int height, int r, int g, int b, int alpha)
 </span></code></pre></div>
-<h2 id="examples">Examples</h2>
+<h2 id="example">Example</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>DrawRect(30, 220, 60, 20, 255, 128, 128, 255)
 </span></code></pre></div>
 

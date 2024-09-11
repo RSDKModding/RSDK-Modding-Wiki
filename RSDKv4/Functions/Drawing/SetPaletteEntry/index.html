@@ -1718,9 +1718,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -1746,22 +1746,22 @@
 
 <h1 id="setpaletteentry">SetPaletteEntry</h1>
 <h2 id="description">Description</h2>
-<p>Sets the palette entry in <code>palBankID</code> at <code>palIndex</code> to the value of <code>color</code>.</p>
+<p>Sets the palette entry in <code>bank</code> at <code>index</code> to the value of <code>color</code>.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
-<li><code>palBankID</code>
-Palette bank from where to get the entry, valid value range: 0-7.</li>
-<li><code>palIndex</code>
-Index of the entry to place the new color, valid value range: 0-255.</li>
+<li><code>bank</code>
+Palette bank from where to get the entry. Valid range: 0-7.</li>
+<li><code>index</code>
+Index of the entry to place the new color. Valid range: 0-255.</li>
 <li><code>color</code>
-Color value, the format of the color is 0xRRGGBB.</li>
+Color value, the format of the color being 0xRRGGBB.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
 <p>None.</p>
 <h2 id="syntax">Syntax</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>SetPaletteEntry(int palBankID, int palIndex, int color)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>SetPaletteEntry(int bank, int index, int color)
 </span></code></pre></div>
-<h2 id="examples">Examples</h2>
+<h2 id="example">Example</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>SetPaletteEntry(0, 134, 0xFF607F)
 </span></code></pre></div>
 

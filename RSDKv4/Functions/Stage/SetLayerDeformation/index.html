@@ -1718,9 +1718,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -1746,15 +1746,17 @@
 
 <h1 id="setlayerdeformation">SetLayerDeformation</h1>
 <h2 id="description">Description</h2>
-<p>Sets the deformation data array of <code>deformID</code>, based on the <code>deformA</code> and <code>deformB</code> values.</p>
+<p>Sets the deformation data array of <code>deformID</code>, based on <code>deformA</code> and <code>deformB</code>.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
 <li><code>deformID</code>
-The ID of the layer to deform, valid values are:
-    0(DEFORM_FG)
-    1(DEFORM_FG_WATER)
-    2(DEFORM_BG)
-    3(DEFORM_BG_WATER)</li>
+The ID of the layer to deform, valid values are:<ul>
+<li>0 (DEFORM_FG)</li>
+<li>1 (DEFORM_FG_WATER)</li>
+<li>2 (DEFORM_BG)</li>
+<li>3 (DEFORM_BG_WATER)</li>
+</ul>
+</li>
 <li><code>waveLength</code>
 Length of the wave.</li>
 <li><code>waveWidth</code>
@@ -1771,7 +1773,7 @@ The size of the wave.</li>
 <h2 id="syntax">Syntax</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>SetLayerDeformation(int deformID, int waveLength, int waveWidth, int waveType, int yPos, int waveSize)
 </span></code></pre></div>
-<h2 id="examples">Examples</h2>
+<h2 id="example">Example</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>SetLayerDeformation(0, 16, 2, 1, 96, 128)
 </span></code></pre></div>
 

@@ -1718,9 +1718,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -1746,27 +1746,27 @@
 
 <h1 id="loadpalette">LoadPalette</h1>
 <h2 id="description">Description</h2>
-<p>Loads a palette into a <code>palBank</code> starting from <code>startPalIndex</code>, with an offset of <code>startIndex</code> and reading all colors through to <code>endIndex</code>.</p>
+<p>Loads a palette into <code>palBank</code> starting from <code>startPalIndex</code>, with an offset of <code>startIndex</code> and reading all colors through to <code>endIndex</code>.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
 <li><code>path</code>
 The path to the palette file, relative to <code>Data/Palettes/</code>.</li>
 <li><code>palBank</code>
-The ID of the palette bank for the palette to load, indices 0-7 are valid.</li>
+The ID of the palette bank for the palette to load into. Indices 0-7 are valid.</li>
 <li><code>startPalIndex</code>
-The starting index of the loaded palette.</li>
+The starting index to load colors from in the loaded palette file.</li>
 <li><code>startIndex</code>
-The starting index of the palette bank from which the loaded palette will override.</li>
+The starting index of the palette bank from which the loaded palette will overwrite.</li>
 <li><code>endIndex</code>
-The ending index of the palette bank from which the loaded palette will override.</li>
+The ending index of the palette bank from which the loaded palette will overwrite.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
 <p>None.</p>
 <h2 id="syntax">Syntax</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>LoadPalette(&quot;string path&quot;, int palBank, int startPalIndex, int startIndex, int endIndex)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>LoadPalette(string path, int palBank, int startPalIndex, int startIndex, int endIndex)
 </span></code></pre></div>
-<h2 id="examples">Examples</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>LoadPalette(&quot;Masterpalette.act&quot;, 2, 16, 24, 32)
+<h2 id="example">Example</h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>LoadPalette(&quot;MasterPalette.act&quot;, 2, 16, 24, 32)
 </span></code></pre></div>
 
 

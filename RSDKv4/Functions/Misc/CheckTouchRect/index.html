@@ -1718,9 +1718,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -1746,25 +1746,25 @@
 
 <h1 id="checktouchrect">CheckTouchRect</h1>
 <h2 id="description">Description</h2>
-<p>Check if there was a touch input between the inputted coordinates.</p>
+<p>Checks if there's a touch input between the given coordinates.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
-<li><code>X1</code>
+<li><code>x1</code>
 Left side of the rectangle.</li>
-<li><code>X2</code>
-Right side of the rectangle.</li>
-<li><code>Y1</code>
+<li><code>y1</code>
 Top side of the rectangle.</li>
-<li><code>Y2</code>
+<li><code>x2</code>
+Right side of the rectangle.</li>
+<li><code>y2</code>
 Bottom side of the rectangle.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
-<p>Will set <code>checkResult</code> to <code>true</code> if there was a touch press inside the rectangle.</p>
+<p>Sets <code>checkResult</code> to the ID of the touch input within the coordinates. If there are no such touch inputs, <code>checkResult</code> is set to <code>-1</code>.</p>
 <h2 id="syntax">Syntax</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>CheckTouchRect(int X1, int Y1, int X2, int Y2)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>CheckTouchRect(int x1, int y1, int x2, int y2)
 </span></code></pre></div>
-<h2 id="examples">Examples</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>CheckTouchRect(0, 0, Screen.XSize, Screen.YSize)
+<h2 id="example">Example</h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>CheckTouchRect(0, 0, screen.xsize, screen.ysize)
 </span></code></pre></div>
 
 

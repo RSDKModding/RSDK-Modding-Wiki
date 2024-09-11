@@ -1709,18 +1709,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#syntax" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Syntax
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#notes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Notes
+      Example
     </span>
   </a>
   
@@ -1747,15 +1738,17 @@
 <h1 id="readsaveram">ReadSaveRAM</h1>
 <h2 id="description">Description</h2>
 <p>Reads the contents of the save file on disk into SaveRAM.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The contents previously in SaveRAM will be overwritten upon calling this function.</p>
+</div>
 <h2 id="parameters">Parameters</h2>
 <p>None.</p>
 <h2 id="return-value">Return Value</h2>
-<p>None.</p>
-<h2 id="syntax">Syntax</h2>
+<p>Sets <code>checkResult</code> to <code>true</code> if SaveRAM is loaded successfully loaded; otherwise, sets it to <code>false</code>.</p>
+<h2 id="example">Example</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>ReadSaveRAM()
 </span></code></pre></div>
-<h2 id="notes">Notes</h2>
-<p>ReadSaveRAM() will overwrite any current values.</p>
 
 
 

@@ -1718,9 +1718,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -1745,9 +1745,12 @@
 
 
 <h1 id="drawtext">DrawText</h1>
+<div class="admonition failure">
+<p class="admonition-title">Deprecated</p>
+<p>This function was removed from RSDKv4 in REV02.</p>
+</div>
 <h2 id="description">Description</h2>
-<p>Draws the contents of <code>rowCount</code> rows, starting from <code>rowStart</code> in <code>menu</code> at <code>xPos</code> and <code>yPos</code> relative to the screen. Using <code>spacing</code> pixels between them and scalling it with <code>scale</code>.
-(Removed from the engine in REV02)</p>
+<p>Draws the contents of <code>rowCount</code> rows, starting from <code>rowStart</code> in <code>menu</code> at <code>xPos</code> and <code>yPos</code> relative to the screen, using <code>spacing</code> pixels between them and scaling it with <code>scale</code>.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
 <li><code>menu</code>
@@ -1770,7 +1773,7 @@ The amount of rows to draw.</li>
 <h2 id="syntax">Syntax</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>DrawText(int menu, int xPos, int yPos, int scale, int spacing, int rowStart, int rowCount)
 </span></code></pre></div>
-<h2 id="examples">Examples</h2>
+<h2 id="example">Example</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>DrawText(MENU_1, temp0, temp1, 192, 0, 0, 1)
 </span></code></pre></div>
 

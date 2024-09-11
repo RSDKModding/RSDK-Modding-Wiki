@@ -1718,9 +1718,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -1746,22 +1746,22 @@
 
 <h1 id="getpaletteentry">GetPaletteEntry</h1>
 <h2 id="description">Description</h2>
-<p>Gets the palette entry in <code>palBankID</code> at <code>palIndex</code> and stores it in <code>palStore</code>.</p>
+<p>Gets the palette entry in <code>bank</code> at <code>index</code> and stores it in <code>store</code>.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
-<li><code>palBankID</code>
+<li><code>bank</code>
 Palette bank from where to get the entry, valid value range: 0-7.</li>
-<li><code>palIndex</code>
+<li><code>index</code>
 Index of the entry to copy, valid value range: 0-255.</li>
-<li><code>palStore</code>
+<li><code>store</code>
 Variable to store the copied palette.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
-<p>None.</p>
+<p>Sets <code>store</code> to the retrieved color.</p>
 <h2 id="syntax">Syntax</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>GetPaletteEntry(int palBankID, int palIndex, var palStore)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>GetPaletteEntry(int bank, int index, var store)
 </span></code></pre></div>
-<h2 id="examples">Examples</h2>
+<h2 id="example">Example</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>GetPaletteEntry(3, 131, temp6)
 </span></code></pre></div>
 

@@ -1718,9 +1718,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -1746,22 +1746,22 @@
 
 <h1 id="getobjectvalue">GetObjectValue</h1>
 <h2 id="description">Description</h2>
-<p>Get the <code>object.value</code> of <code>entitySlot</code> corresponding to <code>valueID</code> and stores it in <code>result</code>.</p>
+<p>Gets <code>object.valueXX</code> of the object in <code>slot</code> corresponding to <code>valueID</code> and stores it in <code>store</code>.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
-<li><code>result</code>
+<li><code>store</code>
 Variable where to store <code>valueID</code>.</li>
 <li><code>valueID</code>
-The corresponding <code>object.value</code> to get.</li>
-<li><code>entitySlot</code>
+The corresponding <code>object.valueXX</code> to get, with a range of 0-47.</li>
+<li><code>slot</code>
 The ID of the object from where to get <code>object.value</code>.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
-<p>None.</p>
+<p>Sets <code>store</code> to the result.</p>
 <h2 id="syntax">Syntax</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>GetObjectValue(var result, int valueID, int entitySlot)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>GetObjectValue(var store, int valueID, int slot)
 </span></code></pre></div>
-<h2 id="examples">Examples</h2>
+<h2 id="example">Example</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>GetObjectValue(arrayPos0, 34, 2)
 </span></code></pre></div>
 

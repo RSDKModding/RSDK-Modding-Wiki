@@ -1718,18 +1718,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#notes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Notes
+      Example
     </span>
   </a>
   
@@ -1755,7 +1746,11 @@
 
 <h1 id="objecttilecollision">ObjectTileCollision</h1>
 <h2 id="description">Description</h2>
-<p>Tries to collide with the foreground layer based on the position of iXPos + xOffset, iYPos + yOffset.</p>
+<p>Tries to collide with the foreground layer based on the position of <code>object.ixpos</code> + <code>xOffset</code>, <code>object.iypos</code> + <code>yOffset</code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This function is best used for checking a tile is present. For moving along tiles, use <a href="../ObjectTileGrip/">ObjectTileGrip()</a> instead.</p>
+</div>
 <h2 id="parameters">Parameters</h2>
 <ul>
 <li><code>cSide</code>
@@ -1768,15 +1763,13 @@ Vertical offset of the object.</li>
 Collision plane to take into account.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
-<p>Sets CheckResult to true if there was collision, false otherwise.</p>
+<p>Sets <code>checkResult</code> to <code>true</code> if there was collision; otherwise, it's set to <code>false</code>.</p>
 <h2 id="syntax">Syntax</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>ObjectTileCollision(int cSide, int xOffset, int yOffset, int cPlane)
 </span></code></pre></div>
-<h2 id="examples">Examples</h2>
+<h2 id="example">Example</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>ObjectTileCollision(CSIDE_LWALL, -15, -4, 0)
 </span></code></pre></div>
-<h2 id="notes">Notes</h2>
-<p>This function is best used to check if a tile is there, not to move along it.</p>
 
 
 

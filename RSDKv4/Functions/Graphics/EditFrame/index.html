@@ -18,7 +18,7 @@
     
     
       
-        <title>LoadSpriteSheet - RSDK Modding Wiki</title>
+        <title>EditFrame - RSDK Modding Wiki</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#loadspritesheet" class="md-skip">
+        <a href="#editframe" class="md-skip">
           Skip to content
         </a>
       
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              LoadSpriteSheet
+              EditFrame
             
           </span>
         </div>
@@ -1718,9 +1718,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -1744,21 +1744,33 @@
   
 
 
-<h1 id="loadspritesheet">LoadSpriteSheet</h1>
+<h1 id="editframe">EditFrame</h1>
 <h2 id="description">Description</h2>
-<p>Loads a Sprite Sheet and assigns the id to <code>object.spritesheet</code>. The spritesheet must be in GIF format.</p>
+<p>Edits the pivots, width, height, and sheet coordinates of <code>frame</code>.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
-<li><code>path</code>
-The file path to load the sprite sheet from, relative to <code>Data/Sprites/</code>.</li>
+<li><code>frame</code>
+The ID of the SpriteFrame to edit.</li>
+<li><code>xPivot</code>
+The horizontal offset of the sprite. Negative values will move it to the left, while positive values will move it to the right.</li>
+<li><code>yPivot</code>
+The vertical offset of the sprite. Negative values will move it upwards, while positive values will move it downwards.</li>
+<li><code>width</code>
+The width of the sprite.</li>
+<li><code>height</code>
+The height of the sprite.</li>
+<li><code>sheetXPos</code>
+The position of the upper-left border of the sprite, on the X axis.</li>
+<li><code>sheetYPos</code>
+The position of the upper-left border of the sprite, on the Y axis.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
 <p>None.</p>
 <h2 id="syntax">Syntax</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>LoadSpriteSheet(string path)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>EditFrame(int frame, int xPivot, int yPivot, int width, int height, int sheetXPos, int sheetYPos)
 </span></code></pre></div>
-<h2 id="examples">Examples</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>LoadSpriteSheet(&quot;Test/Objects.gif&quot;)
+<h2 id="example">Example</h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>EditFrame(2, -8, -8, 8, 8, 1, 35)
 </span></code></pre></div>
 
 

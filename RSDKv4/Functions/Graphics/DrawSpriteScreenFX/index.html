@@ -18,7 +18,7 @@
     
     
       
-        <title>DrawObjectAnimation - RSDK Modding Wiki</title>
+        <title>DrawSpriteScreenFX - RSDK Modding Wiki</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#drawobjectanimation" class="md-skip">
+        <a href="#drawspritescreenfx" class="md-skip">
           Skip to content
         </a>
       
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              DrawObjectAnimation
+              DrawSpriteScreenFX
             
           </span>
         </div>
@@ -1718,11 +1718,35 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#drawfxflag-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      drawFXFlag Effects
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="drawFXFlag Effects">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ink-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ink Effects
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1744,21 +1768,104 @@
   
 
 
-<h1 id="drawobjectanimation">DrawObjectAnimation</h1>
+<h1 id="drawspritescreenfx">DrawSpriteScreenFX</h1>
 <h2 id="description">Description</h2>
-<p>Draws an object's sprites from an animation file, loaded prior via <code>LoadAnimation()</code>. The sprite will be drawn at <code>object.xpos</code>, <code>object.ypos</code>, with <a href="../DrawSpriteFX/"><code>FX_FLIP</code></a> as the ink effect.</p>
+<p>Draws <code>frame</code> to a specified X and Y position in screen-space with visual effects.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
-<li>None.</li>
+<li><code>frame</code>
+The ID of the SpriteFrame to draw.</li>
+<li><code>drawFXFlag</code>
+The visual effect to apply.</li>
+<li><code>ixpos</code>
+The position of the sprite on the horizontal axis in screen-space.</li>
+<li><code>iypos</code>
+The position of the sprite on the vertical axis in screen-space.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
 <p>None.</p>
 <h2 id="syntax">Syntax</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>DrawObjectAnimation()
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>DrawSpriteScreenFX(int frame, int drawFXFlag, int ixpos, int iypos)
 </span></code></pre></div>
-<h2 id="examples">Examples</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>DrawObjectAnimation()
+<h2 id="example">Example</h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>DrawSpriteScreenFX(2, FX_FLIP, screen.xcenter, 15)
 </span></code></pre></div>
+<h2 id="drawfxflag-effects">drawFXFlag Effects</h2>
+<table>
+<thead>
+<tr>
+<th>Effect</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>FX_SCALE</code></td>
+<td>Allows the scaling of the sprite via <code>object.scale</code>.</td>
+</tr>
+<tr>
+<td><code>FX_ROTATE</code></td>
+<td>Allows the rotation of the sprite via <code>object.rotation</code>.</td>
+</tr>
+<tr>
+<td><code>FX_ROTOZOOM</code></td>
+<td>Allows both scaling via <code>object.scale</code> and rotation via <code>object.rotation</code>.</td>
+</tr>
+<tr>
+<td><code>FX_INK</code></td>
+<td>Allows using transparency based on <code>object.inkEffect</code>.</td>
+</tr>
+<tr>
+<td><code>FX_TINT</code></td>
+<td>Tints the sprite to grayscale if <code>object.inkEffect</code> is set to <code>INK_ALPHA</code>, otherwise it acts like <code>FX_SCALE</code>.</td>
+</tr>
+<tr>
+<td><code>FX_FLIP</code></td>
+<td>Flips the sprite depending on <code>object.direction</code>.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><code>FX_TINT</code> does not have an alias set by default. Its numeric ID is <code>4</code>.</p>
+</div>
+<h3 id="ink-effects">Ink Effects</h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Ink Effect</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td><code>INK_NONE</code></td>
+<td>No effect.</td>
+</tr>
+<tr>
+<td>1</td>
+<td><code>INK_BLEND</code></td>
+<td>50% transparency.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>INK_ALPHA</code></td>
+<td>Transparency based on <code>object.alpha</code>, with a range of 0-255 (255 being no transparency).</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>INK_ADD</code></td>
+<td>Additive blending.</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>INK_SUB</code></td>
+<td>Subtractive blending.</td>
+</tr>
+</tbody>
+</table>
 
 
 

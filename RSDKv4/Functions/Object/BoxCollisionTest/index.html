@@ -1718,9 +1718,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -1746,7 +1746,7 @@
 
 <h1 id="boxcollisiontest">BoxCollisionTest</h1>
 <h2 id="description">Description</h2>
-<p>Checks for collision of an object with another, using the <code>hitBox</code> values passed.</p>
+<p>Checks for collision of an object with another, using the hitbox values passed.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
 <li><code>collisionType</code>
@@ -1765,11 +1765,11 @@ The values of the target's hitbox.</li>
 Depending of <code>collisionType</code> used:
 - <code>C_TOUCH</code>: <code>checkResult</code> will return <code>true</code> with any type of collision.
 - <code>C_SOLID</code>/<code>C_SOLID2</code>: <code>checkResult</code> will return values 1 (Floor), 2 (LWall), 3 (RWall) or 4 (Roof) depending on the side of the object collided with.
-- <code>C_PLATFORM</code>: <code>checkResult</code> will only be <code>true</code> if the top of the object was collided</p>
+- <code>C_PLATFORM</code>: <code>checkResult</code> will only be <code>true</code> if the top of the object was collided.</p>
 <h2 id="syntax">Syntax</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>BoxCollisionTest(int collisionType, int thisObject, int thisLeft, int thisTop, int thisRight, int thisBottom, int otherObject, int otherLeft, int otherTop, int otherRight, int otherBottom)
 </span></code></pre></div>
-<h2 id="examples">Examples</h2>
+<h2 id="example">Example</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>BoxCollisionTest(C_TOUCH, object.entityPos, -24, -8, 24, 8, object[0].entityPos, C_BOX, C_BOX, C_BOX, C_BOX)
 </span></code></pre></div>
 

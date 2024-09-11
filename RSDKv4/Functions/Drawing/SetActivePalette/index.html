@@ -1718,9 +1718,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -1746,23 +1746,23 @@
 
 <h1 id="setactivepalette">SetActivePalette</h1>
 <h2 id="description">Description</h2>
-<p>Sets the active palette for <code>palBank</code> for all screen lines from <code>startLine</code> through to <code>endLine</code>.</p>
+<p>Sets the active palette to <code>palBank</code> for all vertical screen lines from <code>startLine</code> to <code>endLine</code>.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
 <li><code>palBank</code>
-The ID of the new active palette, indices 0-7 are valid.</li>
+The ID of the new active palette. Indices 0-7 are valid.</li>
 <li><code>startLine</code>
-The starting screen-line for the new active palette.</li>
+The starting vertical screen-line for the new active palette.</li>
 <li><code>endLine</code>
-The final screen-line for the new active palette.</li>
+The ending vertical screen-line for the new active palette.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
 <p>None.</p>
 <h2 id="syntax">Syntax</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>SetActivePalette(int palBank, int startLine, int endLine)
 </span></code></pre></div>
-<h2 id="examples">Examples</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>SetActivePalette(0, 76, Screen.YSize)
+<h2 id="example">Example</h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>SetActivePalette(0, 76, screen.ysize)
 </span></code></pre></div>
 
 

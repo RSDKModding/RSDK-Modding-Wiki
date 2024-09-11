@@ -1718,9 +1718,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -1746,7 +1746,11 @@
 
 <h1 id="rand">Rand</h1>
 <h2 id="description">Description</h2>
-<p>Gets a random value from 0 to <code>max</code>(not included) and stores it in <code>store</code>.</p>
+<p>Gets a random value from 0 to <code>max</code> (not inclusive) and stores it in <code>store</code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><code>max</code> is <em>exclusive</em>, meaning the number it's set to will never be chosen, e.g. a <code>max</code> value of 4 will result in only numbers 0-3 being picked.</p>
+</div>
 <h2 id="parameters">Parameters</h2>
 <ul>
 <li><code>store</code>
@@ -1755,11 +1759,11 @@ Variable from where to store the result.</li>
 Exclusive maximum for the random value to get.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
-<p>None.</p>
+<p>Sets <code>store</code> to the result.</p>
 <h2 id="syntax">Syntax</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Rand(var store, int max)
 </span></code></pre></div>
-<h2 id="examples">Examples</h2>
+<h2 id="example">Example</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Rand(object.value3, 8)
 </span></code></pre></div>
 

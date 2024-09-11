@@ -18,7 +18,7 @@
     
     
       
-        <title>EditFrame - RSDK Modding Wiki</title>
+        <title>RemoveSpriteSheet - RSDK Modding Wiki</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#editframe" class="md-skip">
+        <a href="#removespritesheet" class="md-skip">
           Skip to content
         </a>
       
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              EditFrame
+              RemoveSpriteSheet
             
           </span>
         </div>
@@ -1718,18 +1718,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#notes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Notes
+      Example
     </span>
   </a>
   
@@ -1753,36 +1744,29 @@
   
 
 
-<h1 id="editframe">EditFrame</h1>
+<h1 id="removespritesheet">RemoveSpriteSheet</h1>
 <h2 id="description">Description</h2>
-<p>Edits pivots, width, height and sheet coordinates of a spriteFrame with matching <code>ID</code>.</p>
+<p>Removes the given spritesheet from memory, if it is already loaded.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li>This function does not affect files in the datafile or device storage, only the engine memory.</li>
+<li>Spritesheets loaded from animation files cannot be removed.</li>
+</ul>
+</div>
 <h2 id="parameters">Parameters</h2>
 <ul>
-<li><code>ID</code>
-The ID of the spriteFrame to edit.</li>
-<li><code>xPivot</code>
-The horizontal offset of the sprite, negative values will move it to the left, while positive values will move it to the right.</li>
-<li><code>yPivot</code>
-The vertical offset of the sprite, negative values will move it upwards, and positive values downwards.</li>
-<li><code>Width</code>
-The width of the sprite.</li>
-<li><code>Height</code>
-The height of the sprite.</li>
-<li><code>SheetXPos</code>
-The position of the upper-left border of the sprite, on the X axis.</li>
-<li><code>SheetYPos</code>
-The position of the upper-left border of the sprite, on the Y axis.</li>
+<li><code>path</code>
+The file path of the target sprite sheet to remove, relative to <code>Data/Sprites/</code>.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
 <p>None.</p>
 <h2 id="syntax">Syntax</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>EditFrame(int ID, int xPivot, int yPivot, int Width, int Height, int SheetXPos, int SheetYPos)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>RemoveSpriteSheet(string path)
 </span></code></pre></div>
-<h2 id="examples">Examples</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>EditFrame(2, -8, -8, 8, 8, 1, 35)
+<h2 id="example">Example</h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>RemoveSpriteSheet(&quot;Test/Objects.gif&quot;)
 </span></code></pre></div>
-<h2 id="notes">Notes</h2>
-<p>This function is not available in Blit releases of Sonic CD.</p>
 
 
 

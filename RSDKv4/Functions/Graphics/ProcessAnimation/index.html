@@ -18,7 +18,7 @@
     
     
       
-        <title>RemoveSpriteSheet - RSDK Modding Wiki</title>
+        <title>ProcessAnimation - RSDK Modding Wiki</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#removespritesheet" class="md-skip">
+        <a href="#processanimation" class="md-skip">
           Skip to content
         </a>
       
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              RemoveSpriteSheet
+              ProcessAnimation
             
           </span>
         </div>
@@ -1709,18 +1709,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#syntax" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Syntax
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -1744,21 +1735,15 @@
   
 
 
-<h1 id="removespritesheet">RemoveSpriteSheet</h1>
+<h1 id="processanimation">ProcessAnimation</h1>
 <h2 id="description">Description</h2>
-<p>Removes the given Sprite Sheet from memory, if it is already loaded. This does <em>not</em> delete the file from the computer or anything, it purely only affects the game memory.</p>
+<p>Processes the current object's animation, based on the animation file loaded prior via <a href="../LoadAnimation/">LoadAnimation()</a>. The animation is processed based on <code>object.animation</code>, and uses <code>object.animationSpeed</code>, <code>object.animationTimer</code>, and <code>object.frame</code> as well.</p>
 <h2 id="parameters">Parameters</h2>
-<ul>
-<li><code>path</code>
-The file path of the target sprite sheet to remove, relative to <code>Data/Sprites/</code>.</li>
-</ul>
+<p>None.</p>
 <h2 id="return-value">Return Value</h2>
 <p>None.</p>
-<h2 id="syntax">Syntax</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>RemoveSpriteSheet(string path)
-</span></code></pre></div>
-<h2 id="examples">Examples</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>RemoveSpriteSheet(&quot;Test/Objects.gif&quot;)
+<h2 id="example">Example</h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>ProcessAnimation()
 </span></code></pre></div>
 
 

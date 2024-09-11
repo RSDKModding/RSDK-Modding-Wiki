@@ -1118,18 +1118,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#deprecated" class="md-nav__link">
+  <a href="#drawing" class="md-nav__link">
     <span class="md-ellipsis">
-      Deprecated
+      Drawing
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#sprites-animations" class="md-nav__link">
+  <a href="#graphics" class="md-nav__link">
     <span class="md-ellipsis">
-      Sprites &amp; Animations
+      Graphics
     </span>
   </a>
   
@@ -1139,15 +1139,6 @@
   <a href="#math" class="md-nav__link">
     <span class="md-ellipsis">
       Math
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#miscellaneous" class="md-nav__link">
-    <span class="md-ellipsis">
-      Miscellaneous
     </span>
   </a>
   
@@ -1166,6 +1157,24 @@
   <a href="#stages" class="md-nav__link">
     <span class="md-ellipsis">
       Stages
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#miscellaneous" class="md-nav__link">
+    <span class="md-ellipsis">
+      Miscellaneous
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deprecated" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deprecated
     </span>
   </a>
   
@@ -1847,18 +1856,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#deprecated" class="md-nav__link">
+  <a href="#drawing" class="md-nav__link">
     <span class="md-ellipsis">
-      Deprecated
+      Drawing
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#sprites-animations" class="md-nav__link">
+  <a href="#graphics" class="md-nav__link">
     <span class="md-ellipsis">
-      Sprites &amp; Animations
+      Graphics
     </span>
   </a>
   
@@ -1868,15 +1877,6 @@
   <a href="#math" class="md-nav__link">
     <span class="md-ellipsis">
       Math
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#miscellaneous" class="md-nav__link">
-    <span class="md-ellipsis">
-      Miscellaneous
     </span>
   </a>
   
@@ -1895,6 +1895,24 @@
   <a href="#stages" class="md-nav__link">
     <span class="md-ellipsis">
       Stages
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#miscellaneous" class="md-nav__link">
+    <span class="md-ellipsis">
+      Miscellaneous
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deprecated" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deprecated
     </span>
   </a>
   
@@ -1920,106 +1938,472 @@
 
 <h1 id="rsdkv4-functions">RSDKv4 Functions</h1>
 <h2 id="3d">3D</h2>
-<ul>
-<li><a href="3D/Draw3DScene/">Draw3DScene</a></li>
-<li><a href="3D/InverseMatrix/">InverseMatrix</a></li>
-<li><a href="3D/MatrixMultiply/">MatrixMultiply</a></li>
-<li><a href="3D/MatrixRotate/">MatrixRotate</a></li>
-<li><a href="3D/MatrixRotateXYZ/">MatrixRotateXYZ</a></li>
-<li><a href="3D/MatrixTranslateXYZ/">MatrixTranslateXYZ</a></li>
-<li><a href="3D/ScaleMatrixXYZ/">ScaleMatrixXYZ</a></li>
-<li><a href="3D/SetIdentityMatrix/">SetIdentityMatrix</a></li>
-<li><a href="3D/TransformVertices/">TransformVertices</a></li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="3D/Draw3DScene/"><strong>Draw3DScene</strong></a></td>
+<td>Draws the active 3DScene data to the screen.</td>
+</tr>
+<tr>
+<td><a href="3D/SetIdentityMatrix/"><strong>SetIdentityMatrix</strong></a></td>
+<td>Sets the matrix of <code>matID</code> to the identity state.</td>
+</tr>
+<tr>
+<td><a href="3D/MatrixMultiply/"><strong>MatrixMultiply</strong></a></td>
+<td>Multiplies <code>matrixA</code> by <code>matrixB</code>.</td>
+</tr>
+<tr>
+<td><a href="3D/MatrixTranslateXYZ/"><strong>MatrixTranslateXYZ</strong></a></td>
+<td>Translates <code>matrix</code> to <code>translateX</code>, <code>translateY</code> and <code>translateZ</code>.</td>
+</tr>
+<tr>
+<td><a href="3D/MatrixScaleXYZ/"><strong>MatrixScaleXYZ</strong></a></td>
+<td>Scales <code>matrix</code> to <code>scaleX</code>, <code>scaleY</code> and <code>scaleZ</code>.</td>
+</tr>
+<tr>
+<td><a href="3D/MatrixRotate/"><strong>MatrixRotate</strong></a></td>
+<td>Rotates <code>matrix</code> to <code>angle</code> on the specified axis.</td>
+</tr>
+<tr>
+<td><a href="3D/MatrixRotateXYZ/"><strong>MatrixRotateXYZ</strong></a></td>
+<td>Rotates <code>matrix</code> to <code>angleX</code>, <code>angleY</code> and <code>angleZ</code>.</td>
+</tr>
+<tr>
+<td><a href="3D/MatrixInverse/"><strong>MatrixInverse</strong></a></td>
+<td>Performs an inversion on <code>matrix</code>'s values.</td>
+</tr>
+<tr>
+<td><a href="3D/TransformVertices/"><strong>TransformVertices</strong></a></td>
+<td>Transform all vertices from <code>startIndex</code> to <code>endIndex</code> using <code>matrix</code>.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="audio">Audio</h2>
-<ul>
-<li><a href="Audio/SetMusicTrack/">SetMusicTrack</a></li>
-<li><a href="Audio/PlayMusic/">PlayMusic</a></li>
-<li><a href="Audio/StopMusic/">StopMusic</a></li>
-<li><a href="Audio/PauseMusic/">PauseMusic</a></li>
-<li><a href="Audio/ResumeMusic/">ResumeMusic</a></li>
-<li><a href="Audio/SwapMusicTrack/">SwapMusicTrack</a></li>
-<li><a href="Audio/PlaySfx/">PlaySfx</a></li>
-<li><a href="Audio/StopSfx/">StopSfx</a></li>
-<li><a href="Audio/SetSfxAttributes/">SetSfxAttributes</a></li>
-</ul>
-<h2 id="deprecated">Deprecated</h2>
-<ul>
-<li><a href="Deprecated/DrawText/">DrawText</a></li>
-<li><a href="Deprecated/LoadTextFont/">LoadTextFont</a></li>
-</ul>
-<h2 id="sprites-animations">Sprites &amp; Animations</h2>
-<ul>
-<li><a href="Animations-Sprites/DrawObjectAnimation/">DrawObjectAnimation</a></li>
-<li><a href="Animations-Sprites/DrawSprite/">DrawSprite</a></li>
-<li><a href="Animations-Sprites/DrawSpriteFX/">DrawSpriteFX</a></li>
-<li><a href="Animations-Sprites/DrawSpriteScreenFX/">DrawSpriteScreenFX</a></li>
-<li><a href="Animations-Sprites/DrawSpriteScreenXY/">DrawSpriteScreenXY</a></li>
-<li><a href="Animations-Sprites/DrawSpriteXY/">DrawSpriteXY</a></li>
-<li><a href="Animations-Sprites/EditFrame/">EditFrame</a></li>
-<li><a href="Animations-Sprites/LoadAnimation/">LoadAnimation</a></li>
-<li><a href="Animations-Sprites/LoadSpriteSheet/">LoadSpriteSheet</a></li>
-<li><a href="Animations-Sprites/ProcessAnimation/">ProcessAnimation</a></li>
-<li><a href="Animations-Sprites/RemoveSpriteSheet/">RemoveSpriteSheet</a></li>
-<li><a href="Animations-Sprites/SpriteFrame/">SpriteFrame</a></li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Audio/SetMusicTrack/"><strong>SetMusicTrack</strong></a></td>
+<td>Loads a music file in the given track slot with the given loop point.</td>
+</tr>
+<tr>
+<td><a href="Audio/PlayMusic/"><strong>PlayMusic</strong></a></td>
+<td>Plays the music currently loaded in the given track slot.</td>
+</tr>
+<tr>
+<td><a href="Audio/StopMusic/"><strong>StopMusic</strong></a></td>
+<td>Stops playing the currently playing music track, if one is playing.</td>
+</tr>
+<tr>
+<td><a href="Audio/PauseMusic/"><strong>PauseMusic</strong></a></td>
+<td>Pauses the currently playing music track, if one is playing.</td>
+</tr>
+<tr>
+<td><a href="Audio/ResumeMusic/"><strong>ResumeMusic</strong></a></td>
+<td>If a track has been paused with <a href="Audio/PauseMusic/">PauseMusic()</a>, resumes playing the track.</td>
+</tr>
+<tr>
+<td><a href="Audio/SwapMusicTrack/"><strong>SwapMusicTrack</strong></a></td>
+<td>Loads a music file in the given track slot with the given loop point, swapping the currently playing track if it's the one being overwritten.</td>
+</tr>
+<tr>
+<td><a href="Audio/PlaySfx/"><strong>PlaySfx</strong></a></td>
+<td>Plays the sound effect in the given slot in the GameConfig or StageConfig, looping it if set to do so.</td>
+</tr>
+<tr>
+<td><a href="Audio/StopSfx/"><strong>StopSfx</strong></a></td>
+<td>Stops all instances of the given sound effect playing.</td>
+</tr>
+<tr>
+<td><a href="Audio/SetSfxAttributes/"><strong>SetSfxAttributes</strong></a></td>
+<td>Sets the loop count and panning of the given sound effect to the given values.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="drawing">Drawing</h2>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Drawing/DrawTintRect/"><strong>DrawTintRect</strong></a></td>
+<td>Draws a tinted rectangle to <code>ixpos</code> and <code>iypos</code> in screen-space.</td>
+</tr>
+<tr>
+<td><a href="Drawing/LoadPalette/"><strong>LoadPalette</strong></a></td>
+<td>Loads a palette into <code>palBank</code> starting from <code>startPalIndex</code>, with an offset of <code>startIndex</code> and reading all colors through to <code>endIndex</code>.</td>
+</tr>
+<tr>
+<td><a href="Drawing/RotatePalette/"><strong>RotatePalette</strong></a></td>
+<td>Rotates all colors in <code>palBank</code> from <code>startIndex</code> to <code>endIndex</code>, moving left or right depending on <code>rotRight</code>.</td>
+</tr>
+<tr>
+<td><a href="Drawing/SetScreenFade/"><strong>SetScreenFade</strong></a></td>
+<td>Adds a screen fade effect based on the <code>r</code>, <code>g</code>, <code>b</code> and <code>alpha</code> values.</td>
+</tr>
+<tr>
+<td><a href="Drawing/SetActivePalette/"><strong>SetActivePalette</strong></a></td>
+<td>Sets the active palette to <code>palBank</code> for all vertical screen lines from <code>startLine</code> to <code>endLine</code>.</td>
+</tr>
+<tr>
+<td><a href="Drawing/SetPaletteFade/"><strong>SetPaletteFade</strong></a></td>
+<td>Blends palettes <code>srcBankA</code> and <code>srcBankB</code>, from indexes <code>startIndex</code> to <code>endIndex</code>, by <code>blendAmount</code>, and stores the new palette in <code>dstBank</code>.</td>
+</tr>
+<tr>
+<td><a href="Drawing/GetPaletteEntry/"><strong>GetPaletteEntry</strong></a></td>
+<td>Gets the palette entry in <code>bank</code> at <code>index</code> and stores it in <code>store</code>.</td>
+</tr>
+<tr>
+<td><a href="Drawing/SetPaletteEntry/"><strong>SetPaletteEntry</strong></a></td>
+<td>Sets the palette entry in <code>bank</code> at <code>index</code> to the value of <code>color</code>.</td>
+</tr>
+<tr>
+<td><a href="Drawing/CopyPalette/"><strong>CopyPalette</strong></a></td>
+<td>Copies <code>count</code> colors from <code>srcBank</code>, starting from <code>srcIndex</code>, to <code>destBank</code>, starting at <code>destIndex</code>.</td>
+</tr>
+<tr>
+<td><a href="Drawing/ClearScreen/"><strong>ClearScreen</strong></a></td>
+<td>Clears all pixels on screen with color <code>clearIndex</code> from the active palette.</td>
+</tr>
+<tr>
+<td><a href="Drawing/DrawRect/"><strong>DrawRect</strong></a></td>
+<td>Draws a rectangle to <code>ixpos</code> and <code>iypos</code> in screen-space, with a color based on the <code>r</code>, <code>g</code>, <code>b</code>, and <code>alpha</code>.</td>
+</tr>
+<tr>
+<td><a href="Drawing/ClearDrawList/"><strong>ClearDrawList</strong></a></td>
+<td>Removes all entries in drawList <code>layer</code>.</td>
+</tr>
+<tr>
+<td><a href="Drawing/AddDrawListEntityRef/"><strong>AddDrawListEntityRef</strong></a></td>
+<td>Adds <code>objectPos</code> to drawList <code>layer</code>.</td>
+</tr>
+<tr>
+<td><a href="Drawing/GetDrawListEntityRef/"><strong>GetDrawListEntityRef</strong></a></td>
+<td>Gets <code>objectPos</code> in drawList <code>layer</code> and stores it in <code>store</code>.</td>
+</tr>
+<tr>
+<td><a href="Drawing/SetDrawListEntityRef/"><strong>SetDrawListEntityRef</strong></a></td>
+<td>Sets <code>objectPos</code> in drawList <code>layer</code> to <code>value</code>.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="graphics">Graphics</h2>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Graphics/LoadSpriteSheet/"><strong>LoadSpriteSheet</strong></a></td>
+<td>Loads a spritesheet and assigns the ID to <code>object.spritesheet</code>.</td>
+</tr>
+<tr>
+<td><a href="Graphics/RemoveSpriteSheet/"><strong>RemoveSpriteSheet</strong></a></td>
+<td>Removes the given spritesheet from memory, if it is already loaded.</td>
+</tr>
+<tr>
+<td><a href="Graphics/DrawSprite/"><strong>DrawSprite</strong></a></td>
+<td>Draws <code>frame</code> at the object's X and Y position.</td>
+</tr>
+<tr>
+<td><a href="Graphics/DrawSpriteXY/"><strong>DrawSpriteXY</strong></a></td>
+<td>Draws <code>frame</code> to a specified X and Y position.</td>
+</tr>
+<tr>
+<td><a href="Graphics/DrawSpriteScreenXY/"><strong>DrawSpriteScreenXY</strong></a></td>
+<td>Draws <code>frame</code> to a specified X and Y position in screen-space.</td>
+</tr>
+<tr>
+<td><a href="Graphics/SpriteFrame/"><strong>SpriteFrame</strong></a></td>
+<td>Adds a SpriteFrame with the specified values.</td>
+</tr>
+<tr>
+<td><a href="Graphics/EditFrame/"><strong>EditFrame</strong></a></td>
+<td>Edits the pivots, width, height, and sheet coordinates of <code>frame</code>.</td>
+</tr>
+<tr>
+<td><a href="Graphics/DrawSpriteFX/"><strong>DrawSpriteFX</strong></a></td>
+<td>Draws <code>frame</code> to a specified X and Y position with visual effects.</td>
+</tr>
+<tr>
+<td><a href="Graphics/DrawSpriteScreenFX/"><strong>DrawSpriteScreenFX</strong></a></td>
+<td>Draws <code>frame</code> to a specified X and Y position in screen-space with visual effects.</td>
+</tr>
+<tr>
+<td><a href="Graphics/LoadAnimation/"><strong>LoadAnimation</strong></a></td>
+<td>Loads an animation file for the current object type.</td>
+</tr>
+<tr>
+<td><a href="Graphics/ProcessAnimation/"><strong>ProcessAnimation</strong></a></td>
+<td>Processes the current object's animation, based on the animation file loaded prior via <a href="Graphics/LoadAnimation/">LoadAnimation()</a>.</td>
+</tr>
+<tr>
+<td><a href="Graphics/DrawObjectAnimation/"><strong>DrawObjectAnimation</strong></a></td>
+<td>Draws an object's sprites from the animation file loaded prior via <a href="Graphics/LoadAnimation/">LoadAnimation()</a>.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="math">Math</h2>
-<ul>
-<li><a href="Math/Abs/">Abs</a></li>
-<li><a href="Math/ATan2/">ATan2</a></li>
-<li><a href="Math/Cos/">Cos</a></li>
-<li><a href="Math/Cos256/">Cos256</a></li>
-<li><a href="Math/GetBit/">GetBit</a></li>
-<li><a href="Math/GetTableValue/">GetTableValue</a></li>
-<li><a href="Math/Interpolate/">Interpolate</a></li>
-<li><a href="Math/InterpolateXY/">InterpolateXY</a></li>
-<li><a href="Math/Not/">Not</a></li>
-<li><a href="Math/Rand/">Rand</a></li>
-<li><a href="Math/SetBit/">SetBit</a></li>
-<li><a href="Math/SetTableValue/">SetTableValue</a></li>
-<li><a href="Math/Sin/">Sin</a></li>
-<li><a href="Math/Sin256/">Sin256</a></li>
-</ul>
-<h2 id="miscellaneous">Miscellaneous</h2>
-<ul>
-<li><a href="Misc/AddMenuEntry/">AddMenuEntry</a></li>
-<li><a href="Misc/CallNativeFunction/">CallNativeFunction</a></li>
-<li><a href="Misc/CheckTouchRect/">CheckTouchRect</a></li>
-<li><a href="Misc/DrawMenu/">DrawMenu</a></li>
-<li><a href="Misc/EditMenuEntry/">EditMenuEntry</a></li>
-<li><a href="Misc/GetTextInfo/">GetTextInfo</a></li>
-<li><a href="Misc/GetVersionNumber/">GetVersionNumber</a></li>
-<li><a href="Misc/LoadTextFile/">LoadTextFile</a></li>
-<li><a href="Misc/Print/">Print</a></li>
-<li><a href="Misc/ReadSaveRAM/">ReadSaveRAM</a></li>
-<li><a href="Misc/SetupMenu/">SetupMenu</a></li>
-<li><a href="Misc/WriteSaveRAM/">WriteSaveRAM</a></li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Math/Rand/"><strong>Rand</strong></a></td>
+<td>Gets a random value from 0 to <code>max</code> (not inclusive) and stores it in <code>store</code>.</td>
+</tr>
+<tr>
+<td><a href="Math/Sin/"><strong>Sin</strong></a></td>
+<td>Gets the value from the <code>sin512</code> lookup table based on <code>angle</code> and sets it in <code>store</code>.</td>
+</tr>
+<tr>
+<td><a href="Math/Cos/"><strong>Cos</strong></a></td>
+<td>Gets the value from the <code>cos512</code> lookup table based on <code>angle</code> and sets it in <code>store</code>.</td>
+</tr>
+<tr>
+<td><a href="Math/Sin256/"><strong>Sin256</strong></a></td>
+<td>Gets the value from the <code>sin256</code> lookup table based on <code>angle</code> and sets it in <code>store</code>.</td>
+</tr>
+<tr>
+<td><a href="Math/Cos256/"><strong>Cos256</strong></a></td>
+<td>Gets the value from the <code>cos256</code> lookup table based on <code>angle</code> and sets it in <code>store</code>.</td>
+</tr>
+<tr>
+<td><a href="Math/ATan2/"><strong>ATan2</strong></a></td>
+<td>Performs an arctan operation using <code>x</code> and <code>y</code>, storing the result in <code>store</code>.</td>
+</tr>
+<tr>
+<td><a href="Math/Interpolate/"><strong>Interpolate</strong></a></td>
+<td>Linearly interpolates <code>x</code> and <code>y</code> by <code>percent</code> and stores the result in <code>store</code>.</td>
+</tr>
+<tr>
+<td><a href="Math/InterpolateXY/"><strong>InterpolateXY</strong></a></td>
+<td>Linearly interpolates two points at once and stores the result in <code>storeX</code> and <code>storeY</code> respectively.</td>
+</tr>
+<tr>
+<td><a href="Math/Not/"><strong>Not</strong></a></td>
+<td>Performs a NOT operation on <code>value</code>.</td>
+</tr>
+<tr>
+<td><a href="Math/GetBit/"><strong>GetBit</strong></a></td>
+<td>Gets the binary bit at index <code>bitPos</code> from <code>value</code> and stores it in <code>store</code>.</td>
+</tr>
+<tr>
+<td><a href="Math/SetBit/"><strong>SetBit</strong></a></td>
+<td>Sets index <code>bitPos</code> of <code>value</code> to <code>bit</code> and updates <code>value</code> accordingly.</td>
+</tr>
+<tr>
+<td><a href="Math/GetTableValue/"><strong>GetTableValue</strong></a></td>
+<td>Gets the value at <code>index</code> from <code>table</code> and stores it in <code>store</code>.</td>
+</tr>
+<tr>
+<td><a href="Math/SetTableValue/"><strong>SetTableValue</strong></a></td>
+<td>Sets the value at <code>index</code> from <code>table</code> to <code>value</code>.</td>
+</tr>
+<tr>
+<td><a href="Math/Abs/"><strong>Abs</strong></a></td>
+<td>Gets the absolute number of <code>value</code>.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="object">Object</h2>
-<ul>
-<li><a href="Object/BoxCollisionTest/">BoxCollisionTest</a></li>
-<li><a href="Object/CopyObject/">CopyObject</a></li>
-<li><a href="Object/CreateTempObject/">CreateTempObject</a></li>
-<li><a href="Object/GetObjectValue/">GetObjectValue</a></li>
-<li><a href="Object/ObjectTileCollision/">ObjectTileCollision</a></li>
-<li><a href="Object/ObjectTileGrip/">ObjectTileGrip</a></li>
-<li><a href="Object/ProcessObjectControl/">ProcessObjectControl</a></li>
-<li><a href="Object/ProcessObjectMovement/">ProcessObjectMovement</a></li>
-<li><a href="Object/ResetObjectEntity/">ResetObjectEntity</a></li>
-<li><a href="Object/SetObjectRange/">SetObjectRange</a></li>
-<li><a href="Object/SetObjectValue/">SetObjectValue</a></li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Object/ResetObjectEntity/"><strong>ResetObjectEntity</strong></a></td>
+<td>Resets an object in the <code>slot</code> position with the <code>type</code>, <code>propertyValue</code>, <code>xpos</code> and <code>ypos</code> specified.</td>
+</tr>
+<tr>
+<td><a href="Object/BoxCollisionTest/"><strong>BoxCollisionTest</strong></a></td>
+<td>Checks for collision of an object with another, using the hitbox values passed.</td>
+</tr>
+<tr>
+<td><a href="Object/CreateTempObject/"><strong>CreateTempObject</strong></a></td>
+<td>Creates a temporary object specified by <code>type</code>, <code>propertyValue</code>, <code>xpos</code> and <code>ypos</code> near the end of the object list.</td>
+</tr>
+<tr>
+<td><a href="Object/ProcessObjectMovement/"><strong>ProcessObjectMovement</strong></a></td>
+<td>Handles tile collision of an object/player.</td>
+</tr>
+<tr>
+<td><a href="Object/ProcessObjectControl/"><strong>ProcessObjectControl</strong></a></td>
+<td>Handles object input variables.</td>
+</tr>
+<tr>
+<td><a href="Object/ObjectTileCollision/"><strong>ObjectTileCollision</strong></a></td>
+<td>Tries to collide with the foreground layer based on the position of <code>object.ixpos</code> + <code>xOffset</code>, <code>object.iypos</code> + <code>yOffset</code>.</td>
+</tr>
+<tr>
+<td><a href="Object/ObjectTileGrip/"><strong>ObjectTileGrip</strong></a></td>
+<td>Tries to collide with the foreground layer based on the position of <code>object.ixpos</code> + <code>xOffset</code>, <code>object.iypos</code> + <code>yOffset</code>.</td>
+</tr>
+<tr>
+<td><a href="Object/SetObjectRange/"><strong>SetObjectRange</strong></a></td>
+<td>Changes internal bounds, affecting all objects.</td>
+</tr>
+<tr>
+<td><a href="Object/GetObjectValue/"><strong>GetObjectValue</strong></a></td>
+<td>Gets <code>object.valueXX</code> of the object in <code>slot</code> corresponding to <code>valueID</code> and stores it in <code>store</code>.</td>
+</tr>
+<tr>
+<td><a href="Object/SetObjectValue/"><strong>SetObjectValue</strong></a></td>
+<td>Sets <code>object.valueXX</code> of the object in <code>slot</code> corresponding to <code>valueID</code> to <code>value</code>.</td>
+</tr>
+<tr>
+<td><a href="Object/CopyObject/"><strong>CopyObject</strong></a></td>
+<td>Copies <code>count</code> objects starting from <code>srcSlot</code> and pastes them to the object slots starting from <code>destSlot</code>.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="stages">Stages</h2>
-<ul>
-<li><a href="Stage/CheckCurrentStageFolder/">CheckCurrentStageFolder</a></li>
-<li><a href="Stage/Copy16x16Tile/">Copy16x16Tile</a></li>
-<li><a href="Stage/Get16x16TileInfo/">Get16x16TileInfo</a></li>
-<li><a href="Stage/GetTileLayerEntry/">GetTileLayerEntry</a></li>
-<li><a href="Stage/LoadStage/">LoadStage</a></li>
-<li><a href="Stage/Set16x16TileInfo/">Set16x16TileInfo</a></li>
-<li><a href="Stage/SetLayerDeformation/">SetLayerDeformation</a></li>
-<li><a href="Stage/SetTileLayerEntry/">SetTileLayerEntry</a></li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Stage/LoadStage/"><strong>LoadStage</strong></a></td>
+<td>Loads a stage based on <code>stage.activeList</code> and <code>stage.listPos</code>.</td>
+</tr>
+<tr>
+<td><a href="Stage/SetLayerDeformation/"><strong>SetLayerDeformation</strong></a></td>
+<td>Sets the deformation data array of <code>deformID</code>, based on <code>deformA</code> and <code>deformB</code>.</td>
+</tr>
+<tr>
+<td><a href="Stage/GetTileLayerEntry/"><strong>GetTileLayerEntry</strong></a></td>
+<td>Gets the ID of the chunk at <code>chunkX</code>, <code>chunkY</code> on tile layer <code>layer</code> and stores it in <code>store</code>.</td>
+</tr>
+<tr>
+<td><a href="Stage/SetTileLayerEntry/"><strong>SetTileLayerEntry</strong></a></td>
+<td>Sets the chunk at <code>chunkX</code>, <code>chunkY</code> in tile layer <code>layer</code> to the index of <code>value</code>.</td>
+</tr>
+<tr>
+<td><a href="Stage/Get16x16TileInfo/"><strong>Get16x16TileInfo</strong></a></td>
+<td>Gets the value for <code>infoType</code> from the tile at <code>tileX</code>, <code>tileY</code>. And stores it in <code>store</code>.</td>
+</tr>
+<tr>
+<td><a href="Stage/Set16x16TileInfo/"><strong>Set16x16TileInfo</strong></a></td>
+<td>Sets the value for <code>infoType</code> from the tile at <code>tileX</code>, <code>tileY</code> to <code>value</code>.</td>
+</tr>
+<tr>
+<td><a href="Stage/Copy16x16Tile/"><strong>Copy16x16Tile</strong></a></td>
+<td>Copies the tileset image data of <code>scrTile</code> to <code>destTile</code>.</td>
+</tr>
+<tr>
+<td><a href="Stage/CheckCurrentStageFolder/"><strong>CheckCurrentStageFolder</strong></a></td>
+<td>Reads the name of the current stage's folder.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="miscellaneous">Miscellaneous</h2>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Misc/CallNativeFunction/"><strong>CallNativeFunction</strong></a></td>
+<td>Sends a callback to the engine to run a native function.</td>
+</tr>
+<tr>
+<td><a href="Misc/CheckTouchRect/"><strong>CheckTouchRect</strong></a></td>
+<td>Checks if there's a touch input between the given coordinates.</td>
+</tr>
+<tr>
+<td><a href="Misc/SetupMenu/"><strong>SetupMenu</strong></a></td>
+<td>Sets up <code>menu</code> with <code>rowCount</code> rows, <code>selectionCount</code> active selections and aligning set to <code>alignment</code>.</td>
+</tr>
+<tr>
+<td><a href="Misc/AddMenuEntry/"><strong>AddMenuEntry</strong></a></td>
+<td>Adds an entry to <code>menu</code> with the contents of <code>text</code>.</td>
+</tr>
+<tr>
+<td><a href="Misc/EditMenuEntry/"><strong>EditMenuEntry</strong></a></td>
+<td>Edits an entry of <code>menu</code> with the contents of <code>text</code> in <code>rowID</code>.</td>
+</tr>
+<tr>
+<td><a href="Misc/DrawMenu/"><strong>DrawMenu</strong></a></td>
+<td>Draws <code>menu</code> at <code>xpos</code> and <code>ypos</code> relative to the screen.</td>
+</tr>
+<tr>
+<td><a href="Misc/GetTextInfo/"><strong>GetTextInfo</strong></a></td>
+<td>Gets the data of <code>type</code> from <code>menu</code> using <code>index</code>, and stores it in <code>store</code>.</td>
+</tr>
+<tr>
+<td><a href="Misc/GetVersionNumber/"><strong>GetVersionNumber</strong></a></td>
+<td>Adds a text entry to <code>menu</code> with the engine's version as the text.</td>
+</tr>
+<tr>
+<td><a href="Misc/LoadTextFile/"><strong>LoadTextFile</strong></a></td>
+<td>Loads <code>menu</code> based on the text file loaded from <code>filePath</code>.</td>
+</tr>
+<tr>
+<td><a href="Misc/Print/"><strong>Print</strong></a></td>
+<td>Prints a message or integer to the console.</td>
+</tr>
+<tr>
+<td><a href="Misc/ReadSaveRAM/"><strong>ReadSaveRAM</strong></a></td>
+<td>Reads the contents of the save file on disk into SaveRAM.</td>
+</tr>
+<tr>
+<td><a href="Misc/WriteSaveRAM/"><strong>WriteSaveRAM</strong></a></td>
+<td>Writes the contents of SaveRAM to the save file on disk.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="deprecated">Deprecated</h2>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Deprecated/LoadTextFont/"><strong>LoadTextFont</strong></a></td>
+<td>Loads a bitmap font from <code>filePath</code> for use with text menus.</td>
+</tr>
+<tr>
+<td><a href="Deprecated/DrawText/"><strong>DrawText</strong></a></td>
+<td>Draws the contents of <code>rowCount</code> rows, starting from <code>rowStart</code> in <code>menu</code> at <code>xPos</code> and <code>yPos</code> relative to the screen, using <code>spacing</code> pixels between them and scaling it with <code>scale</code>.</td>
+</tr>
+</tbody>
+</table>
 
 
 

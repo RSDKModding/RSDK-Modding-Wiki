@@ -1746,15 +1746,19 @@
 
 <h1 id="print">Print</h1>
 <h2 id="description">Description</h2>
-<p>Prints a message to <code>log.txt</code>.</p>
+<p>Prints a message or integer to the console.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This function has no effect in Sonic Origins.</p>
+</div>
 <h2 id="parameters">Parameters</h2>
 <ul>
-<li><code>Message</code>
-The string or int to be printed.</li>
+<li><code>message</code>
+The message to print. If <code>isInt</code> is <code>false</code>, takes a string; otherwise, takes an integer.</li>
 <li><code>isInt</code>
-<code>Message</code> will be printed as a string if <code>false</code>, and as an integer if <code>true</code></li>
+<code>message</code> will be printed as a string if <code>false</code>, and as an integer if <code>true</code>.</li>
 <li><code>useEndLine</code>
-Jump line if true, otherwise keep on the same line.</li>
+If set to <code>true</code>, adds a newline character (<code>\n</code>) to the end of the print.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
 <p>None.</p>
@@ -1762,7 +1766,7 @@ Jump line if true, otherwise keep on the same line.</li>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Print(string/int message, bool isInt, bool useEndLine)
 </span></code></pre></div>
 <h2 id="examples">Examples</h2>
-<p><div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Print(&quot;This is a test message, &quot;, false, false)
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Print(&quot;This is a test message. &quot;, false, false)
 </span></code></pre></div>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>Print(&quot;The next print will be an int: &quot;, false, false)
 </span></code></pre></div>

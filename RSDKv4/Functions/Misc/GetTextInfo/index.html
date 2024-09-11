@@ -1718,9 +1718,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -1752,20 +1752,22 @@
 <li><code>store</code>
 Variable where the data will be saved.</li>
 <li><code>menu</code>
-The menu from where to get the data, MENU_1 or MENU_2 are valid.</li>
+The menu from where to get the data. MENU_1 or MENU_2 are valid.</li>
 <li><code>type</code>
-The type of data to read, valid values are 0(TEXTINFO_TEXTDATA), 1(TEXTINFO_TEXTSIZE) or 2(TEXTINFO_ROWCOUNT)</li>
+The type of data to read. Valid values are 0 (TEXTINFO_TEXTDATA), 1 (TEXTINFO_TEXTSIZE) or 2 (TEXTINFO_ROWCOUNT).</li>
 <li><code>index</code>
 Index of the text row from where to get the data.</li>
 <li><code>offset</code>
-Offset for the text at <code>index</code>, only used if <code>type</code> is TEXTINFO_TEXTDATA.</li>
+Offset for the text at <code>index</code>. Only used if <code>type</code> is TEXTINFO_TEXTDATA.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
-<p>None.</p>
+<p>Sets <code>store</code> to the result.</p>
 <h2 id="syntax">Syntax</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>GetTextInfo(var store, int menu, int type, int index, int offset)
 </span></code></pre></div>
-<h2 id="examples">Examples</h2>
+<h2 id="example">Example</h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>GetTextInfo(temp4, MENU_1, TEXTINFO_TEXTDATA, temp0, 1)
+</span></code></pre></div>
 
 
 

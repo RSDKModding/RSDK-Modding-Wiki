@@ -18,7 +18,7 @@
     
     
       
-        <title>DrawSpriteScreenXY - RSDK Modding Wiki</title>
+        <title>DrawObjectAnimation - RSDK Modding Wiki</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#drawspritescreenxy" class="md-skip">
+        <a href="#drawobjectanimation" class="md-skip">
           Skip to content
         </a>
       
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              DrawSpriteScreenXY
+              DrawObjectAnimation
             
           </span>
         </div>
@@ -1709,18 +1709,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#syntax" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Syntax
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -1744,25 +1735,15 @@
   
 
 
-<h1 id="drawspritescreenxy">DrawSpriteScreenXY</h1>
+<h1 id="drawobjectanimation">DrawObjectAnimation</h1>
 <h2 id="description">Description</h2>
-<p>Draws <code>Frame</code> to a specified X and Y position in the screen.</p>
+<p>Draws an object's sprites from the animation file loaded prior via <a href="Animations-Sprites/LoadAnimation.md">LoadAnimation()</a>. The sprite will be drawn at <code>object.xpos</code> and <code>object.ypos</code>, with flipping and rotation applied based on the current animation's rotate style.</p>
 <h2 id="parameters">Parameters</h2>
-<ul>
-<li><code>Frame</code>
-The ID of the sprite to draw.</li>
-<li><code>iXPos</code>
-The position of the sprite on the horizontal axis in screen-space.</li>
-<li><code>iYPos</code>
-The position of the sprite on the vertical axis in screen-space.</li>
-</ul>
+<p>None.</p>
 <h2 id="return-value">Return Value</h2>
 <p>None.</p>
-<h2 id="syntax">Syntax</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>DrawSpriteScreenXY(int Frame, int iXPos, int iYPos)
-</span></code></pre></div>
-<h2 id="examples">Examples</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>DrawSpriteScreenXY(0, 200, 15)
+<h2 id="example">Example</h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>DrawObjectAnimation()
 </span></code></pre></div>
 
 
