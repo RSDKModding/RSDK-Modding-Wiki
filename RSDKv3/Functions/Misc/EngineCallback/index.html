@@ -4906,9 +4906,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#notes" class="md-nav__link">
+  <a href="#callbacks" class="md-nav__link">
     <span class="md-ellipsis">
-      Notes
+      Callbacks
     </span>
   </a>
   
@@ -12051,9 +12051,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#notes" class="md-nav__link">
+  <a href="#callbacks" class="md-nav__link">
     <span class="md-ellipsis">
-      Notes
+      Callbacks
     </span>
   </a>
   
@@ -12080,21 +12080,261 @@
 <h1 id="enginecallback">EngineCallback</h1>
 <h2 id="description">Description</h2>
 <p>Sends a callback to the engine.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The names of each callback are not defined by the engine itself; they must be manually defined as aliases or global variables.</p>
+</div>
 <h2 id="parameters">Parameters</h2>
 <ul>
-<li><code>CallbackFuncID</code>
+<li><code>Callback</code>
 The index value of the callback.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
-<p>Normally not, but some Origins functions will return a value to <code>game.callbackResult</code>.</p>
+<p>Depends on the callback used.</p>
 <h2 id="syntax">Syntax</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>EngineCallback(int CallbackFunctID)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>EngineCallback(int Callback)
 </span></code></pre></div>
 <h2 id="examples">Examples</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>EngineCallback(4)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>EngineCallback(CALLBACK_FINISHGAME_NOTIFY)
 </span></code></pre></div>
-<h2 id="notes">Notes</h2>
-<p>Origins functions may use <code>game.callbackParam</code> from 0 to 3 to replicate v4's <code>CallNativeFunction2/4</code> function.</p>
+<h2 id="callbacks">Callbacks</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Callback</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td><strong>CALLBACK_DISPLAYLOGOS</strong></td>
+<td>In the Blit releases of Sonic CD, displays the splash screens.</td>
+</tr>
+<tr>
+<td>1</td>
+<td><strong>CALLBACK_PRESS_START</strong></td>
+<td>Notifies the backend that a button has been pressed on the title screen.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>CALLBACK_TIMEATTACK_NOTIFY_ENTER</strong></td>
+<td>Notifies the backend that Time Attack mode has been entered.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>CALLBACK_TIMEATTACK_NOTIFY_EXIT</strong></td>
+<td>Notifies the backend that Time Attack mode has been exited.</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>CALLBACK_FINISHGAME_NOTIFY</strong></td>
+<td>Notifies the backend that the game has been finished.</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>CALLBACK_RETURNSTORE_SELECTED</strong></td>
+<td>Notifies the backend that "Return to Store" has been selected and closes the engine.</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>CALLBACK_RESTART_SELECTED</strong></td>
+<td>Reloads the current scene.</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>CALLBACK_EXIT_SELECTED</strong></td>
+<td>In the Blit releases of Sonic CD, closes the engine. In other versions of RSDKv3, loads the first scene in the Presentation stage list.</td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>CALLBACK_BUY_FULL_GAME_SELECTED</strong></td>
+<td>Notifies the backend that "Buy Full Game" has been selected and closes the engine.</td>
+</tr>
+<tr>
+<td>9</td>
+<td><strong>CALLBACK_TERMS_SELECTED</strong></td>
+<td>In the Blit releases of Sonic CD, shows the Help screen. In the mobile version of Sonic CD, shows the Terms &amp; Conditions screen.</td>
+</tr>
+<tr>
+<td>10</td>
+<td><strong>CALLBACK_PRIVACY_SELECTED</strong></td>
+<td>In the Blit releases of Sonic CD, shows the Controls screen. In the mobile version of Sonic CD, shows the Privacy screen.</td>
+</tr>
+<tr>
+<td>11</td>
+<td><strong>CALLBACK_TRIAL_ENDED</strong></td>
+<td>In the mobile version of Sonic CD, shows the Trial Ended screen if in trial mode. If not in trial mode, loads <code>http://www.sega.com</code> in a web browser.</td>
+</tr>
+<tr>
+<td>12</td>
+<td><strong>CALLBACK_SETTINGS_SELECTED</strong></td>
+<td>In the Blit releases of Sonic CD, shows the Settings screen. In the mobile version of Sonic CD, shows the Full Game Only screen if in trial mode. If not in trial mode, loads <code>http://www.sega.com/legal/terms_mobile.php</code> in a web browser.</td>
+</tr>
+<tr>
+<td>13</td>
+<td><strong>CALLBACK_PAUSE_REQUESTED</strong></td>
+<td>Shows the pause screen, loading the hardcoded menu if the Dev Menu is disabled in the Blit releases of Sonic CD.</td>
+</tr>
+<tr>
+<td>14</td>
+<td><strong>CALLBACK_FULL_VERSION_ONLY</strong></td>
+<td>In the mobile version of Sonic CD, shows the Full Game Only screen.</td>
+</tr>
+<tr>
+<td>15</td>
+<td><strong>CALLBACK_STAFF_CREDITS</strong></td>
+<td>In the Blit releases of Sonic CD, shows the credits. In the mobile version of Sonic CD, loads <code>http://www.sega.com/legal/privacy_mobile.php</code> in a web browser.</td>
+</tr>
+<tr>
+<td>16</td>
+<td><strong>CALLBACK_MOREGAMES</strong></td>
+<td>In the mobile version of Sonic CD, shows the See More Games screen.</td>
+</tr>
+<tr>
+<td>20</td>
+<td><strong>CALLBACK_SHOWREMOVEADS</strong></td>
+<td>In the mobile version of Sonic CD, shows the Remove Ads screen.</td>
+</tr>
+<tr>
+<td>100</td>
+<td><strong>CALLBACK_AGEGATE</strong></td>
+<td>In the mobile version of Sonic CD, shows the Age Gate screen and sets <code>HaveLoadAllGDPRValue</code> to <code>1</code> when it's closed.</td>
+</tr>
+<tr>
+<td>997</td>
+<td><strong>CALLBACK_SHOWMENU_2</strong></td>
+<td>In the Sega Forver version of Sonic CD, shows a menu.</td>
+</tr>
+<tr>
+<td>998</td>
+<td><strong>CALLBACK_SHOWHELPCENTER</strong></td>
+<td>In the Sega Forver version of Sonic CD, shows the Help Center.</td>
+</tr>
+<tr>
+<td>999</td>
+<td><strong>CALLBACK_CHANGEADSTYPE</strong></td>
+<td>In the Sega Forver version of Sonic CD, shows the Change Ads Type screen.</td>
+</tr>
+<tr>
+<td>1000</td>
+<td><strong>CALLBACK_NONE_1000</strong></td>
+<td>Unknown callback.</td>
+</tr>
+<tr>
+<td>1001</td>
+<td><strong>CALLBACK_NONE_1001</strong></td>
+<td>Unknown callback.</td>
+</tr>
+<tr>
+<td>1002</td>
+<td><strong>CALLBACK_NONE_1006</strong></td>
+<td>Unknown callback.</td>
+</tr>
+<tr>
+<td>1003</td>
+<td><strong>CALLBACK_ONSHOWINTERSTITIAL</strong></td>
+<td>In the Sega Forver version of Sonic CD, notifies the backend that an interstitial is shown.</td>
+</tr>
+<tr>
+<td>1004</td>
+<td><strong>CALLBACK_ONSHOWBANNER</strong></td>
+<td>In the Sega Forver version of Sonic CD, notifies the backend that a banner is shown.</td>
+</tr>
+<tr>
+<td>1005</td>
+<td><strong>CALLBACK_ONSHOWBANNER_PAUSESTART</strong></td>
+<td>In the Sega Forver version of Sonic CD, notifies the backend that a banner is in an animation.</td>
+</tr>
+<tr>
+<td>1006</td>
+<td><strong>CALLBACK_ONHIDEBANNER</strong></td>
+<td>In the Sega Forver version of Sonic CD, notifies the backend that a banner is hidden.</td>
+</tr>
+<tr>
+<td>1007</td>
+<td><strong>CALLBACK_REMOVEADSBUTTON_FADEOUT</strong></td>
+<td>In the Sega Forver version of Sonic CD, notifies the backend that the Remove Ads button is fading out.</td>
+</tr>
+<tr>
+<td>1008</td>
+<td><strong>CALLBACK_REMOVEADSBUTTON_FADEIN</strong></td>
+<td>In the Sega Forver version of Sonic CD, notifies the backend that the Remove Ads button is fading in.</td>
+</tr>
+<tr>
+<td>1009</td>
+<td><strong>CALLBACK_ONSHOWINTERSTITIAL_2</strong></td>
+<td>In the Sega Forver version of Sonic CD, notifies the backend that an interstitial is shown.</td>
+</tr>
+<tr>
+<td>1010</td>
+<td><strong>CALLBACK_ONSHOWINTERSTITIAL_3</strong></td>
+<td>In the Sega Forver version of Sonic CD, notifies the backend that an interstitial is shown.</td>
+</tr>
+<tr>
+<td>1011</td>
+<td><strong>CALLBACK_ONSHOWINTERSTITIAL_4</strong></td>
+<td>In the Sega Forver version of Sonic CD, notifies the backend that an interstitial is shown.</td>
+</tr>
+<tr>
+<td>1012</td>
+<td><strong>CALLBACK_ONVISIBLEGRIDBTN_1</strong></td>
+<td>In the Sega Forver version of Sonic CD, notifies the backend that a grid button is visible.</td>
+</tr>
+<tr>
+<td>1013</td>
+<td><strong>CALLBACK_ONVISIBLEGRIDBTN_0</strong></td>
+<td>In the Sega Forver version of Sonic CD, notifies the backend that a grid button is visible and disables high res mode.</td>
+</tr>
+<tr>
+<td>1014</td>
+<td><strong>CALLBACK_ONSHOWINTERSTITIAL_PAUSEDURATION</strong></td>
+<td>In the Sega Forver version of Sonic CD, notifies the backend that an interstitial is in an animation.</td>
+</tr>
+<tr>
+<td>1015</td>
+<td><strong>CALLBACK_SHOWCOUNTDOWNMENU</strong></td>
+<td>In the Sega Forver version of Sonic CD, shows a countdown menu.</td>
+</tr>
+<tr>
+<td>1016</td>
+<td><strong>CALLBACK_ONVISIBLEMAINMENU_1</strong></td>
+<td>In the Sega Forver version of Sonic CD, notifies the backend that the main menu is visible.</td>
+</tr>
+<tr>
+<td>1017</td>
+<td><strong>CALLBACK_ONVISIBLEMAINMENU_0</strong></td>
+<td>In the Sega Forver version of Sonic CD, notifies the backend that the main menu is visible.</td>
+</tr>
+<tr>
+<td>1018</td>
+<td><strong>CALLBACK_ONSHOWREWARDADS</strong></td>
+<td>In the Sega Forver version of Sonic CD, plays an ad and sets <code>RewardAdCallback</code> to <code>1</code>.</td>
+</tr>
+<tr>
+<td>1019</td>
+<td><strong>CALLBACK_ONSHOWBANNER_2</strong></td>
+<td>In the Sega Forver version of Sonic CD, notifies the backend that a banner is shown.</td>
+</tr>
+<tr>
+<td>1020</td>
+<td><strong>CALLBACK_ONSHOWINTERSTITIAL_5</strong></td>
+<td>In the Sega Forver version of Sonic CD, notifies the backend that an interstitial is shown.</td>
+</tr>
+<tr>
+<td>4097</td>
+<td><strong>CALLBACK_SET1P</strong></td>
+<td>Sets <code>activePlayerCount</code> to <code>1</code>. <strong>Decomp only.</strong></td>
+</tr>
+<tr>
+<td>4098</td>
+<td><strong>CALLBACK_SET2P</strong></td>
+<td>Sets <code>activePlayerCount</code> to <code>2</code>. <strong>Decomp only.</strong></td>
+</tr>
+</tbody>
+</table>
+<p>In Sonic Origins, you can also call NotifyCallback callbacks with this function. For more information, including a list of usable callbacks, see <a href="../../../../Games/SonicOrigins/Documentation/NotifyCallback/">this page</a>.</p>
 
 
 
