@@ -1,26 +1,26 @@
 ### Tools
 === "Pre-v5"
 
-    - Pan ![pan](../../assets/RetroED/pan.svg){width=16 height=16} : <br />
+    - Pan :retroed-pan: : <br />
     Allows the user to adjust the view of the scene.<br />
     Controls:
         - Left Click (Drag): Moves camera through the editor.</ul>
     Shortcuts:<ul/>
         - ++s++: Selects the Pan Tool as the current tool.
         - Middle Click (Drag): Lets the user move the camera as if using the pan tool regardless of the currently selected tool.
-    - Pencil ![pencil](../../assets/RetroED/pencil.svg){width=16 height=16} :<br />
-    Draws Chunks on the stage. <br />
+    - Pencil :retroed-pencil: :<br />
+    Draws chunks on the stage. <br />
     Controls:
         - Left Click: Places chunk in the scene at the current layer.
         - Right Click: Selects chunk from the current layer for future placement.
         - ++c++: Picks a tile hovered by the cursor for editing in the Tile Properties tab.</ul>
     Shortcuts:<ul/>
         - ++a++: Selects the Pencil Tool as the current tool.
-    - Eraser ![eraser](../../assets/RetroED/eraser.svg){width=16 height=16} : <br />
+    - Eraser :retroed-eraser: : <br />
     Used for cleaning chunks on the layout with left click. <br />
     Shortcuts:
         - ++r++: Selects the Eraser Tool as the current tool.
-    - Entity ![entity](../../assets/RetroED/entity.svg){width=16 height=16} : <br />
+    - Entity :retroed-entity: : <br />
     Select and move entities when in Select mode, or places entities when in Placement mode. <br />
     Controls (Select Mode):
         - Left Click: Selects an entity, hold to move it around the stage.
@@ -36,7 +36,7 @@
         - Right Click: Clears selected object and returns to Select mode.</ul>
     Shortcuts:<ul/>
         - ++e++: Selects the Entity Tool as the current tool.
-    - Select ![select](../../assets/RetroED/select.svg){width=16 height=16} : <br />
+    - Select :retroed-select: : <br />
     Selects and moves various entities. <br />
     Controls:
         - Left Click (Drag): Selects all entities inside the select box.
@@ -45,14 +45,14 @@
 
 === "v5"
 
-    - Pan ![pan](../../assets/RetroED/pan.svg){width=16 height=16} :<br />
+    - Pan :retroed-pan: :<br />
     Allows the user to adjust the view of the scene.<br />
     Controls:
         - Left Click (Drag): Moves camera through the editor.</ul>
     Shortcuts:<ul/>
         - ++s++: Selects the Pan Tool as the current tool.
         - Middle Click (Drag): Lets the user move the camera as if using the pan tool regardless of the currently selected tool.
-    - Pencil ![pencil](../../assets/RetroED/pencil.svg){width=16 height=16} :<br />
+    - Pencil :retroed-pencil: :<br />
     Draws tiles on the stage. <br />
     Controls:
         - Left Click: Places tile in the scene at the current layer.
@@ -61,21 +61,21 @@
         - ++x++: Flips tile for placement tile vertically.</ul>
     Shortcuts:<ul/>
         - ++a++: Selects the Pencil Tool as the current tool.
-    - Eraser ![eraser](../../assets/RetroED/eraser.svg){width=16 height=16} : <br />
+    - Eraser :retroed-eraser: : <br />
     Used for cleaning tiles on the layout with left click. <br />
     Controls:
         - Left Click (Drag): Cleans tiles on the current layer at cursors position.</ul>
     Shortcuts:<ul/>
         - ++r++: Selects the Eraser Tool as the current tool.
-    - Stamp ![stamp](../../assets/RetroED/stamp.svg){width=16 height=16} : <br />
+    - Stamp :retroed-stamp: : <br />
     Places on the stage a preset of tiles selected from the Stamp List tab. <br />
     Shortcuts:
         - ++k++: Selects the Stamp Tool as the current tool.
-    - Stamp Copy ![stamp copy](../../assets/RetroED/stamp_copy.svg){width=16 height=16} : <br />
+    - Stamp Copy :retroed-stamp-copy: : <br />
     Stores a preset of tiles from the stage in the Stamp List by dragging with left click. <br />
     Shortcuts:
         - ++l++: Selects the Stamp Copy Tool as the current tool.
-    - Entity ![entity](../../assets/RetroED/entity.svg){width=16 height=16} : <br />
+    - Entity :retroed-entity: : <br />
     Select and move entities when in Select mode, or places entities when in Placement mode. <br />
     Controls (Select Mode):
         - Left Click: Selects an entity, hold to move it around the stage.
@@ -91,7 +91,7 @@
         - Right Click: Clears selected object and returns to Select mode.</ul>
     Shortcuts:<ul/>
         - ++e++ : Selects the Entity Tool as the current tool.
-    - Select ![select](../../assets/RetroED/select.svg){width=16 height=16} : <br />
+    - Select :retroed-select: : <br />
     Selects and moves various entities. <br />
     Controls:
         - Left Click (Drag): Selects all entities inside the select box.

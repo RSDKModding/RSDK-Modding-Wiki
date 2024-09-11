@@ -45,7 +45,7 @@ event ObjectStartup
 	SpriteFrame(-8, -8, 16, 16, 1, 35)
 	SpriteFrame(-8, -8, 16, 16, 1, 52)
 	
-	foreach (TypeName[Object], arrayPos0, ALL_ENTITIES)
+	foreach (TypeName[Test Object], arrayPos0, ALL_ENTITIES)
 		object[arrayPos0].drawOrder = 4
 	next
 end event

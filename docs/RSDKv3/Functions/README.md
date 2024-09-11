@@ -37,6 +37,20 @@
 - [SetPaletteFade](Drawing/SetPaletteFade.md)
 - [SetScreenFade](Drawing/SetScreenFade.md)
 
+## Graphics
+- [DrawObjectAnimation](Graphics/DrawObjectAnimation.md)
+- [DrawPlayerAnimation](Graphics/DrawPlayerAnimation.md)
+- [DrawSprite](Graphics/DrawSprite.md)
+- [DrawSpriteFX](Graphics/DrawSpriteFX.md)
+- [DrawSpriteScreenFX](Graphics/DrawSpriteScreenFX.md)
+- [DrawSpriteScreenXY](Graphics/DrawSpriteScreenXY.md)
+- [DrawSpriteXY](Graphics/DrawSpriteXY.md)
+- [EditFrame](Graphics/EditFrame.md)
+- [LoadAnimation](Graphics/LoadAnimation.md)
+- [LoadSpriteSheet](Graphics/LoadSpriteSheet.md)
+- [RemoveSpriteSheet](Graphics/RemoveSpriteSheet.md)
+- [SpriteFrame](Graphics/SpriteFrame.md)
+
 ## Math
 - [ATan2](Math/ATan2.md)
 - [Cos](Math/Cos.md)
@@ -49,6 +63,24 @@
 - [SetBit](Math/SetBit.md)
 - [Sin](Math/Sin.md)
 - [Sin256](Math/Sin256.md)
+
+## Object
+- [CreateTempObject](Object/CreateTempObject.md)
+- [ObjectTileCollision](Object/ObjectTileCollision.md)
+- [ObjectTileGrip](Object/ObjectTileGrip.md)
+- [PlayerObjectCollision](Object/PlayerObjectCollision.md)
+- [PlayerTileCollision](Object/PlayerTileCollision.md)
+- [ProcessPlayerControl](Object/ProcessPlayerControl.md)
+- [ResetObjectEntity](Object/ResetObjectEntity.md)
+
+## Stages
+- [Copy16x16Tile](Stages/Copy16x16Tile.md)
+- [Get16x16TileInfo](Stages/Get16x16TileInfo.md)
+- [GetTileLayerEntry](Stages/GetTileLayerEntry.md)
+- [LoadStage](Stages/LoadStage.md)
+- [Set16x16TileInfo](Stages/Set16x16TileInfo.md)
+- [SetLayerDeformation](Stages/SetLayerDeformation.md)
+- [SetTileLayerEntry](Stages/SetTileLayerEntry.md)
 
 ## Miscellaneous
 - [AddMenuEntry](Misc/AddMenuEntry.md)
@@ -69,36 +101,3 @@
 - [SetLeaderboard](Misc/SetLeaderboard.md)
 - [SetupMenu](Misc/SetupMenu.md)
 - [WriteSaveRAM](Misc/WriteSaveRAM.md)
-
-## Object
-- [CreateTempObject](Object/CreateTempObject.md)
-- [ObjectTileCollision](Object/ObjectTileCollision.md)
-- [ObjectTileGrip](Object/ObjectTileGrip.md)
-- [PlayerObjectCollision](Object/PlayerObjectCollision.md)
-- [PlayerTileCollision](Object/PlayerTileCollision.md)
-- [ProcessPlayerControl](Object/ProcessPlayerControl.md)
-- [ResetObjectEntity](Object/ResetObjectEntity.md)
-
-
-## Sprites & Animations
-- [DrawObjectAnimation](Animations-Sprites/DrawObjectAnimation.md)
-- [DrawPlayerAnimation](Animations-Sprites/DrawPlayerAnimation.md)
-- [DrawSprite](Animations-Sprites/DrawSprite.md)
-- [DrawSpriteFX](Animations-Sprites/DrawSpriteFX.md)
-- [DrawSpriteScreenFX](Animations-Sprites/DrawSpriteScreenFX.md)
-- [DrawSpriteScreenXY](Animations-Sprites/DrawSpriteScreenXY.md)
-- [DrawSpriteXY](Animations-Sprites/DrawSpriteXY.md)
-- [EditFrame](Animations-Sprites/EditFrame.md)
-- [LoadAnimation](Animations-Sprites/LoadAnimation.md)
-- [LoadSpriteSheet](Animations-Sprites/LoadSpriteSheet.md)
-- [RemoveSpriteSheet](Animations-Sprites/RemoveSpriteSheet.md)
-- [SpriteFrame](Animations-Sprites/SpriteFrame.md)
-
-## Stages
-- [Copy16x16Tile](Stage/Copy16x16Tile.md)
-- [Get16x16TileInfo](Stage/Get16x16TileInfo.md)
-- [GetTileLayerEntry](Stage/GetTileLayerEntry.md)
-- [LoadStage](Stage/LoadStage.md)
-- [Set16x16TileInfo](Stage/Set16x16TileInfo.md)
-- [SetLayerDeformation](Stage/SetLayerDeformation.md)
-- [SetTileLayerEntry](Stage/SetTileLayerEntry.md)

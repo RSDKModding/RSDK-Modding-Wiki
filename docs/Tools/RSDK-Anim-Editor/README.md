@@ -1,9 +1,7 @@
-# RSDK Animation Editor v1.5
+# RSDK Animation Editor
 
-This program is able to edit the various .bin files stored with the spritesheets.
+This program is able to edit the various .ani and .bin files stored with the spritesheets.
 (maybe write more and show images)
 
-## Download
-The latest release of the tool can be found [Here](https://github.com/Rubberduckycooly/RSDK/releases)
-
-
+[Download :fontawesome-solid-download:](https://github.com/Rubberduckycooly/RSDK/releases){ .md-button .md-button--primary target="_blank"}
+[Source Code :fontawesome-brands-github:](https://github.com/Rubberduckycooly/RSDK){ .md-button target="_blank"}

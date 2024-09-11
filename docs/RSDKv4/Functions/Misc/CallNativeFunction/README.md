@@ -42,22 +42,22 @@ CallNativeFunction4(NotifyCallback, NOTIFY_STATS_ENEMY, StageStatsUsabilityParam
 ```
 
 ## Native Functions
-| Function                                                          | Description                                                   |
-| ----------------------------------------------------------------- | ------------------------------------------------------------- |
-| [**SetAchievement**](SetAchievement.md)                           | Sets the status of the given achievement.                     |
-| [**SetLeaderboard**](SetLeaderboard.md)                           | Submits the given score to the given leaderboard.             |
-| [**HapticEffect**](HapticEffect.md)                               |                                                               |
-| [**Connect2PVS**](Connect2PVS.md)                                 |                                                               |
-| [**Disconnect2PVS**](Disconnect2PVS.md)                           |                                                               |
-| [**SendEntity**](SendEntity.md)                                   |                                                               |
-| [**SendValue**](SendValue.md)                                     |                                                               |
-| [**ReceiveEntity**](ReceiveEntity.md)                             |                                                               |
-| [**ReceiveValue**](ReceiveValue.md)                               |                                                               |
-| [**TransmitGlobal**](TransmitGlobal.md)                           |                                                               |
-| [**ShowPromoPopup**](ShowPromoPopup.md)                           |                                                               |
-| [**NativePlayerWaitingAds**](NativePlayerWaitingAds.md)           |                                                               |
-| [**NativeWaterPlayerWaitingAds**](NativeWaterPlayerWaitingAds.md) |                                                               |
-| [**NotifyCallback**](NotifyCallback/README.md)                    | Sends the given callback to communicate to Hedgehog Engine 2. |
+| Function                                                          | Description                                                               |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| [**SetAchievement**](SetAchievement.md)                           | Sets the status of the given achievement.                                 |
+| [**SetLeaderboard**](SetLeaderboard.md)                           | Submits the given score to the given leaderboard.                         |
+| [**HapticEffect**](HapticEffect.md)                               |                                                                           |
+| [**Connect2PVS**](Connect2PVS.md)                                 |                                                                           |
+| [**Disconnect2PVS**](Disconnect2PVS.md)                           |                                                                           |
+| [**SendEntity**](SendEntity.md)                                   |                                                                           |
+| [**SendValue**](SendValue.md)                                     |                                                                           |
+| [**ReceiveEntity**](ReceiveEntity.md)                             |                                                                           |
+| [**ReceiveValue**](ReceiveValue.md)                               |                                                                           |
+| [**TransmitGlobal**](TransmitGlobal.md)                           |                                                                           |
+| [**ShowPromoPopup**](ShowPromoPopup.md)                           |                                                                           |
+| [**NativePlayerWaitingAds**](NativePlayerWaitingAds.md)           | Creates a `RewardAds` native object, prompting the player to watch an ad. |
+| [**NativeWaterPlayerWaitingAds**](NativeWaterPlayerWaitingAds.md) | Creates a `RewardAds` native object, prompting the player to watch an ad. |
+| [**NotifyCallback**](NotifyCallback/README.md)                    | Sends the given callback to communicate to Hedgehog Engine 2.             |
 
 ## Decomp-Only Native Functions
 | Function                                                      | Description                                 |

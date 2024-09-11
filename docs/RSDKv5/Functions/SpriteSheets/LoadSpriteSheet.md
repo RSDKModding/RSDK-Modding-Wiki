@@ -1,13 +1,11 @@
 # LoadSpriteSheet
 
 ## Description
-Loads a Spritesheet and returns the id of it.
+Loads a spritesheet and returns the id of it.
 
 ## Parameters
-
 - `path`
 The file path to load the spritesheet from, relative to `Data/Sprites/`. Spritesheets may **ONLY** be in GIF format.
-
 - `scope`
 The asset's scope, may be `SCOPE_GLOBAL` or `SCOPE_STAGE`.
 

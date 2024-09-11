@@ -59,7 +59,7 @@ sub ObjectStartup
 	
 	TempValue0 = 32
 	while TempValue0 < 1056
-		if Object[ArrayPos0].Type == TypeName[Object]
+		if Object[ArrayPos0].Type == TypeName[Test Object]
 			Object[ArrayPos0].DrawOrder = 4
 		end if
 		TempValue0++

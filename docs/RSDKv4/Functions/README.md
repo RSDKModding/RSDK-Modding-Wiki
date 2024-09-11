@@ -97,14 +97,14 @@
 ## Stages
 | Function                                                        | Description                                                                                    |
 | --------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| [**LoadStage**](Stage/LoadStage.md)                             | Loads a stage based on `stage.activeList` and `stage.listPos`.                                 |
-| [**SetLayerDeformation**](Stage/SetLayerDeformation.md)         | Sets the deformation data array of `deformID`, based on `deformA` and `deformB`.               |
-| [**GetTileLayerEntry**](Stage/GetTileLayerEntry.md)             | Gets the ID of the chunk at `chunkX`, `chunkY` on tile layer `layer` and stores it in `store`. |
-| [**SetTileLayerEntry**](Stage/SetTileLayerEntry.md)             | Sets the chunk at `chunkX`, `chunkY` in tile layer `layer` to the index of `value`.            |
-| [**Get16x16TileInfo**](Stage/Get16x16TileInfo.md)               | Gets the value for `infoType` from the tile at `tileX`, `tileY`. And stores it in `store`.     |
-| [**Set16x16TileInfo**](Stage/Set16x16TileInfo.md)               | Sets the value for `infoType` from the tile at `tileX`, `tileY` to `value`.                    |
-| [**Copy16x16Tile**](Stage/Copy16x16Tile.md)                     | Copies the tileset image data of `scrTile` to `destTile`.                                      |
-| [**CheckCurrentStageFolder**](Stage/CheckCurrentStageFolder.md) | Reads the name of the current stage's folder.                                                  |
+| [**LoadStage**](Stages/LoadStage.md)                             | Loads a stage based on `stage.activeList` and `stage.listPos`.                                 |
+| [**SetLayerDeformation**](Stages/SetLayerDeformation.md)         | Sets the deformation data array of `deformID`, based on `deformA` and `deformB`.               |
+| [**GetTileLayerEntry**](Stages/GetTileLayerEntry.md)             | Gets the ID of the chunk at `chunkX`, `chunkY` on tile layer `layer` and stores it in `store`. |
+| [**SetTileLayerEntry**](Stages/SetTileLayerEntry.md)             | Sets the chunk at `chunkX`, `chunkY` in tile layer `layer` to the index of `value`.            |
+| [**Get16x16TileInfo**](Stages/Get16x16TileInfo.md)               | Gets the value for `infoType` from the tile at `tileX`, `tileY`. And stores it in `store`.     |
+| [**Set16x16TileInfo**](Stages/Set16x16TileInfo.md)               | Sets the value for `infoType` from the tile at `tileX`, `tileY` to `value`.                    |
+| [**Copy16x16Tile**](Stages/Copy16x16Tile.md)                     | Copies the tileset image data of `scrTile` to `destTile`.                                      |
+| [**CheckCurrentStageFolder**](Stages/CheckCurrentStageFolder.md) | Reads the name of the current stage's folder.                                                  |
 
 ## Miscellaneous
 | Function                                                    | Description                                                                                              |

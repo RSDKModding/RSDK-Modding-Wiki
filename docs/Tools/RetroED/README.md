@@ -4,7 +4,9 @@ Multi-purpose tool for editing levels, animations, config files and others from 
 
 TODO: more
 
-## Download
-The latest stable release of the tool can be found [here](https://github.com/RSDKModding/RetroED/releases/latest).
+[Download :fontawesome-solid-download:](https://github.com/RSDKModding/RetroED/releases){ .md-button .md-button--primary target="_blank"}
+[Experimental Releases :fontawesome-solid-download:](https://github.com/RSDKModding/RetroED/actions){ .md-button target="_blank"}
+[Source Code :fontawesome-brands-github:](https://github.com/RSDKModding/RetroED){ .md-button target="_blank"}
 
-Experimental releases of the tool can be found [here](https://github.com/RSDKModding/RetroED/actions). (You must be signed into GitHub to download these builds.)
+!!! note
+    You must be signed into GitHub to download the experimental releases.
