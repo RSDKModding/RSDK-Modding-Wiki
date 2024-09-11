@@ -5,7 +5,7 @@ NotifyCallback is a function in Sonic Origins that handles communicating between
 ## Usage
 === "v3"
 
-    Set `game.callbackParam0`, `game.callbackParam1`, and `game.callbackParam2` to the needed parameters (unused parameters do not need to be set), then call [EngineCallback()](../../../../RSDKv3/Functions/Misc/EngineCallback.md) with `CallbackFuncID` set to the [appropriate callback ID](#callbacks).
+    Set `game.callbackParam0`, `game.callbackParam1`, and `game.callbackParam2` to the needed parameters (unused parameters do not need to be set), then call [EngineCallback()](../../../../RSDKv3/Functions/Misc/EngineCallback.md) with `Callback` set to the [appropriate callback ID](#callbacks).
 
     !!! note
         The names of each callback are not defined by the engine itself. Instead, Sonic Team elected to define them and their corresponding IDs as global variables in Sonic CD's GameConfig.
