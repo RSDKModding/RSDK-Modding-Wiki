@@ -4,7 +4,7 @@ Multi-purpose tool for editing levels, animations, config files and others from 
 
 TODO: more
 
-[Download :fontawesome-solid-download:](https://github.com/RSDKModding/RetroED/releases){ .md-button .md-button--primary target="_blank"}
+[Download :fontawesome-solid-download:](https://github.com/RSDKModding/RetroED/releases){ .md-button .md-button--primary}
 [Experimental Releases :fontawesome-solid-download:](https://github.com/RSDKModding/RetroED/actions){ .md-button target="_blank"}
 [Source Code :fontawesome-brands-github:](https://github.com/RSDKModding/RetroED){ .md-button target="_blank"}
 

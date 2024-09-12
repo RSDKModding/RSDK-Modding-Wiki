@@ -38,20 +38,20 @@ The structure of the repository is as shown below: (TODO: Maybe add icons?)
 
     [:octicons-arrow-right-24: RSDKv3](./RSDKv3/README.md)
 
--   __Sonic Nexus__
+-   __Retro Engine v2__
 
     ---
 
     Documentation, Tools & Resources for Sonic Nexus
 
-    [:octicons-arrow-right-24: Sonic Nexus](./Nexus/README.md)
+    [:octicons-arrow-right-24: RSDKv2](./RSDKv2/README.md)
 
--   __Retro Sonic__
+-   __Retro Engine v1__
 
     ---
 
     Documentation, Tools & Resources for Retro Sonic
 
-    [:octicons-arrow-right-24: Retro Sonic](./RSonic/README.md)
+    [:octicons-arrow-right-24: RSDKv1](./RSDKv1/README.md)
 
 </div>

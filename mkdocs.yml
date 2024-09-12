@@ -10,6 +10,9 @@ theme:
   icon:
     logo: rsdk/logo
     repo: fontawesome/brands/github
+    admonition:
+      note: material/pencil
+      tip: material/lightbulb
   features:
     - navigation.instant
     - navigation.indexes
@@ -455,6 +458,30 @@ nav:
 
   - Guides:
     - Guides/README.md
+    - RSDKv3:
+      - Guides/RSDKv3/README.md
+      - Decompilation:
+        - Guides/RSDKv3/Decompilation/README.md
+        - Building: Guides/RSDKv3/Decompilation/Building.md
+        - Setup: Guides/RSDKv3/Decompilation/Setup.md
+        - Mod Setup: Guides/RSDKv3/Decompilation/ModSetup.md
+        - Mod Formatting: Guides/RSDKv3/Decompilation/ModFormatting.md
+    - RSDKv4:
+      - Guides/RSDKv4/README.md
+      - Decompilation:
+        - Guides/RSDKv4/Decompilation/README.md
+        - Building: Guides/RSDKv4/Decompilation/Building.md
+        - Setup: Guides/RSDKv4/Decompilation/Setup.md
+        - Mod Setup: Guides/RSDKv4/Decompilation/ModSetup.md
+        - Mod Formatting: Guides/RSDKv4/Decompilation/ModFormatting.md
+    - RSDKv5:
+      - Guides/RSDKv5/README.md
+      - Decompilation:
+        - Guides/RSDKv5/Decompilation/README.md
+        - Building: Guides/RSDKv5/Decompilation/Building.md
+        - Setup: Guides/RSDKv5/Decompilation/Setup.md
+        - Mod Setup: Guides/RSDKv5/Decompilation/ModSetup.md
+        - Mod Formatting: Guides/RSDKv5/Decompilation/ModFormatting.md
     - RetroED:
       - Guides/RetroED/README.md
       - Editors:
