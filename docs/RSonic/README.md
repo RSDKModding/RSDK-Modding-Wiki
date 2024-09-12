@@ -1,3 +1,0 @@
-# Retro Sonic
-
-TODO: this

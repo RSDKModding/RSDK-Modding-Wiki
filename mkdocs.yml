@@ -87,12 +87,12 @@ nav:
     - Intro:
       - Intro/README.md
 
-    - Retro Sonic:
-      - RSonic/README.md
+    - RSDKv1:
+      - RSDKv1/README.md
 
-    - Nexus:
-      - Nexus/README.md
-      - Decompilation: Nexus/Decompilation.md
+    - RSDKv2:
+      - RSDKv2/README.md
+      - Decompilation: RSDKv2/Decompilation.md
 
     - RSDKv3:
       - RSDKv3/README.md

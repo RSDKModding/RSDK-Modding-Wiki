@@ -1,3 +1,0 @@
-# Sonic Nexus
-
-TODO: this

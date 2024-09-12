@@ -1,14 +1,12 @@
-# Retro Engine Wiki
+# RSDK Modding Wiki
 
-Retro Engine Wiki (TODO: write an actual description)
-
-
+RSDK Modding Wiki (TODO: write an actual description)
 
 The structure of the repository is as shown below: (TODO: Maybe add icons?)
 
 <div class="grid cards" markdown>
 
--   __Introduction to RSDK__
+-   :rsdk-icon: __Introduction to RSDK__
 
     ---
 
