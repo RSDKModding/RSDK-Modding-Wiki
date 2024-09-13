@@ -1,6 +1,6 @@
 # NotifyCallback
 
-NotifyCallback is a function in Sonic Origins that handles communicating between RSDKv5U and Hedgehog Engine 2.
+NotifyCallback is a function in Sonic Origins that handles communicating between RSDKv5U and [Hedgehog Engine 2](../../HedgehogEngine2.md).
 
 ## Usage
 === "v3"
@@ -45,7 +45,7 @@ NotifyCallback is a function in Sonic Origins that handles communicating between
 | 146  | [**NOTIFY_STATS_PARAM_2**](StatsParam2.md)             |                                                                                                                                                           |
 | 147  | [**NOTIFY_CHARACTER_SELECT**](CharacterSelect.md)      | Opens Sonic Origins's character select menu, then sets `callbackResult` and `continueFlag` when the menu is closed.                                       |
 | 148  | [**NOTIFY_SPECIAL_RETRY**](SpecialRetry.md)            |                                                                                                                                                           |
-| 149  | [**NOTIFY_TOUCH_CHECKPOINT**](TouchCheckpoint.md)      | Notifies Hedgehog Engine 2 that a Lamp Post/Star Post has been touched.                                                                                   |
+| 149  | [**NOTIFY_TOUCH_CHECKPOINT**](TouchCheckpoint.md)      | Notifies [Hedgehog Engine 2](../../HedgehogEngine2.md) that a Lamp Post/Star Post has been touched.                                                       |
 | 150  | [**NOTIFY_ACT_FINISH**](ActFinish.md)                  |                                                                                                                                                           |
 | 151  | [**NOTIFY_1P_VS_SELECT**](1PVSSelect.md)               |                                                                                                                                                           |
 | 152  | [**NOTIFY_CONTROLLER_SUPPORT**](ControllerSupport.md)  | Opens the controller setup screen in the Nintendo Switch version of the game, then sets `callbackResult` based on the platform and controller count.      |

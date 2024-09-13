@@ -407,6 +407,8 @@ nav:
   - Games:
     - Games/README.md
     - Sonic Origins:
+      - Games/SonicOrigins/README.md
+      - Hedgehog Engine 2: Games/SonicOrigins/HedgehogEngine2.md
       - Documentation:
         - NotifyCallback:
           - Games/SonicOrigins/Documentation/NotifyCallback/README.md
