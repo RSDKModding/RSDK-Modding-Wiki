@@ -482,6 +482,7 @@ nav:
         - Setup: Guides/RSDKv5/Decompilation/Setup.md
         - Mod Setup: Guides/RSDKv5/Decompilation/ModSetup.md
         - Mod Formatting: Guides/RSDKv5/Decompilation/ModFormatting.md
+        - Shaders Setup: Guides/RSDKv5/Decompilation/ShadersSetup.md
     - RetroED:
       - Guides/RetroED/README.md
       - Editors:

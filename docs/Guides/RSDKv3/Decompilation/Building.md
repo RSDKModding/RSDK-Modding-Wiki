@@ -72,6 +72,12 @@ git submodule update --init --recursive
 		sudo apk add build-base cmake glew-dev glfw-dev sdl2-dev libogg-dev libtheora-dev libvorbis-dev
 		```
 
+	=== "xbps (Void)"
+
+        ```
+		sudo xbps-install make cmake pkg-config glew-devel glfw-devel SDL2-devel libogg-devel libtheora-devel libvorbis-devel  zlib-devel
+		```
+
 === "Android"
 
     TODO

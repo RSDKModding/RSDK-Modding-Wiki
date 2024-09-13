@@ -11,7 +11,7 @@ There are three versions of the function that can be used depending on the amoun
 In order to call a native function by name, a global variable named after the function must be added to the GameConfig. Once added, the engine will automatically set the value of the global variable to the ID of the native function.
 
 ## Parameters
-- `callbackFuncID`
+- `callback`
 The index value of the callback.
 - `param1`, `param2`, `param3`, `param4`
 Parameters to use for the callback.
@@ -21,13 +21,13 @@ Depends on the callback used.
 
 ## Syntax
 ```
-CallNativeFunction(int callbackFuncID)
+CallNativeFunction(int callback)
 ```
 ```
-CallNativeFunction2(int callbackFuncID, param1, param2)
+CallNativeFunction2(int callback, param1, param2)
 ```
 ```
-CallNativeFunction4(int callbackFuncID, param1, param2, param3, param4)
+CallNativeFunction4(int callback, param1, param2, param3, param4)
 ```
 
 ## Examples

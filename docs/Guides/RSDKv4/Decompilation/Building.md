@@ -72,6 +72,12 @@ git submodule update --init --recursive
 		sudo apk add build-base cmake glew-dev glfw-dev sdl2-dev libogg-dev libvorbis-dev
 		```
 
+	=== "xbps (Void)"
+
+        ```
+		sudo xbps-install make cmake pkg-config glew-devel glfw-devel SDL2-devel libogg-devel libvorbis-devel  zlib-devel
+		```
+
 === "Android"
 
     TODO
@@ -138,12 +144,20 @@ git submodule update --init --recursive
 !!! warning
     These build flags modify certain aspects of the decomp; only use these if you know what you're doing!
 
-| Flag                             | Description                                                                                                                                                                                                   | Value Type           | Default Value |
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | ------------- |
-| **RETRO_REVISION**               | The RSDKv4 revision to compile. Datapacks for certain versions of Sonic 1/2 only work on older revisions.                                                                                                     | Integer (`0`-`3`)    | `3`           |
-| **RETRO_DISABLE_PLUS**           | Disables access to content from Sonic Origins's Plus Expansion Pack. [Any publicly distributed builds must have this flag enabled.](https://github.com/RSDKModding/RSDKv4-Decompilation/blob/main/LICENSE.md) | Boolean              | `off`         |
-| **RETRO_FORCE_CASE_INSENSITIVE** | Forces case insensivity when loading files.                                                                                                                                                                   | Boolean              | `off`         |
-| **RETRO_MOD_LOADER**             | Enables the ability the load mods and certain features related to them.                                                                                                                                       | Boolean              | `on`          |
-| **RETRO_NETWORKING**             | Enables networking features used for Sonic 2's 2P VS mode.                                                                                                                                                    | Boolean              | `on`          |
-| **RETRO_USE_HW_RENDER**          | Enables the Hardware Renderer used for native menus and objects. **The main menu, pause menu, and touch controls will not be visible if this is disabled.**                                                   | Boolean              | `on`          |
-| **RETRO_SDL_VERSION**            | Switches between using SDL 1.2 or SDL 2.                                                                                                                                                                      | Integer (`1` or `2`) | `2`           |
+| Flag                             | Description                                                                                                                                                                                                   | Value Type                            | Default Value |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ------------- |
+| **RETRO_REVISION**               | The RSDKv4 revision to compile. Datapacks for certain versions of Sonic 1/2 only work on older revisions.                                                                                                     | Integer (See [Revisions](#revisions)) | `3`           |
+| **RETRO_DISABLE_PLUS**           | Disables access to content from Sonic Origins's Plus Expansion Pack. [Any publicly distributed builds must have this flag enabled.](https://github.com/RSDKModding/RSDKv4-Decompilation/blob/main/LICENSE.md) | Boolean                               | `off`         |
+| **RETRO_FORCE_CASE_INSENSITIVE** | Forces case insensivity when loading files.                                                                                                                                                                   | Boolean                               | `off`         |
+| **RETRO_MOD_LOADER**             | Enables the ability the load mods and certain features related to them.                                                                                                                                       | Boolean                               | `on`          |
+| **RETRO_NETWORKING**             | Enables networking features used for Sonic 2's 2P VS mode.                                                                                                                                                    | Boolean                               | `on`          |
+| **RETRO_USE_HW_RENDER**          | Enables the Hardware Renderer used for native menus and objects. **The main menu, pause menu, and touch controls will not be visible if this is disabled.**                                                   | Boolean                               | `on`          |
+| **RETRO_SDL_VERSION**            | Switches between using SDL 1.2 or SDL 2.                                                                                                                                                                      | Integer (`1` or `2`)                  | `2`           |
+
+### Revisions
+| Flag Value | Revision                        |
+| ---------- | ------------------------------- |
+| **0**      | REV00 (Initial Sonic 1 Release) |
+| **1**      | REV01 (Initial Sonic 2 Release) |
+| **2**      | REV02 (Sega Forever)            |
+| **3**      | REV03 (RSDKv5U Legacy v4 Mode)  |

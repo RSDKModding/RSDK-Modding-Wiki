@@ -74,6 +74,12 @@ git submodule update --init --recursive
 		sudo dnf install make cmake gcc glew-devel glfw-devel libtheora-devel sdl2-devel zlib-devel
 		```
 
+	=== "apk (Alpine/PostmarketOS)"
+
+        ```
+		sudo apk add build-base cmake gcc glew-dev glfw-dev libtheora-dev sdl2-dev
+		```
+
 	=== "xbps (Void)"
 
         ```
@@ -132,6 +138,9 @@ git submodule update --init --recursive
     The resulting build(s) will be located somewhere in `build/` depending on your system.
 
     You can set [build flags](#build-flags) by adding `-D[flag-name]=[value]` to the end of the first command. For example, to build with `RETRO_DISABLE_PLUS` set to on, add `-DRETRO_DISABLE_PLUS=on` to the command.
+	
+    !!! tip
+        If you're not using either DirectX subsystem, it's highly recommended to [install the custom shaders mod](ShadersSetup.md).
 
 === "Linux"
 
@@ -144,6 +153,9 @@ git submodule update --init --recursive
     The resulting build(s) will be located somewhere in `build/` depending on your system.
 
     You can set [build flags](#build-flags) by adding `-D[flag-name]=[value]` to the end of the first command. For example, to build with `RETRO_DISABLE_PLUS` set to on, add `-DRETRO_DISABLE_PLUS=on` to the command.
+	
+    !!! tip
+        It's highly recommended to [install the custom shaders mod](ShadersSetup.md).
 
 === "Nintendo Switch"
 
@@ -156,6 +168,9 @@ git submodule update --init --recursive
     The resulting build will be located somewhere in `build/` depending on your system.
 
     You can set [build flags](#build-flags) by adding `-D[flag-name]=[value]` to the end of the first command. For example, to build with `RETRO_DISABLE_PLUS` set to on, add `-DRETRO_DISABLE_PLUS=on` to the command.
+	
+    !!! tip
+        It's highly recommended to [install the custom shaders mod](ShadersSetup.md).
 
 === "Android"
 
@@ -168,11 +183,18 @@ git submodule update --init --recursive
 ### RSDKv5
 | Flag                     | Description                                                                                                                                                                                                         | Value Type                             | Default Value                              |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | ------------------------------------------ |
-| **RETRO_REVISION**       | The RSDKv5 revision to compile. Datapacks for certain versions of Sonic Mania only work on older revisions. Set to `3` to build RSDKv5U.                                                                            | Integer (`1`-`3`)                      | `3`                                        |
+| **RETRO_REVISION**       | The RSDKv5 revision to compile. Datapacks for certain versions of Sonic Mania only work on older revisions. Set to `3` to build RSDKv5U.                                                                            | Integer (See [Revisions](#revisions))  | `3`                                        |
 | **RETRO_DISABLE_PLUS**   | Disables access to content from Sonic Mania and Sonic Origins' Plus DLC. [Any publicly distributed builds must have this flag enabled.](https://github.com/RSDKModding/RSDKv5-Decompilation/blob/master/LICENSE.md) | Boolean                                | `off`                                      |
 | **RETRO_MOD_LOADER**     | Enables the ability the load mods and certain features related to them.                                                                                                                                             | Boolean                                | `on`                                       |
 | **RETRO_MOD_LOADER_VER** | The revision of the mod loader to build.                                                                                                                                                                            | Integer (`1` or `2`)                   | `2`                                        |
 | **RETRO_SUBSYSTEM**      | The backend used to handle rendering, controller inputs, etc.                                                                                                                                                       | String (See [Subsystems](#subsystems)) | `DX9` on Windows, `OGL` on other platforms |
+
+#### Revisions
+| Flag Value | Revision                     |
+| ---------- | ---------------------------- |
+| **1**      | REV01 (Sonic Mania Pre-Plus) |
+| **2**      | REV02 (Sonic Mania Plus)     |
+| **3**      | REV0U (RSDKv5U)              |
 
 #### Subsystems
 | Flag Value   | Subsystem                 |
