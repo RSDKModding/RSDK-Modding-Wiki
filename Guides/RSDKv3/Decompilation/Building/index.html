@@ -12317,6 +12317,8 @@
       
         
       
+        
+      
     
     
       
@@ -12435,6 +12437,27 @@
   
   <span class="md-ellipsis">
     Mod Formatting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../RSDKv5/Decompilation/ShadersSetup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Shaders Setup
   </span>
   
 
@@ -12754,7 +12777,7 @@
 </div>
 <div class="tabbed-block">
 <p>Run the following command in the terminal:</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="3:4"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><input id="__tabbed_3_3" name="__tabbed_3" type="radio" /><input id="__tabbed_3_4" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">pacman (Arch)</label><label for="__tabbed_3_2">apt (Debian/Ubuntu)</label><label for="__tabbed_3_3">rpm (Fedora)</label><label for="__tabbed_3_4">apk (Alpine/PostmarketOS)</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:5"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><input id="__tabbed_3_3" name="__tabbed_3" type="radio" /><input id="__tabbed_3_4" name="__tabbed_3" type="radio" /><input id="__tabbed_3_5" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">pacman (Arch)</label><label for="__tabbed_3_2">apt (Debian/Ubuntu)</label><label for="__tabbed_3_3">rpm (Fedora)</label><label for="__tabbed_3_4">apk (Alpine/PostmarketOS)</label><label for="__tabbed_3_5">xbps (Void)</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>sudo pacman -S base-devel cmake glew sdl2 libogg libtheora libvorbis
@@ -12770,6 +12793,10 @@
 </div>
 <div class="tabbed-block">
 <div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>sudo apk add build-base cmake glew-dev glfw-dev sdl2-dev libogg-dev libtheora-dev libvorbis-dev
+</span></code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="language-text highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>sudo xbps-install make cmake pkg-config glew-devel glfw-devel SDL2-devel libogg-devel libtheora-devel libvorbis-devel  zlib-devel
 </span></code></pre></div>
 </div>
 </div>
@@ -12788,30 +12815,30 @@
 <div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">64-bit</label><label for="__tabbed_5_2">32-bit</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="language-text highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=[vcpkg root]/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH=[vcpkg root]/installed/x64-windows-static/
-</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>cmake --build build --config release
+<div class="language-text highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=[vcpkg root]/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH=[vcpkg root]/installed/x64-windows-static/
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>cmake --build build --config release
 </span></code></pre></div>
 <div class="admonition warning">
 <p class="admonition-title">Important!</p>
 <p>Both instances of <code>[vcpkg root]</code> should be replaced with the path to the vcpkg repository. For example, if the repository is located in <code>C:/src/vcpkg</code>, the command to enter would be:
-<div class="language-text highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=C:/src/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH=C:/src/vcpkg/installed/x64-windows-static/
+<div class="language-text highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=C:/src/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH=C:/src/vcpkg/installed/x64-windows-static/
 </span></code></pre></div>
 If the path to the repository includes spaces in it, you will need to put quotation marks around the entire path. For example, if the repository is located in <code>C:/github repos/vcpkg</code>, the command to enter would be:
-<div class="language-text highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=&quot;C:/github repos/vcpkg/scripts/buildsystems/vcpkg.cmake&quot; -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH=&quot;C:/github repos/vcpkg/installed/x64-windows-static/&quot;
+<div class="language-text highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=&quot;C:/github repos/vcpkg/scripts/buildsystems/vcpkg.cmake&quot; -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH=&quot;C:/github repos/vcpkg/installed/x64-windows-static/&quot;
 </span></code></pre></div></p>
 </div>
 </div>
 <div class="tabbed-block">
-<div class="language-text highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=[vcpkg root]/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH=[vcpkg root]/installed/x86-windows-static/ -A Win32
-</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>cmake --build build --config release
+<div class="language-text highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=[vcpkg root]/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH=[vcpkg root]/installed/x86-windows-static/ -A Win32
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>cmake --build build --config release
 </span></code></pre></div>
 <div class="admonition warning">
 <p class="admonition-title">Important!</p>
 <p>Both instances of <code>[vcpkg root]</code> should be replaced with the path to the vcpkg repository. For example, if the repository is located in <code>C:/src/vcpkg</code>, the command to enter would be:
-<div class="language-text highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=C:/src/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH=C:/src/vcpkg/installed/x86-windows-static/ -A Win32
+<div class="language-text highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=C:/src/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH=C:/src/vcpkg/installed/x86-windows-static/ -A Win32
 </span></code></pre></div>
 If the path to the repository includes spaces in it, you will need to put quotation marks around the entire path. For example, if the repository is located in <code>C:/github repos/vcpkg</code>, the command to enter would be:
-<div class="language-text highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=&quot;C:/github repos/vcpkg/scripts/buildsystems/vcpkg.cmake&quot; -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH=&quot;C:/github repos/vcpkg/installed/x86-windows-static/&quot; -A Win32
+<div class="language-text highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=&quot;C:/github repos/vcpkg/scripts/buildsystems/vcpkg.cmake&quot; -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH=&quot;C:/github repos/vcpkg/installed/x86-windows-static/&quot; -A Win32
 </span></code></pre></div></p>
 </div>
 </div>
@@ -12822,8 +12849,8 @@ If the path to the repository includes spaces in it, you will need to put quotat
 </div>
 <div class="tabbed-block">
 <p>Enter the following commands in the RSDKv3 decompilation repository directory:
-<div class="language-text highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release
-</span><span id="__span-14-2"><a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>cmake --build build --config release
+<div class="language-text highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>cmake --build build --config release
 </span></code></pre></div></p>
 <p>The resulting build will be located somewhere in <code>build/</code> depending on your system.</p>
 <p>You can set <a href="#build-flags">build flags</a> by adding <code>-D[flag-name]=[value]</code> to the end of the first command. For example, to build with <code>RETRO_DISABLE_PLUS</code> set to on, add <code>-DRETRO_DISABLE_PLUS=on</code> to the command.</p>
