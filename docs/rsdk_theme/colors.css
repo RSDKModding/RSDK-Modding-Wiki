@@ -43,3 +43,14 @@
 .controller-start {
   color: var(--controller-start-color);
 }
+
+/* RSDK versions */
+.rsdkv3 {
+  color: #CF3E49;
+}
+.rsdkv4 {
+  color: #0376BC;
+}
+.rsdkv5 {
+  color: #E0C251;
+}
