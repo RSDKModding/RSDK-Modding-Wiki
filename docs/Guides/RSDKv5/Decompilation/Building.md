@@ -109,11 +109,11 @@ git submodule update --init --recursive
         ```
 	    
         !!! warning "Important!"
-            Both instances of `[vcpkg root]` should be replaced with the path to the vcpkg repository. For example, if the repository is located in `C:/src/vcpkg`, the command to enter would be:
+            `[vcpkg root]` should be replaced with the path to the vcpkg repository. For example, if the repository is located in `C:/src/vcpkg`, the first command to enter would be:
             ```
             cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=C:/src/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-windows-static
             ```
-            If the path to the repository includes spaces in it, you will need to put quotation marks around the entire path. For example, if the repository is located in `C:/github repos/vcpkg`, the command to enter would be:
+            If the path to the repository includes spaces in it, you will need to put quotation marks around the entire path. For example, if the repository is located in `C:/github repos/vcpkg`, the first command to enter would be:
             ```
             cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="C:/github repos/vcpkg/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static
 			```
@@ -126,11 +126,11 @@ git submodule update --init --recursive
         ```
 	    
         !!! warning "Important!"
-            Both instances of `[vcpkg root]` should be replaced with the path to the vcpkg repository. For example, if the repository is located in `C:/src/vcpkg`, the command to enter would be:
+            `[vcpkg root]` should be replaced with the path to the vcpkg repository. For example, if the repository is located in `C:/src/vcpkg`, the first command to enter would be:
             ```
             cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=C:/src/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x86-windows-static -A Win32
             ```
-            If the path to the repository includes spaces in it, you will need to put quotation marks around the entire path. For example, if the repository is located in `C:/github repos/vcpkg`, the command to enter would be:
+            If the path to the repository includes spaces in it, you will need to put quotation marks around the entire path. For example, if the repository is located in `C:/github repos/vcpkg`, the first command to enter would be:
             ```
             cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="C:/github repos/vcpkg/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -A Win32
 			```
@@ -138,9 +138,6 @@ git submodule update --init --recursive
     The resulting build(s) will be located somewhere in `build/` depending on your system.
 
     You can set [build flags](#build-flags) by adding `-D[flag-name]=[value]` to the end of the first command. For example, to build with `RETRO_DISABLE_PLUS` set to on, add `-DRETRO_DISABLE_PLUS=on` to the command.
-	
-    !!! tip
-        If you're not using either DirectX subsystem, it's highly recommended to [install the custom shaders mod](ShadersSetup.md).
 
 === "Linux"
 
@@ -153,9 +150,6 @@ git submodule update --init --recursive
     The resulting build(s) will be located somewhere in `build/` depending on your system.
 
     You can set [build flags](#build-flags) by adding `-D[flag-name]=[value]` to the end of the first command. For example, to build with `RETRO_DISABLE_PLUS` set to on, add `-DRETRO_DISABLE_PLUS=on` to the command.
-	
-    !!! tip
-        It's highly recommended to [install the custom shaders mod](ShadersSetup.md).
 
 === "Nintendo Switch"
 
@@ -168,9 +162,6 @@ git submodule update --init --recursive
     The resulting build will be located somewhere in `build/` depending on your system.
 
     You can set [build flags](#build-flags) by adding `-D[flag-name]=[value]` to the end of the first command. For example, to build with `RETRO_DISABLE_PLUS` set to on, add `-DRETRO_DISABLE_PLUS=on` to the command.
-	
-    !!! tip
-        It's highly recommended to [install the custom shaders mod](ShadersSetup.md).
 
 === "Android"
 
@@ -181,13 +172,13 @@ git submodule update --init --recursive
     These build flags modify certain aspects of the decomps; only use these if you know what you're doing!
 
 ### RSDKv5
-| Flag                     | Description                                                                                                                                                                                                         | Value Type                             | Default Value                              |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | ------------------------------------------ |
-| **RETRO_REVISION**       | The RSDKv5 revision to compile. Datapacks for certain versions of Sonic Mania only work on older revisions. Set to `3` to build RSDKv5U.                                                                            | Integer (See [Revisions](#revisions))  | `3`                                        |
-| **RETRO_DISABLE_PLUS**   | Disables access to content from Sonic Mania and Sonic Origins' Plus DLC. [Any publicly distributed builds must have this flag enabled.](https://github.com/RSDKModding/RSDKv5-Decompilation/blob/master/LICENSE.md) | Boolean                                | `off`                                      |
-| **RETRO_MOD_LOADER**     | Enables the ability the load mods and certain features related to them.                                                                                                                                             | Boolean                                | `on`                                       |
-| **RETRO_MOD_LOADER_VER** | The revision of the mod loader to build.                                                                                                                                                                            | Integer (`1` or `2`)                   | `2`                                        |
-| **RETRO_SUBSYSTEM**      | The backend used to handle rendering, controller inputs, etc.                                                                                                                                                       | String (See [Subsystems](#subsystems)) | `DX9` on Windows, `OGL` on other platforms |
+| Flag                     | Description                                                                                                                                                                                                             | Value Type                             | Default Value                              |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | ------------------------------------------ |
+| **RETRO_REVISION**       | The RSDKv5 revision to compile. Datapacks for certain versions of Sonic Mania only work on older revisions. Set to `3` to build RSDKv5U.                                                                                | Integer (See [Revisions](#revisions))  | `3`                                        |
+| **RETRO_DISABLE_PLUS**   | Disables access to content from Sonic Mania and Sonic Origins' Plus DLC. [**Any publicly distributed builds must have this flag enabled.**](https://github.com/RSDKModding/RSDKv5-Decompilation/blob/master/LICENSE.md) | Boolean                                | `off`                                      |
+| **RETRO_MOD_LOADER**     | Enables the ability the load mods and certain features related to them.                                                                                                                                                 | Boolean                                | `on`                                       |
+| **RETRO_MOD_LOADER_VER** | The revision of the mod loader to build.                                                                                                                                                                                | Integer (`1` or `2`)                   | `2`                                        |
+| **RETRO_SUBSYSTEM**      | The backend used to handle rendering, controller inputs, etc.                                                                                                                                                           | String (See [Subsystems](#subsystems)) | `DX9` on Windows, `OGL` on other platforms |
 
 #### Revisions
 | Flag Value | Revision                     |

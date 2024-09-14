@@ -25,6 +25,9 @@
 
     Place the `Data.rsdk` and `Game.dll` files in this directory.
 
+    !!! tip
+        If you're not using either DirectX subsystem, it's highly recommended to [install the custom shaders mod](ShadersSetup.md).
+
 === "Linux"
 
     TODO

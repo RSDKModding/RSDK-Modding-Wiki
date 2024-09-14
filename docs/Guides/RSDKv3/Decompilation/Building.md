@@ -94,11 +94,11 @@ git submodule update --init --recursive
         ```
 	    
         !!! warning "Important!"
-            Both instances of `[vcpkg root]` should be replaced with the path to the vcpkg repository. For example, if the repository is located in `C:/src/vcpkg`, the command to enter would be:
+            Both instances of `[vcpkg root]` should be replaced with the path to the vcpkg repository. For example, if the repository is located in `C:/src/vcpkg`, the first command to enter would be:
             ```
             cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=C:/src/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH=C:/src/vcpkg/installed/x64-windows-static/
             ```
-            If the path to the repository includes spaces in it, you will need to put quotation marks around the entire path. For example, if the repository is located in `C:/github repos/vcpkg`, the command to enter would be:
+            If the path to the repository includes spaces in it, you will need to put quotation marks around the entire path. For example, if the repository is located in `C:/github repos/vcpkg`, the first command to enter would be:
             ```
             cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="C:/github repos/vcpkg/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH="C:/github repos/vcpkg/installed/x64-windows-static/"
 			```
@@ -111,11 +111,11 @@ git submodule update --init --recursive
         ```
 	    
         !!! warning "Important!"
-            Both instances of `[vcpkg root]` should be replaced with the path to the vcpkg repository. For example, if the repository is located in `C:/src/vcpkg`, the command to enter would be:
+            Both instances of `[vcpkg root]` should be replaced with the path to the vcpkg repository. For example, if the repository is located in `C:/src/vcpkg`, the first command to enter would be:
             ```
             cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=C:/src/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH=C:/src/vcpkg/installed/x86-windows-static/ -A Win32
             ```
-            If the path to the repository includes spaces in it, you will need to put quotation marks around the entire path. For example, if the repository is located in `C:/github repos/vcpkg`, the command to enter would be:
+            If the path to the repository includes spaces in it, you will need to put quotation marks around the entire path. For example, if the repository is located in `C:/github repos/vcpkg`, the first command to enter would be:
             ```
             cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="C:/github repos/vcpkg/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH="C:/github repos/vcpkg/installed/x86-windows-static/" -A Win32
 			```
@@ -144,10 +144,10 @@ git submodule update --init --recursive
 !!! warning
     These build flags modify certain aspects of the decomp; only use these if you know what you're doing!
 
-| Flag                             | Description                                                                                                                                                                                                     | Value Type           | Default Value |
-| -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | ------------- |
-| **RETRO_DISABLE_PLUS**           | Disables access to content from Sonic Origins's Plus Expansion Pack. [Any publicly distributed builds must have this flag enabled.](https://github.com/RSDKModding/RSDKv3-Decompilation/blob/master/LICENSE.md) | Boolean              | `off`         |
-| **RETRO_FORCE_CASE_INSENSITIVE** | Forces case insensivity when loading files.                                                                                                                                                                     | Boolean              | `off`         |
-| **RETRO_MOD_LOADER**             | Enables the ability the load mods and certain features related to them.                                                                                                                                         | Boolean              | `on`          |
-| **RETRO_USE_HW_RENDER**          | Enables the option to use the Hardware Renderer used for the mobile version of Sonic CD.                                                                                                                        | Boolean              | `on`          |
-| **RETRO_SDL_VERSION**            | Switches between using SDL 1.2 or SDL 2.                                                                                                                                                                        | Integer (`1` or `2`) | `2`           |
+| Flag                             | Description                                                                                                                                                                                                         | Value Type           | Default Value |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | ------------- |
+| **RETRO_DISABLE_PLUS**           | Disables access to content from Sonic Origins's Plus Expansion Pack. [**Any publicly distributed builds must have this flag enabled.**](https://github.com/RSDKModding/RSDKv3-Decompilation/blob/master/LICENSE.md) | Boolean              | `off`         |
+| **RETRO_FORCE_CASE_INSENSITIVE** | Forces case insensivity when loading files.                                                                                                                                                                         | Boolean              | `off`         |
+| **RETRO_MOD_LOADER**             | Enables the ability the load mods and certain features related to them.                                                                                                                                             | Boolean              | `on`          |
+| **RETRO_USE_HW_RENDER**          | Enables the option to use the Hardware Renderer used for the mobile version of Sonic CD.                                                                                                                            | Boolean              | `on`          |
+| **RETRO_SDL_VERSION**            | Switches between using SDL 1.2 or SDL 2.                                                                                                                                                                            | Integer (`1` or `2`) | `2`           |
