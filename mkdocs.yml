@@ -20,6 +20,7 @@ theme:
     - navigation.tabs
     - navigation.top
     - content.code.copy
+    - content.tabs.link
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -66,6 +67,9 @@ markdown_extensions:
   - pymdownx.tasklist
   - pymdownx.tabbed:
       alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
