@@ -109,7 +109,7 @@
 
 ### Tile Layers
 ---
-=== "pre-v5"
+=== "Pre-v5"
     Lists the layers of the scene, composed by one foreground layer and 8 backgrounds layers, selecting any of them on the list will highlight the layer in the scene viewer for chunk editing, the checkbox determines which layers should be visible on the scene editor.
 === "v5"
     Lists the existing layers of the scene, selecting any of them on the list will highlight the layer in the scene viewer for chunk editing, the checkbox determines which layers should be visible on the scene editor.
@@ -119,7 +119,7 @@
 
 ### Chunk/Tile List
 ---
-=== "pre-v5"
+=== "Pre-v5"
     Lists all 512 (256 in v1) available chunks on the scene, clicking any of them will select the chunk for it's use with the Pencil tool.
 === "v5"
     Lists all 1024 available tiles on the scene, clicking any of them will select the tile for it's use with the Pencil tool.  

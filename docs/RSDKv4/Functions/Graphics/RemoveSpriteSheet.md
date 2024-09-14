@@ -4,8 +4,10 @@
 Removes the given spritesheet from memory, if it is already loaded.
 
 !!! note
-    - This function does not affect files in the datafile or device storage, only the engine memory.
-    - Spritesheets loaded from animation files cannot be removed.
+    This function does not affect files in the datafile or device storage, only the engine memory.
+
+!!! note
+    Spritesheets loaded from animation files cannot be removed.
 
 ## Parameters
 - `path`
