@@ -9,8 +9,8 @@
     - [Building the source code](Building.md) (Recommended)
     - [Downloading the latest release](https://github.com/RSDKModding/Sonic-Mania-Decompilation/releases/latest)
     - [Downloading an autobuild](https://github.com/RSDKModding/Sonic-Mania-Decompilation/actions) (Must be signed into GitHub to download)
-- [A datapack (Data.rsdk) for Sonic Mania](TODO)
-    - The decompilation is not compatible with datapacks from the Netflix Games releases of the game.
+- [A datapack (Data.rsdk) for Sonic Mania](../../Games/SonicMania/Datapack.md)
+    - The decompilations are not compatible with datapacks from the Netflix Games releases of the game.
 - [Visual C++ Redistributables](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) (Windows only)
 
 ## Setup

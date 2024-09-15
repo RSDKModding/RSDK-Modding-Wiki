@@ -6,4 +6,4 @@ Hedgehog Engine 2 (also referred to as HE2) is a game engine created by Sonic Te
 
 ## Sonic Origins
 
-In addition to Hedgehog Engine 2, Sonic Origins also incorporates [Retro Engine v5U](../../RSDKv5/README.md) as a backend to run the four playable remasters in the collection.
+In addition to Hedgehog Engine 2, [Sonic Origins](README.md) also incorporates [Retro Engine v5U](../../RSDKv5/README.md) as a backend to run the four playable remasters in the collection.
