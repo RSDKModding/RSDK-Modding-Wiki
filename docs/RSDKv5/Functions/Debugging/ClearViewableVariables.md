@@ -1,5 +1,8 @@
 # ClearViewableVariables
 
+!!! note
+    This function only exists in REV02 and above.
+
 ## Description
 Clears all loaded viewable variables.
 
@@ -9,7 +12,7 @@ None.
 ## Return Value
 None.
 
-## Syntax
+## Example
 === "C"
 
 	```c
@@ -21,19 +24,3 @@ None.
 	```cpp
 	Dev::ClearViewableVariables();
 	```
-
-## Examples
-=== "C"
-
-	```c
-	RSDK.ClearViewableVariables();
-	```
-
-=== "C++"
-
-	```cpp
-	Dev::ClearViewableVariables();
-	```
-
-## Remarks
-This function is suppported by RSDKv5 Revision 02 & RSDKv5U only. It does not exist in RSDKv5 Revision 01.

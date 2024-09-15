@@ -1,24 +1,20 @@
 # CreateSpriteAnimation
 
 ## Description
-Creates a Sprite Animation based on the parameters and returns the id of it.
+Creates a SpriteAnimation based on the given parameters and returns the ID of it.
 
 ## Parameters
-
 - `identifier`
 The animation's *unique* identifier. Once created, it can be used to retrieve this animation again.
-
 - `frameCount`
-The maximum number of sprite frames this sprite animation can store.
-
+The maximum number of SpriteFrames this SpriteAnimation can store.
 - `listCount`
-The maximum number of animation entries this sprite animation can store.
-
+The maximum number of animation entries this SpriteAnimation can store.
 - `scope`
 The asset's scope, may be `SCOPE_GLOBAL` or `SCOPE_STAGE`.
 
 ## Return Value
-This function returns an id to the created animation file as a `uint16`. The return value will be `-1` if the animation file failed to create.
+Returns the id of the created animation file as a `uint16`. The return value will be `-1` if the animation file failed to create.
 
 ## Syntax
 === "C"
@@ -33,7 +29,7 @@ This function returns an id to the created animation file as a `uint16`. The ret
 	SpriteAnimation.Create(const char* path, Scopes scope);
 	```
 
-## Examples
+## Example
 === "C"
 
 	```c

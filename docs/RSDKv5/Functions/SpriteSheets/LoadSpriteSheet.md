@@ -1,7 +1,7 @@
 # LoadSpriteSheet
 
 ## Description
-Loads a spritesheet and returns the id of it.
+Loads a spritesheet and returns the ID of it.
 
 ## Parameters
 - `path`
@@ -10,7 +10,7 @@ The file path to load the spritesheet from, relative to `Data/Sprites/`. Sprites
 The asset's scope, may be `SCOPE_GLOBAL` or `SCOPE_STAGE`.
 
 ## Return Value
-This function returns an id to the loaded spritesheet as a `uint16`. The return value will be `-1` if the animation file failed to load.
+Returns the ID of the loaded spritesheet as a `uint16`. The return value will be `-1` if the animation file failed to load.
 
 ## Syntax
 === "C"
@@ -25,7 +25,7 @@ This function returns an id to the loaded spritesheet as a `uint16`. The return 
 	SpriteSheet.Load(const char* path, Scopes scope);
 	```
 
-## Examples
+## Example
 === "C"
 
 	```c

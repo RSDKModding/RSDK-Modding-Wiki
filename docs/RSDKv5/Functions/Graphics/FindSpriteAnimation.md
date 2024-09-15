@@ -4,15 +4,13 @@
 Attempts to find an animation entry by name.
 
 ## Parameters
-
 - `aniFrames`
-The sprite animation to search in.
-
+The SpriteAnimation to search in.
 - `name`
 The name of the animation entry to search for.
 
 ## Return Value
-This function returns an id to the found animation entry as a `uint16`. The return value will be `-1` if the animation entry wasn't found.
+Returns the ID of the found animation entry as a `uint16`. The return value will be `-1` if the animation entry wasn't found.
 
 ## Syntax
 === "C"
@@ -27,7 +25,7 @@ This function returns an id to the found animation entry as a `uint16`. The retu
 	SpriteAnimation.Find(const char *name);
 	```
 
-## Examples
+## Example
 === "C"
 
 	```c

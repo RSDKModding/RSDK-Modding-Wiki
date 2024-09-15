@@ -1,6 +1,6 @@
 # NotifyCallback
 
-NotifyCallback is a function in Sonic Origins that handles communicating between RSDKv5U and [Hedgehog Engine 2](../../HedgehogEngine2.md).
+NotifyCallback is a function in [Sonic Origins](../../README.md) that handles communicating between [RSDKv5U](../../../../RSDKv5/README.md) and [Hedgehog Engine 2](../../HedgehogEngine2.md).
 
 ## Usage
 === "v3"

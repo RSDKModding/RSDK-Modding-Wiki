@@ -4,12 +4,11 @@
 Gets the `unicode char` value of the animator's current frame.
 
 ## Parameters
-
 - `animator`
-The animator to get the unicode char from. the animation entry will use `animator.frames` and the frame id uses `animator.frameID`.
+The animator to get the unicode char from. The animation entry will use `animator.frames` and the frame ID uses `animator.frameID`.
 
 ## Return Value
-This function returns the `unicode char` value of the animator's current frame as a `uint16`. The return value will be `0` if an error occurred.
+Returns the `unicode char` value of the animator's current frame as a `uint16`. The return value will be `0` if an error occurred.
 
 ## Syntax
 === "C"
@@ -21,10 +20,10 @@ This function returns the `unicode char` value of the animator's current frame a
 === "C++"
 
 	```cpp
-	animator.GetFrameID();
+	Animator.GetFrameID();
 	```
 
-## Examples
+## Example
 === "C"
 
 	```c

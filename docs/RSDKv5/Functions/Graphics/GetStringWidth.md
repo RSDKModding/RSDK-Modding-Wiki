@@ -1,30 +1,24 @@
 # GetStringWidth
 
 ## Description
-Loads a Sprite Animation and returns the id of it.
+Retrieves the width of a string in pixels when displayed with [DrawText](TODO).
 
 ## Parameters
-
 - `aniFrames`
-The sprite animation to use frames from.
-
+The SpriteAnimation to use frames from.
 - `listID`
 The index of the animation in the animation list to use frames from.
-
 - `string`
 The string that characters are retrieved from.
-
 - `startIndex`
 The starting character index.
-
 - `length`
-The end character index. A value of 0 will result in the end character index being `string.length`.
-
+The end character index. A value of `0` will result in the end character index being `string.length`.
 - `spacing`
 The number of pixels between each character.
 
 ## Return Value
-This function returns the width of the string in pixels. This width is the same as it would be if [DrawText](TODO) was called with the same parameters.
+Returns the width of the string in pixels as an `int32`. This width is the same as it would be if [DrawText](TODO) was called with the same parameters.
 
 ## Syntax
 === "C"
@@ -39,7 +33,7 @@ This function returns the width of the string in pixels. This width is the same 
 	String.GetWidth(SpriteAnimation aniFrames, uint16 listID, int32 startIndex, int32 length, int32 spacing);
 	```
 
-## Examples
+## Example
 === "C"
 
 	```c

@@ -4,7 +4,6 @@
 Processes the animation applied to an animator.
 
 ## Parameters
-
 - `animator`
 The animator used to handle animation of the frames.
 
@@ -21,10 +20,10 @@ None.
 === "C++"
 
 	```cpp
-	animator.Process();
+	Animator.Process();
 	```
 
-## Examples
+## Example
 === "C"
 
 	```c

@@ -1,31 +1,23 @@
 # EditSpriteAnimation
 
 ## Description
-Loads a Sprite Animation and returns the id of it.
+Replaces the properties of an animation with the given parameters.
 
 ## Parameters
-
 - `aniFrames`
-The sprite animation to be edited.
-
+The SpriteAnimation to be edited.
 - `listID`
 The index of the animation entry to be edited.
-
 - `name`
 The animation's name.
-
 - `frameOffset`
 The frame list offset to start this animation's frames from.
-
 - `frameCount`
 The number of frames in the animation.
-
 - `speed`
 The speed of the animation.
-
 - `loopIndex`
 The index of the frame the animation should loop from.
-
 - `rotationStyle`
 The style of rotation snapping to use for frames in this animation.
 
@@ -45,7 +37,7 @@ None.
 	SpriteAnimation.Edit(uint16 listID, const char *name, int32 frameOffset, uint16 frameCount, int16 speed, uint8 loopIndex, uint8 rotationStyle);
 	```
 
-## Examples
+## Example
 === "C"
 
 	```c

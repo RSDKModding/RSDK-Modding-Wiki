@@ -1,5 +1,8 @@
 # FileExists
 
+!!! note
+    This native function only exists in the RSDKv4 decompilation's mod loader. You can check if the function is usable by using the `USE_MOD_LOADER` platform flag.
+
 ## Description
 Checks if a file exists in the Data assets.
 

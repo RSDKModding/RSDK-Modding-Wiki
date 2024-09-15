@@ -4,21 +4,16 @@
 Applies a set of frames to an animator.
 
 ## Parameters
-
 - `aniFrames`
-The sprite animation to use frames from. id 0-1023 is valid, any other values will clear the existing sprite frames.
-
+The SpriteAnimation to use frames from. IDs 0-1023 are valid; any other values will clear the existing SpriteFrames.
 - `listID`
-The index of the animation in the animation list to use frames from. negative indices or indices above the count are considered invalid and will result in the frames not being set.
-
+The index of the animation in the animation list to use frames from. Negative indices or indices above the count are considered invalid and will result in the frames not being set.
 - `animator`
-The animator to apply the frames to. in C++ this function is a instance method of the animator instead. See examples for further info.
-
+The animator to apply the frames to. In C++, this function is a instance method of the animator instead. See the [example](#c_3) for further info.
 - `forceApply`
 Whether or not to forcefully set the animation.
-If true then the frames will be set unless the parameters are invalid.
-If false then the frames will ONLY be set if they don't match the existing frames (same aniFrames, same listID, frameID is ignored) this allows multiple calls to not restart an animation if already playing.
-
+If true, the frames will be set unless the parameters are invalid.
+If false, the frames will ONLY be set if they don't match the existing frames (same aniFrames, same listID, frameID is ignored). This allows multiple calls to not restart an animation if it's already playing.
 - `frameID`
 The index of the frame to set to.
 
@@ -38,7 +33,7 @@ None.
 	animator.SetAnimation(SpriteAnimation aniFrames, uint16 listID, bool32 forceApply, int32 frameID);
 	```
 
-## Examples
+## Example
 === "C"
 
 	```c

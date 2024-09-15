@@ -1,21 +1,18 @@
 # GetFrame
 
 ## Description
-Retrieves a specific sprite frame from a sprite animation.
+Retrieves a specific SpriteFrame from a SpriteAnimation.
 
 ## Parameters
-
 - `aniFrames`
-The sprite animation to use frames from.
-
+The SpriteAnimation to use frames from.
 - `listID`
-The index of the animation in the animation list to use frames from. In C++ this value is retrieved from `animator.animationID`.
-
+The index of the animation in the animation list to use frames from. In C++, this value is retrieved from `animator.animationID`.
 - `frameID`
-The index of the frame to get. In C++ this value is retrieved from `animator.frameID`.
+The index of the frame to get. In C++, this value is retrieved from `animator.frameID`.
 
 ## Return Value
-This function returns an pointer to the retrieved sprite frame. The return value will be `NULL` if an error occured.
+Returns a pointer to the retrieved SpriteFrame. The return value will be `NULL` if an error occured.
 
 ## Syntax
 === "C"
@@ -30,7 +27,7 @@ This function returns an pointer to the retrieved sprite frame. The return value
 	animator.GetFrame(SpriteAnimation aniFrames);
 	```
 
-## Examples
+## Example
 === "C"
 
 	```c
