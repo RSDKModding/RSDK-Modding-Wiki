@@ -9,6 +9,10 @@
     --circle-border-color: rgba(240, 200, 170, 20%);
     --square-border-color: rgba(224, 0, 0, 20%);
     --md-typeset-a-color: #5488E8;
+    --controller-a-color: #00C800;
+    --controller-b-color: #F0B000;
+    --controller-c-color: #0020B0;
+    --controller-start-color: #E00000;
 }
 
 /* Dark theme */
@@ -20,4 +24,33 @@
     --content-bg-color: hsla(210, 35%, 22%, 0.8);
     --circle-border-color: rgba(15, 55, 95, 20%);
     --square-border-color: rgba(120, 0, 0, 20%);
+    --controller-a-color: #70C040;
+    --controller-b-color: #F0D800;
+    --controller-c-color: #1870B8;
+    --controller-start-color: var(--md-typeset-color);
+}
+
+/* Controller button icons */
+.controller-a {
+  color: var(--controller-a-color);
+}
+.controller-b {
+  color: var(--controller-b-color);
+}
+.controller-c {
+  color: var(--controller-c-color);
+}
+.controller-start {
+  color: var(--controller-start-color);
+}
+
+/* RSDK versions */
+.rsdkv3 {
+  color: #CF3E49;
+}
+.rsdkv4 {
+  color: #0376BC;
+}
+.rsdkv5 {
+  color: #E0C251;
 }
