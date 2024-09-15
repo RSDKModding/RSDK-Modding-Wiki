@@ -10390,18 +10390,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#remarks" class="md-nav__link">
-    <span class="md-ellipsis">
-      Remarks
+      Example
     </span>
   </a>
   
@@ -13207,18 +13198,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#remarks" class="md-nav__link">
-    <span class="md-ellipsis">
-      Remarks
+      Example
     </span>
   </a>
   
@@ -13247,14 +13229,10 @@
 <p>Adds an enum variable to the current active variable.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
-<li>
-<p><code>varName</code>
-The name of the enum var to add to the active variable. The value of the enum var will be the the amount of enum vars added minus 1, so the first enum var will have a value of 0, the second enum var will have a value of 1, etc.</p>
-</li>
-<li>
-<p><code>varValue</code>
-<strong>(UNUSED)</strong> in the C API this is to visibly show what enum var correlates to what enum value in the code. This parameter never does anything in the code due to the way the system works in RSDKv5.</p>
-</li>
+<li><code>varName</code>
+The name of the enum var to add to the active variable. The value of the enum var will be the the amount of enum vars added minus 1, so the first enum var will have a value of <code>0</code>, the second enum var will have a value of <code>1</code>, etc.</li>
+<li><code>varValue</code>
+<strong>Unused.</strong> The purpose of this parameter is to visibly show what enum var correlates to what enum value in the code; it never does anything in the code due to the way the system works in RSDKv5.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
 <p>None.</p>
@@ -13271,7 +13249,7 @@ The name of the enum var to add to the active variable. The value of the enum va
 </div>
 </div>
 </div>
-<h2 id="examples">Examples</h2>
+<h2 id="example">Example</h2>
 <div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="c_2" name="__tabbed_2" type="radio" /><input id="c_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="c_2">C</label><label for="c_3">C++</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -13284,8 +13262,14 @@ The name of the enum var to add to the active variable. The value of the enum va
 </div>
 </div>
 </div>
-<h2 id="remarks">Remarks</h2>
-<p>This is a macro, which is designed to make programming in RSDK easier. The underlying function is <code>void (*AddVarEnumValue)(const char *name)</code>, with <code>name</code> being the enum var's name as a string. The underlying function should NEVER be called as it's less safe than the macro, this remark is here for anyone wishing to learn about the internals or hoping to develop a wrapper for another language that doesn't support macros.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This is a macro, which is designed to make programming in RSDK easier. The underlying function is:
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>void (*AddVarEnumValue)(const char *name)
+</span></code></pre></div>
+<code>name</code> is the enum var's name as a string.
+The underlying function should NEVER be called as it's less safe than the macro. This note is here for anyone wishing to learn about the internals or hoping to develop a wrapper for another language that doesn't support macros.</p>
+</div>
 
 
 

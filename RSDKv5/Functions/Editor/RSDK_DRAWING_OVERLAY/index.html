@@ -10432,18 +10432,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#remarks" class="md-nav__link">
-    <span class="md-ellipsis">
-      Remarks
+      Example
     </span>
   </a>
   
@@ -13207,18 +13198,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#remarks" class="md-nav__link">
-    <span class="md-ellipsis">
-      Remarks
+      Example
     </span>
   </a>
   
@@ -13253,41 +13235,23 @@ Determines if the following code should be considered an "overlay", used for giz
 <h2 id="return-value">Return Value</h2>
 <p>None.</p>
 <h2 id="syntax">Syntax</h2>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="c" name="__tabbed_1" type="radio" /><input id="c_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="c">C</label><label for="c_1">C++</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
 <div class="language-c highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">RSDK_DRAWING_OVERLAY</span><span class="p">(</span><span class="n">bool32</span><span class="w"> </span><span class="n">isDrawingOverlay</span><span class="p">);</span>
 </span></code></pre></div>
-</div>
-<div class="tabbed-block">
-<div class="language-cpp highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">RSDK_DRAWING_OVERLAY</span><span class="p">(</span><span class="n">bool32</span><span class="w"> </span><span class="n">isDrawingOverlay</span><span class="p">);</span>
+<h2 id="example">Example</h2>
+<div class="language-c highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">RSDK_DRAWING_OVERLAY</span><span class="p">(</span><span class="nb">true</span><span class="p">);</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="c1">// draw sprites and stuff</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="n">RSDK_DRAWING_OVERLAY</span><span class="p">(</span><span class="nb">false</span><span class="p">);</span>
 </span></code></pre></div>
-</div>
-</div>
-</div>
-<h2 id="examples">Examples</h2>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="c_2" name="__tabbed_2" type="radio" /><input id="c_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="c_2">C</label><label for="c_3">C++</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<div class="language-c highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">RSDK_DRAWING_OVERLAY</span><span class="p">(</span><span class="nb">true</span><span class="p">);</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="c1">// draw sprites and stuff</span>
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>
-</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="n">RSDK_DRAWING_OVERLAY</span><span class="p">(</span><span class="nb">false</span><span class="p">);</span>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This is a macro, which is designed to make programming in RSDK easier. The underlying logic is:
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>SceneInfo-&gt;debugMode = isDrawingOverlay
 </span></code></pre></div>
+<code>SceneInfo-&gt;debugMode</code> is the flag that determines if drawing is in "overlay mode" or not.
+The underlying logc should NEVER be used as it's less safe than the macro. This note is here for anyone wishing to learn about the internals or hoping to develop a wrapper for another language that doesn't support macros.</p>
 </div>
-<div class="tabbed-block">
-<div class="language-cpp highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">RSDK_DRAWING_OVERLAY</span><span class="p">(</span><span class="nb">true</span><span class="p">);</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="c1">// draw sprites and stuff</span>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="n">RSDK_DRAWING_OVERLAY</span><span class="p">(</span><span class="nb">false</span><span class="p">);</span>
-</span></code></pre></div>
-</div>
-</div>
-</div>
-<h2 id="remarks">Remarks</h2>
-<p>This is a macro, which is designed to make programming in RSDK easier. The underlying logic is <code>SceneInfo-&gt;debugMode = isDrawingOverlay</code>, <code>SceneInfo-&gt;debugMode</code> being the flag that determines if drawing is in "overlay mode" or not. The underlying logc should NEVER be used as it's less safe than the macro, this remark is here for anyone wishing to learn about the internals or hoping to develop a wrapper for another language that doesn't support macros.</p>
 
 
 

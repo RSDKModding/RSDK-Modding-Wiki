@@ -10369,18 +10369,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#remarks" class="md-nav__link">
-    <span class="md-ellipsis">
-      Remarks
+      Example
     </span>
   </a>
   
@@ -13207,18 +13198,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#remarks" class="md-nav__link">
-    <span class="md-ellipsis">
-      Remarks
+      Example
     </span>
   </a>
   
@@ -13244,48 +13226,40 @@
 
 <h1 id="rsdk_active_var">RSDK_ACTIVE_VAR</h1>
 <h2 id="description">Description</h2>
-<p>Sets a variable to be the "active variable" when using <a href="../RSDK_ENUM_VAR/">RSDK_ENUM_VAR</a></p>
+<p>Sets a variable to be the "active variable" when using <a href="../RSDK_ENUM_VAR/">RSDK_ENUM_VAR</a>.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
-<li>
-<p><code>sVars</code>
-The static vars of the object class the variable is in.</p>
-</li>
-<li>
-<p><code>variable</code>
-The name of the variable to set as active.</p>
-</li>
+<li><code>sVars</code>
+The static vars of the object class the variable is in.</li>
+<li><code>variable</code>
+The name of the variable to set as active.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
 <p>None.</p>
 <h2 id="syntax">Syntax</h2>
+<div class="language-c highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">RSDK_ACTIVE_VAR</span><span class="p">(</span><span class="n">sVars</span><span class="p">,</span><span class="w"> </span><span class="n">variable</span><span class="p">);</span>
+</span></code></pre></div>
+<h2 id="example">Example</h2>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="c" name="__tabbed_1" type="radio" /><input id="c_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="c">C</label><label for="c_1">C++</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="language-c highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">RSDK_ACTIVE_VAR</span><span class="p">(</span><span class="n">sVars</span><span class="p">,</span><span class="w"> </span><span class="n">variable</span><span class="p">);</span>
+<div class="language-c highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">RSDK_ACTIVE_VAR</span><span class="p">(</span><span class="n">Player</span><span class="p">,</span><span class="w"> </span><span class="n">characterID</span><span class="p">);</span>
 </span></code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="language-cpp highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">RSDK_ACTIVE_VAR</span><span class="p">(</span><span class="n">sVars</span><span class="p">,</span><span class="w"> </span><span class="n">variable</span><span class="p">);</span>
+<div class="language-cpp highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">RSDK_ACTIVE_VAR</span><span class="p">(</span><span class="n">sVars</span><span class="p">,</span><span class="w"> </span><span class="n">characterID</span><span class="p">);</span>
 </span></code></pre></div>
 </div>
 </div>
 </div>
-<h2 id="examples">Examples</h2>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="c_2" name="__tabbed_2" type="radio" /><input id="c_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="c_2">C</label><label for="c_3">C++</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<div class="language-c highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">RSDK_ACTIVE_VAR</span><span class="p">(</span><span class="n">Player</span><span class="p">,</span><span class="w"> </span><span class="n">characterID</span><span class="p">);</span>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This is a macro, which is designed to make programming in RSDK easier. The underlying function is:
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>void (*SetActiveVariable)(int32 classID, const char *name)
 </span></code></pre></div>
+<code>classID</code> is the object's classID, and <code>name</code> is the variable's name as a string.
+The underlying function should NEVER be called as it's less safe than the macro. This note is here for anyone wishing to learn about the internals or hoping to develop a wrapper for another language that doesn't support macros.</p>
 </div>
-<div class="tabbed-block">
-<div class="language-cpp highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">RSDK_ACTIVE_VAR</span><span class="p">(</span><span class="n">sVars</span><span class="p">,</span><span class="w"> </span><span class="n">characterID</span><span class="p">);</span>
-</span></code></pre></div>
-</div>
-</div>
-</div>
-<h2 id="remarks">Remarks</h2>
-<p>This is a macro, which is designed to make programming in RSDK easier. The underlying function is <code>void (*SetActiveVariable)(int32 classID, const char *name)</code>, with <code>classID</code> being the object's classID and <code>name</code> being the variable's name as a string. The underlying function should NEVER be called as it's less safe than the macro, this remark is here for anyone wishing to learn about the internals or hoping to develop a wrapper for another language that doesn't support macros.</p>
 
 
 

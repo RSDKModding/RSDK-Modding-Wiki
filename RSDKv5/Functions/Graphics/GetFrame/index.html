@@ -10037,9 +10037,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -13198,9 +13198,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -13226,24 +13226,18 @@
 
 <h1 id="getframe">GetFrame</h1>
 <h2 id="description">Description</h2>
-<p>Retrieves a specific sprite frame from a sprite animation.</p>
+<p>Retrieves a specific SpriteFrame from a SpriteAnimation.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
-<li>
-<p><code>aniFrames</code>
-The sprite animation to use frames from.</p>
-</li>
-<li>
-<p><code>listID</code>
-The index of the animation in the animation list to use frames from. In C++ this value is retrieved from <code>animator.animationID</code>.</p>
-</li>
-<li>
-<p><code>frameID</code>
-The index of the frame to get. In C++ this value is retrieved from <code>animator.frameID</code>.</p>
-</li>
+<li><code>aniFrames</code>
+The SpriteAnimation to use frames from.</li>
+<li><code>listID</code>
+The index of the animation in the animation list to use frames from. In C++, this value is retrieved from <code>animator.animationID</code>.</li>
+<li><code>frameID</code>
+The index of the frame to get. In C++, this value is retrieved from <code>animator.frameID</code>.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
-<p>This function returns an pointer to the retrieved sprite frame. The return value will be <code>NULL</code> if an error occured.</p>
+<p>Returns a pointer to the retrieved SpriteFrame. The return value will be <code>NULL</code> if an error occured.</p>
 <h2 id="syntax">Syntax</h2>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="c" name="__tabbed_1" type="radio" /><input id="c_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="c">C</label><label for="c_1">C++</label></div>
 <div class="tabbed-content">
@@ -13257,7 +13251,7 @@ The index of the frame to get. In C++ this value is retrieved from <code>animato
 </div>
 </div>
 </div>
-<h2 id="examples">Examples</h2>
+<h2 id="example">Example</h2>
 <div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="c_2" name="__tabbed_2" type="radio" /><input id="c_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="c_2">C</label><label for="c_3">C++</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">

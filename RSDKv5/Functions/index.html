@@ -13077,7 +13077,7 @@
         <li class="md-nav__item">
   <a href="#spritesheets" class="md-nav__link">
     <span class="md-ellipsis">
-      Spritesheets
+      SpriteSheets
     </span>
   </a>
   
@@ -13138,40 +13138,137 @@
 
 
 <h1 id="rsdkv5-functions">RSDKv5 Functions</h1>
-<h2 id="spritesheets">Spritesheets</h2>
-<ul>
-<li><a href="SpriteSheets/LoadSpriteSheet/"><strong>LoadSpriteSheet</strong></a></li>
-</ul>
+<h2 id="spritesheets">SpriteSheets</h2>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="SpriteSheets/LoadSpriteSheet/"><strong>LoadSpriteSheet</strong></a></td>
+<td>Loads a spritesheet and returns the id of it.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="graphics">Graphics</h2>
-<ul>
-<li><a href="Graphics/LoadSpriteAnimation/"><strong>LoadSpriteAnimation</strong></a></li>
-<li><a href="Graphics/CreateSpriteAnimation/"><strong>CreateSpriteAnimation</strong></a></li>
-<li><a href="Graphics/SetSpriteAnimation/"><strong>SetSpriteAnimation</strong></a></li>
-<li><a href="Graphics/EditSpriteAnimation/"><strong>EditSpriteAnimation</strong></a></li>
-<li><a href="Graphics/SetSpriteString/"><strong>SetSpriteString</strong></a></li>
-<li><a href="Graphics/FindSpriteAnimation/"><strong>FindSpriteAnimation</strong></a></li>
-<li><a href="Graphics/GetFrame/"><strong>GetFrame</strong></a></li>
-<li><a href="Graphics/GetHitbox/"><strong>GetHitbox</strong></a></li>
-<li><a href="Graphics/GetFrameID/"><strong>GetFrameID</strong></a></li>
-<li><a href="Graphics/GetStringWidth/"><strong>GetStringWidth</strong></a></li>
-<li><a href="Graphics/ProcessAnimation/"><strong>ProcessAnimation</strong></a></li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Graphics/LoadSpriteAnimation/"><strong>LoadSpriteAnimation</strong></a></td>
+<td>Loads a SpriteAnimation and returns the ID of it.</td>
+</tr>
+<tr>
+<td><a href="Graphics/CreateSpriteAnimation/"><strong>CreateSpriteAnimation</strong></a></td>
+<td>Creates a SpriteAnimation based on the given parameters and returns the ID of it.</td>
+</tr>
+<tr>
+<td><a href="Graphics/SetSpriteAnimation/"><strong>SetSpriteAnimation</strong></a></td>
+<td>Applies a set of frames to an animator.</td>
+</tr>
+<tr>
+<td><a href="Graphics/EditSpriteAnimation/"><strong>EditSpriteAnimation</strong></a></td>
+<td>Replaces the properties of an animation with the given parameters.</td>
+</tr>
+<tr>
+<td><a href="Graphics/SetSpriteString/"><strong>SetSpriteString</strong></a></td>
+<td>Converts a string into a sprite string.</td>
+</tr>
+<tr>
+<td><a href="Graphics/FindSpriteAnimation/"><strong>FindSpriteAnimation</strong></a></td>
+<td>Attempts to find an animation entry by name.</td>
+</tr>
+<tr>
+<td><a href="Graphics/GetFrame/"><strong>GetFrame</strong></a></td>
+<td>Retrieves a specific SpriteFrame from a SpriteAnimation.</td>
+</tr>
+<tr>
+<td><a href="Graphics/GetHitbox/"><strong>GetHitbox</strong></a></td>
+<td>Gets a Hitbox from the animator's current frame.</td>
+</tr>
+<tr>
+<td><a href="Graphics/GetFrameID/"><strong>GetFrameID</strong></a></td>
+<td>Gets the <code>unicode char</code> value of the animator's current frame.</td>
+</tr>
+<tr>
+<td><a href="Graphics/GetStringWidth/"><strong>GetStringWidth</strong></a></td>
+<td>Retrieves the width of a string in pixels when displayed with <a href="TODO">DrawText</a>.</td>
+</tr>
+<tr>
+<td><a href="Graphics/ProcessAnimation/"><strong>ProcessAnimation</strong></a></td>
+<td>Processes the animation applied to an animator.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="debugging">Debugging</h2>
-<ul>
-<li><a href="Debugging/ClearViewableVariables/"><strong>ClearViewableVariables</strong></a></li>
-<li><a href="Debugging/AddViewableVariable/"><strong>AddViewableVariable</strong></a></li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Debugging/ClearViewableVariables/"><strong>ClearViewableVariables</strong></a></td>
+<td>Clears all loaded viewable variables.</td>
+</tr>
+<tr>
+<td><a href="Debugging/AddViewableVariable/"><strong>AddViewableVariable</strong></a></td>
+<td>Adds a viewable variable to the <a href="TODO">Dev Menu</a>.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="miscellaneous">Miscellaneous</h2>
-<ul>
-<li><a href="Misc/NotifyCallback/"><strong>NotifyCallback</strong></a></li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Misc/NotifyCallback/"><strong>NotifyCallback</strong></a></td>
+<td>Sends the given callback to communicate to <a href="../../Games/SonicOrigins/HedgehogEngine2/">Hedgehog Engine 2</a>.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="editor">Editor</h2>
-<ul>
-<li><a href="Editor/RSDK_ACTIVE_VAR/"><strong>RSDK_ACTIVE_VAR</strong></a></li>
-<li><a href="Editor/RSDK_ENUM_VAR/"><strong>RSDK_ENUM_VAR</strong></a></li>
-<li><a href="Editor/showGizmos/"><strong>showGizmos</strong></a></li>
-<li><a href="Editor/RSDK_DRAWING_OVERLAY/"><strong>RSDK_DRAWING_OVERLAY</strong></a></li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Editor/RSDK_ACTIVE_VAR/"><strong>RSDK_ACTIVE_VAR</strong></a></td>
+<td>Sets a variable to be the "active variable" when using <a href="Editor/RSDK_ENUM_VAR/">RSDK_ENUM_VAR</a>.</td>
+</tr>
+<tr>
+<td><a href="Editor/RSDK_ENUM_VAR/"><strong>RSDK_ENUM_VAR</strong></a></td>
+<td>Adds an enum variable to the current active variable.</td>
+</tr>
+<tr>
+<td><a href="Editor/showGizmos/"><strong>showGizmos</strong></a></td>
+<td>Checks if gizmos should be visible for this object.</td>
+</tr>
+<tr>
+<td><a href="Editor/RSDK_DRAWING_OVERLAY/"><strong>RSDK_DRAWING_OVERLAY</strong></a></td>
+<td>Enables/disables "overlay" mode when drawing.</td>
+</tr>
+</tbody>
+</table>
 
 
 

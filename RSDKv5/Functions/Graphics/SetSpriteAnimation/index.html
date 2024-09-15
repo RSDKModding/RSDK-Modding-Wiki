@@ -9953,9 +9953,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -13198,9 +13198,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
+      Example
     </span>
   </a>
   
@@ -13229,28 +13229,18 @@
 <p>Applies a set of frames to an animator.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
-<li>
-<p><code>aniFrames</code>
-The sprite animation to use frames from. id 0-1023 is valid, any other values will clear the existing sprite frames.</p>
-</li>
-<li>
-<p><code>listID</code>
-The index of the animation in the animation list to use frames from. negative indices or indices above the count are considered invalid and will result in the frames not being set.</p>
-</li>
-<li>
-<p><code>animator</code>
-The animator to apply the frames to. in C++ this function is a instance method of the animator instead. See examples for further info.</p>
-</li>
-<li>
-<p><code>forceApply</code>
+<li><code>aniFrames</code>
+The SpriteAnimation to use frames from. IDs 0-1023 are valid; any other values will clear the existing SpriteFrames.</li>
+<li><code>listID</code>
+The index of the animation in the animation list to use frames from. Negative indices or indices above the count are considered invalid and will result in the frames not being set.</li>
+<li><code>animator</code>
+The animator to apply the frames to. In C++, this function is a instance method of the animator instead. See the <a href="#c_3">example</a> for further info.</li>
+<li><code>forceApply</code>
 Whether or not to forcefully set the animation.
-If true then the frames will be set unless the parameters are invalid.
-If false then the frames will ONLY be set if they don't match the existing frames (same aniFrames, same listID, frameID is ignored) this allows multiple calls to not restart an animation if already playing.</p>
-</li>
-<li>
-<p><code>frameID</code>
-The index of the frame to set to.</p>
-</li>
+If true, the frames will be set unless the parameters are invalid.
+If false, the frames will ONLY be set if they don't match the existing frames (same aniFrames, same listID, frameID is ignored). This allows multiple calls to not restart an animation if it's already playing.</li>
+<li><code>frameID</code>
+The index of the frame to set to.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
 <p>None.</p>
@@ -13267,7 +13257,7 @@ The index of the frame to set to.</p>
 </div>
 </div>
 </div>
-<h2 id="examples">Examples</h2>
+<h2 id="example">Example</h2>
 <div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="c_2" name="__tabbed_2" type="radio" /><input id="c_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="c_2">C</label><label for="c_3">C++</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
