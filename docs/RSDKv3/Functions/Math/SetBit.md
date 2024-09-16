@@ -7,12 +7,12 @@ Sets index `BitPos` of `Value` to `Bit` and updates `Value` accordingly.
 - `Value`
 The variable to update.
 - `BitPos`
-The position of the bit to set, indices 0-7 are valid.
+The position of the bit to set. Indices 0-7 are valid.
 - `Bit`
 Updated boolean value.
 
 ## Return Value
-None.
+Updates `Value` with the applied bit.
 
 ## Syntax
 ```

@@ -1,22 +1,22 @@
 # Interpolate
 
 ## Description
-Linearly interpolates two points at once, `aX` with `aY`, and `bX` with `bY`. By `Percent` and stores the result in `StoreX` and `StoreY`, respectively.
+Linearly interpolates two points at once, `AX` with `AY`, and `BX` with `BY`, by `Percent`, and stores the result in `StoreX` and `StoreY` respectively.
 
 ## Parameters
 - `StoreX`, `StoreY`
 The variables to store the results.
-- `aX`, `aY`, `bX`, `bY`
+- `AX`, `AY`, `BX`, `BY`
 The values used for the interpolations.
 - `Percent`
-Percentage of interpolation, can go from 0 to 256.
+Percentage of interpolation, with a range of 0 to 256.
 
 ## Return Value
-None.
+Sets `StoreX` and `StoreY` to the results.
 
 ## Syntax
 ```
-InterpolateXY(var StoreX, var StoreY, int aX, int aY, int bX, int bY, int Percent)
+InterpolateXY(var StoreX, var StoreY, int AX, int AY, int BX, int BY, int Percent)
 ```
 
 ## Example

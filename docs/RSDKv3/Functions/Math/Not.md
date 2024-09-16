@@ -1,14 +1,14 @@
 # Not
 
 ## Description
-Performs a NOT operation on `Value` and updates it (`Value` = `~Value`)
+Performs a NOT operation on `Value`.
 
 ## Parameters
 - `Value`
 The variable to negate.
 
 ## Return Value
-None.
+Updates `Value` with the result.
 
 ## Syntax
 ```

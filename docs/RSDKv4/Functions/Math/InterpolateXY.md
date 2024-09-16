@@ -9,7 +9,7 @@ The variables to store the results.
 - `aX`, `aY`, `bX`, `bY`
 The values used for the interpolations.
 - `percent`
-Percentage of interpolation, can go from 0 to 256.
+Percentage of interpolation, with a range of 0 to 256.
 
 ## Return Value
 Sets `storeX` and `storeY` to the results.

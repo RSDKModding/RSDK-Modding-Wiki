@@ -25,5 +25,5 @@ LoadPalette(string Path, int PalBank, int StartPalIndex, int StartIndex, int End
 
 ## Example
 ```
-LoadPalette("Masterpalette.act", 2, 16, 24, 32)
+LoadPalette("MasterPalette.act", 2, 16, 24, 32)
 ```

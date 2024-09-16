@@ -8,7 +8,7 @@ Blends palettes `srcBankA` and `srcBankB`, from indexes `startIndex` to `endInde
 
 ## Parameters
 - `dstBank`
-The ID of the palette for store, indices 0-7 are valid.
+The ID of the palette for store. Indices 0-7 are valid.
 - `srcBankA`
 The first palette to blend.
 - `srcBankB`
