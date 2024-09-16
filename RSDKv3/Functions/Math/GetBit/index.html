@@ -13249,20 +13249,20 @@
 
 <h1 id="getbit">GetBit</h1>
 <h2 id="description">Description</h2>
-<p>Gets bit at index <code>BitPos</code> from <code>Value</code> and stores it in <code>Store</code>.</p>
+<p>Gets the binary bit at index <code>BitPos</code> from <code>Value</code> and stores it in <code>Store</code>.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
 <li><code>Store</code>
 The variable to store the bit.</li>
 <li><code>Value</code>
-The variable from where to search the required Bit.</li>
+The value from where to search the required Bit.</li>
 <li><code>BitPos</code>
-The position of the bit to get, indices 0-7 are valid.</li>
+The position of the bit to get. Indices 0-7 are valid.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
-<p>None.</p>
+<p>Sets <code>Store</code> to the result.</p>
 <h2 id="syntax">Syntax</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>GetBit(var Store, var Value, int BitPos)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>GetBit(var Store, int Value, int BitPos)
 </span></code></pre></div>
 <h2 id="example">Example</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>GetBit(ArrayPos0, TempValue3, 6)

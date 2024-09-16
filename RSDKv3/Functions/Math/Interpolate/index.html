@@ -13249,20 +13249,20 @@
 
 <h1 id="interpolate">Interpolate</h1>
 <h2 id="description">Description</h2>
-<p>Linearly interpolates (LERPs) <code>x</code> and <code>y</code> by <code>Percent</code> and stores the result in <code>Store</code>.</p>
+<p>Linearly interpolates (LERPs) <code>X</code> and <code>Y</code> by <code>Percent</code> and stores the result in <code>Store</code>.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
 <li><code>Store</code>
 The variable to store the result.</li>
-<li><code>x</code>,<code>y</code>
+<li><code>X</code>,<code>Y</code>
 The values used for the interpolation.</li>
 <li><code>Percent</code>
-Percentage of interpolation, can go from 0 to 256.</li>
+Percentage of interpolation, with a range of 0 to 256.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
-<p>None.</p>
+<p>Sets <code>Store</code> to the result.</p>
 <h2 id="syntax">Syntax</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Interpolate(var Store, int x, int y, int Percent)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Interpolate(var Store, int X, int Y, int Percent)
 </span></code></pre></div>
 <h2 id="example">Example</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Interpolate(Object.Value2, 26, 29, 128)

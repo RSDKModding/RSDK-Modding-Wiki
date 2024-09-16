@@ -13249,7 +13249,11 @@
 
 <h1 id="rand">Rand</h1>
 <h2 id="description">Description</h2>
-<p>Gets a random value from 0 to <code>Max</code>(not included) and stores it in <code>Store</code>.</p>
+<p>Gets a random value from 0 to <code>Max</code> (not inclusive) and stores it in <code>Store</code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><code>Max</code> is <em>exclusive</em>, meaning the number it's set to will never be chosen, e.g. a <code>Max</code> value of 4 will result in only numbers 0-3 being picked.</p>
+</div>
 <h2 id="parameters">Parameters</h2>
 <ul>
 <li><code>Store</code>
@@ -13258,7 +13262,7 @@ Variable from where to store the result.</li>
 Exclusive maximum for the random value to get.</li>
 </ul>
 <h2 id="return-value">Return Value</h2>
-<p>None.</p>
+<p>Sets <code>Store</code> to the result.</p>
 <h2 id="syntax">Syntax</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Rand(var Store, int Max)
 </span></code></pre></div>
