@@ -5,7 +5,7 @@ Draws `Frame` at the object's X and Y position.
 
 ## Parameters
 - `Frame`
-The ID of the sprite to draw.
+The ID of the SpriteFrame to draw.
 
 ## Return Value
 None.
@@ -15,7 +15,7 @@ None.
 DrawSprite(int Frame)
 ```
 
-## Examples
+## Example
 ```
 DrawSprite(0)
 ```

@@ -19,7 +19,7 @@ None.
 SetBit(var Value, int BitPos, bool Bit)
 ```
 
-## Examples
+## Example
 ```
 SetBit(Object.Value7, 3, 1)
 ```

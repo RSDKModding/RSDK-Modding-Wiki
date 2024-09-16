@@ -1,11 +1,11 @@
 # DrawText
 
 ## Description
-Draws the contents of `RowCount` rows, starting from `RowStart` in `Menu` at `XPos` and `YPos` relative to the screen. Using `Spacing` pixels between them and scalling it with `Scale`.
+Draws the contents of `menu`.
 
 ## Parameters
 - `Menu`
-The menu from where to read the text, MENU_1 or MENU_2 are valid.
+The menu from where to read the text. `MENU_1` or `MENU_2` are valid.
 - `XPos`
 Position of the text on the horizontal axis.
 - `YPos`
@@ -19,7 +19,6 @@ The starting index from where to read.
 - `RowCount`
 The amount of rows to draw.
 
-
 ## Return Value
 None.
 
@@ -28,7 +27,7 @@ None.
 DrawText(int Menu, int XPos, int YPos, int Scale, int Spacing, int RowStart, int RowCount)
 ```
 
-## Examples
+## Example
 ```
 DrawText(MENU_1, TempValue0, TempValue1, 192, 0, 0, 1)
 ```

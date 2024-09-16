@@ -12,10 +12,10 @@ None.
 
 ## Syntax
 ```
-LoadTextFont("string FilePath")
+LoadTextFont(string FilePath)
 ```
 
-## Examples
+## Example
 ```
 LoadTextFont("Data/Game/SystemText.gif")
 ```

@@ -5,12 +5,11 @@ Draws `Menu` at `XPos` and `YPos` relative to the screen.
 
 ## Parameters
 - `Menu`
-The menu to draw, MENU_1 or MENU_2 are valid.
+The menu to draw. `MENU_1` or `MENU_2` are valid.
 - `XPos`
 Position of the menu on the horizontal axis.
 - `YPos`
 Position of the menu on the vertical axis.
-
 
 ## Return Value
 None.
@@ -20,7 +19,7 @@ None.
 DrawMenu(int Menu, int XPos, int YPos)
 ```
 
-## Examples
+## Example
 ```
 DrawMenu(MENU_1, Screen.CenterX, Screen.CenterY)
 ```

@@ -4,14 +4,14 @@
     This function was removed from RSDKv4 in REV02.
 
 ## Description
-Draws the contents of `rowCount` rows, starting from `rowStart` in `menu` at `xPos` and `yPos` relative to the screen, using `spacing` pixels between them and scaling it with `scale`.
+Draws the contents of `menu`.
 
 ## Parameters
 - `menu`
-The menu from where to read the text, MENU_1 or MENU_2 are valid.
-- `xPos`
+The menu from where to read the text. `MENU_1` or `MENU_2` are valid.
+- `xpos`
 Position of the text on the horizontal axis.
-- `yPos`
+- `ypos`
 Position of the text on the vertical axis.
 - `scale`
 Scale of the text.
@@ -22,13 +22,12 @@ The starting index from where to read.
 - `rowCount`
 The amount of rows to draw.
 
-
 ## Return Value
 None.
 
 ## Syntax
 ```
-DrawText(int menu, int xPos, int yPos, int scale, int spacing, int rowStart, int rowCount)
+DrawText(int menu, int xpos, int ypos, int scale, int spacing, int rowStart, int rowCount)
 ```
 
 ## Example

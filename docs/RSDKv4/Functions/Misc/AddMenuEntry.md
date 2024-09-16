@@ -5,7 +5,7 @@ Adds an entry to `menu` with the contents of `text`. The text will display highl
 
 ## Parameters
 - `menu`
-The menu to setup. MENU_1 or MENU_2 are valid.
+The menu to add the entry to. `MENU_1` or `MENU_2` are valid.
 - `text`
 New text to add in the menu.
 - `highlightEntry`

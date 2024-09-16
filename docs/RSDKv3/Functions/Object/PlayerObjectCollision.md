@@ -1,28 +1,28 @@
 # PlayerObjectCollision
 
 ## Description
-Checks for collision of the player with an object, using the `HitBox` values passed.
+Checks for collision of an object with the player, using the hitbox values passed.
 
 
 ## Parameters
 - `CollisionType`
-Type of collision with the object, can be C_TOUCH, C_BOX, C_BOX2 or C_PLATFORM.
-- `LeftHitbox` / `TopHitbox` / `RightHitbox` / `BottomHitbox`
-The values of the object's hitbox.
+Type of collision with the object, can be `C_TOUCH`, `C_BOX`, `C_BOX2` or `C_PLATFORM`. In Origins Plus, `C_BOX3` and `C_ENEMY` are available as well.
+- `Left` / `Top` / `Right` / `Bottom`
+The values for the object's hitbox.
 
 ## Return Value
 If there wasn't any collision, `CheckResult` will be `false`.
-Depending of `CollisionType` used:
-- C_TOUCH : `CheckResult` will return `true` with any type of collision
-- C_BOX/C_BOX2 : `CheckResult` will return values 1(Floor), 2(LWall), 3(RWall) or 4(Roof) depending of which side of the object collided
-- C_PLATFORM: `CheckResult` will only be `true` if the top of the object was collided
+Depending on the `CollisionType` used:
+- `C_TOUCH`/`C_ENEMY`: `CheckResult` will return `true` with any type of collision
+- `C_BOX`/`C_BOX2`/`C_BOX3` : `CheckResult` will return values `1` (Floor), `2` (LWall), `3` (RWall) or `4` (Roof) depending on the side of the object collided with.
+- `C_PLATFORM`: `CheckResult` will only be `true` if the top of the object was collided with.
 
 ## Syntax
 ```
-PlayerObjectCollision(int CollisionType, int LeftHitbox, int TopHitbox, int RightHitbox, int BottomHitbox)
+PlayerObjectCollision(int CollisionType, int Left, int Top, int Right, int Bottom)
 ```
 
-## Examples
+## Example
 ```
 PlayerObjectCollision(C_PLATFORM, -24, -8, 24, 8)
 ```

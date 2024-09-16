@@ -19,7 +19,7 @@ None.
 GetBit(var Store, var Value, int BitPos)
 ```
 
-## Examples
+## Example
 ```
 GetBit(ArrayPos0, TempValue3, 6)
 ```

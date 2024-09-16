@@ -9,17 +9,17 @@ First factor of the multiplication.
 - `matrixB`
 Second factor of the multiplication.
 
-Valid Matrices for both factors are MAT_WORLD, MAT_VIEW and MAT_TEMP.
+Valid matrices for both factors are `MAT_WORLD`, `MAT_VIEW`, and `MAT_TEMP`.
 
 ## Return Value
-The result will be stored in `matrixA`.
+Updates `matrixA` with the result.
 
 ## Syntax
 ```
-MatrixMultiply(mat matrixA, mat matrixB)
+MatrixMultiply(int matrixA, int matrixB)
 ```
 
 ## Example
 ```
-MatrixMultiply(mat matrixA, mat matrixB)
+MatrixMultiply(MAT_WORLD, MAT_TEMP)
 ```

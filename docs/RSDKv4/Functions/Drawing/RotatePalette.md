@@ -18,7 +18,7 @@ None.
 
 ## Syntax
 ```
-RotatePalette(int palBank, int startIndex, int endIndex, int rotRight)
+RotatePalette(int palBank, int startIndex, int endIndex, bool rotRight)
 ```
 
 ## Example

@@ -1,7 +1,7 @@
 # LoadStage
 
 ## Description
-Loads a stage based on `Stage.ListPos` and `Stage.ActiveList`.
+Loads a stage based on `Stage.ActiveList` and `Stage.ListPos`.
 
 ## Parameters
 None.
@@ -9,7 +9,7 @@ None.
 ## Return Value
 None.
 
-## Syntax
+## Example
 ```
 LoadStage()
 ```

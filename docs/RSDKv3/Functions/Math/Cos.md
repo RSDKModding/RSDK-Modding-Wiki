@@ -1,7 +1,7 @@
 # Cos
 
 ## Description
-Gets the value from lookup table `Cos512` based on `Angle` and sets it in `Store`.
+Gets the value from the `cos512` lookup table based on `Angle` and sets it in `Store`.
 
 ## Parameters
 - `Store`
@@ -10,14 +10,14 @@ The variable to store the result.
 The value of angle.
 
 ## Return Value
-None.
+Sets `Store` to the result.
 
 ## Syntax
 ```
 Cos(var Store, int Angle)
 ```
 
-## Examples
+## Example
 ```
 Cos(TempValue0, Object.Value2)
 ```

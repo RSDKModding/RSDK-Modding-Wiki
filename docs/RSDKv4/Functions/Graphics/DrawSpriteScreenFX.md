@@ -1,7 +1,7 @@
 # DrawSpriteScreenFX
 
 ## Description
-Draws `frame` to a specified X and Y position in screen-space with visual effects.
+Draws `frame` at a specified X and Y position in screen-space with visual effects.
 
 ## Parameters
 - `frame`
@@ -44,6 +44,6 @@ DrawSpriteScreenFX(2, FX_FLIP, screen.xcenter, 15)
 | -- | ----------- | ---------------------------------------------------------------------------------------- |
 | 0  | `INK_NONE`  | No effect.                                                                               |
 | 1  | `INK_BLEND` | 50% transparency.                                                                        |
-| 2  | `INK_ALPHA` | Transparency based on `object.alpha`, with a range of 0-255 (255 being no transparency). |
+| 2  | `INK_ALPHA` | Transparency based on `object.alpha`, with a range of 0-255, 255 being no transparency.  |
 | 3  | `INK_ADD`   | Additive blending.                                                                       |
 | 4  | `INK_SUB`   | Subtractive blending.                                                                    |

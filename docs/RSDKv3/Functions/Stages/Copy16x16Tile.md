@@ -1,12 +1,15 @@
 # Copy16x16Tile
 
 ## Description
-Copies the tileset image data of `SourceTile` into `DestTile`.
+Copies the tileset image data of `SrcTile` to `DstTile`.
+
+!!! tip
+    This function is used for animated tiles.
 
 ## Parameters
-- `DestTile`
+- `DstTile`
 The tile that will be overwritten.
-- `SourceTile`
+- `SrcTile`
 The tile that will be copied.
 
 ## Return Value
@@ -14,13 +17,10 @@ None.
 
 ## Syntax
 ```
-Copy16x16Tile(int DestTile, int SourceTile)
+Copy16x16Tile(int DstTile, int SrcTile)
 ```
 
-## Examples
+## Example
 ```
 Copy16x16Tile(174, 173)
 ```
-
-## Notes
-Used for animated tiles.

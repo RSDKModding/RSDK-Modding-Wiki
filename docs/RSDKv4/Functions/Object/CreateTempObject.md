@@ -10,7 +10,7 @@ Creates a temporary object specified by `type`, `propertyValue`, `xpos` and `ypo
 - `type`
 The type of object that will be created.
 - `propertyValue`
-The property value of the object.
+The Property Value of the object.
 - `xpos`
 The position of the object on the horizontal axis in world-space.
 - `ypos`

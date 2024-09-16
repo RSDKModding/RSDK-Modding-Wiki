@@ -4,8 +4,7 @@
 Stops all instances of the given sound effect slot in the GameConfig playing.
 
 ## Parameters
-
-- `sfx`
+- `SFX`
 The slot of the sound effect in the GameConfig.
 
 ## Return Value
@@ -13,10 +12,10 @@ None.
 
 ## Syntax
 ```
-StopSfx(int sfx)
+StopSfx(int SFX)
 ```
 
-## Examples
+## Example
 ```
 StopSfx(0)
 ```

@@ -15,7 +15,7 @@ None.
 ClearDrawList(int Layer)
 ```
 
-## Examples
+## Example
 ```
 ClearDrawList(3)
 ```

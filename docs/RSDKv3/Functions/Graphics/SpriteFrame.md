@@ -1,14 +1,13 @@
 # SpriteFrame
 
 ## Description
-Adds a Sprite with the specified values.
+Adds a SpriteFrame with the specified values.
 
 ## Parameters
-
 - `xPivot`
-The horizontal offset of the sprite, negative values will move it to the left, while positive values will move it to the right.
+The horizontal offset of the sprite. Negative values will move it to the left, while positive values will move it to the right.
 - `yPivot`
-The vertical offset of the sprite, negative values will move it upwards, and positive values downwards.
+The vertical offset of the sprite. Negative values will move it upwards, while positive values will move it downwards.
 - `Width`
 The width of the sprite.
 - `Height`
@@ -26,7 +25,7 @@ None.
 SpriteFrame(int xPivot, int yPivot, int Width, int Height, int SheetXPos, int SheetYPos)
 ```
 
-## Examples
+## Example
 ```
 SpriteFrame(-16, -16, 32, 32, 75, 129)
 ```

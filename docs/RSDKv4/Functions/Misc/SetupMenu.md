@@ -5,7 +5,7 @@ Sets up `menu` with `rowCount` rows, `selectionCount` active selections and alig
 
 ## Parameters
 - `menu`
-The menu to setup. MENU_1 or MENU_2 are valid.
+The menu to setup. `MENU_1` or `MENU_2` are valid.
 - `rowCount`
 The amount of rows the menu starts with.
 - `selectionCount`

@@ -3,9 +3,12 @@
 ## Description
 Loads the data for the specified online menu.
 
+!!! note
+    This function only works in Blit releases of Sonic CD.
+
 ## Parameters
 - `MenuID`
-The ID of the called menu, valid values are 0(ONLINEMENU_ACHIEVEMENTS) and 1(ONLINEMENU_LEADERBOARDS)
+The ID of the menu to load. Valid values are 0 (`ONLINEMENU_ACHIEVEMENTS`) and 1 (`ONLINEMENU_LEADERBOARDS`).
 
 ## Return Value
 None.
@@ -15,10 +18,7 @@ None.
 LoadOnlineMenu(int MenuID)
 ```
 
-## Examples
+## Example
 ```
 LoadOnlineMenu(0)
 ```
-
-## Notes
-This function is only functional on `Blit` releases of Sonic CD.

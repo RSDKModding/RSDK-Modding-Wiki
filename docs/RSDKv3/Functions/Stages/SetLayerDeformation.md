@@ -1,15 +1,15 @@
 # SetLayerDeformation
 
 ## Description
-Sets the deformation data array of `DeformID`, based on the `DeformA` and `DeformB` values.
+Sets the deformation data array of `DeformID`, based on `DeformA` and `DeformB`.
 
 ## Parameters
 - `DeformID`
 The ID of the layer to deform, valid values are:
-    0(DEFORM_FG)
-    1(DEFORM_FG_WATER)
-    2(DEFORM_BG)
-    3(DEFORM_BG_WATER)
+    - 0 (DEFORM_FG)
+    - 1 (DEFORM_FG_WATER)
+    - 2 (DEFORM_BG)
+    - 3 (DEFORM_BG_WATER)
 - `WaveLength`
 Length of the wave.
 - `WaveWidth`
@@ -29,7 +29,7 @@ None.
 SetLayerDeformation(int DeformID, int WaveLength, int WaveWidth, int WaveType, int YPos, int WaveSize)
 ```
 
-## Examples
+## Example
 ```
 SetLayerDeformation(0, 16, 2, 1, 96, 128)
 ```

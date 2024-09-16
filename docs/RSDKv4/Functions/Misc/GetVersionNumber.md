@@ -5,7 +5,7 @@ Adds a text entry to `menu` with the engine's version as the text. The text will
 
 ## Parameters
 - `menu`
-The menu to add the text to. MENU_1 or MENU_2 are valid.
+The menu to add the text to. `MENU_1` or `MENU_2` are valid.
 - `highlightEntry`
 Determines if the text will always be highlighted.
 

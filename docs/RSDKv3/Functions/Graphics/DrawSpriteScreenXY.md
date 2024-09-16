@@ -1,11 +1,11 @@
 # DrawSpriteScreenXY
 
 ## Description
-Draws `Frame` to a specified X and Y position in the screen.
+Draws `Frame` at a specified X and Y position in screen-space.
 
 ## Parameters
 - `Frame`
-The ID of the sprite to draw.
+The ID of the SpriteFrame to draw.
 - `iXPos`
 The position of the sprite on the horizontal axis in screen-space.
 - `iYPos`
@@ -19,7 +19,7 @@ None.
 DrawSpriteScreenXY(int Frame, int iXPos, int iYPos)
 ```
 
-## Examples
+## Example
 ```
-DrawSpriteScreenXY(0, 200, 15)
+DrawSpriteScreenXY(0, Screen.CenterX, 15)
 ```

@@ -1,13 +1,13 @@
 # ResetObjectEntity
 
 ## Description
-Resets an object in the `ObjectSlot` position to the `ObjectType`, `PropertyValue`, `XPos` and `YPos` specified.
+Resets an object in position `Slot` to the `Type`, `PropertyValue`, `XPos`, and `YPos` specified.
 
 ## Parameters
-- `ObjectSlot`
-The position of the object to reset.
-- `ObjectType`
-The updated type of object.
+- `Slot`
+The index of the object to reset.
+- `Type`
+The new type of object.
 - `PropertyValue`
 The new Property Value of the object.
 - `XPos`
@@ -20,10 +20,10 @@ None.
 
 ## Syntax
 ```
-ResetObjectEntity(int ObjectSlot, int ObjectType, int PropertyValue, int XPos, int YPos)
+ResetObjectEntity(int Slot, int Type, int PropertyValue, int XPos, int YPos)
 ```
 
-## Examples
+## Example
 ```
-ResetObjectEntity(Object.EntityNo, TypeName[Flower], 0, Object.XPos, Object.YPos)
+ResetObjectEntity(Object.EntityNo, TypeName[Test Object], 0, Object.XPos, Object.YPos)
 ```

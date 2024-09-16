@@ -111,12 +111,12 @@ nav:
           - RSDKv3/Functions/README.md
           - 3D:
             - Draw3DScene: RSDKv3/Functions/3D/Draw3DScene.md
+            - SetIdentityMatrix: RSDKv3/Functions/3D/SetIdentityMatrix.md
             - MatrixMultiply: RSDKv3/Functions/3D/MatrixMultiply.md
+            - MatrixTranslateXYZ: RSDKv3/Functions/3D/MatrixTranslateXYZ.md
+            - MatrixScaleXYZ: RSDKv3/Functions/3D/MatrixScaleXYZ.md
             - MatrixRotate: RSDKv3/Functions/3D/MatrixRotate.md
             - MatrixRotateXYZ: RSDKv3/Functions/3D/MatrixRotateXYZ.md
-            - MatrixTranslateXYZ: RSDKv3/Functions/3D/MatrixTranslateXYZ.md
-            - ScaleMatrixXYZ: RSDKv3/Functions/3D/ScaleMatrixXYZ.md
-            - SetIdentityMatrix: RSDKv3/Functions/3D/SetIdentityMatrix.md
             - TransformVertices: RSDKv3/Functions/3D/TransformVertices.md
           - Audio:
             - SetMusicTrack: RSDKv3/Functions/Audio/SetMusicTrack.md
@@ -125,84 +125,85 @@ nav:
             - PauseMusic: RSDKv3/Functions/Audio/PauseMusic.md
             - ResumeMusic: RSDKv3/Functions/Audio/ResumeMusic.md
             - PlaySfx: RSDKv3/Functions/Audio/PlaySfx.md
-            - PlayStageSfx: RSDKv3/Functions/Audio/PlayStageSfx.md
             - StopSfx: RSDKv3/Functions/Audio/StopSfx.md
-            - StopStageSfx: RSDKv3/Functions/Audio/StopStageSfx.md
             - SetSfxAttributes: RSDKv3/Functions/Audio/SetSfxAttributes.md
+            - PlayStageSfx: RSDKv3/Functions/Audio/PlayStageSfx.md
+            - StopStageSfx: RSDKv3/Functions/Audio/StopStageSfx.md
           - Drawing:
-            - AddDrawListEntityRef: RSDKv3/Functions/Drawing/AddDrawListEntityRef.md
-            - ClearDrawList: RSDKv3/Functions/Drawing/ClearDrawList.md
-            - ClearScreen: RSDKv3/Functions/Drawing/ClearScreen.md
-            - CopyPalette: RSDKv3/Functions/Drawing/CopyPalette.md
-            - DrawRect: RSDKv3/Functions/Drawing/DrawRect.md
             - DrawTintRect: RSDKv3/Functions/Drawing/DrawTintRect.md
-            - GetDrawListEntityRef: RSDKv3/Functions/Drawing/GetDrawListEntityRef.md
             - LoadPalette: RSDKv3/Functions/Drawing/LoadPalette.md
             - RotatePalette: RSDKv3/Functions/Drawing/RotatePalette.md
-            - SetActivePalette: RSDKv3/Functions/Drawing/SetActivePalette.md
-            - SetDrawListEntityRef: RSDKv3/Functions/Drawing/SetDrawListEntityRef.md
-            - SetPaletteFade: RSDKv3/Functions/Drawing/SetPaletteFade.md
             - SetScreenFade: RSDKv3/Functions/Drawing/SetScreenFade.md
+            - SetActivePalette: RSDKv3/Functions/Drawing/SetActivePalette.md
+            - SetPaletteFade: RSDKv3/Functions/Drawing/SetPaletteFade.md
+            - CopyPalette: RSDKv3/Functions/Drawing/CopyPalette.md
+            - ClearScreen: RSDKv3/Functions/Drawing/ClearScreen.md
+            - DrawRect: RSDKv3/Functions/Drawing/DrawRect.md
+            - ClearDrawList: RSDKv3/Functions/Drawing/ClearDrawList.md
+            - AddDrawListEntityRef: RSDKv3/Functions/Drawing/AddDrawListEntityRef.md
+            - GetDrawListEntityRef: RSDKv3/Functions/Drawing/GetDrawListEntityRef.md
+            - SetDrawListEntityRef: RSDKv3/Functions/Drawing/SetDrawListEntityRef.md
           - Graphics:
-            - DrawObjectAnimation: RSDKv3/Functions/Graphics/DrawObjectAnimation.md
-            - DrawPlayerAnimation: RSDKv3/Functions/Graphics/DrawPlayerAnimation.md
-            - DrawSprite: RSDKv3/Functions/Graphics/DrawSprite.md
-            - DrawSpriteFX: RSDKv3/Functions/Graphics/DrawSpriteFX.md
-            - DrawSpriteScreenFX: RSDKv3/Functions/Graphics/DrawSpriteScreenFX.md
-            - DrawSpriteScreenXY: RSDKv3/Functions/Graphics/DrawSpriteScreenXY.md
-            - DrawSpriteXY: RSDKv3/Functions/Graphics/DrawSpriteXY.md
-            - EditFrame: RSDKv3/Functions/Graphics/EditFrame.md
-            - LoadAnimation: RSDKv3/Functions/Graphics/LoadAnimation.md
             - LoadSpriteSheet: RSDKv3/Functions/Graphics/LoadSpriteSheet.md
             - RemoveSpriteSheet: RSDKv3/Functions/Graphics/RemoveSpriteSheet.md
+            - DrawSprite: RSDKv3/Functions/Graphics/DrawSprite.md
+            - DrawSpriteXY: RSDKv3/Functions/Graphics/DrawSpriteXY.md
+            - DrawSpriteScreenXY: RSDKv3/Functions/Graphics/DrawSpriteScreenXY.md
             - SpriteFrame: RSDKv3/Functions/Graphics/SpriteFrame.md
+            - EditFrame: RSDKv3/Functions/Graphics/EditFrame.md
+            - DrawSpriteFX: RSDKv3/Functions/Graphics/DrawSpriteFX.md
+            - DrawSpriteScreenFX: RSDKv3/Functions/Graphics/DrawSpriteScreenFX.md
+            - LoadAnimation: RSDKv3/Functions/Graphics/LoadAnimation.md
+            - ProcessAnimation: RSDKv3/Functions/Graphics/ProcessAnimation.md
+            - DrawObjectAnimation: RSDKv3/Functions/Graphics/DrawObjectAnimation.md
+            - DrawPlayerAnimation: RSDKv3/Functions/Graphics/DrawPlayerAnimation.md
           - Math:
-            - ATan2: RSDKv3/Functions/Math/ATan2.md
+            - Rand: RSDKv3/Functions/Math/Rand.md
+            - Sin: RSDKv3/Functions/Math/Sin.md
             - Cos: RSDKv3/Functions/Math/Cos.md
+            - Sin256: RSDKv3/Functions/Math/Sin256.md
             - Cos256: RSDKv3/Functions/Math/Cos256.md
-            - GetBit: RSDKv3/Functions/Math/GetBit.md
+            - ATan2: RSDKv3/Functions/Math/ATan2.md
             - Interpolate: RSDKv3/Functions/Math/Interpolate.md
             - InterpolateXY: RSDKv3/Functions/Math/InterpolateXY.md
             - Not: RSDKv3/Functions/Math/Not.md
-            - Rand: RSDKv3/Functions/Math/Rand.md
+            - GetBit: RSDKv3/Functions/Math/GetBit.md
             - SetBit: RSDKv3/Functions/Math/SetBit.md
-            - Sin: RSDKv3/Functions/Math/Sin.md
-            - Sin256: RSDKv3/Functions/Math/Sin256.md
           - Object:
+            - ResetObjectEntity: RSDKv3/Functions/Object/ResetObjectEntity.md
             - CreateTempObject: RSDKv3/Functions/Object/CreateTempObject.md
+            - PlayerObjectCollision: RSDKv3/Functions/Object/PlayerObjectCollision.md
+            - ProcessPlayerControl: RSDKv3/Functions/Object/ProcessPlayerControl.md
             - ObjectTileCollision: RSDKv3/Functions/Object/ObjectTileCollision.md
             - ObjectTileGrip: RSDKv3/Functions/Object/ObjectTileGrip.md
-            - PlayerObjectCollision: RSDKv3/Functions/Object/PlayerObjectCollision.md
             - PlayerTileCollision: RSDKv3/Functions/Object/PlayerTileCollision.md
-            - ProcessPlayerControl: RSDKv3/Functions/Object/ProcessPlayerControl.md
-            - ResetObjectEntity: RSDKv3/Functions/Object/ResetObjectEntity.md
           - Stages:
-            - Copy16x16Tile: RSDKv3/Functions/Stages/Copy16x16Tile.md
-            - Get16x16TileInfo: RSDKv3/Functions/Stages/Get16x16TileInfo.md
-            - GetTileLayerEntry: RSDKv3/Functions/Stages/GetTileLayerEntry.md
             - LoadStage: RSDKv3/Functions/Stages/LoadStage.md
-            - Set16x16TileInfo: RSDKv3/Functions/Stages/Set16x16TileInfo.md
             - SetLayerDeformation: RSDKv3/Functions/Stages/SetLayerDeformation.md
+            - GetTileLayerEntry: RSDKv3/Functions/Stages/GetTileLayerEntry.md
             - SetTileLayerEntry: RSDKv3/Functions/Stages/SetTileLayerEntry.md
+            - Get16x16TileInfo: RSDKv3/Functions/Stages/Get16x16TileInfo.md
+            - Set16x16TileInfo: RSDKv3/Functions/Stages/Set16x16TileInfo.md
+            - Copy16x16Tile: RSDKv3/Functions/Stages/Copy16x16Tile.md
           - Miscellaneous:
-            - AddMenuEntry: RSDKv3/Functions/Misc/AddMenuEntry.md
-            - CheckTouchRect: RSDKv3/Functions/Misc/CheckTouchRect.md
             - DrawMenu: RSDKv3/Functions/Misc/DrawMenu.md
-            - DrawText: RSDKv3/Functions/Misc/DrawText.md
+            - SetupMenu: RSDKv3/Functions/Misc/SetupMenu.md
+            - AddMenuEntry: RSDKv3/Functions/Misc/AddMenuEntry.md
             - EditMenuEntry: RSDKv3/Functions/Misc/EditMenuEntry.md
-            - EngineCallback: RSDKv3/Functions/Misc/EngineCallback.md
-            - GetTextInfo: RSDKv3/Functions/Misc/GetTextInfo.md
-            - GetVersionNumber: RSDKv3/Functions/Misc/GetVersionNumber.md
-            - LoadOnlineMenu: RSDKv3/Functions/Misc/LoadOnlineMenu.md
-            - LoadTextFile: RSDKv3/Functions/Misc/LoadTextFile.md
-            - LoadTextFont: RSDKv3/Functions/Misc/LoadTextFont.md
             - LoadVideo: RSDKv3/Functions/Misc/LoadVideo.md
             - NextVideoFrame: RSDKv3/Functions/Misc/NextVideoFrame.md
+            - CheckTouchRect: RSDKv3/Functions/Misc/CheckTouchRect.md
             - ReadSaveRAM: RSDKv3/Functions/Misc/ReadSaveRAM.md
+            - WriteSaveRAM: RSDKv3/Functions/Misc/WriteSaveRAM.md
+            - LoadTextFont: RSDKv3/Functions/Misc/LoadTextFont.md
+            - LoadTextFile: RSDKv3/Functions/Misc/LoadTextFile.md
+            - DrawText: RSDKv3/Functions/Misc/DrawText.md
+            - GetTextInfo: RSDKv3/Functions/Misc/GetTextInfo.md
+            - GetVersionNumber: RSDKv3/Functions/Misc/GetVersionNumber.md
             - SetAchievement: RSDKv3/Functions/Misc/SetAchievement.md
             - SetLeaderboard: RSDKv3/Functions/Misc/SetLeaderboard.md
-            - SetupMenu: RSDKv3/Functions/Misc/SetupMenu.md
-            - WriteSaveRAM: RSDKv3/Functions/Misc/WriteSaveRAM.md
+            - LoadOnlineMenu: RSDKv3/Functions/Misc/LoadOnlineMenu.md
+            - EngineCallback: RSDKv3/Functions/Misc/EngineCallback.md
 
     - RSDKv4:
       - RSDKv4/README.md

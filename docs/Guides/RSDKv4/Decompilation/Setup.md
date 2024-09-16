@@ -24,7 +24,7 @@
     Place the `Data.rsdk` file in this directory.
 	
 	!!! note
-	    If you're using a datapack from Sonic Origins, you will need to [extract the datapack](TODO.md) and place the extracted `Data` and `Bytecode` folders in the decompilation directory. Make sure the datapack is not present in the directory so that the decomp doesn't read it.
+	    If you're using a datapack from Sonic Origins, you will need to [extract the datapack](TODO) and place the extracted `Data` and `Bytecode` folders in the decompilation directory. Make sure the datapack is not present in the directory so that the decomp doesn't read it.
 
 === "Linux"
 

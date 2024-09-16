@@ -1,23 +1,26 @@
 # SetLeaderboard
 
 ## Description
-Sets the entry of the leaderboard with index of `ID` to `Result`.
+Submits the given score to the given leaderboard.
+
+!!! note
+    This function has no effect if trial mode or debug mode are enabled.
 
 ## Parameters
-- `ID`
-The ID of the leaderboard to edit.
-- `Result`
-The new leaderboard record.
+- `LeaderboardID`
+The index value of the leaderboard.
+- `Score`
+The score to submit to the leaderboard. The score will not be submitted if it's lower than the score already in the leaderboard.
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-SetLeaderboard(int ID, int Result)
+SetLeaderboard(int LeaderboardID, int Score)
 ```
 
-## Examples
+## Example
 ```
-SetLeaderboard(TempValue0, TempValue1)
+SetLeaderboard(19, Player.Score)
 ```

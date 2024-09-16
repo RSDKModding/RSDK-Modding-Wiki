@@ -1,25 +1,25 @@
 # GetDrawListEntityRef
 
 ## Description
-Gets `ObjectPos` in the drawList layer and stores it in `Store`.
+Gets `ObjectPos` in drawList `Layer` and stores it in `Store`.
 
 ## Parameters
-- `Layer`
-Layer of the drawList to add the reference, indices 0-7 are valid, additionally 8 is available in V5U.
-- `ObjectPos`
-The position of the object to add.
 - `Store`
 The variable where `ObjectPos` will be stored.
+- `Layer`
+Layer of the drawList to add the reference. Indices 0-6 are valid, as well as 7 in RSDKv5U.
+- `ObjectPos`
+The position of the object to add.
 
 ## Return Value
-None.
+Sets `Store` to the result.
 
 ## Syntax
 ```
 GetDrawListEntityRef(var Store, int Layer, int ObjectPos)
 ```
 
-## Examples
+## Example
 ```
 GetDrawListEntityRef(Object.Value0, 4, Object.EntityNo)
 ```

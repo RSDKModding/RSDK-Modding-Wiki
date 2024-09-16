@@ -1,7 +1,7 @@
 # DrawSpriteXY
 
 ## Description
-Draws `frame` to a specified X and Y position.
+Draws `frame` at a specified X and Y position.
 
 ## Parameters
 - `frame`

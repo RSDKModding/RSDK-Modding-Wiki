@@ -1,11 +1,11 @@
 # DrawSpriteXY
 
 ## Description
-Draws `Frame` to a specified X and Y position.
+Draws `Frame` at a specified X and Y position.
 
 ## Parameters
 - `Frame`
-The ID of the sprite to draw.
+The ID of the SpriteFrame to draw.
 - `XPos`
 The position of the sprite on the horizontal axis in world-space.
 - `YPos`
@@ -19,7 +19,7 @@ None.
 DrawSpriteXY(int Frame, int XPos, int YPos)
 ```
 
-## Examples
+## Example
 ```
 DrawSpriteXY(0, Object.Value0, Object.YPos)
 ```

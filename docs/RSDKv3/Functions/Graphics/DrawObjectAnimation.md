@@ -1,7 +1,10 @@
 # DrawObjectAnimation
 
 ## Description
-Draws the object at it's X and Y position, based on the loaded animation file and current `Object.Frame` and `Object.Animation` values.
+Draws an object's sprites from the animation file loaded prior via [LoadAnimation()](LoadAnimation.md). The sprite will be drawn at `object.xpos` and `object.ypos`, with flipping and rotation applied based on the current animation's rotate style.
+
+!!! note
+    Object animations cannot use scale or ink effects.
 
 ## Parameters
 None.
@@ -9,10 +12,7 @@ None.
 ## Return Value
 None.
 
-## Syntax
+## Example
 ```
 DrawObjectAnimation()
 ```
-
-## Notes
-Objects that use animation files cannot use transparency, scale or rotation.

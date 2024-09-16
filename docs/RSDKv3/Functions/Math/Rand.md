@@ -17,7 +17,7 @@ None.
 Rand(var Store, int Max)
 ```
 
-## Examples
+## Example
 ```
 Rand(Object.Value3, 8)
 ```

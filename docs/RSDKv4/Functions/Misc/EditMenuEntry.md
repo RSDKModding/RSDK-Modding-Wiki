@@ -5,7 +5,7 @@ Edits an entry of `menu` with the contents of `text` in `rowID`. The text will d
 
 ## Parameters
 - `menu`
-The menu to setup, MENU_1 or MENU_2 are valid.
+The menu to edit the entry in. `MENU_1` or `MENU_2` are valid.
 - `text`
 Text to replace the current text with.
 - `rowID`

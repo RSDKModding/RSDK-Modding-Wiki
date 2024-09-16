@@ -8,7 +8,7 @@ Loads an animation file for the current object type.
 
 ## Parameters
 - `path`
-The file path to load the sprite sheet from, relative to `Data/Animations/`.
+The file path to load the animation from, relative to `Data/Animations/`.
 
 ## Return Value
 None.

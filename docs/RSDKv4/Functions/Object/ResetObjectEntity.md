@@ -1,7 +1,7 @@
 # ResetObjectEntity
 
 ## Description
-Resets an object in the `slot` position with the `type`, `propertyValue`, `xpos` and `ypos` specified.
+Resets an object in position `slot` with the `type`, `propertyValue`, `xpos`, and `ypos` specified.
 
 ## Parameters
 - `slot`

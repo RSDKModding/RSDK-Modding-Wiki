@@ -5,7 +5,7 @@ Translates `matrix` to `translateX`, `translateY` and `translateZ`.
 
 ## Parameters
 - `matrix`
-The selected matrix to translate, valid Matrices are MAT_WORLD, MAT_VIEW and MAT_TEMP.
+The selected matrix to translate, valid Matrices are `MAT_WORLD`, `MAT_VIEW`, and `MAT_TEMP`.
 - `translateX`, `translateY`, `translateZ`
 Translate value for the matrix, all shifted 8 bits (0x100 = 1.0)
 

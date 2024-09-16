@@ -1,30 +1,30 @@
 # ObjectTileCollision
 
 ## Description
-Tries to collide with the foreground layer based on the position of iXPos + xOffset, iYPos + yOffset.
+Tries to collide with the foreground layer based on the position of `Object.iXPos` + `xOffset`, `Object.iYPos` + `yOffset`.
+
+!!! note
+    This function is best used for checking a tile is present. For moving along tiles, use [ObjectTileGrip()](ObjectTileGrip.md) instead.
 
 ## Parameters
 - `CSide`
-Determines to which side of the tile the object has to collide, it can be 0(CSIDE_FLOOR), 1(CSIDE_LWALL), 2(CSIDE_RWALL) or 3(CSIDE_ROOF)
+Determines to which side of the tile the object has to collide. Can be `CSIDE_FLOOR`, `CSIDE_LWALL`, `CSIDE_RWALL`, or `CSIDE_ROOF`. In Sonic Origins, `CSIDE_ENTITY` is available as well.
 - `xOffset`
 Horizontal offset of the object.
 - `yOffset`
 Vertical offset of the object.
-- `cPlane`
+- `CPlane`
 Collision plane to take into account.
 
 ## Return Value
-Sets CheckResult to true if there was collision, false otherwise.
+Sets `CheckResult` to `true` if there was collision; otherwise, it's set to `false`.
 
 ## Syntax
 ```
-ObjectTileCollision(int CSide, int xOffset, int yOffset, int cPlane)
+ObjectTileCollision(int CSide, int xOffset, int yOffset, int CPlane)
 ```
 
-## Examples
+## Example
 ```
-ObjectTileCollision(1, -15, -4, 0)
+ObjectTileCollision(CSIDE_LWALL, -15, -4, 0)
 ```
-
-## Notes
-This function is best used to check if a tile is there, not to move along it.

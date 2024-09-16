@@ -1,7 +1,10 @@
 # CreateTempObject
 
 ## Description
-Creates a temporary object specified by `ObjectType`, `PropertyValue`, `XPos` and `YPos` near the end of the object list.
+Creates a temporary object specified by `Type`, `PropertyValue`, `XPos` and `YPos` near the end of the object list.
+
+!!! note
+    If there are too many temporary objects loaded when this function is called, the engine will start overwritting them. Therefore, it's recommended to only use this function for objects that quickly get destroyed or unloaded.
 
 ## Parameters
 - `ObjectType`
@@ -14,17 +17,14 @@ The position of the object on the horizontal axis in world-space.
 The position of the object on the vertical axis in world-space.
 
 ## Return Value
-`TempObjectPos` is set to the created object's `SlotID`.
+Sets `TempObjectPos` to the created object's `EntityNo`.
 
 ## Syntax
 ```
-CreateTempObject(int ObjectType, int PropertyValue, int XPos, int YPos)
+CreateTempObject(int Type, int PropertyValue, int XPos, int YPos)
 ```
 
-## Examples
+## Example
 ```
-CreateTempObject(TypeName[Invincibility], 0, Player.XPos, Player.YPos)
+CreateTempObject(TypeName[Test Object], 0, Player.XPos, Player.YPos)
 ```
-
-## Notes
-This should only be used for misc objects that aren't required for too long in the stage.

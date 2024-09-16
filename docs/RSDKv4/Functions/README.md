@@ -51,12 +51,12 @@
 | [**LoadSpriteSheet**](Graphics/LoadSpriteSheet.md)         | Loads a spritesheet and assigns the ID to `object.spritesheet`.                                                                      |
 | [**RemoveSpriteSheet**](Graphics/RemoveSpriteSheet.md)     | Removes the given spritesheet from memory, if it is already loaded.                                                                  |
 | [**DrawSprite**](Graphics/DrawSprite.md)                   | Draws `frame` at the object's X and Y position.                                                                                      |
-| [**DrawSpriteXY**](Graphics/DrawSpriteXY.md)               | Draws `frame` to a specified X and Y position.                                                                                       |
-| [**DrawSpriteScreenXY**](Graphics/DrawSpriteScreenXY.md)   | Draws `frame` to a specified X and Y position in screen-space.                                                                       |
+| [**DrawSpriteXY**](Graphics/DrawSpriteXY.md)               | Draws `frame` at a specified X and Y position.                                                                                       |
+| [**DrawSpriteScreenXY**](Graphics/DrawSpriteScreenXY.md)   | Draws `frame` at a specified X and Y position in screen-space.                                                                       |
 | [**SpriteFrame**](Graphics/SpriteFrame.md)                 | Adds a SpriteFrame with the specified values.                                                                                        |
 | [**EditFrame**](Graphics/EditFrame.md)                     | Edits the pivots, width, height, and sheet coordinates of `frame`.                                                                   |
-| [**DrawSpriteFX**](Graphics/DrawSpriteFX.md)               | Draws `frame` to a specified X and Y position with visual effects.                                                                   |
-| [**DrawSpriteScreenFX**](Graphics/DrawSpriteScreenFX.md)   | Draws `frame` to a specified X and Y position in screen-space with visual effects.                                                   |
+| [**DrawSpriteFX**](Graphics/DrawSpriteFX.md)               | Draws `frame` at a specified X and Y position with visual effects.                                                                   |
+| [**DrawSpriteScreenFX**](Graphics/DrawSpriteScreenFX.md)   | Draws `frame` at a specified X and Y position in screen-space with visual effects.                                                   |
 | [**LoadAnimation**](Graphics/LoadAnimation.md)             | Loads an animation file for the current object type.                                                                                 |
 | [**ProcessAnimation**](Graphics/ProcessAnimation.md)       | Processes the current object's animation, based on the animation file loaded prior via [LoadAnimation()](Graphics/LoadAnimation.md). |
 | [**DrawObjectAnimation**](Graphics/DrawObjectAnimation.md) | Draws an object's sprites from the animation file loaded prior via [LoadAnimation()](Graphics/LoadAnimation.md).                     |
@@ -82,7 +82,7 @@
 ## Object
 | Function                                                     | Description                                                                                                                 |
 | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| [**ResetObjectEntity**](Object/ResetObjectEntity.md)         | Resets an object in the `slot` position with the `type`, `propertyValue`, `xpos` and `ypos` specified.                      |
+| [**ResetObjectEntity**](Object/ResetObjectEntity.md)         | Resets an object in position `slot` with the `type`, `propertyValue`, `xpos`, and `ypos` specified.                         |
 | [**BoxCollisionTest**](Object/BoxCollisionTest.md)           | Checks for collision of an object with another, using the hitbox values passed.                                             |
 | [**CreateTempObject**](Object/CreateTempObject.md)           | Creates a temporary object specified by `type`, `propertyValue`, `xpos` and `ypos` near the end of the object list.         |
 | [**ProcessObjectMovement**](Object/ProcessObjectMovement.md) | Handles tile collision of an object/player.                                                                                 |
@@ -95,15 +95,15 @@
 | [**CopyObject**](Object/CopyObject.md)                       | Copies `count` objects starting from `srcSlot` and pastes them to the object slots starting from `destSlot`.                |
 
 ## Stages
-| Function                                                        | Description                                                                                    |
-| --------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Function                                                         | Description                                                                                    |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | [**LoadStage**](Stages/LoadStage.md)                             | Loads a stage based on `stage.activeList` and `stage.listPos`.                                 |
 | [**SetLayerDeformation**](Stages/SetLayerDeformation.md)         | Sets the deformation data array of `deformID`, based on `deformA` and `deformB`.               |
 | [**GetTileLayerEntry**](Stages/GetTileLayerEntry.md)             | Gets the ID of the chunk at `chunkX`, `chunkY` on tile layer `layer` and stores it in `store`. |
 | [**SetTileLayerEntry**](Stages/SetTileLayerEntry.md)             | Sets the chunk at `chunkX`, `chunkY` in tile layer `layer` to the index of `value`.            |
-| [**Get16x16TileInfo**](Stages/Get16x16TileInfo.md)               | Gets the value for `infoType` from the tile at `tileX`, `tileY`. And stores it in `store`.     |
+| [**Get16x16TileInfo**](Stages/Get16x16TileInfo.md)               | Gets the value for `infoType` from the tile at `tileX`, `tileY` and stores it in `store`.      |
 | [**Set16x16TileInfo**](Stages/Set16x16TileInfo.md)               | Sets the value for `infoType` from the tile at `tileX`, `tileY` to `value`.                    |
-| [**Copy16x16Tile**](Stages/Copy16x16Tile.md)                     | Copies the tileset image data of `scrTile` to `destTile`.                                      |
+| [**Copy16x16Tile**](Stages/Copy16x16Tile.md)                     | Copies the tileset image data of `srcTile` to `dstTile`.                                       |
 | [**CheckCurrentStageFolder**](Stages/CheckCurrentStageFolder.md) | Reads the name of the current stage's folder.                                                  |
 
 ## Miscellaneous
@@ -115,7 +115,7 @@
 | [**AddMenuEntry**](Misc/AddMenuEntry.md)                    | Adds an entry to `menu` with the contents of `text`.                                                     |
 | [**EditMenuEntry**](Misc/EditMenuEntry.md)                  | Edits an entry of `menu` with the contents of `text` in `rowID`.                                         |
 | [**DrawMenu**](Misc/DrawMenu.md)                            | Draws `menu` at `xpos` and `ypos` relative to the screen.                                                |
-| [**GetTextInfo**](Misc/GetTextInfo.md)                      | Gets the data of `type` from `menu` using `index`, and stores it in `store`.                             |
+| [**GetTextInfo**](Misc/GetTextInfo.md)                      | Gets the data of `type` from `menu` using `index` and stores it in `store`.                              |
 | [**GetVersionNumber**](Misc/GetVersionNumber.md)            | Adds a text entry to `menu` with the engine's version as the text.                                       |
 | [**LoadTextFile**](Misc/LoadTextFile.md)                    | Loads `menu` based on the text file loaded from `filePath`.                                              |
 | [**Print**](Misc/Print.md)                                  | Prints a message or integer to the console.                                                              |
@@ -123,7 +123,7 @@
 | [**WriteSaveRAM**](Misc/WriteSaveRAM.md)                    | Writes the contents of SaveRAM to the save file on disk.                                                 |
 
 ## Deprecated
-| Function                                       | Description                                                                                                                                                                             |
-| ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**LoadTextFont**](Deprecated/LoadTextFont.md) | Loads a bitmap font from `filePath` for use with text menus.                                                                                                                            |
-| [**DrawText**](Deprecated/DrawText.md)         | Draws the contents of `rowCount` rows, starting from `rowStart` in `menu` at `xPos` and `yPos` relative to the screen, using `spacing` pixels between them and scaling it with `scale`. |
+| Function                                       | Description                                                  |
+| ---------------------------------------------- | ------------------------------------------------------------ |
+| [**LoadTextFont**](Deprecated/LoadTextFont.md) | Loads a bitmap font from `filePath` for use with text menus. |
+| [**DrawText**](Deprecated/DrawText.md)         | Draws the contents of `menu`.                                |

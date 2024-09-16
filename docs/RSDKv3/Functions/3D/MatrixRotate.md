@@ -5,22 +5,22 @@ Rotates `Matrix` to `Angle` on the specified axis.
 
 ## Parameters
 - `Matrix`
-The selected matrix for rotation, valid Matrices are MAT_WORLD, MAT_VIEW and MAT_TEMP.
+The selected matrix for rotation. Valid matrices are `MAT_WORLD`, `MAT_VIEW`, and `MAT_TEMP`.
 - `Angle`
-Angle of the rotation, values are 512-based.
+Angle of the rotation. Values are 512-based.
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-MatrixRotateX(mat Matrix, int Angle)
+MatrixRotateX(int Matrix, int Angle)
 ```
 ```
-MatrixRotateY(mat Matrix, int Angle)
+MatrixRotateY(int Matrix, int Angle)
 ```
 ```
-MatrixRotateZ(mat Matrix, int Angle)
+MatrixRotateZ(int Matrix, int Angle)
 ```
 
 ## Examples
@@ -28,8 +28,8 @@ MatrixRotateZ(mat Matrix, int Angle)
 MatrixRotateX(MAT_WORLD, 43)
 ```
 ```
-MatrixRotateY(MAT_VIEW,  76)
+MatrixRotateY(MAT_VIEW, 76)
 ```
 ```
-MatrixRotateZ(MAT_TEMP,  22)
+MatrixRotateZ(MAT_TEMP, 22)
 ```

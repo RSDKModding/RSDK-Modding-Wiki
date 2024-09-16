@@ -1,7 +1,7 @@
 # ResumeMusic
 
 ## Description
-If a track has been paused with `PauseMusic()`, resumes playing the track.
+If a track has been paused with [PauseMusic()](PauseMusic.md), resumes playing the track.
 
 ## Parameters
 None.
@@ -9,12 +9,7 @@ None.
 ## Return Value
 None.
 
-## Syntax
-```
-ResumeMusic()
-```
-
-## Examples
+## Example
 ```
 ResumeMusic()
 ```

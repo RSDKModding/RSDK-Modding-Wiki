@@ -1,11 +1,11 @@
 # SetPaletteFade
 
 ## Description
-Blends the currectly active palette, starting at `PalIndex` through to `EndIndex`. With a mix based on `R`, `G`, `B` by `BlendAmount`, and stores it in `DestPalBank`.
+Blends the currectly active palette from `StartIndex` to `EndIndex` based on `R`, `G`, `B`, and `BlendAmount`, and stores the new palette in `DstBank`.
 
 ## Parameters
-- `DestPalBank`
-The ID of the palette for store, indices 0-7 are valid.
+- `DstBank`
+The ID of the palette for store. Indices 0-7 are valid.
 - `R`
 A value range of 0-255 for the color red.
 - `G`
@@ -24,10 +24,10 @@ None.
 
 ## Syntax
 ```
-SetPaletteFade(int DestPalBank, int R, int G, int B, int BlendAmount, int StartIndex, int EndIndex)
+SetPaletteFade(int DstBank, int R, int G, int B, int BlendAmount, int StartIndex, int EndIndex)
 ```
 
-## Examples
+## Example
 ```
 SetPaletteFade(1, 128, 128, 128, 255, 64, 144)
 ```

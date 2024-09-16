@@ -22,7 +22,7 @@ Sets `store` to the chunk ID.
 
 ## Syntax
 ```
-GetTileLayerEntry(var chunkStore, int layer, int chunkX, int chunkY)
+GetTileLayerEntry(var store, int layer, int chunkX, int chunkY)
 ```
 
 ## Example

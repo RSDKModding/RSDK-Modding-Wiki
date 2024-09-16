@@ -11,10 +11,9 @@ Removes the given spritesheet from memory, if it is already loaded.
 
 ## Parameters
 - `path`
-The file path of the target sprite sheet to remove, relative to `Data/Sprites/`.
+The file path of the target spritesheet to remove, relative to `Data/Sprites/`.
 
 ## Return Value
-
 None.
 
 ## Syntax

@@ -1,15 +1,15 @@
 # SetActivePalette
 
 ## Description
-Sets the active palette for `PalBank` for all screen lines from `StartLine` through to `EndLine`.
+Sets the active palette to `PalBank` for all vertical screen lines from `StartLine` to `EndLine`.
 
 ## Parameters
 - `PalBank`
-The ID of the new active palette, indices 0-7 are valid.
+The ID of the new active palette. Indices 0-7 are valid.
 - `StartLine`
-The starting screen-line for the new active palette.
+The starting vertical screen-line for the new active palette.
 - `EndLine`
-The final screen-line for the new active palette.
+The ending vertical screen-line for the new active palette.
 
 ## Return Value
 None.
@@ -19,7 +19,7 @@ None.
 SetActivePalette(int PalBank, int StartLine, int EndLine)
 ```
 
-## Examples
+## Example
 ```
 SetActivePalette(0, 76, Screen.YSize)
 ```

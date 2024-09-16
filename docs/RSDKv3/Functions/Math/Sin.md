@@ -17,7 +17,7 @@ None.
 Sin(var Store, int Angle)
 ```
 
-## Examples
+## Example
 ```
 Sin(Object.Value3, TempValue0)
 ```

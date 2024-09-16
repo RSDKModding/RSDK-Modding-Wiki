@@ -1,7 +1,7 @@
 # DrawSpriteScreenXY
 
 ## Description
-Draws `frame` to a specified X and Y position in screen-space.
+Draws `frame` at a specified X and Y position in screen-space.
 
 ## Parameters
 - `frame`

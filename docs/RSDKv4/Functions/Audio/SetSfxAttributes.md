@@ -4,7 +4,6 @@
 Sets the loop count and panning of the given sound effect to the given values.
 
 ## Parameters
-
 - `sfx`
 The slot of the sound effect. It's recommended to the `SfxName` alias for this.
 - `loopCount`

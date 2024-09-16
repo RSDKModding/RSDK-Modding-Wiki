@@ -4,7 +4,6 @@
 Called on Engine initialization, or when the game code manually creates an entity (usually on [StageLoad](StageLoad.md) or when a temporary entity is spawned).
 
 ## Parameters
-
 - `data`
 Optional pointer to a user defined data (object type, value...).
 

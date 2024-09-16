@@ -1,21 +1,27 @@
 # RemoveSpriteSheet
 
 ## Description
-Removes a Sprite Sheet if it's loaded in the object.
+Removes the given spritesheet from memory, if it is already loaded.
+
+!!! note
+    This function does not affect files in the datafile or device storage, only the engine memory.
+
+!!! note
+    Spritesheets loaded from animation files cannot be removed.
 
 ## Parameters
 - `Path`
-The file path to the sprite sheet to remove, relative to `Data/Sprites/`.
+The file path of the target spritesheet to remove, relative to `Data/Sprites/`.
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-RemoveSpriteSheet("string Path")
+RemoveSpriteSheet(string Path)
 ```
 
-## Examples
+## Example
 ```
 RemoveSpriteSheet("Test/Objects.gif")
 ```

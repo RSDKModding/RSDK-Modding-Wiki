@@ -19,7 +19,7 @@ None.
 Interpolate(var Store, int x, int y, int Percent)
 ```
 
-## Examples
+## Example
 ```
 Interpolate(Object.Value2, 26, 29, 128)
 ```

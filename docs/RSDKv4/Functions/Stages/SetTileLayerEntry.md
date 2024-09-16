@@ -7,7 +7,7 @@ Sets the chunk at `chunkX`, `chunkY` in tile layer `layer` to the index of `valu
 - `value`
 The index value of the new chunk.
 - `layer`
-The ID of the layer where the chunk comes from, valid values are:
+The ID of the layer where the chunk comes from. The valid values are:
     - 0 (DEFORM_FG)
     - 1 (DEFORM_FG_WATER)
     - 2 (DEFORM_BG)

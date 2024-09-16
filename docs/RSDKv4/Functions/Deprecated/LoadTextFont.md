@@ -15,7 +15,7 @@ None.
 
 ## Syntax
 ```
-LoadTextFont("string filePath")
+LoadTextFont(string filePath)
 ```
 
 ## Example

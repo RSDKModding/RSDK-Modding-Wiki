@@ -1,7 +1,10 @@
 # LoadSpriteSheet
 
 ## Description
-Loads a GIF formatted Sprite Sheet and assigns the id to `Object.SpriteSheet`.
+Loads a spritesheet and assigns the ID to `Object.SpriteSheet`. The spritesheet must be a GIF file.
+
+!!! note
+    Sonic CD Lite can also load PVR files with this function.
 
 ## Parameters
 - `Path`
@@ -12,13 +15,10 @@ None.
 
 ## Syntax
 ```
-LoadSpriteSheet("string Path")
+LoadSpriteSheet(string Path)
 ```
 
-## Examples
+## Example
 ```
 LoadSpriteSheet("Test/Objects.gif")
 ```
-
-## Note
-Lite versions of CD could load PVR format.

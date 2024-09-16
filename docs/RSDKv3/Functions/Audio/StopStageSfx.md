@@ -4,8 +4,7 @@
 Stops all instances of the given sound effect slot in the StageConfig playing.
 
 ## Parameters
-
-- `sfx`
+- `SFX`
 The slot of the sound effect in the StageConfig.
 
 ## Return Value
@@ -13,10 +12,10 @@ None.
 
 ## Syntax
 ```
-StopStageSfx(int sfx)
+StopStageSfx(int SFX)
 ```
 
-## Examples
+## Example
 ```
 StopStageSfx(0)
 ```

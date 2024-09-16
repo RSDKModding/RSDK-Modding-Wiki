@@ -19,7 +19,7 @@ None.
 InterpolateXY(var StoreX, var StoreY, int aX, int aY, int bX, int bY, int Percent)
 ```
 
-## Examples
+## Example
 ```
 InterpolateXY(Object.Value2, Object.Value3, 26, 29, 33, 37, 220)
 ```

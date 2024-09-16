@@ -18,7 +18,7 @@ Depends on the callback used.
 EngineCallback(int Callback)
 ```
 
-## Examples
+## Example
 ```
 EngineCallback(CALLBACK_FINISHGAME_NOTIFY)
 ```

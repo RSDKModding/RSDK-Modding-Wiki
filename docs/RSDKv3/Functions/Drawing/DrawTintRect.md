@@ -1,7 +1,7 @@
 # DrawTintRect
 
 ## Description
-Draws a tinted rectangle to a specified X and Y position in the screen.
+Draws a tinted rectangle to `iXPos` and `iYPos` in screen-space.
 
 ## Parameters
 - `iXPos`
@@ -21,7 +21,7 @@ None.
 DrawTintRect(int iXPos, int iYPos, int Width, int Height)
 ```
 
-## Examples
+## Example
 ```
 DrawTintRect(30, 220, 60, 20)
 ```

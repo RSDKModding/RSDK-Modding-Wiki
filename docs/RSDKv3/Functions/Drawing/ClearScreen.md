@@ -1,11 +1,11 @@
 # ClearScreen
 
 ## Description
-Clears all pixels on screen with `ClearIndex` color from the active palette.
+Clears all pixels on screen with color `ClearIndex` from the active palette.
 
 ## Parameters
 - `ClearIndex`
-The color that will override the pixels on the screen.
+The index of the color in the active palette that will override the pixels on the screen.
 
 ## Return Value
 None.
@@ -15,7 +15,7 @@ None.
 ClearScreen(int ClearIndex)
 ```
 
-## Examples
+## Example
 ```
 ClearScreen(5)
 ```

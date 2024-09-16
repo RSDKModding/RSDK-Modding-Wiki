@@ -1,13 +1,16 @@
 # SetAchievement
 
 ## Description
-Sets the status of the achievement with index of `ID` to `Status`.
+Sets the status of the given achievement.
+
+!!! note
+    This function has no effect if trial mode or debug mode are enabled.
 
 ## Parameters
 - `ID`
-The ID of the achievement.
+The index value of the achievement.
 - `Status`
-New status of the achievement, valid values are 0 for locked, and 100 for unlocked.
+The status (progress) to set the achievement to, with a range of 0 to 100. If the status is 100, the achievement is considered achieved and will be awarded to the player.
 
 ## Return Value
 None.
@@ -17,7 +20,7 @@ None.
 SetAchievement(int ID, int Status)
 ```
 
-## Examples
+## Example
 ```
 SetAchievement(3, 100)
 ```

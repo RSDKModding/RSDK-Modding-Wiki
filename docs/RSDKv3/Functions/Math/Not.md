@@ -15,7 +15,7 @@ None.
 Not(var Value)
 ```
 
-## Examples
+## Example
 ```
 Not(TempValue4)
 ```

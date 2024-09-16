@@ -1,7 +1,12 @@
 # DrawPlayerAnimation
 
 ## Description
-Draws the player at it's X and Y position, based on the loaded animation file and current `Player.Frame` and `Player.Animation` values.
+Draws the player's sprites from the animation file loaded prior via [LoadAnimation()](LoadAnimation.md), with flipping and rotation applied based on the current animation's rotate style.
+
+Unlike [DrawObjectAnimation()](DrawObjectAnimation.md), DrawPlayerAnimation() only draws the player if `Player.Visible` is `true`, and sets the position of the sprite based on the camera's target.
+
+!!! note
+    Player animations cannot use scale or ink effects.
 
 ## Parameters
 None.
@@ -9,10 +14,7 @@ None.
 ## Return Value
 None.
 
-## Syntax
+## Example
 ```
 DrawPlayerAnimation()
 ```
-
-## Notes
-Player animations cannot use transparency or scale.

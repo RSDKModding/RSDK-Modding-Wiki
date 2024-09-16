@@ -1,7 +1,10 @@
 # LoadAnimation
 
 ## Description
-Loads an animation for the object to use.
+Loads an animation file for the current object type.
+
+!!! note
+    Loaded animation files are stored per object *type*, not per object *entity*.
 
 ## Parameters
 - `Path`
@@ -15,7 +18,7 @@ None.
 LoadAnimation(string Path)
 ```
 
-## Examples
+## Example
 ```
-LoadAnimation("Tails.Ani")
+LoadAnimation("Test.Ani")
 ```

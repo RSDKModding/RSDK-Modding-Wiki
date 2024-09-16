@@ -5,7 +5,7 @@ Transform all vertices from `startIndex` to `endIndex` using `matrix`.
 
 ## Parameters
 - `matrix`
-The matrix used to transform the vertices, valid matrices are MAT_WORLD, MAT_VIEW and MAT_TEMP.
+The matrix used to transform the vertices. Valid matrices are `MAT_WORLD`, `MAT_VIEW`, and `MAT_TEMP`.
 - `startIndex`
 The start of the range of tranforming vertices.
 - `endIndex`

@@ -9,18 +9,18 @@ Type of collision with the object. Can be `C_TOUCH`, `C_SOLID`, `C_SOLID2`, or `
 - `thisObject`
 The source of the collision.
 - `thisLeft` / `thisTop` / `thisRight` / `thisBottom`
-The values of the object's hitbox.
+The values for the object's hitbox.
 - `otherObject`
-The possible object to collide with.
+The object to check for collision with.
 - `otherLeft` / `otherTop` / `otherRight` / `otherBottom`
-The values of the target's hitbox.
+The values for the target's hitbox.
 
 ## Return Value
 If there wasn't any collision, `checkResult` will be `false`.
-Depending of `collisionType` used:
+Depending on the `collisionType` used:
 - `C_TOUCH`: `checkResult` will return `true` with any type of collision.
-- `C_SOLID`/`C_SOLID2`: `checkResult` will return values 1 (Floor), 2 (LWall), 3 (RWall) or 4 (Roof) depending on the side of the object collided with.
-- `C_PLATFORM`: `checkResult` will only be `true` if the top of the object was collided.
+- `C_SOLID`/`C_SOLID2`: `checkResult` will return values `1` (Floor), `2` (LWall), `3` (RWall) or `4` (Roof) depending on the side of the object collided with.
+- `C_PLATFORM`: `checkResult` will only be `true` if the top of the object was collided with.
 
 ## Syntax
 ```

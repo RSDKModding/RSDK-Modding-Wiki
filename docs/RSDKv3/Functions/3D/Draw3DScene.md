@@ -9,7 +9,7 @@ None.
 ## Return Value
 None.
 
-## Syntax
+## Example
 ```
 Draw3DScene()
 ```

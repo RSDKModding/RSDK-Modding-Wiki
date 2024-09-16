@@ -19,7 +19,7 @@ A value range of 0-255 for the color green.
 - `b`
 A value range of 0-255 for the color blue.
 - `alpha`
-A value range of 0-255 for transparency (255 being no transparency).
+A value range of 0-255 for transparency, 255 being no transparency.
 
 ## Return Value
 None.
