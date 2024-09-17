@@ -16,6 +16,9 @@
     font-weight: bold;
 }
 
+.md-typeset h1 {
+    color: var(--md-typeset-color);
+}
 
 .tabbed-labels {
     background-color: var(--content-bg-color);
