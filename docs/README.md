@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # RSDK Modding Wiki
 
 RSDK Modding Wiki (TODO: write an actual description)
