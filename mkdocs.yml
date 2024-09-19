@@ -461,6 +461,7 @@ nav:
   - Tools:
     - Tools/README.md
     - RetroED: Tools/RetroED/README.md
+    - S3KOEditorLink: Tools/S3KOEditorLink/README.md
     - RSDK Animation Editor: Tools/RSDK-Anim-Editor/README.md
 
   - Guides:
@@ -506,6 +507,7 @@ nav:
         - Obtaining the Datapack: Guides/Games/Sonic3K/Datapack/README.md
     - RetroED:
       - Guides/RetroED/README.md
+      - Using S3KOEditorLink: Guides/RetroED/S3KOEditorLink.md
       - Editors:
         - Animation Editor: Guides/RetroED/AnimationEditor.md
         - Scene Editor: Guides/RetroED/SceneEditor.md
