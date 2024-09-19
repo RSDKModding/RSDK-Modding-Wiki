@@ -54,23 +54,31 @@ The datapack for Sonic CD is required for both playing and modding the game.
 
     Open Filza, then tap the :octicons-star-24: Favorites icon at the bottom. In the menu that appears, tap Apps manager.
 
+    ![Filza favorites menu](iOS/Step1.png){ width="25%" }
+
     A list of your installed apps will appear. Tap **the :octicons-info-24: info icon** next to Sonic CD, then choose Bundle.
+
+    ![Apps manager](iOS/Step2.png){ width="25%" } ![Info menu](iOS/Step3.png){ width="25%" }
 
     Tap `Sonic CD iOS.app`, then you should see the datapack `Data.rsdk`.
 
+    ![Bundle directory](iOS/Step4.png){ width="25%" } ![.app directory](iOS/Step5.png){ width="25%" }
+
     To share one of the files with another app, tap the file, open the Hex Editor, then tap the :octicons-share-24: Share button in the top right corner. When you're finished, tap Done in the Hex Editor to close it.
+
+    ![Open with ...](iOS/Step6.png){ width="25%" } ![Hex editor](iOS/Step7.png){ width="25%" } ![Share menu](iOS/Step8.png){ width="25%" }
 
 === "Sonic Origins (Steam)"
 
     Open your Steam library, then right click Sonic Origins and click `Manage` > `Browse local files`.
 
-    In the File Explorer window that appears, open `image\x64\raw\retro`. The datapack for Sonic CD is `SonicCDu.rsdk`.
+    In the File Explorer window that appears, open `image/x64/raw/retro`. The datapack for Sonic CD is `SonicCDu.rsdk`.
 
 === "Sonic Origins (EGS)"
 
     Open your Epic Games library, then right click Sonic Origins and click `Manage`. In the menu that appears, click the :material-folder-outline: Open Install Location button next to the Uninstall button.
 
-    In the File Explorer window that appears, open `image\x64\raw\retro`. The datapack for Sonic CD is `SonicCDu.rsdk`.
+    In the File Explorer window that appears, open `image/x64/raw/retro`. The datapack for Sonic CD is `SonicCDu.rsdk`.
 
 === "Blit (Steam)"
 

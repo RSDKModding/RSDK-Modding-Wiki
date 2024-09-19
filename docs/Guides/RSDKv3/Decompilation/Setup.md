@@ -5,7 +5,7 @@
     - [Building the source code](Building.md) (Recommended)
     - [Downloading the latest release](https://github.com/RSDKModding/RSDKv3-Decompilation/releases/latest) (Origins Plus DLC will not be accessible)
     - [Downloading an autobuild](https://github.com/RSDKModding/RSDKv3-Decompilation/actions) (Must be signed into GitHub to download, Origins Plus DLC will not be accessible)
-- [A datapack (Data.rsdk) for Sonic CD](../../Games/SonicCD/Datapack.md)
+- [A datapack (Data.rsdk) for Sonic CD](../../Games/SonicCD/Datapack/README.md)
 - [Visual C++ Redistributables](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) (Windows only)
 
 ## Setup
