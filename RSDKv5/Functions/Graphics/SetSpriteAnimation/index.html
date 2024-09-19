@@ -13322,7 +13322,7 @@ The SpriteAnimation to use frames from. IDs 0-1023 are valid; any other values w
 <li><code>listID</code>
 The index of the animation in the animation list to use frames from. Negative indices or indices above the count are considered invalid and will result in the frames not being set.</li>
 <li><code>animator</code>
-The animator to apply the frames to. In C++, this function is a instance method of the animator instead. See the <a href="#c_3">example</a> for further info.</li>
+The animator to apply the frames to. In C++, this function is an instance method of the animator instead. See the <a href="#c_3">example</a> for further info.</li>
 <li><code>forceApply</code>
 Whether or not to forcefully set the animation.
 If true, the frames will be set unless the parameters are invalid.
@@ -13349,7 +13349,7 @@ The index of the frame to set to.</li>
 <div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="c_2" name="__tabbed_2" type="radio" /><input id="c_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="c_2">C</label><label for="c_3">C++</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="language-c highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">animator</span><span class="p">.</span><span class="n">SetAnimation</span><span class="p">(</span><span class="n">MyObject</span><span class="o">-&gt;</span><span class="n">aniFrames</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="nb">true</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
+<div class="language-c highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">RSDK</span><span class="p">.</span><span class="n">SetSpriteAnimation</span><span class="p">(</span><span class="n">MyObject</span><span class="o">-&gt;</span><span class="n">aniFrames</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">self</span><span class="o">-&gt;</span><span class="n">animator</span><span class="p">,</span><span class="w"> </span><span class="nb">true</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
 </span></code></pre></div>
 </div>
 <div class="tabbed-block">

@@ -1,6 +1,6 @@
 .md-content {
     border-radius: 1em;
-    background-color: color-mix(in srgb, var(--content-bg-color), transparent 30%);
+    background-color: color-mix(in hsl, var(--content-bg-color) 80%, transparent 63%);
 }
 
 .md-main__inner {
@@ -21,5 +21,13 @@
 }
 
 .tabbed-labels {
-    background-color: var(--content-bg-color);
+    background-color: color-mix(in hsl, var(--content-bg-color) 80%, transparent);
+}
+
+.md-typeset .tabbed-control--next {
+    background: linear-gradient(to left, var(--content-bg-color) 50%, transparent)
+}
+
+.md-typeset .tabbed-control--prev {
+    background: linear-gradient(to right, var(--content-bg-color) 50%, transparent)
 }
