@@ -19,5 +19,5 @@ jobs:
         with:
           python-version: 3.x
       - run: git config user.name 'github-actions[bot]' && git config user.email 'github-actions[bot]@users.noreply.github.com'
-      - run: pip install mkdocs-material
+      - run: pip install mkdocs-material mkdocs-glightbox
       - run: mkdocs gh-deploy --force
