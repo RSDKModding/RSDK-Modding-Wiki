@@ -51,6 +51,7 @@ extra_javascript:
   - rsdk_theme/background.js
 
 plugins:
+  - search
   - glightbox:
       touchNavigation: true
       loop: false
