@@ -49,7 +49,7 @@ extra_css:
   - rsdk_theme/body.css
 extra_javascript:
   - rsdk_theme/background.js
-  
+
 plugins:
   - glightbox:
       touchNavigation: true
@@ -66,7 +66,7 @@ plugins:
       caption_position: bottom
       background: white
       shadow: true
-      manual: true
+      manual: false
 
 markdown_extensions:
   - abbr
