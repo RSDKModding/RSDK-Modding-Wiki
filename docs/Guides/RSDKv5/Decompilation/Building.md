@@ -33,65 +33,71 @@ git submodule update --init --recursive
     [Install CMake](https://cmake.org/download/). **Make sure to enable the feature to add CMake to the system PATH during the installation.**
 
     To handle dependencies, you'll need to install [Visual Studio Community](https://visualstudio.microsoft.com/downloads/) with the `Desktop development with C++` workload. If you already have Visual Studio installed, you can manage your installed workloads by opening Visual Studio Installer from the Start Menu and clicking the `Modify` button next to your Visual Studio installation.
-	
-	You will also need to [set up vcpkg](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-cmd#1---set-up-vcpkg). You only need to follow `1 - Set up vcpkg` in the guide.
-	
-	!!! tip
-	    It's recommended to clone vcpkg into a short path such as `C:/src` to keep future commands from getting too long.
+
+    !!! warning
+        An installation of Visual Studio with the `Desktop development with C++` workload uses around 8 GB of storage space. Make sure you have the necessary space on your drive before proceeding.
+
+    You will also need to [set up vcpkg](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-cmd#1---set-up-vcpkg). You only need to follow `1 - Set up vcpkg` in the guide.
+
+    !!! tip
+        It's recommended to clone vcpkg into a short path such as `C:/src` to keep future commands from getting too long.
 
     Run the following command in the vcpkg repository in Command Prompt:
-	=== "64-bit"
+    === "64-bit"
 
         ```
-	    vcpkg.exe install libtheora libogg glew sdl2 --triplet=x64-windows-static
+        vcpkg.exe install libtheora libogg glew sdl2 --triplet=x64-windows-static
         ```
-	
-	=== "32-bit"
+
+    === "32-bit"
 
         ```
-	    vcpkg.exe install libtheora libogg glew sdl2 --triplet=x86-windows-static
-		```
+        vcpkg.exe install libtheora libogg glew sdl2 --triplet=x86-windows-static
+        ```
 
 === "Linux"
 
+    !!! warning "Notice for Steam Deck users"
+        Due to how SteamOS handles packages, building the decompilation on the Steam Deck is highly difficult and not recommended. Instead, consider building it on another Arch Linux device using that build on the Steam Deck.
+
     Run the following command in the terminal:
 
-	=== "pacman (Arch)"
+    === "pacman (Arch)"
 
         ```
-		sudo pacman -S base-devel cmake glew glfw libtheora sdl2
-		```
+        sudo pacman -S base-devel cmake glew glfw libtheora sdl2
+        ```
 
-	=== "apt (Debian/Ubuntu)"
+    === "apt (Debian/Ubuntu)"
 
         ```
-		sudo apt install build-essential cmake libglew-dev libglfw3-dev libtheora-dev libsdl2-dev
-		```
+        sudo apt install build-essential cmake libglew-dev libglfw3-dev libtheora-dev libsdl2-dev
+        ```
 
-	=== "rpm (Fedora)"
+    === "rpm (Fedora)"
 
         ```
-		sudo dnf install make cmake gcc glew-devel glfw-devel libtheora-devel sdl2-devel zlib-devel
-		```
+        sudo dnf install make cmake gcc glew-devel glfw-devel libtheora-devel sdl2-devel zlib-devel
+        ```
 
-	=== "apk (Alpine/PostmarketOS)"
+    === "apk (Alpine/PostmarketOS)"
 
         ```
-		sudo apk add build-base cmake gcc glew-dev glfw-dev libtheora-dev sdl2-dev
-		```
+        sudo apk add build-base cmake gcc glew-dev glfw-dev libtheora-dev sdl2-dev
+        ```
 
-	=== "xbps (Void)"
+    === "xbps (Void)"
 
         ```
-		sudo xbps-install make cmake gcc pkg-config glew-devel glfw-devel libtheora-devel SDL2-devel zlib-devel
-		```
+        sudo xbps-install make cmake gcc pkg-config glew-devel glfw-devel libtheora-devel SDL2-devel zlib-devel
+        ```
 
 === "Nintendo Switch"
 
     [Set up devKitPro](https://devkitpro.org/wiki/Getting_Started), then run the following command:
-	```
+    ```
     (dkp-)pacman -Syuu switch-dev switch-libogg switch-libtheora switch-sdl2 switch-glad
-	```
+    ```
 
 === "Android"
 
@@ -101,13 +107,13 @@ git submodule update --init --recursive
 === "Windows"
 
     Enter the following commands in the RSDKv5/Mania decompilation repository directory:
-	=== "64-bit"
-	
+    === "64-bit"
+
         ```
         cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=[vcpkg root]/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-windows-static
         cmake --build build --config release
         ```
-	    
+
         !!! warning "Important!"
             `[vcpkg root]` should be replaced with the path to the vcpkg repository. For example, if the repository is located in `C:/src/vcpkg`, the first command to enter would be:
             ```
@@ -116,15 +122,15 @@ git submodule update --init --recursive
             If the path to the repository includes spaces in it, you will need to put quotation marks around the entire path. For example, if the repository is located in `C:/github repos/vcpkg`, the first command to enter would be:
             ```
             cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="C:/github repos/vcpkg/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static
-			```
+            ```
 
-	=== "32-bit"
-	
+    === "32-bit"
+
         ```
         cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=[vcpkg root]/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x86-windows-static -A Win32
         cmake --build build --config release
         ```
-	    
+
         !!! warning "Important!"
             `[vcpkg root]` should be replaced with the path to the vcpkg repository. For example, if the repository is located in `C:/src/vcpkg`, the first command to enter would be:
             ```
@@ -133,7 +139,7 @@ git submodule update --init --recursive
             If the path to the repository includes spaces in it, you will need to put quotation marks around the entire path. For example, if the repository is located in `C:/github repos/vcpkg`, the first command to enter would be:
             ```
             cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="C:/github repos/vcpkg/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -A Win32
-			```
+            ```
 
     The resulting build(s) will be located somewhere in `build/` depending on your system.
 
