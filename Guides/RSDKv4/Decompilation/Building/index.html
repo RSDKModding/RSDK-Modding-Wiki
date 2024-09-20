@@ -13336,6 +13336,10 @@
 <div class="tabbed-block">
 <p><a href="https://cmake.org/download/">Install CMake</a>. <strong>Make sure to enable the feature to add CMake to the system PATH during the installation.</strong></p>
 <p>To handle dependencies, you'll need to install <a href="https://visualstudio.microsoft.com/downloads/">Visual Studio Community</a> with the <code>Desktop development with C++</code> workload. If you already have Visual Studio installed, you can manage your installed workloads by opening Visual Studio Installer from the Start Menu and clicking the <code>Modify</code> button next to your Visual Studio installation.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>An installation of Visual Studio with the <code>Desktop development with C++</code> workload uses around 8 GB of storage space. Make sure you have the necessary space on your drive before proceeding.</p>
+</div>
 <p>You will also need to <a href="https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-cmd#1---set-up-vcpkg">set up vcpkg</a>. You only need to follow <code>1 - Set up vcpkg</code> in the guide.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
@@ -13356,6 +13360,10 @@
 </div>
 </div>
 <div class="tabbed-block">
+<div class="admonition warning">
+<p class="admonition-title">Notice for Steam Deck users</p>
+<p>Due to how SteamOS handles packages, building the decompilation on the Steam Deck is highly difficult and not recommended. Instead, consider building it on another Arch Linux device using that build on the Steam Deck.</p>
+</div>
 <p>Run the following command in the terminal:</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="3:5"><input checked="checked" id="pacman-arch" name="__tabbed_3" type="radio" /><input id="apt-debianubuntu" name="__tabbed_3" type="radio" /><input id="rpm-fedora" name="__tabbed_3" type="radio" /><input id="apk-alpinepostmarketos" name="__tabbed_3" type="radio" /><input id="xbps-void" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="pacman-arch">pacman (Arch)</label><label for="apt-debianubuntu">apt (Debian/Ubuntu)</label><label for="rpm-fedora">rpm (Fedora)</label><label for="apk-alpinepostmarketos">apk (Alpine/PostmarketOS)</label><label for="xbps-void">xbps (Void)</label></div>
 <div class="tabbed-content">
@@ -13612,7 +13620,7 @@ If the path to the repository includes spaces in it, you will need to put quotat
         <script src="../../../../rsdk_theme/background.js"></script>
       
     
-  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "fade"});
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "fade", "closeEffect": "fade", "slideEffect": "fade"});
 document$.subscribe(() => { lightbox.reload() });
 </script></body>
 </html>
