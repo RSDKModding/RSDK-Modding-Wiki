@@ -55,7 +55,7 @@ plugins:
   - glightbox:
       touchNavigation: true
       loop: false
-      effect: zoom
+      effect: fade
       slide_effect: fade
       width: 100%
       height: auto
