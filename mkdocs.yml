@@ -52,6 +52,7 @@ extra_javascript:
 
 plugins:
   - search
+  - site-urls
   - glightbox:
       touchNavigation: true
       loop: false
@@ -514,16 +515,16 @@ nav:
       - Guides/Games/README.md
       - Sonic CD:
         - Guides/Games/SonicCD/README.md
-        - Obtaining the Datapack: Guides/Games/SonicCD/Datapack/README.md
+        - Obtaining the Datapack: Guides/Games/SonicCD/Datapack.md
       - Sonic 1 & 2:
         - Guides/Games/Sonic1-2/README.md
-        - Obtaining the Datapacks: Guides/Games/Sonic1-2/Datapack/README.md
+        - Obtaining the Datapacks: Guides/Games/Sonic1-2/Datapack.md
       - Sonic Mania:
         - Guides/Games/SonicMania/README.md
-        - Obtaining the Datapack: Guides/Games/SonicMania/Datapack/README.md
+        - Obtaining the Datapack: Guides/Games/SonicMania/Datapack.md
       - Sonic 3 & Knuckles:
         - Guides/Games/Sonic3K/README.md
-        - Obtaining the Datapack: Guides/Games/Sonic3K/Datapack/README.md
+        - Obtaining the Datapack: Guides/Games/Sonic3K/Datapack.md
     - RetroED:
       - Guides/RetroED/README.md
       - Using S3KOEditorLink: Guides/RetroED/S3KOEditorLink.md
