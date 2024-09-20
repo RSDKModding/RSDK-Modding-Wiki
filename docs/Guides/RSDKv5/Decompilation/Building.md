@@ -58,7 +58,7 @@ git submodule update --init --recursive
 === "Linux"
 
     !!! warning "Notice for Steam Deck users"
-        Due to how SteamOS handles packages, building the decompilation on the Steam Deck is highly difficult and not recommended. Instead, consider building it on another Arch Linux device using that build on the Steam Deck.
+        Due to how SteamOS handles packages, building the decompilation on the Steam Deck is highly difficult and not recommended. Instead, consider building it on another Arch Linux device and using that build on the Steam Deck.
 
     Run the following command in the terminal:
 
