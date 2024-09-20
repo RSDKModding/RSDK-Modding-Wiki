@@ -54,19 +54,19 @@ The datapack for Sonic CD is required for both playing and modding the game.
 
     Open Filza, then tap the :octicons-star-24: Favorites icon at the bottom. In the menu that appears, tap Apps manager.
 
-    ![Filza favorites menu](site:assets/images/iOS/Filza/Favorites.png){ width="25%" }
+    ![Filza favorites menu](/assets/images/iOS/Filza/Favorites.png){ width="25%" }
 
     A list of your installed apps will appear. Tap **the :octicons-info-24: info icon** next to Sonic CD, then choose Bundle.
 
-    ![Apps manager](site:assets/images/iOS/Filza/AppsManager-SCD.png){ width="25%" } ![Info menu](site:assets/images/iOS/Filza/Info-SCD.png){ width="25%" }
+    ![Apps manager](/assets/images/iOS/Filza/AppsManager-SCD.png){ width="25%" } ![Info menu](/assets/images/iOS/Filza/Info-SCD.png){ width="25%" }
 
     Tap `Sonic CD iOS.app`, then you should see the datapack `Data.rsdk`.
 
-    ![Bundle directory](site:assets/images/iOS/Filza/Bundle-SCD.png){ width="25%" } ![.app directory](site:assets/images/iOS/Filza/AppDirectory-SCD.png){ width="25%" }
+    ![Bundle directory](/assets/images/iOS/Filza/Bundle-SCD.png){ width="25%" } ![.app directory](/assets/images/iOS/Filza/AppDirectory-SCD.png){ width="25%" }
 
     To share one of the files with another app, tap the file, open the Hex Editor, then tap the :octicons-share-24: Share button in the top right corner. When you're finished, tap Done in the Hex Editor to close it.
 
-    ![Open with ...](site:assets/images/iOS/Filza/OpenWith-SCD.png){ width="25%" } ![Hex editor](site:assets/images/iOS/Filza/HexEditor-SCD.png){ width="25%" } ![Share menu](site:assets/images/iOS/Filza/Share-SCD.png){ width="25%" }
+    ![Open with ...](/assets/images/iOS/Filza/OpenWith-SCD.png){ width="25%" } ![Hex editor](/assets/images/iOS/Filza/HexEditor-SCD.png){ width="25%" } ![Share menu](/assets/images/iOS/Filza/Share-SCD.png){ width="25%" }
 
 === "Sonic Origins (Steam)"
 

@@ -50,9 +50,12 @@ extra_css:
 extra_javascript:
   - rsdk_theme/background.js
 
+validation:
+  links:
+    absolute_links: relative_to_docs
+
 plugins:
   - search
-  - site-urls
   - glightbox:
       touchNavigation: true
       loop: false
