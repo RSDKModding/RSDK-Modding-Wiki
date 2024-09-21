@@ -41,7 +41,7 @@ The Dev Menu is a debug menu included with [RSDKv3](../README.md), disabled by d
 | ++f1++                               | Loads the first scene in the Presentation stage list.                                                 |
 | ++f2++                               | Loads the previous scene in the scene list. If pressed in the first scene, it will load the last one. |
 | ++f3++                               | Loads the next scene in the scene list. If pressed in the last scene, it will load the first one.     |
-| ++f5++                               | Reloads the current scene. Holding ++control++ while pressing this will also reload all active mods.  |
+| ++f5++                               | Reloads the current scene.                                                                            |
 | ++f8++                               | Toggles visualizing active touchscreen hitboxes.                                                      |
 | ++f9++                               | Toggles visualizing active hitboxes.                                                                  |
 | ++f10++                              | Toggles displaying the currently loaded palettes.                                                     |
