@@ -32,7 +32,7 @@ mods/
 
 ## Using the Mod Loader
 
-[Enable the Dev Menu](TODO), then while the decompilation is running, press ++escape++ to open the Dev Menu. You can also select it in the pause menu or the Help & Options menu.
+[Enable the Dev Menu](/RSDKv3/Overview/DevMenu.md#rsdkv3-decompilation), then while the decompilation is running, press ++escape++ to open the Dev Menu. You can also select it in the pause menu or the Help & Options menu.
 
 When the Dev Menu is open, choose `MODS` to open the Mod List.
 

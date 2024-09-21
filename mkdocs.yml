@@ -130,7 +130,9 @@ nav:
       - RSDKv3/README.md
       - Decompilation: RSDKv3/Decompilation.md
       - Documentation:
-        - Overview: RSDKv3/Overview/README.md
+        - Overview:
+          - RSDKv3/Overview/README.md
+          - Dev Menu: RSDKv3/Overview/DevMenu.md
         - Subs: RSDKv3/Subs.md
         - Functions:
           - RSDKv3/Functions/README.md
@@ -234,7 +236,9 @@ nav:
       - RSDKv4/README.md
       - Decompilation: RSDKv4/Decompilation.md
       - Documentation:
-        - Overview: RSDKv4/Overview/README.md
+        - Overview:
+          - RSDKv4/Overview/README.md
+          - Dev Menu: RSDKv4/Overview/DevMenu.md
         - Events: RSDKv4/Events.md
         - Functions:
           - RSDKv4/Functions/README.md
@@ -394,7 +398,9 @@ nav:
       - RSDKv5/README.md
       - Decompilation: RSDKv5/Decompilation.md
       - Documentation:
-        - Overview: RSDKv5/Overview/README.md
+        - Overview:
+          - RSDKv5/Overview/README.md
+          - Dev Menu: RSDKv5/Overview/DevMenu.md
         - Events:
           - RSDKv5/Events/README.md
           - Update: RSDKv5/Events/Update.md
