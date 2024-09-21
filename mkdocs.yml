@@ -81,6 +81,8 @@ markdown_extensions:
   - footnotes
   - md_in_html
   - tables
+  - toc:
+      permalink: true
   - pymdownx.keys
   - pymdownx.details
   - pymdownx.critic
