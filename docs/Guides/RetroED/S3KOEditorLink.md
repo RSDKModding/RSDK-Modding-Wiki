@@ -3,11 +3,11 @@
 TODO: screenshots
 
 !!! warning
-    S3KOEditorLink is only compatible with Windows and requires owning the Steam version of [Sonic Origins](../../Games/SonicOrigins/README.md).
+    S3KOEditorLink is only compatible with Windows and requires owning the Steam version of [Sonic Origins](/Games/SonicOrigins/README.md).
 
 ## Prerequisites
-- [RetroED](../../Tools/RetroED/README.md)
-- [S3KOEditorLink](../../Tools/S3KOEditorLink/README.md)
+- [RetroED](/Tools/RetroED/README.md)
+- [S3KOEditorLink](/Tools/S3KOEditorLink/README.md)
 - A PC runnning Windows
 - Sonic Origins installed from Steam
 

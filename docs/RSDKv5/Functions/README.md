@@ -27,9 +27,9 @@
 | [**AddViewableVariable**](Debugging/AddViewableVariable.md)       | Adds a viewable variable to the [Dev Menu](TODO). |
 
 ## Miscellaneous
-| Function                                     | Description                                                                                                  |
-| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| [**NotifyCallback**](Misc/NotifyCallback.md) | Sends the given callback to communicate to [Hedgehog Engine 2](../../Games/SonicOrigins/HedgehogEngine2.md). |
+| Function                                     | Description                                                                                             |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| [**NotifyCallback**](Misc/NotifyCallback.md) | Sends the given callback to communicate to [Hedgehog Engine 2](/Games/SonicOrigins/HedgehogEngine2.md). |
 
 ## Editor
 | Function                                                   | Description                                                                                      |

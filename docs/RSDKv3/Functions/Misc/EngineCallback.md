@@ -72,4 +72,4 @@ EngineCallback(CALLBACK_FINISHGAME_NOTIFY)
 | 4097 | **CALLBACK_SET1P**                            | Sets `activePlayerCount` to `1`. **Decomp only.**                                                                                                                                                                                            |
 | 4098 | **CALLBACK_SET2P**                            | Sets `activePlayerCount` to `2`. **Decomp only.**                                                                                                                                                                                            |
 
-In Sonic Origins, you can also call NotifyCallback callbacks with this function. For more information, including a list of usable callbacks, see [this page](../../../Games/SonicOrigins/Documentation/NotifyCallback/README.md).
+In Sonic Origins, you can also call NotifyCallback callbacks with this function. For more information, including a list of usable callbacks, see [this page](/Games/SonicOrigins/Documentation/NotifyCallback/README.md).

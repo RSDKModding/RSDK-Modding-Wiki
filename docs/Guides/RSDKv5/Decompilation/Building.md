@@ -209,7 +209,7 @@ git submodule update --init --recursive
 | **GAME_STATIC**         | Builds both RSDKv5 and Sonic Mania into one executable. Has no effect if `WITH_RSDK` is disabled.         | Boolean                                       | `off` on Windows or Unix-based platforms, `on` on other platforms |
 | **MANIA_FIRST_RELEASE** | Builds the initial console release of Sonic Mania.                                                        | Boolean                                       | `off`                                                             |
 | **MANIA_PRE_PLUS**      | Builds the last release of Sonic Mania before the Plus update.                                            | Boolean                                       | `off`                                                             |
-| **GAME_INCLUDE_EDITOR** | Includes code for use in editors such as [RetroED](../../../Tools/RetroED/README.md).                     | Boolean                                       | `on`                                                              |
+| **GAME_INCLUDE_EDITOR** | Includes code for use in editors such as [RetroED](/Tools/RetroED/README.md).                             | Boolean                                       | `on`                                                              |
 | **GAME_VERSION**        | The version of the game to build. Has no effect if `MANIA_FIRST_RELEASE` or `MANIA_PRE_PLUS` are enabled. | Integer (See [Game Versions](#game-versions)) | `6`                                                               |
 
 #### Game Versions

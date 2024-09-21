@@ -1,7 +1,7 @@
 # SetPaletteFade
 
 !!! note
-    This function's behavior was changed in REV01; in REV00, it worked the same as [its equivalent function in RSDKv3](../../../RSDKv3/Functions/Drawing/SetPaletteFade.md).
+    This function's behavior was changed in REV01; in REV00, it worked the same as [its equivalent function in RSDKv3](/RSDKv3/Functions/Drawing/SetPaletteFade.md).
 
 ## Description
 Blends palettes `srcBankA` and `srcBankB`, from indexes `startIndex` to `endIndex`, by `blendAmount`, and stores the new palette in `dstBank`.

@@ -42,24 +42,26 @@ CallNativeFunction4(NotifyCallback, NOTIFY_STATS_ENEMY, StageStatsUsabilityParam
 ```
 
 ## Native Functions
-| Function                                                          | Description                                                                                                        |
-| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| [**SetAchievement**](SetAchievement.md)                           | Sets the status of the given achievement.                                                                          |
-| [**SetLeaderboard**](SetLeaderboard.md)                           | Submits the given score to the given leaderboard.                                                                  |
-| [**HapticEffect**](HapticEffect.md)                               |                                                                                                                    |
-| [**Connect2PVS**](Connect2PVS.md)                                 |                                                                                                                    |
-| [**Disconnect2PVS**](Disconnect2PVS.md)                           |                                                                                                                    |
-| [**SendEntity**](SendEntity.md)                                   |                                                                                                                    |
-| [**SendValue**](SendValue.md)                                     |                                                                                                                    |
-| [**ReceiveEntity**](ReceiveEntity.md)                             |                                                                                                                    |
-| [**ReceiveValue**](ReceiveValue.md)                               |                                                                                                                    |
-| [**TransmitGlobal**](TransmitGlobal.md)                           |                                                                                                                    |
-| [**ShowPromoPopup**](ShowPromoPopup.md)                           |                                                                                                                    |
-| [**NativePlayerWaitingAds**](NativePlayerWaitingAds.md)           | Creates a `RewardAds` native object, prompting the player to watch an ad.                                          |
-| [**NativeWaterPlayerWaitingAds**](NativeWaterPlayerWaitingAds.md) | Creates a `RewardAds` native object, prompting the player to watch an ad.                                          |
-| [**NotifyCallback**](NotifyCallback.md)                           | Sends the given callback to communicate to [Hedgehog Engine 2](../../../../Games/SonicOrigins/HedgehogEngine2.md). |
 
-## Decomp-Only Native Functions
+### General
+| Function                                                          | Description                                                                                             |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| [**SetAchievement**](SetAchievement.md)                           | Sets the status of the given achievement.                                                               |
+| [**SetLeaderboard**](SetLeaderboard.md)                           | Submits the given score to the given leaderboard.                                                       |
+| [**HapticEffect**](HapticEffect.md)                               |                                                                                                         |
+| [**Connect2PVS**](Connect2PVS.md)                                 |                                                                                                         |
+| [**Disconnect2PVS**](Disconnect2PVS.md)                           |                                                                                                         |
+| [**SendEntity**](SendEntity.md)                                   |                                                                                                         |
+| [**SendValue**](SendValue.md)                                     |                                                                                                         |
+| [**ReceiveEntity**](ReceiveEntity.md)                             |                                                                                                         |
+| [**ReceiveValue**](ReceiveValue.md)                               |                                                                                                         |
+| [**TransmitGlobal**](TransmitGlobal.md)                           |                                                                                                         |
+| [**ShowPromoPopup**](ShowPromoPopup.md)                           |                                                                                                         |
+| [**NativePlayerWaitingAds**](NativePlayerWaitingAds.md)           | Creates a `RewardAds` native object, prompting the player to watch an ad.                               |
+| [**NativeWaterPlayerWaitingAds**](NativeWaterPlayerWaitingAds.md) | Creates a `RewardAds` native object, prompting the player to watch an ad.                               |
+| [**NotifyCallback**](NotifyCallback.md)                           | Sends the given callback to communicate to [Hedgehog Engine 2](/Games/SonicOrigins/HedgehogEngine2.md). |
+
+### Decomp Only
 | Function                                                      | Description                                 |
 | ------------------------------------------------------------- | ------------------------------------------- |
 | [**SetNetworkGameName**](SetNetworkGameName.md)               |                                             |
