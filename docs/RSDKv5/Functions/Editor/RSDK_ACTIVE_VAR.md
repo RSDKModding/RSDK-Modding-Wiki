@@ -13,20 +13,20 @@ The name of the variable to set as active.
 None.
 
 ## Syntax
-```c
+``` c
 RSDK_ACTIVE_VAR(sVars, variable);
 ```
 
 ## Example
 === "C"
 
-	```c
+	``` c
 	RSDK_ACTIVE_VAR(Player, characterID);
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	RSDK_ACTIVE_VAR(sVars, characterID);
 	```
 

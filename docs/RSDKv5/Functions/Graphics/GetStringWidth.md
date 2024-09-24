@@ -23,25 +23,25 @@ Returns the width of the string in pixels as an `int32`. This width is the same 
 ## Syntax
 === "C"
 
-	```c
+	``` c
 	RSDK.GetStringWidth(uint16 aniFrames, uint16 listID, String *string, int32 startIndex, int32 length, int32 spacing);
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	String.GetWidth(SpriteAnimation aniFrames, uint16 listID, int32 startIndex, int32 length, int32 spacing);
 	```
 
 ## Example
 === "C"
 
-	```c
+	``` c
 	int32 width = RSDK.LoadSpriteAnimation(MyObject->aniFrames, 0, &string, 0, string.length, 1);
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	int32 width = string.GetWidth(sVars->aniFrames, 0, 0, string.length, 1);
 	```

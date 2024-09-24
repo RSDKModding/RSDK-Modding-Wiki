@@ -32,7 +32,7 @@ The number of coins to give the player.
 
 === "v5"
 
-    ```c++
+    ``` c++
     NotifyCallback(NOTIFY_ADD_COIN, int32 count, NULL, NULL);
     ```
 
@@ -52,6 +52,6 @@ The number of coins to give the player.
 
 === "v5"
 
-    ```c++
+    ``` c++
     NotifyCallback(NOTIFY_ADD_COIN, 1, NULL, NULL);
     ```

@@ -15,25 +15,25 @@ Returns the ID of the loaded spritesheet as a `uint16`. The return value will be
 ## Syntax
 === "C"
 
-	```c
+	``` c
 	RSDK.LoadSpriteSheet(const char* path, Scopes scope);
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	SpriteSheet.Load(const char* path, Scopes scope);
 	```
 
 ## Example
 === "C"
 
-	```c
+	``` c
 	MyObject->mySheet = RSDK.LoadSpriteSheet("Test/Objects.gif", SCOPE_STAGE);
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	sVars->mySheet.Load("Test/Objects.gif", SCOPE_STAGE);
 	```

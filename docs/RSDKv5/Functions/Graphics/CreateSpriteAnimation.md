@@ -19,25 +19,25 @@ Returns the id of the created animation file as a `uint16`. The return value wil
 ## Syntax
 === "C"
 
-	```c
+	``` c
 	RSDK.CreateSpriteAnimation(const char *identifier, uint32 frameCount, uint32 listCount, int32 scope);
 	```
 
 === "C++"
 
-	```cpp
-	SpriteAnimation.Create(const char* path, Scopes scope);
+	``` cpp
+	SpriteAnimation.Create(const char *identifier, Scopes scope);
 	```
 
 ## Example
 === "C"
 
-	```c
+	``` c
 	MyObject->aniFrames = RSDK.CreateSpriteAnimation("Test/MyAnim.bin", 256, 32, SCOPE_STAGE);
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	sVars->aniFrames.Create("Test/MyAnim.bin", 256, 32, SCOPE_STAGE);
 	```

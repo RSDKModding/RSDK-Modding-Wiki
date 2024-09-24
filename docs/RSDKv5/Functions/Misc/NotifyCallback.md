@@ -18,18 +18,18 @@ Parameters to use for the callback.
 Depends on the callback used.
 
 ## Syntax
-```c++
+``` c++
 NotifyCallback(int32 callback, int32 param1, int32 param2, int32 param3);
 ```
 
 ## Example
-```c++
+``` c++
 NotifyCallback(NOTIFY_STATS_CHARA_ACTION, 1, 0, 0);
 ```
 
 !!! note
     This is a macro, which is designed to make programming in RSDK easier. The underlying logic is:
-    ```c++
+    ``` c++
 	if (HasNotifyCallback())
         RSDKTable->NotifyCallback(callback, param1, param2, param3);
 	```

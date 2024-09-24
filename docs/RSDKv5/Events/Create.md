@@ -10,25 +10,25 @@ Optional pointer to a user defined data (object type, value...).
 ## Syntax
 === "C"
 
-	```c
+	``` c
 	void Create(void *data);
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	void Create(void *data);
 	```
 
 ## Examples
 === "C"
 
-	```c
+	``` c
 	void MyObject_Create(void *data) { }
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	void MyObject::Create(void *data) { }
 	```

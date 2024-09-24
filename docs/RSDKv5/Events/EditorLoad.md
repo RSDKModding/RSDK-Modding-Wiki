@@ -9,25 +9,25 @@ None.
 ## Syntax
 === "C"
 
-	```c
+	``` c
 	void EditorLoad();
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	static void EditorLoad();
 	```
 
 ## Examples
 === "C"
 
-	```c
+	``` c
 	void MyObject_EditorLoad() { }
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	void MyObject::EditorLoad() { }
 	```

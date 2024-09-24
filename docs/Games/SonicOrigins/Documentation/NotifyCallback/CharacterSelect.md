@@ -32,7 +32,7 @@ If true, skips the character select and automatically loads the save slot for th
 
 === "v5"
 
-    ```c++
+    ``` c++
     NotifyCallback(NOTIFY_CHARACTER_SELECT, int32 skipMenu, NULL, NULL);
     ```
 
@@ -52,6 +52,6 @@ If true, skips the character select and automatically loads the save slot for th
 
 === "v5"
 
-    ```c++
+    ``` c++
     NotifyCallback(NOTIFY_CHARACTER_SELECT, false, NULL, NULL);
     ```

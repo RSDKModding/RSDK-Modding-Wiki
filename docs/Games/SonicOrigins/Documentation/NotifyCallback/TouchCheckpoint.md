@@ -24,6 +24,6 @@ None.
 
 === "v5"
 
-    ```c++
+    ``` c++
     NotifyCallback(NOTIFY_TOUCH_CHECKPOINT, NULL, NULL, NULL);
     ```

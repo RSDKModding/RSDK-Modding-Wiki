@@ -10,26 +10,26 @@ A pointer to the static variables that will be initialized during this event.
 ## Syntax
 === "C"
 
-	```c
+	``` c
 	void StaticLoad(Object[ObjectName] *sVars);
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	static void StaticLoad(Static *sVars);
 	```
 
 ## Examples
 === "C"
 
-	```c
+	``` c
 	void MyObject_StaticLoad(ObjectMyObject *sVars) { }
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	void MyObject::StaticLoad(Static *sVars) { }
 	```
 

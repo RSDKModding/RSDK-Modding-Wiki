@@ -9,25 +9,25 @@ None.
 ## Syntax
 === "C"
 
-	```c
+	``` c
 	void StaticUpdate();
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	static void StaticUpdate();
 	```
 
 ## Examples
 === "C"
 
-	```c
+	``` c
 	void MyObject_StaticUpdate() { }
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	void MyObject::StaticUpdate() { }
 	```

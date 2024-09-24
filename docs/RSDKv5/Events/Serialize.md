@@ -9,25 +9,25 @@ None.
 ## Syntax
 === "C"
 
-	```c
+	``` c
 	void Serialize();
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	static void Serialize();
 	```
 
 ## Examples
 === "C"
 
-	```c
+	``` c
 	void MyObject_Serialize() { }
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	void MyObject::Serialize() { }
 	```

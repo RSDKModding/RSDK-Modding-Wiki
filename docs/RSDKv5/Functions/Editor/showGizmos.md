@@ -10,12 +10,12 @@ None.
 Returns `true` if gizmos should be enabled for this object, or `false` if not.
 
 ## Syntax
-```c
+``` c
 showGizmos();
 ```
 
 ## Example
-```c
+``` c
 if (showGizmos()) { /* do stuff */ }
 ```
 

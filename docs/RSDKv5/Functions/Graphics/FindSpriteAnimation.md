@@ -15,25 +15,25 @@ Returns the ID of the found animation entry as a `uint16`. The return value will
 ## Syntax
 === "C"
 
-	```c
+	``` c
 	RSDK.FindSpriteAnimation(uint16 aniFrames, const char *name);
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	SpriteAnimation.Find(const char *name);
 	```
 
 ## Example
 === "C"
 
-	```c
+	``` c
 	uint16 listID = RSDK.LoadSpriteAnimation(MyObject->aniFrames, "My Animation Entry");
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	uint16 listID = sVars->aniFrames.Find(sVars->aniFrames, "My Animation Entry");
 	```

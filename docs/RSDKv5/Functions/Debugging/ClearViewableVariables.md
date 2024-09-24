@@ -15,12 +15,12 @@ None.
 ## Example
 === "C"
 
-	```c
+	``` c
 	RSDK.ClearViewableVariables();
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	Dev::ClearViewableVariables();
 	```

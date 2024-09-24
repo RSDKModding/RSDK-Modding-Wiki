@@ -48,6 +48,6 @@ None.
 
 === "v5"
 
-    ```c++
+    ``` c++
     NotifyCallback(NOTIFY_CONTROLLER_SUPPORT, NULL, NULL, NULL);
     ```

@@ -17,25 +17,25 @@ Returns a pointer to the retrieved SpriteFrame. The return value will be `NULL` 
 ## Syntax
 === "C"
 
-	```c
+	``` c
 	RSDK.GetFrame(uint16 aniFrames, uint16 listID, int32 frameID);
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	animator.GetFrame(SpriteAnimation aniFrames);
 	```
 
 ## Example
 === "C"
 
-	```c
+	``` c
 	SpriteFrame *frame = RSDK.GetFrame(MyObject->aniFrames, 1, 0);
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	SpriteFrame *frame = animator.GetFrame(sVars->aniFrames);
 	```

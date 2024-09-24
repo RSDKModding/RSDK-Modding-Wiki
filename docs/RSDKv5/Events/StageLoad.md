@@ -9,25 +9,25 @@ None.
 ## Syntax
 === "C"
 
-	```c
+	``` c
 	void StageLoad();
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	static void StageLoad();
 	```
 
 ## Examples
 === "C"
 
-	```c
+	``` c
 	void MyObject_StageLoad() { }
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	void MyObject::StageLoad() { }
 	```

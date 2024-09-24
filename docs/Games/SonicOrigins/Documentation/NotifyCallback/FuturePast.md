@@ -26,7 +26,7 @@ None.
 
 === "v5"
 
-    ```c++
+    ``` c++
     NotifyCallback(NOTIFY_CALLBACK, int32 todo, NULL, NULL);
     ```
 
@@ -46,6 +46,6 @@ None.
 
 === "v5"
 
-    ```c++
+    ``` c++
     NotifyCallback(NOTIFY_CALLBACK, 0, NULL, NULL);
     ```

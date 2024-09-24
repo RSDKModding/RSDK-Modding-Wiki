@@ -11,12 +11,12 @@ Determines if the following code should be considered an "overlay", used for giz
 None.
 
 ## Syntax
-```c
+``` c
 RSDK_DRAWING_OVERLAY(bool32 isDrawingOverlay);
 ```
 
 ## Example
-```c
+``` c
 RSDK_DRAWING_OVERLAY(true);
 
 // draw sprites and stuff

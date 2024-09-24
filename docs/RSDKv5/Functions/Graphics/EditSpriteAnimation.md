@@ -27,25 +27,25 @@ None.
 ## Syntax
 === "C"
 
-	```c
+	``` c
 	RSDK.EditSpriteAnimation(uint16 aniFrames, uint16 listID, const char *name, int32 frameOffset, uint16 frameCount, int16 speed, uint8 loopIndex, uint8 rotationStyle);
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	SpriteAnimation.Edit(uint16 listID, const char *name, int32 frameOffset, uint16 frameCount, int16 speed, uint8 loopIndex, uint8 rotationStyle);
 	```
 
 ## Example
 === "C"
 
-	```c
+	``` c
 	RSDK.EditSpriteAnimation(MyObject->aniFrames, 1, "My Edited Anim", 8, 16, 1, 12, ROTSTYLE_NONE);
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	sVars->aniFrames.Edit(1, "My Edited Anim", 8, 16, 1, 12, Animator::RotateNone);
 	```

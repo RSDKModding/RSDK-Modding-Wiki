@@ -23,25 +23,25 @@ None.
 ## Syntax
 === "C"
 
-	```c
+	``` c
 	RSDK.SetSpriteAnimation(uint16 aniFrames, uint16 listID, Animator *animator, bool32 forceApply, int32 frameID);
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	animator.SetAnimation(SpriteAnimation aniFrames, uint16 listID, bool32 forceApply, int32 frameID);
 	```
 
 ## Example
 === "C"
 
-	```c
+	``` c
 	RSDK.SetSpriteAnimation(MyObject->aniFrames, 0, &self->animator, true, 0);
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	this->animator.SetAnimation(sVars->aniFrames, 0, true, 0);
 	```

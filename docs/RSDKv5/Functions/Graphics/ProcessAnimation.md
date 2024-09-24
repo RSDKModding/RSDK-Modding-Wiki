@@ -13,25 +13,25 @@ None.
 ## Syntax
 === "C"
 
-	```c
+	``` c
 	RSDK.ProcessAnimation(Animator *animator);
 	```
 
 === "C++"
 
-	```cpp
-	Animator.Process();
+	``` cpp
+	animator.Process();
 	```
 
 ## Example
 === "C"
 
-	```c
+	``` c
 	RSDK.ProcessAnimation(&animator);
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	animator.Process();
 	```

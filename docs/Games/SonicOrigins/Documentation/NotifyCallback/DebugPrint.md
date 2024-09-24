@@ -31,7 +31,7 @@ None.
 
 === "v5"
 
-    ```c++
+    ``` c++
     NotifyCallback(NOTIFY_DEBUGPRINT, int32 value1, int32 value2, int32 value3);
     ```
 
@@ -56,6 +56,6 @@ None.
 
 === "v5"
 
-    ```c++
+    ``` c++
     NotifyCallback(NOTIFY_DEBUGPRINT, 100, this->type, this->timer);
     ```

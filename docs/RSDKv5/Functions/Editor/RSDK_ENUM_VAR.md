@@ -15,26 +15,26 @@ None.
 ## Syntax
 === "C"
 
-	```c
+	``` c
 	RSDK_ENUM_VAR(const char* varName, int32 varValue);
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	RSDK_ENUM_VAR(const char* varName);
 	```
 
 ## Example
 === "C"
 
-	```c
+	``` c
 	RSDK_ENUM_VAR("Sonic", PLAYER_CHAR_SONIC);
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	RSDK_ENUM_VAR("Sonic");
 	```
 

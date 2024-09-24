@@ -15,25 +15,25 @@ Returns a pointer to the desired hitbox of the animator's current frame as a `Hi
 ## Syntax
 === "C"
 
-	```c
+	``` c
 	RSDK.GetHitbox(Animator *animator, uint8 hitboxID);
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	animator.GetHitbox(uint8 hitboxID);
 	```
 
 ## Example
 === "C"
 
-	```c
+	``` c
 	Hitbox *hitbox = RSDK.GetHitbox(&animator, 0);
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	Hitbox *hitbox = animator.Load(0);
 	```

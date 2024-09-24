@@ -17,25 +17,25 @@ None.
 ## Syntax
 === "C"
 
-    ```c
+    ``` c
     RSDK.SetSpriteString(uint16 aniFrames, uint16 listID, String *string);
     ```
 
 === "C++"
 
-    ```cpp
+    ``` cpp
     String.SetSpriteString(SpriteAnimation aniFrames, uint16 listID);
     ```
 
 ## Example
 === "C"
 
-    ```c
+    ``` c
     RSDK.LoadSpriteAnimation(MyObject->aniFrames, 0, &string);
     ```
 
 === "C++"
 
-    ```cpp
+    ``` cpp
     string.Load(sVars->aniFrames, 0);
     ```

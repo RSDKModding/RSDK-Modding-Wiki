@@ -15,25 +15,25 @@ Returns the ID of the loaded animation file as a `uint16`. The return value will
 ## Syntax
 === "C"
 
-	```c
+	``` c
 	RSDK.LoadSpriteAnimation(const char* path, Scopes scope);
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	SpriteAnimation.Load(const char* path, Scopes scope);
 	```
 
 ## Example
 === "C"
 
-	```c
+	``` c
 	MyObject->aniFrames = RSDK.LoadSpriteAnimation("Test/MyAnim.bin", SCOPE_STAGE);
 	```
 
 === "C++"
 
-	```cpp
+	``` cpp
 	sVars->aniFrames.Load("Test/MyAnim.bin", SCOPE_STAGE);
 	```
