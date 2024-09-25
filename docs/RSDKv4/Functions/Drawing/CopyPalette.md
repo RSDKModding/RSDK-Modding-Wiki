@@ -1,4 +1,4 @@
-# CopyPalette
+# CopyPalette <small>(RSDKv4)</small>
 
 ## Description
 Copies `count` colors from `srcBank`, starting from `srcIndex`, to `destBank`, starting at `destIndex`.

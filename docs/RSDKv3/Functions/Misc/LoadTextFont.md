@@ -1,4 +1,4 @@
-# LoadTextFont
+# LoadTextFont <small>(RSDKv3)</small>
 
 ## Description
 Loads a bitmap font from `FilePath` for use with text menus.

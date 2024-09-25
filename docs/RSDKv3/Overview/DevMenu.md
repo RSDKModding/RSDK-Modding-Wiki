@@ -1,4 +1,4 @@
-# Dev Menu
+# Dev Menu <small>(RSDKv3)</small>
 
 ![Dev Menu](/assets/images/SonicCD/DevMenu/MainMenu-Blit.png){ align=right , width="30%" }
 

@@ -1,4 +1,4 @@
-# CreateTempObject
+# CreateTempObject <small>(RSDKv4)</small>
 
 ## Description
 Creates a temporary object specified by `type`, `propertyValue`, `xpos` and `ypos` near the end of the object list.

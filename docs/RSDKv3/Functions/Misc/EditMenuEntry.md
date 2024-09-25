@@ -1,4 +1,4 @@
-# EditMenuEntry
+# EditMenuEntry <small>(RSDKv3)</small>
 
 ## Description
 Edits an entry of `Menu` with the contents of `Text` in `RowID`. The text will display highlighted if `HighlightEntry` is set to true.

@@ -1,4 +1,4 @@
-# NotifyCallback (RSDKv5)
+# NotifyCallback <small>(RSDKv5)</small>
 
 !!! note
     This function only exists in Sonic Origins.

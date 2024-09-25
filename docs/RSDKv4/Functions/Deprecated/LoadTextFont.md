@@ -1,4 +1,4 @@
-# LoadTextFont
+# LoadTextFont <small>(RSDKv4)</small>
 
 !!! failure "Deprecated"
     This function was removed from RSDKv4 in REV02.

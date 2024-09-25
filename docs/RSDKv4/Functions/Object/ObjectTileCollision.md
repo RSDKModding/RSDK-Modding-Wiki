@@ -1,4 +1,4 @@
-# ObjectTileCollision
+# ObjectTileCollision <small>(RSDKv4)</small>
 
 ## Description
 Tries to collide with the foreground layer based on the position of `object.ixpos` + `xOffset`, `object.iypos` + `yOffset`.

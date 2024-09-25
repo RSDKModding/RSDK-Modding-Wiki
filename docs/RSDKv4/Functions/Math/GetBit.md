@@ -1,4 +1,4 @@
-# GetBit
+# GetBit <small>(RSDKv4)</small>
 
 ## Description
 Gets the binary bit at index `bitPos` from `value` and stores it in `store`.

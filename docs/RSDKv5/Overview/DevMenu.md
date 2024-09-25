@@ -1,4 +1,4 @@
-# Dev Menu
+# Dev Menu <small>(RSDKv5)</small>
 
 ![Dev Menu](/assets/images/SonicMania/DevMenu/MainMenu-Steam.png){ align=right , width="50%" }
 

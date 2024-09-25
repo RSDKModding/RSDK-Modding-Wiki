@@ -1,4 +1,4 @@
-# Set16x16TileInfo
+# Set16x16TileInfo <small>(RSDKv4)</small>
 
 ## Description
 Sets the value for `infoType` from the tile at `tileX`, `tileY` to `value`.

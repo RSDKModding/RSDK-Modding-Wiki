@@ -1,4 +1,4 @@
-# ReadSaveRAM
+# ReadSaveRAM <small>(RSDKv3)</small>
 
 ## Description
 Reads the contents of the save file on disk into SaveRAM.

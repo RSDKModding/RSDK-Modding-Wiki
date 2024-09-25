@@ -1,4 +1,4 @@
-# SetSfxAttributes
+# SetSfxAttributes <small>(RSDKv3)</small>
 
 ## Description
 Sets the loop count and panning of the given sound effect slot in the GameConfig to the given values.

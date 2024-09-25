@@ -1,4 +1,4 @@
-# LoadTextFile
+# LoadTextFile <small>(RSDKv3)</small>
 
 ## Description
 Loads `Menu` based on the text file loaded from `FilePath`.

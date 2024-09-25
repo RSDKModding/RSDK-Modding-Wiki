@@ -1,4 +1,4 @@
-# SetMusicTrack
+# SetMusicTrack <small>(RSDKv4)</small>
 
 ## Description
 Loads a music file in the given track slot with the given loop point. The music file must be in OGG format.

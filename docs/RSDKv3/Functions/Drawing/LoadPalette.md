@@ -1,4 +1,4 @@
-# LoadPalette
+# LoadPalette <small>(RSDKv3)</small>
 
 ## Description
 Loads a palette into `PalBank` starting from `StartPalIndex`, with an offset of `StartIndex` and reading all colors through to `EndIndex`.

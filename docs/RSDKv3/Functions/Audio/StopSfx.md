@@ -1,4 +1,4 @@
-# StopSfx
+# StopSfx <small>(RSDKv3)</small>
 
 ## Description
 Stops all instances of the given sound effect slot in the GameConfig playing.

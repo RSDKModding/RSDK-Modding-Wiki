@@ -1,4 +1,4 @@
-# ClearDrawList
+# ClearDrawList <small>(RSDKv3)</small>
 
 ## Description
 Removes all entries in drawList `Layer`.

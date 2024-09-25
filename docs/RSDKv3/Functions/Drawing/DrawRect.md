@@ -1,4 +1,4 @@
-# DrawRect
+# DrawRect <small>(RSDKv3)</small>
 
 ## Description
 Draws a rectangle to `iXPos` and `iYPos` in screen-space, with a color based on the `R`, `G`, `B`, and `Alpha`.

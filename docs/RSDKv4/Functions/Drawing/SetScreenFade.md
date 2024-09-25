@@ -1,4 +1,4 @@
-# SetScreenFade
+# SetScreenFade <small>(RSDKv4)</small>
 
 ## Description
 Adds a screen fade effect based on the `r`, `g`, `b` and `alpha` values.

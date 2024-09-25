@@ -1,4 +1,4 @@
-# StopSfx
+# StopSfx <small>(RSDKv4)</small>
 
 ## Description
 Stops all instances of the given sound effect playing.

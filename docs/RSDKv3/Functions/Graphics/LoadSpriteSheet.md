@@ -1,4 +1,4 @@
-# LoadSpriteSheet
+# LoadSpriteSheet <small>(RSDKv3)</small>
 
 ## Description
 Loads a spritesheet and assigns the ID to `Object.SpriteSheet`. The spritesheet must be a GIF file.

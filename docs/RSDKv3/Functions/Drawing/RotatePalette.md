@@ -1,4 +1,4 @@
-# RotatePalette
+# RotatePalette <small>(RSDKv3)</small>
 
 ## Description
 Rotates all colors in `PalBank` from `StartIndex` to `EndIndex`, moving left or right depending on `RotRight`.

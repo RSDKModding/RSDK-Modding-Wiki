@@ -1,4 +1,4 @@
-# CopyPalette
+# CopyPalette <small>(RSDKv3)</small>
 
 ## Description
 Copies `SrcPal` into `DstPal`.

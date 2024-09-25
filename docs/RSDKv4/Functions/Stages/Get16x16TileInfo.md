@@ -1,4 +1,4 @@
-# Get16x16TileInfo
+# Get16x16TileInfo <small>(RSDKv4)</small>
 
 ## Description
 Gets the value for `infoType` from the tile at `tileX`, `tileY` and stores it in `store`.

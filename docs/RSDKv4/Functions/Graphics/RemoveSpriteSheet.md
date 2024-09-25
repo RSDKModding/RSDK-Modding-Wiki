@@ -1,4 +1,4 @@
-# RemoveSpriteSheet
+# RemoveSpriteSheet <small>(RSDKv4)</small>
 
 ## Description
 Removes the given spritesheet from memory, if it is already loaded.

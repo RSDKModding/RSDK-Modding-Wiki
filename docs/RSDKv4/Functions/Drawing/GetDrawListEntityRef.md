@@ -1,4 +1,4 @@
-# GetDrawListEntityRef
+# GetDrawListEntityRef <small>(RSDKv4)</small>
 
 ## Description
 Gets `objectPos` in drawList `layer` and stores it in `store`.

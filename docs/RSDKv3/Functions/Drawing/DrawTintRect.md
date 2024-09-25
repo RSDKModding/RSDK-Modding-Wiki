@@ -1,4 +1,4 @@
-# DrawTintRect
+# DrawTintRect <small>(RSDKv3)</small>
 
 ## Description
 Draws a tinted rectangle to `iXPos` and `iYPos` in screen-space.

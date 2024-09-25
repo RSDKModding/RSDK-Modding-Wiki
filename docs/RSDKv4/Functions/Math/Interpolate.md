@@ -1,4 +1,4 @@
-# Interpolate
+# Interpolate <small>(RSDKv4)</small>
 
 ## Description
 Linearly interpolates (LERPs) `x` and `y` by `percent` and stores the result in `store`.

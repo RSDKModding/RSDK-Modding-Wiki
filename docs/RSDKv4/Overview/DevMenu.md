@@ -1,4 +1,4 @@
-# Dev Menu
+# Dev Menu <small>(RSDKv4)</small>
 
 ![Dev Menu](/assets/images/Sonic1/DevMenu/MainMenu-Mobile.png){ align=right , width="30%" }
 

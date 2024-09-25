@@ -1,4 +1,4 @@
-# CheckTouchRect
+# CheckTouchRect <small>(RSDKv3)</small>
 
 ## Description
 Checks if there's a touch input between the given coordinates.

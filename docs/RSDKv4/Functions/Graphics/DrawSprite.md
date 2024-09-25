@@ -1,4 +1,4 @@
-# DrawSprite
+# DrawSprite <small>(RSDKv4)</small>
 
 ## Description
 Draws `frame` at the object's X and Y position.

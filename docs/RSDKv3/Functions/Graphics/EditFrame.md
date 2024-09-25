@@ -1,4 +1,4 @@
-# EditFrame
+# EditFrame <small>(RSDKv3)</small>
 
 !!! note
     This function does not exist in the Blit releases of Sonic CD.

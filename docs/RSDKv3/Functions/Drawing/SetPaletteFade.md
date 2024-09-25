@@ -1,4 +1,4 @@
-# SetPaletteFade
+# SetPaletteFade <small>(RSDKv3)</small>
 
 ## Description
 Blends the currectly active palette from `StartIndex` to `EndIndex` based on `R`, `G`, `B`, and `BlendAmount`, and stores the new palette in `DstBank`.

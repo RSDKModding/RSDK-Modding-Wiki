@@ -1,4 +1,4 @@
-# MatrixRotateXYZ
+# MatrixRotateXYZ <small>(RSDKv3)</small>
 
 ## Description
 Rotates `Matrix` to `AngleX`, `AngleY` and `AngleZ`.

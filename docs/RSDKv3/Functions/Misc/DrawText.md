@@ -1,4 +1,4 @@
-# DrawText
+# DrawText <small>(RSDKv3)</small>
 
 ## Description
 Draws the contents of `menu`.
