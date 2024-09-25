@@ -20,7 +20,7 @@ The structure of the repository is as shown below: (TODO: Maybe add icons?)
 
     [:octicons-arrow-right-24: Getting started](./Intro/README.md)
 
--   __Retro Engine v5__
+-   :rsdk-icon-v5: __Retro Engine v5__
 
     ---
 
@@ -28,7 +28,7 @@ The structure of the repository is as shown below: (TODO: Maybe add icons?)
 
     [:octicons-arrow-right-24: RSDKv5](./RSDKv5/README.md)
 
--   __Retro Engine v4__
+-   :rsdk-icon-v4: __Retro Engine v4__
 
     ---
 
@@ -36,7 +36,7 @@ The structure of the repository is as shown below: (TODO: Maybe add icons?)
 
     [:octicons-arrow-right-24: RSDKv4](./RSDKv4/README.md)
 
--   __Retro Engine v3__
+-   :rsdk-icon-v3: __Retro Engine v3__
 
     ---
 

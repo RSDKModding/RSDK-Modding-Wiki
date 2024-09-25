@@ -7,7 +7,7 @@
    width="341.33334"
    height="341.33334"
    viewBox="0 0 341.33334 341.33334"
-   sodipodi:docname="icon.svg"
+   sodipodi:docname="icon-v5.svg"
    inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -351,19 +351,19 @@
     <path
        id="path42"
        d="m 0,0 h 27.503 c 1.912,0 3.462,-1.55 3.462,-3.462 v -27.503 c 0,-1.913 -1.55,-3.463 -3.462,-3.463 H 0 c -1.912,0 -3.462,1.55 -3.462,3.463 V -3.462 C -3.462,-1.55 -1.912,0 0,0"
-       style="fill:#3a56a5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="fill:#e0c251;fill-opacity:1;fill-rule:nonzero;stroke:none"
        transform="matrix(1.3333333,0,0,-1.3333333,177.6024,198.226)"
        clip-path="url(#clipPath43)" />
     <path
        id="path44"
        d="m 0,0 h 27.503 c 1.912,0 3.462,-1.55 3.462,-3.462 v -27.503 c 0,-1.913 -1.55,-3.463 -3.462,-3.463 H 0 c -1.912,0 -3.462,1.55 -3.462,3.463 V -3.462 C -3.462,-1.55 -1.912,0 0,0"
-       style="fill:#69bc45;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="fill:#e0c251;fill-opacity:1;fill-rule:nonzero;stroke:none"
        transform="matrix(1.3333333,0,0,-1.3333333,127.0964,198.226)"
        clip-path="url(#clipPath45)" />
     <path
        id="path46"
        d="m 0,0 h 27.503 c 1.912,0 3.462,-1.55 3.462,-3.462 v -27.503 c 0,-1.913 -1.55,-3.463 -3.462,-3.463 H 0 c -1.912,0 -3.462,1.55 -3.462,3.463 V -3.462 C -3.462,-1.55 -1.912,0 0,0"
-       style="fill:#ec2226;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="fill:#e0c251;fill-opacity:1;fill-rule:nonzero;stroke:none"
        transform="matrix(1.3333333,0,0,-1.3333333,76.579067,198.21627)"
        clip-path="url(#clipPath47)" />
   </g>
