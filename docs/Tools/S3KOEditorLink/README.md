@@ -8,8 +8,8 @@ S3KOEditorLink is an RSDKv5U logic file that allows accessing editor renders and
 !!! note
     S3KOEditorLink only works with RSDK editor programs; it **does not** allow playing [Sonic 3 & Knuckles](TODO) in the [RSDKv5U Decompilation](/RSDKv5/Decompilation.md).
 
-[Download :fontawesome-solid-download:](https://github.com/RSDKModding/S3KOEditorLink/releases){ .md-button .md-button--primary}
-[Source Code :fontawesome-brands-github:](https://github.com/RSDKModding/S3KOEditorLink){ .md-button target="_blank"}
+[:fontawesome-solid-download: Download](https://github.com/RSDKModding/S3KOEditorLink/releases){ .md-button .md-button--primary }
+[:fontawesome-brands-github: Source Code](https://github.com/RSDKModding/S3KOEditorLink){ .md-button target="_blank" }
 
 ## Tutorials
 - [Using S3KOEditorLink with RetroED](/Guides/RetroED/S3KOEditorLink.md)

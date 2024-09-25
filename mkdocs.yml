@@ -22,6 +22,7 @@ theme:
     - content.code.annotate
     - content.code.copy
     - content.tabs.link
+    - content.tooltips
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
