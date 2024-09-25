@@ -8,19 +8,15 @@ The Dev Menu is a debug menu included with [RSDKv5](../README.md), disabled by d
 
 The Dev Menu can be enabled by adding the line `devMenu=y` under the `Game` category of the engine's settings.ini file, like so:
 
-<div class="annotate" markdown>
-
 ``` ini hl_lines="4"
 ; Retro Engine Config File
 
 [Game]
-devMenu=y (1)
+devMenu=y ; (1)!
 language=0
 
 ...
 ```
-
-</div>
 
 1. The setting names in settings.ini are case-sensitive; the Dev Menu setting will not apply if the capitalization is incorrect.
 

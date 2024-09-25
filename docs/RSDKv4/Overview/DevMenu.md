@@ -7,20 +7,16 @@ The Dev Menu is a debug menu included with [RSDKv4](../README.md), disabled by d
 ## Enabling
 The Dev Menu is normally inaccessible, however in the [RSDKv4 Decompilation](../Decompilation.md), it can be enabled by setting `DevMenu` to `true` in the settings.ini file, like so:
 
-<div class="annotate" markdown>
-
 ``` ini hl_lines="3"
 [Dev]
 ; Enable this flag to activate dev menu via the ESC key
-DevMenu=true (1)
+DevMenu=true ; (1)!
 ; Enable this flag to activate features used for debugging the engine (may result in slightly slower game speed)
 EngineDebugMode=false
 ; Enable this flag to force the engine to load from the scripts folder instead of from bytecode
 TxtScripts=false
 ...
 ```
-
-</div>
 
 1. Make sure that the decomp is not running while editing settings.ini; otherwise, your changes will be reverted upon closing the decomp.
 

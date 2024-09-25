@@ -19,6 +19,7 @@ theme:
     - navigation.sections
     - navigation.tabs
     - navigation.top
+    - content.code.annotate
     - content.code.copy
     - content.tabs.link
   palette:
