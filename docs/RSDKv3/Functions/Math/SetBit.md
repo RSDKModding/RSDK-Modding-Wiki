@@ -4,12 +4,17 @@
 Sets index `BitPos` of `Value` to `Bit` and updates `Value` accordingly.
 
 ## Parameters
-- `Value`
-The variable to update.
-- `BitPos`
-The position of the bit to set. Indices 0-7 are valid.
-- `Bit`
-Updated boolean value.
+`Value`
+
+:   The variable to update.
+
+`BitPos`
+
+:   The position of the bit to set. Indices 0-7 are valid.
+
+`Bit`
+
+:   Updated boolean value.
 
 ## Return Value
 Updates `Value` with the applied bit.

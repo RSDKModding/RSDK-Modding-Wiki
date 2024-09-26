@@ -7,8 +7,9 @@
 Loads a bitmap font from `filePath` for use with text menus.
 
 ## Parameters
-- `filePath`
-The path to the font.
+`filePath`
+
+:   The path to the font.
 
 ## Return Value
 None.

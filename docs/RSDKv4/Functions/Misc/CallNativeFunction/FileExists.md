@@ -7,10 +7,13 @@
 Checks if a file exists in the Data assets.
 
 ## Parameters
-- `unused`
-Unused parameter.
-- `filePath`
-The path to the target file, relative to the root of the Data assets.
+`unused`
+
+:   Unused parameter.
+
+`filePath`
+
+:   The path to the target file, relative to the root of the Data assets.
 
 ## Return Value
 Sets `checkResult` to `true` if the given file exists, or `false` if it doesn't.

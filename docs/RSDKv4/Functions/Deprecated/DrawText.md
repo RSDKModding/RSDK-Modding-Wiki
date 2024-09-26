@@ -7,20 +7,33 @@
 Draws the contents of `menu`.
 
 ## Parameters
-- `menu`
-The menu from where to read the text. `MENU_1` or `MENU_2` are valid.
-- `xpos`
-Position of the text on the horizontal axis.
-- `ypos`
-Position of the text on the vertical axis.
-- `scale`
-Scale of the text.
-- `spacing`
-Space between each letter.
-- `rowStart`
-The starting index from where to read.
-- `rowCount`
-The amount of rows to draw.
+`menu`
+
+:   The menu from where to read the text. `MENU_1` or `MENU_2` are valid.
+
+`xpos`
+
+:   Position of the text on the horizontal axis.
+
+`ypos`
+
+:   Position of the text on the vertical axis.
+
+`scale`
+
+:   Scale of the text.
+
+`spacing`
+
+:   Space between each letter.
+
+`rowStart`
+
+:   The starting index from where to read.
+
+`rowCount`
+
+:   The amount of rows to draw.
 
 ## Return Value
 None.

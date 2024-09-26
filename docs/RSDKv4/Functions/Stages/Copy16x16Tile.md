@@ -7,10 +7,13 @@ Copies the tileset image data of `srcTile` to `dstTile`.
     This function is used for animated tiles.
 
 ## Parameters
-- `dstTile`
-The tile that will be overwritten.
-- `srcTile`
-The tile that will be copied.
+`dstTile`
+
+:   The tile that will be overwritten.
+
+`srcTile`
+
+:   The tile that will be copied.
 
 ## Return Value
 None.

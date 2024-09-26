@@ -4,10 +4,13 @@
 Attempts to find an animation entry by name.
 
 ## Parameters
-- `aniFrames`
-The SpriteAnimation to search in.
-- `name`
-The name of the animation entry to search for.
+`aniFrames`
+
+:   The SpriteAnimation to search in.
+
+`name`
+
+:   The name of the animation entry to search for.
 
 ## Return Value
 Returns the ID of the found animation entry as a `uint16`. The return value will be `-1` if the animation entry wasn't found.

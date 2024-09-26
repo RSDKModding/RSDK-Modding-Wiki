@@ -4,10 +4,13 @@
 Rotates `matrix` to `angle` on the specified axis.
 
 ## Parameters
-- `matrix`
-The selected matrix for rotation, valid Matrices are `MAT_WORLD`, `MAT_VIEW`, and `MAT_TEMP`.
-- `angle`
-Angle of the rotation, values are 512-based.
+`matrix`
+
+:   The selected matrix for rotation, valid Matrices are `MAT_WORLD`, `MAT_VIEW`, and `MAT_TEMP`.
+
+`angle`
+
+:   Angle of the rotation. Values are 512-based.
 
 ## Return Value
 None.

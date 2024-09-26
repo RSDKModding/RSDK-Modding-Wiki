@@ -7,8 +7,9 @@ Loads an animation file for the current object type.
     Loaded animation files are stored per object *type*, not per object *entity*.
 
 ## Parameters
-- `path`
-The file path to load the animation from, relative to `Data/Animations/`.
+`path`
+
+:   The file path to load the animation from, relative to `Data/Animations/`.
 
 ## Return Value
 None.

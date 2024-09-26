@@ -9,10 +9,13 @@ Sends the given callback to communicate to [Hedgehog Engine 2](/Games/SonicOrigi
 For more information on NotifyCallback, including a list of usable callbacks, see [this page](/Games/SonicOrigins/Documentation/NotifyCallback/README.md).
 
 ## Parameters
-- `callback`
-The index value of the callback.
-- `param1`, `param2`, `param3`
-Parameters to use for the callback.
+`callback`
+
+:   The index value of the callback.
+
+`param1`, `param2`, `param3`
+
+:   Parameters to use for the callback.
 
 ## Return Value
 Depends on the callback used.

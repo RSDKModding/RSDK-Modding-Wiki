@@ -4,11 +4,16 @@
 Awards the player the given amount of coins.
 
 ## Parameters
-- `count`
-The number of coins to give the player.
+`count`
+
+:   The number of coins to give the player.
 
 ## Return Value
-=== "v3/v4"
+=== "v3"
+
+    Sets `game.coinCount` to the new coin count.
+
+=== "v4"
 
     Sets `game.coinCount` to the new coin count.
 

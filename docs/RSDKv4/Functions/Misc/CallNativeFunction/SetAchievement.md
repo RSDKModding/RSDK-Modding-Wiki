@@ -7,10 +7,13 @@ Sets the status of the given achievement.
     This function has no effect if trial mode or debug mode are enabled.
 
 ## Parameters
-- `id`
-The index value of the achievement.
-- `status`
-The status (progress) to set the achievement to, with a range of 0 to 100. If the status is 100, the achievement is considered achieved and will be awarded to the player.
+`id`
+
+:   The index value of the achievement.
+
+`status`
+
+:   The status (progress) to set the achievement to, with a range of 0 to 100. If the status is 100, the achievement is considered achieved and will be awarded to the player.
 
 ## Return Value
 None.

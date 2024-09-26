@@ -4,10 +4,13 @@
 Sets a variable to be the "active variable" when using [RSDK_ENUM_VAR](RSDK_ENUM_VAR.md).
 
 ## Parameters
-- `sVars`
-The static vars of the object class the variable is in.
-- `variable`
-The name of the variable to set as active.
+`sVars`
+
+:   The static vars of the object class the variable is in.
+
+`variable`
+
+:   The name of the variable to set as active.
 
 ## Return Value
 None.

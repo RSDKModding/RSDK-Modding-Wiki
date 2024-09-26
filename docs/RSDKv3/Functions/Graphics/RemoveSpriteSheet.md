@@ -10,8 +10,9 @@ Removes the given spritesheet from memory, if it is already loaded.
     Spritesheets loaded from animation files cannot be removed.
 
 ## Parameters
-- `Path`
-The file path of the target spritesheet to remove, relative to `Data/Sprites/`.
+`Path`
+
+:   The file path of the target spritesheet to remove, relative to `Data/Sprites/`.
 
 ## Return Value
 None.

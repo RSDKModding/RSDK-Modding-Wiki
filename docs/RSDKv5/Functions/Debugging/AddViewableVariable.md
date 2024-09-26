@@ -7,16 +7,25 @@
 Adds a viewable variable to the [Dev Menu](../../Overview/DevMenu.md). Viewable variables exist until the scene is changed or reloaded.
 
 ## Parameters
-- `name`
-The display name of the viewable variable in the dev menu. Display names may be a maximum of 15 characters long.
-- `value`
-A pointer to the value to be tracked, viewed and edited in the [Dev Menu](../../Overview/DevMenu.md).
-- `type`
-The type of the viewable variable, which should match the type of `value`. See [ViewableVarTypes](TODO) for more info on what types are valid.
-- `min`
-The minimum value of the viewable variable (inclusive).
-- `max`
-The maximum value of the viewable variable (inclusive).
+`name`
+
+:   The display name of the viewable variable in the dev menu. Display names may be a maximum of 15 characters long.
+
+`value`
+
+:   A pointer to the value to be tracked, viewed and edited in the [Dev Menu](../../Overview/DevMenu.md).
+
+`type`
+
+:   The type of the viewable variable, which should match the type of `value`. See [ViewableVarTypes](TODO) for more info on what types are valid.
+
+`min`
+
+:   The minimum value of the viewable variable (inclusive).
+
+`max`
+
+:   The maximum value of the viewable variable (inclusive).
 
 ## Return Value
 None.

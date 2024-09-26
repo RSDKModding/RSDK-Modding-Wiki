@@ -4,14 +4,21 @@
 Creates a SpriteAnimation based on the given parameters and returns the ID of it.
 
 ## Parameters
-- `identifier`
-The animation's *unique* identifier. Once created, it can be used to retrieve this animation again.
-- `frameCount`
-The maximum number of SpriteFrames this SpriteAnimation can store.
-- `listCount`
-The maximum number of animation entries this SpriteAnimation can store.
-- `scope`
-The asset's scope, may be `SCOPE_GLOBAL` or `SCOPE_STAGE`.
+`identifier`
+
+:   The animation's *unique* identifier. Once created, it can be used to retrieve this animation again.
+
+`frameCount`
+
+:   The maximum number of SpriteFrames this SpriteAnimation can store.
+
+`listCount`
+
+:   The maximum number of animation entries this SpriteAnimation can store.
+
+`scope`
+
+:   The asset's scope, may be `SCOPE_GLOBAL` or `SCOPE_STAGE`.
 
 ## Return Value
 Returns the id of the created animation file as a `uint16`. The return value will be `-1` if the animation file failed to create.

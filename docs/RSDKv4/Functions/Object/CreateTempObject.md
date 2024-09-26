@@ -7,14 +7,21 @@ Creates a temporary object specified by `type`, `propertyValue`, `xpos` and `ypo
     If there are too many temporary objects loaded when this function is called, the engine will start overwritting them. Therefore, it's recommended to only use this function for objects that quickly get destroyed or unloaded.
 
 ## Parameters
-- `type`
-The type of object that will be created.
-- `propertyValue`
-The Property Value of the object.
-- `xpos`
-The position of the object on the horizontal axis in world-space.
-- `ypos`
-The position of the object on the vertical axis in world-space.
+`type`
+
+:   The type of object that will be created.
+
+`propertyValue`
+
+:   The Property Value of the object.
+
+`xpos`
+
+:   The position of the object on the horizontal axis in world-space.
+
+`ypos`
+
+:   The position of the object on the vertical axis in world-space.
 
 ## Return Value
 Sets `tempObjectPos` to the created object's `entityPos`.

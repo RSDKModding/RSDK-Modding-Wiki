@@ -4,8 +4,9 @@
 Enables/disables "overlay" mode when drawing.
 
 ## Parameters
-- `isDrawingOverlay`
-Determines if the following code should be considered an "overlay", used for gizmos and stuff that shouldn't effect the selection area.
+`isDrawingOverlay`
+
+:   Determines if the following code should be considered an "overlay", used for gizmos and stuff that shouldn't effect the selection area.
 
 ## Return Value
 None.

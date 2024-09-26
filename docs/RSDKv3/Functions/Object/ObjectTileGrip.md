@@ -8,14 +8,21 @@ TODO: this needs a better description to differentiate it from [ObjectTileCollis
     This function is best used to handle moving along surfaces. For handling simpler collision, use [ObjectTileCollision()](ObjectTileCollision.md) instead.
 
 ## Parameters
-- `CSide`
-Determines to which side of the tile the object has to collide. Can be `CSIDE_FLOOR`, `CSIDE_LWALL`, `CSIDE_RWALL`, or `CSIDE_ROOF`. In Sonic Origins, `CSIDE_ENTITY` is available as well.
-- `xOffset`
-Horizontal offset of the object.
-- `yOffset`
-Vertical offset of the object.
-- `CPlane`
-Collision plane to take into account.
+`CSide`
+
+:   Determines to which side of the tile the object has to collide. Can be `CSIDE_FLOOR`, `CSIDE_LWALL`, `CSIDE_RWALL`, or `CSIDE_ROOF`. In Sonic Origins, `CSIDE_ENTITY` is available as well.
+
+`xOffset`
+
+:   Horizontal offset of the object.
+
+`yOffset`
+
+:   Vertical offset of the object.
+
+`CPlane`
+
+:   Collision plane to take into account.
 
 ## Return Value
 Sets `CheckResult` to `true` if there was collision; otherwise, it's set to `false`.

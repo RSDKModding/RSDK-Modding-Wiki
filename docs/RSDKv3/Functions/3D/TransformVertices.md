@@ -4,12 +4,17 @@
 Transform all vertices from `StartIndex` to `EndIndex` using `Matrix`.
 
 ## Parameters
-- `Matrix`
-The matrix used to transform the vertices. Valid matrices are `MAT_WORLD`, `MAT_VIEW`, and `MAT_TEMP`.
-- `StartIndex`
-The start of the range of tranforming vertices.
-- `EndIndex`
-The end of the range of tranforming vertices.
+`Matrix`
+
+:   The matrix used to transform the vertices. Valid matrices are `MAT_WORLD`, `MAT_VIEW`, and `MAT_TEMP`.
+
+`StartIndex`
+
+:   The start of the range of tranforming vertices.
+
+`EndIndex`
+
+:   The end of the range of tranforming vertices.
 
 ## Return Value
 None.

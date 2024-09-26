@@ -4,8 +4,9 @@
 Processes the animation applied to an animator.
 
 ## Parameters
-- `animator`
-The animator used to handle animation of the frames.
+`animator`
+
+:   The animator used to handle animation of the frames.
 
 ## Return Value
 None.

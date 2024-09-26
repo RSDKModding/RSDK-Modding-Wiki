@@ -4,8 +4,9 @@
 Todo.
 
 ## Parameters
-- `todo`
-Todo.
+`todo`
+
+:   Todo.
 
 ## Return Value
 None.

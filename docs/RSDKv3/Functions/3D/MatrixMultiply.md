@@ -4,10 +4,13 @@
 Multiplies `MatrixA` by `MatrixB`.
 
 ## Parameters
-- `MatrixA`
-First factor of the multiplication.
-- `MatrixB`
-Second factor of the multiplication.
+`MatrixA`
+
+:   First factor of the multiplication.
+
+`MatrixB`
+
+:   Second factor of the multiplication.
 
 Valid matrices for both factors are `MAT_WORLD`, `MAT_VIEW`, and `MAT_TEMP`.
 

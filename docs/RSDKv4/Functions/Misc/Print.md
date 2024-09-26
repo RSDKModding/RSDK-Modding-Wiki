@@ -7,12 +7,17 @@ Prints a message or integer to the console.
     This function has no effect in Sonic Origins.
 
 ## Parameters
-- `message`
-The message to print. If `isInt` is `false`, takes a string; otherwise, takes an integer.
-- `isInt`
-`message` will be printed as a string if `false`, and as an integer if `true`.
-- `useEndLine`
-If set to `true`, adds a newline character (`\n`) to the end of the print.
+`message`
+
+:   The message to print. If `isInt` is `false`, takes a string; otherwise, takes an integer.
+
+`isInt`
+
+:   `message` will be printed as a string if `false`, and as an integer if `true`.
+
+`useEndLine`
+
+:   If set to `true`, adds a newline character (`\n`) to the end of the print.
 
 ## Return Value
 None.

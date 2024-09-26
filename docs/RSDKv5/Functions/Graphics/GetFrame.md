@@ -4,12 +4,17 @@
 Retrieves a specific SpriteFrame from a SpriteAnimation.
 
 ## Parameters
-- `aniFrames`
-The SpriteAnimation to use frames from.
-- `listID`
-The index of the animation in the animation list to use frames from. In C++, this value is retrieved from `animator.animationID`.
-- `frameID`
-The index of the frame to get. In C++, this value is retrieved from `animator.frameID`.
+`aniFrames`
+
+:   The SpriteAnimation to use frames from.
+
+`listID`
+
+:   The index of the animation in the animation list to use frames from. In C++, this value is retrieved from `animator.animationID`.
+
+`frameID`
+
+:   The index of the frame to get. In C++, this value is retrieved from `animator.frameID`.
 
 ## Return Value
 Returns a pointer to the retrieved SpriteFrame. The return value will be `NULL` if an error occured.

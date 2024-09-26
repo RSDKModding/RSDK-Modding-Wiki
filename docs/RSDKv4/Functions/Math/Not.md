@@ -4,8 +4,9 @@
 Performs a NOT operation on `value`.
 
 ## Parameters
-- `value`
-The variable to negate.
+`value`
+
+:   The variable to negate.
 
 ## Return Value
 Updates `value` with the result.

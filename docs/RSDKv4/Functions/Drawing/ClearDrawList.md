@@ -4,8 +4,9 @@
 Removes all entries in drawList `layer`.
 
 ## Parameters
-- `layer`
-Layer of the drawList to clean.
+`layer`
+
+:   Layer of the drawList to clean.
 
 ## Return Value
 None.

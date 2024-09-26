@@ -4,14 +4,21 @@
 Draws `frame` at a specified X and Y position with visual effects.
 
 ## Parameters
-- `frame`
-The ID of the SpriteFrame to draw.
-- `drawFXFlag`
-The visual effect to apply.
-- `xpos`
-The position of the sprite on the horizontal axis in world-space.
-- `ypos`
-The position of the sprite on the vertical axis in world-space.
+`frame`
+
+:   The ID of the SpriteFrame to draw.
+
+`drawFXFlag`
+
+:   The visual effect to apply.
+
+`xpos`
+
+:   The position of the sprite on the horizontal axis in world-space.
+
+`ypos`
+
+:   The position of the sprite on the vertical axis in world-space.
 
 ## Return Value
 None.

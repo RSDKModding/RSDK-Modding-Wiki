@@ -4,8 +4,9 @@
 Has no effect in-game, but would have likely printed the given values to the console in debug builds of Sonic Origins.
 
 ## Parameters
-- `value1`, `value2`, `value3`
-The values to (supposedly) print.
+`value1`, `value2`, `value3`
+
+:   The values to (supposedly) print.
 
 ## Return Value
 None.

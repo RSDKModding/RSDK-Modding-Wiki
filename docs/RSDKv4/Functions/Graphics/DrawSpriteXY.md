@@ -4,12 +4,17 @@
 Draws `frame` at a specified X and Y position.
 
 ## Parameters
-- `frame`
-The ID of the SpriteFrame to draw.
-- `xpos`
-The position of the sprite on the horizontal axis in world-space.
-- `ypos`
-The position of the sprite on the vertical axis in world-space.
+`frame`
+
+:   The ID of the SpriteFrame to draw.
+
+`xpos`
+
+:   The position of the sprite on the horizontal axis in world-space.
+
+`ypos`
+
+:   The position of the sprite on the vertical axis in world-space.
 
 ## Return Value
 None.

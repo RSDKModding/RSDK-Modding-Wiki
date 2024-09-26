@@ -4,22 +4,37 @@
 Replaces the properties of an animation with the given parameters.
 
 ## Parameters
-- `aniFrames`
-The SpriteAnimation to be edited.
-- `listID`
-The index of the animation entry to be edited.
-- `name`
-The animation's name.
-- `frameOffset`
-The frame list offset to start this animation's frames from.
-- `frameCount`
-The number of frames in the animation.
-- `speed`
-The speed of the animation.
-- `loopIndex`
-The index of the frame the animation should loop from.
-- `rotationStyle`
-The style of rotation snapping to use for frames in this animation.
+`aniFrames`
+
+:   The SpriteAnimation to be edited.
+
+`listID`
+
+:   The index of the animation entry to be edited.
+
+`name`
+
+:   The animation's name.
+
+`frameOffset`
+
+:   The frame list offset to start this animation's frames from.
+
+`frameCount`
+
+:   The number of frames in the animation.
+
+`speed`
+
+:   The speed of the animation.
+
+`loopIndex`
+
+:   The index of the frame the animation should loop from.
+
+`rotationStyle`
+
+:   The style of rotation snapping to use for frames in this animation.
 
 ## Return Value
 None.

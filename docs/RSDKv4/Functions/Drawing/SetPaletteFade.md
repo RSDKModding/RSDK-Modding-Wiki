@@ -7,18 +7,29 @@
 Blends palettes `srcBankA` and `srcBankB`, from indexes `startIndex` to `endIndex`, by `blendAmount`, and stores the new palette in `dstBank`.
 
 ## Parameters
-- `dstBank`
-The ID of the palette for store. Indices 0-7 are valid.
-- `srcBankA`
-The first palette to blend.
-- `srcBankB`
-The second palette to blend.
-- `blendAmount`
-A value range of 0-255 for blending.
-- `startIndex`
-The starting index of the palette bank to blend.
-- `endIndex`
-The ending index of the palette bank to blend.
+`dstBank`
+
+:   The ID of the palette for store. Indices 0-7 are valid.
+
+`srcBankA`
+
+:   The first palette to blend.
+
+`srcBankB`
+
+:   The second palette to blend.
+
+`blendAmount`
+
+:   A value range of 0-255 for blending.
+
+`startIndex`
+
+:   The starting index of the palette bank to blend.
+
+`endIndex`
+
+:   The ending index of the palette bank to blend.
 
 ## Return Value
 None.

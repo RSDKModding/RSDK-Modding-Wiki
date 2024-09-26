@@ -4,16 +4,25 @@
 Resets an object in position `slot` with the `type`, `propertyValue`, `xpos`, and `ypos` specified.
 
 ## Parameters
-- `slot`
-The index of the object to reset.
-- `type`
-The new type of the object.
-- `propertyValue`
-The new property value of the object.
-- `xpos`
-The new position of the object on the horizontal axis in world-space.
-- `ypos`
-The new position of the object on the vertical axis in world-space.
+`slot`
+
+:   The index of the object to reset.
+
+`type`
+
+:   The new type of the object.
+
+`propertyValue`
+
+:   The new property value of the object.
+
+`xpos`
+
+:   The new position of the object on the horizontal axis in world-space.
+
+`ypos`
+
+:   The new position of the object on the vertical axis in world-space.
 
 ## Return Value
 None.

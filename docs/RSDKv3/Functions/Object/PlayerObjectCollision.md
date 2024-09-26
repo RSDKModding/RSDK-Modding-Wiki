@@ -5,10 +5,13 @@ Checks for collision of an object with the player, using the hitbox values passe
 
 
 ## Parameters
-- `CollisionType`
-Type of collision with the object, can be `C_TOUCH`, `C_BOX`, `C_BOX2` or `C_PLATFORM`. In Origins Plus, `C_BOX3` and `C_ENEMY` are available as well.
-- `Left` / `Top` / `Right` / `Bottom`
-The values for the object's hitbox.
+`CollisionType`
+
+:   Type of collision with the object, can be `C_TOUCH`, `C_BOX`, `C_BOX2` or `C_PLATFORM`. In Origins Plus, `C_BOX3` and `C_ENEMY` are available as well.
+
+`Left` / `Top` / `Right` / `Bottom`
+
+:   The values for the object's hitbox.
 
 ## Return Value
 If there wasn't any collision, `CheckResult` will be `false`.

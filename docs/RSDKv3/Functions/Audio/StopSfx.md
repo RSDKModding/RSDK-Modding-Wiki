@@ -4,8 +4,9 @@
 Stops all instances of the given sound effect slot in the GameConfig playing.
 
 ## Parameters
-- `SFX`
-The slot of the sound effect in the GameConfig.
+`SFX`
+
+:   The slot of the sound effect in the GameConfig.
 
 ## Return Value
 None.

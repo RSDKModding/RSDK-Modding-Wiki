@@ -7,10 +7,13 @@ Submits the given score to the given leaderboard.
     This function has no effect if trial mode or debug mode are enabled.
 
 ## Parameters
-- `leaderboardID`
-The index value of the leaderboard.
-- `score`
-The score to submit to the leaderboard. The score will not be submitted if it's lower than the score already in the leaderboard.
+`leaderboardID`
+
+:   The index value of the leaderboard.
+
+`score`
+
+:   The score to submit to the leaderboard. The score will not be submitted if it's lower than the score already in the leaderboard.
 
 ## Return Value
 None.

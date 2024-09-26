@@ -4,16 +4,25 @@
 Checks for collision of an object with another, using the hitbox values passed.
 
 ## Parameters
-- `collisionType`
-Type of collision with the object. Can be `C_TOUCH`, `C_SOLID`, `C_SOLID2`, or `C_PLATFORM`.
-- `thisObject`
-The source of the collision.
-- `thisLeft` / `thisTop` / `thisRight` / `thisBottom`
-The values for the object's hitbox.
-- `otherObject`
-The object to check for collision with.
-- `otherLeft` / `otherTop` / `otherRight` / `otherBottom`
-The values for the target's hitbox.
+`collisionType`
+
+:   Type of collision with the object. Can be `C_TOUCH`, `C_SOLID`, `C_SOLID2`, or `C_PLATFORM`.
+
+`thisObject`
+
+:   The source of the collision.
+
+`thisLeft` / `thisTop` / `thisRight` / `thisBottom`
+
+:   The values for the object's hitbox.
+
+`otherObject`
+
+:   The object to check for collision with.
+
+`otherLeft` / `otherTop` / `otherRight` / `otherBottom`
+
+:   The values for the target's hitbox.
 
 ## Return Value
 If there wasn't any collision, `checkResult` will be `false`.

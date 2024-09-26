@@ -4,10 +4,13 @@
 Loads a spritesheet and returns the ID of it.
 
 ## Parameters
-- `path`
-The file path to load the spritesheet from, relative to `Data/Sprites/`. Spritesheets may **ONLY** be in GIF format.
-- `scope`
-The asset's scope, may be `SCOPE_GLOBAL` or `SCOPE_STAGE`.
+`path`
+
+:   The file path to load the spritesheet from, relative to `Data/Sprites/`. Spritesheets may **ONLY** be in GIF format.
+
+`scope`
+
+:   The asset's scope, may be `SCOPE_GLOBAL` or `SCOPE_STAGE`.
 
 ## Return Value
 Returns the ID of the loaded spritesheet as a `uint16`. The return value will be `-1` if the animation file failed to load.
