@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="put_me_in_an_appropiate_folder.css" />
+
 # GraphicsGale
 
 GraphicsGale (also known as Gale) is an image editing program tailored towards pixel art, written by HUMANBALANCE Ltd. The software includes features such as onion skin, real-time preview for GIF animations, batch conversion, and editing Windows icon (ICO) and cursor (CUR) files. GraphicsGale was originally released as paid software in 2004 before being released as freeware in 2017.
@@ -11,6 +13,17 @@ GraphicsGale was used by Christian Whitehead for handling most graphic assets wh
 
 TODO: Is there a better way to make a horizontally aligned images with captions?
 
-| ![Original color palette](/assets/images/GraphicsGale/Palettes/S1-Sonic1.png) | ![Palette after saved through GraphicsGale](/assets/images/GraphicsGale/Palettes/S1-Sonic1.png) | ![Palette after saved through paint.net](/assets/images/GraphicsGale/Palettes/S1-Sonic1-PDN.png) |
-| :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------: |
-| Original color palette                                                        | Palette after saved through GraphicsGale                                                        | Palette after saved through paint.net                                                            |
+<figure markdown>
+![Original color palette](/assets/images/GraphicsGale/Palettes/S1-Sonic1.png)
+<figcaption>Original color palette</figcaption>
+</figure>
+<figure markdown>
+![Palette after saved through GraphicsGale](/assets/images/GraphicsGale/Palettes/S1-Sonic1.png)
+<figcaption>Palette after saved
+<br>through GraphicsGale</figcaption>
+</figure>
+<figure markdown>
+![Palette after saved through paint.net](/assets/images/GraphicsGale/Palettes/S1-Sonic1-PDN.png)
+<figcaption>Palette after saved
+<br>through paint.net</figcaption>
+</figure>
