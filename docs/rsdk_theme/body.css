@@ -31,3 +31,11 @@
 .md-typeset .tabbed-control--prev {
     background: linear-gradient(to right, var(--content-bg-color) 50%, transparent)
 }
+
+.uncenter {
+    text-align: center;
+    max-width: 40%;
+    float: left;
+    margin: 0;
+    padding: 25px;
+}
