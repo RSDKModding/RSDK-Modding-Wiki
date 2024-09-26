@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../../../assets/favicon.svg">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.36">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.37">
     
     
       
@@ -26,7 +26,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/main.06209087.min.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.8c3ca2c6.min.css">
       
         
         <link rel="stylesheet" href="../../../../assets/stylesheets/palette.06af60db.min.css">
@@ -102,7 +102,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#get16x16tileinfo" class="md-skip">
+        <a href="#get16x16tileinfo-rsdkv4" class="md-skip">
           Skip to content
         </a>
       
@@ -13554,31 +13554,39 @@
   
 
 
-<h1 id="get16x16tileinfo">Get16x16TileInfo<a class="headerlink" href="#get16x16tileinfo" title="Permanent link">&para;</a></h1>
+<h1 id="get16x16tileinfo-rsdkv4">Get16x16TileInfo <small>(RSDKv4)</small><a class="headerlink" href="#get16x16tileinfo-rsdkv4" title="Permanent link">&para;</a></h1>
 <h2 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
 <p>Gets the value for <code>infoType</code> from the tile at <code>tileX</code>, <code>tileY</code> and stores it in <code>store</code>.</p>
 <h2 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">&para;</a></h2>
+<dl>
+<dt><code>store</code></dt>
+<dd>
+<p>The variable that will store the tile's specified <code>infoType</code> data.</p>
+</dd>
+<dt><code>tileX</code></dt>
+<dd>
+<p>Position of the 16x16 tile in the map on the horizontal axis.</p>
+</dd>
+<dt><code>tileY</code></dt>
+<dd>
+<p>Position of the 16x16 tile in the map on the vertical axis.</p>
+</dd>
+<dt><code>infoType</code></dt>
+<dd>
+<p>The ID for the type of info read from the tile. The valid values are:</p>
 <ul>
-<li><code>store</code>
-The variable that will store the tile's specified <code>infoType</code> data.</li>
-<li><code>tileX</code>
-Position of the 16x16 tile in the map on the horizontal axis.</li>
-<li><code>tileY</code>
-Position of the 16x16 tile in the map on the vertical axis.</li>
-<li><code>infoType</code>
-The ID for the type of info read from the tile. The valid values are:<ul>
-<li>0 (TILEINFO_INDEX)</li>
-<li>1 (TILEINFO_DIRECTION)</li>
-<li>2 (TILEINFO_VISUALPLANE)</li>
-<li>3 (TILEINFO_SOLIDITYA)</li>
-<li>4 (TILEINFO_SOLIDITYB)</li>
-<li>5 (TILEINFO_FLAGSA)</li>
-<li>6 (TILEINFO_ANGLEA)</li>
-<li>7 (TILEINFO_FLAGSB)</li>
-<li>8 (TILEINFO_ANGLEB)</li>
+<li>0 (<code>TILEINFO_INDEX</code>)</li>
+<li>1 (<code>TILEINFO_DIRECTION</code>)</li>
+<li>2 (<code>TILEINFO_VISUALPLANE</code>)</li>
+<li>3 (<code>TILEINFO_SOLIDITYA</code>)</li>
+<li>4 (<code>TILEINFO_SOLIDITYB</code>)</li>
+<li>5 (<code>TILEINFO_FLAGSA</code>)</li>
+<li>6 (<code>TILEINFO_ANGLEA</code>)</li>
+<li>7 (<code>TILEINFO_FLAGSB</code>)</li>
+<li>8 (<code>TILEINFO_ANGLEB</code>)</li>
 </ul>
-</li>
-</ul>
+</dd>
+</dl>
 <h2 id="return-value">Return Value<a class="headerlink" href="#return-value" title="Permanent link">&para;</a></h2>
 <p>Sets <code>store</code> to the chunk ID.</p>
 <h2 id="syntax">Syntax<a class="headerlink" href="#syntax" title="Permanent link">&para;</a></h2>
@@ -13668,7 +13676,7 @@ The ID for the type of info read from the tile. The valid values are:<ul>
     <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.instant", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "content.code.annotate", "content.code.copy", "content.tabs.link", "content.tooltips"], "search": "../../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.d6f25eb3.min.js"></script>
       
         <script src="../../../../rsdk_theme/background.js"></script>
       

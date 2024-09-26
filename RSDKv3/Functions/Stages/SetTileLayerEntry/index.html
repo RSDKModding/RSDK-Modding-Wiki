@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../../../assets/favicon.svg">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.36">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.37">
     
     
       
@@ -26,7 +26,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/main.06209087.min.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.8c3ca2c6.min.css">
       
         
         <link rel="stylesheet" href="../../../../assets/stylesheets/palette.06af60db.min.css">
@@ -102,7 +102,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#settilelayerentry" class="md-skip">
+        <a href="#settilelayerentry-rsdkv3" class="md-skip">
           Skip to content
         </a>
       
@@ -13554,26 +13554,34 @@
   
 
 
-<h1 id="settilelayerentry">SetTileLayerEntry<a class="headerlink" href="#settilelayerentry" title="Permanent link">&para;</a></h1>
+<h1 id="settilelayerentry-rsdkv3">SetTileLayerEntry <small>(RSDKv3)</small><a class="headerlink" href="#settilelayerentry-rsdkv3" title="Permanent link">&para;</a></h1>
 <h2 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
 <p>Sets the chunk at <code>ChunkX</code>, <code>ChunkY</code> in tile layer <code>Layer</code> to the index of <code>Value</code>.</p>
 <h2 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">&para;</a></h2>
+<dl>
+<dt><code>Value</code></dt>
+<dd>
+<p>The index value of the new chunk.</p>
+</dd>
+<dt><code>Layer</code></dt>
+<dd>
+<p>The ID of the layer where the chunk comes from. The valid values are:</p>
 <ul>
-<li><code>Value</code>
-The index value of the new chunk.</li>
-<li><code>Layer</code>
-The ID of the layer where the chunk comes from. The valid values are:<ul>
-<li>0 (DEFORM_FG)</li>
-<li>1 (DEFORM_FG_WATER)</li>
-<li>2 (DEFORM_BG)</li>
-<li>3 (DEFORM_BG_WATER)</li>
+<li>0 (<code>DEFORM_FG</code>)</li>
+<li>1 (<code>DEFORM_FG_WATER</code>)</li>
+<li>2 (<code>DEFORM_BG</code>)</li>
+<li>3 (<code>DEFORM_BG_WATER</code>)</li>
 </ul>
-</li>
-<li><code>ChunkX</code>
-Position of the 128x128 chunk in the map on the horizontal axis.</li>
-<li><code>ChunkY</code>
-Position of the 128x128 chunk in the map on the vertical axis.</li>
-</ul>
+</dd>
+<dt><code>ChunkX</code></dt>
+<dd>
+<p>Position of the 128x128 chunk in the map on the horizontal axis.</p>
+</dd>
+<dt><code>ChunkY</code></dt>
+<dd>
+<p>Position of the 128x128 chunk in the map on the vertical axis.</p>
+</dd>
+</dl>
 <h2 id="return-value">Return Value<a class="headerlink" href="#return-value" title="Permanent link">&para;</a></h2>
 <p>None.</p>
 <h2 id="syntax">Syntax<a class="headerlink" href="#syntax" title="Permanent link">&para;</a></h2>
@@ -13663,7 +13671,7 @@ Position of the 128x128 chunk in the map on the vertical axis.</li>
     <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.instant", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "content.code.annotate", "content.code.copy", "content.tabs.link", "content.tooltips"], "search": "../../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.d6f25eb3.min.js"></script>
       
         <script src="../../../../rsdk_theme/background.js"></script>
       

@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../../../../assets/favicon.svg">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.36">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.37">
     
     
       
@@ -26,7 +26,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.06209087.min.css">
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.8c3ca2c6.min.css">
       
         
         <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.06af60db.min.css">
@@ -13539,13 +13539,18 @@
 <h2 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
 <p>Opens Sonic Origins's character select menu, then sets <code>callbackResult</code> and <code>continueFlag</code> when the menu is closed.</p>
 <h2 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">&para;</a></h2>
-<ul>
-<li><code>skipMenu</code>
-If true, skips the character select and automatically loads the save slot for the current character.</li>
-</ul>
+<dl>
+<dt><code>skipMenu</code></dt>
+<dd>
+<p>If true, skips the character select and automatically loads the save slot for the current character.</p>
+</dd>
+</dl>
 <h2 id="return-value">Return Value<a class="headerlink" href="#return-value" title="Permanent link">&para;</a></h2>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="v3v4" name="__tabbed_1" type="radio" /><input id="v5" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="v3v4">v3/v4</label><label for="v5">v5</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="v3" name="__tabbed_1" type="radio" /><input id="v4" name="__tabbed_1" type="radio" /><input id="v5" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="v3">v3</label><label for="v4">v4</label><label for="v5">v5</label></div>
 <div class="tabbed-content">
+<div class="tabbed-block">
+<p>If the menu is backed out of without selecting a save slot, <code>game.callbackResult</code> is set to <code>0</code>; otherwise, it's set to <code>1</code>. If the selected save slot is an existing save, <code>game.continueFlag</code> is set to <code>true</code>.</p>
+</div>
 <div class="tabbed-block">
 <p>If the menu is backed out of without selecting a save slot, <code>game.callbackResult</code> is set to <code>0</code>; otherwise, it's set to <code>1</code>. If the selected save slot is an existing save, <code>game.continueFlag</code> is set to <code>true</code>.</p>
 </div>
@@ -13555,7 +13560,7 @@ If true, skips the character select and automatically loads the save slot for th
 </div>
 </div>
 <h2 id="syntax">Syntax<a class="headerlink" href="#syntax" title="Permanent link">&para;</a></h2>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:3"><input checked="checked" id="v3" name="__tabbed_2" type="radio" /><input id="v4" name="__tabbed_2" type="radio" /><input id="v5_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="v3">v3</label><label for="v4">v4</label><label for="v5_1">v5</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:3"><input checked="checked" id="v3_1" name="__tabbed_2" type="radio" /><input id="v4_1" name="__tabbed_2" type="radio" /><input id="v5_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="v3_1">v3</label><label for="v4_1">v4</label><label for="v5_1">v5</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>game.callbackParam0 = skipMenu
@@ -13573,7 +13578,7 @@ If true, skips the character select and automatically loads the save slot for th
 </div>
 </div>
 <h2 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h2>
-<div class="tabbed-set tabbed-alternate" data-tabs="3:3"><input checked="checked" id="v3_1" name="__tabbed_3" type="radio" /><input id="v4_1" name="__tabbed_3" type="radio" /><input id="v5_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="v3_1">v3</label><label for="v4_1">v4</label><label for="v5_2">v5</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:3"><input checked="checked" id="v3_2" name="__tabbed_3" type="radio" /><input id="v4_2" name="__tabbed_3" type="radio" /><input id="v5_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="v3_2">v3</label><label for="v4_2">v4</label><label for="v5_2">v5</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>game.callbackParam0 = false
@@ -13671,7 +13676,7 @@ If true, skips the character select and automatically loads the save slot for th
     <script id="__config" type="application/json">{"base": "../../../../..", "features": ["navigation.instant", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "content.code.annotate", "content.code.copy", "content.tabs.link", "content.tooltips"], "search": "../../../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      <script src="../../../../../assets/javascripts/bundle.d6f25eb3.min.js"></script>
       
         <script src="../../../../../rsdk_theme/background.js"></script>
       
