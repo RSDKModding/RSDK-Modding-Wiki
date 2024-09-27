@@ -9,6 +9,7 @@
     --circle-border-color: rgba(240, 200, 170, 20%);
     --square-border-color: rgba(224, 0, 0, 20%);
     --md-typeset-a-color: #5488E8;
+    --md-typeset-button-color: var(--md-primary-bg-color);
     --controller-a-color: #00C800;
     --controller-b-color: #F0B000;
     --controller-c-color: #0020B0;
@@ -24,10 +25,23 @@
     --content-bg-color: hsl(210, 35%, 22%);
     --circle-border-color: rgba(15, 55, 95, 20%);
     --square-border-color: rgba(120, 0, 0, 20%);
+    --md-typeset-button-color: var(--md-primary-fg-color);
     --controller-a-color: #70C040;
     --controller-b-color: #F0D800;
     --controller-c-color: #1870B8;
     --controller-start-color: var(--md-typeset-color);
+}
+
+/* Form Button */
+.md-typeset .md-button:not(:focus, :hover) {
+  color: var(--md-typeset-color);
+}
+
+/* Primary Form Button */
+.md-typeset .md-button--primary:not(:focus, :hover) {
+  color: var(--md-typeset-button-color);
+  background-color: var(--md-typeset-color);
+  border-color: var(--md-typeset-color);
 }
 
 /* Controller button icons */
