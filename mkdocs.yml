@@ -7,7 +7,6 @@ copyright: Not affiliated with Evening Star or SEGA
 theme:
   name: material
   custom_dir: overrides
-  logo: assets/icon.png
   favicon: assets/favicon.svg
   icon:
     logo: rsdk/logo
