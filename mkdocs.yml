@@ -74,6 +74,14 @@ plugins:
       draggable: true
       effect: fade
       width: 100%
+  - git-committers:
+      enabled: !ENV [CI, false]
+      repository: RSDKModding/RSDK-Modding-Wiki
+      # can add an "exclude" list here
+  - git-revision-date-localized:
+      enabled: !ENV [CI, false]
+      enable_creation_date: true
+      # can add an "exclude" list here
 
 markdown_extensions:
   - abbr
