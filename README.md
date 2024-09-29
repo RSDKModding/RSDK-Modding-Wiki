@@ -2,14 +2,14 @@
     <a href="#rsdk">
         <img width="120" align="left" src="docs/assets/favicon.svg">
     </a>
-    RSDK<span style="font-weight: 200;"> Modding Wiki</span>
+    RSDK <span style="font-weight: 200;">Modding Wiki</span>
 </h1>
 
-GitHub Page with documentation, tools and guides for modding Retro Engine games, powered by [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) and inspired by [HedgeDocs](https://github.com/HedgeDocs/HedgeDocs.github.io).
+GitHub Page with documentation, tools and guides for modding Retro Engine games, powered by [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) and inspired by [HedgeDocs](https://hedgedocs.com/).
 
 ## Contributing
 
-This wiki is written in markdown, just like GitHub's own markdown files! One of the best ways to write markdown text files is to use [Visual Studio Code](https://code.visualstudio.com/), which allows you to preview the page you are currently typing by pressing CTRL+Shift+V, making it easy to see how your page might look like on the website. For a more accurate look, you absolutely should setup the website locally by following the instructions in the [Testing](#testing) section.
+This wiki is written in Markdown, just like GitHub's own Markdown files! One of the best ways to write Markdown text files is to use [Visual Studio Code](https://code.visualstudio.com/), which allows you to preview the page you are currently typing by pressing CTRL+Shift+V, making it easy to see how your page might look like on the website. For a more accurate look, you absolutely should setup the website locally by following the instructions in the [Testing](#testing) section.
 
 We appreciate every contribution that's made to the wiki, as every single one helps the modding community to grow and make better mods.
 
@@ -17,13 +17,13 @@ We appreciate every contribution that's made to the wiki, as every single one he
 
 Adding a new page to the wiki is easy! After creating a fork of this repository, edit it by following these steps:
 1. Add your page in the appropriate place by editing the `mkdocs.yml` file. You can even create new sections if you don't see one that fits your needs!
-2. Create a markdown file in the location you specified in the previous step, and that's it!
+2. Create a Markdown file in the location you specified in the previous step, and that's it!
 
 After you added your contributions, open a pull request, and if approved, your page will be shown in the wiki for the whole world to see.
 
 ### Material for MkDocs features
 
-Since this wiki uses Material for MkDocs, you might want to check its [references](https://squidfunk.github.io/mkdocs-material/reference/) to better understand its features. You can use plain markdown, but you can also use admonitions, buttons, and even icons from Font Awesome.
+Since this wiki uses Material for MkDocs, you might want to check its [references](https://squidfunk.github.io/mkdocs-material/reference/) to better understand its features. You can use plain Markdown, but you can also use admonitions, buttons, and even icons from Font Awesome.
 
 ### Testing
 

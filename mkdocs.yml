@@ -1,8 +1,10 @@
 site_name: RSDK Modding Wiki
 site_description: Retro Engine modding guides and tools
 site_url: https://rsdkmodding.com
+site_author: RSDKModding Team
 repo_url: https://github.com/RSDKModding/RSDK-Modding-Wiki
 repo_name: RSDK-Modding-Wiki
+edit_uri: edit/master/docs/
 copyright: Not affiliated with Evening Star or SEGA
 theme:
   name: material
@@ -16,15 +18,17 @@ theme:
       note: material/pencil
       tip: material/lightbulb
   features:
-    - navigation.instant
-    - navigation.indexes
-    - navigation.sections
-    - navigation.tabs
-    - navigation.top
+    - content.action.edit
+    - content.action.view
     - content.code.annotate
     - content.code.copy
     - content.tabs.link
     - content.tooltips
+    - navigation.indexes
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
