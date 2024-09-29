@@ -64,22 +64,16 @@ watch:
 
 plugins:
   - search
+  - blog:
+      categories_allowed:
+        - Decompilations
+        - RetroED
+        - Wiki
   - glightbox:
-      touchNavigation: true
-      loop: false
-      effect: fade
-      slide_effect: fade
-      width: 100%
-      height: auto
       zoomable: true
       draggable: true
-      skip_classes:
-        - custom-skip-class-name
-      auto_caption: false
-      caption_position: bottom
-      background: white
-      shadow: true
-      manual: false
+      effect: fade
+      width: 100%
 
 markdown_extensions:
   - abbr
@@ -553,6 +547,9 @@ nav:
       - Editors:
         - Animation Editor: Guides/RetroED/AnimationEditor.md
         - Scene Editor: Guides/RetroED/SceneEditor.md
+
+  - Blog:
+    - blog/index.md
 
 extra:
   social:
