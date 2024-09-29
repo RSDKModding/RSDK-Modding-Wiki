@@ -371,6 +371,26 @@
   
 
       
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../blog/" class="md-tabs__link">
+          
+  
+    
+  
+  Blog
+
+        </a>
+      </li>
+    
+  
+
+      
     </ul>
   </div>
 </nav>
@@ -1005,15 +1025,6 @@
   <a href="#objectdraw" class="md-nav__link">
     <span class="md-ellipsis">
       ObjectDraw
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#objectstartup" class="md-nav__link">
-    <span class="md-ellipsis">
-      ObjectStartup
     </span>
   </a>
   
@@ -11701,6 +11712,92 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../blog/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Blog
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Blog
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Archive
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -11755,15 +11852,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#objectstartup" class="md-nav__link">
-    <span class="md-ellipsis">
-      ObjectStartup
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#rsdkedit" class="md-nav__link">
     <span class="md-ellipsis">
       RSDKEdit
@@ -11812,109 +11900,119 @@
 <p>RetroScript v3, the scripting language used by RSDKv3, is comprised of four main subs, along with three optional editor subs. Subs are akin to "default functions" of sorts, and are called by the engine every frame to achieve a specific task. To define subs, <code>sub [name]</code> is used to open one and <code>end sub</code> is used to close one.</p>
 <h2 id="objectmain">ObjectMain<a class="headerlink" href="#objectmain" title="Permanent link">&para;</a></h2>
 <p>Called once every frame (if priority allows) to run a general update of the object, for things like movement and animation processing.</p>
-<div class="language-text highlight"><span class="filename">Example</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>sub ObjectMain
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    Object.XPos += Object.Value0
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    Object.YPos += Object.Value1
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    Object.AnimationTimer++
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    if Object.AnimationTimer &gt;= 8
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>        Object.Frame++
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>        if Object.Frame &gt;= 4
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>            Object.Frame = 0
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>        end if
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>        Object.AnimationTimer = 0
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>    end if
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>end sub
-</span></code></pre></div>
+<p>``` title="Example"
+sub ObjectMain
+    Object.XPos += Object.Value0
+    Object.YPos += Object.Value1</p>
+<div class="language-text highlight"><pre><span></span><code>Object.AnimationTimer++
+if Object.AnimationTimer &gt;= 8
+    Object.Frame++
+    if Object.Frame &gt;= 4
+        Object.Frame = 0
+    end if
+    Object.AnimationTimer = 0
+end if
+</code></pre></div>
+<p>end sub
+```
+</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p><code>ObjectMain</code> is parallel to the <code>ObjectUpdate</code> event seen in RSDKv4, though there the name was changed to match better.</p>
+<p><code>ObjectMain</code> is parallel to the <code>ObjectUpdate</code> event seen in RSDKv4, though there the name was changed to match better.
+</p>
 </div>
 <h2 id="objectplayerinteraction">ObjectPlayerInteraction<a class="headerlink" href="#objectplayerinteraction" title="Permanent link">&para;</a></h2>
-<p>Called after <code>ObjectMain</code> for each active player to handle interactions between the object and the player(s).</p>
-<div class="language-text highlight"><span class="filename">Example</span><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>sub ObjectPlayerInteraction
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>    PlayerObjectCollision(C_TOUCH, -8, -8, 8, 8)
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>    if CheckResult == true
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>        Object.State = 2
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>    end if
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>end sub
-</span></code></pre></div>
+<p>Called after <code>ObjectMain</code> for each active player to handle interactions between the object and the player(s).
+
+<code>title="Example"
+sub ObjectPlayerInteraction
+    PlayerObjectCollision(C_TOUCH, -8, -8, 8, 8)
+    if CheckResult == true
+        Object.State = 2
+    end if
+end sub</code></p>
 <h2 id="objectdraw">ObjectDraw<a class="headerlink" href="#objectdraw" title="Permanent link">&para;</a></h2>
 <p>Called once every frame (if priority allows) to draw the object. Although some objects in Sonic CD also have movement or animation processing code in this sub, it's strongly recommended to only include drawing code. Draw order is based on the object's <code>Object.DrawOrder</code> value.</p>
-<div class="language-text highlight"><span class="filename">Example</span><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>sub ObjectDraw
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>    DrawSprite(Object.Frame)
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>end sub
-</span></code></pre></div>
-<h2 id="objectstartup">ObjectStartup<a class="headerlink" href="#objectstartup" title="Permanent link">&para;</a></h2>
-<p>Called once per object type on stage startup. Used to load spritesheets and set up SpriteFrames, apply any starting values needed for the object type, or other initialization code.</p>
-<div class="language-text highlight"><span class="filename">Example</span><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>sub ObjectStartup
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>    LoadSpriteSheet(&quot;Global/Items.gif&quot;)
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>    SpriteFrame(-8, -8, 16, 16, 1, 1)
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>    SpriteFrame(-8, -8, 16, 16, 1, 18)
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>    SpriteFrame(-8, -8, 16, 16, 1, 35)
-</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>    SpriteFrame(-8, -8, 16, 16, 1, 52)
-</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>
-</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>    TempValue0 = 32
-</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>    while TempValue0 &lt; 1056
-</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>        if Object[ArrayPos0].Type == TypeName[Test Object]
-</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>            Object[ArrayPos0].DrawOrder = 4
-</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>        end if
-</span><span id="__span-3-14"><a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>        TempValue0++
-</span><span id="__span-3-15"><a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a>    loop
-</span><span id="__span-3-16"><a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a>end sub
-</span></code></pre></div>
+<p>``` title="Example"
+sub ObjectDraw
+    DrawSprite(Object.Frame)
+end sub
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>## ObjectStartup
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>Called once per object type on stage startup. Used to load spritesheets and set up SpriteFrames, apply any starting values needed for the object type, or other initialization code.
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>``` title=&quot;Example&quot;
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>sub ObjectStartup
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>    LoadSpriteSheet(&quot;Global/Items.gif&quot;)
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>    SpriteFrame(-8, -8, 16, 16, 1, 1)
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>    SpriteFrame(-8, -8, 16, 16, 1, 18)
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>    SpriteFrame(-8, -8, 16, 16, 1, 35)
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>    SpriteFrame(-8, -8, 16, 16, 1, 52)
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>    TempValue0 = 32
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>    while TempValue0 &lt; 1056
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>        if Object[ArrayPos0].Type == TypeName[Test Object]
+</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a>            Object[ArrayPos0].DrawOrder = 4
+</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a>        end if
+</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a>        TempValue0++
+</span><span id="__span-1-19"><a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a>    loop
+</span><span id="__span-1-20"><a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a>end sub
+</span></code></pre></div></p>
 <h2 id="rsdkedit">RSDKEdit<a class="headerlink" href="#rsdkedit" title="Permanent link">&para;</a></h2>
 <p>Called whenever modifying an object's editor variable in an editor. This sub can be excluded from your script if the object doesn't have an editor variable.</p>
-<div class="language-text highlight"><span class="filename">Example</span><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>sub RSDKEdit
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>    if Editor.ReturnVariable == true
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>        switch Editor.VariableID
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>        case EDIT_VAR_PROPVAL // Property Value
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>            CheckResult = Object.PropertyValue
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>            break
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>
-</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>        case 0 // Alignment
-</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>            CheckResult = Object.PropertyValue
-</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>            break
-</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>        end switch
-</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>    else
-</span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a>        switch Editor.VariableID
-</span><span id="__span-4-14"><a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a>        case EDIT_VAR_PROPVAL // Property Value
-</span><span id="__span-4-15"><a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a>            Object.PropertyValue = Editor.VariableValue
-</span><span id="__span-4-16"><a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a>            break
-</span><span id="__span-4-17"><a id="__codelineno-4-17" name="__codelineno-4-17" href="#__codelineno-4-17"></a>
-</span><span id="__span-4-18"><a id="__codelineno-4-18" name="__codelineno-4-18" href="#__codelineno-4-18"></a>        case 0 // Alignment
-</span><span id="__span-4-19"><a id="__codelineno-4-19" name="__codelineno-4-19" href="#__codelineno-4-19"></a>            Object.PropertyValue = Editor.VariableValue
-</span><span id="__span-4-20"><a id="__codelineno-4-20" name="__codelineno-4-20" href="#__codelineno-4-20"></a>            break
-</span><span id="__span-4-21"><a id="__codelineno-4-21" name="__codelineno-4-21" href="#__codelineno-4-21"></a>        end switch
-</span><span id="__span-4-22"><a id="__codelineno-4-22" name="__codelineno-4-22" href="#__codelineno-4-22"></a>    end if
-</span><span id="__span-4-23"><a id="__codelineno-4-23" name="__codelineno-4-23" href="#__codelineno-4-23"></a>end sub
-</span></code></pre></div>
+<p>``` title="Example"
+sub RSDKEdit
+    if Editor.ReturnVariable == true
+        switch Editor.VariableID
+        case EDIT_VAR_PROPVAL // Property Value
+            CheckResult = Object.PropertyValue
+            break</p>
+<div class="language-text highlight"><pre><span></span><code>    case 0 // Alignment
+        CheckResult = Object.PropertyValue
+        break
+    end switch
+else
+    switch Editor.VariableID
+    case EDIT_VAR_PROPVAL // Property Value
+        Object.PropertyValue = Editor.VariableValue
+        break
+
+    case 0 // Alignment
+        Object.PropertyValue = Editor.VariableValue
+        break
+    end switch
+end if
+</code></pre></div>
+<p>end sub
+```
+</p>
 <h2 id="rsdkdraw">RSDKDraw<a class="headerlink" href="#rsdkdraw" title="Permanent link">&para;</a></h2>
-<p>Called once every frame to draw the object in an editor.</p>
-<div class="language-text highlight"><span class="filename">Example</span><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>sub RSDKDraw
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>    DrawSprite(0)
-</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>    if Editor.ShowGizmos == true
-</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>        DrawSprite(1)
-</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>    end if
-</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>end sub
-</span></code></pre></div>
+<p>Called once every frame to draw the object in an editor.
+
+<code>title="Example"
+sub RSDKDraw
+    DrawSprite(0)
+    if Editor.ShowGizmos == true
+        DrawSprite(1)
+    end if
+end sub</code></p>
 <h2 id="rsdkload">RSDKLoad<a class="headerlink" href="#rsdkload" title="Permanent link">&para;</a></h2>
 <p>Called once per object type when game logic is (re)loaded in an editor. Used to load spritesheets, set up SpriteFrames, and add editor variables and aliases.</p>
-<div class="language-text highlight"><span class="filename">Example</span><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>sub RSDKLoad
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>    LoadSpriteSheet(&quot;Global/Items.gif&quot;)
-</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>    SpriteFrame(-8, -8, 16, 16, 1, 1)
-</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>    SpriteFrame(-8, -8, 16, 16, 1, 18)
-</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>
-</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>    AddEditorVariable(&quot;Alignment&quot;)
-</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>    SetActiveVariable(&quot;Alignment&quot;)
-</span><span id="__span-6-8"><a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>    AddEnumVariable(&quot;Left&quot;, 0)
-</span><span id="__span-6-9"><a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>    AddEnumVariable(&quot;Center&quot;, 1)
-</span><span id="__span-6-10"><a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a>    AddEnumVariable(&quot;Right&quot;, 2)
-</span><span id="__span-6-11"><a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a>
-</span><span id="__span-6-12"><a id="__codelineno-6-12" name="__codelineno-6-12" href="#__codelineno-6-12"></a>    SetVariableAlias(ALIAS_VAR_VAL0, &quot;Width&quot;)
-</span><span id="__span-6-13"><a id="__codelineno-6-13" name="__codelineno-6-13" href="#__codelineno-6-13"></a>end sub
-</span></code></pre></div>
+<p>``` title="Example"
+sub RSDKLoad
+    LoadSpriteSheet("Global/Items.gif")
+    SpriteFrame(-8, -8, 16, 16, 1, 1)
+    SpriteFrame(-8, -8, 16, 16, 1, 18)</p>
+<div class="language-text highlight"><pre><span></span><code>AddEditorVariable(&quot;Alignment&quot;)
+SetActiveVariable(&quot;Alignment&quot;)
+AddEnumVariable(&quot;Left&quot;, 0)
+AddEnumVariable(&quot;Center&quot;, 1)
+AddEnumVariable(&quot;Right&quot;, 2)
+
+SetVariableAlias(ALIAS_VAR_VAL0, &quot;Width&quot;)
+</code></pre></div>
+<p>end sub
+```</p>
 
 
 
@@ -12001,7 +12099,7 @@
         <script src="../../rsdk_theme/background.js"></script>
       
     
-  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "fade", "closeEffect": "fade", "slideEffect": "fade"});
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "fade", "closeEffect": "fade", "slideEffect": "slide"});
 document$.subscribe(() => { lightbox.reload() });
 </script></body>
 </html>

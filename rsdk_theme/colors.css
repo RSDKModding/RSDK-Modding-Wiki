@@ -32,12 +32,12 @@
     --controller-start-color: var(--md-typeset-color);
 }
 
-/* Form Button */
+/* Form button */
 .md-typeset .md-button:not(:focus, :hover) {
   color: var(--md-typeset-color);
 }
 
-/* Primary Form Button */
+/* Primary form button */
 .md-typeset .md-button--primary:not(:focus, :hover) {
   color: var(--md-typeset-button-color);
   background-color: var(--md-typeset-color);
