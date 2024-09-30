@@ -86,6 +86,7 @@ plugins:
       enabled: !ENV [CI, false]
       enable_creation_date: true
       # can add an "exclude" list here
+      type: timeago
 
 markdown_extensions:
   - abbr
