@@ -1,5 +1,24 @@
 # RSDKv5 Functions
 
+!!! note
+    All functions' names and parameter lists are mainly written for the C API, but their usage differs in the C++ API. Refer to the Syntax and Example(s) sections of each page for how to use the functions in each language's API.
+
+## Audio
+| Function                                                  | Description                                                                                                           |
+| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| [**GetSfx**](Audio/GetSfx.md)                             | Retrieves the ID of the given sound effect.                                                                           |
+| [**PlaySfx**](Audio/PlaySfx.md)                           | Plays the sound effect in the given slot, looping it if a loop point is set.                                          |
+| [**StopSfx**](Audio/StopSfx.md)                           | Stops all instances of the given sound effect playing.                                                                |
+| [**PlayStream**](Audio/PlayStream.md)                     | Plays the given music file, looping it if set to do so.                                                               |
+| [**SetChannelAttributes**](Audio/SetChannelAttributes.md) | Sets the volume, panning, and speed of the given channel to the given values.                                         |
+| [**StopChannel**](Audio/StopChannel.md)                   | Stops playing the currently playing audio in the given channel, if any is playing.                                    |
+| [**PauseChannel**](Audio/PauseChannel.md)                 | Pauses the currently playing audio in the given channel, if any is playing.                                           |
+| [**ResumeChannel**](Audio/ResumeChannel.md)               | If the given channel's audio has been paused with [PauseChannel()](Audio/PauseChannel.md), resumes playing the audio. |
+| [**SfxPlaying**](Audio/SfxPlaying.md)                     | Checks if the given sound effect is playing in any channels.                                                          |
+| [**ChannelActive**](Audio/ChannelActive.md)               | Checks if a channel is currently playing audio or is paused.                                                          |
+| [**GetChannelPos**](Audio/GetChannelPos.md)               | Gets the position of the current track in the given channel.                                                          |
+| [**StopAllSfx**](Audio/StopAllSfx.md)                     | Stops all instances of all sound effects playing.                                                                     |
+
 ## SpriteSheets
 | Function                                               | Description                                   |
 | ------------------------------------------------------ | --------------------------------------------- |

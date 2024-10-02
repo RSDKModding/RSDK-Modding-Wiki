@@ -436,6 +436,19 @@ nav:
           - StaticLoad: RSDKv5/Events/StaticLoad.md
         - Functions:
           - RSDKv5/Functions/README.md
+          - Audio:
+            - GetSfx: RSDKv5/Functions/Audio/GetSfx.md
+            - PlaySfx: RSDKv5/Functions/Audio/PlaySfx.md
+            - StopSfx: RSDKv5/Functions/Audio/StopSfx.md
+            - PlayStream: RSDKv5/Functions/Audio/PlayStream.md
+            - SetChannelAttributes: RSDKv5/Functions/Audio/SetChannelAttributes.md
+            - StopChannel: RSDKv5/Functions/Audio/StopChannel.md
+            - PauseChannel: RSDKv5/Functions/Audio/PauseChannel.md
+            - ResumeChannel: RSDKv5/Functions/Audio/ResumeChannel.md
+            - SfxPlaying: RSDKv5/Functions/Audio/SfxPlaying.md
+            - ChannelActive: RSDKv5/Functions/Audio/ChannelActive.md
+            - GetChannelPos: RSDKv5/Functions/Audio/GetChannelPos.md
+            - StopAllSfx: RSDKv5/Functions/Audio/StopAllSfx.md
           - Spritesheets:
             - LoadSpriteSheet: RSDKv5/Functions/SpriteSheets/LoadSpriteSheet.md
           - Graphics:

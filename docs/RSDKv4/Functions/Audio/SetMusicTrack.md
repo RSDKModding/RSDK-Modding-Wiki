@@ -1,12 +1,12 @@
 # SetMusicTrack <small>(RSDKv4)</small>
 
 ## Description
-Loads a music file in the given track slot with the given loop point. The music file must be in OGG format.
+Loads a music file in the given track slot with the given loop point.
 
 ## Parameters
 `path`
 
-:   The file path to load the music file from, relative to `Data/Music/`.
+:   The file path to load the music file from, relative to `Data/Music/`. The music file must be in OGG format.
 
 `trackID`
 

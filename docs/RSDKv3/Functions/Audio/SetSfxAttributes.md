@@ -9,7 +9,7 @@ Sets the loop count and panning of the given sound effect slot in the GameConfig
 ## Parameters
 `SFX`
 
-:   The slot of the sound effect in the GameConfig.
+:   The slot of the sound effect in the GameConfig to set the values for.
 
 `LoopCount`
 

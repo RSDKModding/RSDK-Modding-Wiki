@@ -1,12 +1,12 @@
 # SwapMusicTrack
 
 ## Description
-Loads a music file in the given track slot with the given loop point. If the track slot that's currently playing is the one that's been overwritten, the new song will automatically play at a position based on the given ratio of the current track's position. The music file must be in OGG format.
+Loads a music file in the given track slot with the given loop point. If the track slot that's currently playing is the one that's been overwritten, the new song will automatically play at a position based on the given ratio of the current track's position.
 
 ## Parameters
 `path`
 
-:   The file path to load the music file from, relative to `Data/Music/`.
+:   The file path to load the music file from, relative to `Data/Music/`. The music file must be in OGG format.
 
 `trackID`
 
