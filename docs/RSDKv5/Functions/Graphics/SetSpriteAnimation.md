@@ -19,8 +19,8 @@ Applies a set of frames to an animator.
 `forceApply`
 
 :   Whether or not to forcefully set the animation.
-   If true, the frames will be set unless the parameters are invalid.
-   If false, the frames will ONLY be set if they don't match the existing frames (same aniFrames, same listID, frameID is ignored). This allows multiple calls to not restart an animation if it's already playing.
+    If true, the frames will be set unless the parameters are invalid.
+    If false, the frames will ONLY be set if they don't match the existing frames (same aniFrames, same listID, frameID is ignored). This allows multiple calls to not restart an animation if it's already playing.
 
 `frameID`
 

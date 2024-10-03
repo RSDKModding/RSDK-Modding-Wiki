@@ -17,7 +17,7 @@
 | [**SfxPlaying**](Audio/SfxPlaying.md)                     | Checks if the given sound effect is playing in any channels.                                                          |
 | [**ChannelActive**](Audio/ChannelActive.md)               | Checks if a channel is currently playing audio or is paused.                                                          |
 | [**GetChannelPos**](Audio/GetChannelPos.md)               | Gets the position of the current track in the given channel.                                                          |
-| [**StopAllSfx**](Audio/StopAllSfx.md)                     | Stops all instances of all sound effects playing.                                                                     |
+| [**StopAllSfx**](Audio/StopAllSfx.md)                     | Stops all instances of all sound effects playing. **RSDKv5U only.**                                                   |
 
 ## SpriteSheets
 | Function                                               | Description                                   |
@@ -46,9 +46,9 @@
 | [**AddViewableVariable**](Debugging/AddViewableVariable.md)       | Adds a viewable variable to the [Dev Menu](TODO). |
 
 ## Miscellaneous
-| Function                                     | Description                                                                                             |
-| -------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| [**NotifyCallback**](Misc/NotifyCallback.md) | Sends the given callback to communicate to [Hedgehog Engine 2](/Games/SonicOrigins/HedgehogEngine2.md). |
+| Function                                     | Description                                                                                                                     |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| [**NotifyCallback**](Misc/NotifyCallback.md) | Sends the given callback to communicate to [Hedgehog Engine 2](/Games/SonicOrigins/HedgehogEngine2.md). **Sonic Origins only.** |
 
 ## Editor
 | Function                                                   | Description                                                                                      |

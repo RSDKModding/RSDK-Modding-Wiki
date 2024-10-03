@@ -40,15 +40,21 @@ Returns the ID of the channel the track plays in as an `int32`. The return value
 	channels[uint8 slot].PlayStream(const char *filename, uint32 startPos, uint32 loopPoint, bool32 loadASync);
 	```
 
-## Example
+## Examples
 === "C"
 
 	``` c
-	RSDK.PlayStream("Test.ogg", 0, 0, 0, true);
+	RSDK.PlayStream("Test.ogg", 0, 0, 1, true);
+	```
+	``` c
+	int32 channelID = RSDK.PlayStream("Test2.ogg", 0, 0, 202752, true);
 	```
 
 === "C++"
 
 	``` cpp
-	channels[0].PlayStream("Test.ogg", 0, 0, true);
+	channels[0].PlayStream("Test.ogg", 0, 1, true);
+	```
+	``` cpp
+	int32 channelID = channels[0].PlayStream("Test2.ogg", 0, 202752, true);
 	```

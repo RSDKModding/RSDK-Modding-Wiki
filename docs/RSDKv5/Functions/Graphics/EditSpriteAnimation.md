@@ -49,7 +49,7 @@ None.
 === "C++"
 
 	``` cpp
-	SpriteAnimation.Edit(uint16 listID, const char *name, int32 frameOffset, uint16 frameCount, int16 speed, uint8 loopIndex, uint8 rotationStyle);
+	aniFrames.Edit(uint16 listID, const char *name, int32 frameOffset, uint16 frameCount, int16 speed, uint8 loopIndex, uint8 rotationStyle);
 	```
 
 ## Example

@@ -21,18 +21,18 @@ Returns the `unicode char` value of the animator's current frame as a `uint16`. 
 === "C++"
 
 	``` cpp
-	Animator.GetFrameID();
+	animator.GetFrameID();
 	```
 
 ## Example
 === "C"
 
 	``` c
-	uint16 id = RSDK.GetFrameID(&animator);
+	uint16 id = RSDK.GetFrameID(&self->animator);
 	```
 
 === "C++"
 
 	``` cpp
-	uint16 id = animator.GetFrameID();
+	uint16 id = this->animator.GetFrameID();
 	```

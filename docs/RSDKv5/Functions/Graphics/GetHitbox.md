@@ -32,11 +32,11 @@ Returns a pointer to the desired hitbox of the animator's current frame as a `Hi
 === "C"
 
 	``` c
-	Hitbox *hitbox = RSDK.GetHitbox(&animator, 0);
+	Hitbox *hitbox = RSDK.GetHitbox(&self->animator, 0);
 	```
 
 === "C++"
 
 	``` cpp
-	Hitbox *hitbox = animator.Load(0);
+	Hitbox *hitbox = this->animator.GetHitbox(0);
 	```

@@ -25,7 +25,7 @@ Returns the ID of the found animation entry as a `uint16`. The return value will
 === "C++"
 
 	``` cpp
-	SpriteAnimation.Find(const char *name);
+	aniFrames.Find(const char *name);
 	```
 
 ## Example
@@ -38,5 +38,5 @@ Returns the ID of the found animation entry as a `uint16`. The return value will
 === "C++"
 
 	``` cpp
-	uint16 listID = sVars->aniFrames.Find(sVars->aniFrames, "My Animation Entry");
+	uint16 listID = sVars->aniFrames.Find("My Animation Entry");
 	```

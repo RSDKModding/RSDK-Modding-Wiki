@@ -28,11 +28,11 @@ None.
 === "C"
 
 	``` c
-	RSDK.ProcessAnimation(&animator);
+	RSDK.ProcessAnimation(&self->animator);
 	```
 
 === "C++"
 
 	``` cpp
-	animator.Process();
+	this->animator.Process();
 	```

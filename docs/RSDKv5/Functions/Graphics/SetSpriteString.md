@@ -29,18 +29,18 @@ None.
 === "C++"
 
     ``` cpp
-    String.SetSpriteString(SpriteAnimation aniFrames, uint16 listID);
+    string.SetSpriteString(SpriteAnimation aniFrames, uint16 listID);
     ```
 
 ## Example
 === "C"
 
     ``` c
-    RSDK.LoadSpriteAnimation(MyObject->aniFrames, 0, &string);
+    RSDK.LoadSpriteAnimation(MyObject->aniFrames, 0, &self->string);
     ```
 
 === "C++"
 
     ``` cpp
-    string.Load(sVars->aniFrames, 0);
+    this->string.Load(sVars->aniFrames, 0);
     ```

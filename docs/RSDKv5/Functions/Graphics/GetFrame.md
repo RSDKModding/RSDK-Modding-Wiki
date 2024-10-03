@@ -10,11 +10,11 @@ Retrieves a specific SpriteFrame from a SpriteAnimation.
 
 `listID`
 
-:   The index of the animation in the animation list to use frames from. In C++, this value is retrieved from `animator.animationID`.
+:   The index of the animation in the animation list to use frames from. In C++, this value is retrieved from `Animator.animationID`.
 
 `frameID`
 
-:   The index of the frame to get. In C++, this value is retrieved from `animator.frameID`.
+:   The index of the frame to get. In C++, this value is retrieved from `Animator.frameID`.
 
 ## Return Value
 Returns a pointer to the retrieved SpriteFrame. The return value will be `NULL` if an error occured.
@@ -29,7 +29,7 @@ Returns a pointer to the retrieved SpriteFrame. The return value will be `NULL` 
 === "C++"
 
 	``` cpp
-	animator.GetFrame(SpriteAnimation aniFrames);
+	Animator.GetFrame(SpriteAnimation aniFrames);
 	```
 
 ## Example
@@ -42,5 +42,5 @@ Returns a pointer to the retrieved SpriteFrame. The return value will be `NULL` 
 === "C++"
 
 	``` cpp
-	SpriteFrame *frame = animator.GetFrame(sVars->aniFrames);
+	SpriteFrame *frame = this->animator.GetFrame(sVars->aniFrames);
 	```
