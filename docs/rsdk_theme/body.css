@@ -25,6 +25,10 @@
     color: var(--md-typeset-color);
 }
 
+.md-typeset h1 .headerlink {
+    display: none;
+}
+
 .tabbed-labels {
     background-color: color-mix(in hsl, var(--content-bg-color) 80%, transparent);
 }
