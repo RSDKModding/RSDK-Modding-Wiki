@@ -78,19 +78,20 @@ plugins:
       draggable: true
       effect: fade
       width: 100%
-  - git-committers:
+  - group:
       enabled: !ENV [CI, false]
-      repository: RSDKModding/RSDK-Modding-Wiki
-      exclude:
-        - README.md
-        - blog/**
-  - git-revision-date-localized:
-      enabled: !ENV [CI, false]
-      enable_creation_date: true
-      type: timeago
-      exclude:
-        - README.md
-        - blog/**
+      plugins:
+        - git-committers:
+            repository: RSDKModding/RSDK-Modding-Wiki
+            exclude:
+              - README.md
+              - blog/**
+        - git-revision-date-localized:
+            enable_creation_date: true
+            type: timeago
+            exclude:
+              - README.md
+              - blog/**
 
 markdown_extensions:
   - abbr

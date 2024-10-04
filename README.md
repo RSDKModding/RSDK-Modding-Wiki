@@ -30,10 +30,7 @@ Since this wiki uses Material for MkDocs, you might want to check its [reference
 You can test your changes locally before committing. To do so:
 
 - Install [Python](https://www.python.org/downloads/)
-- Install Material For MkDocs and the necessary plug-ins:
-```
-pip install mkdocs-material mkdocs-glightbox mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin --upgrade
-```
+- Install Material For MkDocs and the necessary plug-ins: `pip install mkdocs-material mkdocs-glightbox --upgrade`
 - Serve webpage locally: `mkdocs serve`
     - You can also build a static site instead, using `mkdocs build`
 
