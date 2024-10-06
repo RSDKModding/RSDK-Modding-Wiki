@@ -10,9 +10,8 @@ theme:
   name: material
   custom_dir: overrides
   logo: assets/icon.png
-  favicon: assets/favicon.svg
+  favicon: assets/icon.png
   icon:
-    logo: rsdk/logo
     repo: fontawesome/brands/github
     admonition:
       note: material/pencil
