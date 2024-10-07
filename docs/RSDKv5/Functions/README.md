@@ -40,10 +40,10 @@
 | [**ProcessAnimation**](Graphics/ProcessAnimation.md)           | Processes the animation applied to an animator.                                   |                   
 
 ## Debugging
-| Function                                                          | Description                                       |
-| ----------------------------------------------------------------- | ------------------------------------------------- |
-| [**ClearViewableVariables**](Debugging/ClearViewableVariables.md) | Clears all loaded viewable variables.             |
-| [**AddViewableVariable**](Debugging/AddViewableVariable.md)       | Adds a viewable variable to the [Dev Menu](TODO). |
+| Function                                                          | Description                                                         |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------- |
+| [**ClearViewableVariables**](Debugging/ClearViewableVariables.md) | Clears all loaded viewable variables.                               |
+| [**AddViewableVariable**](Debugging/AddViewableVariable.md)       | Adds a viewable variable to the [Dev Menu](../Overview/DevMenu.md). |
 
 ## Miscellaneous
 | Function                                     | Description                                                                                                                     |

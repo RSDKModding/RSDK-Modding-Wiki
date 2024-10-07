@@ -10,7 +10,7 @@ Reads the contents of the save file on disk into SaveRAM.
 None.
 
 ## Return Value
-Sets `CheckResult` to `true` if SaveRAM is loaded successfully loaded; otherwise, sets it to `false`.
+Sets `CheckResult` to `true` if SaveRAM is successfully loaded; otherwise, sets it to `false`.
 
 ## Example
 ```
