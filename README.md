@@ -5,12 +5,10 @@
     RSDK Modding Wiki
 </h1>
 
-Website with documentation, resources, and guides for Retro Engine modding, inspired by [HedgeDocs](https://hedgedocs.com/).
+Website with documentation, resources, and guides for Retro Engine modding, powered by [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) and inspired by [HedgeDocs](https://hedgedocs.com/).
 
 > [!WARNING]
 > This site is a heavy work-in-progress. Expect missing information and empty/placeholder pages. Everything is subject to change.
-
-Powered by [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
 
 ## Contributing
 
