@@ -5,11 +5,12 @@
     --md-footer-bg-color: var(--md-primary-fg-color);
     --md-footer-bg-color--dark: var(--md-primary-fg-color);
     --md-default-bg-color: rgb(248, 248, 248);
+    --md-button-color: rgb(255, 255, 0);
+    --md-button-hover-color: rgb(255, 192, 0);
     --content-bg-color: hsl(26, 35%, 85%);
     --circle-border-color: rgba(224, 208, 192, 20%);
     --square-border-color: rgba(224, 0, 0, 20%);
     --md-typeset-a-color: #5488E8;
-    --md-typeset-button-color: var(--md-primary-bg-color);
     --controller-a-color: #00C800;
     --controller-b-color: #F0B000;
     --controller-c-color: #0020B0;
@@ -23,10 +24,11 @@
     --md-footer-bg-color: var(--md-primary-fg-color);
     --md-footer-bg-color--dark: var(--md-primary-fg-color);
     --md-default-bg-color: rgb(7, 7, 7);
+    --md-button-color: rgb(0, 0, 255);
+    --md-button-hover-color: rgb(0, 128, 255);
     --content-bg-color: hsl(210, 24%, 8%);
     --circle-border-color: rgba(31, 47, 63, 20%);
     --square-border-color: rgba(0, 0, 224, 20%);
-    --md-typeset-button-color: var(--md-primary-fg-color);
     --controller-a-color: #70C040;
     --controller-b-color: #F0D800;
     --controller-c-color: #1870B8;
@@ -40,8 +42,15 @@
 
 /* Primary form button */
 .md-typeset .md-button--primary:not(:focus, :hover) {
-  color: var(--md-typeset-button-color);
-  background-color: var(--md-typeset-color);
+  color: var(--md-typeset-color);
+  background-color: var(--md-button-color);
+  border-color: var(--md-typeset-color);
+}
+
+/* Hovered over form button */
+.md-typeset .md-button:is(:focus, :hover) {
+  color: var(--md-typeset-color);
+  background-color: var(--md-button-hover-color);
   border-color: var(--md-typeset-color);
 }
 
