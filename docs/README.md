@@ -91,4 +91,4 @@ Welcome to the RSDK Modding Wiki, your one-stop shop for documentation, resource
 
 If you're looking for a place to show off your mods, ask for help with RSDK modding, or just discuss things with others, check out the Retro Engine Modding Discord Server!
 
-[:fontawesome-brands-discord: Discord](https://dc.railgun.works/retroengine){ .md-button .md-button--primary }
+[:fontawesome-brands-discord: Discord](https://dc.railgun.works/retroengine){ .md-button .md-button--primary target="_blank" }
