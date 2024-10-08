@@ -6,7 +6,7 @@
     --md-footer-bg-color--dark: var(--md-primary-fg-color);
     --md-default-bg-color: rgb(248, 248, 248);
     --content-bg-color: hsl(26, 35%, 85%);
-    --circle-border-color: rgba(240, 200, 170, 20%);
+    --circle-border-color: rgba(224, 208, 192, 20%);
     --square-border-color: rgba(224, 0, 0, 20%);
     --md-typeset-a-color: #5488E8;
     --md-typeset-button-color: var(--md-primary-bg-color);
@@ -22,9 +22,10 @@
     --md-primary-fg-color--dark: var(--md-primary-fg-color);
     --md-footer-bg-color: var(--md-primary-fg-color);
     --md-footer-bg-color--dark: var(--md-primary-fg-color);
-    --content-bg-color: hsl(210, 35%, 22%);
-    --circle-border-color: rgba(15, 55, 95, 20%);
-    --square-border-color: rgba(120, 0, 0, 20%);
+    --md-default-bg-color: rgb(7, 7, 7);
+    --content-bg-color: hsl(210, 24%, 8%);
+    --circle-border-color: rgba(31, 47, 63, 20%);
+    --square-border-color: rgba(0, 0, 224, 20%);
     --md-typeset-button-color: var(--md-primary-fg-color);
     --controller-a-color: #70C040;
     --controller-b-color: #F0D800;
