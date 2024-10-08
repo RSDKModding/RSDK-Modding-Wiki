@@ -2,62 +2,93 @@
 hide:
   - navigation
   - toc
+search:
+  exclude: true
 ---
+
+<style>
+  .md-typeset .headerlink {
+      display: none;
+  }
+</style>
 
 # RSDK Modding Wiki
 
-RSDK Modding Wiki (TODO: write an actual description)
+TODO: Replace header with logo
 
-The structure of the repository is as shown below: (TODO: Maybe add icons?)
+Welcome to the RSDK Modding Wiki, your one-stop shop for documentation, resources, and guides for Retro Engine modding!
+
+!!! warning
+    This site is a heavy work-in-progress. Expect missing information and empty/placeholder pages. Everything is subject to change.
+
+## Contents
 
 <div class="grid cards" markdown>
 
--   :rsdk-icon: __Introduction to RSDK__
+-   :rsdk-icon: __[Retro Engine](RSDK/README.md)__
 
     ---
 
-    General Information about Retro Engine
+    General information about the Retro Engine
 
-    [:octicons-arrow-right-24: Getting started](./Intro/README.md)
-
--   :rsdk-icon-v5: __Retro Engine v5__
+-   :rsdk-icon-v5: __[Retro Engine v5](RSDKv5/README.md)__
 
     ---
 
-    Documentation, Tools & Resources for RSDKv5
+    Documentation for RSDKv5 and GameAPI
 
-    [:octicons-arrow-right-24: RSDKv5](./RSDKv5/README.md)
-
--   :rsdk-icon-v4: __Retro Engine v4__
+-   :rsdk-icon-v4: __[Retro Engine v4](RSDKv4/README.md)__
 
     ---
 
-    Documentation, Tools & Resources for RSDKv4
+    Documentation for RSDKv4 and RetroScript v4
 
-    [:octicons-arrow-right-24: RSDKv4](./RSDKv4/README.md)
-
--   :rsdk-icon-v3: __Retro Engine v3__
+-   :rsdk-icon-v3: __[Retro Engine v3](RSDKv3/README.md)__
 
     ---
 
-    Documentation, Tools & Resources for RSDKv3
+    Documentation for RSDKv3 and RetroScript v3
 
-    [:octicons-arrow-right-24: RSDKv3](./RSDKv3/README.md)
-
--   __Retro Engine v2__
+-   __[Retro Engine v2](RSDKv2/README.md)__
 
     ---
 
-    Documentation, Tools & Resources for Sonic Nexus
+    Documentation for RSDKv2 and RetroScript v2
 
-    [:octicons-arrow-right-24: RSDKv2](./RSDKv2/README.md)
-
--   __Retro Engine v1__
+-   __[Retro Engine v1](RSDKv1/README.md)__
 
     ---
 
-    Documentation, Tools & Resources for Retro Sonic
+    Documentation for RSDKv1
 
-    [:octicons-arrow-right-24: RSDKv1](./RSDKv1/README.md)
+-   :material-gamepad-variant: __[Games](Games/README.md)__
+
+    ---
+
+    Documentation for Retro Engine games
+
+-   :material-wrench: __[Tools](Tools/README.md)__
+
+    ---
+
+    Tools and editors for Retro Engine modding
+
+-   :fontawesome-solid-book-bookmark: __[Guides](Guides/README.md)__
+
+    ---
+
+    Guides and tutorials for Retro Engine modding
+
+-   :material-notebook: __[Blog](blog/index.md)__
+
+    ---
+
+    News from the RSDKModding Team
 
 </div>
+
+## Join the Discord server!
+
+If you're looking for a place to show off your mods, ask for help with RSDK modding, or just discuss things with others, check out the Retro Engine Modding Discord Server!
+
+[:fontawesome-brands-discord: Discord](https://dc.railgun.works/retroengine){ .md-button .md-button--primary }
