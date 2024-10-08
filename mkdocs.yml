@@ -63,7 +63,6 @@ validation:
 
 watch:
   - overrides
-  - includes
 
 plugins:
   - search
@@ -119,9 +118,7 @@ markdown_extensions:
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets:
-      auto_append:
-        - includes/abbreviations.md
+  - pymdownx.snippets
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
