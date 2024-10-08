@@ -24,9 +24,9 @@
     --md-footer-bg-color: var(--md-primary-fg-color);
     --md-footer-bg-color--dark: var(--md-primary-fg-color);
     --md-default-bg-color: rgb(7, 7, 7);
-    --md-button-color: rgb(0, 0, 255);
-    --md-button-hover-color: rgb(0, 128, 255);
-    --content-bg-color: hsl(210, 24%, 8%);
+    --md-button-color: var(--md-typeset-a-color);
+    --md-button-hover-color: var(--md-accent-fg-color);
+    --content-bg-color: hsl(210, 14%, 18%);
     --circle-border-color: rgba(31, 47, 63, 20%);
     --square-border-color: rgba(0, 0, 224, 20%);
     --controller-a-color: #70C040;
