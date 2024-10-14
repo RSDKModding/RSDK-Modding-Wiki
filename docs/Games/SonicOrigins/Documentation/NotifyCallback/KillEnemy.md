@@ -1,12 +1,30 @@
 # NOTIFY_KILL_ENEMY
 
 ## Description
-Todo.
+Notifies [Hedgehog Engine 2](../../HedgehogEngine2.md) to update the mission objective.
 
 ## Parameters
-`todo`
+=== "v3"
 
-:   Todo.
+    `todo`
+    
+    :    Todo.
+
+=== "v4"
+
+    `todo`
+    
+    :    Todo.
+
+=== "v5"
+
+    `todo`
+
+    :    Todo.
+
+    `todo2`
+
+    :    Todo. Used to add an amount.
 
 ## Return Value
 None.
@@ -28,7 +46,7 @@ None.
 === "v5"
 
     ``` c++
-    NotifyCallback(NOTIFY_CALLBACK, int32 todo, NULL, NULL);
+    NotifyCallback(NOTIFY_KILL_ENEMY, int32 todo, int32 todo2, NULL);
     ```
 
 ## Example
@@ -48,5 +66,5 @@ None.
 === "v5"
 
     ``` c++
-    NotifyCallback(NOTIFY_CALLBACK, 0, NULL, NULL);
+    NotifyCallback(NOTIFY_KILL_ENEMY, 0, 0, NULL);
     ```

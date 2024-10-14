@@ -1,12 +1,24 @@
 # NOTIFY_DEATH_EVENT
 
 ## Description
-Todo.
+Notifies [Hedgehog Engine 2](../../HedgehogEngine2.md) of a Player death.
 
 ## Parameters
-`todo`
+=== "v3"
 
-:   Todo.
+    `todo`
+    
+    :    Todo.
+
+=== "v4"
+
+    `todo`
+    
+    :    Todo.
+
+=== "v5"
+
+    None.
 
 ## Return Value
 None.
@@ -28,7 +40,7 @@ None.
 === "v5"
 
     ``` c++
-    NotifyCallback(NOTIFY_CALLBACK, int32 todo, NULL, NULL);
+    NotifyCallback(NOTIFY_DEATH_EVENT, NULL, NULL, NULL);
     ```
 
 ## Example
@@ -48,5 +60,5 @@ None.
 === "v5"
 
     ``` c++
-    NotifyCallback(NOTIFY_CALLBACK, 0, NULL, NULL);
+    NotifyCallback(NOTIFY_DEATH_EVENT, NULL, NULL, NULL);
     ```

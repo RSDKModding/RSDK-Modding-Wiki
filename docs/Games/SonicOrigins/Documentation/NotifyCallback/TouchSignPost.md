@@ -1,12 +1,24 @@
 # NOTIFY_TOUCH_SIGNPOST
 
 ## Description
-Todo.
+Notifies [Hedgehog Engine 2](../../HedgehogEngine2.md) when a sign post has been touched to signify the completion of the stage in mission mode. In Sonic 3 & Knuckles this is only called from the `SignPost2` object.
 
 ## Parameters
-`todo`
+=== "v3"
 
-:   Todo.
+    `todo`
+    
+    :    Todo.
+
+=== "v4"
+
+    `todo`
+    
+    :    Todo.
+
+=== "v5"
+
+    None.
 
 ## Return Value
 None.
@@ -28,7 +40,7 @@ None.
 === "v5"
 
     ``` c++
-    NotifyCallback(NOTIFY_CALLBACK, int32 todo, NULL, NULL);
+    NotifyCallback(NOTIFY_TOUCH_SIGNPOST, NULL, NULL, NULL);
     ```
 
 ## Example
@@ -48,5 +60,5 @@ None.
 === "v5"
 
     ``` c++
-    NotifyCallback(NOTIFY_CALLBACK, 0, NULL, NULL);
+    NotifyCallback(NOTIFY_TOUCH_SIGNPOST, NULL, NULL, NULL);
     ```
