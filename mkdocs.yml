@@ -462,8 +462,19 @@ nav:
           - Debugging:
             - ClearViewableVariables: RSDKv5/Functions/Debugging/ClearViewableVariables.md
             - AddViewableVariable: RSDKv5/Functions/Debugging/AddViewableVariable.md
+          - Objects & Entities:
+            - FindObject: RSDKv5/Functions/Object/FindObject.md
+          - Scene Management:
+            - SetScene: RSDKv5/Functions/Scene/SetScene.md
+            - SetEngineState: RSDKv5/Functions/Scene/SetEngineState.md
+            - ForceHardReset: RSDKv5/Functions/Scene/ForceHardReset.md
+            - CheckValidScene: RSDKv5/Functions/Scene/CheckValidScene.md
+            - CheckSceneFolder: RSDKv5/Functions/Scene/CheckSceneFolder.md
+            - LoadScene: RSDKv5/Functions/Scene/LoadScene.md
           - Miscellaneous:
             - NotifyCallback: RSDKv5/Functions/Misc/NotifyCallback.md
+            - HasNotifyCallback: RSDKv5/Functions/Misc/HasNotifyCallback.md
+            - SetGameFinished: RSDKv5/Functions/Misc/SetGameFinished.md
           - Editor:
             - RSDK_ACTIVE_VAR: RSDKv5/Functions/Editor/RSDK_ACTIVE_VAR.md
             - RSDK_ENUM_VAR: RSDKv5/Functions/Editor/RSDK_ENUM_VAR.md

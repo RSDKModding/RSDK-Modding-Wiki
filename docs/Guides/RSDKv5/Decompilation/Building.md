@@ -24,7 +24,7 @@ Clone the repo **recursively**, using:
 If you've already cloned the repo, run these commands inside of the repository to ensure the clone is up-to-date:
 ```
 git pull
-git submodule update --init --recursive
+git submodule update --remote --init --recursive
 ```
 
 ## Getting dependencies

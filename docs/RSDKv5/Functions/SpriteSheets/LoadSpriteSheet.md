@@ -13,7 +13,7 @@ Loads a spritesheet and returns the ID of it.
 :   The asset's scope, may be `SCOPE_GLOBAL` or `SCOPE_STAGE`.
 
 ## Return Value
-Returns the ID of the loaded spritesheet as a `uint16`. The return value will be `-1` if the animation file failed to load.
+Returns the ID of the loaded spritesheet as a `uint16`. The return value will be `-1` if the spritesheet failed to load.
 
 ## Syntax
 === "C"

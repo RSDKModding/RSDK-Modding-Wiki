@@ -22,7 +22,7 @@
 ## SpriteSheets
 | Function                                               | Description                                   |
 | ------------------------------------------------------ | --------------------------------------------- |
-| [**LoadSpriteSheet**](SpriteSheets/LoadSpriteSheet.md) | Loads a spritesheet and returns the id of it. |
+| [**LoadSpriteSheet**](SpriteSheets/LoadSpriteSheet.md) | Loads a spritesheet and returns the ID of it. |
 
 ## Graphics
 | Function                                                       | Description                                                                       |
@@ -37,7 +37,7 @@
 | [**GetHitbox**](Graphics/GetHitbox.md)                         | Gets a Hitbox from the animator's current frame.                                  |
 | [**GetFrameID**](Graphics/GetFrameID.md)                       | Gets the `unicode char` value of the animator's current frame.                    |
 | [**GetStringWidth**](Graphics/GetStringWidth.md)               | Retrieves the width of a string in pixels when displayed with [DrawText](TODO).   |
-| [**ProcessAnimation**](Graphics/ProcessAnimation.md)           | Processes the animation applied to an animator.                                   |                   
+| [**ProcessAnimation**](Graphics/ProcessAnimation.md)           | Processes the animation applied to an animator.                                   |
 
 ## Debugging
 | Function                                                          | Description                                                         |
@@ -45,10 +45,27 @@
 | [**ClearViewableVariables**](Debugging/ClearViewableVariables.md) | Clears all loaded viewable variables.                               |
 | [**AddViewableVariable**](Debugging/AddViewableVariable.md)       | Adds a viewable variable to the [Dev Menu](../Overview/DevMenu.md). |
 
+## Objects & Entities
+| Function                               | Description                                         |
+| -------------------------------------- | --------------------------------------------------- |
+| [**FindObject**](Object/FindObject.md) | Finds a loaded object by name and retrieves its ID. |
+
+## Scene Management
+| Function                                          | Description                                                                                              |
+| ------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| [**SetScene**](Scene/SetScene.md)                 | Sets the scene category and list position to the matching scene entry in the GameConfig.                 |
+| [**SetEngineState**](Scene/SetEngineState.md)     | Sets the state of the engine.                                                                            |
+| [**ForceHardReset**](Scene/ForceHardReset.md)     | Sets whether the next stage reload should reload all assets.                                             |
+| [**CheckValidScene**](Scene/CheckValidScene.md)   | Checks if `SceneInfo->activeCategory` and `SceneInfo->listPos` point to a valid scene in the GameConfig. |
+| [**CheckSceneFolder**](Scene/CheckSceneFolder.md) | Reads the name of the current stage's folder.                                                            |
+| [**LoadScene**](Scene/LoadScene.md)               | Loads a stage based on `SceneInfo->activeCategory` and `SceneInfo->listPos`.                             |
+
 ## Miscellaneous
-| Function                                     | Description                                                                                                                     |
-| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| [**NotifyCallback**](Misc/NotifyCallback.md) | Sends the given callback to communicate to [Hedgehog Engine 2](/Games/SonicOrigins/HedgehogEngine2.md). **Sonic Origins only.** |
+| Function                                           | Description                                                                                                                     |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| [**NotifyCallback**](Misc/NotifyCallback.md)       | Sends the given callback to communicate to [Hedgehog Engine 2](/Games/SonicOrigins/HedgehogEngine2.md). **Sonic Origins only.** |
+| [**HasNotifyCallback**](Misc/HasNotifyCallback.md) | Checks if the game has access to [NotifyCallback()](Misc/NotifyCallback.md). **Sonic Origins only.**                            |
+| [**SetGameFinished**](Misc/SetGameFinished.md)     | Notifies the engine that the game has been finished. **Sonic Origins only.**                                                    |
 
 ## Editor
 | Function                                                   | Description                                                                                      |
