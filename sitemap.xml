@@ -1405,7 +1405,43 @@
          <lastmod>2024-10-14</lastmod>
     </url>
     <url>
+         <loc>https://rsdkmodding.com/RSDKv5/Functions/Misc/HasNotifyCallback/</loc>
+         <lastmod>2024-10-14</lastmod>
+    </url>
+    <url>
          <loc>https://rsdkmodding.com/RSDKv5/Functions/Misc/NotifyCallback/</loc>
+         <lastmod>2024-10-14</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv5/Functions/Misc/SetGameFinished/</loc>
+         <lastmod>2024-10-14</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv5/Functions/Object/FindObject/</loc>
+         <lastmod>2024-10-14</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv5/Functions/Scene/CheckSceneFolder/</loc>
+         <lastmod>2024-10-14</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv5/Functions/Scene/CheckValidScene/</loc>
+         <lastmod>2024-10-14</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv5/Functions/Scene/ForceHardReset/</loc>
+         <lastmod>2024-10-14</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv5/Functions/Scene/LoadScene/</loc>
+         <lastmod>2024-10-14</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv5/Functions/Scene/SetEngineState/</loc>
+         <lastmod>2024-10-14</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv5/Functions/Scene/SetScene/</loc>
          <lastmod>2024-10-14</lastmod>
     </url>
     <url>
