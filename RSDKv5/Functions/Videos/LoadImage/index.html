@@ -12,25 +12,25 @@
         <meta name="author" content="RSDKModding Team">
       
       
-        <link rel="canonical" href="https://rsdkmodding.com/RSDKv5/Functions/Scene/SetScene/">
+        <link rel="canonical" href="https://rsdkmodding.com/RSDKv5/Functions/Videos/LoadImage/">
       
       
-        <link rel="prev" href="../../Object/FindObject/">
+        <link rel="prev" href="../LoadVideo/">
       
       
-        <link rel="next" href="../SetEngineState/">
+        <link rel="next" href="../../Misc/NotifyCallback/">
       
       
       <link rel="icon" href="../../../../assets/icon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.40">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.41">
     
     
       
-        <title>SetScene - RSDK Modding Wiki</title>
+        <title>LoadImage - RSDK Modding Wiki</title>
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/main.8c3ca2c6.min.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.0253249f.min.css">
       
         
         <link rel="stylesheet" href="../../../../assets/stylesheets/palette.06af60db.min.css">
@@ -80,10 +80,10 @@
     
     
     
-  <meta property="og:title" content="SetScene - RSDK Modding Wiki" />
+  <meta property="og:title" content="LoadImage - RSDK Modding Wiki" />
   <meta property="og:type" content="webpage" />
   <meta name="twitter:card" content="summary" />
-  <meta property="og:url" content="https://rsdkmodding.com/RSDKv5/Functions/Scene/SetScene/" />
+  <meta property="og:url" content="https://rsdkmodding.com/RSDKv5/Functions/Videos/LoadImage/" />
   <meta property="og:image" content="https://rsdkmodding.com/assets/icon.png" />
   <meta property="og:image:type" content="image/png" />
 
@@ -120,7 +120,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#setscene" class="md-skip">
+        <a href="#loadimage" class="md-skip">
           Skip to content
         </a>
       
@@ -153,7 +153,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              SetScene
+              LoadImage
             
           </span>
         </div>
@@ -8088,6 +8088,8 @@
       
         
       
+        
+      
     
     
       
@@ -9006,8 +9008,6 @@
                 
   
   
-    
-  
   
   
     
@@ -9020,6 +9020,188 @@
         
       
         
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6_3_3_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6_3_3_7" id="__nav_2_6_3_3_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Scene Management
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_2_6_3_3_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6_3_3_7">
+            <span class="md-nav__icon md-icon"></span>
+            Scene Management
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Stages/SetScene/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SetScene
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Stages/SetEngineState/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SetEngineState
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Stages/ForceHardReset/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ForceHardReset
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Stages/CheckValidScene/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CheckValidScene
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Stages/CheckSceneFolder/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CheckSceneFolder
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Stages/LoadScene/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LoadScene
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
       
         
       
@@ -9037,26 +9219,47 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6_3_3_7" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6_3_3_8" checked>
         
           
-          <label class="md-nav__link" for="__nav_2_6_3_3_7" id="__nav_2_6_3_3_7_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_6_3_3_8" id="__nav_2_6_3_3_8_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    Scene Management
+    Videos & Images
   </span>
   
 
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_2_6_3_3_7_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_2_6_3_3_7">
+        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_2_6_3_3_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_6_3_3_8">
             <span class="md-nav__icon md-icon"></span>
-            Scene Management
+            Videos & Images
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../LoadVideo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LoadVideo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -9078,7 +9281,7 @@
           
   
   <span class="md-ellipsis">
-    SetScene
+    LoadImage
   </span>
   
 
@@ -9089,7 +9292,7 @@
         
   
   <span class="md-ellipsis">
-    SetScene
+    LoadImage
   </span>
   
 
@@ -9164,111 +9367,6 @@
 
               
             
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../SetEngineState/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    SetEngineState
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../ForceHardReset/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    ForceHardReset
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../CheckValidScene/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    CheckValidScene
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../CheckSceneFolder/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    CheckSceneFolder
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../LoadScene/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    LoadScene
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
           </ul>
         </nav>
       
@@ -9304,10 +9402,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6_3_3_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6_3_3_9" >
         
           
-          <label class="md-nav__link" for="__nav_2_6_3_3_8" id="__nav_2_6_3_3_8_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_6_3_3_9" id="__nav_2_6_3_3_9_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -9318,8 +9416,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_2_6_3_3_8_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_6_3_3_8">
+        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_2_6_3_3_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6_3_3_9">
             <span class="md-nav__icon md-icon"></span>
             Miscellaneous
           </label>
@@ -9425,10 +9523,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6_3_3_9" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6_3_3_10" >
         
           
-          <label class="md-nav__link" for="__nav_2_6_3_3_9" id="__nav_2_6_3_3_9_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_6_3_3_10" id="__nav_2_6_3_3_10_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -9439,8 +9537,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_2_6_3_3_9_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_6_3_3_9">
+        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_2_6_3_3_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6_3_3_10">
             <span class="md-nav__icon md-icon"></span>
             Editor
           </label>
@@ -12293,7 +12391,7 @@
                   
 
   
-    <a href="https://github.com/RSDKModding/RSDK-Modding-Wiki/edit/master/docs/RSDKv5/Functions/Scene/SetScene.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/RSDKModding/RSDK-Modding-Wiki/edit/master/docs/RSDKv5/Functions/Videos/LoadImage.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -12302,38 +12400,50 @@
     
       
     
-    <a href="https://github.com/RSDKModding/RSDK-Modding-Wiki/raw/master/docs/RSDKv5/Functions/Scene/SetScene.md" title="View source of this page" class="md-content__button md-icon">
+    <a href="https://github.com/RSDKModding/RSDK-Modding-Wiki/raw/master/docs/RSDKv5/Functions/Videos/LoadImage.md" title="View source of this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
     </a>
   
 
 
-<h1 id="setscene">SetScene<a class="headerlink" href="#setscene" title="Permanent link">&para;</a></h1>
+<h1 id="loadimage">LoadImage<a class="headerlink" href="#loadimage" title="Permanent link">&para;</a></h1>
 <h2 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
-<p>Sets the scene category and list position to the matching scene entry in the GameConfig.</p>
+<p>Loads and displays an image.</p>
 <h2 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">&para;</a></h2>
 <dl>
-<dt><code>categoryName</code></dt>
+<dt><code>filename</code></dt>
 <dd>
-<p>The name of the stage category in the GameConfig.</p>
+<p>The file path of the image to load, relative to <code>Data/Images/</code>. Images may <strong>ONLY</strong> be in PNG format and <strong>MUST</strong> have a resolution of 1024x512 pixels.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Prior to REV02, RSDKv5 used the TGA format for images instead of PNG.</p>
+</div>
 </dd>
-<dt><code>sceneName</code></dt>
+<dt><code>displayLength</code></dt>
 <dd>
-<p>The name of the scene in the GameConfig.</p>
+<p>The amount of time, in seconds, to show the image on-screen (excluding the time during fading in/out).</p>
+</dd>
+<dt><code>fadeSpeed</code></dt>
+<dd>
+<p>The amount of time, in seconds, to take for the image to fade in/out.</p>
+</dd>
+<dt><code>skipCallback</code></dt>
+<dd>
+<p>The function that will be called every frame the image is shown to determine if it should be skipped. The function must return a <code>bool32</code> value. Setting this to <code>NULL</code> will make the image unskippable.</p>
 </dd>
 </dl>
 <h2 id="return-value">Return Value<a class="headerlink" href="#return-value" title="Permanent link">&para;</a></h2>
-<p>Sets <code>SceneInfo-&gt;activeCategory</code> and <code>SceneInfo-&gt;listPos</code> to the category and scene with names matching <code>categoryName</code> and <code>sceneName</code>, respectively. If the given name(s) aren't found in the GameConfig, the variables will not be set.</p>
+<p>None.</p>
 <h2 id="syntax">Syntax<a class="headerlink" href="#syntax" title="Permanent link">&para;</a></h2>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="c" name="__tabbed_1" type="radio" /><input id="c_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="c">C</label><label for="c_1">C++</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="language-c highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">RSDK</span><span class="p">.</span><span class="n">SetScene</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="n">categoryName</span><span class="p">,</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="n">sceneName</span><span class="p">);</span>
+<div class="language-c highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">RSDK</span><span class="p">.</span><span class="n">LoadImage</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="n">filename</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">displayLength</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">fadeSpeed</span><span class="p">,</span><span class="w"> </span><span class="n">bool32</span><span class="w"> </span><span class="p">(</span><span class="o">*</span><span class="n">skipCallback</span><span class="p">)())</span>
 </span></code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="language-cpp highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">Stage</span><span class="o">::</span><span class="n">SetScene</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="n">categoryName</span><span class="p">,</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="n">sceneName</span><span class="p">);</span>
+<div class="language-cpp highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">Video</span><span class="o">::</span><span class="n">LoadImage</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="n">filename</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">displayLength</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">fadeSpeed</span><span class="p">,</span><span class="w"> </span><span class="n">bool32</span><span class="w"> </span><span class="p">(</span><span class="o">*</span><span class="n">skipCallback</span><span class="p">)())</span>
 </span></code></pre></div>
 </div>
 </div>
@@ -12342,11 +12452,11 @@
 <div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="c_2" name="__tabbed_2" type="radio" /><input id="c_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="c_2">C</label><label for="c_3">C++</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="language-c highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">RSDK</span><span class="p">.</span><span class="n">SetScene</span><span class="p">(</span><span class="s">&quot;Presentation&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Title Screen&quot;</span><span class="p">);</span>
+<div class="language-c highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">RSDK</span><span class="p">.</span><span class="n">LoadImage</span><span class="p">(</span><span class="s">&quot;Image.png&quot;</span><span class="p">,</span><span class="w"> </span><span class="mf">32.0</span><span class="p">,</span><span class="w"> </span><span class="mf">1.0</span><span class="p">,</span><span class="w"> </span><span class="n">MyObject_ImageSkipCB</span><span class="p">);</span>
 </span></code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="language-cpp highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">Stage</span><span class="o">::</span><span class="n">SetScene</span><span class="p">(</span><span class="s">&quot;Presentation&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Title Screen&quot;</span><span class="p">);</span>
+<div class="language-cpp highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">Video</span><span class="o">::</span><span class="n">LoadImage</span><span class="p">(</span><span class="s">&quot;Image.png&quot;</span><span class="p">,</span><span class="w"> </span><span class="mf">32.0</span><span class="p">,</span><span class="w"> </span><span class="mf">1.0</span><span class="p">,</span><span class="w"> </span><span class="n">ImageSkipCB</span><span class="p">);</span>
 </span></code></pre></div>
 </div>
 </div>
@@ -12373,7 +12483,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-10-14T19:49:27+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-10-14</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-10-17T02:53:30+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-10-17</span>
   </span>
 
     
@@ -12383,7 +12493,7 @@
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-10-14T19:49:27+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-10-14</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-10-17T02:53:30+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-10-17</span>
   </span>
 
     
@@ -12487,7 +12597,7 @@
     <script id="__config" type="application/json">{"base": "../../../..", "features": ["content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.instant", "navigation.sections", "navigation.tabs", "navigation.top"], "search": "../../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../../assets/javascripts/bundle.525ec568.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.83f73b43.min.js"></script>
       
         <script src="../../../../js/timeago.min.js"></script>
       
