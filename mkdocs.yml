@@ -465,12 +465,12 @@ nav:
           - Objects & Entities:
             - FindObject: RSDKv5/Functions/Object/FindObject.md
           - Scene Management:
-            - SetScene: RSDKv5/Functions/Scene/SetScene.md
-            - SetEngineState: RSDKv5/Functions/Scene/SetEngineState.md
-            - ForceHardReset: RSDKv5/Functions/Scene/ForceHardReset.md
-            - CheckValidScene: RSDKv5/Functions/Scene/CheckValidScene.md
-            - CheckSceneFolder: RSDKv5/Functions/Scene/CheckSceneFolder.md
-            - LoadScene: RSDKv5/Functions/Scene/LoadScene.md
+            - SetScene: RSDKv5/Functions/Stages/SetScene.md
+            - SetEngineState: RSDKv5/Functions/Stages/SetEngineState.md
+            - ForceHardReset: RSDKv5/Functions/Stages/ForceHardReset.md
+            - CheckValidScene: RSDKv5/Functions/Stages/CheckValidScene.md
+            - CheckSceneFolder: RSDKv5/Functions/Stages/CheckSceneFolder.md
+            - LoadScene: RSDKv5/Functions/Stages/LoadScene.md
           - Miscellaneous:
             - NotifyCallback: RSDKv5/Functions/Misc/NotifyCallback.md
             - HasNotifyCallback: RSDKv5/Functions/Misc/HasNotifyCallback.md

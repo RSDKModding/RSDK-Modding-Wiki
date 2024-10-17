@@ -9,7 +9,7 @@ None.
 ## Return Value
 Returns whether the current scene is valid as a `bool32`.
 
-## Example
+## Syntax
 === "C"
 
 	``` c
@@ -20,4 +20,17 @@ Returns whether the current scene is valid as a `bool32`.
 
 	``` cpp
 	Stage::CheckValidScene();
+	```
+
+## Example
+=== "C"
+
+	``` c
+    if (RSDK.CheckValidScene()) { /* do stuff */ }
+	```
+
+=== "C++"
+
+	``` cpp
+    if (Stage::CheckValidScene()) { /* do stuff */ }
 	```

@@ -51,14 +51,14 @@
 | [**FindObject**](Object/FindObject.md) | Finds a loaded object by name and retrieves its ID. |
 
 ## Scene Management
-| Function                                          | Description                                                                                              |
-| ------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| [**SetScene**](Scene/SetScene.md)                 | Sets the scene category and list position to the matching scene entry in the GameConfig.                 |
-| [**SetEngineState**](Scene/SetEngineState.md)     | Sets the state of the engine.                                                                            |
-| [**ForceHardReset**](Scene/ForceHardReset.md)     | Sets whether the next stage reload should reload all assets.                                             |
-| [**CheckValidScene**](Scene/CheckValidScene.md)   | Checks if `SceneInfo->activeCategory` and `SceneInfo->listPos` point to a valid scene in the GameConfig. |
-| [**CheckSceneFolder**](Scene/CheckSceneFolder.md) | Reads the name of the current stage's folder.                                                            |
-| [**LoadScene**](Scene/LoadScene.md)               | Loads a stage based on `SceneInfo->activeCategory` and `SceneInfo->listPos`.                             |
+| Function                                           | Description                                                                                              |
+| -------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| [**SetScene**](Stages/SetScene.md)                 | Sets the scene category and list position to the matching scene entry in the GameConfig.                 |
+| [**SetEngineState**](Stages/SetEngineState.md)     | Sets the state of the engine.                                                                            |
+| [**ForceHardReset**](Stages/ForceHardReset.md)     | Sets whether the next stage reload should reload all assets.                                             |
+| [**CheckValidScene**](Stages/CheckValidScene.md)   | Checks if `SceneInfo->activeCategory` and `SceneInfo->listPos` point to a valid scene in the GameConfig. |
+| [**CheckSceneFolder**](Stages/CheckSceneFolder.md) | Reads the name of the current stage's folder.                                                            |
+| [**LoadScene**](Stages/LoadScene.md)               | Loads a stage based on `SceneInfo->activeCategory` and `SceneInfo->listPos`.                             |
 
 ## Miscellaneous
 | Function                                           | Description                                                                                                                     |
