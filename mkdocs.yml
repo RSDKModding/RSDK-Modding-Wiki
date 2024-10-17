@@ -471,6 +471,9 @@ nav:
             - CheckValidScene: RSDKv5/Functions/Stages/CheckValidScene.md
             - CheckSceneFolder: RSDKv5/Functions/Stages/CheckSceneFolder.md
             - LoadScene: RSDKv5/Functions/Stages/LoadScene.md
+          - Videos & Images:
+            - LoadVideo: RSDKv5/Functions/Videos/LoadVideo.md
+            - LoadImage: RSDKv5/Functions/Videos/LoadImage.md
           - Miscellaneous:
             - NotifyCallback: RSDKv5/Functions/Misc/NotifyCallback.md
             - HasNotifyCallback: RSDKv5/Functions/Misc/HasNotifyCallback.md

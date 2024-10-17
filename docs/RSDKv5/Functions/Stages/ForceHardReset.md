@@ -7,7 +7,7 @@
 Sets whether the next stage reload should reload all assets.
 
 !!! note
-    This function does not reload the scene by itself; you must call [LoadStage()](LoadStage.md) manually.
+    This function does not reload the scene by itself; you must call [LoadScene()](LoadScene.md) manually.
 
 ## Parameters
 `shouldHardReset`

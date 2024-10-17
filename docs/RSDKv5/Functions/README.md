@@ -60,6 +60,12 @@
 | [**CheckSceneFolder**](Stages/CheckSceneFolder.md) | Reads the name of the current stage's folder.                                                            |
 | [**LoadScene**](Stages/LoadScene.md)               | Loads a stage based on `SceneInfo->activeCategory` and `SceneInfo->listPos`.                             |
 
+## Videos & Images
+| Function                             | Description                  |
+| ------------------------------------ | ---------------------------- |
+| [**LoadVideo**](Videos/LoadVideo.md) | Loads and plays a video.     |
+| [**LoadImage**](Videos/LoadImage.md) | Loads and displays an image. |
+
 ## Miscellaneous
 | Function                                           | Description                                                                                                                     |
 | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
