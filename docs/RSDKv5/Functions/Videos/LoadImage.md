@@ -24,7 +24,7 @@ Loads and displays an image.
 :   The function that will be called every frame the image is shown to determine if it should be skipped. The function must return a `bool32` value. Setting this to `NULL` will make the image unskippable.
 
 ## Return Value
-None.
+Returns `true` as a `bool32` if the image loaded successfully; otherwise, returns `false`.
 
 ## Syntax
 === "C"

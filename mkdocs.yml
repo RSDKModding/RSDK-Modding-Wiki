@@ -462,6 +462,15 @@ nav:
           - Debugging:
             - ClearViewableVariables: RSDKv5/Functions/Debugging/ClearViewableVariables.md
             - AddViewableVariable: RSDKv5/Functions/Debugging/AddViewableVariable.md
+          - Printing:
+            - PrintLog: RSDKv5/Functions/Printing/PrintLog.md
+            - PrintText: RSDKv5/Functions/Printing/PrintText.md
+            - PrintString: RSDKv5/Functions/Printing/PrintString.md
+            - PrintUInt32: RSDKv5/Functions/Printing/PrintUInt32.md
+            - PrintInt32: RSDKv5/Functions/Printing/PrintInt32.md
+            - PrintFloat: RSDKv5/Functions/Printing/PrintFloat.md
+            - PrintVector2: RSDKv5/Functions/Printing/PrintVector2.md
+            - PrintHitbox: RSDKv5/Functions/Printing/PrintHitbox.md
           - Objects & Entities:
             - FindObject: RSDKv5/Functions/Object/FindObject.md
           - Scene Management:

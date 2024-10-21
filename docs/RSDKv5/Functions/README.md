@@ -45,6 +45,18 @@
 | [**ClearViewableVariables**](Debugging/ClearViewableVariables.md) | Clears all loaded viewable variables.                               |
 | [**AddViewableVariable**](Debugging/AddViewableVariable.md)       | Adds a viewable variable to the [Dev Menu](../Overview/DevMenu.md). |
 
+## Printing
+| Function                                     | Description                                  |
+| -------------------------------------------- | -------------------------------------------- |
+| [**PrintLog**](Printing/PrintLog.md)         | Prints a message to the console.             |
+| [**PrintText**](Printing/PrintText.md)       | Prints a `const char` string to the console. |
+| [**PrintString**](Printing/PrintString.md)   | Prints a String variable to the console.     |
+| [**PrintUInt32**](Printing/PrintUInt32.md)   | Prints an unsigned integer to the console.   |
+| [**PrintInt32**](Printing/PrintInt32.md)     | Prints a signed integer to the console.      |
+| [**PrintFloat**](Printing/PrintFloat.md)     | Prints a float value to the console.         |
+| [**PrintVector2**](Printing/PrintVector2.md) | Prints a Vector2 variable to the console.    |
+| [**PrintHitbox**](Printing/PrintHitbox.md)   | Prints a Hitbox variable to the console.     |
+
 ## Objects & Entities
 | Function                               | Description                                         |
 | -------------------------------------- | --------------------------------------------------- |
