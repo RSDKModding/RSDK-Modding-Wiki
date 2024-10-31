@@ -22,7 +22,7 @@
       
       
       <link rel="icon" href="../../../../assets/icon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.42">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
     
     
       
@@ -218,11 +218,18 @@
       </label>
       <nav class="md-search__options" aria-label="Search">
         
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
         <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
       </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
       
     </form>
     <div class="md-search__output">
@@ -11764,6 +11771,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#read-before-proceeding" class="md-nav__link">
+    <span class="md-ellipsis">
+      Read before proceeding
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#get-the-source-code" class="md-nav__link">
     <span class="md-ellipsis">
       Get the source code
@@ -12618,6 +12634,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#read-before-proceeding" class="md-nav__link">
+    <span class="md-ellipsis">
+      Read before proceeding
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#get-the-source-code" class="md-nav__link">
     <span class="md-ellipsis">
       Get the source code
@@ -12749,14 +12774,35 @@
 
 <h1 id="building-the-rsdkv5-sonic-mania-decompilations">Building the RSDKv5 &amp; Sonic Mania Decompilations<a class="headerlink" href="#building-the-rsdkv5-sonic-mania-decompilations" title="Permanent link">&para;</a></h1>
 <p>The RSDKv5 and Sonic Mania decompilations use <a href="https://cmake.org/">CMake</a>, a versatile building system that supports many different compilers and platforms.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>This guide requires basic knowledge of how to use the appropriate terminal for your OS, such as Command Prompt for Windows. If you aren't familiar with opening terminals in specific directories, look up a tutorial online.</p>
+<h2 id="read-before-proceeding">Read before proceeding<a class="headerlink" href="#read-before-proceeding" title="Permanent link">&para;</a></h2>
+<p>This guide requires basic knowledge of how to use the appropriate terminal for your OS, such as Command Prompt for Windows. If you aren't familiar with doing basic actions with terminals, such as opening one in specific directories, look up a tutorial online.</p>
+<p>In addition, refer to these warnings depending on the platform you are compiling for:</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="windows" name="__tabbed_1" type="radio" /><input id="linux" name="__tabbed_1" type="radio" /><input id="nintendo-switch" name="__tabbed_1" type="radio" /><input id="android" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="windows">Windows</label><label for="linux">Linux</label><label for="nintendo-switch">Nintendo Switch</label><label for="android">Android</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Make sure to use Command Prompt when typing commands instead of PowerShell, as PowerShell is known to cause issues.</p>
+</div>
+</div>
+<div class="tabbed-block">
+<div class="admonition warning">
+<p class="admonition-title">Notice for Steam Deck users</p>
+<p>Due to how SteamOS handles packages, building the decompilation on the Steam Deck is highly difficult and not recommended. Instead, consider building it on another Arch Linux device and using that build on the Steam Deck.</p>
+</div>
+</div>
+<div class="tabbed-block">
+<p>TODO</p>
+</div>
+<div class="tabbed-block">
+<p>TODO</p>
+</div>
+</div>
 </div>
 <h2 id="get-the-source-code">Get the source code<a class="headerlink" href="#get-the-source-code" title="Permanent link">&para;</a></h2>
 <p>In order to clone the repository, you need to install Git, which you can get <a href="https://git-scm.com/downloads">here</a>.</p>
 <p>Clone the repo <strong>recursively</strong>, using:</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="rsdkv5--sonic-mania" name="__tabbed_1" type="radio" /><input id="rsdkv5-only" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="rsdkv5--sonic-mania">RSDKv5 + Sonic Mania</label><label for="rsdkv5-only">RSDKv5 Only</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="rsdkv5--sonic-mania" name="__tabbed_2" type="radio" /><input id="rsdkv5-only" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="rsdkv5--sonic-mania">RSDKv5 + Sonic Mania</label><label for="rsdkv5-only">RSDKv5 Only</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git clone --recursive https://github.com/RSDKModding/Sonic-Mania-Decompilation
@@ -12773,7 +12819,7 @@
 </span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>git submodule update --remote --init --recursive
 </span></code></pre></div></p>
 <h2 id="getting-dependencies">Getting dependencies<a class="headerlink" href="#getting-dependencies" title="Permanent link">&para;</a></h2>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:4"><input checked="checked" id="windows" name="__tabbed_2" type="radio" /><input id="linux" name="__tabbed_2" type="radio" /><input id="nintendo-switch" name="__tabbed_2" type="radio" /><input id="android" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="windows">Windows</label><label for="linux">Linux</label><label for="nintendo-switch">Nintendo Switch</label><label for="android">Android</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:4"><input checked="checked" id="windows_1" name="__tabbed_3" type="radio" /><input id="linux_1" name="__tabbed_3" type="radio" /><input id="nintendo-switch_1" name="__tabbed_3" type="radio" /><input id="android_1" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="windows_1">Windows</label><label for="linux_1">Linux</label><label for="nintendo-switch_1">Nintendo Switch</label><label for="android_1">Android</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><a href="https://cmake.org/download/">Install CMake</a>. <strong>Make sure to enable the feature to add CMake to the system PATH during the installation.</strong></p>
@@ -12787,8 +12833,8 @@
 <p class="admonition-title">Tip</p>
 <p>It's recommended to clone vcpkg into a short path such as <code>C:/src</code> to keep future commands from getting too long.</p>
 </div>
-<p>Run the following command in the vcpkg repository in Command Prompt:</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="64-bit" name="__tabbed_3" type="radio" /><input id="32-bit" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="64-bit">64-bit</label><label for="32-bit">32-bit</label></div>
+<p>Run the following command in the vcpkg repository:</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="64-bit" name="__tabbed_4" type="radio" /><input id="32-bit" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="64-bit">64-bit</label><label for="32-bit">32-bit</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>vcpkg.exe install libtheora libogg glew sdl2 --triplet=x64-windows-static
@@ -12800,33 +12846,33 @@
 </div>
 </div>
 </div>
+<p>Then, add vcpkg to your environment variables by running the following commands in the vcpkg repository:
+<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>set VCPKG=&quot;%CD%&quot;
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>setx VCPKG %VCPKG%
+</span></code></pre></div></p>
 </div>
 <div class="tabbed-block">
-<div class="admonition warning">
-<p class="admonition-title">Notice for Steam Deck users</p>
-<p>Due to how SteamOS handles packages, building the decompilation on the Steam Deck is highly difficult and not recommended. Instead, consider building it on another Arch Linux device and using that build on the Steam Deck.</p>
-</div>
 <p>Run the following command in the terminal:</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="4:5"><input checked="checked" id="pacman-arch" name="__tabbed_4" type="radio" /><input id="apt-debianubuntu" name="__tabbed_4" type="radio" /><input id="rpm-fedora" name="__tabbed_4" type="radio" /><input id="apk-alpinepostmarketos" name="__tabbed_4" type="radio" /><input id="xbps-void" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="pacman-arch">pacman (Arch)</label><label for="apt-debianubuntu">apt (Debian/Ubuntu)</label><label for="rpm-fedora">rpm (Fedora)</label><label for="apk-alpinepostmarketos">apk (Alpine/PostmarketOS)</label><label for="xbps-void">xbps (Void)</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:5"><input checked="checked" id="pacman-arch" name="__tabbed_5" type="radio" /><input id="apt-debianubuntu" name="__tabbed_5" type="radio" /><input id="rpm-fedora" name="__tabbed_5" type="radio" /><input id="apk-alpinepostmarketos" name="__tabbed_5" type="radio" /><input id="xbps-void" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="pacman-arch">pacman (Arch)</label><label for="apt-debianubuntu">apt (Debian/Ubuntu)</label><label for="rpm-fedora">rpm (Fedora)</label><label for="apk-alpinepostmarketos">apk (Alpine/PostmarketOS)</label><label for="xbps-void">xbps (Void)</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>sudo pacman -S base-devel cmake glew glfw libtheora sdl2
+<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>sudo pacman -S base-devel cmake glew glfw libtheora sdl2
 </span></code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>sudo apt install build-essential cmake libglew-dev libglfw3-dev libtheora-dev libsdl2-dev
+<div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>sudo apt install build-essential cmake libglew-dev libglfw3-dev libtheora-dev libsdl2-dev
 </span></code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>sudo dnf install make cmake gcc glew-devel glfw-devel libtheora-devel sdl2-devel zlib-devel
+<div class="language-text highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>sudo dnf install make cmake gcc glew-devel glfw-devel libtheora-devel sdl2-devel zlib-devel
 </span></code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="language-text highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>sudo apk add build-base cmake gcc glew-dev glfw-dev libtheora-dev sdl2-dev
+<div class="language-text highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>sudo apk add build-base cmake gcc glew-dev glfw-dev libtheora-dev sdl2-dev
 </span></code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="language-text highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>sudo xbps-install make cmake gcc pkg-config glew-devel glfw-devel libtheora-devel SDL2-devel zlib-devel
+<div class="language-text highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>sudo xbps-install make cmake gcc pkg-config glew-devel glfw-devel libtheora-devel SDL2-devel zlib-devel
 </span></code></pre></div>
 </div>
 </div>
@@ -12834,7 +12880,7 @@
 </div>
 <div class="tabbed-block">
 <p><a href="https://devkitpro.org/wiki/Getting_Started">Set up devKitPro</a>, then run the following command:
-<div class="language-text highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>(dkp-)pacman -Syuu switch-dev switch-libogg switch-libtheora switch-sdl2 switch-glad
+<div class="language-text highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>(dkp-)pacman -Syuu switch-dev switch-libogg switch-libtheora switch-sdl2 switch-glad
 </span></code></pre></div></p>
 </div>
 <div class="tabbed-block">
@@ -12843,57 +12889,39 @@
 </div>
 </div>
 <h2 id="compiling">Compiling<a class="headerlink" href="#compiling" title="Permanent link">&para;</a></h2>
-<div class="tabbed-set tabbed-alternate" data-tabs="5:4"><input checked="checked" id="windows_1" name="__tabbed_5" type="radio" /><input id="linux_1" name="__tabbed_5" type="radio" /><input id="nintendo-switch_1" name="__tabbed_5" type="radio" /><input id="android_1" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="windows_1">Windows</label><label for="linux_1">Linux</label><label for="nintendo-switch_1">Nintendo Switch</label><label for="android_1">Android</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:4"><input checked="checked" id="windows_2" name="__tabbed_6" type="radio" /><input id="linux_2" name="__tabbed_6" type="radio" /><input id="nintendo-switch_2" name="__tabbed_6" type="radio" /><input id="android_2" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="windows_2">Windows</label><label for="linux_2">Linux</label><label for="nintendo-switch_2">Nintendo Switch</label><label for="android_2">Android</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p>Enter the following commands in the RSDKv5/Mania decompilation repository directory:</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked="checked" id="64-bit_1" name="__tabbed_6" type="radio" /><input id="32-bit_1" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="64-bit_1">64-bit</label><label for="32-bit_1">32-bit</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="7:2"><input checked="checked" id="64-bit_1" name="__tabbed_7" type="radio" /><input id="32-bit_1" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="64-bit_1">64-bit</label><label for="32-bit_1">32-bit</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="language-text highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=[vcpkg root]/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-windows-static
-</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>cmake --build build --config release
+<div class="language-text highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=&quot;%VCPKG%/scripts/buildsystems/vcpkg.cmake&quot; -DVCPKG_TARGET_TRIPLET=x64-windows-static
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>cmake --build build --config release
 </span></code></pre></div>
-<div class="admonition warning">
-<p class="admonition-title">Important!</p>
-<p><code>[vcpkg root]</code> should be replaced with the path to the vcpkg repository. For example, if the repository is located in <code>C:/src/vcpkg</code>, the first command to enter would be:
-<div class="language-text highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=C:/src/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-windows-static
-</span></code></pre></div>
-If the path to the repository includes spaces in it, you will need to put quotation marks around the entire path. For example, if the repository is located in <code>C:/github repos/vcpkg</code>, the first command to enter would be:
-<div class="language-text highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=&quot;C:/github repos/vcpkg/scripts/buildsystems/vcpkg.cmake&quot; -DVCPKG_TARGET_TRIPLET=x64-windows-static
-</span></code></pre></div></p>
-</div>
 </div>
 <div class="tabbed-block">
-<div class="language-text highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=[vcpkg root]/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x86-windows-static -A Win32
+<div class="language-text highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=&quot;%VCPKG%/scripts/buildsystems/vcpkg.cmake&quot; -DVCPKG_TARGET_TRIPLET=x86-windows-static -A Win32
+</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>cmake --build build --config release
+</span></code></pre></div>
+</div>
+</div>
+</div>
+<p>The resulting build(s) will be located somewhere in <code>build/</code> depending on your system. If you built RSDKv5 and Sonic Mania together, Sonic Mania (<code>Game.dll</code>) will be found in <code>build</code> while RSDKv5 (<code>RSDKv5(U).exe</code>) will be found in <code>build/dependencies/RSDKv5</code>.</p>
+<p>You can set <a href="#build-flags">build flags</a> by adding <code>-D[flag-name]=[value]</code> to the end of the first command. For example, to build with <code>RETRO_DISABLE_PLUS</code> set to on, add <code>-DRETRO_DISABLE_PLUS=on</code> to the command.</p>
+</div>
+<div class="tabbed-block">
+<p>Enter the following commands in the RSDKv5/Mania decompilation repository directory:
+<div class="language-text highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release
 </span><span id="__span-14-2"><a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>cmake --build build --config release
-</span></code></pre></div>
-<div class="admonition warning">
-<p class="admonition-title">Important!</p>
-<p><code>[vcpkg root]</code> should be replaced with the path to the vcpkg repository. For example, if the repository is located in <code>C:/src/vcpkg</code>, the first command to enter would be:
-<div class="language-text highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=C:/src/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x86-windows-static -A Win32
-</span></code></pre></div>
-If the path to the repository includes spaces in it, you will need to put quotation marks around the entire path. For example, if the repository is located in <code>C:/github repos/vcpkg</code>, the first command to enter would be:
-<div class="language-text highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=&quot;C:/github repos/vcpkg/scripts/buildsystems/vcpkg.cmake&quot; -DVCPKG_TARGET_TRIPLET=x86-windows-static -A Win32
 </span></code></pre></div></p>
-</div>
-</div>
-</div>
-</div>
-<p>The resulting build(s) will be located somewhere in <code>build/</code> depending on your system.</p>
+<p>The resulting build(s) will be located somewhere in <code>build/</code> depending on your system. If you built RSDKv5 and Sonic Mania together, Sonic Mania (<code>libGame.so</code>) will be found in <code>build</code> while RSDKv5 (<code>RSDKv5(U)</code>) will be found in <code>build/dependencies/RSDKv5</code>.</p>
 <p>You can set <a href="#build-flags">build flags</a> by adding <code>-D[flag-name]=[value]</code> to the end of the first command. For example, to build with <code>RETRO_DISABLE_PLUS</code> set to on, add <code>-DRETRO_DISABLE_PLUS=on</code> to the command.</p>
 </div>
 <div class="tabbed-block">
 <p>Enter the following commands in the RSDKv5/Mania decompilation repository directory:
-<div class="language-text highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release
-</span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>cmake --build build --config release
-</span></code></pre></div></p>
-<p>The resulting build(s) will be located somewhere in <code>build/</code> depending on your system.</p>
-<p>You can set <a href="#build-flags">build flags</a> by adding <code>-D[flag-name]=[value]</code> to the end of the first command. For example, to build with <code>RETRO_DISABLE_PLUS</code> set to on, add <code>-DRETRO_DISABLE_PLUS=on</code> to the command.</p>
-</div>
-<div class="tabbed-block">
-<p>Enter the following commands in the RSDKv5/Mania decompilation repository directory:
-<div class="language-text highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/opt/devkitpro/cmake/Switch.cmake
-</span><span id="__span-18-2"><a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>cmake --build build --config release
+<div class="language-text highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/opt/devkitpro/cmake/Switch.cmake
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>cmake --build build --config release
 </span></code></pre></div></p>
 <p>The resulting build will be located somewhere in <code>build/</code> depending on your system.</p>
 <p>You can set <a href="#build-flags">build flags</a> by adding <code>-D[flag-name]=[value]</code> to the end of the first command. For example, to build with <code>RETRO_DISABLE_PLUS</code> set to on, add <code>-DRETRO_DISABLE_PLUS=on</code> to the command.</p>
@@ -13107,7 +13135,7 @@ If the path to the repository includes spaces in it, you will need to put quotat
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-10-14T19:49:27+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-10-14</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-10-31T18:18:36+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-10-31</span>
   </span>
 
     
@@ -13218,7 +13246,7 @@ If the path to the repository includes spaces in it, you will need to put quotat
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../../..", "features": ["content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.instant", "navigation.sections", "navigation.tabs", "navigation.top"], "search": "../../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.instant", "navigation.sections", "navigation.tabs", "navigation.top", "search.share", "search.suggest"], "search": "../../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../../../assets/javascripts/bundle.83f73b43.min.js"></script>
