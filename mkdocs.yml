@@ -28,6 +28,8 @@ theme:
     - navigation.sections
     - navigation.tabs
     - navigation.top
+    - search.share
+    - search.suggest
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"

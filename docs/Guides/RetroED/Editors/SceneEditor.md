@@ -1,4 +1,4 @@
-# RetroED Scene Editor
+# Scene Editor
 
 ## Tools
 === "Pre-v5"

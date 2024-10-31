@@ -36,7 +36,7 @@
 | [**GetFrame**](Graphics/GetFrame.md)                           | Retrieves a specific SpriteFrame from a SpriteAnimation.                          |
 | [**GetHitbox**](Graphics/GetHitbox.md)                         | Gets a Hitbox from the animator's current frame.                                  |
 | [**GetFrameID**](Graphics/GetFrameID.md)                       | Gets the `unicode char` value of the animator's current frame.                    |
-| [**GetStringWidth**](Graphics/GetStringWidth.md)               | Retrieves the width of a string in pixels when displayed with [DrawText](TODO).   |
+| [**GetStringWidth**](Graphics/GetStringWidth.md)               | Retrieves the width of a string in pixels when displayed with [DrawText()](TODO).   |
 | [**ProcessAnimation**](Graphics/ProcessAnimation.md)           | Processes the animation applied to an animator.                                   |
 
 ## Debugging
@@ -88,7 +88,7 @@
 ## Editor
 | Function                                                   | Description                                                                                      |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| [**RSDK_ACTIVE_VAR**](Editor/RSDK_ACTIVE_VAR.md)           | Sets a variable to be the "active variable" when using [RSDK_ENUM_VAR](Editor/RSDK_ENUM_VAR.md). |
+| [**RSDK_ACTIVE_VAR**](Editor/RSDK_ACTIVE_VAR.md)           | Sets a variable to be the "active variable" when using [RSDK_ENUM_VAR()](Editor/RSDK_ENUM_VAR.md). |
 | [**RSDK_ENUM_VAR**](Editor/RSDK_ENUM_VAR.md)               | Adds an enum variable to the current active variable.                                            |
 | [**showGizmos**](Editor/showGizmos.md)                     | Checks if gizmos should be visible for this object.                                              |
 | [**RSDK_DRAWING_OVERLAY**](Editor/RSDK_DRAWING_OVERLAY.md) | Enables/disables "overlay" mode when drawing.                                                    |

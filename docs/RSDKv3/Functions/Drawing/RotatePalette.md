@@ -18,7 +18,7 @@ Rotates all colors in `PalBank` from `StartIndex` to `EndIndex`, moving left or 
 
 `RotRight`
 
-:   Rotates right if `false`; otherwise, rotates left.
+:   Rotates right if `true`; otherwise, rotates left.
 
 ## Return Value
 None.

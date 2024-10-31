@@ -2,8 +2,25 @@
 
 The RSDKv3 Decompilation uses [CMake](https://cmake.org/), a versatile building system that supports many different compilers and platforms.
 
-!!! note
-    This guide requires basic knowledge of how to use the appropriate terminal for your OS, such as Command Prompt for Windows. If you aren't familiar with opening terminals in specific directories, look up a tutorial online.
+## Read before proceeding
+
+This guide requires basic knowledge of how to use the appropriate terminal for your OS, such as Command Prompt for Windows. If you aren't familiar with doing basic actions with terminals, such as opening one in specific directories, look up a tutorial online.
+
+In addition, refer to these warnings depending on the platform you are compiling for:
+
+=== "Windows"
+
+    !!! warning
+        Make sure to use Command Prompt when typing commands instead of PowerShell, as PowerShell is known to cause issues.
+
+=== "Linux"
+
+    !!! warning "Notice for Steam Deck users"
+        Due to how SteamOS handles packages, building the decompilation on the Steam Deck is highly difficult and not recommended. Instead, consider building it on another Arch Linux device and using that build on the Steam Deck.
+
+=== "Android"
+
+    TODO
 
 ## Get the source code
 In order to clone the repository, you need to install Git, which you can get [here](https://git-scm.com/downloads).
@@ -34,7 +51,7 @@ git submodule update --remote --init --recursive
     !!! tip
         It's recommended to clone vcpkg into a short path such as `C:/src` to keep future commands from getting too long.
 
-    Run the following command in the vcpkg repository in Command Prompt:
+    Run the following command in the vcpkg repository:
     === "64-bit"
 
         ```
@@ -47,10 +64,13 @@ git submodule update --remote --init --recursive
         vcpkg.exe install glew sdl2 libogg libtheora libvorbis --triplet=x86-windows-static
         ```
 
-=== "Linux"
+    Then, add vcpkg to your environment variables by running the following commands in the vcpkg repository:
+    ```
+    set VCPKG="%CD%"
+    setx VCPKG %VCPKG%
+    ```
 
-    !!! warning "Notice for Steam Deck users"
-        Due to how SteamOS handles packages, building the decompilation on the Steam Deck is highly difficult and not recommended. Instead, consider building it on another Arch Linux device and using that build on the Steam Deck.
+=== "Linux"
 
     Run the following command in the terminal:
 
@@ -95,36 +115,16 @@ git submodule update --remote --init --recursive
     === "64-bit"
 
         ```
-        cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=[vcpkg root]/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH=[vcpkg root]/installed/x64-windows-static/
+        cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH="%VCPKG%/installed/x64-windows-static/"
         cmake --build build --config release
         ```
-
-        !!! warning "Important!"
-            Both instances of `[vcpkg root]` should be replaced with the path to the vcpkg repository. For example, if the repository is located in `C:/src/vcpkg`, the first command to enter would be:
-            ```
-            cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=C:/src/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH=C:/src/vcpkg/installed/x64-windows-static/
-            ```
-            If the path to the repository includes spaces in it, you will need to put quotation marks around the entire path. For example, if the repository is located in `C:/github repos/vcpkg`, the first command to enter would be:
-            ```
-            cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="C:/github repos/vcpkg/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH="C:/github repos/vcpkg/installed/x64-windows-static/"
-            ```
 
     === "32-bit"
 
         ```
-        cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=[vcpkg root]/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH=[vcpkg root]/installed/x86-windows-static/ -A Win32
+        cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH="%VCPKG%/installed/x86-windows-static/" -A Win32
         cmake --build build --config release
         ```
-
-        !!! warning "Important!"
-            Both instances of `[vcpkg root]` should be replaced with the path to the vcpkg repository. For example, if the repository is located in `C:/src/vcpkg`, the first command to enter would be:
-            ```
-            cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=C:/src/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH=C:/src/vcpkg/installed/x86-windows-static/ -A Win32
-            ```
-            If the path to the repository includes spaces in it, you will need to put quotation marks around the entire path. For example, if the repository is located in `C:/github repos/vcpkg`, the first command to enter would be:
-            ```
-            cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="C:/github repos/vcpkg/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH="C:/github repos/vcpkg/installed/x86-windows-static/" -A Win32
-            ```
 
     The resulting build will be located somewhere in `build/` depending on your system.
 
