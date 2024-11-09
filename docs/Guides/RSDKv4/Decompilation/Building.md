@@ -49,7 +49,7 @@ git submodule update --remote --init --recursive
     You will also need to [set up vcpkg](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-cmd#1---set-up-vcpkg). You only need to follow `1 - Set up vcpkg` in the guide.
 
     !!! tip
-        It's recommended to clone vcpkg into a short path such as `C:/src` to keep future commands from getting too long.
+        It's recommended to clone vcpkg into a short path such as `C:/src` to avoid potential file path issues.
 
     Run the following command in the vcpkg repository:
     === "64-bit"
@@ -66,8 +66,8 @@ git submodule update --remote --init --recursive
 
     Then, add vcpkg to your environment variables by running the following commands in the vcpkg repository:
     ```
-    set VCPKG="%CD%"
-    setx VCPKG %VCPKG%
+    set VCPKG_ROOT="%CD%"
+    setx VCPKG_ROOT %VCPKG_ROOT%
     ```
 
 === "Linux"
@@ -106,7 +106,26 @@ git submodule update --remote --init --recursive
 
 === "Android"
 
-    TODO
+    Download and install [Android Studio](https://developer.android.com/studio).
+
+    Download the ZIP archives for **libogg** and **libvorbis** from [xiph.org](https://xiph.org/downloads/), then extract and place the `libogg-X.X.X` and `libvorbis-X.X.X` folders into `RSDKv4-Decompilation/dependencies/android`. Rename the folders `libogg` and `libvorbis`, respectively.
+
+    Download the [source code for SDL version 2.28.3](https://libsdl.org/release/SDL2-2.28.3.zip), then extract and place the `SDL2-2.28.3` folder into `RSDKv4-Decompilation/dependencies/android`. Rename the folder `SDL`.
+
+    Download the **binaries** for GLEW from [glew.sourceforge.net](https://glew.sourceforge.net/), then extract and place the `glew-X.X.X` folder into `RSDKv4-Decompilation/dependencies/android`. Rename the folder `glew`.
+
+    Navigate to `RSDKv4-Decompilation/android/app/jni` and delete the `src` file in it, then create the symbolic links in the following table in that directory:
+
+    | Symlink Name | Path                                                    |
+    | ------------ | ------------------------------------------------------- |
+    | `SDL`        | Path to `RSDKv4-Decompilation/dependencies/android/SDL` |
+    | `src`        | Path to `RSDKv4-Decompilation`                          |
+
+    !!! question "How do I make a symbolic link?"
+        You can create a symlink using the appropriate command:
+
+        - Windows: `mklink /d "[symlink-name]" "[path]"` (or use [Link Shell Extension](https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html))
+        - Linux: `ln -s "[path]" "[symlink-name]"`
 
 ## Compiling
 === "Windows"
@@ -115,14 +134,14 @@ git submodule update --remote --init --recursive
     === "64-bit"
 
         ```
-        cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH="%VCPKG%/installed/x64-windows-static/"
+        cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH="%VCPKG_ROOT%/installed/x64-windows-static/"
         cmake --build build --config release
         ```
 
     === "32-bit"
 
         ```
-        cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH="%VCPKG%/installed/x86-windows-static/" -A Win32
+        cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH="%VCPKG_ROOT%/installed/x86-windows-static/" -A Win32
         cmake --build build --config release
         ```
 
@@ -144,7 +163,9 @@ git submodule update --remote --init --recursive
 
 === "Android"
 
-    TODO
+    TODO: Be more descriptive
+
+    Open `RSDKv4-Decompilation/android/` in Android Studio, install the NDK and everything else that it asks for, and build.
 
 ## Build Flags
 !!! warning

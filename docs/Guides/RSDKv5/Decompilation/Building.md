@@ -61,7 +61,7 @@ git submodule update --remote --init --recursive
     You will also need to [set up vcpkg](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-cmd#1---set-up-vcpkg). You only need to follow `1 - Set up vcpkg` in the guide.
 
     !!! tip
-        It's recommended to clone vcpkg into a short path such as `C:/src` to keep future commands from getting too long.
+        It's recommended to clone vcpkg into a short path such as `C:/src` to avoid potential file path issues.
 
     Run the following command in the vcpkg repository:
     === "64-bit"
@@ -78,8 +78,8 @@ git submodule update --remote --init --recursive
 
     Then, add vcpkg to your environment variables by running the following commands in the vcpkg repository:
     ```
-    set VCPKG="%CD%"
-    setx VCPKG %VCPKG%
+    set VCPKG_ROOT="%CD%"
+    setx VCPKG_ROOT %VCPKG_ROOT%
     ```
 
 === "Linux"
@@ -125,7 +125,31 @@ git submodule update --remote --init --recursive
 
 === "Android"
 
-    TODO
+    Download and install [Android Studio](https://developer.android.com/studio).
+
+    === "RSDKv5 + Sonic Mania"
+
+        Download the ZIP archives for **libogg** and **libtheora** from [xiph.org](https://xiph.org/downloads/), then extract and place the `libogg-X.X.X` and `libtheora-X.X.X` folders into `Sonic-Mania-Decompilation/dependencies/RSDKv5/dependencies/android`. Rename the folders `libogg` and `libtheora`, respectively.
+
+        Navigate to `Sonic-Mania-Decompilation/dependencies/RSDKv5/android/app/jni` and create the symbolic links in the following table in that directory:
+
+    === "RSDKv5 Only"
+
+        Download the ZIP archives for **libogg** and **libtheora** from [xiph.org](https://xiph.org/downloads/), then extract and place the `libogg-X.X.X` and `libtheora-X.X.X` folders into `RSDKv5-Decompilation/dependencies/android`. Rename the folders `libogg` and `libtheora`, respectively.
+
+        Navigate to `RSDKv5-Decompilation/android/app/jni` and create the symbolic links in the following table in that directory:
+
+    | Symlink Name                         | Path                                                                                |
+    | ------------------------------------ | ----------------------------------------------------------------------------------- |
+    | `RSDKv5`                             | Path to `RSDKv5-Decompilation` (or `Sonic-Mania-Decompilation/dependencies/RSDKv5`) |
+    | `Game`                               | Path to `Sonic-Mania-Decompilation` (or any other game you'd like to build)         |
+    | Name of any mod(s) you'd like to add | Path to the directory for the mod's code containing a `CMakeLists.txt` file         |
+
+    !!! question "How do I make a symbolic link?"
+        You can create a symlink using the appropriate command:
+
+        - Windows: `mklink /d "[symlink-name]" "[path]"` (or use [Link Shell Extension](https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html))
+        - Linux: `ln -s "[path]" "[symlink-name]"`
 
 ## Compiling
 === "Windows"
@@ -134,14 +158,14 @@ git submodule update --remote --init --recursive
     === "64-bit"
 
         ```
-        cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static
+        cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static
         cmake --build build --config release
         ```
 
     === "32-bit"
 
         ```
-        cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -A Win32
+        cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -A Win32
         cmake --build build --config release
         ```
 
@@ -175,7 +199,15 @@ git submodule update --remote --init --recursive
 
 === "Android"
 
-    TODO
+    TODO: Be more descriptive
+
+    === "RSDKv5 + Sonic Mania"
+
+        Open `Sonic-Mania-Decompilation/dependencies/RSDKv5/android/` in Android Studio, install the NDK and everything else that it asks for, and build.
+
+    === "RSDKv5 Only"
+
+        Open `RSDKv5-Decompilation/android/` in Android Studio, install the NDK and everything else that it asks for, and build.
 
 ## Build Flags
 !!! warning
