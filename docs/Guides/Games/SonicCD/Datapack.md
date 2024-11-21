@@ -78,7 +78,7 @@ The datapack for Sonic CD is required for both playing and modding the game.
 
 === "Sonic Origins (EGS)"
 
-    Open your Epic Games library, then right click Sonic Origins and click `Manage`. In the menu that appears, click the :material-folder-outline: Open Install Location button next to the Uninstall button.
+    Open your Epic Games library, then right click Sonic Origins and click `Manage`. In the menu that appears, click the :material-folder-search-outline: Open Install Location button next to the Uninstall button.
 
     TODO: screenshot of the above
 

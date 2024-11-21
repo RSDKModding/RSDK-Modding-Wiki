@@ -28,7 +28,7 @@ The datapacks for Sonic 1 and 2 are required for both playing and modding the ga
 ## Obtaining the Datapacks
 === "Android"
 
-    TODO: Verify that this still works, I basically just copy-pasted my old tutorial from three years ago
+    TODO: Verify that this still works, I basically just copy-pasted my old tutorial from three years ago, also needs screenshots
 
     Use your APK extracting app of choice to get an APK file of Sonic 1 or Sonic 2.
 
@@ -72,7 +72,7 @@ The datapacks for Sonic 1 and 2 are required for both playing and modding the ga
 
 === "Sonic Origins (EGS)"
 
-    Open your Epic Games library, then right click Sonic Origins and click `Manage`. In the menu that appears, click the :material-folder-outline: Open Install Location button next to the Uninstall button.
+    Open your Epic Games library, then right click Sonic Origins and click `Manage`. In the menu that appears, click the :material-folder-search-outline: Open Install Location button next to the Uninstall button.
 
     TODO: screenshot of the above
 

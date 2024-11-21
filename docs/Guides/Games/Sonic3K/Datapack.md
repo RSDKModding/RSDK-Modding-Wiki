@@ -26,7 +26,7 @@ The datapack for Sonic 3 & Knuckles is required for both playing and modding the
 
 === "Epic Games Store"
 
-    Open your Epic Games library, then right click Sonic Origins and click `Manage`. In the menu that appears, click the :material-folder-outline: Open Install Location button next to the Uninstall button.
+    Open your Epic Games library, then right click Sonic Origins and click `Manage`. In the menu that appears, click the :material-folder-search-outline: Open Install Location button next to the Uninstall button.
 
     TODO: screenshot of the above
 

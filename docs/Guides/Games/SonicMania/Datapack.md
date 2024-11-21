@@ -26,7 +26,7 @@ The datapack for Sonic Mania is required for both playing and modding the game.
 
 === "Epic Games Store"
 
-    Open your Epic Games library, then right click Sonic Mania and click `Manage`. In the menu that appears, click the :material-folder-outline: Open Install Location button next to the Uninstall button.
+    Open your Epic Games library, then right click Sonic Mania and click `Manage`. In the menu that appears, click the :material-folder-search-outline: Open Install Location button next to the Uninstall button.
 
     ![Epic Games library](/assets/images/EpicGames/Manage-SonicMania.png){ width="50%" } ![Manage menu](/assets/images/EpicGames/OpenFileLocation-SonicMania.png){ width="49%" }
 
