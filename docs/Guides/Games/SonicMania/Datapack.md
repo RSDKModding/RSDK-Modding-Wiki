@@ -1,7 +1,5 @@
 # Obtaining the Sonic Mania Datapack
 
-TODO: screenshots
-
 The datapack for Sonic Mania is required for both playing and modding the game.
 
 ## Prerequisites
@@ -20,10 +18,18 @@ The datapack for Sonic Mania is required for both playing and modding the game.
 
     Open your Steam library, then right click Sonic Mania and click `Manage` > `Browse local files`.
 
+    ![Steam library](/assets/images/Steam/BrowseLocalFiles-SonicMania.png)
+
     In the File Explorer window that appears, the datapack is `Data.rsdk`.
+
+    ![Game directory](/assets/images/Windows/FileExplorer/SonicMania/RSDK-Steam.png)
 
 === "Epic Games Store"
 
     Open your Epic Games library, then right click Sonic Mania and click `Manage`. In the menu that appears, click the :material-folder-outline: Open Install Location button next to the Uninstall button.
 
+    ![Epic Games library](/assets/images/EpicGames/Manage-SonicMania.png){ width="50%" } ![Manage menu](/assets/images/EpicGames/OpenFileLocation-SonicMania.png){ width="49%" }
+
     In the File Explorer window that appears, the datapack is `Data.rsdk`.
+
+    ![Game directory](/assets/images/Windows/FileExplorer/SonicMania/RSDK-EGS.png)

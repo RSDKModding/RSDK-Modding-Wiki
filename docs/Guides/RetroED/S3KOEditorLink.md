@@ -1,7 +1,5 @@
 # Using S3KOEditorLink With RetroED
 
-TODO: screenshots
-
 !!! warning
     S3KOEditorLink is only compatible with Windows and requires owning the Steam version of [Sonic Origins](/Games/SonicOrigins/README.md).
 
@@ -15,7 +13,11 @@ TODO: screenshots
 
 Open your Steam library, then right click Sonic Origins and click `Manage` > `Browse local files`.
 
+![Steam library](/assets/images/Steam/BrowseLocalFiles-SonicOrigins.png)
+
 In the File Explorer window that appears, open `build/main/projects/exec`.
+
+![Exec folder](/assets/images/Windows/FileExplorer/SonicOrigins/Exec.png)
 
 ## Setting Up S3KOEditorLink
 

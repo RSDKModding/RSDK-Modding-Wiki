@@ -1,7 +1,5 @@
 # Obtaining the Sonic 1 & 2 Datapacks
 
-TODO: screenshots
-
 The datapacks for Sonic 1 and 2 are required for both playing and modding the games.
 
 ## Prerequisites
@@ -66,10 +64,18 @@ The datapacks for Sonic 1 and 2 are required for both playing and modding the ga
 
     Open your Steam library, then right click Sonic Origins and click `Manage` > `Browse local files`.
 
+    ![Steam library](/assets/images/Steam/BrowseLocalFiles-SonicOrigins.png)
+
     In the File Explorer window that appears, open `image/x64/raw/retro`. The datapacks for Sonic 1 and Sonic 2 are `Sonic1u.rsdk` and `Sonic2u.rsdk` respectively.
+
+    ![Game directory](/assets/images/Windows/FileExplorer/SonicOrigins/RSDK-S12.png)
 
 === "Sonic Origins (EGS)"
 
     Open your Epic Games library, then right click Sonic Origins and click `Manage`. In the menu that appears, click the :material-folder-outline: Open Install Location button next to the Uninstall button.
 
+    TODO: screenshot of the above
+
     In the File Explorer window that appears, open `image/x64/raw/retro`. The datapacks for Sonic 1 and Sonic 2 are `Sonic1u.rsdk` and `Sonic2u.rsdk` respectively.
+
+    ![Game directory](/assets/images/Windows/FileExplorer/SonicOrigins/RSDK-S12.png)

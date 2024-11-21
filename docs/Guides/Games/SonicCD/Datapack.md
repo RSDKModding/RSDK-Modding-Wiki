@@ -1,7 +1,5 @@
 # Obtaining the Sonic CD Datapack
 
-TODO: screenshots
-
 The datapack for Sonic CD is required for both playing and modding the game.
 
 ## Prerequisites
@@ -36,7 +34,7 @@ The datapack for Sonic CD is required for both playing and modding the game.
 ## Obtaining the Datapack
 === "Android"
 
-    TODO: Verify that this still works, keep in mind the 
+    TODO: Rewrite this for the new method, also needs screenshots
 
     Use your APK extracting app of choice to get an APK file of Sonic CD.
 
@@ -72,16 +70,28 @@ The datapack for Sonic CD is required for both playing and modding the game.
 
     Open your Steam library, then right click Sonic Origins and click `Manage` > `Browse local files`.
 
+    ![Steam library](/assets/images/Steam/BrowseLocalFiles-SonicOrigins.png)
+
     In the File Explorer window that appears, open `image/x64/raw/retro`. The datapack for Sonic CD is `SonicCDu.rsdk`.
+
+    ![Game directory](/assets/images/Windows/FileExplorer/SonicOrigins/RSDK-SCD.png)
 
 === "Sonic Origins (EGS)"
 
     Open your Epic Games library, then right click Sonic Origins and click `Manage`. In the menu that appears, click the :material-folder-outline: Open Install Location button next to the Uninstall button.
 
+    TODO: screenshot of the above
+
     In the File Explorer window that appears, open `image/x64/raw/retro`. The datapack for Sonic CD is `SonicCDu.rsdk`.
+
+    ![Game directory](/assets/images/Windows/FileExplorer/SonicOrigins/RSDK-SCD.png)
 
 === "Blit (Steam)"
 
     Open your Steam library, then right click Sonic CD and click `Manage` > `Browse local files`.
 
+    ![Steam library](/assets/images/Steam/BrowseLocalFiles-SonicCD.png)
+
     In the File Explorer window that appears, the datapack is `Data.rsdk`.
+
+    ![Game directory](/assets/images/Windows/FileExplorer/SonicCD/RSDK-Steam.png)
