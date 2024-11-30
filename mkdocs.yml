@@ -260,6 +260,7 @@ nav:
           - RSDKv4/Overview/README.md
           - Dev Menu: RSDKv4/Overview/DevMenu.md
         - Events: RSDKv4/Events.md
+        - Variables: RSDKv4/Variables.md
         - Functions:
           - RSDKv4/Functions/README.md
           - 3D:
