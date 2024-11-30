@@ -1,4 +1,4 @@
-# BindPlayerToObject <small>(RSDKv3)</small>
+# BindPlayerToObject
 
 ## Description
 Binds a Player set to `int ListPos` in the player list to entity slot number `EntityNo`.
