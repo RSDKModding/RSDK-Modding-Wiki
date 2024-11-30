@@ -223,6 +223,7 @@ nav:
             - ObjectTileCollision: RSDKv3/Functions/Object/ObjectTileCollision.md
             - ObjectTileGrip: RSDKv3/Functions/Object/ObjectTileGrip.md
             - PlayerTileCollision: RSDKv3/Functions/Object/PlayerTileCollision.md
+            - BindPlayerToObject: RSDKv3/Functions/Object/BindPlayerToObject.md
           - Stages:
             - LoadStage: RSDKv3/Functions/Stages/LoadStage.md
             - SetLayerDeformation: RSDKv3/Functions/Stages/SetLayerDeformation.md
