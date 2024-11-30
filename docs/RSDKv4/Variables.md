@@ -104,14 +104,14 @@
 | **saveRAM[index]**                                 | Capable of saving data to the array of `index`, using the `Read/WriteSaveRAM()` functions. |
 | **engine.state**                                   | The engine's current processing state. |
 | **engine.language**                                | The active language the engine is using. |
-| **engine.onlineActive**                            | Determines the engine's state with online connectivity. Sonic 2's 2PVS never uses this, so it's most likely a v3 leftover. |
+| **engine.onlineActive**                            | Gets the engine's state with online connectivity. |
 | **engine.sfxVolume**                               | The engine's master sound effect output volume. Ranges from 0-100. |
 | **engine.bgmVolume**                               | The engine's master music volume output. Ranges from 0-100. Combined with 'music.volume' to get the final output volume. |
-| **engine.trialMode**                               | Handles certain things in-game differently if enabled. As Sonic 1/2 didn't have trials, it's most likely a v3 leftover. |
+| **engine.trialMode**                               | Used in a trial version of a game to handle certain events differently. |
 
 ## Extras
 
 ## Haptics
 | Variable                                           | Description                                                            |
 | -------------------------------------------------- | ---------------------------------------------------------------------- |
-| **engine.hapticsEnabled**                          | Determines if haptic effects are enabled or not. Will only have effect is `RETRO_USE_HAPTICS` is enabled. |
+| **engine.hapticsEnabled**                          | Determines if haptic effects are enabled or not. Will only have effect is `RETRO_USE_HAPTICS` if enabled. |
