@@ -28,7 +28,7 @@
 | Variable                                           | Description                                                                                                                              |
 | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | **Stage.ActiveList**                               | The active stage list. Ranges from Presentation, Regular, Special, and Bonus Stages.                                                     |
-| **Stage.ListPos**                                  | The position of a stage in a stage list.
+| **Stage.ListPos**                                  | The position of a stage in a stage list.                                                                                                 |
 | **Stage.TimeEnabled**                              | Handles the stage's time. When enabled, the engine will automatically start a timer, and sets the time to `Stage.MilliSeconds/Seconds/Minutes`. |
 | **Stage.MilliSeconds**                             | The stage's milliSecond count.                                                                                                           |
 | **Stage.Minutes**                                  | The stage's minute count.                                                                                                                |

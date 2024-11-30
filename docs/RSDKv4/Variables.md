@@ -27,7 +27,7 @@
 | -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | **stage.state**                                    | The current processing state of the stage.                                                                                       |
 | **stage.activeList**                               | The active stage list. Ranges from Presentation, Regular, Special, and Bonus Stages.                                             |
-| **stage.listPos**                                  | The position of a stage in a stage list.
+| **stage.listPos**                                  | The position of a stage in a stage list.                                                                                         |
 | **stage.timeEnabled**                              | Handles the stage's time. When enabled, the engine will automatically start a timer, and sets the time to `stage.milliSeconds/seconds/minutes`. |
 | **stage.milliSeconds**                             | The stage's milliSecond count.                                                                                                   |
 | **stage.minutes**                                  | The stage's minute count.                                                                                                        |
@@ -35,7 +35,7 @@
 | **stage.actNum**                                   | The number of the current act. (Ex. stage.actNum = 1 -> Act1)                                                                    |
 | **stage.pausedEnabled**                            | If enabled, this allows the engine to do a Genesis type pause by pressing the Start button.                                      |
 | **stage.listSize**                                 | The size of the current stage list.                                                                                              |
-| **stage.newX/YBoundary1/2**                        | The boundaries for the stage camera. Used to set new camera boundaries during gameplay.
+| **stage.newX/YBoundary1/2**                        | The boundaries for the stage camera. Used to set new camera boundaries during gameplay.                                          |
 | **stage.curX/YBoundary1/2**                        | The boundaries for the stage camera. The camera will never go past these boundaries.                                             |
 | **stage.deformationData0/1/2/3**                   | Values used to store stage deformation. 0/1 is for the foreground (0 for above water, 1 for underwater), and 2/3 are for the background (2 for above water, and 3 for underwater). |
 | **stage.waterLevel**                               | The stage's current water level.                                                                                                 |
@@ -48,7 +48,7 @@
 ## Screen
 | Variable                                           | Description                                                                                                                      |
 | -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| **screen.cameraEnabled**                           | Determines if the camera is disabled or not. |
+| **screen.cameraEnabled**                           | Determines if the camera is disabled or not.                                                                                     |
 | **screen.cameraTarget**                            | Gets the entity pos of an object and sets the camera to follow it. (Ex. screen.cameraTarget = SLOT_PLAYER1 (0))                  |
 | **screen.cameraStyle**                             | How the camera should track its target.                                                                                          |
 | **screen.cameraX**                                 | The xpos of the camera in screen-space.                                                                                          |
