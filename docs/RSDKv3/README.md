@@ -6,6 +6,7 @@ TODO: write info about RSDKv3 and anything relating to CD
 ## Documentation
 - [Overview](Overview/README.md)
 - [Subs](Subs.md)
+- [Variables](Variables.md)
 - [Functions](Functions/README.md)
 
 ## Tools
