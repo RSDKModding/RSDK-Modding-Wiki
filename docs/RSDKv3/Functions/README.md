@@ -85,6 +85,7 @@
 | [**ObjectTileCollision**](Object/ObjectTileCollision.md)     | Tries to collide with the foreground layer based on the position of `Object.iXPos` + `xOffset`, `Object.iYPos` + `yOffset`. |
 | [**ObjectTileGrip**](Object/ObjectTileGrip.md)               | Tries to collide with the foreground layer based on the position of `Object.iXPos` + `xOffset`, `Object.iYPos` + `yOffset`. |
 | [**PlayerTileCollision**](Object/PlayerTileCollision.md)     | Handles tile collision of the player.                                                                                       |
+| [**BindPlayerToObject**](Object/BindPlayerToObject.md)       | Binds a Player set to `ListPos` in the player list to entity slot number `EntityNo`.                                        |
 
 ## Stages
 | Function                                                 | Description                                                                                    |

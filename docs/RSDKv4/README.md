@@ -6,6 +6,7 @@ TODO: write info about RSDKv4 and anything relating to S1/S2
 ## Documentation
 - [Overview](Overview/README.md)
 - [Events](Events.md)
+- [Variables](Variables.md)
 - [Functions](Functions/README.md)
 
 ## Tools

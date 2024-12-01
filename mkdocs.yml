@@ -152,6 +152,7 @@ nav:
         - Overview:
           - RSDKv3/Overview/README.md
           - Dev Menu: RSDKv3/Overview/DevMenu.md
+        - Variables: RSDKv3/Variables.md
         - Subs: RSDKv3/Subs.md
         - Functions:
           - RSDKv3/Functions/README.md
@@ -223,6 +224,7 @@ nav:
             - ObjectTileCollision: RSDKv3/Functions/Object/ObjectTileCollision.md
             - ObjectTileGrip: RSDKv3/Functions/Object/ObjectTileGrip.md
             - PlayerTileCollision: RSDKv3/Functions/Object/PlayerTileCollision.md
+            - BindPlayerToObject: RSDKv3/Functions/Object/BindPlayerToObject.md
           - Stages:
             - LoadStage: RSDKv3/Functions/Stages/LoadStage.md
             - SetLayerDeformation: RSDKv3/Functions/Stages/SetLayerDeformation.md
@@ -259,6 +261,7 @@ nav:
           - RSDKv4/Overview/README.md
           - Dev Menu: RSDKv4/Overview/DevMenu.md
         - Events: RSDKv4/Events.md
+        - Variables: RSDKv4/Variables.md
         - Functions:
           - RSDKv4/Functions/README.md
           - 3D:
