@@ -41,7 +41,7 @@ None.
 
 ## Syntax
 ```
-DrawTintRect(int iXPos, int iYPos, int Width, int Height, int R, int G, int B, int Alpha)
+DrawRect(int iXPos, int iYPos, int Width, int Height, int R, int G, int B, int Alpha)
 ```
 
 ## Example
