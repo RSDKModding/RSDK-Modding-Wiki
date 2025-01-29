@@ -4,7 +4,6 @@
 Rotates all colors in the active palette bank from `StartIndex` to `EndIndex`, moving left or right depending on `RotRight`.
 
 ## Parameters
-
 `StartIndex`
 
 :   The starting index of the palette bank for the rotation.
