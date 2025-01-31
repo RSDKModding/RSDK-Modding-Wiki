@@ -1,3 +1,7 @@
+---
+subtitle: Sprite Editor
+---
+
 # GraphicsGale
 
 GraphicsGale (also known as Gale) is an image editing program tailored towards pixel art, written by HUMANBALANCE Ltd. The software includes features such as onion skin, real-time preview for GIF animations, batch conversion, and editing Windows icon (ICO) and cursor (CUR) files. GraphicsGale was originally released as paid software in 2004 before being released as freeware in 2017.

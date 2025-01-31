@@ -1,3 +1,7 @@
+---
+subtitle: General Purpose Suite
+---
+
 # RetroED
 
 Multi-purpose tool for editing levels, animations, config files and others from all versions of the Retro Engine.

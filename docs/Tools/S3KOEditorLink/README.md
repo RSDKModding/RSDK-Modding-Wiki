@@ -1,3 +1,7 @@
+---
+subtitle: Editor Code Loader for S3&K
+---
+
 # S3KOEditorLink
 
 S3KOEditorLink is an RSDKv5U logic file that allows accessing editor renders and variables from [Sonic Origins](/Games/SonicOrigins/README.md)'s [Sonic 3 & Knuckles remaster](TODO) in an RSDK editor program such as [RetroED](../RetroED/README.md).
