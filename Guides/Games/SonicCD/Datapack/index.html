@@ -13616,8 +13616,6 @@
 <div class="tabbed-content">
 <div class="tabbed-block">
 <ul>
-<li>An Android device <strong>under OS version 12</strong> OR with root access</li>
-<li>An APK extractor app (anything from the Google Play Store should work)</li>
 <li><a href="https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver">ZArchiver</a></li>
 <li>Sonic CD installed from the Google Play Store</li>
 </ul>
@@ -13653,13 +13651,14 @@
 <div class="tabbed-set tabbed-alternate" data-tabs="2:5"><input checked="checked" id="android_1" name="__tabbed_2" type="radio" /><input id="ios_1" name="__tabbed_2" type="radio" /><input id="sonic-origins-steam_1" name="__tabbed_2" type="radio" /><input id="sonic-origins-egs_1" name="__tabbed_2" type="radio" /><input id="blit-steam_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="android_1">Android</label><label for="ios_1">iOS</label><label for="sonic-origins-steam_1">Sonic Origins (Steam)</label><label for="sonic-origins-egs_1">Sonic Origins (EGS)</label><label for="blit-steam_1">Blit (Steam)</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<p>TODO: Rewrite this for the new method, also needs screenshots</p>
-<p>Use your APK extracting app of choice to get an APK file of Sonic CD.</p>
-<p>Open ZArchiver, then navigate to the folder containing the extracted APK file.</p>
-<p>Touch and hold down the APK file until a pop-up menu appears. Tap View. (If you don't see View, try tapping the file instead of holding it down.)</p>
-<p>Navigate into the <code>assets</code> folder, then scroll down until you find <code>Data.rsdk.xmf</code>. Touch and hold down the file, then tap Copy.</p>
-<p>Navigate into a folder you know you can easily access. Tap the clipboard button to paste the file into that folder.</p>
-<p>Touch and hold down the <code>Data.rsdk.xmf</code> file once more, then tap Rename. Name the file <code>Data.rsdk</code>, then tap OK.</p>
+<p>Open ZArchiver, then keep pressing <code>..</code> until you reach the root <code>/</code> directory.</p>
+<p><a class="glightbox" href="../../../../assets/images/Android/ZArchiver/Root.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Root directory" src="../../../../assets/images/Android/ZArchiver/Root.jpg" width="25%" /></a></p>
+<p>Navigate to <code>/data/app/</code>, then find and open the folder attributed to Sonic CD.</p>
+<p><a class="glightbox" href="../../../../assets/images/Android/ZArchiver/RootData.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="data directory" src="../../../../assets/images/Android/ZArchiver/RootData.jpg" width="25%" /></a> <a class="glightbox" href="../../../../assets/images/Android/ZArchiver/RootDataApp-SCD.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="app directory" src="../../../../assets/images/Android/ZArchiver/RootDataApp-SCD.jpg" width="25%" /></a></p>
+<p>Open the folder beginning with <code>com.sega.soniccd.classic</code>, then you will find a file named <code>split_packs.apk</code>. Tap the file and then select <code>View</code> in the menu that appears.</p>
+<p><a class="glightbox" href="../../../../assets/images/Android/ZArchiver/DataApp-SCD.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Sonic CD directory" src="../../../../assets/images/Android/ZArchiver/DataApp-SCD.jpg" width="25%" /></a> <a class="glightbox" href="../../../../assets/images/Android/ZArchiver/com.sega.soniccd.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="com.sega.soniccd.classic directory" src="../../../../assets/images/Android/ZArchiver/com.sega.soniccd.jpg" width="25%" /></a> <a class="glightbox" href="../../../../assets/images/Android/ZArchiver/split_packs_View-SCD.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="split_packs.apk menu" src="../../../../assets/images/Android/ZArchiver/split_packs_View-SCD.jpg" width="25%" /></a></p>
+<p>Open the <code>assets</code> folder, then you will find a file named <code>Data.rsdk.xmf</code>. Copy the file into a directory of your choice and then rename the file to <code>Data.rsdk</code>.</p>
+<p><a class="glightbox" href="../../../../assets/images/Android/ZArchiver/split_packs-SCD.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="split_packs.apk" src="../../../../assets/images/Android/ZArchiver/split_packs-SCD.jpg" width="25%" /></a> <a class="glightbox" href="../../../../assets/images/Android/ZArchiver/assets-SCD.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="assets directory" src="../../../../assets/images/Android/ZArchiver/assets-SCD.jpg" width="25%" /></a></p>
 </div>
 <div class="tabbed-block">
 <p>Open Filza, then tap the <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .25a.75.75 0 0 1 .673.418l3.058 6.197 6.839.994a.75.75 0 0 1 .415 1.279l-4.948 4.823 1.168 6.811a.751.751 0 0 1-1.088.791L12 18.347l-6.117 3.216a.75.75 0 0 1-1.088-.79l1.168-6.812-4.948-4.823a.75.75 0 0 1 .416-1.28l6.838-.993L11.328.668A.75.75 0 0 1 12 .25m0 2.445L9.44 7.882a.75.75 0 0 1-.565.41l-5.725.832 4.143 4.038a.75.75 0 0 1 .215.664l-.978 5.702 5.121-2.692a.75.75 0 0 1 .698 0l5.12 2.692-.977-5.702a.75.75 0 0 1 .215-.664l4.143-4.038-5.725-.831a.75.75 0 0 1-.565-.41z"/></svg></span> Favorites icon at the bottom. In the menu that appears, tap Apps manager.</p>
@@ -13713,7 +13712,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-11-21T02:39:05+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-11-21</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2025-02-01T00:32:57+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2025-02-01</span>
   </span>
 
     
