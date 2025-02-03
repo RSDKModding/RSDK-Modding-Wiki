@@ -611,9 +611,6 @@ nav:
         - Animation Editor: Guides/RetroED/Editors/AnimationEditor.md
         - Scene Editor: Guides/RetroED/Editors/SceneEditor.md
 
-  - Blog:
-    - blog/index.md
-
 extra:
   social:
     - icon: fontawesome/brands/github
