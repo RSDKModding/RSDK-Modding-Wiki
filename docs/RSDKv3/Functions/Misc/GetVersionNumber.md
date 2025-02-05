@@ -1,4 +1,4 @@
-# GetVersionNumber <small>(RSDKv3)</small>
+# GetVersionNumber
 
 ## Description
 Adds a text entry to `Menu` with the engine's version as the text. The text will display highlighted if `HighlightEntry` is set to true.

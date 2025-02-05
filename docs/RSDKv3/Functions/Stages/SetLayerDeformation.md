@@ -1,4 +1,4 @@
-# SetLayerDeformation <small>(RSDKv3)</small>
+# SetLayerDeformation
 
 ## Description
 Sets the deformation data array of `DeformID`, based on `DeformA` and `DeformB`.

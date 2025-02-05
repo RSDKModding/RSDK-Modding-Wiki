@@ -1,4 +1,4 @@
-# DrawSpriteScreenXY <small>(RSDKv4)</small>
+# DrawSpriteScreenXY
 
 ## Description
 Draws `frame` at a specified X and Y position in screen-space.

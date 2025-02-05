@@ -1,4 +1,4 @@
-# MatrixInverse <small>(RSDKv4)</small>
+# MatrixInverse
 
 !!! note
     This function does not exist in REV00.

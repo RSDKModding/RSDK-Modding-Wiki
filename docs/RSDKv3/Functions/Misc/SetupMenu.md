@@ -1,4 +1,4 @@
-# SetupMenu <small>(RSDKv3)</small>
+# SetupMenu
 
 ## Description
 Sets up `Menu` with `RowCount` rows, `SelectionCount` active selections and aligning set to `Alignment`.

@@ -1,4 +1,4 @@
-# AddDrawListEntityRef <small>(RSDKv3)</small>
+# AddDrawListEntityRef
 
 ## Description
 Adds `ObjectPos` to drawList `Layer`.

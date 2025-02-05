@@ -1,4 +1,4 @@
-# MatrixMultiply <small>(RSDKv3)</small>
+# MatrixMultiply
 
 ## Description
 Multiplies `MatrixA` by `MatrixB`.

@@ -1,4 +1,4 @@
-# SetPaletteFade <small>(RSDKv4)</small>
+# SetPaletteFade
 
 !!! note
     This function's behavior was changed in REV01; in REV00, it worked the same as [its equivalent function in RSDKv3](/RSDKv3/Functions/Drawing/SetPaletteFade.md).

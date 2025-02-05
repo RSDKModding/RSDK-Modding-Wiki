@@ -1,4 +1,4 @@
-# GetTileLayerEntry <small>(RSDKv4)</small>
+# GetTileLayerEntry
 
 ## Description
 Gets the ID of the chunk at `chunkX`, `chunkY` in tile layer `layer` and stores it in `store`.

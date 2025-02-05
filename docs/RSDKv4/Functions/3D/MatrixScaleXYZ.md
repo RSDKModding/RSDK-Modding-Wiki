@@ -1,4 +1,4 @@
-# MatrixScaleXYZ <small>(RSDKv4)</small>
+# MatrixScaleXYZ
 
 ## Description
 Scales `matrix` to `scaleX`, `scaleY` and `scaleZ`.

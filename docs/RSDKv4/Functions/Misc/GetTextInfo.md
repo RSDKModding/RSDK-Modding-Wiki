@@ -1,4 +1,4 @@
-# GetTextInfo <small>(RSDKv4)</small>
+# GetTextInfo
 
 ## Description
 Gets the data of `type` from `menu` using `index` and stores it in `store`.

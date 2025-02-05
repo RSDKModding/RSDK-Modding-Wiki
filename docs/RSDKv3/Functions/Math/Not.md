@@ -1,4 +1,4 @@
-# Not <small>(RSDKv3)</small>
+# Not
 
 ## Description
 Performs a NOT operation on `Value`.

@@ -1,4 +1,4 @@
-# SetMusicTrack <small>(RSDKv3)</small>
+# SetMusicTrack
 
 ## Description
 Loads a music file in the given track slot with the given loop point.

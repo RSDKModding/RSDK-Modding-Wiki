@@ -1,4 +1,4 @@
-# SetActivePalette <small>(RSDKv4)</small>
+# SetActivePalette
 
 ## Description
 Sets the active palette to `palBank` for all vertical screen lines from `startLine` to `endLine`.

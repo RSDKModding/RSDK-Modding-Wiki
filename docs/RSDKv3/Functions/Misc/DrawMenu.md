@@ -1,4 +1,4 @@
-# DrawMenu <small>(RSDKv3)</small>
+# DrawMenu
 
 ## Description
 Draws `Menu` at `XPos` and `YPos` relative to the screen.

@@ -1,4 +1,4 @@
-# PlayMusic <small>(RSDKv3)</small>
+# PlayMusic
 
 ## Description
 Plays the music currently loaded in the given track slot.

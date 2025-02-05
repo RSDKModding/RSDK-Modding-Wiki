@@ -68,6 +68,14 @@ watch:
 
 plugins:
   - search
+  - meta
+  - tags:
+      tags_allowed:
+        - RSDKv1
+        - RSDKv2
+        - RSDKv3
+        - RSDKv4
+        - RSDKv5
   - blog:
       categories_allowed:
         - Decompilations

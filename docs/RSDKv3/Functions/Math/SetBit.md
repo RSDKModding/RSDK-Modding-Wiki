@@ -1,4 +1,4 @@
-# SetBit <small>(RSDKv3)</small>
+# SetBit
 
 ## Description
 Sets index `BitPos` of `Value` to `Bit` and updates `Value` accordingly.

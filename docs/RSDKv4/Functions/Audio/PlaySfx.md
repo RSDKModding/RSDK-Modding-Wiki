@@ -1,4 +1,4 @@
-# PlaySfx <small>(RSDKv4)</small>
+# PlaySfx
 
 ## Description
 Plays the sound effect in the given slot in the GameConfig or StageConfig, looping it if set to do so.

@@ -1,4 +1,4 @@
-# SetLeaderboard <small>(RSDKv3)</small>
+# SetLeaderboard
 
 ## Description
 Submits the given score to the given leaderboard.
