@@ -67,13 +67,13 @@ git submodule update --remote --init --recursive
     === "64-bit"
 
         ```
-        vcpkg.exe install libtheora libogg glew sdl2 --triplet=x64-windows-static
+        vcpkg.exe install libtheora libogg glew glfw3 sdl2 --triplet=x64-windows-static
         ```
 
     === "32-bit"
 
         ```
-        vcpkg.exe install libtheora libogg glew sdl2 --triplet=x86-windows-static
+        vcpkg.exe install libtheora libogg glew glfw3 sdl2 --triplet=x86-windows-static
         ```
 
     Then, add vcpkg to your environment variables by running the following commands in the vcpkg repository:
