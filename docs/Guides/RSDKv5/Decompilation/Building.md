@@ -141,7 +141,6 @@ git submodule update --remote --init --recursive
 
     | Symlink Name                         | Path                                                                                |
     | ------------------------------------ | ----------------------------------------------------------------------------------- |
-    | `RSDKv5`                             | Path to `RSDKv5-Decompilation` (or `Sonic-Mania-Decompilation/dependencies/RSDKv5`) |
     | `Game`                               | Path to `Sonic-Mania-Decompilation` (or any other game you'd like to build)         |
     | Name of any mod(s) you'd like to add | Path to the directory for the mod's code containing a `CMakeLists.txt` file         |
 
