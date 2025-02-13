@@ -1,4 +1,4 @@
-# AddMenuEntry <small>(RSDKv4)</small>
+# AddMenuEntry
 
 ## Description
 Adds an entry to `menu` with the contents of `text`. The text will display highlighted if `highlightEntry` is set to true.

@@ -1,4 +1,4 @@
-# SpriteFrame <small>(RSDKv4)</small>
+# SpriteFrame
 
 ## Description
 Adds a SpriteFrame with the specified values.

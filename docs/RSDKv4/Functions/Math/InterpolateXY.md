@@ -1,4 +1,4 @@
-# InterpolateXY <small>(RSDKv4)</small>
+# InterpolateXY
 
 ## Description
 Linearly interpolates two points at once, `aX` with `aY`, and `bX` with `bY`, by `percent`, and stores the result in `storeX` and `storeY` respectively.

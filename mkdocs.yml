@@ -68,6 +68,14 @@ watch:
 
 plugins:
   - search
+  - meta
+  - tags:
+      tags_allowed:
+        - RSDKv1
+        - RSDKv2
+        - RSDKv3
+        - RSDKv4
+        - RSDKv5
   - blog:
       categories_allowed:
         - Decompilations
@@ -477,7 +485,27 @@ nav:
             - PrintVector2: RSDKv5/Functions/Printing/PrintVector2.md
             - PrintHitbox: RSDKv5/Functions/Printing/PrintHitbox.md
           - Objects & Entities:
-            - FindObject: RSDKv5/Functions/Object/FindObject.md
+            - RSDK_THIS: RSDKv5/Functions/Objects/RSDK_THIS.md
+            - RSDK_THIS_GEN: RSDKv5/Functions/Objects/RSDK_THIS_GEN.md
+            - RSDK_GET_ENTITY: RSDKv5/Functions/Objects/RSDK_GET_ENTITY.md
+            - RSDK_GET_ENTITY_GEN: RSDKv5/Functions/Objects/RSDK_GET_ENTITY_GEN.md
+            - CREATE_ENTITY: RSDKv5/Functions/Objects/CREATE_ENTITY.md
+            - INIT_ENTITY: RSDKv5/Functions/Objects/INIT_ENTITY.md
+            - GetEntitySlot: RSDKv5/Functions/Objects/GetEntitySlot.md
+            - GetEntityCount: RSDKv5/Functions/Objects/GetEntityCount.md
+            - GetDrawListRefSlot: RSDKv5/Functions/Objects/GetDrawListRefSlot.md
+            - GetDrawListRef: RSDKv5/Functions/Objects/GetDrawListRef.md
+            - ResetEntity: RSDKv5/Functions/Objects/ResetEntity.md
+            - ResetEntitySlot: RSDKv5/Functions/Objects/ResetEntitySlot.md
+            - CopyEntity: RSDKv5/Functions/Objects/CopyEntity.md
+            - CheckOnScreen: RSDKv5/Functions/Objects/CheckOnScreen.md
+            - CheckPosOnScreen: RSDKv5/Functions/Objects/CheckPosOnScreen.md
+            - AddDrawListRef: RSDKv5/Functions/Objects/AddDrawListRef.md
+            - SwapDrawListEntries: RSDKv5/Functions/Objects/SwapDrawListEntries.md
+            - SetDrawGroupProperties: RSDKv5/Functions/Objects/SetDrawGroupProperties.md
+            - FindObject: RSDKv5/Functions/Objects/FindObject.md
+            - destroyEntity: RSDKv5/Functions/Objects/destroyEntity.md
+            - destroyEntitySlot: RSDKv5/Functions/Objects/destroyEntitySlot.md
           - Scene Management:
             - SetScene: RSDKv5/Functions/Stages/SetScene.md
             - SetEngineState: RSDKv5/Functions/Stages/SetEngineState.md
@@ -493,6 +521,7 @@ nav:
             - HasNotifyCallback: RSDKv5/Functions/Misc/HasNotifyCallback.md
             - SetGameFinished: RSDKv5/Functions/Misc/SetGameFinished.md
           - Editor:
+            - RSDK_EDITABLE_VAR: RSDKv5/Functions/Editor/RSDK_EDITABLE_VAR.md
             - RSDK_ACTIVE_VAR: RSDKv5/Functions/Editor/RSDK_ACTIVE_VAR.md
             - RSDK_ENUM_VAR: RSDKv5/Functions/Editor/RSDK_ENUM_VAR.md
             - showGizmos: RSDKv5/Functions/Editor/showGizmos.md
@@ -589,9 +618,6 @@ nav:
       - Editors:
         - Animation Editor: Guides/RetroED/Editors/AnimationEditor.md
         - Scene Editor: Guides/RetroED/Editors/SceneEditor.md
-
-  - Blog:
-    - blog/index.md
 
 extra:
   social:

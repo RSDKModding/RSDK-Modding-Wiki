@@ -1,4 +1,4 @@
-# SetIdentityMatrix <small>(RSDKv4)</small>
+# SetIdentityMatrix
 
 ## Description
 Sets the matrix of `matID` to the identity state.

@@ -58,9 +58,29 @@
 | [**PrintHitbox**](Printing/PrintHitbox.md)   | Prints a Hitbox variable to the console.     |
 
 ## Objects & Entities
-| Function                               | Description                                         |
-| -------------------------------------- | --------------------------------------------------- |
-| [**FindObject**](Object/FindObject.md) | Finds a loaded object by name and retrieves its ID. |
+| Function                                                        | Description                                                                                             |
+| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| [**RSDK_THIS**](Objects/RSDK_THIS.md)                           | Defines local pointer `self` pointing to `sceneInfo->entity` using the given object's entity struct.    |
+| [**RSDK_THIS_GEN**](Objects/RSDK_THIS_GEN.md)                   | Defines local pointer `self` pointing to `sceneInfo->entity` using a generic entity struct.             |
+| [**RSDK_GET_ENTITY**](Objects/RSDK_GET_ENTITY.md)               | Gets the data of the given entity using the given object's entity struct.                               |
+| [**RSDK_GET_ENTITY_GEN**](Objects/RSDK_GET_ENTITY_GEN.md)       | Gets the data of the given entity using a generic entity struct.                                        |
+| [**CREATE_ENTITY**](Objects/CREATE_ENTITY.md)                   | Creates a temporary object specified by `object`, `data`, `x`, and `y` near the end of the object list. |
+| [**INIT_ENTITY**](Objects/INIT_ENTITY.md)                       | Initializes the `active`, `visible`, and `updateRange` values of the given entity.                      |
+| [**GetEntitySlot**](Objects/GetEntitySlot.md)                   | Gets the slot ID of an entity.                                                                          |
+| [**GetEntityCount**](Objects/GetEntityCount.md)                 | Gets the count of the amount of entities of the given object type currently in the stage.               |
+| [**GetDrawListRefSlot**](Objects/GetDrawListRefSlot.md)         | Gets the entity slot in the given draw group at the given position.                                     |
+| [**GetDrawListRef**](Objects/GetDrawListRef.md)                 | Gets a pointer to the entity in the given draw group at the given position.                             |
+| [**ResetEntity**](Objects/ResetEntity.md)                       | Resets `entity` with the `classID` and `data` specified.                                                |
+| [**ResetEntitySlot**](Objects/ResetEntitySlot.md)               | Resets the entity in `slot` with the `classID` and `data` specified.                                    |
+| [**CopyEntity**](Objects/CopyEntity.md)                         | Copies an entity into another entity.                                                                   |
+| [**CheckOnScreen**](Objects/CheckOnScreen.md)                   | Checks if the given entity is on screen based on the given range.                                       |
+| [**CheckPosOnScreen**](Objects/CheckPosOnScreen.md)             | Checks if the given position is on screen based on the given range.                                     |
+| [**AddDrawListRef**](Objects/AddDrawListRef.md)                 | Adds a reference to an entity to a draw group.                                                          |
+| [**SwapDrawListEntries**](Objects/SwapDrawListEntries.md)       | Swaps the draw list positions of `slot1` and `slot2` in `drawGroup`.                                    |
+| [**SetDrawGroupProperties**](Objects/SetDrawGroupProperties.md) | Sets the properties of `drawGroup`.                                                                     |
+| [**FindObject**](Objects/FindObject.md)                         | Finds a loaded object by name and retrieves its ID.                                                     |
+| [**destroyEntity**](Objects/destroyEntity.md)                   | Clears an entity's data.                                                                                |
+| [**destroyEntitySlot**](Objects/destroyEntitySlot.md)           | Clears the entity of the given slot's data.                                                             |
 
 ## Scene Management
 | Function                                           | Description                                                                                              |
@@ -86,9 +106,10 @@
 | [**SetGameFinished**](Misc/SetGameFinished.md)     | Notifies the engine that the game has been finished. **Sonic Origins only.**                                                    |
 
 ## Editor
-| Function                                                   | Description                                                                                      |
-| ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Function                                                   | Description                                                                                        |
+| ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| [**RSDK_EDITABLE_VAR**](Editor/RSDK_EDITABLE_VAR.md)       | Sets a variable from the given object's entity struct to be editable in an editor.                 |
 | [**RSDK_ACTIVE_VAR**](Editor/RSDK_ACTIVE_VAR.md)           | Sets a variable to be the "active variable" when using [RSDK_ENUM_VAR()](Editor/RSDK_ENUM_VAR.md). |
-| [**RSDK_ENUM_VAR**](Editor/RSDK_ENUM_VAR.md)               | Adds an enum variable to the current active variable.                                            |
-| [**showGizmos**](Editor/showGizmos.md)                     | Checks if gizmos should be visible for this object.                                              |
-| [**RSDK_DRAWING_OVERLAY**](Editor/RSDK_DRAWING_OVERLAY.md) | Enables/disables "overlay" mode when drawing.                                                    |
+| [**RSDK_ENUM_VAR**](Editor/RSDK_ENUM_VAR.md)               | Adds an enum variable to the current active variable.                                              |
+| [**showGizmos**](Editor/showGizmos.md)                     | Checks if gizmos should be visible for this object.                                                |
+| [**RSDK_DRAWING_OVERLAY**](Editor/RSDK_DRAWING_OVERLAY.md) | Enables/disables "overlay" mode when drawing.                                                      |

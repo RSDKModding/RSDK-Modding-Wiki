@@ -1,4 +1,4 @@
-# ATan2 <small>(RSDKv3)</small>
+# ATan2
 
 ## Description
 Performs an arctan operation using `X` and `Y`, storing the result in `Store`.

@@ -1,4 +1,4 @@
-# MatrixRotate X/Y/Z <small>(RSDKv3)</small>
+# MatrixRotate X/Y/Z
 
 ## Description
 Rotates `Matrix` to `Angle` on the specified axis.

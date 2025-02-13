@@ -1,4 +1,4 @@
-# LoadAnimation <small>(RSDKv4)</small>
+# LoadAnimation
 
 ## Description
 Loads an animation file for the current object type.

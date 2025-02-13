@@ -1,4 +1,4 @@
-# Copy16x16Tile <small>(RSDKv3)</small>
+# Copy16x16Tile
 
 ## Description
 Copies the tileset image data of `SrcTile` to `DstTile`.

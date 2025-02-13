@@ -1,4 +1,4 @@
-# WriteSaveRAM <small>(RSDKv4)</small>
+# WriteSaveRAM
 
 ## Description
 Writes the contents of SaveRAM to the save file on disk.

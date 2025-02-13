@@ -1,3 +1,7 @@
+---
+subtitle: Animation Editor
+---
+
 # RSDK Animation Editor
 
 This program is able to edit the various .ani and .bin files stored with the spritesheets.

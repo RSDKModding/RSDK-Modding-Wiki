@@ -1,7 +1,7 @@
-# CreateTempObject <small>(RSDKv4)</small>
+# CreateTempObject
 
 ## Description
-Creates a temporary object specified by `type`, `propertyValue`, `xpos` and `ypos` near the end of the object list.
+Creates a temporary object specified by `type`, `propertyValue`, `xpos`, and `ypos` near the end of the object list.
 
 !!! note
     If there are too many temporary objects loaded when this function is called, the engine will start overwritting them. Therefore, it's recommended to only use this function for objects that quickly get destroyed or unloaded.

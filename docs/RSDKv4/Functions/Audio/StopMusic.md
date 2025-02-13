@@ -1,4 +1,4 @@
-# StopMusic <small>(RSDKv4)</small>
+# StopMusic
 
 ## Description
 Stops playing the currently playing music track, if one is playing.

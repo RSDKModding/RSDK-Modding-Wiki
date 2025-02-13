@@ -1,4 +1,4 @@
-# DrawRect <small>(RSDKv4)</small>
+# DrawRect
 
 ## Description
 Draws a rectangle to `ixpos` and `iypos` in screen-space, with a color based on the `r`, `g`, `b`, and `alpha`.
@@ -41,7 +41,7 @@ None.
 
 ## Syntax
 ```
-DrawTintRect(int ixpos, int iypos, int width, int height, int r, int g, int b, int alpha)
+DrawRect(int ixpos, int iypos, int width, int height, int r, int g, int b, int alpha)
 ```
 
 ## Example

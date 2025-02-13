@@ -5,8 +5,6 @@ The datapack for Sonic CD is required for both playing and modding the game.
 ## Prerequisites
 === "Android"
 
-    - An Android device **under OS version 12** OR with root access
-    - An APK extractor app (anything from the Google Play Store should work)
     - [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver)
     - Sonic CD installed from the Google Play Store
 
@@ -34,19 +32,21 @@ The datapack for Sonic CD is required for both playing and modding the game.
 ## Obtaining the Datapack
 === "Android"
 
-    TODO: Rewrite this for the new method, also needs screenshots
+    Open ZArchiver, then keep pressing `..` until you reach the root `/` directory.
 
-    Use your APK extracting app of choice to get an APK file of Sonic CD.
+    ![Root directory](/assets/images/Android/ZArchiver/Root.jpg){ width="25%" }
 
-    Open ZArchiver, then navigate to the folder containing the extracted APK file.
+    Navigate to `/data/app/`, then find and open the folder attributed to Sonic CD.
 
-    Touch and hold down the APK file until a pop-up menu appears. Tap View. (If you don't see View, try tapping the file instead of holding it down.)
+    ![data directory](/assets/images/Android/ZArchiver/RootData.jpg){ width="25%" } ![app directory](/assets/images/Android/ZArchiver/RootDataApp-SCD.jpg){ width="25%" }
 
-    Navigate into the `assets` folder, then scroll down until you find `Data.rsdk.xmf`. Touch and hold down the file, then tap Copy.
+    Open the folder beginning with `com.sega.soniccd.classic`, then you will find a file named `split_packs.apk`. Tap the file and then select `View` in the menu that appears.
 
-    Navigate into a folder you know you can easily access. Tap the clipboard button to paste the file into that folder.
+    ![Sonic CD directory](/assets/images/Android/ZArchiver/DataApp-SCD.jpg){ width="25%" } ![com.sega.soniccd.classic directory](/assets/images/Android/ZArchiver/com.sega.soniccd.jpg){ width="25%" } ![split_packs.apk menu](/assets/images/Android/ZArchiver/split_packs_View-SCD.jpg){ width="25%" }
 
-    Touch and hold down the `Data.rsdk.xmf` file once more, then tap Rename. Name the file `Data.rsdk`, then tap OK.
+    Open the `assets` folder, then you will find a file named `Data.rsdk.xmf`. Copy the file into a directory of your choice and then rename the file to `Data.rsdk`.
+
+    ![split_packs.apk](/assets/images/Android/ZArchiver/split_packs-SCD.jpg){ width="25%" } ![assets directory](/assets/images/Android/ZArchiver/assets-SCD.jpg){ width="25%" }
 
 === "iOS"
 

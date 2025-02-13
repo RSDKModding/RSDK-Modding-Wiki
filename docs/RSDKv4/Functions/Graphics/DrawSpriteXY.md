@@ -1,4 +1,4 @@
-# DrawSpriteXY <small>(RSDKv4)</small>
+# DrawSpriteXY
 
 ## Description
 Draws `frame` at a specified X and Y position.

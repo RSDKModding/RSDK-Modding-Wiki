@@ -67,13 +67,13 @@ git submodule update --remote --init --recursive
     === "64-bit"
 
         ```
-        vcpkg.exe install libtheora libogg glew sdl2 --triplet=x64-windows-static
+        vcpkg.exe install libtheora libogg glew glfw3 sdl2 --triplet=x64-windows-static
         ```
 
     === "32-bit"
 
         ```
-        vcpkg.exe install libtheora libogg glew sdl2 --triplet=x86-windows-static
+        vcpkg.exe install libtheora libogg glew glfw3 sdl2 --triplet=x86-windows-static
         ```
 
     Then, add vcpkg to your environment variables by running the following commands in the vcpkg repository:
@@ -141,7 +141,6 @@ git submodule update --remote --init --recursive
 
     | Symlink Name                         | Path                                                                                |
     | ------------------------------------ | ----------------------------------------------------------------------------------- |
-    | `RSDKv5`                             | Path to `RSDKv5-Decompilation` (or `Sonic-Mania-Decompilation/dependencies/RSDKv5`) |
     | `Game`                               | Path to `Sonic-Mania-Decompilation` (or any other game you'd like to build)         |
     | Name of any mod(s) you'd like to add | Path to the directory for the mod's code containing a `CMakeLists.txt` file         |
 

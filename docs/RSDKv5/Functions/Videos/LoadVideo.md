@@ -1,4 +1,4 @@
-# LoadVideo <small>(RSDKv5)</small>
+# LoadVideo
 
 ## Description
 Loads and plays a video.

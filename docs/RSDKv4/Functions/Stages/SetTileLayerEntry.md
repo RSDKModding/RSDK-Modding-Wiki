@@ -1,4 +1,4 @@
-# SetTileLayerEntry <small>(RSDKv4)</small>
+# SetTileLayerEntry
 
 ## Description
 Sets the chunk at `chunkX`, `chunkY` in tile layer `layer` to the index of `value`.

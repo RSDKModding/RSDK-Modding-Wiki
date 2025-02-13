@@ -1,4 +1,4 @@
-# MatrixTranslateXYZ <small>(RSDKv3)</small>
+# MatrixTranslateXYZ
 
 ## Description
 Translates `Matrix` to `TranslateX`, `TranslateY` and `TranslateZ`.

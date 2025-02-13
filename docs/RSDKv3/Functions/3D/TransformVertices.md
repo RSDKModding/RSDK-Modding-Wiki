@@ -1,4 +1,4 @@
-# TransformVertices <small>(RSDKv3)</small>
+# TransformVertices
 
 ## Description
 Transform all vertices from `StartIndex` to `EndIndex` using `Matrix`.

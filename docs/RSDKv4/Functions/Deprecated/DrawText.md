@@ -1,4 +1,4 @@
-# DrawText <small>(RSDKv4)</small>
+# DrawText
 
 !!! failure "Deprecated"
     This function was removed from RSDKv4 in REV02.

@@ -1,4 +1,4 @@
-# ClearScreen <small>(RSDKv4)</small>
+# ClearScreen
 
 ## Description
 Clears all pixels on screen with color `clearIndex` from the active palette.

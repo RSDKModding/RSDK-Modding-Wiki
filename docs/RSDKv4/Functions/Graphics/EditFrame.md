@@ -1,4 +1,4 @@
-# EditFrame <small>(RSDKv4)</small>
+# EditFrame
 
 ## Description
 Edits the pivots, width, height, and sheet coordinates of `frame`.

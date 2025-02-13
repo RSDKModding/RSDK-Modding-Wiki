@@ -1,4 +1,4 @@
-# ObjectTileGrip <small>(RSDKv3)</small>
+# ObjectTileGrip
 
 ## Description
 Tries to collide with the foreground layer based on the position of `Object.iXPos` + `xOffset`, `Object.iYPos` + `yOffset`.

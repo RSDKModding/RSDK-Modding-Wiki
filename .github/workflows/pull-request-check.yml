@@ -1,0 +1,25 @@
+name: pull-request-check
+on:
+  pull_request:
+    paths:
+      - docs/**
+      - overrides/**
+      - mkdocs.yml
+    branches: 
+      - master
+
+env:
+  CI: False
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-material mkdocs-glightbox
+      - run: mkdocs build -v

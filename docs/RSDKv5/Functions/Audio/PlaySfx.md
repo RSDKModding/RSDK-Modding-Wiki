@@ -1,4 +1,4 @@
-# PlaySfx <small>(RSDKv5)</small>
+# PlaySfx
 
 ## Description
 Plays the sound effect in the given slot, looping it if a loop point is set.

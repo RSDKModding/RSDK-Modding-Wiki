@@ -1,4 +1,4 @@
-# ResetObjectEntity <small>(RSDKv4)</small>
+# ResetObjectEntity
 
 ## Description
 Resets an object in position `slot` with the `type`, `propertyValue`, `xpos`, and `ypos` specified.

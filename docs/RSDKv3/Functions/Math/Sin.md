@@ -1,4 +1,4 @@
-# Sin <small>(RSDKv3)</small>
+# Sin
 
 ## Description
 Gets the value from the `sin512` lookup table based on `Angle` and sets it in `Store`.

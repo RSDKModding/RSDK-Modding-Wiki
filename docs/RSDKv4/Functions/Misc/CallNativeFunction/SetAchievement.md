@@ -1,4 +1,4 @@
-# SetAchievement <small>(RSDKv4)</small>
+# SetAchievement
 
 ## Description
 Sets the status of the given achievement.

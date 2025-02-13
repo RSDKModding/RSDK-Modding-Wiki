@@ -1,4 +1,4 @@
-# DrawSpriteFX <small>(RSDKv3)</small>
+# DrawSpriteFX
 
 ## Description
 Draws `Frame` at a specified X and Y position with visual effects.

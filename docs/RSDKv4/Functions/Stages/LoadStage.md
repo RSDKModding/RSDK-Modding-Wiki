@@ -1,4 +1,4 @@
-# LoadStage <small>(RSDKv4)</small>
+# LoadStage
 
 ## Description
 Loads a stage based on `stage.activeList` and `stage.listPos`.

@@ -1,4 +1,4 @@
-## SetDrawListEntityRef <small>(RSDKv3)</small>
+## SetDrawListEntityRef
 
 ## Description
 Sets `ObjectPos` in drawList `Layer` to `Value`.

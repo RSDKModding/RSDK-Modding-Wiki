@@ -1,4 +1,4 @@
-# LoadSpriteSheet <small>(RSDKv5)</small>
+# LoadSpriteSheet
 
 ## Description
 Loads a spritesheet and returns the ID of it.

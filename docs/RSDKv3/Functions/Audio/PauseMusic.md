@@ -1,4 +1,4 @@
-# PauseMusic <small>(RSDKv3)</small>
+# PauseMusic
 
 ## Description
 Pauses the currently playing music track, if one is playing. The track can be resumed with [ResumeMusic()](ResumeMusic.md).
