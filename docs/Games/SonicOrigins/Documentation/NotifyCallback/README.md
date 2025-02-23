@@ -69,3 +69,4 @@ NotifyCallback is a function in [Sonic Origins](../../README.md) that handles co
 | 1004 | **NOTIFY_1004**                                        | Unknown callback.                                                                                                                                         |
 | 1005 | **NOTIFY_1005**                                        | Unknown callback.                                                                                                                                         |
 | 1006 | [**NOTIFY_TITLECARD_INIT**](TitleCardInit.md)          |                                                                                                                                                           |
+| 1007 | [**NOTIFY_1007**](1007.md)                             | Displays an error message for trying to access a save file with DLC content without said DLC installed.                                                   |
