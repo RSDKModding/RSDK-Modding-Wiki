@@ -6,12 +6,12 @@ The datapack for Sonic 3 & Knuckles is required for both playing and modding the
 === "Steam"
 
     - Steam installed and running
-    - Sonic Origins installed from Steam
+    - [Sonic Origins installed from Steam](https://store.steampowered.com/app/1794960)
 
 === "Epic Games Store"
 
     - Epic Games Launcher installed and running
-    - Sonic Origins installed from the Epic Games Store
+    - [Sonic Origins installed from the Epic Games Store](https://store.epicgames.com/en-US/p/sonic-origins)
 
 ## Obtaining the Datapack
 === "Steam"

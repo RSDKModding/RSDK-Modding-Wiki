@@ -6,12 +6,12 @@ The datapack for Sonic Mania is required for both playing and modding the game.
 === "Steam"
 
     - Steam installed and running
-    - Sonic Mania installed from Steam
+    - [Sonic Mania installed from Steam](https://store.steampowered.com/app/584400)
 
 === "Epic Games Store"
 
     - Epic Games Launcher installed and running
-    - Sonic Mania installed from the Epic Games Store
+    - [Sonic Mania installed from the Epic Games Store](https://www.epicgames.com/store/en-US/p/sonic-mania)
 
 ## Obtaining the Datapack
 === "Steam"
