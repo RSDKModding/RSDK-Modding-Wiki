@@ -545,7 +545,6 @@ nav:
           - NOTIFY_GOTO_FUTURE_PAST: Games/SonicOrigins/Documentation/NotifyCallback/GotoFuturePast.md
           - NOTIFY_BOSS_END: Games/SonicOrigins/Documentation/NotifyCallback/BossEnd.md
           - NOTIFY_SPECIAL_END: Games/SonicOrigins/Documentation/NotifyCallback/SpecialEnd.md
-          - NOTIFY_DEBUGPRINT: Games/SonicOrigins/Documentation/NotifyCallback/DebugPrint.md
           - NOTIFY_KILL_BOSS: Games/SonicOrigins/Documentation/NotifyCallback/KillBoss.md
           - NOTIFY_TOUCH_EMERALD: Games/SonicOrigins/Documentation/NotifyCallback/TouchEmerald.md
           - NOTIFY_STATS_ENEMY: Games/SonicOrigins/Documentation/NotifyCallback/StatsEnemy.md
