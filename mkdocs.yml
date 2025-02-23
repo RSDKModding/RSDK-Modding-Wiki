@@ -575,7 +575,7 @@ nav:
           - NOTIFY_STATS_CHARA_ACTION2: Games/SonicOrigins/Documentation/NotifyCallback/StatsCharaAction2.md
           - NOTIFY_PLAYER_SAVED_VALUES: Games/SonicOrigins/Documentation/NotifyCallback/PlayerSavedValues.md
           - NOTIFY_TITLECARD_INIT: Games/SonicOrigins/Documentation/NotifyCallback/TitleCardInit.md
-          - NOTIFY_1007: Games/SonicOrigins/Documentation/NotifyCallback/1007.md
+          - NOTIFY_1007: Games/SonicOrigins/Documentation/NotifyCallback/1007.md # Yea this basically lacks a proper name, it's just called that.
 
   - Tools:
     - Tools/README.md
