@@ -10,7 +10,7 @@ TODO: screenshots
 !!! info
     The decompiled scripts are required for script mods to work. When a script mod is enabled, these scripts are compiled by the decompilation at runtime and allow custom script code to function in-game.
 
-Go to the [RSDKv3 Script Decompilation GitHub repository](https://github.com/RSDKModding/RSDKv3-Script-Decompilation) and download the master branch by clicking the green `Code` button, then selecting `Download ZIP` in the drop-down menu.
+Go to the [RSDKv3 Script Decompilation GitHub repository](https://github.com/RSDKModding/RSDKv3-Script-Decompilation) and download the main branch by clicking the green `Code` button, then selecting `Download ZIP` in the drop-down menu.
 
 Extract the ZIP file, then copy the `Scripts` folder into the decompilation directory.
 

@@ -22,6 +22,9 @@
 	    It's highly recommended to [enable file extensions in File Explorer](https://www.thewindowsclub.com/show-file-extensions-in-windows) to reduce the chance of a file being named incorrectly.
 
     Place the decompilation EXE file (and any included DLL files) in the target directory.
+	
+    !!! warning
+        **DO NOT** place the decompilation in the directory of an official Mania release. Doing this is known to cause issues.
 
     Place the `Data.rsdk` and `Game.dll` files in this directory.
 
