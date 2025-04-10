@@ -104,7 +104,7 @@ git submodule update --remote --init --recursive
     === "rpm (Fedora)"
 
         ```
-        sudo dnf install make cmake gcc glew-devel glfw-devel libtheora-devel sdl2-devel zlib-devel
+        sudo dnf install make cmake gcc glew-devel glfw-devel libtheora-devel SDL2-devel zlib-devel
         ```
 
     === "apk (Alpine/PostmarketOS)"
