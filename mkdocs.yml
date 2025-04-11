@@ -152,6 +152,10 @@ nav:
     - RSDKv2:
       - RSDKv2/README.md
       - Decompilation: RSDKv2/Decompilation.md
+      - Documentation:
+        - Overview:
+          - RSDKv2/Overview/README.md
+          - Dev Menu: RSDKv2/Overview/DevMenu.md
 
     - RSDKv3:
       - RSDKv3/README.md
