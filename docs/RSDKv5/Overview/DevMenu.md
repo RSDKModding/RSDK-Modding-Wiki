@@ -50,7 +50,7 @@ Alternatively, running the game in [Data Folder Mode](TODO) will automatically e
 
 ## Menu
 
-You can open the Dev Menu at any time in-game by pressing ++escape++. In the [RSDKv5(U) Decompilation](../Decompilation.md), you can also tap/click the top left corner of the screen.
+You can open the Dev Menu at any time in-game by pressing ++escape++. In the [RSDKv5(U) Decompilation](../Decompilation/README.md), you can also tap/click the top left corner of the screen.
 
 TODO: explain each submenu
 

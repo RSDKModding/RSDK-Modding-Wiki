@@ -156,7 +156,9 @@ nav:
 
     - RSDKv3:
       - RSDKv3/README.md
-      - Decompilation: RSDKv3/Decompilation.md
+      - Decompilation:
+          - RSDKv3/Decompilation/README.md
+          - GameXML: RSDKv3/Decompilation/GameXML.md
       - Documentation:
         - Overview:
           - RSDKv3/Overview/README.md
@@ -264,7 +266,9 @@ nav:
 
     - RSDKv4:
       - RSDKv4/README.md
-      - Decompilation: RSDKv4/Decompilation.md
+      - Decompilation:
+          - RSDKv4/Decompilation/README.md
+          - GameXML: RSDKv4/Decompilation/GameXML.md
       - Documentation:
         - Overview:
           - RSDKv4/Overview/README.md
@@ -427,7 +431,9 @@ nav:
 
     - RSDKv5:
       - RSDKv5/README.md
-      - Decompilation: RSDKv5/Decompilation.md
+      - Decompilation:
+          - RSDKv5/Decompilation/README.md
+          - GameXML: RSDKv5/Decompilation/GameXML.md
       - Documentation:
         - Overview:
           - RSDKv5/Overview/README.md

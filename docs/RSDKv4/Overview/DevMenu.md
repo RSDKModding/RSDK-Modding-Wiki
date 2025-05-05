@@ -5,7 +5,7 @@
 The Dev Menu is a debug menu included with [RSDKv4](../README.md), disabled by default. The menu includes several features useful for debugging games in the engine.
 
 ## Enabling
-The Dev Menu is normally inaccessible, however in the [RSDKv4 Decompilation](../Decompilation.md), it can be enabled by setting `DevMenu` to `true` in the settings.ini file, like so:
+The Dev Menu is normally inaccessible, however in the [RSDKv4 Decompilation](../Decompilation/README.md), it can be enabled by setting `DevMenu` to `true` in the settings.ini file, like so:
 
 ``` ini hl_lines="3"
 [Dev]
@@ -38,10 +38,10 @@ TxtScripts=false
 
 ## Menu
 
-You can open the Dev Menu at any time in the [RSDKv4 Decompilation](../Decompilation.md) by pressing ++escape++ or by selecting it in the Help & Options or pause menus.
+You can open the Dev Menu at any time in the [RSDKv4 Decompilation](../Decompilation/README.md) by pressing ++escape++ or by selecting it in the Help & Options or pause menus.
 
 TODO: explain each submenu
 
 ## Other Effects
 
-When the Dev Menu is enabled in the [RSDKv4 Decompilation](../Decompilation.md), the global variable `options.devMenuFlag` is set to `true` upon loading the GameConfig, if such global variable exists.
+When the Dev Menu is enabled in the [RSDKv4 Decompilation](../Decompilation/README.md), the global variable `options.devMenuFlag` is set to `true` upon loading the GameConfig, if such global variable exists.

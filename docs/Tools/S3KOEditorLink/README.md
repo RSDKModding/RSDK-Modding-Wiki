@@ -10,7 +10,7 @@ S3KOEditorLink is an RSDKv5U logic file that allows accessing editor renders and
     S3KOEditorLink is only compatible with Windows and requires owning the Steam version of [Sonic Origins](/Games/SonicOrigins/README.md).
 
 !!! note
-    S3KOEditorLink only works with RSDK editor programs; it **does not** allow playing [Sonic 3 & Knuckles](TODO) in the [RSDKv5U Decompilation](/RSDKv5/Decompilation.md).
+    S3KOEditorLink only works with RSDK editor programs; it **does not** allow playing [Sonic 3 & Knuckles](TODO) in the [RSDKv5U Decompilation](/RSDKv5/Decompilation/README.md).
 
 [:fontawesome-solid-download: Download](https://github.com/RSDKModding/S3KOEditorLink/releases){ .md-button .md-button--primary target="_blank" }
 [:fontawesome-brands-github: Source Code](https://github.com/RSDKModding/S3KOEditorLink){ .md-button target="_blank" }

@@ -44,7 +44,7 @@ The Dev Menu is a debug menu included with [RSDKv3](../README.md), disabled by d
 
 ## Menu
 
-You can open the Dev Menu in Sonic CD by selecting it the pause menu, as well as the Help & Options menu in the mobile version. In the [RSDKv3 Decompilation](../Decompilation.md), you can also open it at any time by pressing ++escape++.
+You can open the Dev Menu in Sonic CD by selecting it the pause menu, as well as the Help & Options menu in the mobile version. In the [RSDKv3 Decompilation](../Decompilation/README.md), you can also open it at any time by pressing ++escape++.
 
 TODO: explain each submenu
 
