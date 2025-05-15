@@ -48,3 +48,19 @@
     margin: 0;
     padding: 25px;
 }
+
+/* Desktop/Mobile specific content (thanks to kamilkrzyskow for helping with this) */
+
+/* Hide .desktop-only content if on mobile */
+@media only screen and (max-width: 600px) { 
+    .desktop-only { 
+        display: none; 
+    } 
+}
+
+/* Hide .mobile-only content if not on mobile */
+@media only screen and (min-width: 601px) { 
+    .mobile-only { 
+        display: none; 
+    } 
+}
