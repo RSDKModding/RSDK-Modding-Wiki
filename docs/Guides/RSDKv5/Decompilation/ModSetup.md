@@ -9,6 +9,8 @@ TODO: screenshots
 
 Create a folder named `mods` in the decompilation directory.
 
+![mods](/assets/images/Windows/FileExplorer/SonicMania/ModSetup-mods.png)
+
 Download and extract the mod(s) you'd like to use into this folder. The file structure should look like this:
 ```
 mods/
@@ -24,6 +26,8 @@ mods/
 [Enable the Dev Menu](/RSDKv5/Overview/DevMenu.md#enabling), then while the decompilation is running, press ++escape++ to open the Dev Menu. You can also click/touch the top left corner of the window/screen.
 
 When the Dev Menu is open, choose `Mods` to open the Manage Mods menu.
+
+![Dev Menu](/assets/images/SonicMania/DevMenu/MainMenu-Decomp.png){ width="40%" } ![Mod List](/assets/images/SonicMania/DevMenu/Mods.png){ width="40%" }
 
 To control the menu, press :material-gamepad-round-up: or :material-gamepad-round-down: to select a mod, and press :material-alpha-a-circle:{ .controller-a } to toggle the mod on or off.
 

@@ -11,22 +11,24 @@
     - [Downloading an autobuild](https://github.com/RSDKModding/Sonic-Mania-Decompilation/actions) (Must be signed into GitHub to download)
 - [A datapack (Data.rsdk) for Sonic Mania](../../Games/SonicMania/Datapack.md)
     - The decompilations are not compatible with datapacks from the Netflix Games releases of the game.
-- [Visual C++ Redistributables](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) (Windows only)
+- [Visual C++ Redistributables](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-microsoft-visual-c-redistributable-version) (Windows only)
 
 ## Setup
 === "Windows"
 
-    TODO: screenshots
-
     !!! tip
-	    It's highly recommended to [enable file extensions in File Explorer](https://www.thewindowsclub.com/show-file-extensions-in-windows) to reduce the chance of a file being named incorrectly.
+        It's highly recommended to [enable file extensions in File Explorer](https://www.thewindowsclub.com/show-file-extensions-in-windows) to reduce the chance of a file being named incorrectly.
 
     Place the decompilation EXE file (and any included DLL files) in the target directory.
-	
+
     !!! warning
         **DO NOT** place the decompilation in the directory of an official Mania release. Doing this is known to cause issues.
 
+    ![RSDKv5(U).exe](/assets/images/Windows/FileExplorer/SonicMania/Setup-EXE.png)
+
     Place the `Data.rsdk` and `Game.dll` files in this directory.
+
+    ![Data.rsdk and Game.dll](/assets/images/Windows/FileExplorer/SonicMania/Setup-RSDK-DLL.png)
 
     !!! tip
         If you're not using either DirectX subsystem, it's highly recommended to [install the custom shaders mod](ShadersSetup.md).

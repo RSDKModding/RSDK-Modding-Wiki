@@ -1,7 +1,5 @@
 # Setting Up Mods for the RSDKv3 Decompilation
 
-TODO: screenshots
-
 !!! note
     This guide assumes you have already [set up the RSDKv3 Decompilation](Setup.md).
 
@@ -12,7 +10,12 @@ TODO: screenshots
 
 Go to the [RSDKv3 Script Decompilation GitHub repository](https://github.com/RSDKModding/RSDKv3-Script-Decompilation) and download the main branch by clicking the green `Code` button, then selecting `Download ZIP` in the drop-down menu.
 
+![Download ZIP](/assets/images/GitHub/RSDKv3-Script-Decompilation-DownloadZIP.png){ .desktop-only }
+![Download ZIP](/assets/images/GitHub/RSDKv3-Script-Decompilation-DownloadZIP-Mobile.png){ .mobile-only }
+
 Extract the ZIP file, then copy the `Scripts` folder into the decompilation directory.
+
+![Scripts](/assets/images/Windows/FileExplorer/SonicCD/ModSetup-Scripts.png)
 
 ## Mods Folder
 
@@ -20,6 +23,8 @@ Extract the ZIP file, then copy the `Scripts` folder into the decompilation dire
     Due to the original engine not being designed with mod support in mind, many mods might not be compatible with each other; using multiple mods that edit the same files/scripts can easily break the game. Only use mods together if they are completely independent of each other or are designed to be compatible with each other.
 
 Create a folder named `mods` in the decompilation directory.
+
+![mods](/assets/images/Windows/FileExplorer/SonicCD/ModSetup-mods.png)
 
 Download and extract the mod(s) you'd like to use into this folder. The file structure should look like this:
 ```
@@ -35,6 +40,8 @@ mods/
 [Enable the Dev Menu](/RSDKv3/Overview/DevMenu.md#rsdkv3-decompilation), then while the decompilation is running, press ++escape++ to open the Dev Menu. You can also select it in the pause menu or the Help & Options menu.
 
 When the Dev Menu is open, choose `MODS` to open the Mod List.
+
+![Dev Menu](/assets/images/SonicCD/DevMenu/MainMenu-Decomp.png){ width="40%" } ![Mod List](/assets/images/SonicCD/DevMenu/Mods.png){ width="40%" } 
 
 To control the menu, press :material-gamepad-round-up: or :material-gamepad-round-down: to select a mod, and press :material-alpha-a-circle:{ .controller-a } to toggle the mod on or off.
 
