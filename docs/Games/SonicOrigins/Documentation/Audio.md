@@ -10,6 +10,25 @@ This page contains tables listing all of the audio files in Sonic Origins' ACB/A
 !!! note
     The file extensions in the RSDK filenames for sound effects are not present in the actual Reflections parameters. They have been added in this page for the sake of clarity.
 
+## Keycodes
+CRIWARE audio packs are encrypted, and require a keycode unique to each pack in order to decrypt them and extract/modify their contents. Here is a table of all audio packs for Sonic Origins and their respective keycodes.
+
+| CRIWARE Audio Pack     | Keycode              |
+| ---------------------- | -------------------- |
+| HITE_missions.acb/awb  | 7247603164247025552  |
+| HITE_music.acb/awb     | 11538393028480221496 |
+| HITE_sfx.acb           | 1441441318033510872  |
+| Music03_S3K.acb/awb    | 7536411022915609276  |
+| Music09_Museum.acb/awb | 11072514307527781104 |
+| Music10_DLC.acb/awb    | 8015507015573856737  |
+| SCD_music.acb/awb      | 15760211266427465005 |
+| SCD_sfx.acb            | 13112347560991493607 |
+| STH1_music.acb/awb     | 6005974353133017519  |
+| STH1_sfx.acb           | 11064953427723590053 |
+| STH2_music.acb/awb     | 7014663803770805356  |
+| STH2_sfx.acb           | 1290919142773486504  |
+| STH3_sfx.acb           | 17938273131493627783 |
+
 ## Sonic 1 Music (STH1_music.awb) { id="sonic-1-music" }
 | ID | CRIWARE Audio Name | RSDK Filename         |
 | -- | ------------------ | --------------------- |
