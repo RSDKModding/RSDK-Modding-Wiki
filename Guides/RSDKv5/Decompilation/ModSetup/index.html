@@ -13515,6 +13515,54 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Troubleshooting
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mod-gets-disabled" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mod gets disabled automatically when starting the game
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAQ
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAQ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#steam-mania-mods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Can I use mods made for the Steam version of Sonic Mania?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -14199,6 +14247,54 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Troubleshooting
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mod-gets-disabled" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mod gets disabled automatically when starting the game
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAQ
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAQ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#steam-mania-mods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Can I use mods made for the Steam version of Sonic Mania?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -14267,6 +14363,28 @@
 <p class="admonition-title">How do I change mod priority?</p>
 <p>Mod priority is determined based on the order of the mods in the mod list; mods get loaded from bottom to top. You can shift a mod up or down in the mod list by holding <span class="twemoji controller-c"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 1 10 10 10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2m-1 5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-1h-2v1h-2V9h2v1h2V9a2 2 0 0 0-2-2z"/></svg></span> while pressing <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 8h4V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v4h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-4v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-4H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2m6-4v4h4V4z"/></svg></span> or <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 8h4V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v4h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-4v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-4H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2m6 8v4h4v-4z"/></svg></span>.</p>
 </div>
+<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h2>
+<h3 id="mod-gets-disabled">Mod gets disabled automatically when starting the game<a class="headerlink" href="#mod-gets-disabled" title="Permanent link">&para;</a></h3>
+<p>This could be for several reasons. The <code>log.txt</code> file that the decomp generates<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> will contain an error message explaining why the mod couldn't be loaded. If you can't find the error within the file, try deleting it right before trying to load the mod in the decomp.</p>
+<p>The common reasons for this occuring are:</p>
+<ul>
+<li>The mod's <code>TargetVersion</code> (which defaults to 5 if one isn't specified in <code>mod.ini</code>) does not match the engine version currently loaded</li>
+<li>The mod tries to load a logic file it can't find</li>
+<li>The mod's logic file does not have a <a href="TODO">LinkModLogic</a> function (i.e. the mod does not use <a href="TODO">GameAPI</a>)</li>
+<li>The mod's logic file does not match the engine's revision or mod loader version</li>
+</ul>
+<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Permanent link">&para;</a></h2>
+<h3 id="steam-mania-mods">Can I use mods made for the Steam version of Sonic Mania?<a class="headerlink" href="#steam-mania-mods" title="Permanent link">&para;</a></h3>
+<p>Steam Mania mods that use DLL files will not work with the decompilation, as they use a different modding API that is not compatible. These mods will need to be rewritten to use <a href="TODO">GameAPI</a> instead.</p>
+<p>Even if a mod doesn't contain a DLL file, it may still use features provided by Mania Mod Manager, such as codes or the BASS audio library. In this case, the mod may not behave correctly when used on the decompilation, as it does not support this functionality.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>The Android version of the decomp does not create or write to a log file.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
 
 
@@ -14289,7 +14407,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="May 15, 2025 03:42:13"><span class="timeago" datetime="2025-05-15T03:42:13+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="May 15, 2025 03:42:13">2025-05-15</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="May 17, 2025 05:55:49"><span class="timeago" datetime="2025-05-17T05:55:49+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="May 17, 2025 05:55:49">2025-05-17</span>
   </span>
 
     
