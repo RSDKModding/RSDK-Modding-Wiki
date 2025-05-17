@@ -25,12 +25,6 @@
 
     ![Data.rsdk](/assets/images/Windows/FileExplorer/SonicCD/Setup-RSDK.png)
 
-    !!! note
-        If you're using a datapack from Sonic Origins, you will need to [extract the datapack](TODO) and place the extracted `Data` and `Bytecode` folders in the decompilation directory. Make sure the datapack is not present in the directory so that the decomp doesn't read it.
-
-    !!! note
-        If you're using a datapack from the mobile version of Sonic CD, you will need to enable the `HardwareRenderer` setting found in the `Window` category of the `settings.ini` file. If you don't see this file, opening the decomp will generate it. Make sure the decomp isn't running when editing the file.
-
 === "Linux"
 
     TODO
@@ -38,3 +32,43 @@
 === "Android"
 
     TODO
+
+## Troubleshooting
+
+### Some options in Sonic CD's menu don't work { id="cd-menu-options" }
+
+Certain buttons in Sonic CD's menu call for functionality or menus that are either part of the system's OS or hardcoded in the game's executable. These include:
+
+- The Leaderboards and Achievements menus
+- The How to Play, Controls, and Settings screens in the Blit version
+- The legal/privacy buttons in the mobile version's About screen
+
+This functionality is not implemented in the decompilation, but you can use mods to restore/add some of these menus.
+
+### The game runs faster than it's supposed to { id="game-runs-too-fast" }
+
+All of the Retro Engine's logic is tied to the framerate, meaning that the speed of the game will be faster or slower depending on your device/monitor's refresh rate. You can fix this by turning off V-Sync in `settings.ini` or by changing your device's refresh rate, if possible.
+
+### The title screen and level title cards have visual oddities when using the Blit release in widescreen { id="blit-widescreen-bugs" }
+
+The Blit release of Sonic CD wasn't fully optimized for widescreen, so issues like this will occur. You can [install the decompiled scripts] to fix this.
+
+### Pausing is mapped to B instead of Start when using the mobile version { id="b-button-pause" }
+
+This is an intentional change (made for unknown reasons) in the mobile version of the game. You can [install the decompiled scripts] to fix this.
+
+  [install the decompiled scripts]: ModSetup.md#decompiled-scripts
+
+### The title screen splash logos and instructions graphics are low resolution when using the mobile version { id="low-res-graphics" }
+
+Enable `HardwareRenderer` in `settings.ini`.
+
+### Various issues related to using the Origins version { id="origins-version-issues" }
+
+See [this guide](https://gamebanana.com/tuts/16686) for fixing several Origins related issues.
+
+## FAQ
+
+### I don't have access to the Blit release of Sonic CD. Can I use video files from the mobile or Origins versions? { id="blit-cd-videos" }
+
+The decompilation only works with video files from the Blit release of the game. If you don't have this version, you can choose from the [FMV mods](https://gamebanana.com/mods/cats/19077) available on GameBanana and use one of those instead.

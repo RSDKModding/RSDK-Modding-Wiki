@@ -52,6 +52,9 @@ CRIWARE audio packs are encrypted, and require a keycode unique to each pack in 
 | 17 | 92_Drowning        | Drowning.ogg          |
 | 18 | 93_ChaosEmerald    | Stage/Emerald.wav[^2] |
 
+[^1]: The jingles for 1UPs in Sonic 1 & 2 use an RSDK filename of simply `1up`. To get around issues involving the jingles being music in CRIWARE but sound effects in RSDK, the SFX RFL parameters include a `m_music` field that allows playing a song by audio name while playing a sound effect, which the `_SE_1Up` entries do by setting their music fields to `1up`. For the sake of clarity, these tables list the actual sound effect filenames instead.
+[^2]: The jingles for obtaining a Chaos Emerald in Sonic 1 & 2 use an RSDK filename of simply `emerald`, similar to the `1up` entries.[^1] The `_SE_Emerald` sound effect parameter entries set their `m_music` fields to `emerald`. For the sake of clarity, these tables list the actual sound effect filenames instead.
+
 ### Fast Music
 All fast (Speed Shoes) music plays the original music at 1.2x speed.
 
@@ -980,6 +983,3 @@ These entries exist in the RFL parameters but are duplicates of others or have n
 | RSDK-3-Global---RayDive       | Global/RayDive.wav       |
 | RSDK-3-Global---RaySwoop      | Global/RaySwoop.wav      |
 | _SE_Stage_Beep                | Stage/Beep.wav           |
-
-[^1]: The jingles for 1UPs in Sonic 1 & 2 use an RSDK filename of simply `1up`. To get around issues involving the jingles being music in CRIWARE but sound effects in RSDK, the SFX RFL parameters include a `m_music` field that allows playing a song by audio name while playing a sound effect, which the `_SE_1Up` entries do by setting their music fields to `1up`. For the sake of clarity, these tables list the actual sound effect filenames instead.
-[^2]: The jingles for obtaining a Chaos Emerald in Sonic 1 & 2 use an RSDK filename of simply `emerald`, similar to the `1up` entries.[^1] The `_SE_Emerald` sound effect parameter entries set their `m_music` fields to `emerald`. For the sake of clarity, these tables list the actual sound effect filenames instead.

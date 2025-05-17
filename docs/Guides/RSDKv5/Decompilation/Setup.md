@@ -44,3 +44,39 @@
 === "Android"
 
     TODO
+
+## Troubleshooting
+
+### The game runs faster than it's supposed to { id="game-runs-too-fast" }
+
+All of the Retro Engine's logic is tied to the framerate, meaning that the speed of the game will be faster or slower depending on your device/monitor's refresh rate. You can fix this by turning off V-Sync in `settings.ini` or by changing your device's refresh rate, if possible.
+
+### Non-Xbox controllers not working on Windows { id="windows-direct-input" }
+
+By default, Windows builds of the decompilation use DirectX 9, which only supports XInput controllers (i.e. Xbox controllers). To use other types of controllers, you will need to [build the decompilation](Building.md) with the OpenGL backend by setting the [`RETRO_SUBSYSTEM` build flag](Building.md#build-flags) to [`OGL`](Building.md#subsystems). It's also recommended to download a [`gamecontrollerdb.txt`](https://github.com/mdqinc/SDL_GameControllerDB/blob/master/gamecontrollerdb.txt) file and place it next to the executable file.
+
+### Various issues related to using the Origins games { id="origins-games-issues" }
+
+See [this guide](https://gamebanana.com/tuts/16686) for fixing several Origins related issues.
+
+## FAQ
+
+### What's the difference between RSDKv5 and RSDKv5U? { id="v5-vs-v5u" }
+
+RSDKv5U adds compatibility for playing RSDKv3 (i.e. Sonic CD) and RSDKv4 (i.e. Sonic 1 & 2) games, including support for local multiplayer. The v5 side of the engine also recieves minor changes, such as altered collision and additional functionality.
+
+### How do I change the username? { id="change-username" }
+
+In the `Game` category of `settings.ini`, add a tag called `username` and enter the desired username in it, like so:
+
+``` ini hl_lines="4"
+; Retro Engine Config File
+
+[Game]
+username=MyUsername ; (1)!
+language=0
+
+...
+```
+
+1. The setting names in settings.ini are case-sensitive; the username setting will not apply if the capitalization is incorrect.

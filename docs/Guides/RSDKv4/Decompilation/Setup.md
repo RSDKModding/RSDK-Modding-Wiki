@@ -25,9 +25,6 @@
 
     ![Data.rsdk](/assets/images/Windows/FileExplorer/Sonic1-2/Setup-RSDK.png)
 
-    !!! note
-        If you're using a datapack from Sonic Origins, you will need to [extract the datapack](TODO) and place the extracted `Data` and `Bytecode` folders in the decompilation directory. Make sure the datapack is not present in the directory so that the decomp doesn't read it.
-
 === "Linux"
 
     TODO
@@ -35,3 +32,27 @@
 === "Android"
 
     TODO
+
+## Troubleshooting
+
+### The game runs faster than it's supposed to { id="game-runs-too-fast" }
+
+All of the Retro Engine's logic is tied to the framerate, meaning that the speed of the game will be faster or slower depending on your device/monitor's refresh rate. You can fix this by turning off V-Sync in `settings.ini` or by changing your device's refresh rate, if possible.
+
+### The player character softlocks or dies at the end of certain acts { id="ultrawide-end-issues" }
+
+Sonic 1 and 2 weren't fully optimized for ultrawide, so issues like these will occur. You can [install the decompiled scripts] to fix this.
+
+### Pausing is mapped to B instead of Start when using the mobile versions { id="b-button-pause" }
+
+This is an intentional change (made for unknown reasons) in the mobile versions of the games. You can [install the decompiled scripts] to fix this.
+
+### Life counter defaults to 1 instead of 3 when using the mobile versions { id="mobile-life-count" }
+
+This is an intentional change made in the mobile versions of the games. You can [install the decompiled scripts] to fix this in most cases.
+
+  [install the decompiled scripts]: ModSetup.md#decompiled-scripts
+
+### Various issues related to using the Origins versions { id="origins-versions-issues" }
+
+See [this guide](https://gamebanana.com/tuts/16686) for fixing several Origins related issues.

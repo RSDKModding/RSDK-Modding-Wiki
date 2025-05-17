@@ -17,6 +17,8 @@ Extract the ZIP file, then copy the `Scripts` folder into the decompilation dire
 
 ![Scripts](/assets/images/Windows/FileExplorer/SonicCD/ModSetup-Scripts.png)
 
+If you'd like to force the engine to always load the decompiled scripts, you can do so by enabling `TxtScripts` in `settings.ini`.
+
 ## Mods Folder
 
 !!! warning

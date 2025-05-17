@@ -19,6 +19,8 @@ Extract the ZIP file, then copy the `Scripts` folder for the appropriate game in
 
 ![Scripts](/assets/images/Windows/FileExplorer/Sonic1-2/ModSetup-Scripts.png)
 
+If you'd like to force the engine to always load the decompiled scripts, you can do so by enabling `TxtScripts` in `settings.ini`.
+
 ## Mods Folder
 
 !!! warning
