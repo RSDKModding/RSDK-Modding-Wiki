@@ -158,6 +158,7 @@ nav:
       - RSDKv3/README.md
       - Decompilation:
           - RSDKv3/Decompilation/README.md
+          - Mod Loader: RSDKv3/Decompilation/ModLoader.md
           - GameXML: RSDKv3/Decompilation/GameXML.md
       - Documentation:
         - Overview:
@@ -268,6 +269,7 @@ nav:
       - RSDKv4/README.md
       - Decompilation:
           - RSDKv4/Decompilation/README.md
+          - Mod Loader: RSDKv4/Decompilation/ModLoader.md
           - GameXML: RSDKv4/Decompilation/GameXML.md
       - Documentation:
         - Overview:
@@ -433,6 +435,7 @@ nav:
       - RSDKv5/README.md
       - Decompilation:
           - RSDKv5/Decompilation/README.md
+          - Mod Loader: RSDKv5/Decompilation/ModLoader.md
           - GameXML: RSDKv5/Decompilation/GameXML.md
       - Documentation:
         - Overview:
@@ -598,19 +601,16 @@ nav:
         - Building: Guides/RSDKv3/Decompilation/Building.md
         - Setup: Guides/RSDKv3/Decompilation/Setup.md
         - Mod Setup: Guides/RSDKv3/Decompilation/ModSetup.md
-        - Mod Formatting: Guides/RSDKv3/Decompilation/ModFormatting.md
     - RSDKv4:
       - Decompilation:
         - Building: Guides/RSDKv4/Decompilation/Building.md
         - Setup: Guides/RSDKv4/Decompilation/Setup.md
         - Mod Setup: Guides/RSDKv4/Decompilation/ModSetup.md
-        - Mod Formatting: Guides/RSDKv4/Decompilation/ModFormatting.md
     - RSDKv5:
       - Decompilation:
         - Building: Guides/RSDKv5/Decompilation/Building.md
         - Setup: Guides/RSDKv5/Decompilation/Setup.md
         - Mod Setup: Guides/RSDKv5/Decompilation/ModSetup.md
-        - Mod Formatting: Guides/RSDKv5/Decompilation/ModFormatting.md
         - Shaders Setup: Guides/RSDKv5/Decompilation/ShadersSetup.md
     - Games:
       - Sonic CD:

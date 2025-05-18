@@ -44,10 +44,16 @@ This could be for several reasons. The `log.txt` file that the decomp generates[
 
 The common reasons for this occuring are:
 
-- The mod's `TargetVersion` (which defaults to 5 if one isn't specified in `mod.ini`) does not match the engine version currently loaded
+- The mod's `TargetVersion` (which defaults to 5 if one isn't specified in [mod.ini]) does not match the engine version currently loaded
 - The mod tries to load a logic file it can't find
 - The mod's logic file does not have a [LinkModLogic](TODO) function (i.e. the mod does not use [GameAPI])
 - The mod's logic file does not match the engine's revision or mod loader version
+
+### Mod for a v3 or v4 game isn't shown in the mods menu { id="mod-not-shown-v5u" }
+
+The mods menu in RSDKv5U only shows mods whose `TargetVersion` in their [mod.ini] files match the currently loaded engine version. If the `TargetVersion` flag isn't present in that file, the target version will default to `5` for RSDKv5. Make sure the appropriate target version is set.
+
+  [mod.ini]: /RSDKv5/Decompilation/ModLoader.md#modini
 
 ## FAQ
 
