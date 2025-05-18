@@ -48,7 +48,7 @@ Clone the repo **recursively**, using:
 If you've already cloned the repo, run these commands inside of the repository to ensure the clone is up-to-date:
 ```
 git pull
-git submodule update --remote --init --recursive
+git submodule update --remote --init
 ```
 
 ## Getting dependencies
@@ -173,7 +173,7 @@ git submodule update --remote --init --recursive
 
     The resulting build(s) will be located somewhere in `build/` depending on your system. If you built RSDKv5 and Sonic Mania together, Sonic Mania (`Game.dll`) will be found in `build` while RSDKv5 (`RSDKv5(U).exe`) will be found in `build/dependencies/RSDKv5`.
 
-    You can set [build flags](#build-flags) by adding `-D[flag-name]=[value]` to the end of the first command. For example, to build with `RETRO_DISABLE_PLUS` set to on, add `-DRETRO_DISABLE_PLUS=on` to the command.
+    You can set [build flags](#build-flags) by adding `-D[flag-name]=[value]` to the end of the first command.
 
 === "Linux"
 
@@ -185,7 +185,7 @@ git submodule update --remote --init --recursive
 
     The resulting build(s) will be located somewhere in `build/` depending on your system. If you built RSDKv5 and Sonic Mania together, Sonic Mania (`libGame.so`) will be found in `build` while RSDKv5 (`RSDKv5(U)`) will be found in `build/dependencies/RSDKv5`.
 
-    You can set [build flags](#build-flags) by adding `-D[flag-name]=[value]` to the end of the first command. For example, to build with `RETRO_DISABLE_PLUS` set to on, add `-DRETRO_DISABLE_PLUS=on` to the command.
+    You can set [build flags](#build-flags) by adding `-D[flag-name]=[value]` to the end of the first command.
 
 === "Nintendo Switch"
 
@@ -197,7 +197,7 @@ git submodule update --remote --init --recursive
 
     The resulting build will be located somewhere in `build/` depending on your system.
 
-    You can set [build flags](#build-flags) by adding `-D[flag-name]=[value]` to the end of the first command. For example, to build with `RETRO_DISABLE_PLUS` set to on, add `-DRETRO_DISABLE_PLUS=on` to the command.
+    You can set [build flags](#build-flags) by adding `-D[flag-name]=[value]` to the end of the first command.
 
 === "Android"
 
