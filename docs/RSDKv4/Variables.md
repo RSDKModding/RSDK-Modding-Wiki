@@ -7,20 +7,40 @@
 | **checkResult** | A value that some functions set as the resulting value. Can be used with all sorts of arithmetic. |
 | **arrayPos0-7** | Used to store an array of data.                                                                   |
 | **global**      | Can be used to use global variables as an array (Ex. global[arrayPos0] = 0).                      |
-| **local**       | Can be used to use local variables as an array (Ex. local[arrayPos0] = 0).                        |
+| **local**       | Can be used to use tables and static values as an array (Ex. local[arrayPos0] = 0).               |
 
 ## Object
-| Variable                 | Description                                                                                                                      |
-| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
-| **object.entityPos**     | The object's entity slot in a scene's entity list.                                                                               |
-| **object.groupID**       | The object's groupType. By default, it is set to an object's type, but can be set to a custom one. (Ex. `GROUP_PLAYERS = 0x100`) |
-| **object.type**          | The object's type. (Ex. an object with a type of 0 would be a Blank Object.)                                                     |
-| **object.propertyValue** | The object's subType. Its purpose generally differs from object to object.                                                       |
-| **object.x/ypos**        | The object's x/ypos in a scene. Position is based in world-space, which in RSDK is 0x10000 (65535), which is 1.0                 |
-| **object.ix/iypos**      | The object's ix/iypos in a scene. iPosition is based in screen-space, which is truncated from x/ypos (1 == 1).                   |
-| **object.x/yvel**        | The object's x/yvel on the x and y axis. Velocity is based in world-space.                                                       |
-| **object.speed**         | The object's general speed in world-space.                                                                                       |
-| **object.state**         | The object's state. Similar to propertyValue, its prupose differs for each object.                                               |
+| Variable                  | Description                                                                                                                                 |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| **object.entityPos**      | The object's entity slot in a scene's entity list.                                                                                          |
+| **object.groupID**        | The object's groupType. By default, it is set to an object's type, but can be set to a custom one. (Ex. `GROUP_PLAYERS = 0x100`)            |
+| **object.type**           | The object's type. (Ex. an object with a type of 0 would be a Blank Object.)                                                                |
+| **object.propertyValue**  | The object's subType. Its purpose generally differs from object to object.                                                                  |
+| **object.x/ypos**         | The object's x/ypos in a scene. Position is based in world-space, which in RSDK is 0x10000 (65535), which is 1.0                            |
+| **object.ix/iypos**       | The object's ix/iypos in a scene. iPosition is based in screen-space, which is truncated from x/ypos (1 == 1).                              |
+| **object.x/yvel**         | The object's x/yvel on the x and y axis. Velocity is based in world-space.                                                                  |
+| **object.speed**          | The object's general speed in world-space.                                                                                                  |
+| **object.state**          | The object's state. Similar to propertyValue, its purpose differs for each object.                                                          |
+| **object.rotation**       | The object's rotation. Generally only has effect with sprites drawn with the `FX_ROTATE/FX_ROTOZOOM` drawing flag.                          |
+| **object.scale**          | The object's scale. Generally only has effect with sprites drawn with the `FX_SCALE/FX_ROTOZOOM` drawing flag.                              |
+| **object.priority**       | The object's priority, determines how the engine handles the object's processing events.                                                    |
+| **object.drawOrder**      | The object's draw layer. `3` is the default. Manages the drawList the object is in after `ObjectUpdate` is ran.                             |
+| **object.direction**      | The object's direction. Determines which way a sprite is flipped via `FX_FLIP`, but can also be used with `FX_ROTATE/FX_ROTOZOOM/FX_SCALE`. |
+| **object.inkEffect**      | The object's ink effect, determines the blend mode the object uses with `FX_INK`.                                                           |
+| **object.alpha**          | The object's alpha. It ranges from `0` to `255`.                                                                                            |
+| **object.frame**          | The object's frame ID.                                                                                                                      |
+| **object.animation**      | The object's animation ID. Especially useful for objects that use animation files.                                                          |
+| **object.prevAnimaton**   | The last animation that was processed by `ProcessAnimation()`.                                                                              |
+| **object.animationSpeed** | How fast the animation should process.                                                                                                      |
+| **object.animationTimer** | Used to determine process speed.                                                                                                            |
+| **object.angle**          | The object's angle. Generally used for operations related to `ProcessObjectMovement()`.                                                     |
+| **object.lookPosX/Y**     | The offset of the camera from the object's position.                                                                                        |
+| **object.collisionMode**  | The object's active collision mode.                                                                                                         |
+| **object.controlLock**    | Object control lock timer.                                                                                                                  |
+| **object.pushing**        | Object pushing flag. Generally used with tile collision operations.                                                                         |
+| **object.visible**        | Hides an object's animation if said object uses an animation file. Set to `true` by default.                                                |
+| **object.tileCollisions** | Determines if an object can interact with tiles that have collision or not.                                                                 |
+
 
 ## Stage
 | Variable                         | Description                                                                                                                                                                        |
@@ -75,7 +95,6 @@
 | Variable                 | Description                                                                                                                                 |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | **keyDown/keyPress.[X]** | General inputs for controllers. `keyDown` is true if a button/key is held, while `keyPress` is true if a button/key was pressed on a frame. |
-|
 
 ## Menu
 | Variable              | Description                                            |
@@ -83,6 +102,20 @@
 | **menu1/2.selection** | The current row, as selected by `MENU_1` and `MENU_2`. |
 
 ## Tile Layer
+| Variable                         | Description                                                                                                                           |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **tileLayer.x/ysize**            | The size of the specified tile layer in chunks (i.e., `world-space >> 7`).                                                            |
+| **tileLayer.type**               | The type of rendering that the `tileLayer` uses.                                                                                      |
+| **tileLayer.angle**              | The angle of the tileLayer (only compatible with 3DFloor & 3DSky rendering).                                                          |
+| **tileLayer.x/y/zpos**           | The position of the specified `tileLayer` (only compatiable with 3DFloor & 3DSky rendering).                                          |
+| **tileLayer.parallaxFactor**     | The `tileLayer`’s parallax factor (relative speed), which determines how many pixels the parallax moves per pixel move of the camera. |
+| **tileLayer.scrollSpeed**        | The `tileLayer`’s scroll speed (constant speed), which determines how many pixels the parallax moves per frame.                       |
+| **tileLayer.scrollPos**          | The `tileLayer`’s scroll position, which is how many pixels the parallax is offset from the starting pos.                             |
+| **tileLayer.deformationOffset**  | The offset for the deformation data arrays when rendering above `stage.waterLevel`. Indexes range from 0 (FG) to 9 (8th BG).          |
+| **tileLayer.deformationOffsetW** | The offset for the deformation data arrays when rendering below `stage.waterLevel`. Indexes range from 0 (FG) to 9 (8th BG).          |
+| **h/vParallax.parallaxFactor**   | The scroll info’s parallax factor (relative speed), which determines how many pixels the parallax moves per pixel move of the camera. |
+| **h/vParallax.scrollSpeed**      | The scroll info’s scroll speed (constant speed), which determines how many pixels the parallax moves per frame.                       |
+| **h/vParallax.scrollPos**        | The scroll info’s scroll position, which is how many pixels the parallax is offset from the starting pos.                             |
 
 ## 3D
 | Variable                   | Description                                                                                             |
@@ -96,7 +129,7 @@
 | **faceBuffer.a/b/c/d**     | The vertice indices to use to control a face's drawing.                                                 |
 | **faceBuffer.flag**        | The active drawing flag for a face.                                                                     |
 | **faceBuffer.color**       | The color to draw the face when drawing with either `FACE_FLAG_COLOURED_2D` or `FACE_FLAG_COLOURED_3D`. |
-| **vertexBuffer.x/y/z/u/v** | The vertex coordinates for a specified vertex. |
+| **vertexBuffer.x/y/z/u/v** | The vertex coordinates for a specified vertex.                                                          |
 
 ## Engine
 | Variable                | Description                                                                                                              |
@@ -106,12 +139,28 @@
 | **engine.language**     | The active language the engine is using.                                                                                 |
 | **engine.onlineActive** | Gets the engine's state with online connectivity.                                                                        |
 | **engine.sfxVolume**    | The engine's master sound effect output volume. Ranges from 0-100.                                                       |
-| **engine.bgmVolume**    | The engine's master music volume output. Ranges from 0-100. Combined with 'music.volume' to get the final output volume. |
+| **engine.bgmVolume**    | The engine's master music volume output. Ranges from 0-100. Combined with `music.volume` to get the final output volume. |
+| **engine.deviceType**   | (`engine.platformID` in REV00) The current device type the engine is being run on.                                       |
 | **engine.trialMode**    | Used in a trial version of a game to handle certain events differently.                                                  |
 
 ## Extras
+| Variable                | Description                                  |
+| ----------------------- | -------------------------------------------- |
+| **screen.currentID**    | The current screen ID that the camera is on. |
+| **camera.enabled**      | Same as `screen.cameraEnabled`, see above.   |
+| **camera.target**       | Same as `screen.cameraTarget`, see above.    |
+| **camera.style**        | Same as `screen.cameraStyle`, see above.     |
+| **camera.xpos**         | Same as `screen.cameraX`, see above.         |
+| **camera.ypos**         | Same as `screen.cameraY`, see above.         |
+| **camera.adjustY**      | same as `screen.adjustCameraY`, see above.   |
 
 ## Haptics
 | Variable                  | Description                                                                                               |
 | ------------------------- | --------------------------------------------------------------------------------------------------------- |
 | **engine.hapticsEnabled** | Determines if haptic effects are enabled or not. Will only have effect is `RETRO_USE_HAPTICS` if enabled. |
+
+## Deprecated
+| Variable                      | Description                                                      |
+| ----------------------------- | ---------------------------------------------------------------- |
+| **(REV00) engine.message**    | Specified callback for scripts when the game window loses focus. |
+| **(REV00) engine.platformID** | Same as `engine.deviceType`, see above.                          |
