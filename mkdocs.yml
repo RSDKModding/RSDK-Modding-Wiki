@@ -158,6 +158,7 @@ nav:
       - RSDKv3/README.md
       - Decompilation:
           - RSDKv3/Decompilation/README.md
+          - settings.ini: RSDKv3/Decompilation/SettingsINI.md
           - Mod Loader: RSDKv3/Decompilation/ModLoader.md
           - GameXML: RSDKv3/Decompilation/GameXML.md
       - Documentation:
@@ -269,6 +270,7 @@ nav:
       - RSDKv4/README.md
       - Decompilation:
           - RSDKv4/Decompilation/README.md
+          - settings.ini: RSDKv4/Decompilation/SettingsINI.md
           - Mod Loader: RSDKv4/Decompilation/ModLoader.md
           - GameXML: RSDKv4/Decompilation/GameXML.md
       - Documentation:
@@ -441,6 +443,7 @@ nav:
         - Overview:
           - RSDKv5/Overview/README.md
           - Dev Menu: RSDKv5/Overview/DevMenu.md
+          - Settings.ini: RSDKv5/Overview/SettingsINI.md
         - Events:
           - RSDKv5/Events/README.md
           - Update: RSDKv5/Events/Update.md

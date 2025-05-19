@@ -87,7 +87,7 @@ All of these flags take a boolean (`false`/`true`) unless stated otherwise. You 
 
 `DisableFocusPause`
 
-:   Overrides the `DisableFocusPause` setting in [settings.ini](SettingsINI.md). See [that setting's values](SettingsINI.md#disablefocuspause) for valid options.
+:   Overrides the `DisableFocusPause` setting in [settings.ini](SettingsINI.md). See [that setting's values](SettingsINI.md#disablefocuspause-options) for valid options.
 
 `RedirectSaveRAM`
 
