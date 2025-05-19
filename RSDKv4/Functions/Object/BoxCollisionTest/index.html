@@ -761,6 +761,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -804,6 +808,52 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../RSDKv3/Decompilation/SettingsINI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    settings.ini
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../RSDKv3/Decompilation/ModLoader/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mod Loader
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
               
             
               
@@ -3831,6 +3881,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -3874,6 +3928,52 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Decompilation/SettingsINI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    settings.ini
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Decompilation/ModLoader/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mod Loader
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
               
             
               
@@ -8475,6 +8575,8 @@
       
         
       
+        
+      
     
     
     
@@ -8518,6 +8620,29 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../RSDKv5/Decompilation/ModLoader/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mod Loader
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
               
             
               
@@ -8617,6 +8742,8 @@
       
         
       
+        
+      
     
     
     
@@ -8675,6 +8802,29 @@
   
   <span class="md-ellipsis">
     Dev Menu
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../RSDKv5/Overview/SettingsINI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Settings.ini
     
   </span>
   
@@ -13036,8 +13186,6 @@
       
         
       
-        
-      
     
     
     
@@ -13143,29 +13291,6 @@
 
               
             
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../../Guides/RSDKv3/Decompilation/ModFormatting/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Mod Formatting
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
           </ul>
         </nav>
       
@@ -13237,8 +13362,6 @@
   
     
     
-      
-        
       
         
       
@@ -13351,29 +13474,6 @@
 
               
             
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../../Guides/RSDKv4/Decompilation/ModFormatting/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Mod Formatting
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
           </ul>
         </nav>
       
@@ -13445,8 +13545,6 @@
   
     
     
-      
-        
       
         
       
@@ -13551,29 +13649,6 @@
   
   <span class="md-ellipsis">
     Mod Setup
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../../Guides/RSDKv5/Decompilation/ModFormatting/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Mod Formatting
     
   </span>
   
@@ -14327,10 +14402,12 @@
 </dl>
 <h2 id="return-value">Return Value<a class="headerlink" href="#return-value" title="Permanent link">&para;</a></h2>
 <p>If there wasn't any collision, <code>checkResult</code> will be <code>false</code>.
-Depending on the <code>collisionType</code> used:
-- <code>C_TOUCH</code>: <code>checkResult</code> will return <code>true</code> with any type of collision.
-- <code>C_SOLID</code>/<code>C_SOLID2</code>: <code>checkResult</code> will return values <code>1</code> (Floor), <code>2</code> (LWall), <code>3</code> (RWall) or <code>4</code> (Roof) depending on the side of the object collided with.
-- <code>C_PLATFORM</code>: <code>checkResult</code> will only be <code>true</code> if the top of the object was collided with.</p>
+Depending on the <code>collisionType</code> used:</p>
+<ul>
+<li><code>C_TOUCH</code>: <code>checkResult</code> will return <code>true</code> with any type of collision.</li>
+<li><code>C_SOLID</code>/<code>C_SOLID2</code>: <code>checkResult</code> will return values <code>1</code> (Floor), <code>2</code> (LWall), <code>3</code> (RWall) or <code>4</code> (Roof) depending on the side of the object collided with.</li>
+<li><code>C_PLATFORM</code>: <code>checkResult</code> will only be <code>true</code> if the top of the object was collided with.</li>
+</ul>
 <h2 id="syntax">Syntax<a class="headerlink" href="#syntax" title="Permanent link">&para;</a></h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>BoxCollisionTest(int collisionType, int thisObject, int thisLeft, int thisTop, int thisRight, int thisBottom, int otherObject, int otherLeft, int otherTop, int otherRight, int otherBottom)
 </span></code></pre></div>
@@ -14359,7 +14436,7 @@ Depending on the <code>collisionType</code> used:
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="September 26, 2024 00:37:14"><span class="timeago" datetime="2024-09-26T00:37:14+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="September 26, 2024 00:37:14">2024-09-26</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="May 18, 2025 16:05:52"><span class="timeago" datetime="2025-05-18T16:05:52+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="May 18, 2025 16:05:52">2025-05-18</span>
   </span>
 
     
