@@ -88,6 +88,10 @@ Welcome to the RSDK Modding Wiki, your one-stop shop for documentation, resource
 
 </div>
 
+## Contributing
+
+We greatly appreciate contributions to the wiki! If you'd like to help out, you can find info on contributing on the wiki's [GitHub repository](https://github.com/RSDKModding/RSDK-Modding-Wiki).
+
 ## Join the Discord server!
 
 If you're looking for a place to show off your mods, ask for help with RSDK modding, or just discuss things with others, check out the Retro Engine Modding Discord Server!
