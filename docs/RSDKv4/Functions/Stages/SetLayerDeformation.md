@@ -8,10 +8,10 @@ Sets the deformation data array of `deformID`, based on `deformA` and `deformB`.
 
 :   The ID of the layer to deform, valid values are:
 
-    - 0 (`DEFORM_FG`)
-    - 1 (`DEFORM_FG_WATER`)
-    - 2 (`DEFORM_BG`)
-    - 3 (`DEFORM_BG_WATER`)
+:   - 0 (`DEFORM_FG`)
+:   - 1 (`DEFORM_FG_WATER`)
+:   - 2 (`DEFORM_BG`)
+:   - 3 (`DEFORM_BG_WATER`)
 
 `waveLength`
 

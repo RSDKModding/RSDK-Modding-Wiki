@@ -46,6 +46,7 @@
 ## Graphics
 | Function                                                   | Description                                                                                                                          |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| [**DrawNumbers**](Drawing/DrawNumbers.md)                  | Draws a number in screen-space.                                                                                                      |
 | [**LoadSpriteSheet**](Graphics/LoadSpriteSheet.md)         | Loads a spritesheet and assigns the ID to `Object.SpriteSheet`.                                                                      |
 | [**RemoveSpriteSheet**](Graphics/RemoveSpriteSheet.md)     | Removes the given spritesheet from memory, if it is already loaded.                                                                  |
 | [**DrawSprite**](Graphics/DrawSprite.md)                   | Draws `Frame` at the object's X and Y position.                                                                                      |
@@ -63,11 +64,18 @@
 ## Math
 | Function                                   | Description                                                                                           |
 | ------------------------------------------ | ----------------------------------------------------------------------------------------------------- |
+| [**FlipSign**](Math/FlipSign.md)           | Flips the sign of the given variable; positive values will become negative values, and vice versa.    |
+| [**CheckEqual**](Math/CheckEqual.md)       | Checks if `X` and `Y` are equal and stores the result in `CheckResult`.                               |
+| [**CheckGreater**](Math/CheckGreater.md)   | Checks if `X` is greater than `Y` and stores the result in `CheckResult`.                             |
+| [**CheckLower**](Math/CheckLower.md)       | Checks if `X` is lower than `Y` and stores the result in `CheckResult`.                               |
+| [**CheckNotEqual**](Math/CheckNotEqual.md) | Checks if `X` and `Y` are not equal and stores the result in `CheckResult`.                           |
 | [**Rand**](Math/Rand.md)                   | Gets a random value from 0 to `Max` (not inclusive) and stores it in `Store`.                         |
 | [**Sin**](Math/Sin.md)                     | Gets the value from the `sin512` lookup table based on `Angle` and sets it in `Store`.                |
 | [**Cos**](Math/Cos.md)                     | Gets the value from the `cos512` lookup table based on `Angle` and sets it in `Store`.                |
 | [**Sin256**](Math/Sin256.md)               | Gets the value from the `sin256` lookup table based on `Angle` and sets it in `Store`.                |
 | [**Cos256**](Math/Cos256.md)               | Gets the value from the `cos256` lookup table based on `Angle` and sets it in `Store`.                |
+| [**SinChange**](Math/SinChange.md)         | Perfroms a Sin operation and stores the result in `Store`.                                            |
+| [**CosChange**](Math/CosChange.md)         | Perfroms a Cos operation and stores the result in `Store`.                                            |
 | [**ATan2**](Math/ATan2.md)                 | Performs an arctan operation using `X` and `Y`, storing the result in `Store`.                        |
 | [**Interpolate**](Math/Interpolate.md)     | Linearly interpolates `X` and `Y` by `Percent` and stores the result in `Store`.                      |
 | [**InterpolateXY**](Math/InterpolateXY.md) | Linearly interpolates two points at once and stores the result in `StoreX` and `StoreY` respectively. |
@@ -86,17 +94,19 @@
 | [**ObjectTileGrip**](Object/ObjectTileGrip.md)               | Tries to collide with the foreground layer based on the position of `Object.iXPos` + `xOffset`, `Object.iYPos` + `yOffset`. |
 | [**PlayerTileCollision**](Object/PlayerTileCollision.md)     | Handles tile collision of the player.                                                                                       |
 | [**BindPlayerToObject**](Object/BindPlayerToObject.md)       | Binds a Player set to `ListPos` in the player list to entity slot number `EntityNo`.                                        |
+| [**GetAnimationByName**](Object/GetAnimationByName.md)       | Gets the numeric ID of an animation in the current object's animation file.                                                 |
 
 ## Stages
 | Function                                                 | Description                                                                                    |
 | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| [**DrawActName**](Stages/DrawActName.md)                 | Draws the current stage's title.                                                               |
 | [**LoadStage**](Stages/LoadStage.md)                     | Loads a stage based on `Stage.ActiveList` and `Stage.ListPos`.                                 |
 | [**SetLayerDeformation**](Stages/SetLayerDeformation.md) | Sets the deformation data array of `DeformID`, based on `DeformA` and `DeformB`.               |
 | [**GetTileLayerEntry**](Stages/GetTileLayerEntry.md)     | Gets the ID of the chunk at `ChunkX`, `ChunkY` in tile layer `Layer` and stores it in `Store`. |
 | [**SetTileLayerEntry**](Stages/SetTileLayerEntry.md)     | Sets the chunk at `ChunkX`, `ChunkY` in tile layer `Layer` to the index of `Value`.            |
 | [**Get16x16TileInfo**](Stages/Get16x16TileInfo.md)       | Gets the value for `InfoTile` from the tile at `TileX`, `TileY` and stores it in `Store`.      |
 | [**Set16x16TileInfo**](Stages/Set16x16TileInfo.md)       | Sets the value for `InfoType` from the tile at `TileX`, `TileY` to `Value`.                    |
-| [**Copy16x16Tile**](Stages/Copy16x16Tile.md)             | Copies the tileset image data of `SrcTile` to `DstTile`.                                      |
+| [**Copy16x16Tile**](Stages/Copy16x16Tile.md)             | Copies the tileset image data of `SrcTile` to `DstTile`.                                       |
 
 ## Miscellaneous
 | Function                                         | Description                                                                                              |
@@ -108,6 +118,7 @@
 | [**LoadVideo**](Misc/LoadVideo.md)               | Loads and plays a video.                                                                                 |
 | [**NextVideoFrame**](Misc/NextVideoFrame.md)     | Advances the video frame of an RSV video.                                                                |
 | [**CheckTouchRect**](Misc/CheckTouchRect.md)     | Checks if there's a touch input between the given coordinates.                                           |
+| [**CallFunction**](Misc/CallFunction.md)         | Calls the given object function.                                                                         |
 | [**ReadSaveRAM**](Misc/ReadSaveRAM.md)           | Reads the contents of the save file on disk into SaveRAM.                                                |
 | [**WriteSaveRAM**](Misc/WriteSaveRAM.md)         | Writes the contents of SaveRAM to the save file on disk.                                                 |
 | [**LoadTextFont**](Misc/LoadTextFont.md)         | Loads a bitmap font from `FilePath` for use with text menus.                                             |
@@ -119,3 +130,4 @@
 | [**SetLeaderboard**](Misc/SetLeaderboard.md)     | Submits the given score to the given leaderboard.                                                        |
 | [**LoadOnlineMenu**](Misc/LoadOnlineMenu.md)     | Loads the data for the specified online menu.                                                            |
 | [**EngineCallback**](Misc/EngineCallback.md)     | Sends a callback to the engine.                                                                          |
+| [**HapticEffect**](Misc/HapticEffect.md)         | Queues/Plays a haptic effect, if the engine build and device support it.                                 |

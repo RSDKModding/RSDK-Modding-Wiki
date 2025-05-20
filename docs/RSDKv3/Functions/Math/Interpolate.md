@@ -8,7 +8,7 @@ Linearly interpolates (LERPs) `X` and `Y` by `Percent` and stores the result in 
 
 :   The variable to store the result.
 
-`X`,`Y`
+`X`, `Y`
 
 :   The values used for the interpolation.
 

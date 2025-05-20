@@ -204,6 +204,7 @@ nav:
             - GetDrawListEntityRef: RSDKv3/Functions/Drawing/GetDrawListEntityRef.md
             - SetDrawListEntityRef: RSDKv3/Functions/Drawing/SetDrawListEntityRef.md
           - Graphics:
+            - DrawNumbers: RSDKv3/Functions/Graphics/DrawNumbers.md
             - LoadSpriteSheet: RSDKv3/Functions/Graphics/LoadSpriteSheet.md
             - RemoveSpriteSheet: RSDKv3/Functions/Graphics/RemoveSpriteSheet.md
             - DrawSprite: RSDKv3/Functions/Graphics/DrawSprite.md
@@ -218,11 +219,18 @@ nav:
             - DrawObjectAnimation: RSDKv3/Functions/Graphics/DrawObjectAnimation.md
             - DrawPlayerAnimation: RSDKv3/Functions/Graphics/DrawPlayerAnimation.md
           - Math:
+            - FlipSign: RSDKv3/Functions/Math/FlipSign.md
+            - CheckEqual: RSDKv3/Functions/Math/CheckEqual.md
+            - CheckGreater: RSDKv3/Functions/Math/CheckGreater.md
+            - CheckLower: RSDKv3/Functions/Math/CheckLower.md
+            - CheckNotEqual: RSDKv3/Functions/Math/CheckNotEqual.md
             - Rand: RSDKv3/Functions/Math/Rand.md
             - Sin: RSDKv3/Functions/Math/Sin.md
             - Cos: RSDKv3/Functions/Math/Cos.md
             - Sin256: RSDKv3/Functions/Math/Sin256.md
             - Cos256: RSDKv3/Functions/Math/Cos256.md
+            - SinChange: RSDKv3/Functions/Math/SinChange.md
+            - CosChange: RSDKv3/Functions/Math/CosChange.md
             - ATan2: RSDKv3/Functions/Math/ATan2.md
             - Interpolate: RSDKv3/Functions/Math/Interpolate.md
             - InterpolateXY: RSDKv3/Functions/Math/InterpolateXY.md
@@ -238,7 +246,9 @@ nav:
             - ObjectTileGrip: RSDKv3/Functions/Object/ObjectTileGrip.md
             - PlayerTileCollision: RSDKv3/Functions/Object/PlayerTileCollision.md
             - BindPlayerToObject: RSDKv3/Functions/Object/BindPlayerToObject.md
+            - GetAnimationByName: RSDKv3/Functions/Object/GetAnimationByName.md
           - Stages:
+            - DrawActName: RSDKv3/Functions/Stages/DrawActName.md
             - LoadStage: RSDKv3/Functions/Stages/LoadStage.md
             - SetLayerDeformation: RSDKv3/Functions/Stages/SetLayerDeformation.md
             - GetTileLayerEntry: RSDKv3/Functions/Stages/GetTileLayerEntry.md
@@ -254,6 +264,7 @@ nav:
             - LoadVideo: RSDKv3/Functions/Misc/LoadVideo.md
             - NextVideoFrame: RSDKv3/Functions/Misc/NextVideoFrame.md
             - CheckTouchRect: RSDKv3/Functions/Misc/CheckTouchRect.md
+            - CallFunction: RSDKv3/Functions/Misc/CallFunction.md
             - ReadSaveRAM: RSDKv3/Functions/Misc/ReadSaveRAM.md
             - WriteSaveRAM: RSDKv3/Functions/Misc/WriteSaveRAM.md
             - LoadTextFont: RSDKv3/Functions/Misc/LoadTextFont.md
@@ -265,6 +276,7 @@ nav:
             - SetLeaderboard: RSDKv3/Functions/Misc/SetLeaderboard.md
             - LoadOnlineMenu: RSDKv3/Functions/Misc/LoadOnlineMenu.md
             - EngineCallback: RSDKv3/Functions/Misc/EngineCallback.md
+            - HapticEffect: RSDKv3/Functions/Misc/HapticEffect.md
 
     - RSDKv4:
       - RSDKv4/README.md

@@ -1,19 +1,19 @@
 # Not
 
 ## Description
-Performs a NOT operation on `Value`.
+Performs a NOT operation on `Variable`.
 
 ## Parameters
-`Value`
+`Variable`
 
 :   The variable to negate.
 
 ## Return Value
-Updates `Value` with the result.
+Updates `Variable` with the result.
 
 ## Syntax
 ```
-Not(var Value)
+Not(var Variable)
 ```
 
 ## Example
