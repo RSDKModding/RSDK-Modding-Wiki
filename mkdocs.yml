@@ -378,7 +378,7 @@ nav:
             - GetAnimationByName: RSDKv4/Functions/Object/GetAnimationByName.md
             - CheckCameraProximity: RSDKv4/Functions/Object/CheckCameraProximity.md
           - Stages:
-            - DrawActName: RSDKv4/Functions/Graphics/DrawActName.md
+            - DrawActName: RSDKv4/Functions/Stages/DrawActName.md
             - LoadStage: RSDKv4/Functions/Stages/LoadStage.md
             - SetLayerDeformation: RSDKv4/Functions/Stages/SetLayerDeformation.md
             - GetTileLayerEntry: RSDKv4/Functions/Stages/GetTileLayerEntry.md
