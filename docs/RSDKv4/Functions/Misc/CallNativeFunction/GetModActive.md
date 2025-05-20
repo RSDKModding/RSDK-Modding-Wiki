@@ -1,26 +1,29 @@
 # GetModActive
 
+!!! note
+    This native function only exists in the RSDKv4 decompilation's mod loader. You can check if the function is usable by using the `USE_MOD_LOADER` platform flag.
+
 ## Description
-Todo.
+Gets if a mod is enabled.
 
 ## Parameters
-`todo`
+`id`
 
-:   Todo.
+:   The ID for the mod.
 
-`todo`
+`unused`
 
-:   Todo.
+:   Unused variable.
 
 ## Return Value
-None.
+Sets `checkResult` to `true` if the mod is enabled, or `false` if it isn't.
 
 ## Syntax
 ```
-CallNativeFunction2(NativeFunction, int todo, int todo)
+CallNativeFunction2(GetModActive, int id, int unused)
 ```
 
 ## Example
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(GetModActive, 0, 0)
 ```

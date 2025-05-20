@@ -1,26 +1,29 @@
 # GetAchievement
 
+!!! note
+    This native function only exists in the RSDKv4 decompilation's mod loader. You can check if the function is usable by using the `USE_MOD_LOADER` platform flag.
+
 ## Description
-Todo.
+Gets the status of an achievement.
 
 ## Parameters
-`todo`
+`id`
 
-:   Todo.
+:   The ID of the achievement.
 
-`todo`
+`unused`
 
-:   Todo.
+:   Unused variable.
 
 ## Return Value
-None.
+Sets `checkResult` to the status of the achievement.
 
 ## Syntax
 ```
-CallNativeFunction2(NativeFunction, int todo, int todo)
+CallNativeFunction2(GetAchievement, int id, int unused)
 ```
 
 ## Example
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(GetAchievement, 6, 0)
 ```

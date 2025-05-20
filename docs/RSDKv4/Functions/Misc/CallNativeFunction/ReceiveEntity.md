@@ -1,26 +1,26 @@
 # ReceiveEntity
 
 ## Description
-Todo.
+Recieves an object sent from the opponent in 2P VS.
 
 ## Parameters
-`todo`
+`entityID`
 
-:   Todo.
+:   The object slot/ID to store the recieved object in.
 
-`todo`
+`incrementPos`
 
-:   Todo.
+:   If set to `true`, verifies the data type.
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-CallNativeFunction2(NativeFunction, int todo, int todo)
+CallNativeFunction2(ReceiveEntity, int entityID, bool incrementPos)
 ```
 
 ## Example
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(ReceiveEntity, 2, true)
 ```

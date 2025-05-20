@@ -1,26 +1,29 @@
 # SetNetworkGameName
 
+!!! note
+    This native function only exists in the RSDKv4 decompilation with networking enabled. You can check if the function is usable by using the `USE_NETWORKING` platform flag.
+
 ## Description
-Todo.
+Sets the name of the game to find 2P VS opponents for.
 
 ## Parameters
-`todo`
+`name`
 
-:   Todo.
+:   The name of the game.
 
-`todo`
+`unused`
 
-:   Todo.
+:   Unused variable.
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-CallNativeFunction2(NativeFunction, int todo, int todo)
+CallNativeFunction2(SetNetworkGameName, string , int todo)
 ```
 
 ## Example
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(SetNetworkGameName, 0, 0)
 ```

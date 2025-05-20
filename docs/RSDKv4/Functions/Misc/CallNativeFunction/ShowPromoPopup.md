@@ -1,26 +1,26 @@
 # ShowPromoPopup
 
 ## Description
-Todo.
+Shows a promo popup.
 
 ## Parameters
-`todo`
+`popupName`
 
-:   Todo.
+:   The name of the promo popup.
 
-`todo`
+`id`
 
-:   Todo.
+:   The ID of the promo popup.
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-CallNativeFunction2(NativeFunction, int todo, int todo)
+CallNativeFunction2(NativeFunction, string popupName, int id)
 ```
 
 ## Example
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(NativeFunction, "My Popup", 0)
 ```

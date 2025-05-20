@@ -1,26 +1,18 @@
 # RefreshEngine
 
+!!! note
+    This native function only exists in the RSDKv4 decompilation's mod loader. You can check if the function is usable by using the `USE_MOD_LOADER` platform flag.
+
 ## Description
-Todo.
+Reloads the engine, the game, and all mods. This must be called for any mods list changes to take effect.
 
 ## Parameters
-`todo`
-
-:   Todo.
-
-`todo`
-
-:   Todo.
+None.
 
 ## Return Value
 None.
 
-## Syntax
-```
-CallNativeFunction2(NativeFunction, int todo, int todo)
-```
-
 ## Example
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction(RefreshEngine)
 ```

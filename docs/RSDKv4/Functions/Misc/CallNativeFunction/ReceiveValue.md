@@ -1,26 +1,26 @@
 # ReceiveValue
 
 ## Description
-Todo.
+Sets a variable to a value sent from the opponent in 2P VS.
 
 ## Parameters
-`todo`
+`value`
 
-:   Todo.
+:   The variable to set.
 
-`todo`
+`incrementPos`
 
-:   Todo.
+:   If set to `true`, verifies the match value positions.
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-CallNativeFunction2(NativeFunction, int todo, int todo)
+CallNativeFunction2(ReceiveValue, var value, bool incrementPos)
 ```
 
 ## Example
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(ReceiveValue, object.value6, true)
 ```

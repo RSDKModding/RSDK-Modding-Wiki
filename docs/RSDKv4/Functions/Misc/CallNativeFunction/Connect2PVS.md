@@ -1,26 +1,26 @@
 # Connect2PVS
 
 ## Description
-Todo.
+Opens the menu for connecting to an opponent for 2P VS.
 
 ## Parameters
-`todo`
+`gameLength`
 
-:   Todo.
+:   The game length to search for opponents for.
 
-`todo`
+`itemMode`
 
-:   Todo.
+:   The item mode to search for opponents for.
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-CallNativeFunction2(NativeFunction, int todo, int todo)
+CallNativeFunction(Connect2PVS, int gameLength, int itemMode)
 ```
 
 ## Example
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction(Connect2PVS, 4, 1)
 ```

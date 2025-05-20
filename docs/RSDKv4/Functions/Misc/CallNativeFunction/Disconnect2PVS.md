@@ -1,26 +1,15 @@
 # Disconnect2PVS
 
 ## Description
-Todo.
+Disconnects from a 2P VS game.
 
 ## Parameters
-`todo`
-
-:   Todo.
-
-`todo`
-
-:   Todo.
+None.
 
 ## Return Value
 None.
 
-## Syntax
-```
-CallNativeFunction2(NativeFunction, int todo, int todo)
-```
-
 ## Example
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction(Disconnect2PVS)
 ```

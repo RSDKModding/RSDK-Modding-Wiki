@@ -1,26 +1,26 @@
 # TransmitGlobal
 
 ## Description
-Todo.
+Sets a global variable for the opponent in 2P VS.
 
 ## Parameters
-`todo`
+`globalName`
 
-:   Todo.
+:   The name of the global variable to set.
 
-`todo`
+`globalValue`
 
-:   Todo.
+:   The value to send.
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-CallNativeFunction2(NativeFunction, int todo, int todo)
+CallNativeFunction2(TransmitGlobal, string globalName, int globalValue)
 ```
 
 ## Example
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(TransmitGlobal, "vs.dataSent", true)
 ```

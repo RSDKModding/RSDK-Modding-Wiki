@@ -1,26 +1,29 @@
 # SetWindowScale
 
+!!! note
+    This native function only exists in the RSDKv4 decompilation's mod loader. You can check if the function is usable by using the `USE_MOD_LOADER` platform flag.
+
 ## Description
-Todo.
+Sets the window scale.
 
 ## Parameters
-`todo`
+`scale`
 
-:   Todo.
+:   The value to set the window scale to.
 
-`todo`
+`unused`
 
-:   Todo.
+:   Unused variable.
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-CallNativeFunction2(NativeFunction, int todo, int todo)
+CallNativeFunction2(SetWindowScale, int scale, int unused)
 ```
 
 ## Example
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(SetWindowScale, 2, 0)
 ```

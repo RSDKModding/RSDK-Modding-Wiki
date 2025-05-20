@@ -1,26 +1,29 @@
 # MoveMod
 
+!!! note
+    This native function only exists in the RSDKv4 decompilation's mod loader. You can check if the function is usable by using the `USE_MOD_LOADER` platform flag.
+
 ## Description
-Todo.
+Shifts a mod up or down in the mods list.
 
 ## Parameters
-`todo`
+`id`
 
-:   Todo.
+:   The ID of the mod.
 
-`todo`
+`up`
 
-:   Todo.
+:   If `true`, moves the mod up. Otherwise, moves the mod down.
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-CallNativeFunction2(NativeFunction, int todo, int todo)
+CallNativeFunction2(MoveMod, int id, bool up)
 ```
 
 ## Example
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(MoveMod, 4, true)
 ```

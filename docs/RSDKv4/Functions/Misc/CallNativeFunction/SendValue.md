@@ -1,26 +1,26 @@
 # SendValue
 
 ## Description
-Todo.
+Sends a value to the opponent in 2P VS.
 
 ## Parameters
-`todo`
+`value`
 
-:   Todo.
+:   The value to send.
 
-`todo`
+`verify`
 
-:   Todo.
+:   Verifies the object.
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-CallNativeFunction2(NativeFunction, int todo, int todo)
+CallNativeFunction2(SendValue, int value, bool verify)
 ```
 
 ## Example
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(SendValue, 50, false)
 ```

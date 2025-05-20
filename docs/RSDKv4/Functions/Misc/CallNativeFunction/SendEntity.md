@@ -1,26 +1,26 @@
 # SendEntity
 
 ## Description
-Todo.
+Sends the data for an object to the opponent in 2P VS.
 
 ## Parameters
-`todo`
+`entityID`
 
-:   Todo.
+:   The ID of the object to send.
 
-`todo`
+`verify`
 
-:   Todo.
+:   Verifies the object.
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-CallNativeFunction2(NativeFunction, int todo, int todo)
+CallNativeFunction2(SendEntity, int entityID, bool verify)
 ```
 
 ## Example
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(SendEntity, object.entityPos, false)
 ```
