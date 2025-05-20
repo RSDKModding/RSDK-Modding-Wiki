@@ -330,6 +330,7 @@ nav:
             - GetDrawListEntityRef: RSDKv4/Functions/Drawing/GetDrawListEntityRef.md
             - SetDrawListEntityRef: RSDKv4/Functions/Drawing/SetDrawListEntityRef.md
           - Graphics:
+            - DrawNumbers: RSDKv4/Functions/Graphics/DrawNumbers.md
             - LoadSpriteSheet: RSDKv4/Functions/Graphics/LoadSpriteSheet.md
             - RemoveSpriteSheet: RSDKv4/Functions/Graphics/RemoveSpriteSheet.md
             - DrawSprite: RSDKv4/Functions/Graphics/DrawSprite.md
@@ -343,6 +344,11 @@ nav:
             - ProcessAnimation: RSDKv4/Functions/Graphics/ProcessAnimation.md
             - DrawObjectAnimation: RSDKv4/Functions/Graphics/DrawObjectAnimation.md
           - Math:
+            - FlipSign: RSDKv4/Functions/Math/FlipSign.md
+            - CheckEqual: RSDKv4/Functions/Math/CheckEqual.md
+            - CheckGreater: RSDKv4/Functions/Math/CheckGreater.md
+            - CheckLower: RSDKv4/Functions/Math/CheckLower.md
+            - CheckNotEqual: RSDKv4/Functions/Math/CheckNotEqual.md
             - Rand: RSDKv4/Functions/Math/Rand.md
             - Sin: RSDKv4/Functions/Math/Sin.md
             - Cos: RSDKv4/Functions/Math/Cos.md
@@ -369,7 +375,10 @@ nav:
             - GetObjectValue: RSDKv4/Functions/Object/GetObjectValue.md
             - SetObjectValue: RSDKv4/Functions/Object/SetObjectValue.md
             - CopyObject: RSDKv4/Functions/Object/CopyObject.md
+            - GetAnimationByName: RSDKv4/Functions/Object/GetAnimationByName.md
+            - CheckCameraProximity: RSDKv4/Functions/Object/CheckCameraProximity.md
           - Stages:
+            - DrawActName: RSDKv4/Functions/Graphics/DrawActName.md
             - LoadStage: RSDKv4/Functions/Stages/LoadStage.md
             - SetLayerDeformation: RSDKv4/Functions/Stages/SetLayerDeformation.md
             - GetTileLayerEntry: RSDKv4/Functions/Stages/GetTileLayerEntry.md
@@ -431,6 +440,7 @@ nav:
                 - MoveMod: RSDKv4/Functions/Misc/CallNativeFunction/MoveMod.md
                 - RefreshEngine: RSDKv4/Functions/Misc/CallNativeFunction/RefreshEngine.md
             - CheckTouchRect: RSDKv4/Functions/Misc/CheckTouchRect.md
+            - CallFunction: RSDKv4/Functions/Misc/CallFunction.md
             - SetupMenu: RSDKv4/Functions/Misc/SetupMenu.md
             - AddMenuEntry: RSDKv4/Functions/Misc/AddMenuEntry.md
             - EditMenuEntry: RSDKv4/Functions/Misc/EditMenuEntry.md
@@ -441,8 +451,16 @@ nav:
             - Print: RSDKv4/Functions/Misc/Print.md
             - ReadSaveRAM: RSDKv4/Functions/Misc/ReadSaveRAM.md
             - WriteSaveRAM: RSDKv4/Functions/Misc/WriteSaveRAM.md
+          - Input:
+            - GetInputDeviceID: RSDKv4/Functions/Input/GetInputDeviceID.md
+            - GetFilteredInputDeviceID: RSDKv4/Functions/Input/GetFilteredInputDeviceID.md
+            - GetInputDeviceType: RSDKv4/Functions/Input/GetInputDeviceType.md
+            - IsInputDeviceAssigned: RSDKv4/Functions/Input/IsInputDeviceAssigned.md
+            - AssignInputSlotToDevice: RSDKv4/Functions/Input/AssignInputSlotToDevice.md
+            - IsInputSlotAssigned: RSDKv4/Functions/Input/IsInputSlotAssigned.md
+            - ResetInputSlotAssignments: RSDKv4/Functions/Input/ResetInputSlotAssignments.md
           - Deprecated:
-            - LoadTextFont: RSDKv4/Functions/Deprecated/LoadTextFont.md
+            - LoadFontFile: RSDKv4/Functions/Deprecated/LoadFontFile.md
             - DrawText: RSDKv4/Functions/Deprecated/DrawText.md
 
     - RSDKv5:

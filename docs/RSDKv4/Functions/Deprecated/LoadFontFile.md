@@ -1,4 +1,4 @@
-# LoadTextFont
+# LoadFontFile
 
 !!! failure "Deprecated"
     This function was removed from RSDKv4 in REV02.
@@ -16,10 +16,10 @@ None.
 
 ## Syntax
 ```
-LoadTextFont(string filePath)
+LoadFontFile(string filePath)
 ```
 
 ## Example
 ```
-LoadTextFont("Data/Game/SystemText.gif")
+LoadFontFile("Data/Game/SystemText.gif")
 ```

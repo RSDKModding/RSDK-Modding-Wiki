@@ -48,6 +48,7 @@
 ## Graphics
 | Function                                                   | Description                                                                                                                          |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| [**DrawNumbers**](Graphics/DrawNumbers.md)                 | Draws a number in screen-space.                                                                                                      |
 | [**LoadSpriteSheet**](Graphics/LoadSpriteSheet.md)         | Loads a spritesheet and assigns the ID to `object.spritesheet`.                                                                      |
 | [**RemoveSpriteSheet**](Graphics/RemoveSpriteSheet.md)     | Removes the given spritesheet from memory, if it is already loaded.                                                                  |
 | [**DrawSprite**](Graphics/DrawSprite.md)                   | Draws `frame` at the object's X and Y position.                                                                                      |
@@ -60,10 +61,17 @@
 | [**LoadAnimation**](Graphics/LoadAnimation.md)             | Loads an animation file for the current object type.                                                                                 |
 | [**ProcessAnimation**](Graphics/ProcessAnimation.md)       | Processes the current object's animation, based on the animation file loaded prior via [LoadAnimation()](Graphics/LoadAnimation.md). |
 | [**DrawObjectAnimation**](Graphics/DrawObjectAnimation.md) | Draws an object's sprites from the animation file loaded prior via [LoadAnimation()](Graphics/LoadAnimation.md).                     |
+| [**SetScreenCount**](Graphics/SetScreenCount.md)           | Sets the screen count. **RSDKv5U only.**                                                                                             |
+| [**SetScreenVertices**](Graphics/SetScreenVertices.md)     | Sets the screen vertices. **RSDKv5U only.**                                                                                          |
 
 ## Math
 | Function                                   | Description                                                                                           |
 | ------------------------------------------ | ----------------------------------------------------------------------------------------------------- |
+| [**FlipSign**](Math/FlipSign.md)           | Flips the sign of the given variable; positive values will become negative values, and vice versa.    |
+| [**CheckEqual**](Math/CheckEqual.md)       | Checks if `x` and `y` are equal and stores the result in `checkResult`.                               |
+| [**CheckGreater**](Math/CheckGreater.md)   | Checks if `x` is greater than `y` and stores the result in `checkResult`.                             |
+| [**CheckLower**](Math/CheckLower.md)       | Checks if `x` is lower than `y` and stores the result in `checkResult`.                               |
+| [**CheckNotEqual**](Math/CheckNotEqual.md) | Checks if `x` and `y` are not equal and stores the result in `checkResult`.                           |
 | [**Rand**](Math/Rand.md)                   | Gets a random value from 0 to `max` (not inclusive) and stores it in `store`.                         |
 | [**Sin**](Math/Sin.md)                     | Gets the value from the `sin512` lookup table based on `angle` and sets it in `store`.                |
 | [**Cos**](Math/Cos.md)                     | Gets the value from the `cos512` lookup table based on `angle` and sets it in `store`.                |
@@ -93,10 +101,13 @@
 | [**GetObjectValue**](Object/GetObjectValue.md)               | Gets `object.valueXX` of the object in `slot` corresponding to `valueID` and stores it in `store`.                          |
 | [**SetObjectValue**](Object/SetObjectValue.md)               | Sets `object.valueXX` of the object in `slot` corresponding to `valueID` to `value`.                                        |
 | [**CopyObject**](Object/CopyObject.md)                       | Copies `count` objects starting from `srcSlot` and pastes them to the object slots starting from `destSlot`.                |
+| [**GetAnimationByName**](Object/GetAnimationByName.md)       | Gets the numeric ID of an animation in the current object's animation file.                                                 |
+| [**CheckCameraProximity**](Object/CheckCameraProximity.md)   | Checks if the given position is within range of the camera(s). **RSDKv5U only.**                                            |
 
 ## Stages
 | Function                                                         | Description                                                                                    |
 | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| [**DrawActName**](Stages/DrawActName.md)                         | Draws the current stage's title.                                                               |
 | [**LoadStage**](Stages/LoadStage.md)                             | Loads a stage based on `stage.activeList` and `stage.listPos`.                                 |
 | [**SetLayerDeformation**](Stages/SetLayerDeformation.md)         | Sets the deformation data array of `deformID`, based on `deformA` and `deformB`.               |
 | [**GetTileLayerEntry**](Stages/GetTileLayerEntry.md)             | Gets the ID of the chunk at `chunkX`, `chunkY` on tile layer `layer` and stores it in `store`. |
@@ -111,6 +122,7 @@
 | ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | [**CallNativeFunction**](Misc/CallNativeFunction/README.md) | Sends a callback to the engine to run a native function.                                                 |
 | [**CheckTouchRect**](Misc/CheckTouchRect.md)                | Checks if there's a touch input between the given coordinates.                                           |
+| [**CallFunction**](Misc/CallFunction.md)                    | Calls the given object function.                                                                         |
 | [**SetupMenu**](Misc/SetupMenu.md)                          | Sets up `menu` with `rowCount` rows, `selectionCount` active selections and aligning set to `alignment`. |
 | [**AddMenuEntry**](Misc/AddMenuEntry.md)                    | Adds an entry to `menu` with the contents of `text`.                                                     |
 | [**EditMenuEntry**](Misc/EditMenuEntry.md)                  | Edits an entry of `menu` with the contents of `text` in `rowID`.                                         |
@@ -122,8 +134,19 @@
 | [**ReadSaveRAM**](Misc/ReadSaveRAM.md)                      | Reads the contents of the save file on disk into SaveRAM.                                                |
 | [**WriteSaveRAM**](Misc/WriteSaveRAM.md)                    | Writes the contents of SaveRAM to the save file on disk.                                                 |
 
+## Input
+| Function                                                            | Description                                                                |
+| ------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| [**GetInputDeviceID**](Input/GetInputDeviceID.md)                   | Stores the ID of an input device in `store`. **RSDKv5U only.**             |
+| [**GetFilteredInputDeviceID**](Input/GetFilteredInputDeviceID.md)   | Stores the filtered ID of an input device in `store`. **RSDKv5U only.**    |
+| [**GetInputDeviceType**](Input/GetInputDeviceType.md)               | Stores the type of an input device in `store`. **RSDKv5U only.**           |
+| [**IsInputDeviceAssigned**](Input/IsInputDeviceAssigned.md)         | Checks if an input device has been assigned. **RSDKv5U only.**             |
+| [**AssignInputSlotToDevice**](Input/AssignInputSlotToDevice.md)     | Assigns a player to an input device. **RSDKv5U only.**                     |
+| [**IsInputSlotAssigned**](Input/IsInputSlotAssigned.md)             | Checks if a player has been assigned to an input device. **RSDKv5U only.** |
+| [**ResetInputSlotAssignments**](Input/ResetInputSlotAssignments.md) | Resets all input slot assignments. **RSDKv5U only.**                       |
+
 ## Deprecated
 | Function                                       | Description                                                  |
 | ---------------------------------------------- | ------------------------------------------------------------ |
-| [**LoadTextFont**](Deprecated/LoadTextFont.md) | Loads a bitmap font from `filePath` for use with text menus. |
+| [**LoadFontFile**](Deprecated/LoadFontFile.md) | Loads a bitmap font from `filePath` for use with text menus. |
 | [**DrawText**](Deprecated/DrawText.md)         | Draws the contents of `menu`.                                |

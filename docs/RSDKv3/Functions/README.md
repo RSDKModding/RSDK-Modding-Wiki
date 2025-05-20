@@ -74,8 +74,8 @@
 | [**Cos**](Math/Cos.md)                     | Gets the value from the `cos512` lookup table based on `Angle` and sets it in `Store`.                |
 | [**Sin256**](Math/Sin256.md)               | Gets the value from the `sin256` lookup table based on `Angle` and sets it in `Store`.                |
 | [**Cos256**](Math/Cos256.md)               | Gets the value from the `cos256` lookup table based on `Angle` and sets it in `Store`.                |
-| [**SinChange**](Math/SinChange.md)         | Perfroms a Sin operation and stores the result in `Store`.                                            |
-| [**CosChange**](Math/CosChange.md)         | Perfroms a Cos operation and stores the result in `Store`.                                            |
+| [**SinChange**](Math/SinChange.md)         | Performs [Sin()](Sin.md), then additional operations, before storing the final output in `Store`.     |
+| [**CosChange**](Math/CosChange.md)         | Performs [Cos()](Cos.md), then additional operations, before storing the final output in `Store`.     |
 | [**ATan2**](Math/ATan2.md)                 | Performs an arctan operation using `X` and `Y`, storing the result in `Store`.                        |
 | [**Interpolate**](Math/Interpolate.md)     | Linearly interpolates `X` and `Y` by `Percent` and stores the result in `Store`.                      |
 | [**InterpolateXY**](Math/InterpolateXY.md) | Linearly interpolates two points at once and stores the result in `StoreX` and `StoreY` respectively. |

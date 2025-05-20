@@ -3,6 +3,9 @@
 ## Description
 Loads `menu` based on the text file loaded from `filePath`.
 
+!!! note
+    In earlier revisions, this function took an additional boolean parameter named `mapCode`, which allowed using a map code if set to `true`. This was removed in REV02.
+
 ## Parameters
 `menu`
 

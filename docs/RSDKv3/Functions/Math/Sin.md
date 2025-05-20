@@ -10,7 +10,7 @@ Gets the value from the `sin512` lookup table based on `Angle` and sets it in `S
 
 `Angle`
 
-:   The value of angle.
+:   The value of the angle.
 
 ## Return Value
 Sets `Store` to the result.

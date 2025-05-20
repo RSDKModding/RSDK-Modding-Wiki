@@ -1,25 +1,35 @@
 # CosChange
 
 ## Description
-Perfroms the following operation and stores the result in `Store`:
-
-`C` + (Cos512(`A`) >> `B`) - `D`
+Performs [Cos()](Cos.md) on `Angle`, then right shifts, increments, and decrements the result, in that order, before storing the final output in `Store`.
 
 ## Parameters
 `Store`
 
 :   The variable to store the result.
 
-`A`, `B`, `C`, `D`
+`Angle`
 
-:   The values to use for the operation.
+:   The value of the angle.
+
+`RShift`
+
+:   The number to right-shift the result of `Cos(Angle)` by.
+
+`Inc`
+
+:   The number to add to the result.
+
+`Dec`
+
+:   The number to subtract from the result.
 
 ## Return Value
 Sets `Store` to the result.
 
 ## Syntax
 ```
-CosChange(var Store, int A, int B, int C, int D)
+CosChange(var Store, int Angle, int RShift, int Inc, int Dec)
 ```
 
 ## Example
