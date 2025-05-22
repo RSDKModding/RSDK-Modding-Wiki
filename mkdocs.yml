@@ -343,6 +343,8 @@ nav:
             - LoadAnimation: RSDKv4/Functions/Graphics/LoadAnimation.md
             - ProcessAnimation: RSDKv4/Functions/Graphics/ProcessAnimation.md
             - DrawObjectAnimation: RSDKv4/Functions/Graphics/DrawObjectAnimation.md
+            - SetScreenCount: RSDKv4/Functions/Graphics/SetScreenCount.md
+            - SetScreenVertices: RSDKv4/Functions/Graphics/SetScreenVertices.md
           - Math:
             - FlipSign: RSDKv4/Functions/Math/FlipSign.md
             - CheckEqual: RSDKv4/Functions/Math/CheckEqual.md

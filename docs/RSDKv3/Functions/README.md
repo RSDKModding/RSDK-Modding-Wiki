@@ -46,7 +46,7 @@
 ## Graphics
 | Function                                                   | Description                                                                                                                          |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| [**DrawNumbers**](Drawing/DrawNumbers.md)                  | Draws a number in screen-space.                                                                                                      |
+| [**DrawNumbers**](Graphics/DrawNumbers.md)                  | Draws a number in screen-space.                                                                                                      |
 | [**LoadSpriteSheet**](Graphics/LoadSpriteSheet.md)         | Loads a spritesheet and assigns the ID to `Object.SpriteSheet`.                                                                      |
 | [**RemoveSpriteSheet**](Graphics/RemoveSpriteSheet.md)     | Removes the given spritesheet from memory, if it is already loaded.                                                                  |
 | [**DrawSprite**](Graphics/DrawSprite.md)                   | Draws `Frame` at the object's X and Y position.                                                                                      |
@@ -62,26 +62,26 @@
 | [**DrawPlayerAnimation**](Graphics/DrawPlayerAnimation.md) | Draws the player's sprites from the animation file loaded prior via [LoadAnimation()](Graphics/LoadAnimation.md).                    |
 
 ## Math
-| Function                                   | Description                                                                                           |
-| ------------------------------------------ | ----------------------------------------------------------------------------------------------------- |
-| [**FlipSign**](Math/FlipSign.md)           | Flips the sign of the given variable; positive values will become negative values, and vice versa.    |
-| [**CheckEqual**](Math/CheckEqual.md)       | Checks if `X` and `Y` are equal and stores the result in `CheckResult`.                               |
-| [**CheckGreater**](Math/CheckGreater.md)   | Checks if `X` is greater than `Y` and stores the result in `CheckResult`.                             |
-| [**CheckLower**](Math/CheckLower.md)       | Checks if `X` is lower than `Y` and stores the result in `CheckResult`.                               |
-| [**CheckNotEqual**](Math/CheckNotEqual.md) | Checks if `X` and `Y` are not equal and stores the result in `CheckResult`.                           |
-| [**Rand**](Math/Rand.md)                   | Gets a random value from 0 to `Max` (not inclusive) and stores it in `Store`.                         |
-| [**Sin**](Math/Sin.md)                     | Gets the value from the `sin512` lookup table based on `Angle` and sets it in `Store`.                |
-| [**Cos**](Math/Cos.md)                     | Gets the value from the `cos512` lookup table based on `Angle` and sets it in `Store`.                |
-| [**Sin256**](Math/Sin256.md)               | Gets the value from the `sin256` lookup table based on `Angle` and sets it in `Store`.                |
-| [**Cos256**](Math/Cos256.md)               | Gets the value from the `cos256` lookup table based on `Angle` and sets it in `Store`.                |
-| [**SinChange**](Math/SinChange.md)         | Performs [Sin()](Sin.md), then additional operations, before storing the final output in `Store`.     |
-| [**CosChange**](Math/CosChange.md)         | Performs [Cos()](Cos.md), then additional operations, before storing the final output in `Store`.     |
-| [**ATan2**](Math/ATan2.md)                 | Performs an arctan operation using `X` and `Y`, storing the result in `Store`.                        |
-| [**Interpolate**](Math/Interpolate.md)     | Linearly interpolates `X` and `Y` by `Percent` and stores the result in `Store`.                      |
-| [**InterpolateXY**](Math/InterpolateXY.md) | Linearly interpolates two points at once and stores the result in `StoreX` and `StoreY` respectively. |
-| [**Not**](Math/Not.md)                     | Performs a NOT operation on `Value`.                                                                  |
-| [**GetBit**](Math/GetBit.md)               | Gets the binary bit at index `BitPos` from `Value` and stores it in `Store`.                          |
-| [**SetBit**](Math/SetBit.md)               | Sets index `BitPos` of `Value` to `Bit` and updates `Value` accordingly.                              |
+| Function                                   | Description                                                                                            |
+| ------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| [**FlipSign**](Math/FlipSign.md)           | Flips the sign of the given variable; positive values will become negative values, and vice versa.     |
+| [**CheckEqual**](Math/CheckEqual.md)       | Checks if `X` and `Y` are equal and stores the result in `CheckResult`.                                |
+| [**CheckGreater**](Math/CheckGreater.md)   | Checks if `X` is greater than `Y` and stores the result in `CheckResult`.                              |
+| [**CheckLower**](Math/CheckLower.md)       | Checks if `X` is lower than `Y` and stores the result in `CheckResult`.                                |
+| [**CheckNotEqual**](Math/CheckNotEqual.md) | Checks if `X` and `Y` are not equal and stores the result in `CheckResult`.                            |
+| [**Rand**](Math/Rand.md)                   | Gets a random value from 0 to `Max` (not inclusive) and stores it in `Store`.                          |
+| [**Sin**](Math/Sin.md)                     | Gets the value from the `sin512` lookup table based on `Angle` and sets it in `Store`.                 |
+| [**Cos**](Math/Cos.md)                     | Gets the value from the `cos512` lookup table based on `Angle` and sets it in `Store`.                 |
+| [**Sin256**](Math/Sin256.md)               | Gets the value from the `sin256` lookup table based on `Angle` and sets it in `Store`.                 |
+| [**Cos256**](Math/Cos256.md)               | Gets the value from the `cos256` lookup table based on `Angle` and sets it in `Store`.                 |
+| [**SinChange**](Math/SinChange.md)         | Performs [Sin()](Math/Sin.md), then additional operations, before storing the final output in `Store`. |
+| [**CosChange**](Math/CosChange.md)         | Performs [Cos()](Math/Cos.md), then additional operations, before storing the final output in `Store`. |
+| [**ATan2**](Math/ATan2.md)                 | Performs an arctan operation using `X` and `Y`, storing the result in `Store`.                         |
+| [**Interpolate**](Math/Interpolate.md)     | Linearly interpolates `X` and `Y` by `Percent` and stores the result in `Store`.                       |
+| [**InterpolateXY**](Math/InterpolateXY.md) | Linearly interpolates two points at once and stores the result in `StoreX` and `StoreY` respectively.  |
+| [**Not**](Math/Not.md)                     | Performs a NOT operation on `Value`.                                                                   |
+| [**GetBit**](Math/GetBit.md)               | Gets the binary bit at index `BitPos` from `Value` and stores it in `Store`.                           |
+| [**SetBit**](Math/SetBit.md)               | Sets index `BitPos` of `Value` to `Bit` and updates `Value` accordingly.                               |
 
 ## Object
 | Function                                                     | Description                                                                                                                 |
