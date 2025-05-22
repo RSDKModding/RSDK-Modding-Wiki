@@ -78,3 +78,13 @@
 .rsdkv5 {
   color: #E0C251;
 }
+
+/* Red ("TODO") links */
+.md-typeset a[href $= 'TODO']:not(:focus, :hover) {
+  color: rgb(194, 0, 0);
+}
+
+/* Hovered red ("TODO") links */
+.md-typeset a[href $= 'TODO']:is(:focus, :hover) {
+  color: rgb(240, 0, 0);
+}
