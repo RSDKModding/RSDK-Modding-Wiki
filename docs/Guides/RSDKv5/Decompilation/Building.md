@@ -29,11 +29,19 @@ In addition, refer to these warnings depending on the platform you are compiling
 ## Get the source code
 In order to clone the repository, you need to install Git, which you can get [here](https://git-scm.com/downloads).
 
-Clone the repo **recursively**, using:
+Clone the repo **recursively** by running this command in the target directory:
 === "RSDKv5 + Sonic Mania"
 
     ```
     git clone --recursive https://github.com/RSDKModding/Sonic-Mania-Decompilation
+    ```
+
+    !!! warning
+        **DO NOT** clone the repository in a Windows user directory. This includes folders such as Documents, Downloads, and the Desktop. These directories are known to cause issues when building. It's recommended to instead clone the repo somewhere in a `GitHub` folder located in the root of the C drive, or another drive entirely if possible.
+
+    Then, run this command inside of the repository to ensure RSDKv5 is up-to-date:
+    ```
+    git submodule update --remote --init
     ```
 
 === "RSDKv5 Only"
@@ -42,10 +50,10 @@ Clone the repo **recursively**, using:
     git clone --recursive https://github.com/RSDKModding/RSDKv5-Decompilation
     ```
 
-!!! warning
-    **DO NOT** clone the repository in a Windows user directory. This includes folders such as Documents, Downloads, and the Desktop. These directories are known to cause issues when building. It's recommended to instead clone the repo somewhere in a `GitHub` folder located in the root of C drive, or another drive entirely if possible.
+    !!! warning
+        **DO NOT** clone the repository in a Windows user directory. This includes folders such as Documents, Downloads, and the Desktop. These directories are known to cause issues when building. It's recommended to instead clone the repo somewhere in a `GitHub` folder located in the root of the C drive, or another drive entirely if possible.
 
-If you've already cloned the repo, run these commands inside of the repository to ensure the clone is up-to-date:
+If you'd ever like to update the cloned repository, you can do so by running these commands in it:
 ```
 git pull
 git submodule update --remote --init
@@ -258,3 +266,33 @@ git submodule update --remote --init
 | **5**      | 1.04 / 1.05 (Mania Plus release)                    |
 | **6**      | 1.06 (Latest Steam release)                         |
 | **7**      | 1.07 (EGS/Origin release)                           |
+
+## Troubleshooting
+
+### CMake error: "Cannot find source file" { id="cannot-find-source-file" }
+
+=== "RSDKv5 + Sonic Mania"
+
+    You did not clone the repository recursively, meaning the submodules are missing. You can get them by running the following command in the `Sonic-Mania-Decompilation` directory:
+
+=== "RSDKv5 Only"
+
+    You did not clone the repository recursively, meaning the submodules are missing. You can get them by running the following command in the `RSDKv5-Decompilation` directory:
+
+```
+git submodule update --remote --init
+```
+
+### Android Studio error: "INTERNAL: readdir: No such file or directory" { id="android-internal-readdir" }
+
+=== "RSDKv5 + Sonic Mania"
+
+    This error occurs if your path is long enough to build, but too long to rebuild. Deleting `Sonic-Mania-Decompilation/dependencies/RSDKv5/android/app/build` and attempting to build again should fix it.
+
+=== "RSDKv5 Only"
+
+    This error occurs if your path is long enough to build, but too long to rebuild. Deleting `RSDKv5-Decompilation/android/app/build` and attempting to build again should fix it.
+
+### Android Studio error: "Interrupt/exception caught (code = 0xc0000005)" { id="android-exception-code-05" }
+
+This error occurs if your path is too long. Try moving the repository to a directory with a shorter path, such as a `GitHub` folder located in the root of the drive.

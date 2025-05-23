@@ -25,15 +25,15 @@ In addition, refer to these warnings depending on the platform you are compiling
 ## Get the source code
 In order to clone the repository, you need to install Git, which you can get [here](https://git-scm.com/downloads).
 
-Clone the repo **recursively**, using:
+Clone the repo **recursively** by running this command in the target directory:
 ```
 git clone --recursive https://github.com/RSDKModding/RSDKv4-Decompilation
 ```
 
 !!! warning
-    **DO NOT** clone the repository in a Windows user directory. This includes folders such as Documents, Downloads, and the Desktop. These directories are known to cause issues when building. It's recommended to instead clone the repo somewhere in a `GitHub` folder located in the root of C drive, or another drive entirely if possible.
+    **DO NOT** clone the repository in a Windows user directory. This includes folders such as Documents, Downloads, and the Desktop. These directories are known to cause issues when building. It's recommended to instead clone the repo somewhere in a `GitHub` folder located in the root of the C drive, or another drive entirely if possible.
 
-If you've already cloned the repo, run these commands inside of the repository to ensure the clone is up-to-date:
+If you'd ever like to update the cloned repository, you can do so by running these commands in it:
 ```
 git pull
 git submodule update --remote --init
@@ -191,3 +191,20 @@ git submodule update --remote --init
 | **1**      | REV01 (Initial Sonic 2 Release) |
 | **2**      | REV02 (Sega Forever)            |
 | **3**      | REV03 (RSDKv5U Legacy v4 Mode)  |
+
+## Troubleshooting
+
+### CMake error: "Cannot find source file" { id="cannot-find-source-file" }
+
+You did not clone the repository recursively, meaning the submodules are missing. You can get them by running the following command in the `RSDKv4-Decompilation` directory:
+```
+git submodule update --remote --init
+```
+
+### Android Studio error: "INTERNAL: readdir: No such file or directory" { id="android-internal-readdir" }
+
+This error occurs if your path is long enough to build, but too long to rebuild. Deleting `RSDKv4-Decompilation/android/app/build` and attempting to build again should fix it.
+
+### Android Studio error: "Interrupt/exception caught (code = 0xc0000005)" { id="android-exception-code-05" }
+
+This error occurs if your path is too long. Try moving the repository to a directory with a shorter path, such as a `GitHub` folder located in the root of the drive.
