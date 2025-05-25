@@ -18,14 +18,14 @@ settings.ini is the configuration file for the [RSDKv3 Decompilation](README.md)
   [Dev Menu]: ../Overview/DevMenu.md
 
 ## Game
-| Setting Name             | Description                                                                    | Value Type                                                           | Default Value                         |
-| ------------------------ | ------------------------------------------------------------------------------ | -------------------------------------------------------------------- | ------------------------------------- |
-| **Language**             | The language the game will use.                                                | Integer (See [Languages](#languages)                                 | `0`                                   |
-| **GameType**             | Determines if scripts will load Standalone (`0`) or Origins (`1`) code.        | Integer                                                              | `0`                                   |
-| **OriginalControls**     | Overrides the Spin Dash option for Sonic CD.                                   | Integer (See [OriginalControls Options](#originalcontrols-options)   | `-1`                                  |
-| **DisableTouchControls** | When enabled, the engine will forcibly hide touch controls UI.[^1]             | Boolean                                                              | `false`                               |
-| **DisableFocusPause**    | The pausing behavior when focus is lost.                                       | Integer (See [DisableFocusPause Options](#disablefocuspause-options) | `0`                                   |
-| **Platform**             | The platform type that the scripts will use. `0` for standard, `1` for mobile. | Integer                                                              | `1` on mobile, `0` on other platforms |
+| Setting Name             | Description                                                                    | Value Type                                                            | Default Value                         |
+| ------------------------ | ------------------------------------------------------------------------------ | --------------------------------------------------------------------- | ------------------------------------- |
+| **Language**             | The language the game will use.                                                | Integer (See [Languages](#languages))                                 | `0`                                   |
+| **GameType**             | Determines if scripts will load Standalone (`0`) or Origins (`1`) code.        | Integer                                                               | `0`                                   |
+| **OriginalControls**     | Overrides the Spin Dash option for Sonic CD.                                   | Integer (See [OriginalControls Options](#originalcontrols-options))   | `-1`                                  |
+| **DisableTouchControls** | When enabled, the engine will forcibly hide touch controls UI.[^1]             | Boolean                                                               | `false`                               |
+| **DisableFocusPause**    | The pausing behavior when focus is lost.                                       | Integer (See [DisableFocusPause Options](#disablefocuspause-options)) | `0`                                   |
+| **Platform**             | The platform type that the scripts will use. `0` for standard, `1` for mobile. | Integer                                                               | `1` on mobile, `0` on other platforms |
 
 [^1]: This is achieved by not drawing sprites using the spritesheet `Global/DPad.gif` and not running the [ObjectDraw](../Subs.md#objectdraw) sub for objects named `TouchControls` while in the Special stage list.
 
