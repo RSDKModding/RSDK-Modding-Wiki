@@ -625,7 +625,11 @@ nav:
 
   - Tools:
     - Tools/README.md
-    - RetroED: Tools/RetroED/README.md
+    - RetroED:
+      - Tools/RetroED/README.md
+      - Documentation:
+        - Animation Editor: Tools/RetroED/AnimationEditor.md
+        - Scene Editor: Tools/RetroED/SceneEditor.md
     - S3KOEditorLink: Tools/S3KOEditorLink/README.md
     - GraphicsGale: Tools/GraphicsGale/README.md
 
@@ -659,9 +663,6 @@ nav:
     - RetroED:
       - Extracting a Datapack: Guides/RetroED/ExtractDatapack.md
       - Using S3KOEditorLink: Guides/RetroED/S3KOEditorLink.md
-      - Editors:
-        - Animation Editor: Guides/RetroED/Editors/AnimationEditor.md
-        - Scene Editor: Guides/RetroED/Editors/SceneEditor.md
 
 extra:
   social:
