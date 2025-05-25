@@ -13,7 +13,7 @@ TODO: write info about RSDKv4 and anything relating to S1/S2
 - [RetroED](/Tools/RetroED/README.md)
 
 ## Tutorials
-- TODO: yo m
+- TODO
 
 ## Other Resources
 
