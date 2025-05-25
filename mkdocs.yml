@@ -657,6 +657,7 @@ nav:
       - Sonic 3 & Knuckles:
         - Obtaining the Datapack: Guides/Games/Sonic3K/Datapack.md
     - RetroED:
+      - Extracting a Datapack: Guides/RetroED/ExtractDatapack.md
       - Using S3KOEditorLink: Guides/RetroED/S3KOEditorLink.md
       - Editors:
         - Animation Editor: Guides/RetroED/Editors/AnimationEditor.md
