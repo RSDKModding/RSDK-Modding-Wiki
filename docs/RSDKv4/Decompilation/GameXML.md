@@ -111,7 +111,7 @@ Global objects can be added using the `objects` element. This element should con
 
 `forceLoad`
 
-:   Takes a boolean. If set to `true`, all stage objects will have their IDs incremented by 1 to prevent breaking stage layouts. **The object should not be added as a stage object if this is enabled!**
+:   Takes a boolean. If set to `true`, all stage objects will have their IDs incremented by 1 to prevent breaking stage layouts. **The object should not be added as both a global and stage object at once if this is enabled!**
 
 ```xml
 <objects>
