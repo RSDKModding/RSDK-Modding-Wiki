@@ -11,7 +11,6 @@ TODO: write info about RSDKv4 and anything relating to S1/S2
 
 ## Tools
 - [RetroED](/Tools/RetroED/README.md)
-- [RSDK Animation Editor](/Tools/RSDK-Anim-Editor/README.md)
 
 ## Tutorials
 - TODO: yo m

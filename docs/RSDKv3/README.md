@@ -11,7 +11,6 @@ TODO: write info about RSDKv3 and anything relating to CD
 
 ## Tools
 - [RetroED](/Tools/RetroED/README.md)
-- [RSDK Animation Editor](/Tools/RSDK-Anim-Editor/README.md)
 
 ## Tutorials
 
