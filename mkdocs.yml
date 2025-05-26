@@ -662,6 +662,7 @@ nav:
         - Obtaining the Datapack: Guides/Games/Sonic3K/Datapack.md
     - RetroED:
       - Extracting a Datapack: Guides/RetroED/ExtractDatapack.md
+      - Linking Game Logic: Guides/RetroED/GameLogicLink.md
       - Using S3KOEditorLink: Guides/RetroED/S3KOEditorLink.md
 
 extra:
