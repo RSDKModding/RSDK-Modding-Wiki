@@ -11,3 +11,8 @@ TODO: more
 [:fontawesome-solid-download: Download](https://github.com/RSDKModding/RetroED/releases){ .md-button .md-button--primary target="_blank" }
 [:fontawesome-solid-download: Experimental Releases](https://github.com/RSDKModding/RetroED/actions "You must be signed into GitHub to download the experimental releases."){ .md-button target="_blank" }
 [:fontawesome-brands-github: Source Code](https://github.com/RSDKModding/RetroED){ .md-button target="_blank" }
+
+## Tutorials
+- [Extracting a Datapack With RetroED](/Guides/RetroED/ExtractDatapack.md)
+- [Linking Game Logic With RetroED](/Guides/RetroED/GameLogicLink.md)
+- [Using S3KOEditorLink with RetroED](/Guides/RetroED/S3KOEditorLink.md)
