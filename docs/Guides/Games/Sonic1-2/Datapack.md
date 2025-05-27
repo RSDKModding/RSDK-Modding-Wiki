@@ -29,20 +29,26 @@ The datapacks for Sonic 1 and 2 are required for both playing and modding the ga
 === "Android"
 
     TODO: -Verify that this still works, I basically just copy-pasted my old tutorial from three years ago, also needs screenshots- Verified by Ivan951236
-![Screenshot_20250526-211426_ZArchiver](https://github.com/user-attachments/assets/dafa22b3-2c97-407a-a888-2d26d4c35ec9)
+	
+![1.jpeg](https://github.com/Ivan951236/RSDK-Modding-Wiki/blob/8e4f260433e39f69295930844bf3bd6c1fa388c3/patch-1-files/1.jpg)
+
     Use your APK extracting app of choice to get an APK file of Sonic 1 or Sonic 2.
-![Screenshot_20250526-211426_ZArchiver](https://github.com/user-attachments/assets/dafa22b3-2c97-407a-a888-2d26d4c35ec9)
+	
+![1.jpeg](https://github.com/Ivan951236/RSDK-Modding-Wiki/blob/8e4f260433e39f69295930844bf3bd6c1fa388c3/patch-1-files/1.jpg)
 
     Open ZArchiver, then navigate to the folder containing the extracted APK file.
-![Screenshot_20250526-211451_ZArchiver](https://github.com/user-attachments/assets/8003e360-e2df-45e6-879a-aa46043b9dc7)
+	
+![2.jpeg](https://github.com/Ivan951236/RSDK-Modding-Wiki/blob/8e4f260433e39f69295930844bf3bd6c1fa388c3/patch-1-files/2.jpg)
 
     Touch and hold down the APK file until a pop-up menu appears. Tap View. (If you don't see View, try tapping the file instead of holding it down.)
-![Screenshot_20250526-211509_ZArchiver](https://github.com/user-attachments/assets/5d2e6c9f-0287-4dbb-ab06-3303cbed0e71)
+
+![3.jpeg](https://github.com/Ivan951236/RSDK-Modding-Wiki/blob/8e4f260433e39f69295930844bf3bd6c1fa388c3/patch-1-files/3.jpg)
 
     Navigate into the `assets` folder, then scroll down until you find `Data.rsdk.xmf`. Touch and hold down the file, then tap Copy.
-![Screenshot_20250526-211509_ZArchiver](https://github.com/user-attachments/assets/5d2e6c9f-0287-4dbb-ab06-3303cbed0e71)
+
     Navigate into a folder you know you can easily access. Tap the clipboard button to paste the file into that folder.
-![Screenshot_20250526-211558_ZArchiver](https://github.com/user-attachments/assets/dae0acbf-2c4c-4f16-83c1-179dd0a6a10c)
+
+![4.jpeg](https://github.com/Ivan951236/RSDK-Modding-Wiki/blob/8e4f260433e39f69295930844bf3bd6c1fa388c3/patch-1-files/4.jpg)
 
     Touch and hold down the `Data.rsdk.xmf` file once more, then tap Rename. Name the file `Data.rsdk`, then tap OK.
 
