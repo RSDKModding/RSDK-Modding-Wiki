@@ -28,8 +28,6 @@ The datapacks for Sonic 1 and 2 are required for both playing and modding the ga
 ## Obtaining the Datapacks
 === "Android"
 
-    TODO: {--Verify that this still works, I basically just copy-pasted my old tutorial from three years ago, also needs screenshots--} Verified by Ivan951236
-	
     ![1.jpeg](https://raw.githubusercontent.com/Ivan951236/RSDK-Modding-Wiki/refs/heads/patch-1/docs/Guides/Games/Sonic1-2/1.jpg?raw=true)
 
     Use your APK extracting app of choice to get an APK file of Sonic 1 or Sonic 2.
