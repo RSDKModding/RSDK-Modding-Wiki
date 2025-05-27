@@ -30,25 +30,25 @@ The datapacks for Sonic 1 and 2 are required for both playing and modding the ga
 
     TODO: {--Verify that this still works, I basically just copy-pasted my old tutorial from three years ago, also needs screenshots--} Verified by Ivan951236
 	
-![1.jpeg](https://github.com/Ivan951236/RSDK-Modding-Wiki/blob/8e4f260433e39f69295930844bf3bd6c1fa388c3/patch-1-files/1.jpg?raw=true)
+![1.jpeg](https://github.com/Ivan951236/RSDK-Modding-Wiki/blob/8e4f260433e39f69295930844bf3bd6c1fa388c3/docs/Guides/Games/Sonic1-2/1.jpg?raw=true)
 
     Use your APK extracting app of choice to get an APK file of Sonic 1 or Sonic 2.
 	
-![1.jpeg](https://github.com/Ivan951236/RSDK-Modding-Wiki/blob/8e4f260433e39f69295930844bf3bd6c1fa388c3/patch-1-files/1.jpg?raw=true)
+![1.jpeg](https://github.com/Ivan951236/RSDK-Modding-Wiki/blob/8e4f260433e39f69295930844bf3bd6c1fa388c3/docs/Guides/Games/Sonic1-2/1.jpg?raw=true)
 
     Open ZArchiver, then navigate to the folder containing the extracted APK file.
 	
-![2.jpeg](https://github.com/Ivan951236/RSDK-Modding-Wiki/blob/8e4f260433e39f69295930844bf3bd6c1fa388c3/patch-1-files/2.jpg?raw=true)
+![2.jpeg](https://github.com/Ivan951236/RSDK-Modding-Wiki/blob/8e4f260433e39f69295930844bf3bd6c1fa388c3/docs/Guides/Games/Sonic1-2/2.jpg?raw=true)
 
     Touch and hold down the APK file until a pop-up menu appears. Tap View. (If you don't see View, try tapping the file instead of holding it down.)
 
-![3.jpeg](https://github.com/Ivan951236/RSDK-Modding-Wiki/blob/8e4f260433e39f69295930844bf3bd6c1fa388c3/patch-1-files/3.jpg?raw=true)
+![3.jpeg](https://github.com/Ivan951236/RSDK-Modding-Wiki/blob/8e4f260433e39f69295930844bf3bd6c1fa388c3//docs/Guides/Games/Sonic1-2/3.jpg?raw=true)
 
     Navigate into the `assets` folder, then scroll down until you find `Data.rsdk.xmf`. Touch and hold down the file, then tap Copy.
 
     Navigate into a folder you know you can easily access. Tap the clipboard button to paste the file into that folder.
 
-![4.jpeg](https://github.com/Ivan951236/RSDK-Modding-Wiki/blob/8e4f260433e39f69295930844bf3bd6c1fa388c3/patch-1-files/4.jpg?raw=true)
+![4.jpeg](https://github.com/Ivan951236/RSDK-Modding-Wiki/blob/8e4f260433e39f69295930844bf3bd6c1fa388c3//docs/Guides/Games/Sonic1-2/4.jpg?raw=true)
 
     Touch and hold down the `Data.rsdk.xmf` file once more, then tap Rename. Name the file `Data.rsdk`, then tap OK.
 
