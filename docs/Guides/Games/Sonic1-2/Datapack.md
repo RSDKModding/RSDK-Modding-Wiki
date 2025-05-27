@@ -28,25 +28,25 @@ The datapacks for Sonic 1 and 2 are required for both playing and modding the ga
 ## Obtaining the Datapacks
 === "Android"
 
-    ![All of APK Files you will need](/assets/images/Guides-Sonic1-2-Datapack/assets-DPE.jpg)
+    ![All of APK Files you will need](/assets/images/Guides-Sonic1-2-Datapack/assets-DPE.jpg){ width="144" }
 
     Use your APK extracting app of choice to get an APK file of Sonic 1 or Sonic 2.
 	
-    ![All of APK Files you will need](/assets/images/Guides-Sonic1-2-Datapack/assets-DPE.jpg)
+    ![All of APK Files you will need](/assets/images/Guides-Sonic1-2-Datapack/assets-DPE.jpg){ width="144" }
 
     Open ZArchiver, then navigate to the folder containing the extracted APK file.
 	
-    ![ZArchiver Pop-up Menu](/assets/images/Guides-Sonic1-2-Datapack/files-DPE.jpg)
+    ![ZArchiver Pop-up Menu](/assets/images/Guides-Sonic1-2-Datapack/files-DPE.jpg){ width="144" }
 
     Touch and hold down the APK file until a pop-up menu appears. Tap View. (If you don't see View, try tapping the file instead of holding it down.)
 
-    ![All of the guts of a android sonic game](/assets/images/Guides-Sonic1-2-Datapack/actual-files-DPE.jpg)
+    ![All of the guts of a android sonic game](/assets/images/Guides-Sonic1-2-Datapack/actual-files-DPE.jpg){ width="144" }
 
     Navigate into the `assets` folder, then scroll down until you find `Data.rsdk.xmf`. Touch and hold down the file, then tap Copy.
 
     Navigate into a folder you know you can easily access. Tap the clipboard button to paste the file into that folder.
 
-    ![It's time for a style, data.rsdk.xmf!](/assets/images/Guides-Sonic1-2-Datapack/rename-DPE.jpg)
+    ![It's time for a style, data.rsdk.xmf!](/assets/images/Guides-Sonic1-2-Datapack/rename-DPE.jpg){ width="144" }
 
     Touch and hold down the `Data.rsdk.xmf` file once more, then tap Rename. Name the file `Data.rsdk`, then tap OK.
 
