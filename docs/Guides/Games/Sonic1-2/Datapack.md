@@ -28,7 +28,7 @@ The datapacks for Sonic 1 and 2 are required for both playing and modding the ga
 ## Obtaining the Datapacks
 === "Android"
 
-    TODO: -Verify that this still works, I basically just copy-pasted my old tutorial from three years ago, also needs screenshots- Verified by Ivan951236
+    TODO: {--Verify that this still works, I basically just copy-pasted my old tutorial from three years ago, also needs screenshots--} Verified by Ivan951236
 	
 ![1.jpeg](https://github.com/Ivan951236/RSDK-Modding-Wiki/blob/8e4f260433e39f69295930844bf3bd6c1fa388c3/patch-1-files/1.jpg)
 
