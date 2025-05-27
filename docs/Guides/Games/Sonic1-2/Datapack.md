@@ -28,25 +28,25 @@ The datapacks for Sonic 1 and 2 are required for both playing and modding the ga
 ## Obtaining the Datapacks
 === "Android"
 
-    ![1.jpeg](https://raw.githubusercontent.com/Ivan951236/RSDK-Modding-Wiki/refs/heads/patch-1/docs/Guides/Games/Sonic1-2/1.jpg?raw=true)
+    ![All of APK Files you will need](/assets/images/Guides-Sonic1-2-Datapack/assets-DPE.jpg)
 
     Use your APK extracting app of choice to get an APK file of Sonic 1 or Sonic 2.
 	
-    ![1.jpeg](https://raw.githubusercontent.com/Ivan951236/RSDK-Modding-Wiki/refs/heads/patch-1/docs/Guides/Games/Sonic1-2/1.jpg?raw=true)
+    ![All of APK Files you will need](/assets/images/Guides-Sonic1-2-Datapack/assets-DPE.jpg)
 
     Open ZArchiver, then navigate to the folder containing the extracted APK file.
 	
-    ![2.jpeg](https://raw.githubusercontent.com/Ivan951236/RSDK-Modding-Wiki/refs/heads/patch-1/docs/Guides/Games/Sonic1-2/2.jpg?raw=true)
+    ![ZArchiver Pop-up Menu](/assets/images/Guides-Sonic1-2-Datapack/files-DPE.jpg)
 
     Touch and hold down the APK file until a pop-up menu appears. Tap View. (If you don't see View, try tapping the file instead of holding it down.)
 
-    ![3.jpeg](https://raw.githubusercontent.com/Ivan951236/RSDK-Modding-Wiki/refs/heads/patch-1/docs/Guides/Games/Sonic1-2/3.jpg?raw=true)
+    ![All of the guts of a android sonic game](/assets/images/Guides-Sonic1-2-Datapack/actual-files-DPE.jpg)
 
     Navigate into the `assets` folder, then scroll down until you find `Data.rsdk.xmf`. Touch and hold down the file, then tap Copy.
 
     Navigate into a folder you know you can easily access. Tap the clipboard button to paste the file into that folder.
 
-    ![4.jpeg](https://raw.githubusercontent.com/Ivan951236/RSDK-Modding-Wiki/refs/heads/patch-1/docs/Guides/Games/Sonic1-2/4.jpg?raw=true)
+    ![It's time for a style, data.rsdk.xmf!](/assets/images/Guides-Sonic1-2-Datapack/rename-DPE.jpg)
 
     Touch and hold down the `Data.rsdk.xmf` file once more, then tap Rename. Name the file `Data.rsdk`, then tap OK.
 
