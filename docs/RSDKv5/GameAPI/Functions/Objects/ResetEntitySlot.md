@@ -14,7 +14,7 @@ Resets the entity in `slot` with the `classID` and `data` specified.
 
 `data`
 
-:   The data to send to the entity's [Create()](/RSDKv5/Events/Create.md) function.
+:   The data to send to the entity's [Create()](/RSDKv5/GameAPI/Events/Create.md) function.
 
 ## Return Value
 None.

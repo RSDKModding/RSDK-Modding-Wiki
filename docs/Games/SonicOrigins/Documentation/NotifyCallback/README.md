@@ -5,21 +5,21 @@ NotifyCallback is a function in [Sonic Origins](../../README.md) that handles co
 ## Usage
 === "v3"
 
-    Set `game.callbackParam0`, `game.callbackParam1`, and `game.callbackParam2` to the needed parameters (unused parameters do not need to be set), then call [EngineCallback()](/RSDKv3/Functions/Misc/EngineCallback.md) with `Callback` set to the [appropriate callback ID](#callbacks).
+    Set `game.callbackParam0`, `game.callbackParam1`, and `game.callbackParam2` to the needed parameters (unused parameters do not need to be set), then call [EngineCallback()](/RSDKv3/RetroScript/Functions/Misc/EngineCallback.md) with `Callback` set to the [appropriate callback ID](#callbacks).
 
     !!! note
         The names of each callback are not defined by the engine itself. Instead, Sonic Team elected to define them and their corresponding IDs as global variables in Sonic CD's GameConfig.
 
 === "v4"
 
-    Call [CallNativeFunction2() or CallNativeFunction4()](/RSDKv4/Functions/Misc/CallNativeFunction/README.md) (depending on the amount of parameters needed) with `callback` set to [NotifyCallback](/RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback.md) and `param1` set to the [appropriate callback ID](#callbacks). Set `param2`, `param3`, and `param4` to the needed parameters. Unused parameters should be set to `0`.
+    Call [CallNativeFunction2() or CallNativeFunction4()](/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/README.md) (depending on the amount of parameters needed) with `callback` set to [NotifyCallback](/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/NotifyCallback.md) and `param1` set to the [appropriate callback ID](#callbacks). Set `param2`, `param3`, and `param4` to the needed parameters. Unused parameters should be set to `0`.
 
     !!! note
         The names of each callback are not defined by the engine itself. Instead, Sonic Team elected to define them and their corresponding IDs as global variables in Sonic 1 and 2's GameConfigs.
 
 === "v5"
 
-    Call [NotifyCallback()](/RSDKv5/Functions/Misc/NotifyCallback.md) with `callback` set to the [appropriate callback ID](#callbacks) and `param1`, `param2`, and `param3` set to the needed parameters. Unused parameters should be set to `NULL`.
+    Call [NotifyCallback()](/RSDKv5/GameAPI/Functions/Misc/NotifyCallback.md) with `callback` set to the [appropriate callback ID](#callbacks) and `param1`, `param2`, and `param3` set to the needed parameters. Unused parameters should be set to `NULL`.
 
 ## Callbacks
 | ID   | Callback                                               | Description                                                                                                                                               |

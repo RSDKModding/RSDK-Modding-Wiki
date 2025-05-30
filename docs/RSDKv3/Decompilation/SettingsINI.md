@@ -27,7 +27,7 @@ settings.ini is the configuration file for the [RSDKv3 Decompilation](README.md)
 | **DisableFocusPause**    | The pausing behavior when focus is lost.                                       | Integer (See [DisableFocusPause Options](#disablefocuspause-options)) | `0`                                   |
 | **Platform**             | The platform type that the scripts will use. `0` for standard, `1` for mobile. | Integer                                                               | `1` on mobile, `0` on other platforms |
 
-[^1]: This is achieved by not drawing sprites using the spritesheet `Global/DPad.gif` and not running the [ObjectDraw](../Subs.md#objectdraw) sub for objects named `TouchControls` while in the Special stage list.
+[^1]: This is achieved by not drawing sprites using the spritesheet `Global/DPad.gif` and not running the [ObjectDraw](../RetroScript/Subs.md#objectdraw) sub for objects named `TouchControls` while in the Special stage list.
 
 ### Languages
 | Setting Value | Language |

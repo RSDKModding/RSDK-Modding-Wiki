@@ -4,7 +4,7 @@
     This function only exists in REV02 and above.
 
 ## Description
-Adds a viewable variable to the [Dev Menu](../../Overview/DevMenu.md). Viewable variables exist until the scene is changed or reloaded.
+Adds a viewable variable to the [Dev Menu]. Viewable variables exist until the scene is changed or reloaded.
 
 ## Parameters
 `name`
@@ -13,7 +13,7 @@ Adds a viewable variable to the [Dev Menu](../../Overview/DevMenu.md). Viewable 
 
 `value`
 
-:   A pointer to the value to be tracked, viewed and edited in the [Dev Menu](../../Overview/DevMenu.md).
+:   A pointer to the value to be tracked, viewed and edited in the [Dev Menu].
 
 `type`
 
@@ -26,6 +26,8 @@ Adds a viewable variable to the [Dev Menu](../../Overview/DevMenu.md). Viewable 
 `max`
 
 :   The maximum value of the viewable variable (inclusive).
+
+  [Dev Menu]: /RSDKv5/Overview/DevMenu.md
 
 ## Return Value
 None.

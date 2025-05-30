@@ -13,7 +13,7 @@ Creates a temporary object specified by `object`, `data`, `x`, and `y` near the 
 
 `data`
 
-:   The data to send to the entity's [Create()](/RSDKv5/Events/Create.md) function.
+:   The data to send to the entity's [Create()](/RSDKv5/GameAPI/Events/Create.md) function.
 
 `x`
 

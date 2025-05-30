@@ -36,14 +36,14 @@
 | [**GetFrame**](Graphics/GetFrame.md)                           | Retrieves a specific SpriteFrame from a SpriteAnimation.                          |
 | [**GetHitbox**](Graphics/GetHitbox.md)                         | Gets a Hitbox from the animator's current frame.                                  |
 | [**GetFrameID**](Graphics/GetFrameID.md)                       | Gets the `unicode char` value of the animator's current frame.                    |
-| [**GetStringWidth**](Graphics/GetStringWidth.md)               | Retrieves the width of a string in pixels when displayed with [DrawText()](TODO).   |
+| [**GetStringWidth**](Graphics/GetStringWidth.md)               | Retrieves the width of a string in pixels when displayed with [DrawText()](TODO). |
 | [**ProcessAnimation**](Graphics/ProcessAnimation.md)           | Processes the animation applied to an animator.                                   |
 
 ## Debugging
-| Function                                                          | Description                                                         |
-| ----------------------------------------------------------------- | ------------------------------------------------------------------- |
-| [**ClearViewableVariables**](Debugging/ClearViewableVariables.md) | Clears all loaded viewable variables.                               |
-| [**AddViewableVariable**](Debugging/AddViewableVariable.md)       | Adds a viewable variable to the [Dev Menu](../Overview/DevMenu.md). |
+| Function                                                          | Description                                                            |
+| ----------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [**ClearViewableVariables**](Debugging/ClearViewableVariables.md) | Clears all loaded viewable variables.                                  |
+| [**AddViewableVariable**](Debugging/AddViewableVariable.md)       | Adds a viewable variable to the [Dev Menu](../../Overview/DevMenu.md). |
 
 ## Printing
 | Function                                     | Description                                  |

@@ -6,13 +6,13 @@ TODO: write info about RSDKv5(U) and anything relating to Mania/S3
 
 ## Documentation
 - [Overview](Overview/README.md)
-- [Events](Events/README.md)
-- [Functions](Functions/README.md)
+- [GameAPI](GameAPI/README.md)
 
 ## Tools
 - [RetroED](/Tools/RetroED/README.md)
 
 ## Tutorials
+- TODO
 
 ## Other Resources
 

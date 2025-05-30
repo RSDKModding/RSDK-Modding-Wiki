@@ -5,14 +5,13 @@ TODO: write info about RSDKv3 and anything relating to CD
 
 ## Documentation
 - [Overview](Overview/README.md)
-- [Subs](Subs.md)
-- [Variables](Variables.md)
-- [Functions](Functions/README.md)
+- [RetroScript v3](RetroScript/README.md)
 
 ## Tools
 - [RetroED](/Tools/RetroED/README.md)
 
 ## Tutorials
+- TODO
 
 ## Other Resources
 
