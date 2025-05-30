@@ -277,14 +277,6 @@
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Subs/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Variables/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
          <loc>https://rsdkmodding.com/RSDKv3/Decompilation/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
@@ -301,410 +293,6 @@
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/3D/Draw3DScene/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/3D/MatrixMultiply/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/3D/MatrixRotate/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/3D/MatrixRotateXYZ/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/3D/MatrixScaleXYZ/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/3D/MatrixTranslateXYZ/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/3D/SetIdentityMatrix/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/3D/TransformVertices/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Audio/PauseMusic/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Audio/PlayMusic/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Audio/PlaySfx/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Audio/PlayStageSfx/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Audio/ResumeMusic/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Audio/SetMusicTrack/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Audio/SetSfxAttributes/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Audio/StopMusic/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Audio/StopSfx/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Audio/StopStageSfx/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Drawing/AddDrawListEntityRef/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Drawing/ClearDrawList/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Drawing/ClearScreen/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Drawing/CopyPalette/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Drawing/DrawRect/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Drawing/DrawTintRect/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Drawing/GetDrawListEntityRef/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Drawing/LoadPalette/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Drawing/RotatePalette/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Drawing/SetActivePalette/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Drawing/SetDrawListEntityRef/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Drawing/SetPaletteFade/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Drawing/SetScreenFade/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Graphics/DrawNumbers/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Graphics/DrawObjectAnimation/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Graphics/DrawPlayerAnimation/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Graphics/DrawSprite/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Graphics/DrawSpriteFX/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Graphics/DrawSpriteScreenFX/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Graphics/DrawSpriteScreenXY/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Graphics/DrawSpriteXY/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Graphics/EditFrame/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Graphics/LoadAnimation/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Graphics/LoadSpriteSheet/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Graphics/ProcessAnimation/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Graphics/RemoveSpriteSheet/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Graphics/SpriteFrame/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Math/ATan2/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Math/CheckEqual/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Math/CheckGreater/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Math/CheckLower/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Math/CheckNotEqual/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Math/Cos/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Math/Cos256/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Math/CosChange/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Math/FlipSign/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Math/GetBit/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Math/Interpolate/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Math/InterpolateXY/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Math/Not/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Math/Rand/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Math/SetBit/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Math/Sin/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Math/Sin256/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Math/SinChange/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Misc/AddMenuEntry/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Misc/CallFunction/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Misc/CheckTouchRect/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Misc/DrawMenu/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Misc/DrawText/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Misc/EditMenuEntry/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Misc/EngineCallback/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Misc/GetTextInfo/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Misc/GetVersionNumber/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Misc/HapticEffect/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Misc/LoadOnlineMenu/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Misc/LoadTextFile/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Misc/LoadTextFont/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Misc/LoadVideo/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Misc/NextVideoFrame/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Misc/ReadSaveRAM/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Misc/SetAchievement/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Misc/SetLeaderboard/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Misc/SetupMenu/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Misc/WriteSaveRAM/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Object/BindPlayerToObject/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Object/CreateTempObject/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Object/GetAnimationByName/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Object/ObjectTileCollision/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Object/ObjectTileGrip/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Object/PlayerObjectCollision/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Object/PlayerTileCollision/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Object/ProcessPlayerControl/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Object/ResetObjectEntity/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Stages/Copy16x16Tile/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Stages/DrawActName/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Stages/Get16x16TileInfo/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Stages/GetTileLayerEntry/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Stages/LoadStage/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Stages/Set16x16TileInfo/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Stages/SetLayerDeformation/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv3/Functions/Stages/SetTileLayerEntry/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
          <loc>https://rsdkmodding.com/RSDKv3/Overview/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
@@ -713,15 +301,423 @@
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Subs/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Variables/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/3D/Draw3DScene/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/3D/MatrixMultiply/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/3D/MatrixRotate/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/3D/MatrixRotateXYZ/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/3D/MatrixScaleXYZ/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/3D/MatrixTranslateXYZ/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/3D/SetIdentityMatrix/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/3D/TransformVertices/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Audio/PauseMusic/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Audio/PlayMusic/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Audio/PlaySfx/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Audio/PlayStageSfx/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Audio/ResumeMusic/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Audio/SetMusicTrack/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Audio/SetSfxAttributes/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Audio/StopMusic/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Audio/StopSfx/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Audio/StopStageSfx/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Drawing/AddDrawListEntityRef/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Drawing/ClearDrawList/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Drawing/ClearScreen/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Drawing/CopyPalette/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Drawing/DrawRect/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Drawing/DrawTintRect/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Drawing/GetDrawListEntityRef/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Drawing/LoadPalette/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Drawing/RotatePalette/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Drawing/SetActivePalette/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Drawing/SetDrawListEntityRef/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Drawing/SetPaletteFade/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Drawing/SetScreenFade/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Graphics/DrawNumbers/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Graphics/DrawObjectAnimation/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Graphics/DrawPlayerAnimation/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Graphics/DrawSprite/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Graphics/DrawSpriteFX/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Graphics/DrawSpriteScreenFX/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Graphics/DrawSpriteScreenXY/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Graphics/DrawSpriteXY/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Graphics/EditFrame/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Graphics/LoadAnimation/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Graphics/LoadSpriteSheet/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Graphics/ProcessAnimation/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Graphics/RemoveSpriteSheet/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Graphics/SpriteFrame/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Math/ATan2/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Math/CheckEqual/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Math/CheckGreater/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Math/CheckLower/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Math/CheckNotEqual/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Math/Cos/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Math/Cos256/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Math/CosChange/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Math/FlipSign/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Math/GetBit/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Math/Interpolate/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Math/InterpolateXY/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Math/Not/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Math/Rand/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Math/SetBit/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Math/Sin/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Math/Sin256/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Math/SinChange/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Misc/AddMenuEntry/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Misc/CallFunction/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Misc/CheckTouchRect/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Misc/DrawMenu/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Misc/DrawText/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Misc/EditMenuEntry/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Misc/EngineCallback/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Misc/GetTextInfo/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Misc/GetVersionNumber/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Misc/HapticEffect/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Misc/LoadOnlineMenu/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Misc/LoadTextFile/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Misc/LoadTextFont/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Misc/LoadVideo/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Misc/NextVideoFrame/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Misc/ReadSaveRAM/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Misc/SetAchievement/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Misc/SetLeaderboard/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Misc/SetupMenu/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Misc/WriteSaveRAM/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Object/BindPlayerToObject/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Object/CreateTempObject/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Object/GetAnimationByName/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Object/ObjectTileCollision/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Object/ObjectTileGrip/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Object/PlayerObjectCollision/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Object/PlayerTileCollision/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Object/ProcessPlayerControl/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Object/ResetObjectEntity/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Stages/Copy16x16Tile/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Stages/DrawActName/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Stages/Get16x16TileInfo/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Stages/GetTileLayerEntry/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Stages/LoadStage/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Stages/Set16x16TileInfo/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Stages/SetLayerDeformation/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv3/RetroScript/Functions/Stages/SetTileLayerEntry/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
          <loc>https://rsdkmodding.com/RSDKv4/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Events/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Variables/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
@@ -741,647 +737,659 @@
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/3D/Draw3DScene/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/3D/MatrixInverse/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/3D/MatrixMultiply/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/3D/MatrixRotate/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/3D/MatrixRotateXYZ/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/3D/MatrixScaleXYZ/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/3D/MatrixTranslateXYZ/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/3D/SetIdentityMatrix/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/3D/TransformVertices/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Audio/PauseMusic/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Audio/PlayMusic/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Audio/PlaySfx/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Audio/ResumeMusic/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Audio/SetMusicTrack/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Audio/SetSfxAttributes/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Audio/StopMusic/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Audio/StopSfx/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Audio/SwapMusicTrack/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Deprecated/DrawText/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Deprecated/LoadFontFile/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Drawing/AddDrawListEntityRef/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Drawing/ClearDrawList/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Drawing/ClearScreen/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Drawing/CopyPalette/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Drawing/DrawRect/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Drawing/DrawTintRect/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Drawing/GetDrawListEntityRef/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Drawing/GetPaletteEntry/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Drawing/LoadPalette/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Drawing/RotatePalette/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Drawing/SetActivePalette/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Drawing/SetDrawListEntityRef/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Drawing/SetPaletteEntry/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Drawing/SetPaletteFade/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Drawing/SetScreenFade/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Graphics/DrawNumbers/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Graphics/DrawObjectAnimation/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Graphics/DrawSprite/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Graphics/DrawSpriteFX/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Graphics/DrawSpriteScreenFX/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Graphics/DrawSpriteScreenXY/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Graphics/DrawSpriteXY/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Graphics/EditFrame/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Graphics/LoadAnimation/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Graphics/LoadSpriteSheet/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Graphics/ProcessAnimation/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Graphics/RemoveSpriteSheet/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Graphics/SetScreenCount/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Graphics/SetScreenVertices/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Graphics/SpriteFrame/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Input/AssignInputSlotToDevice/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Input/GetFilteredInputDeviceID/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Input/GetInputDeviceID/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Input/GetInputDeviceType/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Input/IsInputDeviceAssigned/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Input/IsInputSlotAssigned/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Input/ResetInputSlotAssignments/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Math/ATan2/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Math/Abs/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Math/CheckEqual/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Math/CheckGreater/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Math/CheckLower/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Math/CheckNotEqual/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Math/Cos/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Math/Cos256/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Math/FlipSign/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Math/GetBit/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Math/GetTableValue/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Math/Interpolate/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Math/InterpolateXY/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Math/Not/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Math/Rand/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Math/SetBit/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Math/SetTableValue/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Math/Sin/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Math/Sin256/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/AddMenuEntry/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallFunction/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CheckTouchRect/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/DrawMenu/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/EditMenuEntry/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/GetTextInfo/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/GetVersionNumber/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/LoadTextFile/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/Print/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/ReadSaveRAM/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/SetupMenu/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/WriteSaveRAM/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/AddAchievement/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/ApplyWindowChanges/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/ClearAchievements/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/Connect2PVS/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/Disconnect2PVS/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/ExitGame/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/FileExists/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/GetAchievement/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/GetAchievementCount/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/GetAchievementDescription/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/GetAchievementName/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/GetModActive/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/GetModAuthor/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/GetModCount/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/GetModDescription/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/GetModName/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/GetModVersion/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/GetScreenWidth/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/GetWindowBorderless/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/GetWindowFullScreen/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/GetWindowScale/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/GetWindowScaleMode/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/GetWindowVSync/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/HapticEffect/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/MoveMod/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/NativePlayerWaitingAds/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/NativeWaterPlayerWaitingAds/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/NotifyCallback/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/OpenModMenu/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/ReceiveEntity/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/ReceiveValue/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/RefreshEngine/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/SendEntity/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/SendValue/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/SetAchievement/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/SetAchievementDescription/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/SetLeaderboard/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/SetModActive/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/SetNetworkGameName/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/SetScreenWidth/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/SetWindowBorderless/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/SetWindowFullScreen/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/SetWindowScale/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/SetWindowScaleMode/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/SetWindowVSync/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/ShowPromoPopup/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Misc/CallNativeFunction/TransmitGlobal/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Object/BoxCollisionTest/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Object/CheckCameraProximity/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Object/CopyObject/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Object/CreateTempObject/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Object/GetAnimationByName/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Object/GetObjectValue/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Object/ObjectTileCollision/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Object/ObjectTileGrip/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Object/ProcessObjectControl/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Object/ProcessObjectMovement/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Object/ResetObjectEntity/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Object/SetObjectRange/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Object/SetObjectValue/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Stages/CheckCurrentStageFolder/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Stages/Copy16x16Tile/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Stages/DrawActName/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Stages/Get16x16TileInfo/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Stages/GetTileLayerEntry/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Stages/LoadStage/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Stages/Set16x16TileInfo/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Stages/SetLayerDeformation/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
-         <loc>https://rsdkmodding.com/RSDKv4/Functions/Stages/SetTileLayerEntry/</loc>
-         <lastmod>2025-05-30</lastmod>
-    </url>
-    <url>
          <loc>https://rsdkmodding.com/RSDKv4/Overview/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
          <loc>https://rsdkmodding.com/RSDKv4/Overview/DevMenu/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Events/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Variables/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/3D/Draw3DScene/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/3D/MatrixInverse/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/3D/MatrixMultiply/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/3D/MatrixRotate/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/3D/MatrixRotateXYZ/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/3D/MatrixScaleXYZ/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/3D/MatrixTranslateXYZ/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/3D/SetIdentityMatrix/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/3D/TransformVertices/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Audio/PauseMusic/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Audio/PlayMusic/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Audio/PlaySfx/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Audio/ResumeMusic/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Audio/SetMusicTrack/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Audio/SetSfxAttributes/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Audio/StopMusic/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Audio/StopSfx/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Audio/SwapMusicTrack/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Deprecated/DrawText/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Deprecated/LoadFontFile/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Drawing/AddDrawListEntityRef/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Drawing/ClearDrawList/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Drawing/ClearScreen/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Drawing/CopyPalette/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Drawing/DrawRect/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Drawing/DrawTintRect/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Drawing/GetDrawListEntityRef/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Drawing/GetPaletteEntry/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Drawing/LoadPalette/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Drawing/RotatePalette/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Drawing/SetActivePalette/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Drawing/SetDrawListEntityRef/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Drawing/SetPaletteEntry/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Drawing/SetPaletteFade/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Drawing/SetScreenFade/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Graphics/DrawNumbers/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Graphics/DrawObjectAnimation/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Graphics/DrawSprite/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Graphics/DrawSpriteFX/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Graphics/DrawSpriteScreenFX/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Graphics/DrawSpriteScreenXY/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Graphics/DrawSpriteXY/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Graphics/EditFrame/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Graphics/LoadAnimation/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Graphics/LoadSpriteSheet/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Graphics/ProcessAnimation/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Graphics/RemoveSpriteSheet/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Graphics/SetScreenCount/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Graphics/SetScreenVertices/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Graphics/SpriteFrame/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Input/AssignInputSlotToDevice/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Input/GetFilteredInputDeviceID/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Input/GetInputDeviceID/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Input/GetInputDeviceType/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Input/IsInputDeviceAssigned/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Input/IsInputSlotAssigned/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Input/ResetInputSlotAssignments/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Math/ATan2/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Math/Abs/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Math/CheckEqual/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Math/CheckGreater/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Math/CheckLower/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Math/CheckNotEqual/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Math/Cos/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Math/Cos256/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Math/FlipSign/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Math/GetBit/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Math/GetTableValue/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Math/Interpolate/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Math/InterpolateXY/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Math/Not/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Math/Rand/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Math/SetBit/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Math/SetTableValue/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Math/Sin/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Math/Sin256/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/AddMenuEntry/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallFunction/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CheckTouchRect/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/DrawMenu/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/EditMenuEntry/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/GetTextInfo/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/GetVersionNumber/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/LoadTextFile/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/Print/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/ReadSaveRAM/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/SetupMenu/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/WriteSaveRAM/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/AddAchievement/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/ApplyWindowChanges/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/ClearAchievements/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/Connect2PVS/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/Disconnect2PVS/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/ExitGame/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/FileExists/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/GetAchievement/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/GetAchievementCount/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/GetAchievementDescription/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/GetAchievementName/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/GetModActive/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/GetModAuthor/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/GetModCount/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/GetModDescription/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/GetModName/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/GetModVersion/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/GetScreenWidth/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/GetWindowBorderless/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/GetWindowFullScreen/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/GetWindowScale/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/GetWindowScaleMode/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/GetWindowVSync/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/HapticEffect/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/MoveMod/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/NativePlayerWaitingAds/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/NativeWaterPlayerWaitingAds/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/NotifyCallback/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/OpenModMenu/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/ReceiveEntity/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/ReceiveValue/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/RefreshEngine/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/SendEntity/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/SendValue/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/SetAchievement/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/SetAchievementDescription/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/SetLeaderboard/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/SetModActive/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/SetNetworkGameName/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/SetScreenWidth/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/SetWindowBorderless/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/SetWindowFullScreen/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/SetWindowScale/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/SetWindowScaleMode/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/SetWindowVSync/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/ShowPromoPopup/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/TransmitGlobal/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Object/BoxCollisionTest/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Object/CheckCameraProximity/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Object/CopyObject/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Object/CreateTempObject/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Object/GetAnimationByName/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Object/GetObjectValue/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Object/ObjectTileCollision/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Object/ObjectTileGrip/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Object/ProcessObjectControl/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Object/ProcessObjectMovement/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Object/ResetObjectEntity/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Object/SetObjectRange/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Object/SetObjectValue/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Stages/CheckCurrentStageFolder/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Stages/Copy16x16Tile/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Stages/DrawActName/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Stages/Get16x16TileInfo/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Stages/GetTileLayerEntry/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Stages/LoadStage/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Stages/Set16x16TileInfo/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Stages/SetLayerDeformation/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv4/RetroScript/Functions/Stages/SetTileLayerEntry/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
@@ -1401,335 +1409,339 @@
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Events/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Events/Create/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Events/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Events/Draw/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Events/Create/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Events/EditorDraw/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Events/Draw/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Events/EditorLoad/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Events/EditorDraw/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Events/LateUpdate/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Events/EditorLoad/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Events/Serialize/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Events/LateUpdate/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Events/StageLoad/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Events/Serialize/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Events/StaticLoad/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Events/StageLoad/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Events/StaticUpdate/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Events/StaticLoad/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Events/Update/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Events/StaticUpdate/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Events/Update/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Audio/ChannelActive/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Audio/GetChannelPos/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Audio/ChannelActive/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Audio/GetSfx/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Audio/GetChannelPos/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Audio/PauseChannel/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Audio/GetSfx/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Audio/PlaySfx/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Audio/PauseChannel/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Audio/PlayStream/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Audio/PlaySfx/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Audio/ResumeChannel/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Audio/PlayStream/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Audio/SetChannelAttributes/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Audio/ResumeChannel/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Audio/SfxPlaying/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Audio/SetChannelAttributes/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Audio/StopAllSfx/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Audio/SfxPlaying/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Audio/StopChannel/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Audio/StopAllSfx/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Audio/StopSfx/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Audio/StopChannel/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Debugging/AddViewableVariable/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Audio/StopSfx/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Debugging/ClearViewableVariables/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Debugging/AddViewableVariable/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Editor/RSDK_ACTIVE_VAR/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Debugging/ClearViewableVariables/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Editor/RSDK_DRAWING_OVERLAY/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Editor/RSDK_ACTIVE_VAR/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Editor/RSDK_EDITABLE_VAR/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Editor/RSDK_DRAWING_OVERLAY/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Editor/RSDK_ENUM_VAR/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Editor/RSDK_EDITABLE_VAR/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Editor/showGizmos/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Editor/RSDK_ENUM_VAR/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Graphics/CreateSpriteAnimation/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Editor/showGizmos/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Graphics/EditSpriteAnimation/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Graphics/CreateSpriteAnimation/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Graphics/FindSpriteAnimation/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Graphics/EditSpriteAnimation/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Graphics/GetFrame/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Graphics/FindSpriteAnimation/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Graphics/GetFrameID/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Graphics/GetFrame/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Graphics/GetHitbox/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Graphics/GetFrameID/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Graphics/GetStringWidth/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Graphics/GetHitbox/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Graphics/LoadSpriteAnimation/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Graphics/GetStringWidth/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Graphics/ProcessAnimation/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Graphics/LoadSpriteAnimation/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Graphics/SetSpriteAnimation/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Graphics/ProcessAnimation/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Graphics/SetSpriteString/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Graphics/SetSpriteAnimation/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Misc/HasNotifyCallback/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Graphics/SetSpriteString/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Misc/NotifyCallback/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Misc/HasNotifyCallback/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Misc/SetGameFinished/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Misc/NotifyCallback/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Objects/AddDrawListRef/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Misc/SetGameFinished/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Objects/CREATE_ENTITY/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Objects/AddDrawListRef/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Objects/CheckOnScreen/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Objects/CREATE_ENTITY/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Objects/CheckPosOnScreen/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Objects/CheckOnScreen/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Objects/CopyEntity/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Objects/CheckPosOnScreen/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Objects/FindObject/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Objects/CopyEntity/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Objects/GetDrawListRef/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Objects/FindObject/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Objects/GetDrawListRefSlot/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Objects/GetDrawListRef/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Objects/GetEntityCount/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Objects/GetDrawListRefSlot/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Objects/GetEntitySlot/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Objects/GetEntityCount/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Objects/INIT_ENTITY/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Objects/GetEntitySlot/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Objects/RSDK_GET_ENTITY/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Objects/INIT_ENTITY/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Objects/RSDK_GET_ENTITY_GEN/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Objects/RSDK_GET_ENTITY/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Objects/RSDK_THIS/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Objects/RSDK_GET_ENTITY_GEN/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Objects/RSDK_THIS_GEN/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Objects/RSDK_THIS/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Objects/ResetEntity/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Objects/RSDK_THIS_GEN/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Objects/ResetEntitySlot/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Objects/ResetEntity/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Objects/SetDrawGroupProperties/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Objects/ResetEntitySlot/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Objects/SwapDrawListEntries/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Objects/SetDrawGroupProperties/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Objects/destroyEntity/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Objects/SwapDrawListEntries/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Objects/destroyEntitySlot/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Objects/destroyEntity/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Printing/PrintFloat/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Objects/destroyEntitySlot/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Printing/PrintHitbox/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Printing/PrintFloat/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Printing/PrintInt32/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Printing/PrintHitbox/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Printing/PrintLog/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Printing/PrintInt32/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Printing/PrintString/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Printing/PrintLog/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Printing/PrintText/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Printing/PrintString/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Printing/PrintUInt32/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Printing/PrintText/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Printing/PrintVector2/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Printing/PrintUInt32/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/SpriteSheets/LoadSpriteSheet/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Printing/PrintVector2/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Stages/CheckSceneFolder/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/SpriteSheets/LoadSpriteSheet/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Stages/CheckValidScene/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Stages/CheckSceneFolder/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Stages/ForceHardReset/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Stages/CheckValidScene/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Stages/LoadScene/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Stages/ForceHardReset/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Stages/SetEngineState/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Stages/LoadScene/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Stages/SetScene/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Stages/SetEngineState/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Videos/LoadImage/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Stages/SetScene/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
-         <loc>https://rsdkmodding.com/RSDKv5/Functions/Videos/LoadVideo/</loc>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Videos/LoadImage/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://rsdkmodding.com/RSDKv5/GameAPI/Functions/Videos/LoadVideo/</loc>
          <lastmod>2025-05-30</lastmod>
     </url>
     <url>
