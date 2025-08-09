@@ -55,7 +55,7 @@ Clone the repo **recursively** by running this command in the target directory:
     !!! warning
         **DO NOT** clone the repository in a Windows user directory. This includes folders such as Documents, Downloads, and the Desktop. These directories are known to cause issues when building. It's recommended to instead clone the repo somewhere in a `GitHub` folder located in the root of the C drive, or another drive entirely if possible.
 
-If you'd ever like to update the cloned repository, you can do so by running these commands in it:
+If you'd like to update the cloned repository, you can do so by running these commands in it:
 ```
 git pull
 git submodule update --remote --init
@@ -80,13 +80,13 @@ git submodule update --remote --init
     === "64-bit"
 
         ```
-        vcpkg.exe install libtheora libogg glew glfw3 sdl2 --triplet=x64-windows-static
+        vcpkg.exe install libtheora libogg glew glfw3 sdl2 detours --triplet=x64-windows-static
         ```
 
     === "32-bit"
 
         ```
-        vcpkg.exe install libtheora libogg glew glfw3 sdl2 --triplet=x86-windows-static
+        vcpkg.exe install libtheora libogg glew glfw3 sdl2 detours --triplet=x86-windows-static
         ```
 
     Then, add vcpkg to your environment variables by running the following commands in the vcpkg repository:
@@ -226,14 +226,15 @@ git submodule update --remote --init
     These build flags modify certain aspects of the decomps; only use these if you know what you're doing!
 
 ### RSDKv5
-| Flag                     | Description                                                                                                                                                                                                             | Value Type                             | Default Value                              |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | ------------------------------------------ |
-| **RETRO_REVISION**       | The RSDKv5 revision to compile. Datapacks for certain versions of Sonic Mania only work on older revisions. Set to `3` to build RSDKv5U.                                                                                | Integer (See [Revisions](#revisions))  | `3`                                        |
-| **RETRO_DISABLE_PLUS**   | Disables access to content from Sonic Mania and Sonic Origins' Plus DLC. [**Any publicly distributed builds must have this flag enabled.**](https://github.com/RSDKModding/RSDKv5-Decompilation/blob/master/LICENSE.md) | Boolean                                | `off`                                      |
-| **RETRO_MOD_LOADER**     | Enables the ability the load mods and certain features related to them.                                                                                                                                                 | Boolean                                | `on`                                       |
-| **RETRO_MOD_LOADER_VER** | The revision of the mod loader to build.                                                                                                                                                                                | Integer (`1` or `2`)                   | `2`                                        |
-| **RETRO_DISABLE_LOG**    | Disables the log. Not recommended unless it impacts performance.                                                                                                                                                        | Boolean                                | `off`                                      |
-| **RETRO_SUBSYSTEM**      | The backend used to handle rendering, controller inputs, etc.                                                                                                                                                           | String (See [Subsystems](#subsystems)) | `DX9` on Windows, `OGL` on other platforms |
+| Flag                      | Description                                                                                                                                                                                                             | Value Type                             | Default Value                                                 |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------- |
+| **RETRO_REVISION**        | The RSDKv5 revision to compile. Datapacks for certain versions of Sonic Mania only work on older revisions. Set to `3` to build RSDKv5U.                                                                                | Integer (See [Revisions](#revisions))  | `3`                                                           |
+| **RETRO_DISABLE_PLUS**    | Disables access to content from Sonic Mania and Sonic Origins' Plus DLC. [**Any publicly distributed builds must have this flag enabled.**](https://github.com/RSDKModding/RSDKv5-Decompilation/blob/master/LICENSE.md) | Boolean                                | `off`                                                         |
+| **RETRO_MOD_LOADER**      | Enables the ability the load mods and certain features related to them.                                                                                                                                                 | Boolean                                | `on`                                                          |
+| **RETRO_MOD_LOADER_VER**  | The revision of the mod loader to build.                                                                                                                                                                                | Integer (`1`, `2`, or `3`)             | `3`                                                           |
+| **RETRO_MOD_LOADER_HOOK** | Enable public function hook functionality in the mod loader. Requires mod loader version 3.                                                                                                                             | Boolean                                | `on` on Windows, Linux, and Android, `off` on other platforms |
+| **RETRO_DISABLE_LOG**     | Disables the log. Not recommended unless it impacts performance.                                                                                                                                                        | Boolean                                | `off`                                                         |
+| **RETRO_SUBSYSTEM**       | The backend used to handle rendering, controller inputs, etc.                                                                                                                                                           | String (See [Subsystems](#subsystems)) | `DX9` on Windows, `OGL` on other platforms                    |
 
 #### Revisions
 | Flag Value | Revision                     |

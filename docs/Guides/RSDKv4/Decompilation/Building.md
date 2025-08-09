@@ -35,7 +35,7 @@ git clone --recursive https://github.com/RSDKModding/RSDKv4-Decompilation
 !!! warning
     **DO NOT** clone the repository in a Windows user directory. This includes folders such as Documents, Downloads, and the Desktop. These directories are known to cause issues when building. It's recommended to instead clone the repo somewhere in a `GitHub` folder located in the root of the C drive, or another drive entirely if possible.
 
-If you'd ever like to update the cloned repository, you can do so by running these commands in it:
+If you'd like to update the cloned repository, you can do so by running these commands in it:
 ```
 git pull
 git submodule update --remote --init
