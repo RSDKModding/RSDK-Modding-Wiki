@@ -27,7 +27,9 @@ In addition, refer to these warnings depending on the platform you are compiling
     TODO
 
 ## Get the source code
-In order to clone the repository, you need to install Git, which you can get [here](https://git-scm.com/downloads).
+**DO NOT** download the source code ZIP archive from GitHub, as they do not include the submodules required to build the decompilation.
+
+Instead, you will need to clone the repository using Git, which you can get [here](https://git-scm.com/downloads).
 
 Clone the repo **recursively** by running this command in the target directory:
 === "RSDKv5 + Sonic Mania"
