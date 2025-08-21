@@ -13,9 +13,7 @@ search:
   }
 </style>
 
-# RSDK Modding Wiki
-
-TODO: Replace header with logo
+![Logo](/assets/images/logo.png){ width="75%" }
 
 Welcome to the RSDK Modding Wiki, your one-stop shop for documentation, resources, and guides for Retro Engine modding!
 
