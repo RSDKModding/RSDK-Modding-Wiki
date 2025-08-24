@@ -1,7 +1,7 @@
 # Mod Loader
 
 !!! note
-    This page documents the mod structure and format for mod developers to reference. If you are simply looking to install mods as an end-user, see the [Mod Setup guide](/Guides/RSDKv3/Decompilation/ModSetup.md).
+    This page documents the mod structure and format for mod developers to reference. If you are simply looking to install mods as an end-user, see the [Mod Setup guide](/Guides/RSDKv5/Decompilation/ModSetup.md).
 
 The [RSDKv5 Decompilation](README.md) has a built-in mod loader that allows loading mods that add or replace Data files, as well as loading [GameAPI](TODO) logic files. The mod loader is a custom feature in the decompilation, however you can choose to build without it using the [`RETRO_MOD_LOADER` flag](/Guides/RSDKv5/Decompilation/Building.md#build-flags).
 

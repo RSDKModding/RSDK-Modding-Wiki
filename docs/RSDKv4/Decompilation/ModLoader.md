@@ -1,7 +1,7 @@
 # Mod Loader
 
 !!! note
-    This page documents the mod structure and format for mod developers to reference. If you are simply looking to install mods as an end-user, see the [Mod Setup guide](/Guides/RSDKv3/Decompilation/ModSetup.md).
+    This page documents the mod structure and format for mod developers to reference. If you are simply looking to install mods as an end-user, see the [Mod Setup guide](/Guides/RSDKv4/Decompilation/ModSetup.md).
 
 The [RSDKv4 Decompilation](README.md) has a built-in mod loader, introduced in Version 1.1.2. It allows loading mods that add or replace Data and/or script files. The mod loader is a custom feature in the decompilation, however you can choose to build without it using the [`RETRO_MOD_LOADER` flag](/Guides/RSDKv4/Decompilation/Building.md#build-flags).
 
