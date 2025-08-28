@@ -84,7 +84,7 @@ git pull
         sudo pacman -S base-devel cmake sdl2 libogg libvorbis
         ```
 
-    === "apt (Debian/Ubuntu)
+    === "apt (Debian/Ubuntu)"
 
         ```
         sudo apt install build-essential cmake libsdl2-dev libogg-dev libvorbis-dev
