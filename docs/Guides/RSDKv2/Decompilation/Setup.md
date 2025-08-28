@@ -41,4 +41,4 @@ If some error appears during the gameplay of the decompilation, then please let 
 
 ### Why isn't there the Mod Setup guide?
 
-This is because, unlike other decompilation versions, not many mods were made for the decompilation, thus, there is no Mod Setup guide, once many modders jump on this fossil of the decompilation, then it might be added.
+This is because, unlike other decompilation versions, not many mods were made for the decompilation version, thus, there is no Mod Setup guide, once many modders jump on this fossil of the decompilation version, then it might be added.
