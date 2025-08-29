@@ -4,8 +4,8 @@
 - A build of the RSDKv2 Decompilation for the target platform. You can get one by:
     - [Building the source code](Building.md) (Recommended)
     - [Downloading the latest release](https://github.com/RSDKModding/RSDKv2-Decompilation/releases)
-    - [Downloading an autobuild](https://github.com/RSDKModding/RSDKv2-Decompilation/actions)
-- [The `Data.bin` file from Sonic Nexus](https://info.sonicretro.org/Sonic_Nexus)
+    - [Downloading an autobuild](https://github.com/RSDKModding/RSDKv2-Decompilation/actions) (Must be signed into GitHub to download)
+- [The datapack (Data.bin) for Sonic Nexus](https://info.sonicretro.org/Sonic_Nexus)
 - [Visual C++ Redistributables](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-microsoft-visual-c-redistributable-version) (Windows only)
 
 ## Setup
@@ -23,7 +23,7 @@
 
     Copy the `Data.bin` file from Sonic Nexus in this directory.
 
-    ![Data.bin](/assets/images/Windows/FileExplorer/SonicNexus/Setup-DATA.png)
+    ![Data.bin](/assets/images/Windows/FileExplorer/SonicNexus/Setup-BIN.png)
 
 === "Linux"
 

@@ -18,10 +18,6 @@ In addition, refer to these warnings depending on the platform you are compiling
     !!! warning "Notice for Steam Deck users"
         Due to how SteamOS handles packages, building the decompilation on the Steam Deck is highly difficult and not recommended. Instead, consider building it on another Arch Linux device and using that build on the Steam Deck.
 
-=== "MacOS"
-
-    TODO
-
 ## Get the source code
 **DO NOT** download the source code ZIP archive from GitHub, as issues may occur while building with it.
 
@@ -35,7 +31,7 @@ git clone https://github.com/RSDKModding/RSDKv2-Decompilation
 !!! warning
     **DO NOT** clone the repository in a Windows user directory. This includes folders such as Documents, Downloads, and the Desktop. These directories are known to cause issues when building. It's recommended to instead clone the repo somewhere in a `GitHub` folder located in the root of the C drive, or another drive entirely if possible.
 
-If you'd ever like to update the cloned repository, you can do so by running these commands in it:
+If you'd ever like to update the cloned repository, you can do so by running this command in it:
 ```
 git pull
 ```
@@ -56,15 +52,16 @@ git pull
         It's recommended to clone vcpkg into a short path such as `C:/src` to avoid potential file path issues.
 
     Run the following command in the vcpkg repository:
-
     === "64-bit"
+
         ```
-        vcpkg.exe install glew sdl2 libogg libtheora libvorbis --triplet=x64-windows-static
+        vcpkg.exe install sdl2 libogg libvorbis --triplet=x64-windows-static
         ```
 
     === "32-bit"
+
         ```
-        vcpkg.exe install glew sdl2 libogg libtheora libvorbis --triplet=x86-windows-static
+        vcpkg.exe install sdl2 libogg libvorbis --triplet=x86-windows-static
         ```
 
     Then, add vcpkg to your environment variables by running the following commands in the vcpkg repository:
@@ -80,31 +77,31 @@ git pull
     === "pacman (Arch)"
 
         ```
-        sudo pacman -S base-devel cmake glew sdl2 libogg libtheora libvorbis
+        sudo pacman -S base-devel cmake sdl2 libogg libvorbis
         ```
 
     === "apt (Debian/Ubuntu)"
 
         ```
-        sudo apt install build-essential cmake libglew-dev libsdl2-dev libogg-dev libtheora-dev libvorbis-dev
+        sudo apt install build-essential cmake libsdl2-dev libogg-dev libvorbis-dev
         ```
 
     === "rpm (Fedora)"
 
         ```
-        sudo dnf install gcc cmake glew-devel SDL2-devel libogg-devel libtheora-devel libvorbis-devel zlib-devel
+        sudo dnf install gcc cmake SDL2-devel libogg-devel libvorbis-devel zlib-devel
         ```
 
     === "apk (Alpine/PostmarketOS)"
 
         ```
-        sudo apk add build-base cmake glew-dev sdl2-dev libogg-dev libtheora-dev libvorbis-dev
+        sudo apk add build-base cmake sdl2-dev libogg-dev libvorbis-dev
         ```
 
     === "xbps (Void)"
 
         ```
-        sudo xbps-install make cmake pkg-config glew-devel SDL2-devel libogg-devel libtheora-devel libvorbis-devel zlib-devel
+        sudo xbps-install make cmake pkg-config SDL2-devel libogg-devel libvorbis-devel zlib-devel
         ```
 
 ## Compiling
@@ -146,9 +143,8 @@ git pull
 !!! warning
     These build flags modify certain aspects of the decomp; only use these if you know what you're doing!
 
-| Flag                             | Description                                                                                                                                                                                                         | Value Type           | Default Value |
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | ------------- |
-| **FORCE_CASE_INSENSITIVE**       | Forces case insensivity when loading files. Takes a boolean, defaults to off.                                                                                                                                       | Boolean              | `off`         |
-| **RETRO_MOD_LOADER**             | Enables or disables the mod loader. Takes a boolean, defaults to on.                                                                                                                                                | Boolean              | `on`          |
-| **RETRO_ORIGINAL_CODE**          | Removes any custom code. A playable game will not be built with this enabled. Takes a boolean, defaults to off.                                                                                                     | Boolean              | `off`         |
-| **RETRO_SDL_VERSION**            | Only change this if you know what you're doing. Switches between using SDL1 or SDL2. Takes an integer of either 1 or 2, defaults to 2.                                                                              | Integer              | `2`           |
+| Flag                             | Description                                                             | Value Type           | Default Value |
+| -------------------------------- | ----------------------------------------------------------------------- | -------------------- | ------------- |
+| **FORCE_CASE_INSENSITIVE**       | Forces case insensivity when loading files.                             | Boolean              | `off`         |
+| **RETRO_MOD_LOADER**             | Enables the ability the load mods and certain features related to them. | Boolean              | `on`          |
+| **RETRO_SDL_VERSION**            | Switches between using SDL 1.2 or SDL 2.                                | Integer              | `2`           |
