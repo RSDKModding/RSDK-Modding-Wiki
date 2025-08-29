@@ -77,31 +77,31 @@ git pull
     === "pacman (Arch)"
 
         ```
-        sudo pacman -S base-devel cmake sdl2 libogg libvorbis
+        sudo pacman -S base-devel cmake glew sdl2 libogg libtheora libvorbis
         ```
 
     === "apt (Debian/Ubuntu)"
 
         ```
-        sudo apt install build-essential cmake libsdl2-dev libogg-dev libvorbis-dev
+        sudo apt install build-essential cmake libglew-dev libsdl2-dev libogg-dev libtheora libvorbis-dev
         ```
 
     === "rpm (Fedora)"
 
         ```
-        sudo dnf install gcc cmake SDL2-devel libogg-devel libvorbis-devel zlib-devel
+        sudo dnf install gcc cmake glew-devel SDL2-devel libogg-devel libtheora-devel libvorbis-devel zlib-devel
         ```
 
     === "apk (Alpine/PostmarketOS)"
 
         ```
-        sudo apk add build-base cmake sdl2-dev libogg-dev libvorbis-dev
+        sudo apk add build-base cmake glew-dev sdl2-dev libogg-dev libtheora-dev libvorbis-dev
         ```
 
     === "xbps (Void)"
 
         ```
-        sudo xbps-install make cmake pkg-config SDL2-devel libogg-devel libvorbis-devel zlib-devel
+        sudo xbps-install make cmake pkg-config glew-devel SDL2-devel libogg-devel libtheora-devel libvorbis-devel zlib-devel
         ```
 
 ## Compiling
