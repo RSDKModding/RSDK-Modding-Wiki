@@ -23,7 +23,7 @@ In addition, refer to these warnings depending on the platform you are compiling
     TODO
 
 ## Get the source code
-**DO NOT** download the source code ZIP archive from github, as they do not include the submodules required to build the decompilation, however this one does not use submodules, so you may disregard this warning, but still it is recommended not to download the ZIP archive.
+**DO NOT** download the source code ZIP archive from GitHub, as issues may occur while building with it.
 
 Instead, you will need to clone the repository using Git, which you can get [here](https://git-scm.com/downloads).
 
@@ -55,20 +55,16 @@ git pull
     !!! tip
         It's recommended to clone vcpkg into a short path such as `C:/src` to avoid potential file path issues.
 
-    Run the following command in the root of the cloned repository after cloning the vcpkg repository
+    Run the following command in the vcpkg repository:
     === "64-bit"
-
         ```
-        [vcpkg root]/vcpkg.exe install sdl2 libogg libvorbis --triplet=x64-windows-static
+        vcpkg.exe install glew sdl2 libogg libtheora libvorbis --triplet=x64-windows-static
         ```
-
     === "32-bit"
-
         ```
-        [vcpkg root]/vcpkg.exe install sdl2 libogg libvorbis --triplet=x86-windows-static
+        vcpkg.exe install glew sdl2 libogg libtheora libvorbis --triplet=x86-windows-static
         ```
-
-    You should then add vcpkg to your enviroment variables by running the following commands
+    Then, add vcpkg to your environment variables by running the following commands in the vcpkg repository:
     ```
     set VCPKG_ROOT="%CD%"
     setx VCPKG_ROOT %VCPKG_ROOT%
@@ -76,7 +72,7 @@ git pull
 
 === "Linux"
 
-    Run the following command in a tty emulator (aka Terminal) that your Desktop Enviroment came with:
+    Run the following command in the terminal:
 
     === "pacman (Arch)"
 
@@ -112,27 +108,28 @@ git pull
 === "Windows"
 
     Enter the following commands in the RSDKv2 decompilation repository directory:
+
     === "64-bit"
 
         ```
-        cmake -B build -DCMAKE_TOOLCHAIN_FILE=[vcpkg root]/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH=[vcpkg root]/installed/x64-windows-static/
+        cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH="%VCPKG_ROOT%/installed/x64-windows-static/"
         cmake --build build --config release
         ```
 
     === "32-bit"
 
         ```
-        cmake -B build -DCMAKE_TOOLCHAIN_FILE=[vcpkg root]/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH=[vcpkg root]/installed/x86-windows-static/
+        cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH="%VCPKG_ROOT%/installed/x86-windows-static/" -A Win32
         cmake --build build --config release
         ```
 
     The resulting build will be located somewhere in `build/` depending on your system.
 
-    You can set [build flags](#build-flags) by adding `-D[flag-name]=[value]` to the end of the first command
+    You can set [build flags](#build-flags) by adding `-D[flag-name]=[value]` to the end of the first command.
 
 === "Linux"
 
-    Enter the following commands in the RSDKv3 decompilation repository directory:
+    Enter the following commands in the RSDKv2 decompilation repository directory:
     ```
     cmake -B build -DCMAKE_BUILD_TYPE=Release
     cmake --build build --config release
@@ -151,8 +148,4 @@ git pull
 | **FORCE_CASE_INSENSITIVE**       | Forces case insensivity when loading files. Takes a boolean, defaults to off.                                                                                                                                       | Boolean              | `off`         |
 | **RETRO_MOD_LOADER**             | Enables or disables the mod loader. Takes a boolean, defaults to on.                                                                                                                                                | Boolean              | `on`          |
 | **RETRO_ORIGINAL_CODE**          | Removes any custom code. A playable game will not be built with this enabled. Takes a boolean, defaults to off.                                                                                                     | Boolean              | `off`         |
-| **RETRO_SDL_VERSION**            | Only change this if you know what you're doing. Switches between using SDL1 or SDL2. Takes an integer of either 1 or 2, defaults to 2.                                                                              | Integer              | `on`          |
-
-## Troubleshooting
-
-If some error appears during the compilation of the decompilation, then please let us know at [our discord server](https://dc.railgun.works/retroengine), as we might be able to help you with whatever error you might have.
+| **RETRO_SDL_VERSION**            | Only change this if you know what you're doing. Switches between using SDL1 or SDL2. Takes an integer of either 1 or 2, defaults to 2.                                                                              | Integer              | `2`           |

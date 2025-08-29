@@ -5,7 +5,7 @@
     - [Building the source code](Building.md) (Recommended)
     - [Downloading the latest release](https://github.com/RSDKModding/RSDKv2-Decompilation/releases)
     - [Downloading an autobuild](https://github.com/RSDKModding/RSDKv2-Decompilation/actions)
-- [Sonic Nexus (specficially the data.bin file from the downloaded archive)](https://info.sonicretro.org/Sonic_Nexus)
+- [The `Data.bin` file from Sonic Nexus](https://info.sonicretro.org/Sonic_Nexus)
 - [Visual C++ Redistributables](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-microsoft-visual-c-redistributable-version) (Windows only)
 
 ## Setup
@@ -21,24 +21,10 @@
 
     ![Nexus.exe](/assets/images/Windows/FileExplorer/SonicNexus/Setup-EXE.png)
 
-    Copy the `data.bin` and the `bass.dll` file from the Sonic Nexus root
+    Copy the `Data.bin` file from Sonic Nexus in this directory.
 
-    ![Data.bin and bass.dll](/assets/images/Windows/FileExplorer/SonicNexus/Setup-DATA.png)
+    ![Data.bin](/assets/images/Windows/FileExplorer/SonicNexus/Setup-DATA.png)
 
 === "Linux"
 
     TODO
-
-=== "MacOS"
-
-    TODO
-
-## Troubleshooting
-
-If some error appears during the gameplay of the decompilation, then please let us know at [our discord server](https://dc.railgun.works/retroengine), as we might be able to help you with whatever error you might have.
-
-## FAQ
-
-### Why isn't there the Mod Setup guide?
-
-This is because, unlike other decompilation versions, not many mods were made for the decompilation version, thus, there is no Mod Setup guide, once many modders jump on this fossil of the decompilation version, then it might be added.
