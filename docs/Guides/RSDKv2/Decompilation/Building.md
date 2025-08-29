@@ -86,7 +86,7 @@ git pull
     === "apt (Debian/Ubuntu)"
 
         ```
-        sudo apt install build-essential cmake libglew-dev libsdl2-dev libogg-dev libtheora libvorbis-dev
+        sudo apt install build-essential cmake libglew-dev libsdl2-dev libogg-dev libtheora-dev libvorbis-dev
         ```
 
     === "rpm (Fedora)"
