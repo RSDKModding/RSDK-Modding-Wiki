@@ -641,6 +641,10 @@ nav:
 
   - Guides:
     - Guides/README.md
+    - RSDKv2:
+      - Decompilation:
+        - Building: Guides/RSDKv2/Decompilation/Building.md
+        - Setup: Guides/RSDKv2/Decompilation/Setup.md
     - RSDKv3:
       - Decompilation:
         - Building: Guides/RSDKv3/Decompilation/Building.md
