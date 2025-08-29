@@ -56,14 +56,17 @@ git pull
         It's recommended to clone vcpkg into a short path such as `C:/src` to avoid potential file path issues.
 
     Run the following command in the vcpkg repository:
+
     === "64-bit"
         ```
         vcpkg.exe install glew sdl2 libogg libtheora libvorbis --triplet=x64-windows-static
         ```
+
     === "32-bit"
         ```
         vcpkg.exe install glew sdl2 libogg libtheora libvorbis --triplet=x86-windows-static
         ```
+
     Then, add vcpkg to your environment variables by running the following commands in the vcpkg repository:
     ```
     set VCPKG_ROOT="%CD%"
