@@ -1,6 +1,6 @@
 # Building the RSDKv2 Decompilation
 
-The RSDKv2 Decompilation uses [CMake](https://cmake.org/), a versatile building system that supports many different compilers and platforms
+The RSDKv2 Decompilation uses [CMake](https://cmake.org/), a versatile building system that supports many different compilers and platforms.
 
 ## Read before proceeding
 
@@ -15,26 +15,21 @@ In addition, refer to these warnings depending on the platform you are compiling
 
 === "Linux"
 
-    !!! warning "Notice for Steam Deck users"
-        Due to how SteamOS handles packages, building the decompilation on the Steam Deck is highly difficult and not recommended. Instead, consider building it on another Arch Linux device and using that build on the Steam Deck.
+    !!! warning "Notice for SteamOS users"
+        Due to how SteamOS handles packages, building the decompilation on devices running SteamOS (such as the Steam Deck) is highly difficult and not recommended. Instead, consider compiling a Windows build and running it on SteamOS using Proton.
 
 ## Get the source code
 **DO NOT** download the source code ZIP archive from GitHub, as issues may occur while building with it.
 
 Instead, you will need to clone the repository using Git, which you can get [here](https://git-scm.com/downloads).
 
-Clone the repo by running this command in the target directory:
+Clone the repo **recursively** by running this command in the target directory:
 ```
-git clone https://github.com/RSDKModding/RSDKv2-Decompilation
+git clone --recursive https://github.com/RSDKModding/RSDKv2-Decompilation
 ```
 
 !!! warning
     **DO NOT** clone the repository in a Windows user directory. This includes folders such as Documents, Downloads, and the Desktop. These directories are known to cause issues when building. It's recommended to instead clone the repo somewhere in a `GitHub` folder located in the root of the C drive, or another drive entirely if possible.
-
-If you'd ever like to update the cloned repository, you can do so by running this command in it:
-```
-git pull
-```
 
 ## Getting dependencies
 === "Windows"
@@ -89,7 +84,7 @@ git pull
     === "rpm (Fedora)"
 
         ```
-        sudo dnf install gcc cmake SDL2-devel libogg-devel libvorbis-devel zlib-devel
+        sudo dnf install make gcc cmake SDL2-devel libogg-devel libvorbis-devel zlib-devel
         ```
 
     === "apk (Alpine/PostmarketOS)"
@@ -108,18 +103,17 @@ git pull
 === "Windows"
 
     Enter the following commands in the RSDKv2 decompilation repository directory:
-
     === "64-bit"
 
         ```
-        cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH="%VCPKG_ROOT%/installed/x64-windows-static/"
+        cmake -B build --fresh -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH="%VCPKG_ROOT%/installed/x64-windows-static/"
         cmake --build build --config release
         ```
 
     === "32-bit"
 
         ```
-        cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH="%VCPKG_ROOT%/installed/x86-windows-static/" -A Win32
+        cmake -B build --fresh -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH="%VCPKG_ROOT%/installed/x86-windows-static/" -A Win32
         cmake --build build --config release
         ```
 
@@ -131,7 +125,7 @@ git pull
 
     Enter the following commands in the RSDKv2 decompilation repository directory:
     ```
-    cmake -B build -DCMAKE_BUILD_TYPE=Release
+    cmake -B build --fresh
     cmake --build build --config release
     ```
 
@@ -143,8 +137,15 @@ git pull
 !!! warning
     These build flags modify certain aspects of the decomp; only use these if you know what you're doing!
 
-| Flag                             | Description                                                             | Value Type           | Default Value |
-| -------------------------------- | ----------------------------------------------------------------------- | -------------------- | ------------- |
-| **FORCE_CASE_INSENSITIVE**       | Forces case insensivity when loading files.                             | Boolean              | `off`         |
-| **RETRO_MOD_LOADER**             | Enables the ability the load mods and certain features related to them. | Boolean              | `on`          |
-| **RETRO_SDL_VERSION**            | Switches between using SDL 1.2 or SDL 2.                                | Integer              | `2`           |
+| Flag                       | Description                                                             | Value Type | Default Value |
+| -------------------------- | ----------------------------------------------------------------------- | ---------- | ------------- |
+| **FORCE_CASE_INSENSITIVE** | Forces case insensivity when loading files.                             | Boolean    | `off`         |
+| **RETRO_MOD_LOADER**       | Enables the ability the load mods and certain features related to them. | Boolean    | `on`          |
+| **RETRO_SDL_VERSION**      | Switches between using SDL 1.2 or SDL 2.                                | Integer    | `2`           |
+
+
+## FAQ
+
+### I've built the decomp in the past and would like to rebuild it with the latest changes. How do I do this? { id="update-build" }
+
+If you still have all of the dependencies and other prerequisites for building the decompilation installed, you can run the command `git pull` in the cloned decompilation repository and then follow the [Compiling](#compiling) steps to update and rebuild the decompilation. If you don't have the prerequisites installed, you will have to start over from the beginning.

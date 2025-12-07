@@ -15,8 +15,8 @@ In addition, refer to these warnings depending on the platform you are compiling
 
 === "Linux"
 
-    !!! warning "Notice for Steam Deck users"
-        Due to how SteamOS handles packages, building the decompilation on the Steam Deck is highly difficult and not recommended. Instead, consider building it on another Arch Linux device and using that build on the Steam Deck.
+    !!! warning "Notice for SteamOS users"
+        Due to how SteamOS handles packages, building the decompilation on devices running SteamOS (such as the Steam Deck) is highly difficult and not recommended. Instead, consider compiling a Windows build and running it on SteamOS using Proton.
 
 === "Android"
 
@@ -34,12 +34,6 @@ git clone --recursive https://github.com/RSDKModding/RSDKv3-Decompilation
 
 !!! warning
     **DO NOT** clone the repository in a Windows user directory. This includes folders such as Documents, Downloads, and the Desktop. These directories are known to cause issues when building. It's recommended to instead clone the repo somewhere in a `GitHub` folder located in the root of the C drive, or another drive entirely if possible.
-
-If you'd ever like to update the cloned repository, you can do so by running these commands in it:
-```
-git pull
-git submodule update --remote --init
-```
 
 ## Getting dependencies
 === "Windows"
@@ -139,14 +133,14 @@ git submodule update --remote --init
     === "64-bit"
 
         ```
-        cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH="%VCPKG_ROOT%/installed/x64-windows-static/"
+        cmake -B build --fresh -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH="%VCPKG_ROOT%/installed/x64-windows-static/"
         cmake --build build --config release
         ```
 
     === "32-bit"
 
         ```
-        cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH="%VCPKG_ROOT%/installed/x86-windows-static/" -A Win32
+        cmake -B build --fresh -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH="%VCPKG_ROOT%/installed/x86-windows-static/" -A Win32
         cmake --build build --config release
         ```
 
@@ -158,7 +152,7 @@ git submodule update --remote --init
 
     Enter the following commands in the RSDKv3 decompilation repository directory:
     ```
-    cmake -B build -DCMAKE_BUILD_TYPE=Release
+    cmake -B build --fresh
     cmake --build build --config release
     ```
 
@@ -200,3 +194,9 @@ This error occurs if your path is long enough to build, but too long to rebuild.
 ### Android Studio error: "Interrupt/exception caught (code = 0xc0000005)" { id="android-exception-code-05" }
 
 This error occurs if your path is too long. Try moving the repository to a directory with a shorter path, such as a `GitHub` folder located in the root of the drive.
+
+## FAQ
+
+### I've built the decomp in the past and would like to rebuild it with the latest changes. How do I do this? { id="update-build" }
+
+If you still have all of the dependencies and other prerequisites for building the decompilation installed, you can run the command `git pull` in the cloned decompilation repository and then follow the [Compiling](#compiling) steps to update and rebuild the decompilation. If you don't have the prerequisites installed, you will have to start over from the beginning.

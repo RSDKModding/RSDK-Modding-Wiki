@@ -61,10 +61,6 @@ See [this guide](https://gamebanana.com/tuts/16686) for fixing several Origins r
 
 ## FAQ
 
-### What's the difference between RSDKv5 and RSDKv5U? { id="v5-vs-v5u" }
-
-RSDKv5U adds compatibility for playing RSDKv3 (i.e. Sonic CD) and RSDKv4 (i.e. Sonic 1 & 2) games, including support for local multiplayer. The v5 side of the engine also recieves minor changes, such as altered collision and additional functionality.
-
 ### How do I change the username? { id="change-username" }
 
 In the `Game` category of `settings.ini`, add a tag called `username` and enter the desired username in it, like so:
