@@ -5,7 +5,7 @@
     RSDK Modding Wiki
 </h1>
 
-Website with documentation, resources, and guides for Retro Engine modding, powered by [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) and inspired by [HedgeDocs](https://hedgedocs.com/).
+Website with documentation, resources, and guides for Retro Engine modding, powered by [Zensical](https://zensical.org/) and inspired by [HedgeDocs](https://hedgedocs.com/).
 
 > [!WARNING]
 > This site is a heavy work-in-progress. Expect missing information and empty/placeholder pages. Everything is subject to change.
@@ -24,18 +24,18 @@ Adding a new page to the wiki is easy! After creating a fork of this repository,
 
 After you added your contributions, open a pull request, and if approved, your page will be shown in the wiki for the whole world to see.
 
-### Material for MkDocs features
+### Zensical features
 
-Since this wiki uses Material for MkDocs, you might want to check its [references](https://squidfunk.github.io/mkdocs-material/reference/) to better understand its features. You can use plain Markdown, but you can also use admonitions, buttons, and even icons from Font Awesome.
+Since this wiki uses Zensical, you might want to check its [documentation](https://zensical.org/docs/authoring/markdown/) to better understand its features. You can use plain Markdown, but you can also use admonitions, buttons, and even icons from Font Awesome.
 
 ### Testing
 
 You can test your changes locally before committing. To do so:
 
 - Install [Python](https://www.python.org/downloads/)
-- Install Material For MkDocs and the necessary plug-ins: `pip install mkdocs-material mkdocs-glightbox --upgrade`
-- Serve webpage locally: `mkdocs serve --livereload`
-    - You can also build a static site instead, using `mkdocs build`
+- Install Zensical: `pip install zensical --upgrade`
+- Serve webpage locally: `zensical serve --open`
+    - You can also build a static site instead, using `zensical build --clean`
 
 The served webpage will auto refresh whenever you make changes to the files.
 
