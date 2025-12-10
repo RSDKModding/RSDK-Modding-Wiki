@@ -41,6 +41,14 @@ The served webpage will auto refresh whenever you make changes to the files.
 
 ### Scope
 
-This wiki currently covers Retro Engine versions 1-5(U), as well as all games released for them. Given the work-in-progress state of the wiki, we would like to focus on finishing documentation for those RSDK versions before expanding to cover later versions of the engine.
+This wiki currently covers Retro Engine versions 1-5(U), as well as all games officially released for them. Given the work-in-progress state of the wiki, we would like to focus on finishing documentation for those RSDK versions before expanding to cover later versions of the engine.
 
 In addition to the official releases of RSDK games, this wiki covers the decompilations for Retro Engine versions 2-5(U) and Sonic Mania, as well as GameAPI/ModAPI. However, this wiki only documents the master [RSDKModding](https://github.com/RSDKModding) repositories for the decomps. Please do not add documentation, guides, etc. for any unofficial forks or ports of the decompilations or APIs.
+
+### Writing Guidelines
+
+Here are a few guidelines to follow when writing for the wiki:
+
+- It is strongly recommended to reference existing pages on the wiki for formatting and style before writing yourself.
+- Multimedia files should be included in an appropriate location within the `docs/assets` folder. Do not use external links for them.
+- Use of generative AI or LLMs is not allowed. Any PRs that include AI-generated text, images, etc. will be closed without debate.
