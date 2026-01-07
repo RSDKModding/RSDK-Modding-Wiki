@@ -165,14 +165,14 @@ Clone the repo **recursively** by running this command in the target directory:
 
         ```
         cmake -B build --fresh -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static
-        cmake --build build --config release
+        cmake --build build --parallel --config Release
         ```
 
     === "32-bit"
 
         ```
         cmake -B build --fresh -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -A Win32
-        cmake --build build --config release
+        cmake --build build --parallel --config Release
         ```
 
     The resulting build(s) will be located somewhere in `build/` depending on your system. If you built RSDKv5 and Sonic Mania together, Sonic Mania (`Game.dll`) will be found in `build` while RSDKv5 (`RSDKv5(U).exe`) will be found in `build/dependencies/RSDKv5`.
@@ -184,7 +184,7 @@ Clone the repo **recursively** by running this command in the target directory:
     Enter the following commands in the RSDKv5/Mania decompilation repository directory:
     ```
     cmake -B build --fresh
-    cmake --build build --config release
+    cmake --build build --parallel --config Release
     ```
 
     The resulting build(s) will be located somewhere in `build/` depending on your system. If you built RSDKv5 and Sonic Mania together, Sonic Mania (`libGame.so`) will be found in `build` while RSDKv5 (`RSDKv5(U)`) will be found in `build/dependencies/RSDKv5`.
@@ -196,7 +196,7 @@ Clone the repo **recursively** by running this command in the target directory:
     Enter the following commands in the RSDKv5/Mania decompilation repository directory:
     ```
     cmake -B build --fresh -DCMAKE_TOOLCHAIN_FILE=/opt/devkitpro/cmake/Switch.cmake
-    cmake --build build --config release
+    cmake --build build --parallel --config Release
     ```
 
     The resulting build will be located somewhere in `build/` depending on your system.

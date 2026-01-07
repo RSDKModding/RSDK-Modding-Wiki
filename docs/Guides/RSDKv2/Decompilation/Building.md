@@ -107,14 +107,14 @@ git clone --recursive https://github.com/RSDKModding/RSDKv2-Decompilation
 
         ```
         cmake -B build --fresh -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH="%VCPKG_ROOT%/installed/x64-windows-static/"
-        cmake --build build --config release
+        cmake --build build --parallel --config Release
         ```
 
     === "32-bit"
 
         ```
         cmake -B build --fresh -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH="%VCPKG_ROOT%/installed/x86-windows-static/" -A Win32
-        cmake --build build --config release
+        cmake --build build --parallel --config Release
         ```
 
     The resulting build will be located somewhere in `build/` depending on your system.
@@ -126,7 +126,7 @@ git clone --recursive https://github.com/RSDKModding/RSDKv2-Decompilation
     Enter the following commands in the RSDKv2 decompilation repository directory:
     ```
     cmake -B build --fresh
-    cmake --build build --config release
+    cmake --build build --parallel --config Release
     ```
 
     The resulting build will be located somewhere in `build/` depending on your system.
