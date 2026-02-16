@@ -34,7 +34,7 @@ You can test your changes locally before committing. To do so:
 
 - Install [Python](https://www.python.org/downloads/)
 - Install Material For MkDocs and the necessary plug-ins: `pip install mkdocs-material mkdocs-glightbox --upgrade`
-- Serve webpage locally: `mkdocs serve`
+- Serve webpage locally: `mkdocs serve --livereload`
     - You can also build a static site instead, using `mkdocs build`
 
 The served webpage will auto refresh whenever you make changes to the files.
