@@ -1,6 +1,5 @@
 # MatrixScaleXYZ
 
-## Description
 Scales `matrix` to `scaleX`, `scaleY` and `scaleZ`.
 
 ## Parameters

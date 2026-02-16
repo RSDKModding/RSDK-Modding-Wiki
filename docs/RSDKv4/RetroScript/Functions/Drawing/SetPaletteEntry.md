@@ -1,6 +1,5 @@
 # SetPaletteEntry
 
-## Description
 Sets the palette entry in `bank` at `index` to the value of `color`.
 
 ## Parameters

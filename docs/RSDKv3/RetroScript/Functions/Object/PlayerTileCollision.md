@@ -1,6 +1,5 @@
 # PlayerTileCollision
 
-## Description
 Handles tile collision of the player.
 
 ## Parameters

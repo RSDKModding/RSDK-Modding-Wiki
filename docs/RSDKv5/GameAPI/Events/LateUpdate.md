@@ -1,6 +1,5 @@
 # LateUpdate
 
-## Description
 Same as [Update()](Update.md), though this is called after [Update()](Update.md) was called for all entities and all type and draw list sorting has been done.
 
 ## Parameters

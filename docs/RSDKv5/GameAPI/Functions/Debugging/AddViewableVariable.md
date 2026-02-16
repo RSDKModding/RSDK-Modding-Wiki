@@ -3,7 +3,6 @@
 !!! note
     This function only exists in REV02 and above.
 
-## Description
 Adds a viewable variable to the [Dev Menu]. Viewable variables exist until the scene is changed or reloaded.
 
 ## Parameters

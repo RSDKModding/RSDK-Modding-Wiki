@@ -1,6 +1,5 @@
 # NOTIFY_ACT_FINISH
 
-## Description
 Todo.
 
 ## Parameters

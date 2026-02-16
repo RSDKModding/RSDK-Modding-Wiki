@@ -1,6 +1,5 @@
 # LoadVideo
 
-## Description
 Loads and plays a video.
 
 ## Parameters

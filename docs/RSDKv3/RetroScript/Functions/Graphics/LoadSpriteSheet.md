@@ -1,6 +1,5 @@
 # LoadSpriteSheet
 
-## Description
 Loads a spritesheet and assigns the ID to `Object.SpriteSheet`. The spritesheet must be a GIF file.
 
 !!! note

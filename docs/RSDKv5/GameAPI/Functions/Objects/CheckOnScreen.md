@@ -1,6 +1,5 @@
 # CheckOnScreen
 
-## Description
 Checks if the given entity is on screen based on the given range.
 
 ## Parameters

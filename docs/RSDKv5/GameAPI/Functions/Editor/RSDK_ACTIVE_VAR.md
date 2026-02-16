@@ -1,6 +1,5 @@
 # RSDK_ACTIVE_VAR
 
-## Description
 Sets a variable to be the "active variable" when using [RSDK_ENUM_VAR()](RSDK_ENUM_VAR.md).
 
 ## Parameters

@@ -1,6 +1,5 @@
 # RSDK_DRAWING_OVERLAY
 
-## Description
 Enables/disables "overlay" mode when drawing.
 
 ## Parameters

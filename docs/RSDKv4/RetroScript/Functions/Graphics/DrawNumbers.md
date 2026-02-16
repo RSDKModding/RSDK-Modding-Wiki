@@ -1,6 +1,5 @@
 # DrawNumbers
 
-## Description
 Draws a number in screen-space.
 
 ## Parameters

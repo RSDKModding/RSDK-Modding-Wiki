@@ -1,6 +1,5 @@
 # SetTileLayerEntry
 
-## Description
 Sets the chunk at `ChunkX`, `ChunkY` in tile layer `Layer` to the index of `Value`.
 
 ## Parameters

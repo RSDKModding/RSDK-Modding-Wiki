@@ -1,6 +1,5 @@
 # SetSpriteString
 
-## Description
 Converts a string into a sprite string. Calling this function will replace each character with a frame index and prepare it for drawing.
 
 ## Parameters

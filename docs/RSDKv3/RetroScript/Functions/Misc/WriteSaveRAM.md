@@ -1,6 +1,5 @@
 # WriteSaveRAM
 
-## Description
 Writes the contents of SaveRAM to the save file on disk.
 
 ## Parameters

@@ -1,6 +1,5 @@
 # SetActivePalette
 
-## Description
 Sets the active palette to `PalBank` for all vertical screen lines from `StartLine` to `EndLine`.
 
 ## Parameters

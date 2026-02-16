@@ -1,6 +1,5 @@
 # DrawActName
 
-## Description
 Draws the current stage's title.
 
 ## Parameters

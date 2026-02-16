@@ -1,6 +1,5 @@
 # RSDK_EDITABLE_VAR
 
-## Description
 Sets a variable from the given object's entity struct to be editable in an editor.
 
 ## Parameters

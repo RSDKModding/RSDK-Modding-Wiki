@@ -1,6 +1,5 @@
 # SetLeaderboard
 
-## Description
 Submits the given score to the given leaderboard.
 
 !!! note

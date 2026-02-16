@@ -3,7 +3,6 @@
 !!! note
     This function does not exist in REV00.
 
-## Description
 Performs an inversion on `matrix`'s values.
 
 ## Parameters

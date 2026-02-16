@@ -1,6 +1,5 @@
 # FindSpriteAnimation
 
-## Description
 Attempts to find an animation entry by name.
 
 ## Parameters

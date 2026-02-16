@@ -1,6 +1,5 @@
 # CheckEqual
 
-## Description
 Checks if `x` and `y` are equal and stores the result in `checkResult`.
 
 ## Parameters

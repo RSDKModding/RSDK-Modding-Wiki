@@ -1,6 +1,5 @@
 # RSDK_THIS
 
-## Description
 Defines local pointer `self` pointing to `sceneInfo->entity` using the given object's entity struct.
 
 ## Parameters

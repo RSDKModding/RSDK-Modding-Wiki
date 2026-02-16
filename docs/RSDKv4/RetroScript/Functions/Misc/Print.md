@@ -1,6 +1,5 @@
 # Print
 
-## Description
 Prints a message or integer to the console.
 
 !!! note

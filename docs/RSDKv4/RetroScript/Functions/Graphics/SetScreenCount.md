@@ -3,7 +3,6 @@
 !!! note
     This function only exists in RSDKv5U.
 
-## Description
 Sets the screen count.
 
 ## Parameters

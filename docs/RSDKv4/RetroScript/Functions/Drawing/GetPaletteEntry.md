@@ -1,6 +1,5 @@
 # GetPaletteEntry
 
-## Description
 Gets the palette entry in `bank` at `index` and stores it in `store`.
 
 ## Parameters

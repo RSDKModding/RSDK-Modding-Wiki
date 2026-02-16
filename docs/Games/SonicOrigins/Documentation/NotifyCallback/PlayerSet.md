@@ -1,6 +1,5 @@
 # NOTIFY_PLAYER_SET
 
-## Description
 Todo.
 
 ## Parameters

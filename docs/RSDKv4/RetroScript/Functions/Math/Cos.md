@@ -1,6 +1,5 @@
 # Cos
 
-## Description
 Gets the value from the `cos512` lookup table based on `angle` and sets it in `store`.
 
 ## Parameters

@@ -1,6 +1,5 @@
 # NOTIFY_GOOD_ENDING
 
-## Description
 Todo.
 
 ## Parameters

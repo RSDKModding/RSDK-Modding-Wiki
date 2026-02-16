@@ -1,6 +1,5 @@
 # NOTIFY_SPECIAL_END
 
-## Description
 Todo.
 
 ## Parameters

@@ -1,6 +1,5 @@
 # MatrixTranslateXYZ
 
-## Description
 Translates `matrix` to `translateX`, `translateY` and `translateZ`.
 
 ## Parameters

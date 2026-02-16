@@ -1,6 +1,5 @@
 # NOTIFY_TOUCH_SIGNPOST
 
-## Description
 Notifies [Hedgehog Engine 2](../../HedgehogEngine2.md) when a sign post has been touched to signify the completion of the stage in mission mode. In Sonic 3 & Knuckles this is only called from the `SignPost2` object.
 
 ## Parameters

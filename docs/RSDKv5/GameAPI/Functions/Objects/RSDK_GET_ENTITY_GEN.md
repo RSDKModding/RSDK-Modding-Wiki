@@ -1,6 +1,5 @@
 # RSDK_GET_ENTITY_GEN
 
-## Description
 Gets the data of the given entity using a generic entity struct.
 
 ## Parameters

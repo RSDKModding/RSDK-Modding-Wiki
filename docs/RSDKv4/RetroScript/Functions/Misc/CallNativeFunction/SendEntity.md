@@ -1,6 +1,5 @@
 # SendEntity
 
-## Description
 Sends the data for an object to the opponent in 2P VS.
 
 ## Parameters

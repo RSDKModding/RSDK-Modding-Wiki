@@ -1,6 +1,5 @@
 # Update
 
-## Description
 Called once every frame per entity if Entity::[active](TODO) allows for it.
 
 ## Parameters

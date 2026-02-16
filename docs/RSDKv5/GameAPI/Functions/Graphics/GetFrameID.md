@@ -1,6 +1,5 @@
 # GetFrameID
 
-## Description
 Gets the `unicode char` value of the animator's current frame.
 
 ## Parameters

@@ -1,6 +1,5 @@
 # CopyPalette
 
-## Description
 Copies `SrcPal` into `DstPal`.
 
 ## Parameters

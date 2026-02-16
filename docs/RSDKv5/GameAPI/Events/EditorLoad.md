@@ -1,6 +1,5 @@
 # EditorLoad
 
-## Description
 Similar to [StageLoad()](StageLoad.md), though only called when the object class is loaded in via an editor (such as [RetroED](/Tools/RetroED/README.md)). Used to load assets that will be used in [EditorDraw()](EditorDraw.md).
 
 ## Parameters

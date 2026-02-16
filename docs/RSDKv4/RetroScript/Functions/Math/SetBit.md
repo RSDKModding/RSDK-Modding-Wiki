@@ -1,6 +1,5 @@
 # SetBit
 
-## Description
 Sets index `bitPos` of `value` to `bit` and updates `value` accordingly.
 
 ## Parameters

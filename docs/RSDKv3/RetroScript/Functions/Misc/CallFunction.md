@@ -1,6 +1,5 @@
 # CallFunction
 
-## Description
 Calls the given object function.
 
 ## Parameters

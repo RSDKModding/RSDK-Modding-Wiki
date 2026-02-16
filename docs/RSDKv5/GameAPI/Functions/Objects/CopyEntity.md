@@ -1,6 +1,5 @@
 # CopyEntity
 
-## Description
 Copies an entity into another entity.
 
 ## Parameters

@@ -1,6 +1,5 @@
 # RSDK_GET_ENTITY
 
-## Description
 Gets the data of the given entity using the given object's entity struct.
 
 ## Parameters

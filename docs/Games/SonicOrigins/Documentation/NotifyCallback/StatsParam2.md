@@ -1,6 +1,5 @@
 # NOTIFY_STATS_PARAM_2
 
-## Description
 Todo.
 
 ## Parameters

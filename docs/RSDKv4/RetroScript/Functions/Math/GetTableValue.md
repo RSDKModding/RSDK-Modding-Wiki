@@ -1,6 +1,5 @@
 # GetTableValue
 
-## Description
 Gets the value at `index` from `table` and stores it in `store`.
 
 ## Parameters

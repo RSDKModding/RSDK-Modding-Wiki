@@ -1,6 +1,5 @@
 # SetSfxAttributes
 
-## Description
 Sets the loop count and panning of the given sound effect to the given values.
 
 ## Parameters

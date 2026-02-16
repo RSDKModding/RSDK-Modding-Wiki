@@ -1,6 +1,5 @@
 # SfxPlaying
 
-## Description
 Checks if the given sound effect is playing in any channels.
 
 ## Parameters

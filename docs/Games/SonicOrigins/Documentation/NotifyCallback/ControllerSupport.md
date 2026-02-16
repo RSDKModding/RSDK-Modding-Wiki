@@ -1,6 +1,5 @@
 # NOTIFY_CONTROLLER_SUPPORT
 
-## Description
 Opens the controller setup screen in the Nintendo Switch version of the game, then sets `callbackResult` based on the platform and controller count.
 
 ## Parameters

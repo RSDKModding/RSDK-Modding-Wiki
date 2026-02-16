@@ -3,7 +3,6 @@
 !!! note
     This function only exists in Sonic Origins.
 
-## Description
 Notifies the engine that the game has been finished.
 
 ## Parameters

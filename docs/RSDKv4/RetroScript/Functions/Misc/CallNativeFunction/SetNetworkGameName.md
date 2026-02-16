@@ -3,7 +3,6 @@
 !!! note
     This native function only exists in the RSDKv4 decompilation with networking enabled. You can check if the function is usable by using the `USE_NETWORKING` platform flag.
 
-## Description
 Sets the name of the game to find 2P VS opponents for.
 
 ## Parameters

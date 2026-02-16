@@ -1,6 +1,5 @@
 # EditFrame
 
-## Description
 Edits the pivots, width, height, and sheet coordinates of `frame`.
 
 ## Parameters

@@ -1,6 +1,5 @@
 # CosChange
 
-## Description
 Performs [Cos()](Cos.md) on `Angle`, then right shifts, increments, and decrements the result, in that order, before storing the final output in `Store`.
 
 ## Parameters

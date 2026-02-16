@@ -1,6 +1,5 @@
 # NOTIFY_ADD_COIN
 
-## Description
 Awards the player the given amount of coins.
 
 ## Parameters

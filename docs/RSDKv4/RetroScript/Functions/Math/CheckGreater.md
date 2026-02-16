@@ -1,6 +1,5 @@
 # CheckGreater
 
-## Description
 Checks if `x` is greater than `y` and stores the result in `checkResult`.
 
 ## Parameters

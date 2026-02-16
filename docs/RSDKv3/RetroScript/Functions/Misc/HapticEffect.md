@@ -1,6 +1,5 @@
 # HapticEffect
 
-## Description
 Queues/Plays a haptic effect, if the engine build and device support it.
 
 ## Parameters

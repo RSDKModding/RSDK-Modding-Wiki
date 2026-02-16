@@ -1,6 +1,5 @@
 # TransmitGlobal
 
-## Description
 Sets a global variable for the opponent in 2P VS.
 
 ## Parameters

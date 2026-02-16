@@ -1,6 +1,5 @@
 # Set16x16TileInfo
 
-## Description
 Sets the value for `infoType` from the tile at `tileX`, `tileY` to `value`.
 
 ## Parameters

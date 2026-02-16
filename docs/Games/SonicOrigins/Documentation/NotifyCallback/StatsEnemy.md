@@ -1,6 +1,5 @@
 # NOTIFY_STATS_ENEMY
 
-## Description
 Todo.
 
 ## Parameters

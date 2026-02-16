@@ -1,6 +1,5 @@
 # DrawSprite
 
-## Description
 Draws `frame` at the object's X and Y position.
 
 ## Parameters

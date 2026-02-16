@@ -1,6 +1,5 @@
 # SetDrawGroupProperties
 
-## Description
 Sets the properties of `drawGroup`.
 
 ## Parameters

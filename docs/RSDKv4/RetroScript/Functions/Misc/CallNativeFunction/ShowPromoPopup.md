@@ -1,6 +1,5 @@
 # ShowPromoPopup
 
-## Description
 Shows a promo popup.
 
 ## Parameters

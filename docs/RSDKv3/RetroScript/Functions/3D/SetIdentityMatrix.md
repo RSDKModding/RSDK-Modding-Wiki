@@ -1,6 +1,5 @@
 # SetIdentityMatrix
 
-## Description
 Sets the matrix of `MatID` to the identity state.
 
 ## Parameters

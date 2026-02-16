@@ -1,6 +1,5 @@
 # MatrixMultiply
 
-## Description
 Multiplies `matrixA` by `matrixB`.
 
 ## Parameters

@@ -1,6 +1,5 @@
 # GetSfx
 
-## Description
 Retrieves the ID of the given sound effect.
 
 ## Parameters

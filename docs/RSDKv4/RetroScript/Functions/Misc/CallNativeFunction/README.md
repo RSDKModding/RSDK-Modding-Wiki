@@ -1,6 +1,5 @@
 # CallNativeFunction
 
-## Description
 Sends a callback to the engine to run a native function.
 There are three versions of the function that can be used depending on the amount of parameters needed for the callback:
 

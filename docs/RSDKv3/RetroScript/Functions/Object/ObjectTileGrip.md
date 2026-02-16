@@ -1,6 +1,5 @@
 # ObjectTileGrip
 
-## Description
 Tries to collide with the foreground layer based on the position of `Object.iXPos` + `xOffset`, `Object.iYPos` + `yOffset`.
 TODO: this needs a better description to differentiate it from [ObjectTileCollision()](ObjectTileCollision.md)
 

@@ -1,6 +1,5 @@
 # SetScene
 
-## Description
 Sets the scene category and list position to the matching scene entry in the GameConfig.
 
 ## Parameters

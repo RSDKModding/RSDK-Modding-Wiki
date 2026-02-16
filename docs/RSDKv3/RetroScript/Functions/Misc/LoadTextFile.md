@@ -1,6 +1,5 @@
 # LoadTextFile
 
-## Description
 Loads `Menu` based on the text file loaded from `FilePath`.
 
 ## Parameters

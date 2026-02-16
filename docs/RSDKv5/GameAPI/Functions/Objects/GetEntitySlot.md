@@ -1,6 +1,5 @@
 # GetEntitySlot
 
-## Description
 Gets the slot ID of an entity.
 
 ## Parameters

@@ -1,6 +1,5 @@
 ## SetDrawListEntityRef
 
-## Description
 Sets `objectPos` in drawList `layer` to `value`.
 
 ## Parameters

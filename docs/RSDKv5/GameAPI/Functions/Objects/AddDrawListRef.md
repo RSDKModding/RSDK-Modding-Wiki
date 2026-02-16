@@ -1,6 +1,5 @@
 # AddDrawListRef
 
-## Description
 Adds a reference to an entity to a draw group.
 
 ## Parameters

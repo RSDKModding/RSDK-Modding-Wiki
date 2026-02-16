@@ -1,6 +1,5 @@
 # NOTIFY_TITLECARD_INIT
 
-## Description
 Todo.
 
 ## Parameters

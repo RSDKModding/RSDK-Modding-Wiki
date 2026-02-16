@@ -1,6 +1,5 @@
 # GetEntityCount
 
-## Description
 Gets the count of the amount of entities of the given object type currently in the stage.
 
 ## Parameters

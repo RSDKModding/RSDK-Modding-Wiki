@@ -1,6 +1,5 @@
 # NOTIFY_EXTRAS_MODE
 
-## Description
 Todo.
 
 ## Parameters

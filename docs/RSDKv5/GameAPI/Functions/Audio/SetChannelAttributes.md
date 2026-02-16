@@ -1,6 +1,5 @@
 # SetChannelAttributes
 
-## Description
 Sets the volume, panning, and speed of the given channel to the given values.
 
 ## Parameters

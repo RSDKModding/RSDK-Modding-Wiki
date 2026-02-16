@@ -1,6 +1,5 @@
 # StopChannel
 
-## Description
 Stops playing the currently playing audio in the given channel, if any is playing.
 
 ## Parameters

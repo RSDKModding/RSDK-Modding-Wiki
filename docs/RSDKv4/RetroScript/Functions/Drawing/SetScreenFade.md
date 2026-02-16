@@ -1,6 +1,5 @@
 # SetScreenFade
 
-## Description
 Adds a screen fade effect based on the `r`, `g`, `b` and `alpha` values.
 
 ## Parameters

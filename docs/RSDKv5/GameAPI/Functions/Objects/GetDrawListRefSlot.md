@@ -1,6 +1,5 @@
 # GetDrawListRefSlot
 
-## Description
 Gets the entity slot in the given draw group at the given position.
 
 ## Parameters

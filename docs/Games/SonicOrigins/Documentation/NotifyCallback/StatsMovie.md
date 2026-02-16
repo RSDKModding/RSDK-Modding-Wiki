@@ -1,6 +1,5 @@
 # NOTIFY_STATS_MOVIE
 
-## Description
 Todo.
 
 ## Parameters

@@ -1,6 +1,5 @@
 # LoadSpriteSheet
 
-## Description
 Loads a spritesheet and returns the ID of it.
 
 ## Parameters

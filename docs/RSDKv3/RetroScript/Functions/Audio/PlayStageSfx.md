@@ -1,6 +1,5 @@
 # PlayStageSfx
 
-## Description
 Plays the sound effect in the given slot in the StageConfig, looping it if set to do so.
 
 ## Parameters

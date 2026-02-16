@@ -1,6 +1,5 @@
 # GetDrawListRef
 
-## Description
 Gets a pointer to the entity in the given draw group at the given position.
 
 ## Parameters

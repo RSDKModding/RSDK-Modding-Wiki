@@ -1,6 +1,5 @@
 # NOTIFY_SOUND_TRACK
 
-## Description
 Todo.
 
 ## Parameters

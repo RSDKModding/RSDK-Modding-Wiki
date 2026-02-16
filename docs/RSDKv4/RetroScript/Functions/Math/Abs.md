@@ -1,6 +1,5 @@
 # Abs
 
-## Description
 Gets the absolute number of `value`.
 
 ## Parameters

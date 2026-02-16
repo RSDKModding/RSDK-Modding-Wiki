@@ -1,6 +1,5 @@
 # SetLayerDeformation
 
-## Description
 Sets the deformation data array of `deformID`, based on `deformA` and `deformB`.
 
 ## Parameters

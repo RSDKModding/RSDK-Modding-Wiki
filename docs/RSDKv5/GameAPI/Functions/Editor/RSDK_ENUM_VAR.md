@@ -1,6 +1,5 @@
 # RSDK_ENUM_VAR
 
-## Description
 Adds an enum variable to the current active variable.
 
 ## Parameters

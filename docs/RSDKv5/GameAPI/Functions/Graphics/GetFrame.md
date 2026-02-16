@@ -1,6 +1,5 @@
 # GetFrame
 
-## Description
 Retrieves a specific SpriteFrame from a SpriteAnimation.
 
 ## Parameters

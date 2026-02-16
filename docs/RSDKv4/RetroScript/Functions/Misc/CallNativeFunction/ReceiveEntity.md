@@ -1,6 +1,5 @@
 # ReceiveEntity
 
-## Description
 Recieves an object sent from the opponent in 2P VS.
 
 ## Parameters

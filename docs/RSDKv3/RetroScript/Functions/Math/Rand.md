@@ -1,6 +1,5 @@
 # Rand
 
-## Description
 Gets a random value from 0 to `Max` (not inclusive) and stores it in `Store`.
 
 !!! note

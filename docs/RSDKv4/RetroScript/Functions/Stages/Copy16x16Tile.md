@@ -1,6 +1,5 @@
 # Copy16x16Tile
 
-## Description
 Copies the tileset image data of `srcTile` to `dstTile`.
 
 !!! tip

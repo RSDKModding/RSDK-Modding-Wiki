@@ -1,6 +1,5 @@
 # ProcessObjectMovement
 
-## Description
 Handles tile collision of an object/player.
 
 ## Parameters

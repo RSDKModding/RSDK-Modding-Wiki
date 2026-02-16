@@ -1,6 +1,5 @@
 # ResetEntity
 
-## Description
 Resets `entity` with the `classID` and `data` specified.
 
 ## Parameters

@@ -1,6 +1,5 @@
 # LoadScene
 
-## Description
 Loads a stage based on `SceneInfo->activeCategory` and `SceneInfo->listPos`.
 
 ## Parameters

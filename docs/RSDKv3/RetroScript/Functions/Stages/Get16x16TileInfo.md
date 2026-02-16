@@ -1,6 +1,5 @@
 # Get16x16TileInfo
 
-## Description
 Gets the value for `InfoTile` from the tile at `TileX`, `TileY` and stores it in `Store`.
 
 ## Parameters

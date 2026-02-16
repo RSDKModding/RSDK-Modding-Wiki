@@ -1,6 +1,5 @@
 # NOTIFY_BACK_TO_MAINMENU
 
-## Description
 Todo.
 
 ## Parameters

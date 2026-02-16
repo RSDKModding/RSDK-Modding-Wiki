@@ -1,6 +1,5 @@
 # ProcessObjectControl
 
-## Description
 Handles object input variables.
 
 !!! note

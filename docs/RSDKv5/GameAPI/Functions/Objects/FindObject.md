@@ -1,6 +1,5 @@
 # FindObject
 
-## Description
 Finds a loaded object by name and retrieves its ID.
 
 ## Parameters

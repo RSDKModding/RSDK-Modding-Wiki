@@ -1,6 +1,5 @@
 # ResetObjectEntity
 
-## Description
 Resets an object in position `Slot` to the `Type`, `PropertyValue`, `XPos`, and `YPos` specified.
 
 ## Parameters

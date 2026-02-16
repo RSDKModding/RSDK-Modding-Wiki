@@ -1,6 +1,5 @@
 # DrawSpriteScreenFX
 
-## Description
 Draws `Frame` at a specified X and Y position in screen-space with visual effects.
 
 ## Parameters

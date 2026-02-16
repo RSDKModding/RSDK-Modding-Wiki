@@ -1,6 +1,5 @@
 # NOTIFY_DEATH_EVENT
 
-## Description
 Notifies [Hedgehog Engine 2](../../HedgehogEngine2.md) of a Player death.
 
 ## Parameters

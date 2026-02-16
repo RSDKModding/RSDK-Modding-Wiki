@@ -1,6 +1,5 @@
 # ClearDrawList
 
-## Description
 Removes all entries in drawList `Layer`.
 
 ## Parameters

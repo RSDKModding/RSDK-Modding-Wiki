@@ -1,6 +1,5 @@
 # NOTIFY_1P_VS_SELECT
 
-## Description
 Todo.
 
 ## Parameters

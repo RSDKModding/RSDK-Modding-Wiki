@@ -3,7 +3,6 @@
 !!! note
     This function only exists in Sonic Origins.
 
-## Description
 Checks if the game has access to [NotifyCallback()](NotifyCallback.md).
 
 ## Parameters

@@ -1,6 +1,5 @@
 # NOTIFY_STATS_BREAK_OBJECT
 
-## Description
 Todo.
 
 ## Parameters

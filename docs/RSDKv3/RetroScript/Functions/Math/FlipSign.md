@@ -1,6 +1,5 @@
 # FlipSign
 
-## Description
 Flips the sign of the given variable; positive values will become negative values, and vice versa.
 
 ## Parameters

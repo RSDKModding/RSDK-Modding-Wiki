@@ -1,6 +1,5 @@
 # TransformVertices
 
-## Description
 Transform all vertices from `startIndex` to `endIndex` using `matrix`.
 
 ## Parameters

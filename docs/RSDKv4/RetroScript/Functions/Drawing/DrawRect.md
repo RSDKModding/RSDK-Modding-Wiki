@@ -1,6 +1,5 @@
 # DrawRect
 
-## Description
 Draws a rectangle to `ixpos` and `iypos` in screen-space, with a color based on the `r`, `g`, `b`, and `alpha`.
 
 ## Parameters

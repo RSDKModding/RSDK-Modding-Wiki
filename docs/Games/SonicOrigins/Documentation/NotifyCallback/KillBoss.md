@@ -1,6 +1,5 @@
 # NOTIFY_KILL_BOSS
 
-## Description
 Todo.
 
 ## Parameters

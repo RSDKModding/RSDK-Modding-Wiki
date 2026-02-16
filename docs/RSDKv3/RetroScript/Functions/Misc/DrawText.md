@@ -1,6 +1,5 @@
 # DrawText
 
-## Description
 Draws the contents of `menu`.
 
 ## Parameters

@@ -3,7 +3,6 @@
 !!! note
     This function only exists in RSDKv5U.
 
-## Description
 Checks if an input device has been assigned.
 
 ## Parameters

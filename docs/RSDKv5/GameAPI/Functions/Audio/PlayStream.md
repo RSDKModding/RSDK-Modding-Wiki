@@ -1,6 +1,5 @@
 # PlayStream
 
-## Description
 Plays the given music file, looping it if set to do so.
 
 ## Parameters

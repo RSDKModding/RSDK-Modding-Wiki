@@ -1,6 +1,5 @@
 # BindPlayerToObject
 
-## Description
 Binds a Player set to `ListPos` in the player list to entity slot number `EntityNo`.
 
 ## Parameters

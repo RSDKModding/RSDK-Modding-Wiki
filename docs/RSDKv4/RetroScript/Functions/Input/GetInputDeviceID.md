@@ -3,7 +3,6 @@
 !!! note
     This function only exists in RSDKv5U.
 
-## Description
 Stores the ID of an input device in `store`.
 
 ## Parameters

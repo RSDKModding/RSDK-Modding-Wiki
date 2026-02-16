@@ -3,7 +3,6 @@
 !!! note
     This function only exists in RSDKv5U.
 
-## Description
 Assigns a player to an input device.
 
 ## Parameters

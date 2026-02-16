@@ -1,6 +1,5 @@
 # GetDrawListEntityRef
 
-## Description
 Gets `objectPos` in drawList `layer` and stores it in `store`.
 
 ## Parameters

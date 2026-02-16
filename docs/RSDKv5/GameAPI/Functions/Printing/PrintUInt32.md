@@ -3,7 +3,6 @@
 !!! note
     This function only exists in REV02 and above.
 
-## Description
 Prints an unsigned integer to the console.
 
 ## Parameters

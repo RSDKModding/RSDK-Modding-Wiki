@@ -1,6 +1,5 @@
 # SpriteFrame
 
-## Description
 Adds a SpriteFrame with the specified values.
 
 ## Parameters

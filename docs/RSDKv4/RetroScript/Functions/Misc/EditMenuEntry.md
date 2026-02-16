@@ -1,6 +1,5 @@
 # EditMenuEntry
 
-## Description
 Edits an entry of `menu` with the contents of `text` in `rowID`. The text will display highlighted if `highlightEntry` is set to true.
 
 ## Parameters

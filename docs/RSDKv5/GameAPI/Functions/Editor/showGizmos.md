@@ -1,6 +1,5 @@
 # showGizmos
 
-## Description
 Checks if gizmos should be visible for this object.
 
 ## Parameters

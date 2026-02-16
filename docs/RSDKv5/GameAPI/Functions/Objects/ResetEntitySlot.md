@@ -1,6 +1,5 @@
 # ResetEntitySlot
 
-## Description
 Resets the entity in `slot` with the `classID` and `data` specified.
 
 ## Parameters

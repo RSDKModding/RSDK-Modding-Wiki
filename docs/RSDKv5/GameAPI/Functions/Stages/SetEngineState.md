@@ -1,6 +1,5 @@
 # SetEngineState
 
-## Description
 Sets the state of the engine.
 
 ## Parameters

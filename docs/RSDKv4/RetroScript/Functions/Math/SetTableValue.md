@@ -1,6 +1,5 @@
 # SetTableValue
 
-## Description
 Sets the value at `index` from `table` to `value`.
 
 ## Parameters

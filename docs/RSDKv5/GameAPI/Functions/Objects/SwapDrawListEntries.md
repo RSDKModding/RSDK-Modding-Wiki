@@ -1,6 +1,5 @@
 # SwapDrawListEntries
 
-## Description
 Swaps the draw list positions of `slot1` and `slot2` in `drawGroup`.
 
 ## Parameters

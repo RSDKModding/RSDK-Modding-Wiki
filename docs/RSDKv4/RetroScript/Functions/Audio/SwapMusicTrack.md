@@ -1,6 +1,5 @@
 # SwapMusicTrack
 
-## Description
 Loads a music file in the given track slot with the given loop point. If the track slot that's currently playing is the one that's been overwritten, the new song will automatically play at a position based on the given ratio of the current track's position.
 
 ## Parameters

@@ -3,7 +3,6 @@
 !!! note
     This function only exists in RSDKv5U.
 
-## Description
 Checks if a player has been assigned to an input device.
 
 ## Parameters

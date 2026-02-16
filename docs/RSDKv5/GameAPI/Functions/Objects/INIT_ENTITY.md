@@ -1,6 +1,5 @@
 # INIT_ENTITY
 
-## Description
 Initializes the `active`, `visible`, and `updateRange` values of the given entity.
 
 ## Parameters

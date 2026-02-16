@@ -1,6 +1,5 @@
 # PlaySfx
 
-## Description
 Plays the sound effect in the given slot in the GameConfig, looping it if set to do so.
 
 ## Parameters

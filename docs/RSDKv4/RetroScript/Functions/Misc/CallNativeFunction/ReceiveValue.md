@@ -1,6 +1,5 @@
 # ReceiveValue
 
-## Description
 Sets a variable to a value sent from the opponent in 2P VS.
 
 ## Parameters

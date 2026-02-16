@@ -1,6 +1,5 @@
 # AddDrawListEntityRef
 
-## Description
 Adds `objectPos` to drawList `layer`.
 
 ## Parameters

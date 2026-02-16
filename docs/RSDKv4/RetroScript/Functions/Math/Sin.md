@@ -1,6 +1,5 @@
 # Sin
 
-## Description
 Gets the value from the `sin512` lookup table based on `angle` and sets it in `store`.
 
 ## Parameters

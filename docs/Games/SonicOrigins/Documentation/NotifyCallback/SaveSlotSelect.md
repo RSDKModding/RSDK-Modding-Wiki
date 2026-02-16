@@ -1,6 +1,5 @@
 # NOTIFY_SAVESLOT_SELECT
 
-## Description
 Todo.
 
 ## Parameters

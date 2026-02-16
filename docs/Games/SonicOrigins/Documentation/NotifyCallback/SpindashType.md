@@ -1,6 +1,5 @@
 # NOTIFY_SPIN_DASH_TYPE
 
-## Description
 Todo.
 
 ## Parameters

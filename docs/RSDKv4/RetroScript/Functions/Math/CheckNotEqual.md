@@ -1,6 +1,5 @@
 # CheckNotEqual
 
-## Description
 Checks if `x` and `y` are not equal and stores the result in `checkResult`.
 
 ## Parameters

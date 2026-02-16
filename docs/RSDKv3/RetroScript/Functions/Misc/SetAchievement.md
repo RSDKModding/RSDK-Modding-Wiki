@@ -1,6 +1,5 @@
 # SetAchievement
 
-## Description
 Sets the status of the given achievement.
 
 !!! note

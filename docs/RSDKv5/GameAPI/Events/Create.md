@@ -1,6 +1,5 @@
 # Create
 
-## Description
 Called on engine initialization, or when the game code manually creates an entity (usually on [StageLoad()](StageLoad.md) or when a new entity is created).
 
 ## Parameters

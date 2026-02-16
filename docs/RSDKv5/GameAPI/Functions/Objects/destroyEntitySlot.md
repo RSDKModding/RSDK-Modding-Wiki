@@ -1,6 +1,5 @@
 # destroyEntitySlot
 
-## Description
 Clears the entity of the given slot's data.
 
 ## Parameters

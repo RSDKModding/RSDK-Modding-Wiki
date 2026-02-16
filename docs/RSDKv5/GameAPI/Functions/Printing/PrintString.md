@@ -3,7 +3,6 @@
 !!! note
     This function only exists in REV02 and above.
 
-## Description
 Prints a String variable to the console.
 
 ## Parameters

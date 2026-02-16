@@ -1,6 +1,5 @@
 # NOTIFY_TOUCH_CHECKPOINT
 
-## Description
 Notifies [Hedgehog Engine 2](../../HedgehogEngine2.md) that a Lamp Post/Star Post has been touched.
 
 ## Parameters

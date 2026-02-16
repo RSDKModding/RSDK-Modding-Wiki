@@ -1,6 +1,5 @@
 # BoxCollisionTest
 
-## Description
 Checks for collision of an object with another, using the hitbox values passed.
 
 ## Parameters

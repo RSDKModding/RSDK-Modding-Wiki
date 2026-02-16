@@ -1,6 +1,5 @@
 # StopSfx
 
-## Description
 Stops all instances of the given sound effect slot in the GameConfig playing.
 
 ## Parameters

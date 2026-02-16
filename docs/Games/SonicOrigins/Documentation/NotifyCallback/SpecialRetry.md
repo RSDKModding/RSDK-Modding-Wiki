@@ -1,6 +1,5 @@
 # NOTIFY_SPECIAL_RETRY
 
-## Description
 Todo.
 
 ## Parameters

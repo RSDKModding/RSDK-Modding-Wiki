@@ -1,6 +1,5 @@
 # NextVideoFrame
 
-## Description
 Advances the video frame of an RSV video.
 
 !!! note

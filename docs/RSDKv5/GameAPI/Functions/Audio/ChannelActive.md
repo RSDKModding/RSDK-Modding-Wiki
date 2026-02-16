@@ -1,6 +1,5 @@
 # ChannelActive
 
-## Description
 Checks if a channel is currently playing audio or is paused.
 
 ## Parameters

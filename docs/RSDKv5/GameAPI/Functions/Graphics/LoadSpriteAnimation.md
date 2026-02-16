@@ -1,6 +1,5 @@
 # LoadSpriteAnimation
 
-## Description
 Loads a SpriteAnimation and returns the ID of it.
 
 ## Parameters

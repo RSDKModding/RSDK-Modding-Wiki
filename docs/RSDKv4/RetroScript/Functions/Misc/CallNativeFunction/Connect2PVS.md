@@ -1,6 +1,5 @@
 # Connect2PVS
 
-## Description
 Opens the menu for connecting to an opponent for 2P VS.
 
 ## Parameters

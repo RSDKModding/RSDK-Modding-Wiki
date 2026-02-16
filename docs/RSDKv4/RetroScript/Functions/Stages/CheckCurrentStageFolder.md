@@ -1,6 +1,5 @@
 # CheckCurrentStageFolder
 
-## Description
 Reads the name of the current stage's folder.
 
 ## Parameters

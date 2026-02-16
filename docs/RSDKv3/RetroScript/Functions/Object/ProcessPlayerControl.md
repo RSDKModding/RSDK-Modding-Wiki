@@ -1,6 +1,5 @@
 # ProcessPlayerControl
 
-## Description
 Handles player input variables and sidekick input buffering.
 
 !!! note

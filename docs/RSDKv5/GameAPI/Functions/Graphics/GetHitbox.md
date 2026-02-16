@@ -1,6 +1,5 @@
 # GetHitbox
 
-## Description
 Gets a Hitbox from the animator's current frame.
 
 ## Parameters

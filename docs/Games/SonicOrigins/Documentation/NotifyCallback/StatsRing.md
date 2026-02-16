@@ -1,6 +1,5 @@
 # NOTIFY_STATS_RING
 
-## Description
 Todo.
 
 ## Parameters

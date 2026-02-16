@@ -1,6 +1,5 @@
 # ResumeChannel
 
-## Description
 If the given channel's audio has been paused with [PauseChannel()](PauseChannel.md), resumes playing the audio.
 
 ## Parameters

@@ -1,6 +1,5 @@
 # NOTIFY_STATS_CHARA_ACTION2
 
-## Description
 Todo.
 
 ## Parameters

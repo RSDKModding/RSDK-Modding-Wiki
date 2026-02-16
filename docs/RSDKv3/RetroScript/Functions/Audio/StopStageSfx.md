@@ -1,6 +1,5 @@
 # StopStageSfx
 
-## Description
 Stops all instances of the given sound effect slot in the StageConfig playing.
 
 ## Parameters

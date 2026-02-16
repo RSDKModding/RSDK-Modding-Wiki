@@ -3,7 +3,6 @@
 !!! note
     This native function only exists in the Sega Forever versions of Sonic 1 (3.9.0 and later) and Sonic 2 (1.7.0 and later).
 
-## Description
 Creates a `RewardAds` native object, prompting the player to watch an ad.
 
 ## Parameters

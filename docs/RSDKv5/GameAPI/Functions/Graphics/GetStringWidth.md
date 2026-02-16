@@ -1,6 +1,5 @@
 # GetStringWidth
 
-## Description
 Retrieves the width of a string in pixels when displayed with [DrawText()](TODO).
 
 ## Parameters

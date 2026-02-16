@@ -1,6 +1,5 @@
 # MatrixRotateXYZ
 
-## Description
 Rotates `matrix` to `angleX`, `angleY` and `angleZ`.
 
 ## Parameters

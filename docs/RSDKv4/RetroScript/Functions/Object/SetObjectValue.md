@@ -3,7 +3,6 @@
 !!! note
     This function only exists in REV02 and above.
 
-## Description
 Sets `object.valueXX` of the object in `slot` corresponding to `valueID` to `value`.
 
 ## Parameters

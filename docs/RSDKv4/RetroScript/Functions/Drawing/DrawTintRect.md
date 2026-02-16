@@ -1,6 +1,5 @@
 # DrawTintRect
 
-## Description
 Draws a tinted rectangle to `ixpos` and `iypos` in screen-space.
 
 ## Parameters

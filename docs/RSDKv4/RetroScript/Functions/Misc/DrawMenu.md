@@ -1,6 +1,5 @@
 # DrawMenu
 
-## Description
 Draws `menu` at `xpos` and `ypos` relative to the screen.
 
 ## Parameters

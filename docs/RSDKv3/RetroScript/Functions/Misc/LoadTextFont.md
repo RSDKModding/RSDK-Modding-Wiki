@@ -1,6 +1,5 @@
 # LoadTextFont
 
-## Description
 Loads a bitmap font from `FilePath` for use with text menus.
 
 ## Parameters

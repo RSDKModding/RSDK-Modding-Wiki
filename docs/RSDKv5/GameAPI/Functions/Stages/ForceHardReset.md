@@ -3,7 +3,6 @@
 !!! note
     This function only exists in REV02 and above.
 
-## Description
 Sets whether the next stage reload should reload all assets.
 
 !!! note

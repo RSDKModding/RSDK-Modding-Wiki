@@ -1,6 +1,5 @@
 # SetSpriteAnimation
 
-## Description
 Applies a set of frames to an animator.
 
 ## Parameters

@@ -1,6 +1,5 @@
 # SetObjectRange
 
-## Description
 Changes internal bounds, affecting all objects.
 Used mainly so that objects behave the same regardless of current screen width in attract mode.
 

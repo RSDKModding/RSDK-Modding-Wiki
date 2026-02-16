@@ -1,6 +1,5 @@
 # LoadOnlineMenu
 
-## Description
 Loads the data for the specified online menu.
 
 !!! note

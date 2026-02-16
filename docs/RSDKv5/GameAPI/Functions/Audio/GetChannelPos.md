@@ -1,6 +1,5 @@
 # GetChannelPos
 
-## Description
 Gets the position of the current track in the given channel.
 
 ## Parameters

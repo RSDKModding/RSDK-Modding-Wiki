@@ -1,6 +1,5 @@
 # Disconnect2PVS
 
-## Description
 Disconnects from a 2P VS game.
 
 ## Parameters

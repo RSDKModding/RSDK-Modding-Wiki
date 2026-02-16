@@ -3,7 +3,6 @@
 !!! note
     This function only exists in REV02 and above.
 
-## Description
 Clears all loaded viewable variables.
 
 ## Parameters

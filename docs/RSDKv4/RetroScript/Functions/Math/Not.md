@@ -1,6 +1,5 @@
 # Not
 
-## Description
 Performs a NOT operation on `value`.
 
 ## Parameters

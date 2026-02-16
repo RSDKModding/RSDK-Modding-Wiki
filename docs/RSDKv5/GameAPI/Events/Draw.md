@@ -1,6 +1,5 @@
 # Draw
 
-## Description
 Called once every frame per entity if Entity::[active](TODO) allows for it. The ordering is based the value of Entity::[drawGroup](TODO).
 
 ## Parameters

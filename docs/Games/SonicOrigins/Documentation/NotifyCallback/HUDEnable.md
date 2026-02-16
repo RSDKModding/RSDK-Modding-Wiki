@@ -1,6 +1,5 @@
 # NOTIFY_HUD_ENABLE
 
-## Description
 Todo.
 
 ## Parameters

@@ -3,7 +3,6 @@
 !!! note
     This function only exists in RSDKv5U.
 
-## Description
 Checks if the given position is within range of the camera(s).
 
 ## Parameters

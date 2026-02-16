@@ -1,6 +1,5 @@
 # EngineCallback
 
-## Description
 Sends a callback to the engine.
 
 !!! note

@@ -1,6 +1,5 @@
 # NOTIFY_KILL_ENEMY
 
-## Description
 Notifies [Hedgehog Engine 2](../../HedgehogEngine2.md) to update the mission objective.
 
 ## Parameters

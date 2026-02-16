@@ -1,6 +1,5 @@
 # MatrixRotate X/Y/Z
 
-## Description
 Rotates `Matrix` to `Angle` on the specified axis.
 
 ## Parameters

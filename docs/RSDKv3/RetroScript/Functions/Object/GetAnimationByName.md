@@ -1,6 +1,5 @@
 # GetAnimationByName
 
-## Description
 Gets the numeric ID of an animation in the current object's animation file.
 
 ## Parameters

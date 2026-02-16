@@ -1,6 +1,5 @@
 # InterpolateXY
 
-## Description
 Linearly interpolates two points at once, `AX` with `AY`, and `BX` with `BY`, by `Percent`, and stores the result in `StoreX` and `StoreY` respectively.
 
 ## Parameters

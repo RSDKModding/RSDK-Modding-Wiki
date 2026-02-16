@@ -1,6 +1,5 @@
 # NOTIFY_TIMEATTACK_MODE
 
-## Description
 Todo.
 
 ## Parameters

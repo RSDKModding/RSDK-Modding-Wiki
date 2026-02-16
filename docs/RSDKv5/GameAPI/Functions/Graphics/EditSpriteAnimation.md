@@ -1,6 +1,5 @@
 # EditSpriteAnimation
 
-## Description
 Replaces the properties of an animation with the given parameters.
 
 ## Parameters

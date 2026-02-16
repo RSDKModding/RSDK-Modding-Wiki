@@ -1,6 +1,5 @@
 # ProcessAnimation
 
-## Description
 Processes the animation applied to an animator.
 
 ## Parameters

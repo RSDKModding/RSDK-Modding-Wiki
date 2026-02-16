@@ -1,6 +1,5 @@
 # LoadVideo
 
-## Description
 Loads and plays a video.
 
 The compatible video formats and directory containing the videos vary depending on the version of the game/engine:

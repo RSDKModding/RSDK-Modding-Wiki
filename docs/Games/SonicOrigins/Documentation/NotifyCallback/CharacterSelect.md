@@ -1,6 +1,5 @@
 # NOTIFY_CHARACTER_SELECT
 
-## Description
 Opens Sonic Origins's character select menu, then sets `callbackResult` and `continueFlag` when the menu is closed.
 
 ## Parameters

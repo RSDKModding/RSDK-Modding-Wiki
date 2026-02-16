@@ -1,6 +1,5 @@
 # CreateSpriteAnimation
 
-## Description
 Creates a SpriteAnimation based on the given parameters and returns the ID of it.
 
 ## Parameters

@@ -1,6 +1,5 @@
 # LoadImage
 
-## Description
 Loads and displays an image.
 
 ## Parameters

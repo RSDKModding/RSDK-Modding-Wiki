@@ -1,6 +1,5 @@
 # CheckLower
 
-## Description
 Checks if `X` is lower than `Y` and stores the result in `CheckResult`.
 
 ## Parameters

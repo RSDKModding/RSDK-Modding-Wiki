@@ -1,6 +1,5 @@
 # NOTIFY_PLAYER_SAVED_VALUES
 
-## Description
 Todo.
 
 ## Parameters

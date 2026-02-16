@@ -1,6 +1,5 @@
 # CREATE_ENTITY
 
-## Description
 Creates a temporary object specified by `object`, `data`, `x`, and `y` near the end of the object list.
 
 !!! note

@@ -1,6 +1,5 @@
 # destroyEntity
 
-## Description
 Clears an entity's data.
 
 ## Parameters

@@ -1,6 +1,5 @@
 # RemoveSpriteSheet
 
-## Description
 Removes the given spritesheet from memory, if it is already loaded.
 
 !!! note

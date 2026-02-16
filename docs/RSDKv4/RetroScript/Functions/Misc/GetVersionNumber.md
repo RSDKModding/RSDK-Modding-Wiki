@@ -1,6 +1,5 @@
 # GetVersionNumber
 
-## Description
 Adds a text entry to `menu` with the engine's version as the text. The text will display highlighted if `highlightEntry` is set to true.
 
 ## Parameters

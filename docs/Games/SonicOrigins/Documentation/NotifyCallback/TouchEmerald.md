@@ -1,6 +1,5 @@
 # NOTIFY_TOUCH_EMERALD
 
-## Description
 Todo.
 
 ## Parameters

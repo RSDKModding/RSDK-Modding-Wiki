@@ -1,6 +1,5 @@
 # DrawSpriteFX
 
-## Description
 Draws `frame` at a specified X and Y position with visual effects.
 
 ## Parameters

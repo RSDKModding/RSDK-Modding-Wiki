@@ -1,6 +1,5 @@
 # RSDK_THIS_GEN
 
-## Description
 Defines local pointer `self` pointing to `sceneInfo->entity` using a generic entity struct.
 
 ## Parameters

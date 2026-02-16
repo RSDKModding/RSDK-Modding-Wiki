@@ -1,6 +1,5 @@
 # ObjectTileCollision
 
-## Description
 Tries to collide with the foreground layer based on the position of `object.ixpos` + `xOffset`, `object.iypos` + `yOffset`.
 
 !!! note

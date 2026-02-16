@@ -1,6 +1,5 @@
 # CheckPosOnScreen
 
-## Description
 Checks if the given position is on screen based on the given range.
 
 ## Parameters
