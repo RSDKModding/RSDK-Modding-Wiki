@@ -153,7 +153,14 @@ nav:
 
     - RSDKv2:
       - RSDKv2/README.md
-      - Decompilation: RSDKv2/Decompilation.md
+      - Decompilation:
+          - RSDKv2/Decompilation/README.md
+          - settings.ini: RSDKv2/Decompilation/SettingsINI.md
+          - Mod Loader: RSDKv2/Decompilation/ModLoader.md
+      - Documentation:
+        - Overview:
+          - RSDKv2/Overview/README.md
+          - Default Menu: RSDKv2/Overview/DefaultMenu.md
 
     - RSDKv3:
       - RSDKv3/README.md
@@ -645,6 +652,7 @@ nav:
       - Decompilation:
         - Building: Guides/RSDKv2/Decompilation/Building.md
         - Setup: Guides/RSDKv2/Decompilation/Setup.md
+        - Mod Setup: Guides/RSDKv2/Decompilation/ModSetup.md
     - RSDKv3:
       - Decompilation:
         - Building: Guides/RSDKv3/Decompilation/Building.md
