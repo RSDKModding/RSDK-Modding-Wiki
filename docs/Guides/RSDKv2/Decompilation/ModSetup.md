@@ -29,7 +29,7 @@ When the Default Menu is open, choose `MODS` to open the Mod List.
 
 ![Default Menu](/assets/images/SonicNexus/DefaultMenu/MainMenu-Decomp.png){ width="40%" } ![Mod List](/assets/images/SonicNexus/DefaultMenu/Mods.png){ width="40%" } 
 
-To control the menu, press :material-gamepad-round-up: or :material-gamepad-round-down: to select a mod, and press :material-alpha-a-circle:{ .controller-a } to toggle the mod on or off.
+To control the menu, press :material-gamepad-round-up: or :material-gamepad-round-down: to select a mod, and press :material-alpha-a-circle:{ .controller-a } to toggle the mod on or off. If you have more mods than what's shown on screen, press :material-gamepad-round-left: and :material-gamepad-round-right: to switch between pages.
 
 !!! question "How do I change mod priority?"
     Mod priority is determined based on the order of the mods in the Mod List; mods get loaded from bottom to top. You can shift a mod up or down in the Mod List by holding :material-alpha-c-circle:{ .controller-c } while pressing :material-gamepad-round-up: or :material-gamepad-round-down:.
