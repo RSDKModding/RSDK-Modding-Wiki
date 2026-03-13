@@ -419,6 +419,7 @@ nav:
                 - NativePlayerWaitingAds: RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/NativePlayerWaitingAds.md
                 - NativeWaterPlayerWaitingAds: RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/NativeWaterPlayerWaitingAds.md
                 - NotifyCallback: RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/NotifyCallback.md
+                - PlayVideo : RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/PlayVideo.md
               - Decomp-Only Native Functions:
                 - SetNetworkGameName: RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/SetNetworkGameName.md
                 - ExitGame: RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/ExitGame.md
