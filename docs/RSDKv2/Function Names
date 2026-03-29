@@ -1,0 +1,94 @@
+CONFLICTS	0001d2a0	_ScriptOpcodeNames	addr DAT_00646e45	"End"	string	4	false
+DEFINED	0001d2c0	s_Equal_0001d2c0	ds "Equal"	"Equal"	string	6	true
+NOT_DEFINED	0001d2e0		?? 41h    A	"Add"	string	4	false
+NOT_DEFINED	0001d300		?? 53h    S	"Sub"	string	4	false
+NOT_DEFINED	0001d320		?? 49h    I	"Inc"	string	4	false
+NOT_DEFINED	0001d340		?? 44h    D	"Dec"	string	4	false
+NOT_DEFINED	0001d360		?? 4Dh    M	"Mul"	string	4	false
+NOT_DEFINED	0001d380		?? 44h    D	"Div"	string	4	false
+NOT_DEFINED	0001d3a0		?? 53h    S	"ShR"	string	4	false
+NOT_DEFINED	0001d3c0		?? 53h    S	"ShL"	string	4	false
+NOT_DEFINED	0001d3e0		?? 41h    A	"And"	string	4	false
+NOT_DEFINED	0001d400		?? 4Fh    O	"Or"	string	3	false
+NOT_DEFINED	0001d420		?? 58h    X	"Xor"	string	4	false
+NOT_DEFINED	0001d440		?? 4Eh    N	"Not"	string	4	false
+DEFINED	0001d460		ds "FlipSign"	"FlipSign"	string	9	true
+DEFINED	0001d480		ds "CheckEqual"	"CheckEqual"	string	11	true
+DEFINED	0001d4a0		ds "CheckGreater"	"CheckGreater"	string	13	true
+DEFINED	0001d4c0	s_CheckLower_0001d4c0	ds "CheckLower"	"CheckLower"	string	11	true
+DEFINED	0001d4e0		ds "CheckNotEqual"	"CheckNotEqual"	string	14	true
+DEFINED	0001d500		ds "IfEqual"	"IfEqual"	string	8	true
+DEFINED	0001d520		ds "IfGreater"	"IfGreater"	string	10	true
+DEFINED	0001d540		ds "IfGreaterOrEqual"	"IfGreaterOrEqual"	string	17	true
+DEFINED	0001d560		ds "IfLower"	"IfLower"	string	8	true
+DEFINED	0001d580		ds "IfLowerOrEqual"	"IfLowerOrEqual"	string	15	true
+DEFINED	0001d5a0		ds "IfNotEqual"	"IfNotEqual"	string	11	true
+NOT_DEFINED	0001d5c0	DAT_0001d5c0	?? 65h    e	"else"	string	5	false
+DEFINED	0001d5e0		ds "endif"	"endif"	string	6	true
+DEFINED	0001d600		ds "WEqual"	"WEqual"	string	7	true
+DEFINED	0001d620		ds "WGreater"	"WGreater"	string	9	true
+DEFINED	0001d640		ds "WGreaterOrEqual"	"WGreaterOrEqual"	string	16	true
+DEFINED	0001d660		ds "WLower"	"WLower"	string	7	true
+DEFINED	0001d680		ds "WLowerOrEqual"	"WLowerOrEqual"	string	14	true
+DEFINED	0001d6a0		ds "WNotEqual"	"WNotEqual"	string	10	true
+NOT_DEFINED	0001d6c0		?? 6Ch    l	"loop"	string	5	false
+DEFINED	0001d6e0	s_switch_0001d6e0	ds "switch"	"switch"	string	7	true
+DEFINED	0001d700		ds "break"	"break"	string	6	true
+DEFINED	0001d720		ds "endswitch"	"endswitch"	string	10	true
+NOT_DEFINED	0001d740		?? 52h    R	"Rand"	string	5	true
+NOT_DEFINED	0001d760		?? 53h    S	"Sin"	string	4	false
+NOT_DEFINED	0001d780		?? 43h    C	"Cos"	string	4	false
+NOT_DEFINED	0001d7a0		?? 53h    S	"Sin256"	string	7	false
+NOT_DEFINED	0001d7c0		?? 43h    C	"Cos256"	string	7	false
+DEFINED	0001d7e0		ds "SinChange"	"SinChange"	string	10	true
+DEFINED	0001d800		ds "CosChange"	"CosChange"	string	10	true
+NOT_DEFINED	0001d820		?? 41h    A	"ATan2"	string	6	false
+DEFINED	0001d840		ds "Interpolate"	"Interpolate"	string	12	true
+DEFINED	0001d860		ds "InterpolateXY"	"InterpolateXY"	string	14	true
+DEFINED	0001d880		ds "LoadSpriteSheet"	"LoadSpriteSheet"	string	16	true
+DEFINED	0001d8a0		ds "RemoveSpriteSheet"	"RemoveSpriteSheet"	string	18	true
+DEFINED	0001d8c0		ds "DrawSprite"	"DrawSprite"	string	11	true
+DEFINED	0001d8e0		ds "DrawSpriteXY"	"DrawSpriteXY"	string	13	true
+DEFINED	0001d900		ds "DrawSpriteScreenXY"	"DrawSpriteScreenXY"	string	19	true
+DEFINED	0001d920		ds "DrawSprite3D"	"DrawSprite3D"	string	13	true
+DEFINED	0001d940		ds "DrawNumbers"	"DrawNumbers"	string	12	true
+DEFINED	0001d960		ds "DrawActName"	"DrawActName"	string	12	true
+DEFINED	0001d980		ds "DrawMenu"	"DrawMenu"	string	9	true
+DEFINED	0001d9a0		ds "SpriteFrame"	"SpriteFrame"	string	12	true
+DEFINED	0001d9c0		ds "SetDebugIcon"	"SetDebugIcon"	string	13	true *TODO IN DOC*
+DEFINED	0001d9e0		ds "LoadPalette"	"LoadPalette"	string	12	true
+DEFINED	0001da00		ds "RotatePalette"	"RotatePalette"	string	14	true
+DEFINED	0001da20		ds "SetFade"	"SetFade"	string	8	true
+DEFINED	0001da40		ds "SetWaterColor"	"SetWaterColor"	string	14	true
+DEFINED	0001da60		ds "SetBlendTable"	"SetBlendTable"	string	14	true
+DEFINED	0001da80		ds "SetTintTable"	"SetTintTable"	string	13	true
+DEFINED	0001daa0		ds "ClearScreen"	"ClearScreen"	string	12	true
+DEFINED	0001dac0		ds "DrawSpriteFX"	"DrawSpriteFX"	string	13	true
+DEFINED	0001dae0		ds "DrawSpriteScreenFX"	"DrawSpriteScreenFX"	string	19	true
+DEFINED	0001db00		ds "DrawLifeIcon"	"DrawLifeIcon"	string	13	true
+DEFINED	0001db20		ds "SetupMenu"	"SetupMenu"	string	10	true
+DEFINED	0001db40		ds "AddMenuEntry"	"AddMenuEntry"	string	13	true
+DEFINED	0001db60		ds "EditMenuEntry"	"EditMenuEntry"	string	14	true
+DEFINED	0001db80		ds "LoadStage"	"LoadStage"	string	10	true
+DEFINED	0001dba0		ds "DrawTintRect"	"DrawTintRect"	string	13	true
+DEFINED	0001dbc0		ds "ResetObjectEntity"	"ResetObjectEntity"	string	18	true
+DEFINED	0001dbe0		ds "PlayerObjectCollision"	"PlayerObjectCollision"	string	22	true
+DEFINED	0001dc00		ds "CreateTempObject"	"CreateTempObject"	string	17	true
+DEFINED	0001dc20		ds "DefaultGroundMovement"	"DefaultGroundMovement"	string	22	true
+DEFINED	0001dc40		ds "DefaultAirMovement"	"DefaultAirMovement"	string	19	true
+DEFINED	0001dc60		ds "DefaultRollingMovement"	"DefaultRollingMovement"	string	23	true
+DEFINED	0001dc80		ds "DefaultGravityTrue"	"DefaultGravityTrue"	string	19	true
+DEFINED	0001dca0		ds "DefaultGravityFalse"	"DefaultGravityFalse"	string	20	true
+DEFINED	0001dcc0		ds "DefaultJumpAction"	"DefaultJumpAction"	string	18	true
+DEFINED	0001dce0		ds "SetMusicTrack"	"SetMusicTrack"	string	14	true
+DEFINED	0001dd00		ds "PlayMusic"	"PlayMusic"	string	10	true
+DEFINED	0001dd20		ds "StopMusic"	"StopMusic"	string	10	true
+NOT_DEFINED	0001dd40		?? 50h    P	"PlaySfx"	string	8	false
+NOT_DEFINED	0001dd60		?? 53h    S	"StopSfx"	string	8	false
+DEFINED	0001dd80		ds "SetSfxAttributes"	"SetSfxAttributes"	string	17	true
+DEFINED	0001dda0		ds "ObjectTileCollision"	"ObjectTileCollision"	string	20	true
+DEFINED	0001ddc0		ds "ObjectTileGrip"	"ObjectTileGrip"	string	15	true
+DEFINED	0001dde0		ds "LoadVideo"	"LoadVideo"	string	10	true
+DEFINED	0001de00		ds "NextVideoFrame"	"NextVideoFrame"	string	15	true
+DEFINED	0001de20		ds "PlayStageSfx"	"PlayStageSfx"	string	13	true
+DEFINED	0001de40		ds "StopStageSfx"	"StopStageSfx"	string	13	true
