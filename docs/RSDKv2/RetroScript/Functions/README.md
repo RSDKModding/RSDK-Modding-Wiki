@@ -93,7 +93,8 @@
 | [**EditMenuEntry**](Misc/EditMenuEntry.md)   | Edits an entry of `Menu` with the contents of `Text` in `RowID`.                                         |
 | [**LoadVideo**](Misc/LoadVideo.md)           | Loads and plays an RSV video.                                                                            |
 | [**NextVideoFrame**](Misc/NextVideoFrame.md) | Advances the video frame of an RSV video.                                                                |
-| [**SetDebugIcon**](Misc/SetDebugIcon.md)     | Sets the object icon used for the stage editor.                                                          |
+| [**SetDebugIcon**](Misc/SetDebugIcon.md)     | **Non-functional.**                                                                                      |
+| [**SetEditorIcon**](Misc/SetEditorIcon.md)   | Sets the object's icon used for the editor. **Editor only.**                                             |
 
 
 DEFINED	0001b7b8	s_subObjectMain_0001b7b8	ds "subObjectMain"	"subObjectMain"	string	14	true

@@ -5,6 +5,9 @@ Sets the water colour based on `R`, `G`, `B` and `Alpha`.
 !!! note
     This is not functional in both the original 2008 Nexus demo and the RSDKv2 decompilation. This is kept here for documentational purposes.
 
+!!! note
+    The details of this function are assumed (check the note below), and the parameter count can be found in the engine.
+
 ## Parameters
 !!! note
     This was most likely supposed to call the engine's `SetWaterColour` function, which has these parameters, and was spelt with a 'u' unlike this function.

@@ -1,20 +1,11 @@
 # LoadVideo
 
-Loads and plays a video.
-
-The compatible video formats and directory containing the videos vary depending on the version of the game/engine:
-
-- Blit releases, RSDKv3 Decompilation:
-    - `.ogv` files stored in the `videos` folder located outside of the datapack.
-    - `.rsv` files stored in `Data/Sprites/`.
-- Mobile releases: `.mp4` files located in a directory outside of the datapack depending on the version of Sonic CD.
-- Sonic Origins: Videos are stored and handled by [Hedgehog Engine 2](/Games/SonicOrigins/HedgehogEngine2.md).
-- RSDKv5U Decompilation: `.ogv` files stored in `Data/Videos/`.
+Loads a video and assigns it to SpriteFrame `0`. The video must be a `.rsv` file.
 
 ## Parameters
-`Name`
+`Path`
 
-:   The name of the video file to load. Unless you're loading an RSV file, the file extension should be excluded. See the list above for what path this is relative to.
+:   The file path of the video file to load, relative to `Data/Sprites/`.
 
 ## Return Value
 None.
@@ -24,10 +15,7 @@ None.
 LoadVideo(string Name)
 ```
 
-## Examples
-```
-LoadVideo("Opening")
-```
+## Example
 ```
 LoadVideo("Cutscenes/Opening.rsv")
 ```

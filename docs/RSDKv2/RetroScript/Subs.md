@@ -1,6 +1,44 @@
-# RSDKv3 Subs
+# RSDKv2 Subs
 
-RetroScript v3, the scripting language used by RSDKv3, is comprised of four main subs, along with three optional editor subs. Subs are akin to "default functions" of sorts, and are called by the engine every frame to achieve a specific task. To define subs, `sub [name]` is used to open one and `end sub` is used to close one.
+RetroScript v2, the scripting language used by RSDKv2, is comprised of four main subs, along with two player subs, and one optional editor sub. Subs are akin to "default functions" of sorts, and are called by the engine every frame to achieve a specific task. To define subs, `sub [name]` is used to open one and `end sub` is used to close one.
+
+## PlayerMain
+Called once every frame to run a general update of the player, for things like movement and animation processing.
+
+``` title="Example"
+sub PlayerMain
+	Player.XPos += Player.Value0
+	Player.YPos += Player.Value1
+	
+	Player.Value2++
+	if Player.Value2 >= 8
+		Player.Frame++
+		if Player.Frame >= 4
+			Player.Frame = 0
+		end if
+		Player.Value2 = 0
+	end if
+end sub
+```
+
+## PlayerState
+Called once every frame, if the player's state is set to its ID, to run a specified update of the player.
+
+``` title="Example"
+sub PlayerState 2
+	Player.XPos += Player.Value0
+	Player.YPos += Player.Value1
+	
+	Player.Value2++
+	if Player.Value2 >= 8
+		Player.Frame++
+		if Player.Frame >= 4
+			Player.Frame = 0
+		end if
+		Player.Value2 = 0
+	end if
+end sub
+```
 
 ## ObjectMain
 Called once every frame (if priority allows) to run a general update of the object, for things like movement and animation processing.
@@ -10,13 +48,13 @@ sub ObjectMain
 	Object.XPos += Object.Value0
 	Object.YPos += Object.Value1
 	
-	Object.AnimationTimer++
-	if Object.AnimationTimer >= 8
+	Object.Value2++
+	if Object.Value2 >= 8
 		Object.Frame++
 		if Object.Frame >= 4
 			Object.Frame = 0
 		end if
-		Object.AnimationTimer = 0
+		Object.Value2 = 0
 	end if
 end sub
 ```
@@ -59,52 +97,11 @@ sub ObjectStartup
 	
 	TempValue0 = 32
 	while TempValue0 < 1056
-		if Object[ArrayPos0].Type == TypeName[Test Object]
+		if Object[ArrayPos0].Type == 2
 			Object[ArrayPos0].DrawOrder = 4
 		end if
 		TempValue0++
 	loop
-end sub
-```
-
-## RSDKEdit
-Called whenever modifying an object's editor variable in an editor. This sub can be excluded from your script if the object doesn't have an editor variable.
-
-``` title="Example"
-sub RSDKEdit
-	if Editor.ReturnVariable == true
-		switch Editor.VariableID
-		case EDIT_VAR_PROPVAL // Property Value
-			CheckResult = Object.PropertyValue
-			break
-			
-		case 0 // Alignment
-			CheckResult = Object.PropertyValue
-			break
-		end switch
-	else
-		switch Editor.VariableID
-		case EDIT_VAR_PROPVAL // Property Value
-			Object.PropertyValue = Editor.VariableValue
-			break
-			
-		case 0 // Alignment
-			Object.PropertyValue = Editor.VariableValue
-			break
-		end switch
-	end if
-end sub
-```
-
-## RSDKDraw
-Called once every frame to draw the object in an editor.
-
-``` title="Example"
-sub RSDKDraw
-	DrawSprite(0)
-	if Editor.ShowGizmos == true
-		DrawSprite(1)
-	end if
 end sub
 ```
 
@@ -114,15 +111,6 @@ Called once per object type when game logic is (re)loaded in an editor. Used to 
 ``` title="Example"
 sub RSDKLoad
 	LoadSpriteSheet("Global/Items.gif")
-	SpriteFrame(-8, -8, 16, 16, 1, 1)
-	SpriteFrame(-8, -8, 16, 16, 1, 18)
-
-	AddEditorVariable("Alignment")
-	SetActiveVariable("Alignment")
-	AddEnumVariable("Left", 0)
-	AddEnumVariable("Center", 1)
-	AddEnumVariable("Right", 2)
-	
-	SetVariableAlias(ALIAS_VAR_VAL0, "Width")
+	SetEditorIcon(Icon0, SingleIcon, -8, -8, 16, 16, 1, 1)
 end sub
 ```

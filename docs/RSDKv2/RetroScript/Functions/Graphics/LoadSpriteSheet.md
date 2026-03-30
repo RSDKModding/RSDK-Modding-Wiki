@@ -2,9 +2,6 @@
 
 Loads a spritesheet and assigns the ID to `Object.SpriteSheet`. The spritesheet must be a GIF file.
 
-!!! note
-    Sonic CD Lite can also load PVR files with this function.
-
 ## Parameters
 `Path`
 

@@ -1,4 +1,4 @@
-# RSDKv3 Variables
+# RSDKv2 Variables
 
 # Script
 | Variable         | Description                                                                          |
@@ -34,7 +34,7 @@
 | **Stage.Minutes**           | The stage's minute count.                                                                                                                       |
 | **Stage.Seconds**           | The stage's second count.                                                                                                                       |
 | **Stage.ActNo**             | The number of the current act. (Ex. Stage.ActNo = 1 -> Act1)                                                                                    |
-| **Stage.PausedEnabled**     | If enabled, this allows the engine to do a Genesis type pause by pressing the Start button.                                                     |
+| **Stage.PauseEnabled**      | If enabled, this allows the engine to do a Genesis type pause by pressing the Start button.                                                     |
 | **Stage.ListSize**          | The size of the current stage list.                                                                                                             |
 | **Stage.NewX/YBoundary1/2** | The boundaries for the stage camera. Used to set new camera boundaries during gameplay.                                                         |
 | **Stage.X/YBoundary1/2**    | The boundaries for the stage camera. The camera will never go past these boundaries.                                                            |
