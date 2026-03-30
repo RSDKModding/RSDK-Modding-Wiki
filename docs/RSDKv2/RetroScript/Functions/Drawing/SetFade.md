@@ -1,9 +1,10 @@
-# SetScreenFade
+# SetPaletteFade
 
-Adds a screen fade effect based on the `R`, `G`, `B` and `Alpha` values.
+Blends the palette from `StartIndex` to `EndIndex` based on `R`, `G`, `B`, and `BlendAmount`.
 
 ## Parameters
 `R`
+
 :   A value range of 0-255 for the color red.
 
 `G`
@@ -14,19 +15,27 @@ Adds a screen fade effect based on the `R`, `G`, `B` and `Alpha` values.
 
 :   A value range of 0-255 for the color blue.
 
-`Alpha`
+`BlendAmount`
 
-:   A value range of 0-255 for transparency, 255 being no transparency
+:   A value range of 0-255 for blending.
+
+`StartIndex`
+
+:   The starting index of the palette to blend.
+
+`EndIndex`
+
+:   The ending index of the palette to blend.
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-SetScreenFade(int R, int G, int B, int Alpha)
+SetFade(int R, int G, int B, int BlendAmount, int StartIndex, int EndIndex)
 ```
 
 ## Example
 ```
-SetScreenFade(255, 255, 255, object.alpha)
+SetFade(128, 128, 128, 255, 64, 144)
 ```

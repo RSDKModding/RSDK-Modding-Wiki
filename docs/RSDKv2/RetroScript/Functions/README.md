@@ -13,31 +13,31 @@
 | [**StopStageSfx**](Audio/StopStageSfx.md)         | Stops all instances of the given sound effect slot in the StageConfig playing.                        |
 
 ## Drawing
-| Function                                                    | Description                                                                                                      |
-| ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| [**DrawTintRect**](Drawing/DrawTintRect.md)                 | Draws a tinted rectangle to `iXPos` and `iYPos` in screen-space.                                                 |
-| [**LoadPalette**](Drawing/LoadPalette.md)                   | Loads a palette into starting from `StartIndex` and reading all colors through to `EndIndex`.                    |
-| [**RotatePalette**](Drawing/RotatePalette.md)               | Rotates all colors in the palette from `StartIndex` to `EndIndex`, moving left or right depending on `RotRight`. |
-| [**SetFade**](Drawing/SetFade.md)                           | Adds a screen fade effect based on the `R`, `G`, `B` and `Alpha` values.                                         |
-| [**SetWaterColor**](Drawing/SetWaterColor.md)               | **Non-functional.**                                                                                              |
-| [**SetBlendTable**](Drawing/SetBlendTable.md)               | Generates a blend table based on the specified values.                                                           |
-| [**SetTintTable**](Drawing/SetTintTable.md)                 | Generates a tint table based on the specified values and saves it to `TableID`.                                  |
-| [**ClearScreen**](Drawing/ClearScreen.md)                   | Clears all pixels on screen with color `ClearIndex` from the palette.                                            |
+| Function                                      | Description                                                                                                      |
+| --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| [**DrawTintRect**](Drawing/DrawTintRect.md)   | Draws a tinted rectangle to `iXPos` and `iYPos` in screen-space.                                                 |
+| [**LoadPalette**](Drawing/LoadPalette.md)     | Loads a palette starting from `StartIndex` and reading all colors through to `EndIndex`.                         |
+| [**RotatePalette**](Drawing/RotatePalette.md) | Rotates all colors in the palette from `StartIndex` to `EndIndex`, moving left or right depending on `RotRight`. |
+| [**SetFade**](Drawing/SetFade.md)             | Blends the palette from `StartIndex` to `EndIndex` based on `R`, `G`, `B`, and `BlendAmount`.                    |
+| [**SetWaterColor**](Drawing/SetWaterColor.md) | **Non-functional.**                                                                                              |
+| [**SetBlendTable**](Drawing/SetBlendTable.md) | Generates a blend table with the specified values.                                                               |
+| [**SetTintTable**](Drawing/SetTintTable.md)   | Generates a tint table with the specified values and saves it to `TableID`.                                      |
+| [**ClearScreen**](Drawing/ClearScreen.md)     | Clears all pixels on screen with color `ClearIndex` from the palette.                                            |
 
 ## Graphics
-| Function                                                   | Description                                                                                                |
-| ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| [**DrawNumbers**](Graphics/DrawNumbers.md)                 | Draws a number in screen-space.                                                                            |
-| [**LoadSpriteSheet**](Graphics/LoadSpriteSheet.md)         | Loads a spritesheet into memory.                                                                           |
-| [**RemoveSpriteSheet**](Graphics/RemoveSpriteSheet.md)     | Removes the given spritesheet from memory, if it is already loaded.                                        |
-| [**DrawSprite**](Graphics/DrawSprite.md)                   | Draws `Frame` at the object's X and Y position.                                                            |
-| [**DrawSpriteXY**](Graphics/DrawSpriteXY.md)               | Draws `Frame` at a specified X and Y position.                                                             |
-| [**DrawSpriteScreenXY**](Graphics/DrawSpriteScreenXY.md)   | Draws `Frame` at a specified X and Y position in screen-space.                                             |
-| **DrawSprite3D**                                           | **Non-functional.**                                                                                        |
-| [**SpriteFrame**](Graphics/SpriteFrame.md)                 | Adds a SpriteFrame with the specified values.                                                              |
-| [**DrawSpriteFX**](Graphics/DrawSpriteFX.md)               | Draws `Frame` at a specified X and Y position with visual effects.                                         |
-| [**DrawSpriteScreenFX**](Graphics/DrawSpriteScreenFX.md)   | Draws `Frame` at a specified X and Y position in screen-space with visual effects.                         |
-| [**DrawLifeIcon**](Graphics/DrawLifeIcon.md)               | Draws the first player's life icon animation at frame `0` at a specified X and Y position in screen-space. |
+| Function                                                 | Description                                                                                                |
+| -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| [**DrawNumbers**](Graphics/DrawNumbers.md)               | Draws a number in screen-space.                                                                            |
+| [**LoadSpriteSheet**](Graphics/LoadSpriteSheet.md)       | Loads a spritesheet into memory.                                                                           |
+| [**RemoveSpriteSheet**](Graphics/RemoveSpriteSheet.md)   | Removes the given spritesheet from memory, if it is already loaded.                                        |
+| [**DrawSprite**](Graphics/DrawSprite.md)                 | Draws `Frame` at the object's X and Y position.                                                            |
+| [**DrawSpriteXY**](Graphics/DrawSpriteXY.md)             | Draws `Frame` at a specified X and Y position.                                                             |
+| [**DrawSpriteScreenXY**](Graphics/DrawSpriteScreenXY.md) | Draws `Frame` at a specified X and Y position in screen-space.                                             |
+| [**DrawSprite3D**](Graphics/DrawSprite3D.md)             | **Non-functional.**                                                                                        |
+| [**SpriteFrame**](Graphics/SpriteFrame.md)               | Adds a SpriteFrame with the specified values.                                                              |
+| [**DrawSpriteFX**](Graphics/DrawSpriteFX.md)             | Draws `Frame` at a specified X and Y position with visual effects.                                         |
+| [**DrawSpriteScreenFX**](Graphics/DrawSpriteScreenFX.md) | Draws `Frame` at a specified X and Y position in screen-space with visual effects.                         |
+| [**DrawLifeIcon**](Graphics/DrawLifeIcon.md)             | Draws the first player's life icon animation at frame `0` at a specified X and Y position in screen-space. |
 
 ## Math
 | Function                                   | Description                                                                                            |
@@ -54,7 +54,7 @@
 | [**Cos256**](Math/Cos256.md)               | Gets the value from the `cos256` lookup table based on `Angle` and sets it in `Store`.                 |
 | [**SinChange**](Math/SinChange.md)         | Performs [Sin()](Math/Sin.md), then additional operations, before storing the final output in `Store`. |
 | [**CosChange**](Math/CosChange.md)         | Performs [Cos()](Math/Cos.md), then additional operations, before storing the final output in `Store`. |
-| **ATan2**                                  | **Non-functional.**                                                                                    |
+| [**ATan2**](Math/ATan2.md)                 | **Non-functional.**                                                                                    |
 | [**Interpolate**](Math/Interpolate.md)     | Linearly interpolates `X` and `Y` by `Percent` and stores the result in `Store`.                       |
 | [**InterpolateXY**](Math/InterpolateXY.md) | Linearly interpolates two points at once and stores the result in `StoreX` and `StoreY` respectively.  |
 | [**Not**](Math/Not.md)                     | Performs a NOT operation on `Value`.                                                                   |
@@ -79,21 +79,21 @@
 | [**DefaultJumpAction**](Player/DefaultJumpAction.md)           | Sets up the required values for the current player to jump.                               |
 
 ## Stages
-| Function                                                 | Description                                                    |
-| -------------------------------------------------------- | -------------------------------------------------------------- |
-| [**DrawActName**](Stages/DrawActName.md)                 | Draws the current stage's title.                               |
-| [**LoadStage**](Stages/LoadStage.md)                     | Loads a stage based on `Stage.ActiveList` and `Stage.ListPos`. |
+| Function                                 | Description                                                    |
+| ---------------------------------------- | -------------------------------------------------------------- |
+| [**DrawActName**](Stages/DrawActName.md) | Draws the current stage's title.                               |
+| [**LoadStage**](Stages/LoadStage.md)     | Loads a stage based on `Stage.ActiveList` and `Stage.ListPos`. |
 
 ## Miscellaneous
-| Function                                         | Description                                                                                              |
-| ------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
-| [**DrawMenu**](Misc/DrawMenu.md)                 | Draws `Menu` at `XPos` and `YPos` relative to the screen.                                                |
-| [**SetupMenu**](Misc/SetupMenu.md)               | Sets up `Menu` with `RowCount` rows, `SelectionCount` active selections and aligning set to `Alignment`. |
-| [**AddMenuEntry**](Misc/AddMenuEntry.md)         | Adds an entry to `Menu` with the contents of `Text`.                                                     |
-| [**EditMenuEntry**](Misc/EditMenuEntry.md)       | Edits an entry of `Menu` with the contents of `Text` in `RowID`.                                         |
-| [**LoadVideo**](Misc/LoadVideo.md)               | Loads and plays an RSV video.                                                                            |
-| [**NextVideoFrame**](Misc/NextVideoFrame.md)     | Advances the video frame of an RSV video.                                                                |
-| [**SetDebugIcon**](Misc/SetDebugIcon.md)         | Sets the object icon used for the stage editor.                                                          |
+| Function                                     | Description                                                                                              |
+| -------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| [**DrawMenu**](Misc/DrawMenu.md)             | Draws `Menu` at `XPos` and `YPos` relative to the screen.                                                |
+| [**SetupMenu**](Misc/SetupMenu.md)           | Sets up `Menu` with `RowCount` rows, `SelectionCount` active selections and aligning set to `Alignment`. |
+| [**AddMenuEntry**](Misc/AddMenuEntry.md)     | Adds an entry to `Menu` with the contents of `Text`.                                                     |
+| [**EditMenuEntry**](Misc/EditMenuEntry.md)   | Edits an entry of `Menu` with the contents of `Text` in `RowID`.                                         |
+| [**LoadVideo**](Misc/LoadVideo.md)           | Loads and plays an RSV video.                                                                            |
+| [**NextVideoFrame**](Misc/NextVideoFrame.md) | Advances the video frame of an RSV video.                                                                |
+| [**SetDebugIcon**](Misc/SetDebugIcon.md)     | Sets the object icon used for the stage editor.                                                          |
 
 
 DEFINED	0001b7b8	s_subObjectMain_0001b7b8	ds "subObjectMain"	"subObjectMain"	string	14	true
