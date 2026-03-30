@@ -75,7 +75,7 @@
 | [**DefaultAirMovement**](Player/DefaultAirMovement.md)         | Processes the current player's air acceleration and deceleration.                         |
 | [**DefaultRollingMovement**](Player/DefaultRollingMovement.md) | Processes the current player's rolling acceleration and deceleration.                     |
 | [**DefaultGravityTrue**](Player/DefaultGravityTrue.md)         | Calculates the current player's air rotation and gravity.                                 |
-| [**DefaultGravityFalse**](Player/DefaultGravityFalse.md)       | Calculates the current player's X and Y velocities based on their ground speed and angle. |
+| [**DefaultGravityFalse**](Player/DefaultGravityFalse.md)       | Calculates the current player's ground velocity based on their ground speed and angle.    |
 | [**DefaultJumpAction**](Player/DefaultJumpAction.md)           | Sets up the required values for the current player to jump.                               |
 
 ## Stages
@@ -95,12 +95,3 @@
 | [**NextVideoFrame**](Misc/NextVideoFrame.md) | Advances the video frame of an RSV video.                                                                |
 | [**SetDebugIcon**](Misc/SetDebugIcon.md)     | **Non-functional.**                                                                                      |
 | [**SetEditorIcon**](Misc/SetEditorIcon.md)   | Sets the object's icon used for the editor. **Editor only.**                                             |
-
-
-DEFINED	0001b7b8	s_subObjectMain_0001b7b8	ds "subObjectMain"	"subObjectMain"	string	14	true
-DEFINED	0001b7c8	s_subObjectPlayerInteraction_0001b7c8	ds "subObjectPlayerInteraction"	"subObjectPlayerInteraction"	string	27	true
-DEFINED	0001b7e4	s_subObjectDraw_0001b7e4	ds "subObjectDraw"	"subObjectDraw"	string	14	true
-DEFINED	0001b7f4	s_subObjectStartup_0001b7f4	ds "subObjectStartup"	"subObjectStartup"	string	17	true
-DEFINED	0001b808	s_subPlayerMain_0001b808	ds "subPlayerMain"	"subPlayerMain"	string	14	true
-DEFINED	0001b818	s_subPlayerState_0001b818	ds "subPlayerState"	"subPlayerState"	string	15	true
-DEFINED	0001b82c	s_endsub_0001b82c	ds "endsub"	"endsub"	string	7	true
