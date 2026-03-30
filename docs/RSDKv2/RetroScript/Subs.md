@@ -22,7 +22,8 @@ end sub
 ```
 
 ## PlayerState
-Called once every frame, if the player's state is set to its ID, to run a specified update of the player.
+Called once every frame to run a specific update of the player, if the player's state is equal to this state's ID.
+Unlike other subs, PlayerState subs are opened with `sub [name] [stateID]`
 
 ``` title="Example"
 sub PlayerState 2
@@ -75,7 +76,7 @@ end sub
 ```
 
 ## ObjectDraw
-Called once every frame (if priority allows) to draw the object. Although some objects in Sonic CD also have movement or animation processing code in this sub, it's strongly recommended to only include drawing code. Draw order is based on the object's `Object.DrawOrder` value.
+Called once every frame (if priority allows) to draw the object. Although some objects in Sonic Nexus also have movement or animation processing code in this sub, it's strongly recommended to only include drawing code. Draw order is based on the object's `Object.DrawOrder` value.
 
 ``` title="Example"
 sub ObjectDraw

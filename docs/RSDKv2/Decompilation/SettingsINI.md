@@ -60,7 +60,7 @@ All settings for this category take an integer value based on SDL's Scancodes. S
 ## Controller 1
 
 !!! note
-    Despite what the name of this category may imply, RSDKv3 does not support more than one player.
+    Despite what the name of this category may imply, RSDKv2 does not support more than one player.
 
 These controller mapping settings take integer values. See [Controller Buttons](#controller-buttons) for a list of buttons and their corresponding IDs.
 
