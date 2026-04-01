@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 # Sus
 
 ![The Sus animation viewed in RetroED](/assets/images/RetroED/AnimationEditor-Sus.png){ align=right , width="50%" }
