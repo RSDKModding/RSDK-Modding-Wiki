@@ -636,6 +636,10 @@ nav:
           - NOTIFY_TITLECARD_INIT: Games/SonicOrigins/Documentation/NotifyCallback/TitleCardInit.md
           - NOTIFY_1007: Games/SonicOrigins/Documentation/NotifyCallback/1007.md
         - Audio: Games/SonicOrigins/Documentation/Audio.md
+    - Sonic 3 & Knuckles:
+      - Games/Sonic3K/README.md
+      - Documentation:
+        - Sus: Games/Sonic3K/Documentation/Sus.md
 
   - Tools:
     - Tools/README.md
