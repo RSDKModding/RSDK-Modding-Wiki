@@ -163,6 +163,85 @@ nav:
         - Overview:
           - RSDKv2/Overview/README.md
           - Default Menu: RSDKv2/Overview/DefaultMenu.md
+      - RetroScript:
+        - RSDKv2/RetroScript/README.md
+        - Subs: RSDKv2/RetroScript/Subs.md
+        - Variables: RSDKv2/RetroScript/Variables.md
+        - Functions:
+          - RSDKv2/RetroScript/Functions/README.md
+          - Audio:
+            - SetMusicTrack: RSDKv2/RetroScript/Functions/Audio/SetMusicTrack.md
+            - PlayMusic: RSDKv2/RetroScript/Functions/Audio/PlayMusic.md
+            - StopMusic: RSDKv2/RetroScript/Functions/Audio/StopMusic.md
+            - PlaySfx: RSDKv2/RetroScript/Functions/Audio/PlaySfx.md
+            - StopSfx: RSDKv2/RetroScript/Functions/Audio/StopSfx.md
+            - SetSfxAttributes: RSDKv2/RetroScript/Functions/Audio/SetSfxAttributes.md
+            - PlayStageSfx: RSDKv2/RetroScript/Functions/Audio/PlayStageSfx.md
+            - StopStageSfx: RSDKv2/RetroScript/Functions/Audio/StopStageSfx.md
+          - Drawing:
+            - DrawTintRect: RSDKv2/RetroScript/Functions/Drawing/DrawTintRect.md
+            - LoadPalette: RSDKv2/RetroScript/Functions/Drawing/LoadPalette.md
+            - RotatePalette: RSDKv2/RetroScript/Functions/Drawing/RotatePalette.md
+            - SetFade: RSDKv2/RetroScript/Functions/Drawing/SetFade.md
+            - SetWaterColor: RSDKv2/RetroScript/Functions/Drawing/SetWaterColor.md
+            - SetBlendTable: RSDKv2/RetroScript/Functions/Drawing/SetBlendTable.md
+            - SetTintTable: RSDKv2/RetroScript/Functions/Drawing/SetTintTable.md
+            - ClearScreen: RSDKv2/RetroScript/Functions/Drawing/ClearScreen.md
+          - Graphics:
+            - DrawNumbers: RSDKv2/RetroScript/Functions/Graphics/DrawNumbers.md
+            - LoadSpriteSheet: RSDKv2/RetroScript/Functions/Graphics/LoadSpriteSheet.md
+            - RemoveSpriteSheet: RSDKv2/RetroScript/Functions/Graphics/RemoveSpriteSheet.md
+            - DrawSprite: RSDKv2/RetroScript/Functions/Graphics/DrawSprite.md
+            - DrawSpriteXY: RSDKv2/RetroScript/Functions/Graphics/DrawSpriteXY.md
+            - DrawSpriteScreenXY: RSDKv2/RetroScript/Functions/Graphics/DrawSpriteScreenXY.md
+            - DrawSprite3D: RSDKv2/RetroScript/Functions/Graphics/DrawSprite3D.md
+            - SpriteFrame: RSDKv2/RetroScript/Functions/Graphics/SpriteFrame.md
+            - EditFrame: RSDKv2/RetroScript/Functions/Graphics/EditFrame.md
+            - DrawSpriteFX: RSDKv2/RetroScript/Functions/Graphics/DrawSpriteFX.md
+            - DrawSpriteScreenFX: RSDKv2/RetroScript/Functions/Graphics/DrawSpriteScreenFX.md
+            - DrawLifeIcon: RSDKv2/RetroScript/Functions/Graphics/DrawLifeIcon.md
+          - Math:
+            - FlipSign: RSDKv2/RetroScript/Functions/Math/FlipSign.md
+            - CheckEqual: RSDKv2/RetroScript/Functions/Math/CheckEqual.md
+            - CheckGreater: RSDKv2/RetroScript/Functions/Math/CheckGreater.md
+            - CheckLower: RSDKv2/RetroScript/Functions/Math/CheckLower.md
+            - CheckNotEqual: RSDKv2/RetroScript/Functions/Math/CheckNotEqual.md
+            - Rand: RSDKv2/RetroScript/Functions/Math/Rand.md
+            - Sin: RSDKv2/RetroScript/Functions/Math/Sin.md
+            - Cos: RSDKv2/RetroScript/Functions/Math/Cos.md
+            - Sin256: RSDKv2/RetroScript/Functions/Math/Sin256.md
+            - Cos256: RSDKv2/RetroScript/Functions/Math/Cos256.md
+            - SinChange: RSDKv2/RetroScript/Functions/Math/SinChange.md
+            - CosChange: RSDKv2/RetroScript/Functions/Math/CosChange.md
+            - ATan2: RSDKv2/RetroScript/Functions/Math/ATan2.md
+            - Interpolate: RSDKv2/RetroScript/Functions/Math/Interpolate.md
+            - InterpolateXY: RSDKv2/RetroScript/Functions/Math/InterpolateXY.md
+            - Not: RSDKv2/RetroScript/Functions/Math/Not.md
+          - Object:
+            - ResetObjectEntity: RSDKv2/RetroScript/Functions/Object/ResetObjectEntity.md
+            - CreateTempObject: RSDKv2/RetroScript/Functions/Object/CreateTempObject.md
+            - PlayerObjectCollision: RSDKv2/RetroScript/Functions/Object/PlayerObjectCollision.md
+            - ObjectTileCollision: RSDKv2/RetroScript/Functions/Object/ObjectTileCollision.md
+            - ObjectTileGrip: RSDKv2/RetroScript/Functions/Object/ObjectTileGrip.md
+          - Player:
+            - DefaultGroundMovement: RSDKv2/RetroScript/Functions/Player/DefaultGroundMovement.md
+            - DefaultAirMovement: RSDKv2/RetroScript/Functions/Player/DefaultAirMovement.md
+            - DefaultRollingMovement: RSDKv2/RetroScript/Functions/Player/DefaultRollingMovement.md
+            - DefaultGravityTrue: RSDKv2/RetroScript/Functions/Player/DefaultGravityTrue.md
+            - DefaultGravityFalse: RSDKv2/RetroScript/Functions/Player/DefaultGravityFalse.md
+            - DefaultJumpAction: RSDKv2/RetroScript/Functions/Player/DefaultJumpAction.md
+          - Stages:
+            - DrawActName: RSDKv2/RetroScript/Functions/Stages/DrawActName.md
+            - LoadStage: RSDKv2/RetroScript/Functions/Stages/LoadStage.md
+          - Miscellaneous:
+            - DrawMenu: RSDKv2/RetroScript/Functions/Misc/DrawMenu.md
+            - SetupMenu: RSDKv2/RetroScript/Functions/Misc/SetupMenu.md
+            - AddMenuEntry: RSDKv2/RetroScript/Functions/Misc/AddMenuEntry.md
+            - EditMenuEntry: RSDKv2/RetroScript/Functions/Misc/EditMenuEntry.md
+            - LoadVideo: RSDKv2/RetroScript/Functions/Misc/LoadVideo.md
+            - NextVideoFrame: RSDKv2/RetroScript/Functions/Misc/NextVideoFrame.md
+            - SetDebugIcon: RSDKv2/RetroScript/Functions/Misc/SetDebugIcon.md
+            - SetEditorIcon: RSDKv2/RetroScript/Functions/Misc/SetEditorIcon.md
 
     - RSDKv3:
       - RSDKv3/README.md
