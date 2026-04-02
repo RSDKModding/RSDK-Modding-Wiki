@@ -11,7 +11,7 @@ GraphicsGale (also known as Gale) is an image editing program tailored towards p
 
 ## Retro Engine
 
-GraphicsGale was used by Christian Whitehead for handling most graphic assets when working with Retro Engine games, and is still a common choice for sprite editing among RSDK modders. The main reason for this is that, unlike most other graphics editors, GraphicsGale supports indexed color palettes for GIF files, with palette optimization being disabled by default. This allows for easily modifying palettes for spritesheets and saving files without the palettes getting scrambled or merged.
+GraphicsGale was used by Christian Whitehead for handling most graphic assets when working with Retro Engine games, and is still a common choice for sprite editing among RSDK modders. The main reason for this is that, unlike most other graphics editors, GraphicsGale supports indexed color palettes for GIF files, with palette optimization and interlacing being disabled by default. This allows for easily modifying palettes for spritesheets and saving files without the palettes getting scrambled or merged.
 
 <figure class="uncenter" markdown="span">
   ![Original color palette](/assets/images/GraphicsGale/Palettes/S1-Sonic1.png)

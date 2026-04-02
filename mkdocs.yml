@@ -646,8 +646,8 @@ nav:
       - Documentation:
         - Animation Editor: Tools/RetroED/AnimationEditor.md
         - Scene Editor: Tools/RetroED/SceneEditor.md
-    - S3KOEditorLink: Tools/S3KOEditorLink/README.md
-    - GraphicsGale: Tools/GraphicsGale/README.md
+    - S3KOEditorLink: Tools/S3KOEditorLink.md
+    - GraphicsGale: Tools/GraphicsGale.md
 
   - Guides:
     - Guides/README.md
