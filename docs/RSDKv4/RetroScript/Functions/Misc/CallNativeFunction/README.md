@@ -62,6 +62,7 @@ CallNativeFunction4(NotifyCallback, NOTIFY_STATS_ENEMY, StageStatsUsabilityParam
 | [**NativePlayerWaitingAds**](NativePlayerWaitingAds.md)           | Creates a `RewardAds` native object, prompting the player to watch an ad.                               |
 | [**NativeWaterPlayerWaitingAds**](NativeWaterPlayerWaitingAds.md) | Creates a `RewardAds` native object, prompting the player to watch an ad.                               |
 | [**NotifyCallback**](NotifyCallback.md)                           | Sends the given callback to communicate to [Hedgehog Engine 2](/Games/SonicOrigins/HedgehogEngine2.md). |
+| [**PlayVideo**](PlayVideo.md)                           | Loads and plays a video.                                                               |
 
 ### Decomp Only
 | Function                                                      | Description                                                                |
