@@ -1,7 +1,7 @@
 # PlayVideo
 
 !!! note
-    This native function only exists in SEGA Classics (2018).
+    This native function only exists in SEGA Classics (2018) and is not available in the decompilations.
 
 Loads and plays a video stored inside the `res/raw/` folder of the APK. Similar to the v3 counterpart, the videos are stored in an `.mp4` file format
 
