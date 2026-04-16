@@ -5,12 +5,14 @@ TODO: write info about RSDKv2 and stuff relating to Nexus in general.
 
 ## Documentation
 - [Overview](TODO)
-- [Subs](TODO)
-- [Functions](TODO)
+- [RetroScript v2](RetroScript/README.md)
 
 ## Tools
 - [RetroED](/Tools/RetroED/README.md)
 
 ## Tutorials
+- TODO
 
 ## Other Resources
+
+
