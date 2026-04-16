@@ -23,7 +23,7 @@ end sub
 
 ## PlayerState
 Called once every frame to run a specific update of the player, if the player's state is equal to this state's ID.
-Unlike other subs, PlayerState subs are opened with `sub [name] [stateID]`
+Unlike other subs, PlayerState subs are opened with `sub [name] [stateID]`. (`stateID` can be a number, or an alias of a number).
 
 ``` title="Example"
 sub PlayerState 2

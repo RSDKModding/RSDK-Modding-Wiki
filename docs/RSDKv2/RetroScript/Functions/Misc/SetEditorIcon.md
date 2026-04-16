@@ -2,9 +2,6 @@
 
 Sets the object's icon used for the editor.
 
-!!! note
-    The details of this function are assumed based on scripts left in the 2008 Nexus demo.
-
 ## Parameters
 `IconID`
 
@@ -12,7 +9,7 @@ Sets the object's icon used for the editor.
 
 `DrawType`
 
-:   How the icon should be drawn. TODO: Maybe describe this better
+:   In which style the icon should be drawn.
 
 `xPivot`
 
@@ -48,7 +45,7 @@ SetEditorIcon(int IconID, int DrawType, int xPivot, int yPivot, int Width, int H
 
 ## Example
 ```
-SetEditorIcon(Icon0, SingleIcon, -16, -16, 32, 32, 75, 129)
+SetEditorIcon(Icon0, SingleIcon, -16, -16, 32, 32, 256, 221)
 ```
 
 ## Icon IDs
@@ -70,5 +67,3 @@ SetEditorIcon(Icon0, SingleIcon, -16, -16, 32, 32, 75, 129)
 | 1  | `SingleIcon` | Draws the current icon, regardless of `PropertyValue`.                 |
 | 2  | `RepeatH`    | Repeats the current icon horizontally by the value of `PropertyValue`. |
 | 3  | `RepeatV`    | Repeats the current icon vertically by the value of `PropertyValue`.   |
-
-TODO: I just took these from RetroED 2, are the IDs and functionalities accurate?

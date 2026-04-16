@@ -19,7 +19,7 @@ Draws a tinted rectangle to `iXPos` and `iYPos` in screen-space.
 
 :   The height of the rectangle.
 
-`TableID`
+`TintID`
 
 :   The ID of the tint table. Indices 0-3 are valid.
 
@@ -28,7 +28,7 @@ None.
 
 ## Syntax
 ```
-DrawTintRect(int iXPos, int iYPos, int Width, int Height, int TableID)
+DrawTintRect(int iXPos, int iYPos, int Width, int Height, int TintID)
 ```
 
 ## Example

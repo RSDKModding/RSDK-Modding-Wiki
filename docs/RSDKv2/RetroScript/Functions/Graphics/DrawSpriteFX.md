@@ -33,12 +33,12 @@ DrawSpriteFX(2, FX_FLIP, Object.Value0, Object.YPos)
 ```
 
 ## DrawFXFlag Effects
-| Effect        | Description                                                                                                  |
-| ------------- | ------------------------------------------------------------------------------------------------------------ |
-| `FX_SCALE`    | Allows the scaling of the sprite via `object.scale`.                                                         |
-| `FX_ROTATE`   | Allows the rotation of the sprite via `object.rotation`.                                                     |
-| `FX_INK`      | Allows using transparency based on `object.inkEffect`.                                                       |
-| `FX_TINT`     | Tints the sprite to grayscale if `object.inkEffect` is set to `INK_TINT`, otherwise it acts like `FX_SCALE`. |
+| Effect        | Description                                                                                                        |
+| ------------- | ------------------------------------------------------------------------------------------------------------------ |
+| `FX_SCALE`    | Allows the scaling of the sprite via `object.scale`.                                                               |
+| `FX_ROTATE`   | Allows the rotation of the sprite via `object.rotation`.                                                           |
+| `FX_INK`      | Allows using transparency based on `object.inkEffect`.                                                             |
+| `FX_TINT`     | Tints the sprite to tint table `0`, if `object.inkEffect` is set to `INK_TINT`, otherwise it acts like `FX_SCALE`. |
 
 !!! note
     `FX_TINT` does not have an alias set by default. Its numeric ID is `3`.

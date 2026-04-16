@@ -1,4 +1,4 @@
-# SetPaletteFade
+# SetFade
 
 Blends the palette from `StartIndex` to `EndIndex` based on `R`, `G`, `B`, and `BlendAmount`.
 

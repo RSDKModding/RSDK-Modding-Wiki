@@ -19,7 +19,7 @@
 | [**LoadPalette**](Drawing/LoadPalette.md)     | Loads a palette starting from `StartIndex` and reading all colors through to `EndIndex`.                         |
 | [**RotatePalette**](Drawing/RotatePalette.md) | Rotates all colors in the palette from `StartIndex` to `EndIndex`, moving left or right depending on `RotRight`. |
 | [**SetFade**](Drawing/SetFade.md)             | Blends the palette from `StartIndex` to `EndIndex` based on `R`, `G`, `B`, and `BlendAmount`.                    |
-| [**SetWaterColor**](Drawing/SetWaterColor.md) | **Non-functional.**                                                                                              |
+|  **SetWaterColor**                            | **Non-functional.**                                                                                              |
 | [**SetBlendTable**](Drawing/SetBlendTable.md) | Generates a blend table with the specified values.                                                               |
 | [**SetTintTable**](Drawing/SetTintTable.md)   | Generates a tint table with the specified values and saves it to `TableID`.                                      |
 | [**ClearScreen**](Drawing/ClearScreen.md)     | Clears all pixels on screen with color `ClearIndex` from the palette.                                            |
@@ -33,7 +33,7 @@
 | [**DrawSprite**](Graphics/DrawSprite.md)                 | Draws `Frame` at the object's X and Y position.                                                            |
 | [**DrawSpriteXY**](Graphics/DrawSpriteXY.md)             | Draws `Frame` at a specified X and Y position.                                                             |
 | [**DrawSpriteScreenXY**](Graphics/DrawSpriteScreenXY.md) | Draws `Frame` at a specified X and Y position in screen-space.                                             |
-| [**DrawSprite3D**](Graphics/DrawSprite3D.md)             | **Non-functional.**                                                                                        |
+|  **DrawSprite3D**                                        | **Non-functional.**                                                                                        |
 | [**SpriteFrame**](Graphics/SpriteFrame.md)               | Adds a SpriteFrame with the specified values.                                                              |
 | [**DrawSpriteFX**](Graphics/DrawSpriteFX.md)             | Draws `Frame` at a specified X and Y position with visual effects.                                         |
 | [**DrawSpriteScreenFX**](Graphics/DrawSpriteScreenFX.md) | Draws `Frame` at a specified X and Y position in screen-space with visual effects.                         |
@@ -54,7 +54,7 @@
 | [**Cos256**](Math/Cos256.md)               | Gets the value from the `cos256` lookup table based on `Angle` and sets it in `Store`.                 |
 | [**SinChange**](Math/SinChange.md)         | Performs [Sin()](Math/Sin.md), then additional operations, before storing the final output in `Store`. |
 | [**CosChange**](Math/CosChange.md)         | Performs [Cos()](Math/Cos.md), then additional operations, before storing the final output in `Store`. |
-| [**ATan2**](Math/ATan2.md)                 | **Non-functional.**                                                                                    |
+|  **ATan2**                                 | **Non-functional.**                                                                                    |
 | [**Interpolate**](Math/Interpolate.md)     | Linearly interpolates `X` and `Y` by `Percent` and stores the result in `Store`.                       |
 | [**InterpolateXY**](Math/InterpolateXY.md) | Linearly interpolates two points at once and stores the result in `StoreX` and `StoreY` respectively.  |
 | [**Not**](Math/Not.md)                     | Performs a NOT operation on `Value`.                                                                   |
@@ -76,7 +76,7 @@
 | [**DefaultRollingMovement**](Player/DefaultRollingMovement.md) | Processes the current player's rolling acceleration and deceleration.                     |
 | [**DefaultGravityTrue**](Player/DefaultGravityTrue.md)         | Calculates the current player's air rotation and gravity.                                 |
 | [**DefaultGravityFalse**](Player/DefaultGravityFalse.md)       | Calculates the current player's ground velocity based on their ground speed and angle.    |
-| [**DefaultJumpAction**](Player/DefaultJumpAction.md)           | Sets up the required values for the current player to jump.                               |
+| [**DefaultJumpAction**](Player/DefaultJumpAction.md)           | Makes the current player jump.                                                            |
 
 ## Stages
 | Function                                 | Description                                                    |
@@ -93,5 +93,5 @@
 | [**EditMenuEntry**](Misc/EditMenuEntry.md)   | Edits an entry of `Menu` with the contents of `Text` in `RowID`.                                         |
 | [**LoadVideo**](Misc/LoadVideo.md)           | Loads and plays an RSV video.                                                                            |
 | [**NextVideoFrame**](Misc/NextVideoFrame.md) | Advances the video frame of an RSV video.                                                                |
-| [**SetDebugIcon**](Misc/SetDebugIcon.md)     | **Non-functional.**                                                                                      |
+|  **SetDebugIcon**                            | **Non-functional.**                                                                                      |
 | [**SetEditorIcon**](Misc/SetEditorIcon.md)   | Sets the object's icon used for the editor. **Editor only.**                                             |

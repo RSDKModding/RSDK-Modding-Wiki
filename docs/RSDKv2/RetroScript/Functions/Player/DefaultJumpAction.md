@@ -1,6 +1,6 @@
 # DefaultJumpAction
 
-Sets up the required values for the current player to jump.
+Makes the current player jump.
 
 ## Parameters
 None.

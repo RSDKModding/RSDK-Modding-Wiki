@@ -11,19 +11,19 @@ Loads a music file in the given track slot with the given loop point.
 
 :   The trackList slot to load the music in.
 
-`LoopPoint`
+`Loop`
 
-:   The track's loop point, in samples. `0` will disable looping, `1` will loop from the beginning of the track, and anything else is the sample to loop from.
+:   Determines if the track should loop. `false` will disable looping, and `true` will loop from the beginning of the track.
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-SetMusicTrack(string Path, int TrackID, int LoopPoint)
+SetMusicTrack(string Path, int TrackID, bool Loop)
 ```
 
 ## Example
 ```
-SetMusicTrack("Test.ogg", 0, 1)
+SetMusicTrack("Test.ogg", 0, true)
 ```

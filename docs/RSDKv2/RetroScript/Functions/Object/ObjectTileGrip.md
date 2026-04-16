@@ -9,7 +9,7 @@ TODO: this needs a better description to differentiate it from [ObjectTileCollis
 ## Parameters
 `CSide`
 
-:   Determines to which side of the tile the object has to collide. Can be `CSIDE_FLOOR`, `CSIDE_LWALL`, `CSIDE_RWALL`, or `CSIDE_ROOF`. In Sonic Origins, `CSIDE_ENTITY` is available as well.
+:   Determines to which side of the tile the object has to collide. Can only be `0`.
 
 `xOffset`
 
@@ -33,5 +33,5 @@ ObjectTileGrip(int CSide, int xOffset, int yOffset, int CPlane)
 
 ## Example
 ```
-ObjectTileGrip(CSIDE_RWALL, 8, -12, 0)
+ObjectTileGrip(0, 0, 8, 0)
 ```

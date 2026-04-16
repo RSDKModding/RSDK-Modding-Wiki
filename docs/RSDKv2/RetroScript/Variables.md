@@ -20,8 +20,8 @@
 | **Player.State**         | The Player's state. Handles gameplay and processing the Player in general.                                                                   |
 | **Player.ControlMode**   | The status of the Player's control mode.                                                                                                     |
 | **Player.CollisionMode** | The collision that the Player's currently on.                                                                                                |
-| **Player.X/YPos**        | The object's x/ypos on the x and y axis. Position is based in world-space, which in v3 is 0x10000 (65536), which is equal is 1.0.            |
-| **Player.ScreenX/YPos**  | The object's screenx/ypos on the x and y axis. Screen position is based in screen-space, which in v3 is truncated from world-space (1 == 1). |
+| **Player.X/YPos**        | The object's x/ypos on the x and y axis. Position is based in world-space, which in v2 is 0x10000 (65536), which is equal is 1.0.            |
+| **Player.ScreenX/YPos**  | The object's screenx/ypos on the x and y axis. Screen position is based in screen-space, which in v2 is truncated from world-space (1 == 1). |
 | **Player.Speed**         | The Player's general speed in world-space
 
 ## Stage

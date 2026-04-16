@@ -14,7 +14,7 @@ TODO: Make a clearer description of this function
 
 `ColourMode`
 
-:   TODO: this (it seems to affect the colours... but in what way? 0 affects none, 1 affects red, 2 affects green, 3 affects blue?)
+:   TODO: this (it seems to affect the colours... but in what way... i think it inverts the value? 0 affects none, 1 affects red, 2 affects green, 3 affects blue?)
 
 `Param4`
 
@@ -24,7 +24,7 @@ TODO: Make a clearer description of this function
 
 :   TODO: this
 
-`TableID`
+`TintID`
 
 :   The ID of the tint table. Indices 0-3 are valid.
 
@@ -33,7 +33,7 @@ None.
 
 ## Syntax
 ```
-SetTintTable(int Alpha, int Param2, int ColourMode, int Param4, int Param5, int TableID)
+SetTintTable(int Alpha, int Param2, int ColourMode, int Param4, int Param5, int TintID)
 ```
 
 ## Example
