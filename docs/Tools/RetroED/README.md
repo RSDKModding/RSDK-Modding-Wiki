@@ -13,6 +13,6 @@ TODO: more
 [:fontawesome-brands-github: Source Code](https://github.com/RSDKModding/RetroED){ .md-button target="_blank" }
 
 ## Tutorials
-- [Extracting a Datapack With RetroED](/Guides/RetroED/ExtractDatapack.md)
-- [Linking Game Logic With RetroED](/Guides/RetroED/GameLogicLink.md)
-- [Using S3KOEditorLink with RetroED](/Guides/RetroED/S3KOEditorLink.md)
+- [Extracting a Datapack With RetroED](/Guides/RetroED/ExtractDatapack)
+- [Linking Game Logic With RetroED](/Guides/RetroED/GameLogicLink)
+- [Using S3KOEditorLink with RetroED](/Guides/RetroED/S3KOEditorLink)

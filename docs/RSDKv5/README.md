@@ -9,7 +9,7 @@ TODO: write info about RSDKv5(U) and anything relating to Mania/S3
 - [GameAPI](GameAPI/README.md)
 
 ## Tools
-- [RetroED](/Tools/RetroED/README.md)
+- [RetroED](/Tools/RetroED)
 
 ## Tutorials
 - TODO

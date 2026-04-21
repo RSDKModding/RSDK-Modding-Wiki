@@ -99,11 +99,11 @@
 | [**LoadImage**](Videos/LoadImage.md) | Loads and displays an image. |
 
 ## Miscellaneous
-| Function                                           | Description                                                                                                                     |
-| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| [**NotifyCallback**](Misc/NotifyCallback.md)       | Sends the given callback to communicate to [Hedgehog Engine 2](/Games/SonicOrigins/HedgehogEngine2.md). **Sonic Origins only.** |
-| [**HasNotifyCallback**](Misc/HasNotifyCallback.md) | Checks if the game has access to [NotifyCallback()](Misc/NotifyCallback.md). **Sonic Origins only.**                            |
-| [**SetGameFinished**](Misc/SetGameFinished.md)     | Notifies the engine that the game has been finished. **Sonic Origins only.**                                                    |
+| Function                                           | Description                                                                                                                  |
+| -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| [**NotifyCallback**](Misc/NotifyCallback.md)       | Sends the given callback to communicate to [Hedgehog Engine 2](/Games/SonicOrigins/HedgehogEngine2). **Sonic Origins only.** |
+| [**HasNotifyCallback**](Misc/HasNotifyCallback.md) | Checks if the game has access to [NotifyCallback()](Misc/NotifyCallback.md). **Sonic Origins only.**                         |
+| [**SetGameFinished**](Misc/SetGameFinished.md)     | Notifies the engine that the game has been finished. **Sonic Origins only.**                                                 |
 
 ## Editor
 | Function                                                   | Description                                                                                        |

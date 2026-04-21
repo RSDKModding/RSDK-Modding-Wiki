@@ -4,13 +4,13 @@
 
 === "v3/v4"
 
-    - [RetroED](/Tools/RetroED/README.md)
+    - [RetroED](/Tools/RetroED)
     - [An extracted Data folder for the desired game](ExtractDatapack.md)
     - A Scripts folder for the desired game
 
 === "v5"
 
-    - [RetroED](/Tools/RetroED/README.md)
+    - [RetroED](/Tools/RetroED)
     - [An extracted Data folder for the desired game](ExtractDatapack.md)
     - A game logic file for the desired game
         - Logic files must be built with editor code. For example, the Sonic Mania decompilation controls this with the `GAME_INCLUDE_EDITOR` build flag, which is enabled by default.

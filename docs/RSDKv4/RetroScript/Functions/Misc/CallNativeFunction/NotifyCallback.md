@@ -3,9 +3,9 @@
 !!! note
     This native function only exists in Sonic Origins.
 
-Sends the given callback to communicate to [Hedgehog Engine 2](/Games/SonicOrigins/HedgehogEngine2.md).
+Sends the given callback to communicate to [Hedgehog Engine 2](/Games/SonicOrigins/HedgehogEngine2).
 
-For more information on NotifyCallback, including a list of usable callbacks, see [this page](/Games/SonicOrigins/Documentation/NotifyCallback/README.md).
+For more information on NotifyCallback, including a list of usable callbacks, see [this page](/Games/SonicOrigins/Documentation/NotifyCallback).
 
 ## Parameters
 `callback`

@@ -8,7 +8,7 @@ TODO: write info about RSDKv3 and anything relating to CD
 - [RetroScript v3](RetroScript/README.md)
 
 ## Tools
-- [RetroED](/Tools/RetroED/README.md)
+- [RetroED](/Tools/RetroED)
 
 ## Tutorials
 - TODO

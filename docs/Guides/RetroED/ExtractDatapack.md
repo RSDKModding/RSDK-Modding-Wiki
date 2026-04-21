@@ -1,7 +1,7 @@
 # Extracting a Datapack With RetroED
 
 ## Prerequisites
-- [RetroED](/Tools/RetroED/README.md)
+- [RetroED](/Tools/RetroED)
 - The datapack you'd like to extract. If you haven't obtained/located it, read the Obtaining the Datapack guide for the desired game.
 
 Open RetroED, then open `Tools` > `RSDK Unpacker`.

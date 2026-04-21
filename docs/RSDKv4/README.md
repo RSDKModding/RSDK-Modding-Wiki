@@ -8,7 +8,7 @@ TODO: write info about RSDKv4 and anything relating to S1/S2
 - [RetroScript v4](RetroScript/README.md)
 
 ## Tools
-- [RetroED](/Tools/RetroED/README.md)
+- [RetroED](/Tools/RetroED)
 
 ## Tutorials
 - TODO

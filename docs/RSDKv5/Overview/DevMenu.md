@@ -23,7 +23,7 @@ language=0
 Alternatively, running the game in [Data Folder Mode](TODO) will automatically enable the Dev Menu.
 
 !!! note
-    The entirety of the Dev Menu was removed in [Sonic Origins](/Games/SonicOrigins/README.md), making it inaccessible.
+    The entirety of the Dev Menu was removed in [Sonic Origins](/Games/SonicOrigins), making it inaccessible.
 
 ## Debug Controls
 
