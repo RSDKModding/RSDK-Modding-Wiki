@@ -59,10 +59,14 @@ CallNativeFunction4(NotifyCallback, NOTIFY_STATS_ENEMY, StageStatsUsabilityParam
 | [**ReceiveValue**](ReceiveValue.md)                               | Sets a variable to a value sent from the opponent in 2P VS.                                             |
 | [**TransmitGlobal**](TransmitGlobal.md)                           | Sets a global variable for the opponent in 2P VS.                                                       |
 | [**ShowPromoPopup**](ShowPromoPopup.md)                           | Shows a promo popup.                                                                                    |
-| [**NativePlayerWaitingAds**](NativePlayerWaitingAds.md)           | Creates a `RewardAds` native object, prompting the player to watch an ad.                               |
-| [**NativeWaterPlayerWaitingAds**](NativeWaterPlayerWaitingAds.md) | Creates a `RewardAds` native object, prompting the player to watch an ad.                               |
-| [**NotifyCallback**](NotifyCallback.md)                           | Sends the given callback to communicate to [Hedgehog Engine 2](/Games/SonicOrigins/HedgehogEngine2.md). |
-| [**PlayVideo**](PlayVideo.md)                                     | Loads and plays a video.                                                                                |
+
+### Version Exclusive
+| Function                                                          | Version                              | Description                                                                                             |
+| ----------------------------------------------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------- |
+| [**NativePlayerWaitingAds**](NativePlayerWaitingAds.md)           | [Sega Forever](TODO)                 | Creates a `RewardAds` native object, prompting the player to watch an ad after dying.                   |
+| [**NativeWaterPlayerWaitingAds**](NativeWaterPlayerWaitingAds.md) | [Sega Forever](TODO)                 | Creates a `RewardAds` native object, prompting the player to watch an ad after drowning.                |
+| [**NotifyCallback**](NotifyCallback.md)                           | [Sonic Origins](/Games/SonicOrigins) | Sends the given callback to communicate to [Hedgehog Engine 2](/Games/SonicOrigins/HedgehogEngine2). |
+| [**PlayVideo**](PlayVideo.md)                                     | [Sega Classics](TODO)                | Loads and plays a video. **Not available in the decompilations.**                                       |
 
 ### Decomp Only
 | Function                                                      | Description                                                                |
