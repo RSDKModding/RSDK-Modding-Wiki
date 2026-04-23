@@ -26,7 +26,7 @@ Adds a viewable variable to the [Dev Menu]. Viewable variables exist until the s
 
 :   The maximum value of the viewable variable (inclusive).
 
-  [Dev Menu]: /RSDKv5/Overview/DevMenu.md
+  [Dev Menu]: /RSDKv5/Overview/DevMenu
 
 ## Return Value
 None.

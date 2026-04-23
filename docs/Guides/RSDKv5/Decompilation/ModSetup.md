@@ -53,7 +53,7 @@ The common reasons for this occuring are:
 
 The mods menu in RSDKv5U only shows mods whose `TargetVersion` in their [mod.ini] files match the currently loaded engine version. If the `TargetVersion` flag isn't present in that file, the target version will default to `5` for RSDKv5. Make sure the appropriate target version is set.
 
-  [mod.ini]: /RSDKv5/Decompilation/ModLoader.md#modini
+  [mod.ini]: /RSDKv5/Decompilation/ModLoader#modini
 
 ## FAQ
 
@@ -63,4 +63,4 @@ Steam Mania mods that use DLL files will not work with the decompilation, as the
 
 Even if a mod doesn't contain a DLL file, it may still use features provided by Mania Mod Manager, such as codes or the BASS audio library. In this case, the mod may not behave correctly when used on the decompilation, as it does not support this functionality.
 
-  [GameAPI]: TODO
+  [GameAPI]: /RSDKv5/GameAPI

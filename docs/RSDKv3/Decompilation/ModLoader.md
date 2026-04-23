@@ -103,7 +103,7 @@ All of these flags take a boolean (`false`/`true`) unless stated otherwise. You 
 
 :   Forces the engine version when used in the [RSDKv5U Decompilation]. This should normally never be necessary, however. Forces RSDKv3 when set to `3`.
 
-  [RSDKv5U Decompilation]: /RSDKv5/Decompilation/README.md
+  [RSDKv5U Decompilation]: /RSDKv5/Decompilation
 
 !!! info
     Versions of the decompilation prior to 1.3.0 used an `Active` flag to determine whether or not the mod is enabled. This flag has since been deprecated and is no longer used.
