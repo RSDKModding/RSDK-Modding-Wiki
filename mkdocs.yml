@@ -63,7 +63,7 @@ extra_javascript:
   - rsdk_theme/background.js
 
 validation:
-  unresolved_references: false
+  unresolved_references: true
   unresolved_footnotes: true
   unused_definitions: true
   unused_footnotes: true

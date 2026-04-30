@@ -6,8 +6,8 @@
 | **temp0-7**     | Temporary values used to store values during arithmetic or other similar operations.              |
 | **checkResult** | A value that some functions set as the resulting value. Can be used with all sorts of arithmetic. |
 | **arrayPos0-7** | Used to store an array of data.                                                                   |
-| **global**      | Can be used to use global variables as an array (Ex. global[arrayPos0] = 0).                      |
-| **local**       | Can be used to use local variables as an array (Ex. local[arrayPos0] = 0).                        |
+| **global**      | Can be used to use global variables as an array (Ex. global\[arrayPos0] = 0).                      |
+| **local**       | Can be used to use local variables as an array (Ex. local\[arrayPos0] = 0).                        |
 
 ## Object
 | Variable                 | Description                                                                                                                      |
@@ -39,7 +39,7 @@
 | **stage.curX/YBoundary1/2**      | The boundaries for the stage camera. The camera will never go past these boundaries.                                                                                               |
 | **stage.deformationData0/1/2/3** | Values used to store stage deformation. 0/1 is for the foreground (0 for above water, 1 for underwater), and 2/3 are for the background (2 for above water, and 3 for underwater). |
 | **stage.waterLevel**             | The stage's current water level.                                                                                                                                                   |
-| **stage.activeLayer[index]**     | Gets an active layer based on `index` and is able to be set to another tile layer. (Ex. stage.activeLayer[0] = 5 would set the background layer to the fifth tile layer.)          |
+| **stage.activeLayer\[index]**     | Gets an active layer based on `index` and is able to be set to another tile layer. (Ex. stage.activeLayer\[0] = 5 would set the background layer to the fifth tile layer.)          |
 | **stage.midPoint**               | The stage's mid point. If any active drawing layers come after this, tiles will be able to render on the high layer.                                                               |
 | **stage.playerListPos**          | The position of the selected Player on the player list.                                                                                                                            |
 | **stage.debugMode**              | Determines whether Debug Mode is active or not.                                                                                                                                    |
@@ -74,7 +74,7 @@
 ## Input
 | Variable                 | Description                                                                                                                                 |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| **keyDown/keyPress.[X]** | General inputs for controllers. `keyDown` is true if a button/key is held, while `keyPress` is true if a button/key was pressed on a frame. |
+| **keyDown/keyPress.\[X]** | General inputs for controllers. `keyDown` is true if a button/key is held, while `keyPress` is true if a button/key was pressed on a frame. |
 |
 
 ## Menu
@@ -101,7 +101,7 @@
 ## Engine
 | Variable                | Description                                                                                                              |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| **saveRAM[index]**      | Capable of saving data to the array of `index`, using the `Read/WriteSaveRAM()` functions.                               |
+| **saveRAM\[index]**      | Capable of saving data to the array of `index`, using the `Read/WriteSaveRAM()` functions.                               |
 | **engine.state**        | The engine's current processing state.                                                                                   |
 | **engine.language**     | The active language the engine is using.                                                                                 |
 | **engine.onlineActive** | Gets the engine's state with online connectivity.                                                                        |
