@@ -30,28 +30,27 @@ CRIWARE audio packs are encrypted, and require a keycode unique to each pack in 
 | STH3_sfx.acb           | 17938273131493627783 |
 
 ## Sonic 1 Music (STH1_music.awb) { id="sonic-1-music" }
-| ID | CRIWARE Audio Name | RSDK Filename         |
-| -- | ------------------ | --------------------- |
-| 0  | 88_1up             | Global/1Up.wav[^1]    |
-| 1  | 8A_TitleScreen     | Titlescreen.ogg       |
-| 2  | 8B_Ending          | Ending.ogg            |
-| 3  | 8E_ActComplete     | ActComplete.ogg       |
-| 4  | 8F_GameOver        | GameOver.ogg          |
-| 5  | 90_Continue        | Continue.ogg          |
-| 6  | 91_Credits         | Credits.ogg           |
-| 7  | 81_z1_GreenHill    | GreenHill.ogg         |
-| 8  | 82_z4_Labyrinth    | Labyrinth.ogg         |
-| 9  | 83_z2_Marble       | Marble.ogg            |
-| 10 | 84_z5_StarLight    | Starlight.ogg         |
-| 11 | 85_z3_SpringYard   | SpringYard.ogg        |
-| 12 | 86_z6_ScrapBrain   | ScrapBrain.ogg        |
-| 13 | 87_Invincibility   | Invincibility.ogg     |
-| 14 | 89_SpecialStage    | Specialstage.ogg[^2]  |
-| 14 | 89_SpecialStage    | SpecialStage.ogg[^2]  |
-| 15 | 8C_Boss            | Boss.ogg              |
-| 16 | 8D_Final           | Final.ogg             |
-| 17 | 92_Drowning        | Drowning.ogg          |
-| 18 | 93_ChaosEmerald    | Stage/Emerald.wav[^3] |
+| ID | CRIWARE Audio Name | RSDK Filename                            |
+| -- | ------------------ | ---------------------------------------- |
+| 0  | 88_1up             | Global/1Up.wav[^1]                       |
+| 1  | 8A_TitleScreen     | Titlescreen.ogg                          |
+| 2  | 8B_Ending          | Ending.ogg                               |
+| 3  | 8E_ActComplete     | ActComplete.ogg                          |
+| 4  | 8F_GameOver        | GameOver.ogg                             |
+| 5  | 90_Continue        | Continue.ogg                             |
+| 6  | 91_Credits         | Credits.ogg                              |
+| 7  | 81_z1_GreenHill    | GreenHill.ogg                            |
+| 8  | 82_z4_Labyrinth    | Labyrinth.ogg                            |
+| 9  | 83_z2_Marble       | Marble.ogg                               |
+| 10 | 84_z5_StarLight    | Starlight.ogg                            |
+| 11 | 85_z3_SpringYard   | SpringYard.ogg                           |
+| 12 | 86_z6_ScrapBrain   | ScrapBrain.ogg                           |
+| 13 | 87_Invincibility   | Invincibility.ogg                        |
+| 14 | 89_SpecialStage    | Specialstage.ogg<br>SpecialStage.ogg[^2] |
+| 15 | 8C_Boss            | Boss.ogg                                 |
+| 16 | 8D_Final           | Final.ogg                                |
+| 17 | 92_Drowning        | Drowning.ogg                             |
+| 18 | 93_ChaosEmerald    | Stage/Emerald.wav[^3]                    |
 
 [^1]: The jingles for 1UPs in Sonic 1 & 2 use an RSDK filename of simply `1up`. To get around issues involving the jingles being music in CRIWARE but sound effects in RSDK, the SFX RFL parameters include a `m_music` field that allows playing a song by audio name while playing a sound effect, which the `_SE_1Up` entries do by setting their music fields to `1up`. For the sake of clarity, these tables list the actual sound effect filenames instead.
 [^2]: `Specialstage.ogg` is used in the Special Stages, while `SpecialStage.ogg` is used in the Level Select's sound test.
@@ -156,37 +155,36 @@ These entries exist in the RFL parameters but are duplicates of others or have n
 | 72 | RSDK_SCD_J---TimeAttack                  | JP/TimeAttack.ogg    |
 
 ## Sonic 2 Music (STH2_music.awb) { id="sonic-2-music" }
-| ID | CRIWARE Audio Name | RSDK Filename        |
-| -- | ------------------ | -------------------- |
-| 0  | 02_EmeraldHill     | EmeraldHill.ogg      |
-| 1  | 03_MysticCave2     | MysticCave2.ogg      |
-| 2  | 04_OilOcean        | OilOcean.ogg         |
-| 3  | 05_Metropolis      | Metropolis.ogg       |
-| 4  | 06_HillTop         | HillTop.ogg          |
-| 5  | 07_AquaticRuin     | AquaticRuin.ogg      |
-| 6  | 08_CasinoNight2    | CasinoNight2.ogg     |
-| 7  | 09_CasinoNight     | CasinoNight.ogg      |
-| 8  | 0A_DeathEgg        | DeathEgg.ogg         |
-| 9  | 0B_MysticCave      | MysticCave.ogg       |
-| 10 | 0C_EmeraldHill2    | EmeraldHill2.ogg     |
-| 11 | 0D_SkyChase        | SkyChase.ogg         |
-| 12 | 0E_ChemicalPlant   | ChemicalPlant.ogg    |
-| 13 | 0F_WingFortress    | WingFortress.ogg     |
-| 14 | 11_Options         | Options.ogg          |
-| 15 | 12_SpecialStage    | SpecialStage.ogg     |
-| 16 | 13_Boss            | Boss.ogg             |
-| 17 | 14_FinalBoss       | FinalBoss.ogg        |
-| 18 | 16_Super           | Super.ogg            |
-| 19 | 17_Invincibility   | Invincibility.ogg    |
-| 20 | 01_Results         | Results.ogg          |
-| 21 | 10_Extra           | Extra.ogg            |
-| 22 | 15_Ending          | Ending.ogg           |
-| 23 | 19_TitleScreen     | Titlescreen.ogg[^4]  |
-| 23 | 19_TitleScreen     | TitleScreen.ogg[^4]  |
-| 24 | 1A_ActComplete     | ActComplete.ogg      |
-| 25 | 1B_GameOver        | GameOver.ogg         |
-| 26 | 1C_Continue        | Continue.ogg         |
-| 27 | 1E_Credits         | Credits.ogg          |
+| ID | CRIWARE Audio Name | RSDK Filename                          |
+| -- | ------------------ | -------------------------------------- |
+| 0  | 02_EmeraldHill     | EmeraldHill.ogg                        |
+| 1  | 03_MysticCave2     | MysticCave2.ogg                        |
+| 2  | 04_OilOcean        | OilOcean.ogg                           |
+| 3  | 05_Metropolis      | Metropolis.ogg                         |
+| 4  | 06_HillTop         | HillTop.ogg                            |
+| 5  | 07_AquaticRuin     | AquaticRuin.ogg                        |
+| 6  | 08_CasinoNight2    | CasinoNight2.ogg                       |
+| 7  | 09_CasinoNight     | CasinoNight.ogg                        |
+| 8  | 0A_DeathEgg        | DeathEgg.ogg                           |
+| 9  | 0B_MysticCave      | MysticCave.ogg                         |
+| 10 | 0C_EmeraldHill2    | EmeraldHill2.ogg                       |
+| 11 | 0D_SkyChase        | SkyChase.ogg                           |
+| 12 | 0E_ChemicalPlant   | ChemicalPlant.ogg                      |
+| 13 | 0F_WingFortress    | WingFortress.ogg                       |
+| 14 | 11_Options         | Options.ogg                            |
+| 15 | 12_SpecialStage    | SpecialStage.ogg                       |
+| 16 | 13_Boss            | Boss.ogg                               |
+| 17 | 14_FinalBoss       | FinalBoss.ogg                          |
+| 18 | 16_Super           | Super.ogg                              |
+| 19 | 17_Invincibility   | Invincibility.ogg                      |
+| 20 | 01_Results         | Results.ogg                            |
+| 21 | 10_Extra           | Extra.ogg                              |
+| 22 | 15_Ending          | Ending.ogg                             |
+| 23 | 19_TitleScreen     | Titlescreen.ogg<br>TitleScreen.ogg[^4] |
+| 24 | 1A_ActComplete     | ActComplete.ogg                        |
+| 25 | 1B_GameOver        | GameOver.ogg                           |
+| 26 | 1C_Continue        | Continue.ogg                           |
+| 27 | 1E_Credits         | Credits.ogg                            |
 
 !!! note
     Sonic 2 shares its 1-UP, Drowning, and Chaos Emerald jingles with Sonic 1, as the songs stored in `STH1_music.awb` are played in both games.
