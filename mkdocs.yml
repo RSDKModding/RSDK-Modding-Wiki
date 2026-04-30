@@ -63,8 +63,14 @@ extra_javascript:
   - rsdk_theme/background.js
 
 validation:
-  links:
-    absolute_links: relative_to_docs
+  unresolved_references: false
+  unresolved_footnotes: true
+  unused_definitions: true
+  unused_footnotes: true
+  shadowed_definitions: true
+  shadowed_footnotes: true
+  invalid_links: false
+  invalid_link_anchors: false
 
 watch:
   - overrides
