@@ -5,7 +5,7 @@
 | ---------------- | ------------------------------------------------------------------------------------ |
 | **TempValue0-7** | Temporary values used to store values during arithmetic or other similar operations. |
 | **ArrayPos0/1**  | Used to store an array of data.                                                      |
-| **Global**       | Can be used to use global variables as an array (Ex. Global\[ArrayPos0] = 0).         |
+| **Global**       | Can be used to use global variables as an array (Ex. Global\[ArrayPos0] = 0).        |
 
 ## Object
 | Variable                 | Description                                                      |

@@ -1,7 +1,5 @@
 # Setting Up Mods for the RSDKv4 Decompilation
 
-TODO: screenshots
-
 !!! note
     This guide assumes you have already [set up the RSDKv4 Decompilation](Setup.md).
 
