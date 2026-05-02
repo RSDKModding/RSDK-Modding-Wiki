@@ -91,11 +91,11 @@ plugins:
         - Decompilations
         - RetroED
         - Wiki
-  - glightbox:
-      zoomable: true
-      draggable: true
-      effect: fade
-      width: 100%
+  #- glightbox:
+  #    zoomable: true
+  #    draggable: true
+  #    effect: fade
+  #    width: 100%
   - group:
       enabled: !ENV [CI, false]
       plugins:
@@ -150,6 +150,7 @@ markdown_extensions:
       options:
         custom_icons:
           - overrides/.icons
+  - zensical.extensions.glightbox
 
 nav:
   - Home: README.md
