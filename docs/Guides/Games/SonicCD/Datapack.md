@@ -6,13 +6,15 @@ The datapack for Sonic CD is required for both playing and modding the game.
 === "Android"
 
     - [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver)
-    - [Sonic CD installed from the Google Play Store](https://play.google.com/store/apps/details?id=com.sega.soniccd.classic)
+    - Sonic CD installed from the Google Play Store
+      - Note that this release has been delisted. However, if you have downloaded it in the past, you can redownload it at any time in your device or store account's download/purchase history.
 
 === "iOS"
 
     - [A jailbroken iOS device](https://ios.cfw.guide/)
     - Filza (Available on the BigBoss package repo: `http://apt.thebigboss.org/repofiles/cydia/`)
-    - [Sonic CD installed from the App Store](https://apps.apple.com/us/app/sonic-cd-classic/id454316134)
+    - Sonic CD installed from the App Store
+      - Note that this release has been delisted. However, if you have downloaded it in the past, you can redownload it at any time in your device or store account's download/purchase history.
 
 === "Sonic Origins (Steam)"
 
@@ -28,6 +30,7 @@ The datapack for Sonic CD is required for both playing and modding the game.
 
     - Steam installed and running
     - Sonic CD installed from Steam
+      - Note that this release has been delisted. However, if you have the game in your Steam library, you can redownload it there at any time.
 
 ## Obtaining the Datapack
 === "Android"

@@ -7,13 +7,15 @@ The datapacks for Sonic 1 and 2 are required for both playing and modding the ga
 
     - An APK extractor app (anything from the Google Play Store should work)
     - [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver)
-    - [Sonic 1](https://play.google.com/store/apps/details?id=com.sega.sonic1px) or [Sonic 2](https://play.google.com/store/apps/details?id=com.sega.sonic2.runner) installed from the Google Play Store
+    - Sonic 1 or Sonic 2 installed from the Google Play Store
+      - Note that these releases have been delisted. However, if you have downloaded one of them in the past, you can redownload it at any time in your device or store account's download/purchase history.
 
 === "iOS"
 
     - [A jailbroken iOS device](https://ios.cfw.guide/)
     - Filza (Available on the BigBoss package repo: `http://apt.thebigboss.org/repofiles/cydia/`)
-    - [Sonic 1](https://apps.apple.com/au/app/sonic-the-hedgehog-classic/id316050001) or [Sonic 2](https://apps.apple.com/au/app/sonic-the-hedgehog-2-classic/id347415188) installed from the App Store
+    - Sonic 1 or Sonic 2 installed from the App Store
+      - Note that these releases have been delisted. However, if you have downloaded one of them in the past, you can redownload it at any time in your device or store account's download/purchase history.
 
 === "Sonic Origins (Steam)"
 
