@@ -72,9 +72,6 @@ validation:
   invalid_links: false
   invalid_link_anchors: false
 
-watch:
-  - overrides
-
 plugins:
   - search
   - meta
