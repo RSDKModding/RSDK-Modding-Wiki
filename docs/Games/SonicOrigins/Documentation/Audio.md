@@ -204,7 +204,6 @@ All fast (Speed Shoes) music plays the original music at 1.2x speed.
 | 07_AquaticRuin     | AquaticRuin_F.ogg   |
 | 08_CasinoNight2    | CasinoNight2_F.ogg  |
 | 09_CasinoNight     | CasinoNight_F.ogg   |
-| 0A_DeathEgg        | DeathEgg_F.ogg      |
 | 0B_MysticCave      | MysticCave_F.ogg    |
 | 0C_EmeraldHill2    | EmeraldHill2_F.ogg  |
 | 0E_ChemicalPlant   | ChemicalPlant_F.ogg |
