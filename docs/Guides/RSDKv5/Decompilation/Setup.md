@@ -53,7 +53,7 @@ All of the Retro Engine's logic is tied to the framerate, meaning that the speed
 
 ### Non-Xbox controllers not working on Windows { id="windows-direct-input" }
 
-By default, Windows builds of the decompilation use DirectX 9, which only supports XInput controllers (i.e. Xbox controllers). To use other types of controllers, you will need to [build the decompilation](Building.md) with the OpenGL backend by setting the [`RETRO_SUBSYSTEM` build flag](Building.md#build-flags) to [`OGL`](Building.md#subsystems). It's also recommended to download a [`gamecontrollerdb.txt`](https://github.com/mdqinc/SDL_GameControllerDB/blob/master/gamecontrollerdb.txt) file and place it next to the executable file.
+By default, Windows builds of the decompilation use DirectX 9, which only supports XInput controllers (i.e. Xbox controllers). To use other types of controllers, you will need to [build the decompilation](Building.md) with the OpenGL backend by setting the [`RETRO_SUBSYSTEM` build flag](Building/#build-flags) to [`OGL`](Building/#subsystems). It's also recommended to download a [`gamecontrollerdb.txt`](https://github.com/mdqinc/SDL_GameControllerDB/blob/master/gamecontrollerdb.txt) file and place it next to the executable file.
 
 ### Various issues related to using the Origins games { id="origins-games-issues" }
 

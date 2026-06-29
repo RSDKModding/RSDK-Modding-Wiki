@@ -21,7 +21,7 @@ mods/
 
 ## Using the Mod Loader
 
-[Enable the Dev Menu](/RSDKv5/Overview/DevMenu.md#enabling), then while the decompilation is running, press ++escape++ to open the Dev Menu. You can also click/touch the top left corner of the window/screen.
+[Enable the Dev Menu](/RSDKv5/Overview/DevMenu/#enabling), then while the decompilation is running, press ++escape++ to open the Dev Menu. You can also click/touch the top left corner of the window/screen.
 
 When the Dev Menu is open, choose `Mods` to open the Manage Mods menu.
 

@@ -51,7 +51,7 @@ This is an intentional change (made for unknown reasons) in the mobile versions 
 
 This is an intentional change made in the mobile versions of the games. You can [install the decompiled scripts] to fix this in most cases.
 
-  [install the decompiled scripts]: ModSetup.md#decompiled-scripts
+  [install the decompiled scripts]: ModSetup/#decompiled-scripts
 
 ### Various issues related to using the Origins versions { id="origins-versions-issues" }
 

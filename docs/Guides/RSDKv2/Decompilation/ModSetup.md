@@ -23,7 +23,7 @@ mods/
 
 ## Using the Mod Loader
 
-[Enable the Default Menu](/RSDKv2/Overview/DefaultMenu.md#enabling), which will automatically load when opening the game. You can also open the Default Menu at any time by pressing ++escape++.
+[Enable the Default Menu](/RSDKv2/Overview/DefaultMenu/#enabling), which will automatically load when opening the game. You can also open the Default Menu at any time by pressing ++escape++.
 
 When the Default Menu is open, choose `MODS` to open the Mod List.
 

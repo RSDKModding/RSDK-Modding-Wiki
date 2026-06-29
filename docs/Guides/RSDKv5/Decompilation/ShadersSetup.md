@@ -43,5 +43,5 @@ In your cloned/downloaded `RSDKv5-Decompilation` repository, open the `RSDKv5` f
 
 ![Shaders](/assets/images/Windows/FileExplorer/SonicMania/ShadersSetup-Shaders.png){ width="40%" } ![Shaders contents](/assets/images/Windows/FileExplorer/SonicMania/ShadersSetup-ShadersContents.png){ width="40%" }
 
-From here, you can [enable the mod using the mod loader](ModSetup.md#using-the-mod-loader) to use the shaders.
+From here, you can [enable the mod using the mod loader](ModSetup/#using-the-mod-loader) to use the shaders.
 

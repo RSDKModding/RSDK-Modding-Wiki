@@ -57,7 +57,7 @@ The Blit release of Sonic CD wasn't fully optimized for widescreen, so issues li
 
 This is an intentional change (made for unknown reasons) in the mobile version of the game. You can [install the decompiled scripts] to fix this.
 
-  [install the decompiled scripts]: ModSetup.md#decompiled-scripts
+  [install the decompiled scripts]: ModSetup/#decompiled-scripts
 
 ### The title screen splash logos and instructions graphics are low resolution when using the mobile version { id="low-res-graphics" }
 

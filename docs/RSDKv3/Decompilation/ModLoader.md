@@ -3,7 +3,7 @@
 !!! note
     This page documents the mod structure and format for mod developers to reference. If you are simply looking to install mods as an end-user, see the [Mod Setup guide](/Guides/RSDKv3/Decompilation/ModSetup).
 
-The [RSDKv3 Decompilation](README.md) has a built-in mod loader, introduced in Version 1.1.2. It allows loading mods that add or replace Data and/or script files. The mod loader is a custom feature in the decompilation, however you can choose to build without it using the [`RETRO_MOD_LOADER` flag](/Guides/RSDKv3/Decompilation/Building.md#build-flags).
+The [RSDKv3 Decompilation](README.md) has a built-in mod loader, introduced in Version 1.1.2. It allows loading mods that add or replace Data and/or script files. The mod loader is a custom feature in the decompilation, however you can choose to build without it using the [`RETRO_MOD_LOADER` flag](/Guides/RSDKv3/Decompilation/Building/#build-flags).
 
 ## Mods Directory
 
@@ -83,7 +83,7 @@ All of these flags take a boolean (`false`/`true`) unless stated otherwise. You 
 
 `DisableFocusPause`
 
-:   Overrides the `DisableFocusPause` setting in [settings.ini]. See [that setting's values](SettingsINI.md#disablefocuspause-options) for valid options.
+:   Overrides the `DisableFocusPause` setting in [settings.ini]. See [that setting's values](SettingsINI/#disablefocuspause-options) for valid options.
 
 `RedirectSaveRAM`
 
