@@ -12,7 +12,7 @@ Website with documentation, resources, and guides for Retro Engine modding, powe
 
 ## Contributing
 
-This wiki is written in Markdown, just like GitHub's own Markdown files! One of the best ways to write Markdown text files is to use [Visual Studio Code](https://code.visualstudio.com/), which allows you to preview the page you are currently typing by pressing CTRL+Shift+V, making it easy to see how your page might look like on the website. For a more accurate look, you absolutely should setup the website locally by following the instructions in the [Testing](#testing) section.
+This wiki is written in Markdown, just like GitHub's own Markdown files! One of the best ways to write Markdown text files is to use [Visual Studio Code](https://code.visualstudio.com/), which allows you to preview the page you are currently typing by pressing CTRL+Shift+V, making it easy to see how your page might look like on the website. You can also download the official [Zensical Studio](https://zensical.org/studio/) extension for assisting with link validation and other features in Zensical. For a more accurate preview, you absolutely should setup the website locally by following the instructions in the [Testing](#testing) section.
 
 We appreciate every contribution that's made to the wiki, as every single one helps the modding community to grow and make better mods.
 
@@ -39,16 +39,16 @@ You can test your changes locally before committing. To do so:
 
 The served webpage will auto refresh whenever you make changes to the files.
 
-### Scope
-
-This wiki currently covers Retro Engine versions 1-5(U), as well as all games officially released for them. Given the work-in-progress state of the wiki, we would like to focus on finishing documentation for those RSDK versions before expanding to cover later versions of the engine.
-
-In addition to the official releases of RSDK games, this wiki covers the decompilations for Retro Engine versions 2-5(U) and Sonic Mania, as well as GameAPI/ModAPI. However, this wiki only documents the master [RSDKModding](https://github.com/RSDKModding) repositories for the decomps. Please do not add documentation, guides, etc. for any unofficial forks or ports of the decompilations or APIs.
-
 ### Writing Guidelines
 
 Here are a few guidelines to follow when writing for the wiki:
 
-- It is strongly recommended to reference existing pages on the wiki for formatting and style before writing yourself.
+- We currently don't have any strict style or formatting rules, but it is recommended to reference existing pages on the wiki for them before writing yourself.
 - Multimedia files should be included in an appropriate location within the `docs/assets` folder. Do not use external links for them.
-- Use of generative AI or LLMs is not allowed. Any PRs that include AI-generated text, images, etc. will be closed without debate.
+- Use of LLMs or any other type of generative AI is not allowed. Any PRs that include AI-generated text, images, etc. will be closed without debate.
+
+#### Scope
+
+This wiki currently covers Retro Engine versions 1-5(U), as well as all games officially released for them. Given the work-in-progress state of the wiki, we would like to focus on finishing documentation for those RSDK versions before expanding to cover later versions of the engine.
+
+In addition to the official releases of RSDK games, this wiki covers the decompilations for Retro Engine versions 2-5(U) and Sonic Mania, as well as GameAPI/ModAPI. However, this wiki only documents the master [RSDKModding](https://github.com/RSDKModding) repositories for the decomps. Please do not add documentation, guides, etc. for any unofficial forks or ports of the decompilations or APIs.
