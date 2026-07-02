@@ -12,7 +12,7 @@ Website with documentation, resources, and guides for Retro Engine modding, powe
 
 ## Contributing
 
-This wiki is written in Markdown, just like GitHub's own Markdown files! One of the best ways to write Markdown text files is to use [Visual Studio Code](https://code.visualstudio.com/), which allows you to preview the page you are currently typing by pressing CTRL+Shift+V, making it easy to see how your page might look like on the website. You can also download the official [Zensical Studio](https://zensical.org/studio/) extension for assisting with link validation and other features in Zensical. For a more accurate preview, you absolutely should setup the website locally by following the instructions in the [Testing](#testing) section.
+This wiki is written in Markdown, just like GitHub's own Markdown files! One of the best ways to write Markdown text files is to use [Visual Studio Code](https://code.visualstudio.com/), which allows you to preview the page you are currently typing by pressing CTRL+Shift+V, making it easy to see how your page might look like on the website. You can also download the [Zensical Studio](https://zensical.org/studio/) extension for assisting with link validation and other features in Zensical. For a more accurate preview, you absolutely should setup the website locally by following the instructions in the [Testing](#testing) section.
 
 We appreciate every contribution that's made to the wiki, as every single one helps the modding community to grow and make better mods.
 
