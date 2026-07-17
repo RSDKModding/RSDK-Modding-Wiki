@@ -1,0 +1,5 @@
+{
+  "files.associations": {
+    "docs/**/*.md": "python-markdown",
+  }
+}
