@@ -3,12 +3,14 @@
 !!! note
     This native function only exists in SEGA Classics (2018) and is not available in the decompilations.
 
-Loads and plays a video stored inside the `res/raw/` folder of the APK. Similar to the v3 counterpart, the videos are stored in an `.mp4` file format
+Loads and plays a video.
+
+The videos are located outside of the datapack, inside the `res/raw/` folder of the APK. Like the mobile releases of RSDKv3, they use the `.mp4` file format.
 
 ## Parameters
 `filePath`
 
-:   The path to the video file, relative to the root of `res/raw/` folder.
+:   The path to the video file, relative to the root of the `res/raw/` folder.
 
 `unused`
 
