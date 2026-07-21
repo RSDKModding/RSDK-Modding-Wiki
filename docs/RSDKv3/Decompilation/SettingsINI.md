@@ -77,7 +77,7 @@ settings.ini is the configuration file for the [RSDKv3 Decompilation](README.md)
 !!! note
     Despite what the name of this category may imply, RSDKv3 does not support more than one player.
 
-All settings for this category take an integer value based on SDL's Scancodes. See [this lookup table](https://wiki.libsdl.org/SDL2/SDLScancodeLookup) for a list of usable keys and their corresponding decimal values.
+All settings for this category take an integer value based on SDL's Scancodes. See [this lookup table](https://wiki.libsdl.org/SDL2/SDL_Scancode) for a list of usable keys and their corresponding decimal values.
 
 | Setting Name | Default Value      |
 | ------------ | ------------------ |

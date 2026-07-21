@@ -100,7 +100,7 @@ The following options aren't written to the file by default, but can be added ma
 !!! note
     Despite what the name of this category may imply, RSDKv4 does not support more than one local player.
 
-All settings for this category take an integer value based on SDL's Scancodes. See [this lookup table](https://wiki.libsdl.org/SDL2/SDLScancodeLookup) for a list of usable keys and their corresponding decimal values.
+All settings for this category take an integer value based on SDL's Scancodes. See [this lookup table](https://wiki.libsdl.org/SDL2/SDL_Scancode) for a list of usable keys and their corresponding decimal values.
 
 | Setting Name | Default Value      |
 | ------------ | ------------------ |
