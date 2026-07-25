@@ -65,7 +65,7 @@ CallNativeFunction4(NotifyCallback, NOTIFY_STATS_ENEMY, StageStatsUsabilityParam
 | ----------------------------------------------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------- |
 | [**NativePlayerWaitingAds**](NativePlayerWaitingAds.md)           | [Sega Forever](TODO)                 | Creates a `ReviveAds` native object, prompting the player to watch an ad after dying.                   |
 | [**NativeWaterPlayerWaitingAds**](NativeWaterPlayerWaitingAds.md) | [Sega Forever](TODO)                 | Creates a `ReviveAds` native object, prompting the player to watch an ad after drowning.                |
-| [**NotifyCallback**](NotifyCallback.md)                           | [Sonic Origins](/Games/SonicOrigins) | Sends the given callback to communicate to [Hedgehog Engine 2](/Games/SonicOrigins/HedgehogEngine2). |
+| [**NotifyCallback**](NotifyCallback.md)                           | [Sonic Origins](/Games/SonicOrigins) | Sends the given callback to communicate to [Hedgehog Engine 2](/Games/SonicOrigins/HedgehogEngine2).    |
 | [**PlayVideo**](PlayVideo.md)                                     | [Sega Classics](TODO)                | Loads and plays a video. **Not available in the decompilations.**                                       |
 
 ### Decomp Only
