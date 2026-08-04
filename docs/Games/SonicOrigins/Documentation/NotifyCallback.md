@@ -12,12 +12,12 @@ NotifyCallback is a function in [Sonic Origins](../README.md) that handles commu
 
     game.callbackParam0 = 1
     game.callbackParam1 = 3
-    game.callbackParam2 = 0
+    game.callbackParam2 = 0x03
     EngineCallback(NOTIFY_SPECIAL_RETRY)
     ```
 
     !!! note
-        The names of each callback are not defined by the engine itself. Instead, Sonic Team elected to define them and their corresponding IDs as global variables in Sonic CD's GameConfig.
+        The names of each callback are not defined by the engine itself. Instead, the names and their corresponding IDs are defined as global variables in Sonic CD's GameConfig.
 
 === "v4"
 
@@ -25,11 +25,11 @@ NotifyCallback is a function in [Sonic Origins](../README.md) that handles commu
 
     ``` title="Examples"
     CallNativeFunction2(NotifyCallback, NOTIFY_TOUCH_SIGNPOST, 0)
-    CallNativeFunction4(NotifyCallback, NOTIFY_SPECIAL_RETRY, 1, 3, 0)
+    CallNativeFunction4(NotifyCallback, NOTIFY_SPECIAL_RETRY, 1, 3, 0x03)
     ```
 
     !!! note
-        The names of each callback are not defined by the engine itself. Instead, Sonic Team elected to define them and their corresponding IDs as global variables in Sonic 1 and 2's GameConfigs.
+        The names of each callback are not defined by the engine itself. Instead, the names and their corresponding IDs are defined as global variables in Sonic 1 and 2's GameConfigs.
 
 === "v5"
 
@@ -37,7 +37,7 @@ NotifyCallback is a function in [Sonic Origins](../README.md) that handles commu
 
     ``` c++ title="Examples"
     NotifyCallback(NOTIFY_TOUCH_SIGNPOST, 0, 0, 0);
-    NotifyCallback(NOTIFY_SPECIAL_RETRY, 1, 3, 0);
+    NotifyCallback(NOTIFY_SPECIAL_RETRY, 1, 3, 0x03);
     ```
 
 ## Callbacks
@@ -131,7 +131,7 @@ Notifies that a boss has been defeated.
 
 ### ID 140 - NOTIFY_TOUCH_EMERALD { id="notify-touch-emerald" }
 
-Notifies that an Chaos/Super Emerald or Time Stone has been collected. This callback is typically ran when the emerald jingle plays.
+Notifies that a Chaos/Super Emerald or Time Stone has been collected. This callback is typically ran when the emerald jingle plays.
 
 *No parameters*
 
@@ -202,7 +202,7 @@ Reports statistics tied to achievements and Museum unlocks.
 
 ### ID 146 - NOTIFY_STATS_PARAM_2 { id="notify-stats-param-2" }
 
-Notifies that all Chaos Emeralds or Time Stones. Note that this does not count for the Super Emeralds in Sonic 3 & Knuckles.
+Notifies that all Chaos Emeralds or Time Stones have been collected. Note that this does not include the Super Emeralds in Sonic 3 & Knuckles.
 
 *No parameters*
 
