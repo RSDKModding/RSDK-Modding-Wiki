@@ -1,6 +1,6 @@
 # settings.ini
 
-settings.ini is the configuration file for the [RSDKv3 Decompilation](README.md). This page lists all of the available options.
+settings.ini is the configuration file for the [RSDKv3 Decompilation](index.md). This page lists all of the available options.
 
 ## Dev
 | Setting Name         | Description                                                                                                        | Value Type | Default Value |

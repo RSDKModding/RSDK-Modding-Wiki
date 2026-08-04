@@ -2,7 +2,7 @@
 
 ![Dev Menu](/assets/images/SonicMania/DevMenu/MainMenu-Steam.png){ align=right , width="50%" }
 
-The Dev Menu is a debug menu included with [RSDKv5](../README.md), disabled by default. The menu includes several features useful for debugging games in the engine. When the Dev Menu is enabled, other developer features are accessible as well.
+The Dev Menu is a debug menu included with [RSDKv5](../index.md), disabled by default. The menu includes several features useful for debugging games in the engine. When the Dev Menu is enabled, other developer features are accessible as well.
 
 ## Enabling
 
@@ -50,7 +50,7 @@ Alternatively, running the game in [Data Folder Mode](TODO) will automatically e
 
 ## Menu
 
-You can open the Dev Menu at any time in-game by pressing ++escape++. In the [RSDKv5(U) Decompilation](../Decompilation/README.md), you can also tap/click the top left corner of the screen.
+You can open the Dev Menu at any time in-game by pressing ++escape++. In the [RSDKv5(U) Decompilation](../Decompilation/index.md), you can also tap/click the top left corner of the screen.
 
 TODO: explain each submenu
 

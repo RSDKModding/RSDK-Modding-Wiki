@@ -1,6 +1,6 @@
 # Sonic Origins Audio
 
-Rather than storing or playing audio in the Retro Engine, [Sonic Origins](../README.md) uses [CRIWARE](https://www.criware.com/en/index.html) middleware to play music and sound effects. To achieve this, RSDK communicates with [Hedgehog Engine 2](../HedgehogEngine2.md) by passing the filename of the audio file attempting to be played to the game's Reflections parameters, stored in the `retro_rfl_param.rfl` file in `raw/rfl/rfl_resident.pac`. From there, HE2 plays the audio file associated with the given filename, if one exists.
+Rather than storing or playing audio in the Retro Engine, [Sonic Origins](../index.md) uses [CRIWARE](https://www.criware.com/en/index.html) middleware to play music and sound effects. To achieve this, RSDK communicates with [Hedgehog Engine 2](../HedgehogEngine2.md) by passing the filename of the audio file attempting to be played to the game's Reflections parameters, stored in the `retro_rfl_param.rfl` file in `raw/rfl/rfl_resident.pac`. From there, HE2 plays the audio file associated with the given filename, if one exists.
 
 This page contains tables listing all of the audio files in Sonic Origins' ACB/AWB audio packs, as well as their associated RSDK filenames in the RFL parameters.
 

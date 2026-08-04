@@ -2,7 +2,7 @@
 
 ![Default Menu](/assets/images/SonicNexus/DefaultMenu/MainMenu-Windows.png){ align=right , width="30%" }
 
-The Default Menu is a debug menu included with [RSDKv2](../README.md), disabled by default. The menu includes several features useful for debugging games in the engine.
+The Default Menu is a debug menu included with [RSDKv2](../index.md), disabled by default. The menu includes several features useful for debugging games in the engine.
 
 ## Enabling
 The Default Menu can be enabled by using [Data Folder Mode](TODO).
@@ -37,6 +37,6 @@ StartingCategory=255
 
 ## Menu
 
-The Default Menu opens automatically upon booting up the game while it's enabled. In the [RSDKv2 Decompilation](../Decompilation/README.md), you can also open it at any time by pressing ++escape++.
+The Default Menu opens automatically upon booting up the game while it's enabled. In the [RSDKv2 Decompilation](../Decompilation/index.md), you can also open it at any time by pressing ++escape++.
 
 TODO: explain each submenu

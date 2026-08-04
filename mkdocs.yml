@@ -99,13 +99,13 @@ plugins:
         - git-committers:
             repository: RSDKModding/RSDK-Modding-Wiki
             exclude:
-              - README.md
+              - index.md
               - blog/**
         - git-revision-date-localized:
             enable_creation_date: true
             type: timeago
             exclude:
-              - README.md
+              - index.md
               - blog/**
 
 markdown_extensions:
@@ -150,41 +150,41 @@ markdown_extensions:
   - zensical.extensions.glightbox
 
 nav:
-  - Home: README.md
+  - Home: index.md
   - Retro Engine:
-    - RSDK/README.md
+    - RSDK/index.md
 
     - RSDKv1:
-      - RSDKv1/README.md
+      - RSDKv1/index.md
 
     - RSDKv2:
-      - RSDKv2/README.md
+      - RSDKv2/index.md
       - Decompilation:
-          - RSDKv2/Decompilation/README.md
+          - RSDKv2/Decompilation/index.md
           - settings.ini: RSDKv2/Decompilation/SettingsINI.md
           - Mod Loader: RSDKv2/Decompilation/ModLoader.md
       - Documentation:
         - Overview:
-          - RSDKv2/Overview/README.md
+          - RSDKv2/Overview/index.md
           - Default Menu: RSDKv2/Overview/DefaultMenu.md
 
     - RSDKv3:
-      - RSDKv3/README.md
+      - RSDKv3/index.md
       - Decompilation:
-          - RSDKv3/Decompilation/README.md
+          - RSDKv3/Decompilation/index.md
           - settings.ini: RSDKv3/Decompilation/SettingsINI.md
           - Mod Loader: RSDKv3/Decompilation/ModLoader.md
           - GameXML: RSDKv3/Decompilation/GameXML.md
       - Documentation:
         - Overview:
-          - RSDKv3/Overview/README.md
+          - RSDKv3/Overview/index.md
           - Dev Menu: RSDKv3/Overview/DevMenu.md
       - RetroScript:
-        - RSDKv3/RetroScript/README.md
+        - RSDKv3/RetroScript/index.md
         - Subs: RSDKv3/RetroScript/Subs.md
         - Variables: RSDKv3/RetroScript/Variables.md
         - Functions:
-          - RSDKv3/RetroScript/Functions/README.md
+          - RSDKv3/RetroScript/Functions/index.md
           - 3D:
             - Draw3DScene: RSDKv3/RetroScript/Functions/3D/Draw3DScene.md
             - SetIdentityMatrix: RSDKv3/RetroScript/Functions/3D/SetIdentityMatrix.md
@@ -295,22 +295,22 @@ nav:
             - HapticEffect: RSDKv3/RetroScript/Functions/Misc/HapticEffect.md
 
     - RSDKv4:
-      - RSDKv4/README.md
+      - RSDKv4/index.md
       - Decompilation:
-          - RSDKv4/Decompilation/README.md
+          - RSDKv4/Decompilation/index.md
           - settings.ini: RSDKv4/Decompilation/SettingsINI.md
           - Mod Loader: RSDKv4/Decompilation/ModLoader.md
           - GameXML: RSDKv4/Decompilation/GameXML.md
       - Documentation:
         - Overview:
-          - RSDKv4/Overview/README.md
+          - RSDKv4/Overview/index.md
           - Dev Menu: RSDKv4/Overview/DevMenu.md
       - RetroScript:
-        - RSDKv4/RetroScript/README.md
+        - RSDKv4/RetroScript/index.md
         - Events: RSDKv4/RetroScript/Events.md
         - Variables: RSDKv4/RetroScript/Variables.md
         - Functions:
-          - RSDKv4/RetroScript/Functions/README.md
+          - RSDKv4/RetroScript/Functions/index.md
           - 3D:
             - Draw3DScene: RSDKv4/RetroScript/Functions/3D/Draw3DScene.md
             - SetIdentityMatrix: RSDKv4/RetroScript/Functions/3D/SetIdentityMatrix.md
@@ -409,7 +409,7 @@ nav:
             - CheckCurrentStageFolder: RSDKv4/RetroScript/Functions/Stages/CheckCurrentStageFolder.md
           - Miscellaneous:
             - CallNativeFunction:
-              - RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/README.md
+              - RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/index.md
               - Native Functions:
                 - SetAchievement: RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/SetAchievement.md
                 - SetLeaderboard: RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/SetLeaderboard.md
@@ -485,20 +485,20 @@ nav:
             - DrawText: RSDKv4/RetroScript/Functions/Deprecated/DrawText.md
 
     - RSDKv5:
-      - RSDKv5/README.md
+      - RSDKv5/index.md
       - Decompilation:
-          - RSDKv5/Decompilation/README.md
+          - RSDKv5/Decompilation/index.md
           - Mod Loader: RSDKv5/Decompilation/ModLoader.md
           - GameXML: RSDKv5/Decompilation/GameXML.md
       - Documentation:
         - Overview:
-          - RSDKv5/Overview/README.md
+          - RSDKv5/Overview/index.md
           - Dev Menu: RSDKv5/Overview/DevMenu.md
           - Settings.ini: RSDKv5/Overview/SettingsINI.md
       - GameAPI:
-        - RSDKv5/GameAPI/README.md
+        - RSDKv5/GameAPI/index.md
         - Events:
-          - RSDKv5/GameAPI/Events/README.md
+          - RSDKv5/GameAPI/Events/index.md
           - Update: RSDKv5/GameAPI/Events/Update.md
           - LateUpdate: RSDKv5/GameAPI/Events/LateUpdate.md
           - StaticUpdate: RSDKv5/GameAPI/Events/StaticUpdate.md
@@ -510,7 +510,7 @@ nav:
           - Serialize: RSDKv5/GameAPI/Events/Serialize.md
           - StaticLoad: RSDKv5/GameAPI/Events/StaticLoad.md
         - Functions:
-          - RSDKv5/GameAPI/Functions/README.md
+          - RSDKv5/GameAPI/Functions/index.md
           - Audio:
             - GetSfx: RSDKv5/GameAPI/Functions/Audio/GetSfx.md
             - PlaySfx: RSDKv5/GameAPI/Functions/Audio/PlaySfx.md
@@ -594,19 +594,19 @@ nav:
             - RSDK_DRAWING_OVERLAY: RSDKv5/GameAPI/Functions/Editor/RSDK_DRAWING_OVERLAY.md
 
   - Games:
-    - Games/README.md
+    - Games/index.md
     - Sonic Origins:
-      - Games/SonicOrigins/README.md
+      - Games/SonicOrigins/index.md
       - Hedgehog Engine 2: Games/SonicOrigins/HedgehogEngine2.md
       - Documentation:
         - NotifyCallback: Games/SonicOrigins/Documentation/NotifyCallback.md
         - Audio: Games/SonicOrigins/Documentation/Audio.md
-    - Sonic 3 & Knuckles: Games/Sonic3K/README.md
+    - Sonic 3 & Knuckles: Games/Sonic3K/index.md
 
   - Tools:
-    - Tools/README.md
+    - Tools/index.md
     - RetroED:
-      - Tools/RetroED/README.md
+      - Tools/RetroED/index.md
       - Documentation:
         - Animation Editor: Tools/RetroED/AnimationEditor.md
         - Scene Editor: Tools/RetroED/SceneEditor.md
@@ -614,7 +614,7 @@ nav:
     - GraphicsGale: Tools/GraphicsGale.md
 
   - Guides:
-    - Guides/README.md
+    - Guides/index.md
     - RSDKv2:
       - Decompilation:
         - Building: Guides/RSDKv2/Decompilation/Building.md

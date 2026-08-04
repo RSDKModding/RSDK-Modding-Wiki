@@ -7,5 +7,5 @@ GameAPI is a custom-made bindings API for games made for [Retro Engine v5](/RSDK
 GameAPI supports the RSDKv5 Decompilation's ModAPI, which allows creating mods for RSDKv5 games and provides some additional functionality.
 
 ## Documentation
-- [Events](Events/README.md)
-- [Functions](Functions/README.md)
+- [Events](Events/index.md)
+- [Functions](Functions/index.md)

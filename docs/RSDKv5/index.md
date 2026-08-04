@@ -5,8 +5,8 @@ A version of the engine adding backwards compatibility with RSDKv3/4 games, amon
 TODO: write info about RSDKv5(U) and anything relating to Mania/S3
 
 ## Documentation
-- [Overview](Overview/README.md)
-- [GameAPI](GameAPI/README.md)
+- [Overview](Overview/index.md)
+- [GameAPI](GameAPI/index.md)
 
 ## Tools
 - [RetroED](/Tools/RetroED)

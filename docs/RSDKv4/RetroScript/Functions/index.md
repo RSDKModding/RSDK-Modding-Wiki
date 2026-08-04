@@ -120,7 +120,7 @@
 ## Miscellaneous
 | Function                                                    | Description                                                                                              |
 | ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| [**CallNativeFunction**](Misc/CallNativeFunction/README.md) | Sends a callback to the engine to run a native function.                                                 |
+| [**CallNativeFunction**](Misc/CallNativeFunction/index.md)  | Sends a callback to the engine to run a native function.                                                 |
 | [**CheckTouchRect**](Misc/CheckTouchRect.md)                | Checks if there's a touch input between the given coordinates.                                           |
 | [**CallFunction**](Misc/CallFunction.md)                    | Calls the given object function.                                                                         |
 | [**SetupMenu**](Misc/SetupMenu.md)                          | Sets up `menu` with `rowCount` rows, `selectionCount` active selections and aligning set to `alignment`. |

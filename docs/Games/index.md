@@ -9,7 +9,7 @@
 | Sonic 1                                                                           | [RSDKv4]     | 5/16/2013     |
 | Sonic 2                                                                           | [RSDKv4]     | 12/12/2013    |
 | Sonic Mania                                                                       | [RSDKv5]     | 8/15/2017     |
-| [Sonic Origins](SonicOrigins/README.md) ([Sonic 3 & Knuckles](Sonic3K/README.md)) | [RSDKv5U]    | 6/23/2022     |
+| [Sonic Origins](SonicOrigins/index.md) ([Sonic 3 & Knuckles](Sonic3K/index.md))   | [RSDKv5U]    | 6/23/2022     |
 
 ## Unreleased/Cancelled Games
 | Game                      | RSDK Version |

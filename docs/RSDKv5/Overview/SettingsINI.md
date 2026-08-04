@@ -1,6 +1,6 @@
 # Settings.ini
 
-Settings.ini is the configuration file for [RSDKv5](../README.md). This page lists all of the available options.
+Settings.ini is the configuration file for [RSDKv5](../index.md). This page lists all of the available options.
 
 Legend for the "Hidden?" columns:
 
