@@ -25,6 +25,7 @@ Here you can find various tutorials and guides for modding Retro Engine games.
 - [Building](RSDKv4/Decompilation/Building.md)
 - [Setup](RSDKv4/Decompilation/Setup.md)
 - [Mod Setup](RSDKv4/Decompilation/ModSetup.md)
+- [Online Multiplayer](RSDKv4/Decompilation/OnlineMultiplayer.md)
 
 ### RSDKv5
 

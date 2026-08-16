@@ -2,6 +2,9 @@
 
 settings.ini is the configuration file for the [RSDKv3 Decompilation](index.md). This page lists all of the available options.
 
+!!! note
+    When editing the file, make sure that the decompilation is not running. If it is, any changes made to the file will be reverted when closing the decomp.
+
 ## Dev
 | Setting Name         | Description                                                                                                        | Value Type | Default Value |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------ | ---------- | ------------- |
