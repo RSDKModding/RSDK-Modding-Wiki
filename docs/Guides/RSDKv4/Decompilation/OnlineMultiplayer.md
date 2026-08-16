@@ -44,6 +44,8 @@ Selecting Join will let you enter a room by manually entering the room code or p
 
 Once a player joins another player's room, both players will start connecting and the match will begin.
 
+![Stage select screen](/assets/images/Sonic2/2PVS-StageSelect.png){ width=40% } ![2P VS gameplay](/assets/images/Sonic2/2PVS-EHZ.png){ width=40% }
+
 To close the host server, press ++control+c++ in the console window.
 
 ## Troubleshooting
