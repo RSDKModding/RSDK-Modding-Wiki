@@ -16,7 +16,7 @@ Adds a viewable variable to the [Dev Menu]. Viewable variables exist until the s
 
 `type`
 
-:   The type of the viewable variable, which should match the type of `value`. See [ViewableVarTypes](TODO) for more info on what types are valid.
+:   The type of the viewable variable, which should match the type of `value`.
 
 `min`
 

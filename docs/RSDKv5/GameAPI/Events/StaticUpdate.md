@@ -1,6 +1,6 @@
 # StaticUpdate
 
-Called once per object class, once per frame if Object::[active](TODO) allows for it. This event is called before any [Update()](Update.md) events are called.
+Called once per object class, once per frame if Object::active allows for it. This event is called before any [Update()](Update.md) events are called.
 
 ## Parameters
 None.

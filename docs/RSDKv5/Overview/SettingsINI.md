@@ -6,7 +6,7 @@ Legend for the "Hidden?" columns:
 
 - :heavy_multiplication_x: - The setting is always written to the file.
 - :simple-devbox: - The setting is only written to the file if the [Dev Menu] is enabled.
-- :fontawesome-solid-floppy-disk: - The setting is only written to the file when [SetVideoSetting](TODO) is called with `id` and `value` set to `VIDEOSETTING_WRITE` and `true`, respectively (i.e. the game saves your options after changing them).
+- :fontawesome-solid-floppy-disk: - The setting is only written to the file when SetVideoSetting is called with `id` and `value` set to `VIDEOSETTING_WRITE` and `true`, respectively (i.e. the game saves your options after changing them).
 - :heavy_check_mark: - The setting is never written to the file and must be added manually. Keep in mind that setting names are case-sensitive.
 
 ## Game

@@ -20,7 +20,7 @@ language=0
 
 1. The setting names in settings.ini are case-sensitive; the Dev Menu setting will not apply if the capitalization is incorrect.
 
-Alternatively, running the game in [Data Folder Mode](TODO) will automatically enable the Dev Menu.
+Alternatively, running the game in Data Folder Mode will automatically enable the Dev Menu.
 
 !!! note
     The entirety of the Dev Menu was removed in [Sonic Origins](/Games/SonicOrigins), making it inaccessible.

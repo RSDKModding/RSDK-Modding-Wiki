@@ -8,7 +8,7 @@ Finds a loaded object by name and retrieves its ID.
 :   The name of the object to find.
 
 ## Return Value
-Returns the [classID](TODO) of the found object as a `uint16`. The return value will be `0` if the object wasn't found.
+Returns the classID of the found object as a `uint16`. The return value will be `0` if the object wasn't found.
 
 ## Syntax
 === "C"

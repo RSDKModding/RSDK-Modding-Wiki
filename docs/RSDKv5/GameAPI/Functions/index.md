@@ -36,7 +36,7 @@
 | [**GetFrame**](Graphics/GetFrame.md)                           | Retrieves a specific SpriteFrame from a SpriteAnimation.                          |
 | [**GetHitbox**](Graphics/GetHitbox.md)                         | Gets a Hitbox from the animator's current frame.                                  |
 | [**GetFrameID**](Graphics/GetFrameID.md)                       | Gets the `unicode char` value of the animator's current frame.                    |
-| [**GetStringWidth**](Graphics/GetStringWidth.md)               | Retrieves the width of a string in pixels when displayed with [DrawText()](TODO). |
+| [**GetStringWidth**](Graphics/GetStringWidth.md)               | Retrieves the width of a string in pixels when displayed with DrawText().         |
 | [**ProcessAnimation**](Graphics/ProcessAnimation.md)           | Processes the animation applied to an animator.                                   |
 
 ## Debugging

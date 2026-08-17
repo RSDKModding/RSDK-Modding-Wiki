@@ -8,7 +8,7 @@ Prints a float value to the console.
 ## Parameters
 `mode`
 
-:   The [print mode](TODO) of the message.
+:   The print mode of the message.
 
 `message`
 

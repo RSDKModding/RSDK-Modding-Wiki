@@ -44,7 +44,7 @@ The common reasons for this occuring are:
 
 - The mod's `TargetVersion` (which defaults to 5 if one isn't specified in [mod.ini]) does not match the engine version currently loaded
 - The mod tries to load a logic file it can't find
-- The mod's logic file does not have a [LinkModLogic](TODO) function (i.e. the mod does not use [GameAPI])
+- The mod's logic file does not have a LinkModLogic function (i.e. the mod does not use [GameAPI])
 - The mod's logic file does not match the engine's revision or mod loader version
 
 ### Mod for a v3 or v4 game isn't shown in the mods menu { id="mod-not-shown-v5u" }

@@ -1,6 +1,6 @@
 # GameXML
 
-GameXML is a modding feature included in the [RSDKv3 Decompilation](index.md). It uses a file named `Game.xml` to add or replace various elements of the [GameConfig](TODO) of a game without directly modifying the `GameConfig.bin` file, allowing for better compatibility between mods that require modifying the contents of said file.
+GameXML is a modding feature included in the [RSDKv3 Decompilation](index.md). It uses a file named `Game.xml` to add or replace various elements of the GameConfig of a game without directly modifying the `GameConfig.bin` file, allowing for better compatibility between mods that require modifying the contents of said file.
 
 This feature is only available if the decompilation is built with the Mod Loader, which is included by default when building.
 

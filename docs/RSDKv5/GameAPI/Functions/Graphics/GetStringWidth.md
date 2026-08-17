@@ -1,6 +1,6 @@
 # GetStringWidth
 
-Retrieves the width of a string in pixels when displayed with [DrawText()](TODO).
+Retrieves the width of a string in pixels when displayed with DrawText().
 
 ## Parameters
 `aniFrames`
@@ -28,7 +28,7 @@ Retrieves the width of a string in pixels when displayed with [DrawText()](TODO)
 :   The number of pixels between each character.
 
 ## Return Value
-Returns the width of the string in pixels as an `int32`. This width is the same as it would be if [DrawText](TODO) was called with the same parameters.
+Returns the width of the string in pixels as an `int32`. This width is the same as it would be if DrawText() was called with the same parameters.
 
 ## Syntax
 === "C"

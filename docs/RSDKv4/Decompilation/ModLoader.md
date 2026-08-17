@@ -83,7 +83,7 @@ All of these flags take a boolean (`false`/`true`) unless stated otherwise. You 
 
 `SkipStartMenu`
 
-:   Bypasses the [start menu] and instead loads the first scene in the Presentation stage list. This does not disable the pause menu.
+:   Bypasses the start menu and instead loads the first scene in the Presentation stage list. This does not disable the pause menu.
 
 `DisableFocusPause`
 
@@ -95,9 +95,7 @@ All of these flags take a boolean (`false`/`true`) unless stated otherwise. You 
 
 `ForceSonic1`
 
-:   Forces the engine to identify the current game as Sonic 1, regardless of the current game's name. This affects some behavior in the [start menu] as well the default achievements.
-
-  [start menu]: TODO
+:   Forces the engine to identify the current game as Sonic 1, regardless of the current game's name. This affects some behavior in the start menu as well the default achievements.
 
 `TargetVersion`
 

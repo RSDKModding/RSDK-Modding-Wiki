@@ -1,6 +1,6 @@
 # Draw
 
-Called once every frame per entity if Entity::[active](TODO) allows for it. The ordering is based the value of Entity::[drawGroup](TODO).
+Called once every frame per entity if Entity::active allows for it. The ordering is based the value of Entity::drawGroup.
 
 ## Parameters
 None.

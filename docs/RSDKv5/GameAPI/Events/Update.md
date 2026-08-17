@@ -1,6 +1,6 @@
 # Update
 
-Called once every frame per entity if Entity::[active](TODO) allows for it.
+Called once every frame per entity if Entity::active allows for it.
 
 ## Parameters
 None.

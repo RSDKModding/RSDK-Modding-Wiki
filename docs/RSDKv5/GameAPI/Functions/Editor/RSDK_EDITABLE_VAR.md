@@ -9,7 +9,7 @@ Sets a variable from the given object's entity struct to be editable in an edito
 
 `type`
 
-:   The [variable type](TODO) of the variable.
+:   The variable type of the variable.
 
 `var`
 
