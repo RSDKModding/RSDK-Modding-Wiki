@@ -118,6 +118,7 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
+  - pymdownx.blocks.caption
   - pymdownx.keys
   - pymdownx.details
   - pymdownx.critic
@@ -615,6 +616,8 @@ nav:
 
   - Guides:
     - Guides/index.md
+    - General:
+      - Editing Spritesheets: Guides/Spritesheets.md
     - RSDKv2:
       - Decompilation:
         - Building: Guides/RSDKv2/Decompilation/Building.md

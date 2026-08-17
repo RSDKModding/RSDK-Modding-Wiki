@@ -6,6 +6,10 @@ Here you can find various tutorials and guides for modding Retro Engine games.
 
 - Obtaining Datapacks ([Sonic CD](Games/SonicCD/Datapack.md), [Sonic 1/2](Games/Sonic1-2/Datapack.md), [Sonic Mania](Games/SonicMania/Datapack.md), [Sonic 3 & Knuckles](Games/Sonic3K/Datapack.md))
 
+## Modding
+
+- [Editing Spritesheets](Spritesheets.md)
+
 ## Decompilations
 
 ### RSDKv2
