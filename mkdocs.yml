@@ -69,8 +69,8 @@ validation:
   unused_footnotes: true
   shadowed_definitions: true
   shadowed_footnotes: true
-  invalid_links: false
-  invalid_link_anchors: false
+  invalid_links: true
+  invalid_link_anchors: true
 
 plugins:
   - search
@@ -88,11 +88,6 @@ plugins:
         - Decompilations
         - RetroED
         - Wiki
-  #- glightbox:
-  #    zoomable: true
-  #    draggable: true
-  #    effect: fade
-  #    width: 100%
   - group:
       enabled: !ENV [CI, false]
       plugins:

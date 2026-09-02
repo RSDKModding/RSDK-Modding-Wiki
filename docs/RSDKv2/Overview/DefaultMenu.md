@@ -7,7 +7,7 @@ The Default Menu is a debug menu included with [RSDKv2](../index.md), disabled b
 ## Enabling
 The Default Menu can be enabled by using Data Folder Mode.
 
-In the [decompilation](../Decompilation.md), you can also set `DevMenu` to `true` in the settings.ini file, like so:
+In the [decompilation](../Decompilation/index.md), you can also set `DevMenu` to `true` in the settings.ini file, like so:
 
 ``` ini hl_lines="3"
 [Dev]
