@@ -1,10 +1,11 @@
 # Dev Menu
 
-![Dev Menu](/assets/images/Sonic1/DevMenu/MainMenu-Mobile.png){ align=right , width="30%" }
+![Dev Menu](../../assets/images/Sonic1/DevMenu/MainMenu-Mobile.png){ align=right , width="30%" }
 
 The Dev Menu is a debug menu included with [RSDKv4](../index.md), disabled by default. The menu includes several features useful for debugging games in the engine.
 
 ## Enabling
+
 The Dev Menu is normally inaccessible, however in the [RSDKv4 Decompilation](../Decompilation/index.md), it can be enabled by setting `DevMenu` to `true` in the settings.ini file, like so:
 
 ``` ini hl_lines="3"

@@ -1,25 +1,29 @@
 # StopAllSfx
 
 !!! note
+
     This function only exists in RSDKv5U.
 
 Stops all instances of all sound effects playing.
 
 ## Parameters
+
 None.
 
 ## Return Value
+
 None.
 
 ## Example
+
 === "C"
 
-	``` c
-	RSDK.StopAllSfx();
-	```
+    ``` c
+    RSDK.StopAllSfx();
+    ```
 
 === "C++"
 
-	``` cpp
-	RSDK::SoundFX::StopAll();
-	```
+    ``` cpp
+    SoundFX::StopAll();
+    ```

@@ -15,7 +15,7 @@ Sets the chunk at `chunkX`, `chunkY` in tile layer `layer` to the index of `valu
 
 :   Position of the 128x128 chunk in the map on the horizontal axis.
 
-`chunkY`
+`chunkY`F
 
 :   Position of the 128x128 chunk in the map on the vertical axis.
 

@@ -3,6 +3,7 @@
 Resets the entity in `slot` with the `classID` and `data` specified.
 
 ## Parameters
+
 `slot`
 
 :   The slot of the entity to reset.
@@ -13,33 +14,36 @@ Resets the entity in `slot` with the `classID` and `data` specified.
 
 `data`
 
-:   The data to send to the entity's [Create()](/RSDKv5/GameAPI/Events/Create) function.
+:   The data to send to the entity's [Create()](../../Events/Create.md) function.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 === "C"
 
-	``` c
-	RSDK.ResetEntity(uint16 slot, uint16 classID, void *data);
-	```
+    ``` c
+    RSDK.ResetEntity(uint16 slot, uint16 classID, void *data);
+    ```
 
 === "C++"
 
-	``` cpp
-	GameObject::Reset(uint16 slot, uint16 classID, void *data);
-	```
+    ``` cpp
+    GameObject::Reset(uint16 slot, uint16 classID, void *data);
+    ```
 
 ## Example
+
 === "C"
 
-	``` c
-	RSDK.ResetEntity(30, MyObject->classID, NULL);
-	```
+    ``` c
+    RSDK.ResetEntity(30, MyObject->classID, NULL);
+    ```
 
 === "C++"
 
-	``` cpp
-	GameObject::Reset(30, MyObject::sVars->classID, nullptr);
-	```
+    ``` cpp
+    GameObject::Reset(30, MyObject::sVars->classID, nullptr);
+    ```

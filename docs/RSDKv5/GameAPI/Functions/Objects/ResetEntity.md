@@ -3,6 +3,7 @@
 Resets `entity` with the `classID` and `data` specified.
 
 ## Parameters
+
 `entity`
 
 :   The pointer of the entity to reset.
@@ -13,33 +14,36 @@ Resets `entity` with the `classID` and `data` specified.
 
 `data`
 
-:   The data to send to the entity's [Create()](/RSDKv5/GameAPI/Events/Create) function.
+:   The data to send to the entity's [Create()](../../Events/Create.md) function.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 === "C"
 
-	``` c
-	RSDK.ResetEntity(void *entity, uint16 classID, void *data);
-	```
+    ``` c
+    RSDK.ResetEntity(void *entity, uint16 classID, void *data);
+    ```
 
 === "C++"
 
-	``` cpp
-	entity->Reset(uint16 classID, void *data);
-	```
+    ``` cpp
+    entity->Reset(uint16 classID, void *data);
+    ```
 
 ## Example
+
 === "C"
 
-	``` c
-	RSDK.ResetEntity(self, MyObject->classID, NULL);
-	```
+    ``` c
+    RSDK.ResetEntity(self, MyObject->classID, NULL);
+    ```
 
 === "C++"
 
-	``` cpp
-	this->Reset(MyObject::sVars->classID, nullptr);
-	```
+    ``` cpp
+    this->Reset(MyObject::sVars->classID, nullptr);
+    ```

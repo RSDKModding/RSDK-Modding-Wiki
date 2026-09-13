@@ -3,6 +3,7 @@
 Draws a tinted rectangle to `ixpos` and `iypos` in screen-space.
 
 ## Parameters
+
 `ixpos`
 
 :   The position of the rectangle on the horizontal axis in screen-space.
@@ -20,14 +21,17 @@ Draws a tinted rectangle to `ixpos` and `iypos` in screen-space.
 :   The height of the rectangle.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 ```
 DrawTintRect(int ixpos, int iypos, int width, int height)
 ```
 
 ## Example
+
 ```
 DrawTintRect(30, 220, 60, 20)
 ```

@@ -1,6 +1,7 @@
 # RSDKv3 Functions
 
 ## 3D
+
 | Function                                           | Description                                                            |
 | -------------------------------------------------- | ---------------------------------------------------------------------- |
 | [**Draw3DScene**](3D/Draw3DScene.md)               | Draws the active 3DScene data to the screen.                           |
@@ -13,6 +14,7 @@
 | [**TransformVertices**](3D/TransformVertices.md)   | Transform all vertices from `StartIndex` to `EndIndex` using `Matrix`. |
 
 ## Audio
+
 | Function                                          | Description                                                                                           |
 | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | [**SetMusicTrack**](Audio/SetMusicTrack.md)       | Loads a music file in the given track slot with the given loop point.                                 |
@@ -27,6 +29,7 @@
 | [**StopStageSfx**](Audio/StopStageSfx.md)         | Stops all instances of the given sound effect slot in the StageConfig playing.                        |
 
 ## Drawing
+
 | Function                                                    | Description                                                                                                                                             |
 | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [**DrawTintRect**](Drawing/DrawTintRect.md)                 | Draws a tinted rectangle to `iXPos` and `iYPos` in screen-space.                                                                                        |
@@ -44,9 +47,10 @@
 | [**SetDrawListEntityRef**](Drawing/SetDrawListEntityRef.md) | Sets `ObjectPos` in drawList `Layer` to `Value`.                                                                                                        |
 
 ## Graphics
+
 | Function                                                   | Description                                                                                                                          |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| [**DrawNumbers**](Graphics/DrawNumbers.md)                  | Draws a number in screen-space.                                                                                                      |
+| [**DrawNumbers**](Graphics/DrawNumbers.md)                 | Draws a number in screen-space.                                                                                                      |
 | [**LoadSpriteSheet**](Graphics/LoadSpriteSheet.md)         | Loads a spritesheet and assigns the ID to `Object.SpriteSheet`.                                                                      |
 | [**RemoveSpriteSheet**](Graphics/RemoveSpriteSheet.md)     | Removes the given spritesheet from memory, if it is already loaded.                                                                  |
 | [**DrawSprite**](Graphics/DrawSprite.md)                   | Draws `Frame` at the object's X and Y position.                                                                                      |
@@ -62,6 +66,7 @@
 | [**DrawPlayerAnimation**](Graphics/DrawPlayerAnimation.md) | Draws the player's sprites from the animation file loaded prior via [LoadAnimation()](Graphics/LoadAnimation.md).                    |
 
 ## Math
+
 | Function                                   | Description                                                                                            |
 | ------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
 | [**FlipSign**](Math/FlipSign.md)           | Flips the sign of the given variable; positive values will become negative values, and vice versa.     |
@@ -84,6 +89,7 @@
 | [**SetBit**](Math/SetBit.md)               | Sets index `BitPos` of `Value` to `Bit` and updates `Value` accordingly.                               |
 
 ## Object
+
 | Function                                                     | Description                                                                                                                 |
 | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
 | [**ResetObjectEntity**](Object/ResetObjectEntity.md)         | Resets an object in position `Slot` to the `Type`, `PropertyValue`, `XPos`, and `YPos` specified.                           |
@@ -97,6 +103,7 @@
 | [**GetAnimationByName**](Object/GetAnimationByName.md)       | Gets the numeric ID of an animation in the current object's animation file.                                                 |
 
 ## Stages
+
 | Function                                                 | Description                                                                                    |
 | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | [**DrawActName**](Stages/DrawActName.md)                 | Draws the current stage's title.                                                               |
@@ -109,6 +116,7 @@
 | [**Copy16x16Tile**](Stages/Copy16x16Tile.md)             | Copies the tileset image data of `SrcTile` to `DstTile`.                                       |
 
 ## Miscellaneous
+
 | Function                                         | Description                                                                                              |
 | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
 | [**DrawMenu**](Misc/DrawMenu.md)                 | Draws `Menu` at `XPos` and `YPos` relative to the screen.                                                |

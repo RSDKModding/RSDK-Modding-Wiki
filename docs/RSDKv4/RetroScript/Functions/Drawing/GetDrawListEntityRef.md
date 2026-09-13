@@ -3,6 +3,7 @@
 Gets `objectPos` in drawList `layer` and stores it in `store`.
 
 ## Parameters
+
 `store`
 
 :   The variable where `objectPos` will be stored.
@@ -16,14 +17,17 @@ Gets `objectPos` in drawList `layer` and stores it in `store`.
 :   The position of the object to add.
 
 ## Return Value
+
 Sets `store` to the result.
 
 ## Syntax
+
 ```
 GetDrawListEntityRef(var store, int layer, int objectPos)
 ```
 
 ## Example
+
 ```
 GetDrawListEntityRef(object.value0, 4, object.entityPos)
 ```

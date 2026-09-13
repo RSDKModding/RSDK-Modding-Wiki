@@ -1,11 +1,13 @@
 # AddViewableVariable
 
 !!! note
+
     This function only exists in REV02 and above.
 
 Adds a viewable variable to the [Dev Menu]. Viewable variables exist until the scene is changed or reloaded.
 
 ## Parameters
+
 `name`
 
 :   The display name of the viewable variable in the dev menu. Display names may be a maximum of 15 characters long.
@@ -26,33 +28,36 @@ Adds a viewable variable to the [Dev Menu]. Viewable variables exist until the s
 
 :   The maximum value of the viewable variable (inclusive).
 
-  [Dev Menu]: /RSDKv5/Overview/DevMenu
-
 ## Return Value
+
 None.
 
 ## Syntax
+
 === "C"
 
-	``` c
-	RSDK.AddViewableVariable(const char *name, void *value, int32 type, int32 min, int32 max);
-	```
+    ``` c
+    RSDK.AddViewableVariable(const char *name, void *value, int32 type, int32 min, int32 max);
+    ```
 
 === "C++"
 
-	``` cpp
-	Dev::AddViewableVariable(const char *name, void *value, int32 type, int32 min, int32 max);
-	```
+    ``` cpp
+    Dev::AddViewableVariable(const char *name, void *value, int32 type, int32 min, int32 max);
+    ```
 
 ## Example
+
 === "C"
 
-	``` c
-	RSDK.AddViewableVariable("Debug Mode", &SceneInfo->debugMode, VIEWVAR_BOOL, false, true);
-	```
+    ``` c
+    RSDK.AddViewableVariable("Debug Mode", &SceneInfo->debugMode, VIEWVAR_BOOL, false, true);
+    ```
 
 === "C++"
 
-	``` cpp
-	Dev::AddViewableVariable("Debug Mode", &sceneInfo->debugMode, Dev::VIEWVAR_BOOL, false, true)
-	```
+    ``` cpp
+    Dev::AddViewableVariable("Debug Mode", &sceneInfo->debugMode, Dev::VIEWVAR_BOOL, false, true)
+    ```
+
+[Dev Menu]: ../../../Overview/DevMenu.md

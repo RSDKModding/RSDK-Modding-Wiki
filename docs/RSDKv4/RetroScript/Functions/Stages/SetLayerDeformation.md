@@ -3,6 +3,7 @@
 Sets the deformation data array of `deformID`, based on `deformA` and `deformB`.
 
 ## Parameters
+
 `deformID`
 
 :   The ID of the layer to deform, valid values are:
@@ -33,14 +34,17 @@ Sets the deformation data array of `deformID`, based on `deformA` and `deformB`.
 :   The size of the wave.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 ```
 SetLayerDeformation(int deformID, int waveLength, int waveWidth, int waveType, int yPos, int waveSize)
 ```
 
 ## Example
+
 ```
 SetLayerDeformation(0, 16, 2, 1, 96, 128)
 ```

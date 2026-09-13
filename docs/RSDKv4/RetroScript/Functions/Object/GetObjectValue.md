@@ -1,11 +1,13 @@
 # GetObjectValue
 
 !!! note
+
     This function only exists in REV02 and above.
 
 Gets `object.valueXX` of the object in `slot` corresponding to `valueID` and stores it in `store`.
 
 ## Parameters
+
 `store`
 
 :   Variable where to store `valueID`.
@@ -19,14 +21,17 @@ Gets `object.valueXX` of the object in `slot` corresponding to `valueID` and sto
 :   The ID of the object from where to get `object.value`.
 
 ## Return Value
+
 Sets `store` to the result.
 
 ## Syntax
+
 ```
 GetObjectValue(var store, int valueID, int slot)
 ```
 
 ## Example
+
 ```
 GetObjectValue(arrayPos0, 34, 2)
 ```

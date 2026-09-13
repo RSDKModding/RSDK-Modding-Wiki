@@ -10,7 +10,7 @@ To use GameXML, add a file named `Game.xml` in the `Game` directory of the Data 
 
 GameXML, as the name and file extension suggest, uses [Extensible Markup Language](https://en.wikipedia.org/wiki/XML) to store and load information. All elements in `Game.xml` must be contained within a root element named `game`, like so:
 
-```xml
+``` xml
 <game>
 	<!-- elements go here -->
 </game>
@@ -22,7 +22,7 @@ You only need to include elements that you are adding/replacing.
 
 The game title that appears in the window title and in the [Dev Menu](../Overview/DevMenu.md) can be overwritten with the `title` element. The `name` attribute contains the name to replace the game title with.
 
-```xml
+``` xml
 <title name="My Game" />
 ```
 
@@ -38,7 +38,7 @@ Global variables can be added using the `variables` element. This element should
 
 :   The default value of the variable. Takes an integer.
 
-```xml
+``` xml
 <variables>
 	<variable name="Player.Collectibles" value="0" />
 	<variable name="Options.EnableLives" value="1" />
@@ -46,6 +46,7 @@ Global variables can be added using the `variables` element. This element should
 ```
 
 !!! note
+
     The GameConfig has a maximum global variable count of 256 variables. The Origins versions of Sonic CD gets very close to this limit, having 225 variables as of version 2.0.2. Keep this in mind when adding new variables.
 
 ## Palettes
@@ -66,7 +67,7 @@ This element uses the following attributes:
 
 The text value of the element should contain the colors to overwrite the original colors with, starting at the index specified in the `start` attribute. Colors can be defined as either hex (`FFFFFF` or `#FFFFFF`, letters are case-insensitive) or an RGB triplet (`(255, 255, 255)` or `(255 255 255)`).
 
-```xml
+``` xml
 <palette>
 	<colors bank="0" start="2">202080 #4040a0 (96, 96, 192) (128 128 224)</colors>
 </palette>
@@ -88,7 +89,7 @@ This element uses the following attributes:
 
 :   The red, green, and blue values in the RGB value for the color to use.
 
-```xml
+``` xml
 <palette>
 	<color bank="0" index="2" r="32" g="32" b="128" />
 	<color bank="0" index="3" r="64" g="64" b="160" />
@@ -113,7 +114,7 @@ Global objects can be added using the `objects` element. This element should con
 
 :   Takes a boolean. If set to `true`, all stage objects will have their IDs incremented by 1 to prevent breaking stage layouts. **The object should not be added as both a global and stage object at once if this is enabled!**
 
-```xml
+``` xml
 <objects>
 	<object name="My Object" script="Global/MyObject.txt" forceLoad="true" />
 </objects>
@@ -123,7 +124,7 @@ Global objects can be added using the `objects` element. This element should con
 
 Sound effects can be added using the `sounds` element. This element should contain a `soundfx` child element for each sound effect to add, with the `path` attribute containing the path to the sound effect file.
 
-```xml
+``` xml
 <sounds>
 	<soundfx path="Global/MySFX.wav" />
 	<soundfx path="Global/OtherSFX.wav" />
@@ -131,13 +132,14 @@ Sound effects can be added using the `sounds` element. This element should conta
 ```
 
 !!! tip
+
     The decompilation also allows using `SfxName[File]` (`File` being the filename of the sound effect without the folder name or file extension) to allow using sound effects in scripts without having to guess what IDs they use. For example, using `SfxName[MySFX]` will always point to `Global/MySFX.wav` in the above example.
 
 ## Players
 
 Players can be added using the `players` element. This element should contain an `player` child element for each player to add, with the `name` attribute containing the name of the player.
 
-```xml
+``` xml
 <players>
 	<player name="PLAYER 1" />
 	<player name="PLAYER 2" />
@@ -164,7 +166,7 @@ Stages can be added using the `presentationStages`, `regularStages`, `specialSta
 
 :   Takes a boolean. If set to `false`, only the last (and presumably only) character in the stage name will be highlighted when selecting it in the [Dev Menu](../Overview/DevMenu.md) stage select.
 
-```xml
+``` xml
 <presentationStages>
 	<stage name="MY STAGE" folder="MyStage" id="1" highlight="true" />
 </presentationStages>

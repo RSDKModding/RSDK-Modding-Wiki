@@ -1,6 +1,6 @@
 # Dev Menu
 
-![Dev Menu](/assets/images/SonicMania/DevMenu/MainMenu-Steam.png){ align=right , width="50%" }
+![Dev Menu](../../assets/images/SonicMania/DevMenu/MainMenu-Steam.png){ align=right , width="50%" }
 
 The Dev Menu is a debug menu included with [RSDKv5](../index.md), disabled by default. The menu includes several features useful for debugging games in the engine. When the Dev Menu is enabled, other developer features are accessible as well.
 
@@ -23,11 +23,13 @@ language=0
 Alternatively, running the game in Data Folder Mode will automatically enable the Dev Menu.
 
 !!! note
-    The entirety of the Dev Menu was removed in [Sonic Origins](/Games/SonicOrigins), making it inaccessible.
+
+    The entirety of the Dev Menu was removed in [Sonic Origins](../../Games/SonicOrigins/index.md), making it inaccessible.
 
 ## Debug Controls
 
 ### General
+
 | Key                  | Command                                             |
 | -------------------- | --------------------------------------------------- |
 | ++escape++           | Opens/closes the Dev Menu.                          |
@@ -36,6 +38,7 @@ Alternatively, running the game in Data Folder Mode will automatically enable th
 | ++f11++ / ++insert++ | If in step-over mode, steps over to the next frame. |
 
 ### Decomp Only
+
 | Key     | Command                                                                                               |
 | ------- | ----------------------------------------------------------------------------------------------------- |
 | ++f1++  | Loads the previous scene in the scene list. If pressed in the first scene, it will load the last one. |

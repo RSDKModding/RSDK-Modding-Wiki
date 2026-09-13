@@ -1,6 +1,7 @@
 # RSDKv3 Variables
 
 # Script
+
 | Variable         | Description                                                                          |
 | ---------------- | ------------------------------------------------------------------------------------ |
 | **TempValue0-7** | Temporary values used to store values during arithmetic or other similar operations. |
@@ -8,12 +9,14 @@
 | **Global**       | Can be used to use global variables as an array (Ex. Global\[ArrayPos0] = 0).        |
 
 ## Object
+
 | Variable                 | Description                                                      |
 | ------------------------ | ---------------------------------------------------------------- |
 | **Object.Type**          | The object's type.                                               |
 | **Object.PropertyValue** | The object's subtype. Its purpose differs from object to object. |
 
 # Player
+
 | Variable                 | Description                                                                                                                                  |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Player.Type**          | The Player's type. Should almost always be a Player Object.                                                                                  |
@@ -22,9 +25,10 @@
 | **Player.CollisionMode** | The collision that the Player's currently on.                                                                                                |
 | **Player.X/YPos**        | The object's x/ypos on the x and y axis. Position is based in world-space, which in v3 is 0x10000 (65536), which is equal is 1.0.            |
 | **Player.ScreenX/YPos**  | The object's screenx/ypos on the x and y axis. Screen position is based in screen-space, which in v3 is truncated from world-space (1 == 1). |
-| **Player.Speed**         | The Player's general speed in world-space
+| **Player.Speed**         | The Player's general speed in world-space                                                                                                    |
 
 ## Stage
+
 | Variable                    | Description                                                                                                                                     |
 | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Stage.ActiveList**        | The active stage list. Ranges from Presentation, Regular, Special, and Bonus Stages.                                                            |

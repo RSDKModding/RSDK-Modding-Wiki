@@ -13,14 +13,17 @@ Adds a text entry to `Menu` with the engine's version as the text. The text will
 :   Determines if the text will always be highlighted.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 ```
 GetVersionNumber(int Menu, bool HighlightEntry)
 ```
 
 ## Example
+
 ```
 GetVersionNumber(MENU_2, true)
 ```

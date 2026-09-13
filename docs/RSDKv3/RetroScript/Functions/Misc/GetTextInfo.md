@@ -3,6 +3,7 @@
 Gets the data of `Type` from `Menu` using `Index` and stores it in `Store`.
 
 ## Parameters
+
 `Store`
 
 :   Variable where the data will be saved.
@@ -24,14 +25,17 @@ Gets the data of `Type` from `Menu` using `Index` and stores it in `Store`.
 :   Offset for the text at `Index`. Only used if `Type` is `TEXTINFO_TEXTDATA`.
 
 ## Return Value
+
 Sets `Store` to the result.
 
 ## Syntax
+
 ```
 GetTextInfo(var Store, int Menu, int Type, int Index, int Offset)
 ```
 
 ## Example
+
 ```
 GetTextInfo(TempValue4, MENU_1, TEXTINFO_TEXTDATA, TempValue0, 1)
 ```

@@ -11,11 +11,13 @@ In addition, refer to these warnings depending on the platform you are compiling
 === "Windows"
 
     !!! warning
+
         Make sure to use Command Prompt when typing commands instead of PowerShell, as PowerShell is known to cause issues.
 
 === "Linux"
 
     !!! warning "Notice for SteamOS users"
+
         Due to how SteamOS handles packages, building the decompilation on devices running SteamOS (such as the Steam Deck) is highly difficult and not recommended. Instead, consider compiling a Windows build and running it on SteamOS using Proton.
 
 === "Android"
@@ -23,19 +25,23 @@ In addition, refer to these warnings depending on the platform you are compiling
     TODO
 
 ## Get the source code
+
 **DO NOT** download the source code ZIP archive from GitHub, as they do not include the submodules required to build the decompilation.
 
 Instead, you will need to clone the repository using Git, which you can get [here](https://git-scm.com/downloads).
 
 Clone the repo **recursively** by running this command in the target directory:
+
 ```
 git clone --recursive https://github.com/RSDKModding/RSDKv4-Decompilation
 ```
 
 !!! warning
+
     **DO NOT** clone the repository in a Windows user directory. This includes folders such as Documents, Downloads, and the Desktop. These directories are known to cause issues when building. It's recommended to instead clone the repo somewhere in a `GitHub` folder located in the root of the C drive, or another drive entirely if possible.
 
 ## Getting dependencies
+
 === "Windows"
 
     [Install CMake](https://cmake.org/download/). **Make sure to enable the feature to add CMake to the system PATH during the installation.**
@@ -43,14 +49,17 @@ git clone --recursive https://github.com/RSDKModding/RSDKv4-Decompilation
     To handle dependencies, you'll need to install [Visual Studio Community](https://visualstudio.microsoft.com/downloads/) with the `Desktop development with C++` workload. If you already have Visual Studio installed, you can manage your installed workloads by opening Visual Studio Installer from the Start Menu and clicking the `Modify` button next to your Visual Studio installation.
 
     !!! warning
+
         An installation of Visual Studio with the `Desktop development with C++` workload uses around 8 GB of storage space. Make sure you have the necessary space on your drive before proceeding.
 
     You will also need to [set up vcpkg](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-cmd#1---set-up-vcpkg). You only need to follow `1 - Set up vcpkg` in the guide.
 
     !!! tip
+
         It's recommended to clone vcpkg into a short path such as `C:/src` to avoid potential file path issues.
 
     Run the following command in the vcpkg repository:
+
     === "64-bit"
 
         ```
@@ -64,6 +73,7 @@ git clone --recursive https://github.com/RSDKModding/RSDKv4-Decompilation
         ```
 
     Then, add vcpkg to your environment variables by running the following commands in the vcpkg repository:
+
     ```
     set VCPKG_ROOT="%CD%"
     setx VCPKG_ROOT %VCPKG_ROOT%
@@ -121,15 +131,18 @@ git clone --recursive https://github.com/RSDKModding/RSDKv4-Decompilation
     | `src`        | Path to `RSDKv4-Decompilation`                          |
 
     !!! question "How do I make a symbolic link?"
+
         You can create a symlink using the appropriate command:
 
         - Windows: `mklink /d "[symlink-name]" "[path]"` (or use [Link Shell Extension](https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html))
         - Linux: `ln -s "[path]" "[symlink-name]"`
 
 ## Compiling
+
 === "Windows"
 
     Enter the following commands in the RSDKv4 decompilation repository directory:
+
     === "64-bit"
 
         ```
@@ -151,6 +164,7 @@ git clone --recursive https://github.com/RSDKModding/RSDKv4-Decompilation
 === "Linux"
 
     Enter the following commands in the RSDKv4 decompilation repository directory:
+
     ```
     cmake -B build --fresh
     cmake --build build --parallel --config Release
@@ -167,7 +181,9 @@ git clone --recursive https://github.com/RSDKModding/RSDKv4-Decompilation
     Open `RSDKv4-Decompilation/android/` in Android Studio, install the NDK and everything else that it asks for, and build.
 
 ## Build Flags
+
 !!! warning
+
     These build flags modify certain aspects of the decomp; only use these if you know what you're doing!
 
 | Flag                             | Description                                                                                                                                                                                                       | Value Type                            | Default Value |
@@ -181,6 +197,7 @@ git clone --recursive https://github.com/RSDKModding/RSDKv4-Decompilation
 | **RETRO_SDL_VERSION**            | Switches between using SDL 1.2 or SDL 2.                                                                                                                                                                          | Integer (`1` or `2`)                  | `2`           |
 
 ### Revisions
+
 | Flag Value | Revision                        |
 | ---------- | ------------------------------- |
 | **0**      | REV00 (Initial Sonic 1 Release) |
@@ -193,6 +210,7 @@ git clone --recursive https://github.com/RSDKModding/RSDKv4-Decompilation
 ### CMake error: "Cannot find source file" { id="cmake-cannot-find-source-file" }
 
 You did not clone the repository recursively, meaning the submodules are missing. You can get them by running the following command in the `RSDKv4-Decompilation` directory:
+
 ```
 git submodule update --remote --init
 ```

@@ -1,9 +1,10 @@
 # Mod Loader
 
 !!! note
-    This page documents the mod structure and format for mod developers to reference. If you are simply looking to install mods as an end-user, see the [Mod Setup guide](/Guides/RSDKv3/Decompilation/ModSetup).
 
-The [RSDKv3 Decompilation](index.md) has a built-in mod loader, introduced in Version 1.1.2. It allows loading mods that add or replace Data and/or script files. The mod loader is a custom feature in the decompilation, however you can choose to build without it using the [`RETRO_MOD_LOADER` flag](/Guides/RSDKv3/Decompilation/Building/#build-flags).
+    This page documents the mod structure and format for mod developers to reference. If you are simply looking to install mods as an end-user, see the [Mod Setup guide](../../Guides/RSDKv3/Decompilation/ModSetup.md).
+
+The [RSDKv3 Decompilation](index.md) has a built-in mod loader, introduced in Version 1.1.2. It allows loading mods that add or replace Data and/or script files. The mod loader is a custom feature in the decompilation, however you can choose to build without it using the [`RETRO_MOD_LOADER` flag](../../Guides/RSDKv3/Decompilation/Building.md#build-flags).
 
 ## Mods Directory
 
@@ -20,7 +21,7 @@ mods/
 
 modconfig.ini is a file that the decompilation automatically creates and updates in the `mods` folder, if it exists. This file is used to store the priority order for mods (mods are loaded from bottom to top), as well as which mods are enabled. Mods are listed by their folder names.
 
-```ini title="Example modconfig.ini"
+``` ini title="Example modconfig.ini"
 [mods]
 SpriteMod=true
 MusicMod=false
@@ -30,9 +31,9 @@ MusicMod=false
 
 Mod folders can include the following folders within them:
 
-- `Data` - Datapack assets.
+-   `Data` - Datapack assets.
     - `Scripts` - TXT script files. This folder should be placed in the `Data` folder.
-- `Videos` - OGV Video files.
+-   `Videos` - OGV Video files.
 
 Files within these directories follow the same structure as in the base asset folders.
 
@@ -55,6 +56,7 @@ mod.ini is a file containing metadata for the mod, as well as flags that can be 
 #### Metadata Tags
 
 !!! warning
+
     Keep these strings short. Making them too long will cause the decompilation to crash.
 
 `Name`
@@ -83,7 +85,7 @@ All of these flags take a boolean (`false`/`true`) unless stated otherwise. You 
 
 `DisableFocusPause`
 
-:   Overrides the `DisableFocusPause` setting in [settings.ini]. See [that setting's values](SettingsINI/#disablefocuspause-options) for valid options.
+:   Overrides the `DisableFocusPause` setting in [settings.ini]. See [that setting's values](SettingsINI.md#disablefocuspause-options) for valid options.
 
 `RedirectSaveRAM`
 
@@ -93,8 +95,6 @@ All of these flags take a boolean (`false`/`true`) unless stated otherwise. You 
 
 :   When enabled, disables the `BGMVolume`, `SFXVolume`, and `OriginalControls` settings in [settings.ini].
 
-  [settings.ini]: SettingsINI.md
-
 `TargetVersion`
 
 :   Determines the target engine version for the mod when used in the [RSDKv5U Decompilation], which only shows mods for the currently active engine version in the Mods Menu. Should be set to `3` for RSDKv3. If not set, it will default to `5`.
@@ -103,12 +103,11 @@ All of these flags take a boolean (`false`/`true`) unless stated otherwise. You 
 
 :   Forces the engine version when used in the [RSDKv5U Decompilation]. This should normally never be necessary, however. Forces RSDKv3 when set to `3`.
 
-  [RSDKv5U Decompilation]: /RSDKv5/Decompilation
-
 !!! info
+
     Versions of the decompilation prior to 1.3.0 used an `Active` flag to determine whether or not the mod is enabled. This flag has since been deprecated and is no longer used.
 
-```ini title="Example mod.ini file"
+``` ini title="Example mod.ini file"
 Name=Sprite Mod
 Description=My sprite mod!
 Author=Me
@@ -116,3 +115,6 @@ Version=1.0.0
 TxtScripts=true
 TargetVersion=3
 ```
+
+[RSDKv5U Decompilation]: ../../RSDKv5/Decompilation/index.md
+[settings.ini]: SettingsINI.md

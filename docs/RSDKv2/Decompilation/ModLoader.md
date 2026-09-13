@@ -1,9 +1,10 @@
 # Mod Loader
 
 !!! note
-    This page documents the mod structure and format for mod developers to reference. If you are simply looking to install mods as an end-user, see the [Mod Setup guide](/Guides/RSDKv2/Decompilation/ModSetup).
 
-The [RSDKv2 Decompilation](index.md) has a built-in mod loader. It allows loading mods that add or replace Data and/or script files. The mod loader is a custom feature in the decompilation, however you can choose to build without it using the [`RETRO_MOD_LOADER` flag](/Guides/RSDKv2/Decompilation/Building/#build-flags).
+    This page documents the mod structure and format for mod developers to reference. If you are simply looking to install mods as an end-user, see the [Mod Setup guide](../../Guides/RSDKv2/Decompilation/ModSetup.md).
+
+The [RSDKv2 Decompilation](index.md) has a built-in mod loader. It allows loading mods that add or replace Data and/or script files. The mod loader is a custom feature in the decompilation, however you can choose to build without it using the [`RETRO_MOD_LOADER` flag](../../Guides/RSDKv2/Decompilation/Building.md#build-flags).
 
 ## Mods Directory
 
@@ -20,7 +21,7 @@ mods/
 
 modconfig.ini is a file that the decompilation automatically creates and updates in the `mods` folder, if it exists. This file is used to store the priority order for mods (mods are loaded from bottom to top), as well as which mods are enabled. Mods are listed by their folder names.
 
-```ini title="Example modconfig.ini"
+``` ini title="Example modconfig.ini"
 [mods]
 SpriteMod=true
 MusicMod=false
@@ -30,9 +31,9 @@ MusicMod=false
 
 Mod folders can include the following folders within them:
 
-- `Data` - Datapack assets.
+-   `Data` - Datapack assets.
     - `Scripts` - TXT script files. This folder should be placed in the `Data` folder.
-- `Videos` - OGV Video files.
+-   `Videos` - OGV Video files.
 
 Files within these directories follow the same structure as in the base asset folders.
 
@@ -55,6 +56,7 @@ mod.ini is a file containing metadata for the mod. The decompilation will not de
 #### Metadata Tags
 
 !!! warning
+
     Keep these strings short. Making them too long will cause the decompilation to crash.
 
 `Name`
@@ -73,7 +75,7 @@ mod.ini is a file containing metadata for the mod. The decompilation will not de
 
 :   The mod's version number. There is no specific version scheme used, so use whatever you prefer.
 
-```ini title="Example mod.ini file"
+``` ini title="Example mod.ini file"
 Name=Sprite Mod
 Description=My sprite mod!
 Author=Me

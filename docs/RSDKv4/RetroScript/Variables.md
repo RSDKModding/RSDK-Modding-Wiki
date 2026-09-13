@@ -1,6 +1,7 @@
 # RSDKv4 Variables
 
 ## Script
+
 | Variable        | Description                                                                                       |
 | --------------- | ------------------------------------------------------------------------------------------------- |
 | **temp0-7**     | Temporary values used to store values during arithmetic or other similar operations.              |
@@ -10,6 +11,7 @@
 | **local**       | Can be used to use local variables as an array (Ex. local\[arrayPos0] = 0).                       |
 
 ## Object
+
 | Variable                 | Description                                                                                                                      |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
 | **object.entityPos**     | The object's entity slot in a scene's entity list.                                                                               |
@@ -23,6 +25,7 @@
 | **object.state**         | The object's state. Similar to propertyValue, its purpose differs for each object.                                               |
 
 ## Stage
+
 | Variable                         | Description                                                                                                                                                                        |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **stage.state**                  | The current processing state of the stage.                                                                                                                                         |
@@ -46,6 +49,7 @@
 | **stage.entityPos**              | The entity last loaded by the stage.                                                                                                                                               |
 
 ## Screen
+
 | Variable                 | Description                                                                                                          |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------- |
 | **screen.cameraEnabled** | Determines if the camera is disabled or not.                                                                         |
@@ -65,6 +69,7 @@
 | **screen.adjustCameraY** | The amount the camera should vertically adjust.                                                                      |
 
 ## Audio
+
 | Variable               | Description                                                                                                                       |
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | **music.volume**       | The current volume for the music. Not the same as 'engine.bgmVolume', which is combined with this to get the final output volume. |
@@ -72,12 +77,14 @@
 | **music.position**     | The position (by sample) of the currently playing track.                                                                          |
 
 ## Input
+
 | Variable                  | Description                                                                                                                                 |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | **keyDown/keyPress.\[X]** | General inputs for controllers. `keyDown` is true if a button/key is held, while `keyPress` is true if a button/key was pressed on a frame. |
-|
+|                           |                                                                                                                                             |
 
 ## Menu
+
 | Variable              | Description                                            |
 | --------------------- | ------------------------------------------------------ |
 | **menu1/2.selection** | The current row, as selected by `MENU_1` and `MENU_2`. |
@@ -85,6 +92,7 @@
 ## Tile Layer
 
 ## 3D
+
 | Variable                   | Description                                                                                             |
 | -------------------------- | ------------------------------------------------------------------------------------------------------- |
 | **scene3D.vertexCount**    | The amount of active vertices in each buffer respectively (max of 4096 vertices).                       |
@@ -96,9 +104,10 @@
 | **faceBuffer.a/b/c/d**     | The vertice indices to use to control a face's drawing.                                                 |
 | **faceBuffer.flag**        | The active drawing flag for a face.                                                                     |
 | **faceBuffer.color**       | The color to draw the face when drawing with either `FACE_FLAG_COLOURED_2D` or `FACE_FLAG_COLOURED_3D`. |
-| **vertexBuffer.x/y/z/u/v** | The vertex coordinates for a specified vertex. |
+| **vertexBuffer.x/y/z/u/v** | The vertex coordinates for a specified vertex.                                                          |
 
 ## Engine
+
 | Variable                | Description                                                                                                              |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | **saveRAM\[index]**     | Capable of saving data to the array of `index`, using the `Read/WriteSaveRAM()` functions.                               |
@@ -112,6 +121,7 @@
 ## Extras
 
 ## Haptics
+
 | Variable                  | Description                                                                                               |
 | ------------------------- | --------------------------------------------------------------------------------------------------------- |
 | **engine.hapticsEnabled** | Determines if haptic effects are enabled or not. Will only have effect is `RETRO_USE_HAPTICS` if enabled. |

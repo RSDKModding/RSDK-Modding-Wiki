@@ -1,6 +1,7 @@
 # RSDKv4 Functions
 
 ## 3D
+
 | Function                                           | Description                                                            |
 | -------------------------------------------------- | ---------------------------------------------------------------------- |
 | [**Draw3DScene**](3D/Draw3DScene.md)               | Draws the active 3DScene data to the screen.                           |
@@ -14,6 +15,7 @@
 | [**TransformVertices**](3D/TransformVertices.md)   | Transform all vertices from `startIndex` to `endIndex` using `matrix`. |
 
 ## Audio
+
 | Function                                          | Description                                                                                                                                   |
 | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | [**SetMusicTrack**](Audio/SetMusicTrack.md)       | Loads a music file in the given track slot with the given loop point.                                                                         |
@@ -27,6 +29,7 @@
 | [**SetSfxAttributes**](Audio/SetSfxAttributes.md) | Sets the loop count and panning of the given sound effect to the given values.                                                                |
 
 ## Drawing
+
 | Function                                                    | Description                                                                                                                                    |
 | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | [**DrawTintRect**](Drawing/DrawTintRect.md)                 | Draws a tinted rectangle to `ixpos` and `iypos` in screen-space.                                                                               |
@@ -46,6 +49,7 @@
 | [**SetDrawListEntityRef**](Drawing/SetDrawListEntityRef.md) | Sets `objectPos` in drawList `layer` to `value`.                                                                                               |
 
 ## Graphics
+
 | Function                                                   | Description                                                                                                                          |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | [**DrawNumbers**](Graphics/DrawNumbers.md)                 | Draws a number in screen-space.                                                                                                      |
@@ -65,6 +69,7 @@
 | [**SetScreenVertices**](Graphics/SetScreenVertices.md)     | Sets the screen vertices. **RSDKv5U only.**                                                                                          |
 
 ## Math
+
 | Function                                   | Description                                                                                           |
 | ------------------------------------------ | ----------------------------------------------------------------------------------------------------- |
 | [**FlipSign**](Math/FlipSign.md)           | Flips the sign of the given variable; positive values will become negative values, and vice versa.    |
@@ -88,6 +93,7 @@
 | [**Abs**](Math/Abs.md)                     | Gets the absolute number of `value`.                                                                  |
 
 ## Object
+
 | Function                                                     | Description                                                                                                                 |
 | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
 | [**ResetObjectEntity**](Object/ResetObjectEntity.md)         | Resets an object in position `slot` with the `type`, `propertyValue`, `xpos`, and `ypos` specified.                         |
@@ -105,6 +111,7 @@
 | [**CheckCameraProximity**](Object/CheckCameraProximity.md)   | Checks if the given position is within range of the camera(s). **RSDKv5U only.**                                            |
 
 ## Stages
+
 | Function                                                         | Description                                                                                    |
 | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | [**DrawActName**](Stages/DrawActName.md)                         | Draws the current stage's title.                                                               |
@@ -118,23 +125,25 @@
 | [**CheckCurrentStageFolder**](Stages/CheckCurrentStageFolder.md) | Reads the name of the current stage's folder.                                                  |
 
 ## Miscellaneous
-| Function                                                    | Description                                                                                              |
-| ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| [**CallNativeFunction**](Misc/CallNativeFunction/index.md)  | Sends a callback to the engine to run a native function.                                                 |
-| [**CheckTouchRect**](Misc/CheckTouchRect.md)                | Checks if there's a touch input between the given coordinates.                                           |
-| [**CallFunction**](Misc/CallFunction.md)                    | Calls the given object function.                                                                         |
-| [**SetupMenu**](Misc/SetupMenu.md)                          | Sets up `menu` with `rowCount` rows, `selectionCount` active selections and aligning set to `alignment`. |
-| [**AddMenuEntry**](Misc/AddMenuEntry.md)                    | Adds an entry to `menu` with the contents of `text`.                                                     |
-| [**EditMenuEntry**](Misc/EditMenuEntry.md)                  | Edits an entry of `menu` with the contents of `text` in `rowID`.                                         |
-| [**DrawMenu**](Misc/DrawMenu.md)                            | Draws `menu` at `xpos` and `ypos` relative to the screen.                                                |
-| [**GetTextInfo**](Misc/GetTextInfo.md)                      | Gets the data of `type` from `menu` using `index` and stores it in `store`.                              |
-| [**GetVersionNumber**](Misc/GetVersionNumber.md)            | Adds a text entry to `menu` with the engine's version as the text.                                       |
-| [**LoadTextFile**](Misc/LoadTextFile.md)                    | Loads `menu` based on the text file loaded from `filePath`.                                              |
-| [**Print**](Misc/Print.md)                                  | Prints a message or integer to the console.                                                              |
-| [**ReadSaveRAM**](Misc/ReadSaveRAM.md)                      | Reads the contents of the save file on disk into SaveRAM.                                                |
-| [**WriteSaveRAM**](Misc/WriteSaveRAM.md)                    | Writes the contents of SaveRAM to the save file on disk.                                                 |
+
+| Function                                                   | Description                                                                                              |
+| ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| [**CallNativeFunction**](Misc/CallNativeFunction/index.md) | Sends a callback to the engine to run a native function.                                                 |
+| [**CheckTouchRect**](Misc/CheckTouchRect.md)               | Checks if there's a touch input between the given coordinates.                                           |
+| [**CallFunction**](Misc/CallFunction.md)                   | Calls the given object function.                                                                         |
+| [**SetupMenu**](Misc/SetupMenu.md)                         | Sets up `menu` with `rowCount` rows, `selectionCount` active selections and aligning set to `alignment`. |
+| [**AddMenuEntry**](Misc/AddMenuEntry.md)                   | Adds an entry to `menu` with the contents of `text`.                                                     |
+| [**EditMenuEntry**](Misc/EditMenuEntry.md)                 | Edits an entry of `menu` with the contents of `text` in `rowID`.                                         |
+| [**DrawMenu**](Misc/DrawMenu.md)                           | Draws `menu` at `xpos` and `ypos` relative to the screen.                                                |
+| [**GetTextInfo**](Misc/GetTextInfo.md)                     | Gets the data of `type` from `menu` using `index` and stores it in `store`.                              |
+| [**GetVersionNumber**](Misc/GetVersionNumber.md)           | Adds a text entry to `menu` with the engine's version as the text.                                       |
+| [**LoadTextFile**](Misc/LoadTextFile.md)                   | Loads `menu` based on the text file loaded from `filePath`.                                              |
+| [**Print**](Misc/Print.md)                                 | Prints a message or integer to the console.                                                              |
+| [**ReadSaveRAM**](Misc/ReadSaveRAM.md)                     | Reads the contents of the save file on disk into SaveRAM.                                                |
+| [**WriteSaveRAM**](Misc/WriteSaveRAM.md)                   | Writes the contents of SaveRAM to the save file on disk.                                                 |
 
 ## Input
+
 | Function                                                            | Description                                                                |
 | ------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | [**GetInputDeviceID**](Input/GetInputDeviceID.md)                   | Stores the ID of an input device in `store`. **RSDKv5U only.**             |
@@ -146,6 +155,7 @@
 | [**ResetInputSlotAssignments**](Input/ResetInputSlotAssignments.md) | Resets all input slot assignments. **RSDKv5U only.**                       |
 
 ## Deprecated
+
 | Function                                       | Description                                                  |
 | ---------------------------------------------- | ------------------------------------------------------------ |
 | [**LoadFontFile**](Deprecated/LoadFontFile.md) | Loads a bitmap font from `filePath` for use with text menus. |

@@ -1,11 +1,13 @@
 # PrintString
 
 !!! note
+
     This function only exists in REV02 and above.
 
 Prints a String variable to the console.
 
 ## Parameters
+
 `mode`
 
 :   The print mode of the message.
@@ -15,30 +17,33 @@ Prints a String variable to the console.
 :   The String variable to print.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 === "C"
 
-	``` c
-	RSDK.PrintString(int32 mode, String *message);
-	```
+    ``` c
+    RSDK.PrintString(int32 mode, String *message);
+    ```
 
 === "C++"
 
-	``` cpp
-	Dev::PrintString(PrintModes mode, String *message);
-	```
+    ``` cpp
+    Dev::PrintString(PrintModes mode, String *message);
+    ```
 
 ## Example
+
 === "C"
 
-	``` c
-	RSDK.PrintString(PRINT_NORMAL, &string);
-	```
+    ``` c
+    RSDK.PrintString(PRINT_NORMAL, &string);
+    ```
 
 === "C++"
 
-	``` cpp
-	Dev::PrintString(Dev::PRINT_NORMAL, &string);
-	```
+    ``` cpp
+    Dev::PrintString(Dev::PRINT_NORMAL, &string);
+    ```

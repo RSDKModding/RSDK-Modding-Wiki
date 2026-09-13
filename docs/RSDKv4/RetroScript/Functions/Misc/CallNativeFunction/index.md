@@ -10,6 +10,7 @@ There are three versions of the function that can be used depending on the amoun
 In order to call a native function by name, a global variable named after the function must be added to the GameConfig. Once added, the engine will automatically set the value of the global variable to the ID of the native function.
 
 ## Parameters
+
 `callback`
 
 :   The index value of the callback.
@@ -19,26 +20,33 @@ In order to call a native function by name, a global variable named after the fu
 :   Parameters to use for the callback.
 
 ## Return Value
+
 Depends on the callback used.
 
 ## Syntax
+
 ```
 CallNativeFunction(int callback)
 ```
+
 ```
 CallNativeFunction2(int callback, param1, param2)
 ```
+
 ```
 CallNativeFunction4(int callback, param1, param2, param3, param4)
 ```
 
 ## Examples
+
 ```
 CallNativeFunction(Disconnect2PVS)
 ```
+
 ```
 CallNativeFunction2(TransmitGlobal, "vs.randomValue", vs.randomValue)
 ```
+
 ```
 CallNativeFunction4(NotifyCallback, NOTIFY_STATS_ENEMY, StageStatsUsabilityParam1, StageStatsUsabilityParam2, StageStatsUsabilityParam3)
 ```
@@ -46,29 +54,32 @@ CallNativeFunction4(NotifyCallback, NOTIFY_STATS_ENEMY, StageStatsUsabilityParam
 ## Native Functions
 
 ### General
-| Function                                | Description                                                                                             |
-| --------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| [**SetAchievement**](SetAchievement.md) | Sets the status of the given achievement.                                                               |
-| [**SetLeaderboard**](SetLeaderboard.md) | Submits the given score to the given leaderboard.                                                       |
-| [**HapticEffect**](HapticEffect.md)     | Queues/Plays a haptic effect, if the engine build and device support it.                                |
-| [**Connect2PVS**](Connect2PVS.md)       | Opens the menu for connecting to an opponent for 2P VS.                                                 |
-| [**Disconnect2PVS**](Disconnect2PVS.md) | Disconnects from a 2P VS game.                                                                          |
-| [**SendEntity**](SendEntity.md)         | Sends the data for an object to the opponent in 2P VS.                                                  |
-| [**SendValue**](SendValue.md)           | Sends a value to the opponent in 2P VS.                                                                 |
-| [**ReceiveEntity**](ReceiveEntity.md)   | Recieves an object sent from the opponent in 2P VS.                                                     |
-| [**ReceiveValue**](ReceiveValue.md)     | Sets a variable to a value sent from the opponent in 2P VS.                                             |
-| [**TransmitGlobal**](TransmitGlobal.md) | Sets a global variable for the opponent in 2P VS.                                                       |
-| [**ShowPromoPopup**](ShowPromoPopup.md) | Shows a promo popup.                                                                                    |
+
+| Function                                | Description                                                              |
+| --------------------------------------- | ------------------------------------------------------------------------ |
+| [**SetAchievement**](SetAchievement.md) | Sets the status of the given achievement.                                |
+| [**SetLeaderboard**](SetLeaderboard.md) | Submits the given score to the given leaderboard.                        |
+| [**HapticEffect**](HapticEffect.md)     | Queues/Plays a haptic effect, if the engine build and device support it. |
+| [**Connect2PVS**](Connect2PVS.md)       | Opens the menu for connecting to an opponent for 2P VS.                  |
+| [**Disconnect2PVS**](Disconnect2PVS.md) | Disconnects from a 2P VS game.                                           |
+| [**SendEntity**](SendEntity.md)         | Sends the data for an object to the opponent in 2P VS.                   |
+| [**SendValue**](SendValue.md)           | Sends a value to the opponent in 2P VS.                                  |
+| [**ReceiveEntity**](ReceiveEntity.md)   | Recieves an object sent from the opponent in 2P VS.                      |
+| [**ReceiveValue**](ReceiveValue.md)     | Sets a variable to a value sent from the opponent in 2P VS.              |
+| [**TransmitGlobal**](TransmitGlobal.md) | Sets a global variable for the opponent in 2P VS.                        |
+| [**ShowPromoPopup**](ShowPromoPopup.md) | Shows a promo popup.                                                     |
 
 ### Version Exclusive
-| Function                                                          | Version                              | Description                                                                                             |
-| ----------------------------------------------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------- |
-| [**NativePlayerWaitingAds**](NativePlayerWaitingAds.md)           | Sega Forever                         | Creates a `ReviveAds` native object, prompting the player to watch an ad after dying.                   |
-| [**NativeWaterPlayerWaitingAds**](NativeWaterPlayerWaitingAds.md) | Sega Forever                         | Creates a `ReviveAds` native object, prompting the player to watch an ad after drowning.                |
-| [**NotifyCallback**](NotifyCallback.md)                           | [Sonic Origins](/Games/SonicOrigins) | Sends the given callback to communicate to [Hedgehog Engine 2](/Games/SonicOrigins/HedgehogEngine2).    |
-| [**PlayVideo**](PlayVideo.md)                                     | Sega Classics                        | Loads and plays a video. **Not available in the decompilations.**                                       |
+
+| Function                                                          | Version                                                     | Description                                                                                                           |
+| ----------------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| [**NativePlayerWaitingAds**](NativePlayerWaitingAds.md)           | Sega Forever                                                | Creates a `ReviveAds` native object, prompting the player to watch an ad after dying.                                 |
+| [**NativeWaterPlayerWaitingAds**](NativeWaterPlayerWaitingAds.md) | Sega Forever                                                | Creates a `ReviveAds` native object, prompting the player to watch an ad after drowning.                              |
+| [**NotifyCallback**](NotifyCallback.md)                           | [Sonic Origins](../../../../../Games/SonicOrigins/index.md) | Sends the given callback to communicate to [Hedgehog Engine 2](../../../../../Games/SonicOrigins/HedgehogEngine2.md). |
+| [**PlayVideo**](PlayVideo.md)                                     | Sega Classics                                               | Loads and plays a video. **Not available in the decompilations.**                                                     |
 
 ### Decomp Only
+
 | Function                                                      | Description                                                                |
 | ------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | [**SetNetworkGameName**](SetNetworkGameName.md)               | Sets the name of the game to find 2P VS opponents for.                     |

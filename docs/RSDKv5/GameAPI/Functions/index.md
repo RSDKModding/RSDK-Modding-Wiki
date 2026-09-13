@@ -1,9 +1,11 @@
 # RSDKv5 Functions
 
 !!! note
+
     All functions' names and parameter lists are mainly written for the C API, but their usage differs in the C++ API. Refer to the Syntax and Example(s) sections of each page for how to use the functions in each language's API.
 
 ## Audio
+
 | Function                                                  | Description                                                                                                           |
 | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | [**GetSfx**](Audio/GetSfx.md)                             | Retrieves the ID of the given sound effect.                                                                           |
@@ -20,11 +22,13 @@
 | [**StopAllSfx**](Audio/StopAllSfx.md)                     | Stops all instances of all sound effects playing. **RSDKv5U only.**                                                   |
 
 ## SpriteSheets
+
 | Function                                               | Description                                   |
 | ------------------------------------------------------ | --------------------------------------------- |
 | [**LoadSpriteSheet**](SpriteSheets/LoadSpriteSheet.md) | Loads a spritesheet and returns the ID of it. |
 
 ## Graphics
+
 | Function                                                       | Description                                                                       |
 | -------------------------------------------------------------- | --------------------------------------------------------------------------------- |
 | [**LoadSpriteAnimation**](Graphics/LoadSpriteAnimation.md)     | Loads a SpriteAnimation and returns the ID of it.                                 |
@@ -40,12 +44,14 @@
 | [**ProcessAnimation**](Graphics/ProcessAnimation.md)           | Processes the animation applied to an animator.                                   |
 
 ## Debugging
+
 | Function                                                          | Description                                                            |
 | ----------------------------------------------------------------- | ---------------------------------------------------------------------- |
 | [**ClearViewableVariables**](Debugging/ClearViewableVariables.md) | Clears all loaded viewable variables.                                  |
 | [**AddViewableVariable**](Debugging/AddViewableVariable.md)       | Adds a viewable variable to the [Dev Menu](../../Overview/DevMenu.md). |
 
 ## Printing
+
 | Function                                     | Description                                  |
 | -------------------------------------------- | -------------------------------------------- |
 | [**PrintLog**](Printing/PrintLog.md)         | Prints a message to the console.             |
@@ -58,6 +64,7 @@
 | [**PrintHitbox**](Printing/PrintHitbox.md)   | Prints a Hitbox variable to the console.     |
 
 ## Objects & Entities
+
 | Function                                                        | Description                                                                                             |
 | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | [**RSDK_THIS**](Objects/RSDK_THIS.md)                           | Defines local pointer `self` pointing to `sceneInfo->entity` using the given object's entity struct.    |
@@ -83,6 +90,7 @@
 | [**destroyEntitySlot**](Objects/destroyEntitySlot.md)           | Clears the entity of the given slot's data.                                                             |
 
 ## Scene Management
+
 | Function                                           | Description                                                                                              |
 | -------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | [**SetScene**](Stages/SetScene.md)                 | Sets the scene category and list position to the matching scene entry in the GameConfig.                 |
@@ -93,19 +101,22 @@
 | [**LoadScene**](Stages/LoadScene.md)               | Loads a stage based on `SceneInfo->activeCategory` and `SceneInfo->listPos`.                             |
 
 ## Videos & Images
+
 | Function                             | Description                  |
 | ------------------------------------ | ---------------------------- |
 | [**LoadVideo**](Videos/LoadVideo.md) | Loads and plays a video.     |
 | [**LoadImage**](Videos/LoadImage.md) | Loads and displays an image. |
 
 ## Miscellaneous
-| Function                                           | Description                                                                                                                  |
-| -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| [**NotifyCallback**](Misc/NotifyCallback.md)       | Sends the given callback to communicate to [Hedgehog Engine 2](/Games/SonicOrigins/HedgehogEngine2). **Sonic Origins only.** |
-| [**HasNotifyCallback**](Misc/HasNotifyCallback.md) | Checks if the game has access to [NotifyCallback()](Misc/NotifyCallback.md). **Sonic Origins only.**                         |
-| [**SetGameFinished**](Misc/SetGameFinished.md)     | Notifies the engine that the game has been finished. **Sonic Origins only.**                                                 |
+
+| Function                                           | Description                                                                                                                             |
+| -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| [**NotifyCallback**](Misc/NotifyCallback.md)       | Sends the given callback to communicate to [Hedgehog Engine 2](../../../Games/SonicOrigins/HedgehogEngine2.md). **Sonic Origins only.** |
+| [**HasNotifyCallback**](Misc/HasNotifyCallback.md) | Checks if the game has access to [NotifyCallback()](Misc/NotifyCallback.md). **Sonic Origins only.**                                    |
+| [**SetGameFinished**](Misc/SetGameFinished.md)     | Notifies the engine that the game has been finished. **Sonic Origins only.**                                                            |
 
 ## Editor
+
 | Function                                                   | Description                                                                                        |
 | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | [**RSDK_EDITABLE_VAR**](Editor/RSDK_EDITABLE_VAR.md)       | Sets a variable from the given object's entity struct to be editable in an editor.                 |

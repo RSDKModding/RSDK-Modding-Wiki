@@ -3,33 +3,35 @@
 settings.ini is the configuration file for the [RSDKv2 Decompilation](index.md). This page lists all of the available options.
 
 !!! note
+
     When editing the file, make sure that the decompilation is not running. If it is, any changes made to the file will be reverted when closing the decomp.
 
 ## Dev
-| Setting Name         | Description                                                                                                        | Value Type | Default Value |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------ | ---------- | ------------- |
-| **DevMenu**          | Determines if the [Default Menu] is enabled.                                                                       | Boolean    | `false`       |
-| **EngineDebugMode**  | When enabled, writes all log output to a file named `log.txt`.                                                     | Boolean    | `false`       |
-| **StartingCategory** | The stage category to start the game with.                                                                         | Integer    | `255`         |
-| **StartingScene**    | The scene ID to start the game with.                                                                               | Integer    | `255`         |
-| **FastForwardSpeed** | The amount the game speed will be multiplied by while [Default Menu] fast-forwarding is active.                    | Integer    | `8`           |
-| **DataFile**         | The filename of the datapack to load.                                                                              | String     | `Data.bin`    |
 
-  [Default Menu]: ../Overview/DefaultMenu.md
+| Setting Name         | Description                                                                                     | Value Type | Default Value |
+| -------------------- | ----------------------------------------------------------------------------------------------- | ---------- | ------------- |
+| **DevMenu**          | Determines if the [Default Menu] is enabled.                                                    | Boolean    | `false`       |
+| **EngineDebugMode**  | When enabled, writes all log output to a file named `log.txt`.                                  | Boolean    | `false`       |
+| **StartingCategory** | The stage category to start the game with.                                                      | Integer    | `255`         |
+| **StartingScene**    | The scene ID to start the game with.                                                            | Integer    | `255`         |
+| **FastForwardSpeed** | The amount the game speed will be multiplied by while [Default Menu] fast-forwarding is active. | Integer    | `8`           |
+| **DataFile**         | The filename of the datapack to load.                                                           | String     | `Data.bin`    |
 
 ## Window
-| Setting Name         | Description                                                                                                         | Value Type                                  | Default Value |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- | ------------- |
-| **FullScreen**       | Determines if the game will be in fullscreen.                                                                       | Boolean                                     | `false`       |
-| **Borderless**       | Determines if the game window will be borderless.                                                                   | Boolean                                     | `false`       |
-| **VSync**            | Determines if VSync will be active. **Not recommended with refresh rates above 60 Hz.**                             | Boolean                                     | `false`       |
-| **EnhancedScaling**  | Determines if Enhanced Scaling is enabled. Only affects non-multiple resolutions.                                   | Boolean                                     | `false`       |
-| **WindowScale**      | The multiplier of the scale of the window.                                                                          | Integer                                     | `2`           |
-| **ScreenWidth**      | The width of the game's base screen. This does not account for the window scale.                                    | Integer                                     | `320`         |
-| **RefreshRate**      | The refresh rate used.                                                                                              | Integer                                     | `60`          |
-| **ColourMode**       | Determines the mode used for colour output.                                                                         | Integer (See [Colour Modes](#colour-modes)) | `0`           |
+
+| Setting Name        | Description                                                                             | Value Type                                  | Default Value |
+| ------------------- | --------------------------------------------------------------------------------------- | ------------------------------------------- | ------------- |
+| **FullScreen**      | Determines if the game will be in fullscreen.                                           | Boolean                                     | `false`       |
+| **Borderless**      | Determines if the game window will be borderless.                                       | Boolean                                     | `false`       |
+| **VSync**           | Determines if VSync will be active. **Not recommended with refresh rates above 60 Hz.** | Boolean                                     | `false`       |
+| **EnhancedScaling** | Determines if Enhanced Scaling is enabled. Only affects non-multiple resolutions.       | Boolean                                     | `false`       |
+| **WindowScale**     | The multiplier of the scale of the window.                                              | Integer                                     | `2`           |
+| **ScreenWidth**     | The width of the game's base screen. This does not account for the window scale.        | Integer                                     | `320`         |
+| **RefreshRate**     | The refresh rate used.                                                                  | Integer                                     | `60`          |
+| **ColourMode**      | Determines the mode used for colour output.                                             | Integer (See [Colour Modes](#colour-modes)) | `0`           |
 
 ### Colour Modes
+
 | Setting Value | Colour Mode |
 | ------------- | ----------- |
 | **0**         | 8-bit       |
@@ -37,6 +39,7 @@ settings.ini is the configuration file for the [RSDKv2 Decompilation](index.md).
 | **2**         | 32-bit      |
 
 ## Audio
+
 | Setting Name  | Description                                                   | Value Type | Default Value |
 | ------------- | ------------------------------------------------------------- | ---------- | ------------- |
 | **BGMVolume** | The volume of background music. Range is from `0.0` to `1.0`. | Float      | `1.000000`    |
@@ -45,6 +48,7 @@ settings.ini is the configuration file for the [RSDKv2 Decompilation](index.md).
 ## Keyboard 1
 
 !!! note
+
     Despite what the name of this category may imply, RSDKv2 does not support more than one player.
 
 All settings for this category take an integer value based on SDL's Scancodes. See [this lookup table](https://wiki.libsdl.org/SDL2/SDL_Scancode) for a list of usable keys and their corresponding decimal values.
@@ -63,6 +67,7 @@ All settings for this category take an integer value based on SDL's Scancodes. S
 ## Controller 1
 
 !!! note
+
     Despite what the name of this category may imply, RSDKv2 does not support more than one player.
 
 These controller mapping settings take integer values. See [Controller Buttons](#controller-buttons) for a list of buttons and their corresponding IDs.
@@ -79,6 +84,7 @@ These controller mapping settings take integer values. See [Controller Buttons](
 | **Start**    | `6` (Start)        |
 
 ### Controller Buttons
+
 | Setting Value | Controller Button                                                                                                           |
 | ------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | **0**         | A                                                                                                                           |
@@ -112,3 +118,5 @@ These controller mapping settings take integer values. See [Controller Buttons](
 | **29**        | Right Stick Down                                                                                                            |
 | **30**        | Right Stick Left                                                                                                            |
 | **31**        | Right Stick Right                                                                                                           |
+
+[Default Menu]: ../Overview/DefaultMenu.md

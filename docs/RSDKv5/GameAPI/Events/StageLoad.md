@@ -3,30 +3,33 @@
 Called once per object class, once when the stage loads. Used for loading assets, and initalizing any static variables.
 
 ## Parameters
+
 None.
 
 ## Syntax
+
 === "C"
 
-	``` c
-	void StageLoad();
-	```
+    ``` c
+    void StageLoad();
+    ```
 
 === "C++"
 
-	``` cpp
-	static void StageLoad();
-	```
+    ``` cpp
+    static void StageLoad();
+    ```
 
 ## Examples
+
 === "C"
 
-	``` c
-	void MyObject_StageLoad() { }
-	```
+    ``` c
+    void MyObject_StageLoad() { }
+    ```
 
 === "C++"
 
-	``` cpp
-	void MyObject::StageLoad() { }
-	```
+    ``` cpp
+    void MyObject::StageLoad() { }
+    ```

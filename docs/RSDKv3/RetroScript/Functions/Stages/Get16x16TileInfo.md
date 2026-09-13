@@ -3,6 +3,7 @@
 Gets the value for `InfoTile` from the tile at `TileX`, `TileY` and stores it in `Store`.
 
 ## Parameters
+
 `Store`
 
 :   The variable that will store the tile's specified `InfoType` data.
@@ -30,14 +31,17 @@ Gets the value for `InfoTile` from the tile at `TileX`, `TileY` and stores it in
 :   - 8 (`TILEINFO_ANGLEB`)
 
 ## Return Value
+
 Sets `store` to the chunk ID.
 
 ## Syntax
+
 ```
 Get16x16TileInfo(var Store, int TileX, int TileY, int InfoType)
 ```
 
 ## Example
+
 ```
 Get16x16TileInfo(Object.Value2, 25, 24, 8)
 ```

@@ -5,7 +5,7 @@ search:
 
 # Sus
 
-![The Sus animation viewed in RetroED](/assets/images/RetroED/AnimationEditor-Sus.png){ align=right , width="50%" }
+![The Sus animation viewed in RetroED](../../../assets/images/RetroED/AnimationEditor-Sus.png){ align=right , width="50%" }
 
 Sus is an animation located in the unused animation file `3K_LBZ/ExplodingTrigger.bin` in [Sonic 3 & Knuckles](../index.md). The animation contains one frame, that being the Door Trigger sprite, and is the only animation in the file.
 

@@ -3,6 +3,7 @@
 Sets `objectPos` in drawList `layer` to `value`.
 
 ## Parameters
+
 `value`
 
 :   The new value for `objectPos`.
@@ -16,14 +17,17 @@ Sets `objectPos` in drawList `layer` to `value`.
 :   The position of the object to add.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 ```
 SetDrawListEntityRef(int value, int layer, int objectPos)
 ```
 
 ## Example
+
 ```
 SetDrawListEntityRef(object.value0, 4, object.entityPos)
 ```

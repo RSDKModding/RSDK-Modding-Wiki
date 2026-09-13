@@ -1,11 +1,12 @@
 # NotifyCallback
 
-NotifyCallback is a function in [Sonic Origins](../index.md) that handles communicating between [RSDKv5U](/RSDKv5) and [Hedgehog Engine 2](../HedgehogEngine2.md).
+NotifyCallback is a function in [Sonic Origins](../index.md) that handles communicating between [RSDKv5U](../../../RSDKv5/index.md) and [Hedgehog Engine 2](../HedgehogEngine2.md).
 
 ## Usage
+
 === "v3"
 
-    Set `game.callbackParam0`, `game.callbackParam1`, and `game.callbackParam2` to the needed parameters (unused parameters do not need to be set), then call [EngineCallback()](/RSDKv3/RetroScript/Functions/Misc/EngineCallback) with `Callback` set to the [appropriate callback ID](#callbacks).
+    Set `game.callbackParam0`, `game.callbackParam1`, and `game.callbackParam2` to the needed parameters (unused parameters do not need to be set), then call [EngineCallback()](../../../RSDKv3/RetroScript/Functions/Misc/EngineCallback.md) with `Callback` set to the [appropriate callback ID](#callbacks).
 
     ``` title="Examples"
     EngineCallback(NOTIFY_TOUCH_SIGNPOST)
@@ -17,11 +18,12 @@ NotifyCallback is a function in [Sonic Origins](../index.md) that handles commun
     ```
 
     !!! note
+
         The names of each callback are not defined by the engine itself. Instead, the names and their corresponding IDs are defined as global variables in Sonic CD's GameConfig.
 
 === "v4"
 
-    Call [CallNativeFunction2() or CallNativeFunction4()](/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction) (depending on the amount of parameters needed) with `callback` set to [NotifyCallback](/RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/NotifyCallback) and `param1` set to the [appropriate callback ID](#callbacks). Set `param2`, `param3`, and `param4` to the needed parameters. Unused parameters should be set to `0`.
+    Call [CallNativeFunction2() or CallNativeFunction4()](../../../RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/index.md) (depending on the amount of parameters needed) with `callback` set to [NotifyCallback](../../../RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/NotifyCallback.md) and `param1` set to the [appropriate callback ID](#callbacks). Set `param2`, `param3`, and `param4` to the needed parameters. Unused parameters should be set to `0`.
 
     ``` title="Examples"
     CallNativeFunction2(NotifyCallback, NOTIFY_TOUCH_SIGNPOST, 0)
@@ -29,11 +31,12 @@ NotifyCallback is a function in [Sonic Origins](../index.md) that handles commun
     ```
 
     !!! note
+
         The names of each callback are not defined by the engine itself. Instead, the names and their corresponding IDs are defined as global variables in Sonic 1 and 2's GameConfigs.
 
 === "v5"
 
-    Call [NotifyCallback()](/RSDKv5/GameAPI/Functions/Misc/NotifyCallback) with `callback` set to the [appropriate callback ID](#callbacks) and `param1`, `param2`, and `param3` set to the needed parameters. Unused parameters should be set to `0`.
+    Call [NotifyCallback()](../../../RSDKv5/GameAPI/Functions/Misc/NotifyCallback.md) with `callback` set to the [appropriate callback ID](#callbacks) and `param1`, `param2`, and `param3` set to the needed parameters. Unused parameters should be set to `0`.
 
     ``` c++ title="Examples"
     NotifyCallback(NOTIFY_TOUCH_SIGNPOST, 0, 0, 0);
@@ -46,17 +49,17 @@ NotifyCallback is a function in [Sonic Origins](../index.md) that handles commun
 
 Notifies of a Player death.
 
-*No parameters*
+_No parameters_
 
 ### ID 129 - NOTIFY_TOUCH_SIGNPOST { id="notify-touch-signpost" }
 
 Notifies when a Sign Post has been touched.
 
-*No parameters*
+_No parameters_
 
 ### ID 130 - NOTIFY_HUD_ENABLE { id="notify-hud-enable" }
 
-Seemingly has no effect. Presumably replaced with the `game.hudEnable` global variable. 
+Seemingly has no effect. Presumably replaced with the `game.hudEnable` global variable.
 
 ### ID 131 - NOTIFY_ADD_COIN { id="notify-add-coin" }
 
@@ -75,13 +78,14 @@ Notifies that an enemy has been killed.
 :   The attribute (method) an enemy was killed with, if relevant to a mission being played.
 
 #### Kill Enemy Attributes
-  - `0` - KILL_ENEMY_ATTR_DEFAULT
-  - `1` - KILL_ENEMY_ATTR_ANIMALPRISON
-  - `2` - KILL_ENEMY_ATTR_SPINDASH
-  - `3` - KILL_ENEMY_ATTR_GLIDING
-  - `4` - KILL_ENEMY_ATTR_RINGVACUUM (Lightning Shield)
-  - `5` - KILL_ENEMY_ATTR_BALLOON
-  - `6` - KILL_ENEMY_ATTR_FIREDASH (Fire Shield)
+
+- `0` - KILL_ENEMY_ATTR_DEFAULT
+- `1` - KILL_ENEMY_ATTR_ANIMALPRISON
+- `2` - KILL_ENEMY_ATTR_SPINDASH
+- `3` - KILL_ENEMY_ATTR_GLIDING
+- `4` - KILL_ENEMY_ATTR_RINGVACUUM (Lightning Shield)
+- `5` - KILL_ENEMY_ATTR_BALLOON
+- `6` - KILL_ENEMY_ATTR_FIREDASH (Fire Shield)
 
 ### ID 133 - NOTIFY_SAVESLOT_SELECT { id="notify-saveslot-select" }
 
@@ -127,13 +131,13 @@ Has no effect in-game, but would have likely printed the given values to the con
 
 Notifies that a boss has been defeated.
 
-*No parameters*
+_No parameters_
 
 ### ID 140 - NOTIFY_TOUCH_EMERALD { id="notify-touch-emerald" }
 
 Notifies that a Chaos/Super Emerald or Time Stone has been collected. This callback is typically ran when the emerald jingle plays.
 
-*No parameters*
+_No parameters_
 
 ### ID 141 - NOTIFY_STATS_ENEMY { id="notify-stats-enemy" }
 
@@ -204,7 +208,7 @@ Reports statistics tied to achievements and Museum unlocks.
 
 Notifies that all Chaos Emeralds or Time Stones have been collected. Note that this does not include the Super Emeralds in Sonic 3 & Knuckles.
 
-*No parameters*
+_No parameters_
 
 ### ID 147 - NOTIFY_CHARACTER_SELECT { id="notify-character-select" }
 
@@ -234,7 +238,7 @@ Opens the Special Stage retry screen. If the player chooses not to, `game.callba
 
 Notifies when a Lamp Post or Star Post has been touched.
 
-*No parameters*
+_No parameters_
 
 ### ID 150 - NOTIFY_ACT_FINISH { id="notify-act-finish" }
 
@@ -256,7 +260,7 @@ It's not entirely clear what this callback is for, but it seems to be related to
 
 Opens the controller setup screen in the Nintendo Switch version of the game. If not on the Nintendo Switch or there is only one controller connected when the screen is closed, `game.callbackResult` is set to `0`; otherwise, it's set to `1`.
 
-*No parameters*
+_No parameters_
 
 ### ID 153 - NOTIFY_STAGE_RETRY { id="notify-stage-retry" }
 
@@ -282,7 +286,7 @@ Reports the new soundtrack setting selected.
 
 Notifies that a good ending has been achieved.
 
-*No parameters*
+_No parameters_
 
 ### ID 156 - NOTIFY_BACK_TO_MAINMENU { id="notify-back-to-mainmenu" }
 
@@ -351,6 +355,7 @@ Reports whether the player is in the Time Attack menu.
 ### ID 163 - NOTIFY_STATS_BREAK_OBJECT { id="notify-stats-break-object" }
 
 !!! note
+
     This callback was added in version 2.0.0.
 
 Reports statistics related to stage objects.
@@ -363,18 +368,20 @@ Reports statistics related to stage objects.
 
 :   The character ID. Note that Amy uses ID `3` for this rather than `5`.
 
-### ID 164 - NOTIFY_STATS_SAVE_FUTURE { id="notify-stats-break-object" }
+### ID 164 - NOTIFY_STATS_SAVE_FUTURE { id="notify-stats-save-future" }
 
 !!! note
+
     This callback was added in version 2.0.0.
 
 Notifies that the player made a good future in an act.
 
-*No parameters*
+_No parameters_
 
 ### ID 165 - NOTIFY_STATS_CHARA_ACTION2 { id="notify-stats-chara-action2" }
 
 !!! note
+
     This callback was added in version 2.0.0.
 
 Reports statistics related to player characters.
@@ -419,10 +426,10 @@ Unknown callback.
 
 Notifies that the title card is being displayed.
 
-*No parameters*
+_No parameters_
 
 ### ID 1007 - NOTIFY_1007 { id="notify-1007" }
 
 Displays an error message for trying to access a save file with DLC content without said DLC installed.
 
-*No parameters*
+_No parameters_

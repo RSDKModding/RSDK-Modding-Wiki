@@ -1,11 +1,13 @@
 # GetFilteredInputDeviceID
 
 !!! note
+
     This function only exists in RSDKv5U.
 
 Stores the filtered ID of an input device in `store`.
 
 ## Parameters
+
 `store`
 
 :   The variable to store the device ID in.
@@ -23,14 +25,17 @@ Stores the filtered ID of an input device in `store`.
 :   The maximum inactive timer to check for.
 
 ## Return Value
+
 Sets `store` to player `inputSlot`'s input device ID.
 
 ## Syntax
+
 ```
 GetFilteredInputDeviceID(var store, bool confirmOnly, bool unassignedOnly, int maxInactiveTimer)
 ```
 
 ## Example
+
 ```
 GetFilteredInputDeviceID(arrayPos0, false, false, -1)
 ```

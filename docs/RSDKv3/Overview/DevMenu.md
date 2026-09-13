@@ -1,10 +1,11 @@
 # Dev Menu
 
-![Dev Menu](/assets/images/SonicCD/DevMenu/MainMenu-Blit.png){ align=right , width="30%" }
+![Dev Menu](../../assets/images/SonicCD/DevMenu/MainMenu-Blit.png){ align=right , width="30%" }
 
 The Dev Menu is a debug menu included with [RSDKv3](../index.md), disabled by default. The menu includes several features useful for debugging games in the engine.
 
 ## Enabling
+
 === "Blit"
 
     The Dev Menu can be enabled by editing the game's `GameConfig.bin` file to set the default value of the `Options.DevMenuFlag` global variable to 1 (`true`).

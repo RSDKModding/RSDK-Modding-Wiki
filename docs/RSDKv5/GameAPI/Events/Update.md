@@ -3,30 +3,33 @@
 Called once every frame per entity if Entity::active allows for it.
 
 ## Parameters
+
 None.
 
 ## Syntax
+
 === "C"
 
-	``` c
-	void Update();
-	```
+    ``` c
+    void Update();
+    ```
 
 === "C++"
 
-	``` cpp
-	void Update();
-	```
+    ``` cpp
+    void Update();
+    ```
 
 ## Examples
+
 === "C"
 
-	``` c
-	void MyObject_Update() { }
-	```
+    ``` c
+    void MyObject_Update() { }
+    ```
 
 === "C++"
 
-	``` cpp
-	void MyObject::Update() { }
-	```
+    ``` cpp
+    void MyObject::Update() { }
+    ```

@@ -3,6 +3,7 @@
 Loads a palette into `PalBank` starting from `StartPalIndex`, with an offset of `StartIndex` and reading all colors through to `EndIndex`.
 
 ## Parameters
+
 `Path`
 
 :   The path to the palette file, relative to `Data/Palettes/`.
@@ -24,14 +25,17 @@ Loads a palette into `PalBank` starting from `StartPalIndex`, with an offset of 
 :   The ending index of the palette bank from which the loaded palette will overwrite.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 ```
 LoadPalette(string Path, int PalBank, int StartPalIndex, int StartIndex, int EndIndex)
 ```
 
 ## Example
+
 ```
 LoadPalette("MasterPalette.act", 2, 16, 24, 32)
 ```

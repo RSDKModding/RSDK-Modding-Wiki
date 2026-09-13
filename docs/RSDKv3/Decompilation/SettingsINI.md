@@ -3,9 +3,11 @@
 settings.ini is the configuration file for the [RSDKv3 Decompilation](index.md). This page lists all of the available options.
 
 !!! note
+
     When editing the file, make sure that the decompilation is not running. If it is, any changes made to the file will be reverted when closing the decomp.
 
 ## Dev
+
 | Setting Name         | Description                                                                                                        | Value Type | Default Value |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------ | ---------- | ------------- |
 | **DevMenu**          | Determines if the [Dev Menu] is enabled.                                                                           | Boolean    | `false`       |
@@ -18,9 +20,8 @@ settings.ini is the configuration file for the [RSDKv3 Decompilation](index.md).
 | **UseHQModes**       | When enabled, rendering for things such as the 3D Floors in Special Stages will use High Quality Mode.             | Boolean    | `true`        |
 | **DataFile**         | The filename of the datapack to load.                                                                              | String     | `Data.rsdk`   |
 
-  [Dev Menu]: ../Overview/DevMenu.md
-
 ## Game
+
 | Setting Name             | Description                                                                    | Value Type                                                            | Default Value                         |
 | ------------------------ | ------------------------------------------------------------------------------ | --------------------------------------------------------------------- | ------------------------------------- |
 | **Language**             | The language the game will use.                                                | Integer (See [Languages](#languages))                                 | `0`                                   |
@@ -30,9 +31,8 @@ settings.ini is the configuration file for the [RSDKv3 Decompilation](index.md).
 | **DisableFocusPause**    | The pausing behavior when focus is lost.                                       | Integer (See [DisableFocusPause Options](#disablefocuspause-options)) | `0`                                   |
 | **Platform**             | The platform type that the scripts will use. `0` for standard, `1` for mobile. | Integer                                                               | `1` on mobile, `0` on other platforms |
 
-[^1]: This is achieved by not drawing sprites using the spritesheet `Global/DPad.gif` and not running the [ObjectDraw](../RetroScript/Subs/#objectdraw) sub for objects named `TouchControls` while in the Special stage list.
-
 ### Languages
+
 | Setting Value | Language |
 | ------------- | -------- |
 | **0**         | English  |
@@ -43,6 +43,7 @@ settings.ini is the configuration file for the [RSDKv3 Decompilation](index.md).
 | **5**         | Japanese |
 
 ### OriginalControls Options
+
 | Setting Value | Option               |
 | ------------- | -------------------- |
 | **-1**        | Let save file decide |
@@ -50,6 +51,7 @@ settings.ini is the configuration file for the [RSDKv3 Decompilation](index.md).
 | **1**         | Original             |
 
 ### DisableFocusPause Options
+
 | Setting Value | Option                                     |
 | ------------- | ------------------------------------------ |
 | **0**         | Game focus enabled, engine focus enabled   |
@@ -57,6 +59,7 @@ settings.ini is the configuration file for the [RSDKv3 Decompilation](index.md).
 | **2**         | Game focus disabled, engine focus disabled |
 
 ## Window
+
 | Setting Name         | Description                                                                                                         | Value Type | Default Value |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------- | ---------- | ------------- |
 | **FullScreen**       | Determines if the game will be in fullscreen.                                                                       | Boolean    | `false`       |
@@ -70,6 +73,7 @@ settings.ini is the configuration file for the [RSDKv3 Decompilation](index.md).
 | **HardwareRenderer** | When enabled, use the mobile version's Hardware Renderer instead of the other versions' Software Renderer.          | Boolean    | `false`       |
 
 ## Audio
+
 | Setting Name  | Description                                                   | Value Type | Default Value |
 | ------------- | ------------------------------------------------------------- | ---------- | ------------- |
 | **BGMVolume** | The volume of background music. Range is from `0.0` to `1.0`. | Float      | `1.000000`    |
@@ -78,6 +82,7 @@ settings.ini is the configuration file for the [RSDKv3 Decompilation](index.md).
 ## Keyboard 1
 
 !!! note
+
     Despite what the name of this category may imply, RSDKv3 does not support more than one player.
 
 All settings for this category take an integer value based on SDL's Scancodes. See [this lookup table](https://wiki.libsdl.org/SDL2/SDL_Scancode) for a list of usable keys and their corresponding decimal values.
@@ -96,6 +101,7 @@ All settings for this category take an integer value based on SDL's Scancodes. S
 ## Controller 1
 
 !!! note
+
     Despite what the name of this category may imply, RSDKv3 does not support more than one player.
 
 These controller mapping settings take integer values. See [Controller Buttons](#controller-buttons) for a list of buttons and their corresponding IDs.
@@ -121,6 +127,7 @@ These deadzone settings take floats values. Range is from `0.0` to `1.0`.
 | **RTriggerDeadzone** | `0.300000`    |
 
 ### Controller Buttons
+
 | Setting Value | Controller Button                                                                                                           |
 | ------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | **0**         | A                                                                                                                           |
@@ -154,3 +161,7 @@ These deadzone settings take floats values. Range is from `0.0` to `1.0`.
 | **29**        | Right Stick Down                                                                                                            |
 | **30**        | Right Stick Left                                                                                                            |
 | **31**        | Right Stick Right                                                                                                           |
+
+[^1]: This is achieved by not drawing sprites using the spritesheet `Global/DPad.gif` and not running the [ObjectDraw](../RetroScript/Subs.md#objectdraw) sub for objects named `TouchControls` while in the Special stage list.
+
+[Dev Menu]: ../Overview/DevMenu.md

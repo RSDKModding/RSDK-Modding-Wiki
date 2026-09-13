@@ -3,6 +3,7 @@
 Sets the properties of `drawGroup`.
 
 ## Parameters
+
 `drawGroup`
 
 :   The draw group to set the properties of.
@@ -16,9 +17,11 @@ Sets the properties of `drawGroup`.
 :   If set to a void function, it will be called before the drawGroup is drawn.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 === "C"
 
 	``` c
@@ -32,11 +35,13 @@ None.
 	```
 
 ## Examples
+
 === "C"
 
 	``` c
 	RSDK.SetDrawGroupProperties(6, false, NULL);
 	```
+
 	``` c
 	RSDK.SetDrawGroupProperties(3, true, MyObject_DrawGroupHookCB);
 	```
@@ -46,6 +51,7 @@ None.
 	``` cpp
 	Graphics::SetDrawGroupProperties(6, false, nullptr);
 	```
+
 	``` cpp
 	Graphics::SetDrawGroupProperties(3, true, MyObject::DrawGroupHookCB);
 	```

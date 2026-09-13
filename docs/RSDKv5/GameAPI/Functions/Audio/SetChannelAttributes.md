@@ -3,6 +3,7 @@
 Sets the volume, panning, and speed of the given channel to the given values.
 
 ## Parameters
+
 `channel`
 
 :   The ID of the channel to set the values for.
@@ -20,30 +21,33 @@ Sets the volume, panning, and speed of the given channel to the given values.
 :   The speed of the channel. Only values above 0.0f are allowed, with 1.0f being normal speed.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 === "C"
 
-	``` c
-	RSDK.SetChannelAttributes(uint8 channel, float volume, float panning, float speed);
-	```
+    ``` c
+    RSDK.SetChannelAttributes(uint8 channel, float volume, float panning, float speed);
+    ```
 
 === "C++"
 
-	``` cpp
-	channels[uint8 channel].SetAttributes(float volume, float panning, float speed);
-	```
+    ``` cpp
+    channels[uint8 channel].SetAttributes(float volume, float panning, float speed);
+    ```
 
 ## Example
+
 === "C"
 
-	``` c
-	RSDK.SetChannelAttributes(0, 1.0f, 0.0f, 1.0f);
-	```
+    ``` c
+    RSDK.SetChannelAttributes(0, 1.0f, 0.0f, 1.0f);
+    ```
 
 === "C++"
 
-	``` cpp
-	channels[0].SetAttributes(1.0f, 0.0f, 1.0f);
-	```
+    ``` cpp
+    channels[0].SetAttributes(1.0f, 0.0f, 1.0f);
+    ```

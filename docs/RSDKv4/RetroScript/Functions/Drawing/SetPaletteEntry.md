@@ -3,6 +3,7 @@
 Sets the palette entry in `bank` at `index` to the value of `color`.
 
 ## Parameters
+
 `bank`
 
 :   Palette bank from where to get the entry. Valid range: 0-7.
@@ -16,14 +17,17 @@ Sets the palette entry in `bank` at `index` to the value of `color`.
 :   Color value, the format of the color being 0xRRGGBB.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 ```
 SetPaletteEntry(int bank, int index, int color)
 ```
 
 ## Example
+
 ```
 SetPaletteEntry(0, 134, 0xFF607F)
 ```

@@ -3,6 +3,7 @@
 Converts a string into a sprite string. Calling this function will replace each character with a frame index and prepare it for drawing.
 
 ## Parameters
+
 `aniFrames`
 
 :   The SpriteAnimation to use frames from.
@@ -16,9 +17,11 @@ Converts a string into a sprite string. Calling this function will replace each 
 :   The string to apply the frame indices to.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 === "C"
 
     ``` c
@@ -32,6 +35,7 @@ None.
     ```
 
 ## Example
+
 === "C"
 
     ``` c

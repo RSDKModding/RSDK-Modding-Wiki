@@ -20,72 +20,74 @@ TODO: Replace header with logo
 Welcome to the RSDK Modding Wiki, your one-stop shop for documentation, resources, and guides for Retro Engine modding!
 
 !!! warning
+
     This site is a heavy work-in-progress. Expect missing information and empty/placeholder pages. Everything is subject to change.
 
 ## Contents
 
 <div class="grid cards" markdown>
 
--   :rsdk-icon: __[Retro Engine](RSDK/index.md)__
+-   :rsdk-icon: **[Retro Engine](RSDK/index.md)**
 
     ---
 
     General information about the Retro Engine
 
--   :rsdk-icon-v5: __[Retro Engine v5](RSDKv5/index.md)__
+-   :rsdk-icon-v5: **[Retro Engine v5](RSDKv5/index.md)**
 
     ---
 
     Documentation for RSDKv5 and GameAPI
 
--   :rsdk-icon-v4: __[Retro Engine v4](RSDKv4/index.md)__
+-   :rsdk-icon-v4: **[Retro Engine v4](RSDKv4/index.md)**
 
     ---
 
     Documentation for RSDKv4 and RetroScript v4
 
--   :rsdk-icon-v3: __[Retro Engine v3](RSDKv3/index.md)__
+-   :rsdk-icon-v3: **[Retro Engine v3](RSDKv3/index.md)**
 
     ---
 
     Documentation for RSDKv3 and RetroScript v3
 
--   __[Retro Engine v2](RSDKv2/index.md)__
+-   **[Retro Engine v2](RSDKv2/index.md)**
 
     ---
 
     Documentation for RSDKv2 and RetroScript v2
 
--   __[Retro Engine v1](RSDKv1/index.md)__
+-   **[Retro Engine v1](RSDKv1/index.md)**
 
     ---
 
     Documentation for RSDKv1
 
--   :material-gamepad-variant: __[Games](Games/index.md)__
+-   :material-gamepad-variant: **[Games](Games/index.md)**
 
     ---
 
     Documentation for Retro Engine games
 
--   :material-wrench: __[Tools](Tools/index.md)__
+-   :material-wrench: **[Tools](Tools/index.md)**
 
     ---
 
     Tools and editors for Retro Engine modding
 
--   :fontawesome-solid-book-bookmark: __[Guides](Guides/index.md)__
+-   :fontawesome-solid-book-bookmark: **[Guides](Guides/index.md)**
 
     ---
 
     Guides and tutorials for Retro Engine modding
 <!-- 
--   :material-notebook: __[Blog](blog/index.md)__
+-   :material-notebook: **[Blog](blog/index.md)**
 
     ---
 
     News from the RSDKModding Team
 -->
+
 </div>
 
 ## Contributing

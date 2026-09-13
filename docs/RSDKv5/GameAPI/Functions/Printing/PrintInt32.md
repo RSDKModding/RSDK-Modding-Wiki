@@ -1,11 +1,13 @@
 # PrintInt32
 
 !!! note
+
     This function only exists in REV02 and above.
 
 Prints a signed integer to the console.
 
 ## Parameters
+
 `mode`
 
 :   The print mode of the message.
@@ -19,30 +21,33 @@ Prints a signed integer to the console.
 :   The signed integer to print.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 === "C"
 
-	``` c
-	RSDK.PrintInt32(int32 mode, const char *message, int32 integer);
-	```
+    ``` c
+    RSDK.PrintInt32(int32 mode, const char *message, int32 integer);
+    ```
 
 === "C++"
 
-	``` cpp
-	Dev::PrintInt32(PrintModes mode, const char *message, int32 integer);
-	```
+    ``` cpp
+    Dev::PrintInt32(PrintModes mode, const char *message, int32 integer);
+    ```
 
 ## Example
+
 === "C"
 
-	``` c
-	RSDK.PrintInt32(PRINT_NORMAL, "health", self->health);
-	```
+    ``` c
+    RSDK.PrintInt32(PRINT_NORMAL, "health", self->health);
+    ```
 
 === "C++"
 
-	``` cpp
-	Dev::PrintInt32(Dev::PRINT_NORMAL, "health", this->health);
-	```
+    ``` cpp
+    Dev::PrintInt32(Dev::PRINT_NORMAL, "health", this->health);
+    ```

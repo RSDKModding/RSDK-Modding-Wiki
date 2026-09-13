@@ -3,6 +3,7 @@
 Shows a promo popup.
 
 ## Parameters
+
 `popupName`
 
 :   The name of the promo popup.
@@ -12,14 +13,17 @@ Shows a promo popup.
 :   The ID of the promo popup.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 ```
 CallNativeFunction2(NativeFunction, string popupName, int id)
 ```
 
 ## Example
+
 ```
 CallNativeFunction2(NativeFunction, "My Popup", 0)
 ```

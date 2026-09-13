@@ -3,6 +3,7 @@
 Draws `Frame` at a specified X and Y position.
 
 ## Parameters
+
 `Frame`
 
 :   The ID of the SpriteFrame to draw.
@@ -16,14 +17,17 @@ Draws `Frame` at a specified X and Y position.
 :   The position of the sprite on the vertical axis in world-space.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 ```
 DrawSpriteXY(int Frame, int XPos, int YPos)
 ```
 
 ## Example
+
 ```
 DrawSpriteXY(0, Object.Value0, Object.YPos)
 ```

@@ -3,6 +3,7 @@
 Adds a screen fade effect based on the `r`, `g`, `b` and `alpha` values.
 
 ## Parameters
+
 `r`
 
 :   A value range of 0-255 for the color red.
@@ -20,14 +21,17 @@ Adds a screen fade effect based on the `r`, `g`, `b` and `alpha` values.
 :   A value range of 0-255 for transparency, 255 being no transparency.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 ```
 SetScreenFade(int r, int g, int b, int alpha)
 ```
 
 ## Example
+
 ```
 SetScreenFade(255, 255, 255, object.alpha)
 ```

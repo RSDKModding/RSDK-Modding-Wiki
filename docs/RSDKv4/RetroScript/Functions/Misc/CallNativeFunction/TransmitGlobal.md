@@ -3,6 +3,7 @@
 Sets a global variable for the opponent in 2P VS.
 
 ## Parameters
+
 `globalName`
 
 :   The name of the global variable to set.
@@ -12,14 +13,17 @@ Sets a global variable for the opponent in 2P VS.
 :   The value to send.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 ```
 CallNativeFunction2(TransmitGlobal, string globalName, int globalValue)
 ```
 
 ## Example
+
 ```
 CallNativeFunction2(TransmitGlobal, "vs.dataSent", true)
 ```

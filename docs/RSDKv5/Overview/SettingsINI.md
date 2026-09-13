@@ -10,6 +10,7 @@ Legend for the "Hidden?" columns:
 - :heavy_check_mark: - The setting is never written to the file and must be added manually. Keep in mind that setting names are case-sensitive.
 
 ## Game
+
 | Setting Name                  | Description                                                                                                                                                                                           | Hidden?                                         | Decomp Only?             | Value Type                            | Default Value |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | ------------------------ | ------------------------------------- | ------------- |
 | **dataFile**                  | The filename of the datapack to load.                                                                                                                                                                 | :heavy_check_mark:                              | :heavy_multiplication_x: | String                                | `Data.rsdk`   |
@@ -25,9 +26,8 @@ Legend for the "Hidden?" columns:
 | **gameType**                  | Determines if scripts will load Standalone (`0`) or Origins (`1`) code in legacy modes. **RSDKv5U only.**                                                                                             | :fontawesome-solid-floppy-disk:                 | :heavy_check_mark:       | Integer                               | `1`           |
 | **language**                  | The language the game will use.                                                                                                                                                                       | :heavy_multiplication_x:                        | :heavy_multiplication_x: | Integer (See [Languages](#languages)) | `0`           |
 
-  [Dev Menu]: ../Overview/DevMenu.md
-
 ### Regions
+
 | Setting Value | Region      |
 | ------------- | ----------- |
 | **-1**        | Auto-detect |
@@ -36,6 +36,7 @@ Legend for the "Hidden?" columns:
 | **2**         | EU          |
 
 ### Languages
+
 | Setting Value | Language              |
 | ------------- | --------------------- |
 | **0**         | English               |
@@ -49,6 +50,7 @@ Legend for the "Hidden?" columns:
 | **8**         | Chinese (Traditional) |
 
 ## Video
+
 | Setting Name        | Description                                                                                                         | Hidden?                         | Decomp Only?             | Value Type                                      | Default Value |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ------------------------ | ----------------------------------------------- | ------------- |
 | **windowed**        | Determines whether the game will be in fullscreen or windowed mode.                                                 | :heavy_multiplication_x:        | :heavy_multiplication_x: | Boolean                                         | `y`           |
@@ -66,9 +68,8 @@ Legend for the "Hidden?" columns:
 | **screenShader**    | The screen shader to use.                                                                                           | :heavy_multiplication_x:        | :heavy_multiplication_x: | Integer (See [Screen Shaders](#screen-shaders)) | `0`           |
 | **maxPixWidth**     | The maximum pixel width allowed. `-1` will disable the limit.                                                       | :heavy_multiplication_x:        | :heavy_check_mark:       | Integer                                         | `424`         |
 
-[^1]: Not hidden on the decompilation.
-
 ### Screen Shaders
+
 | Setting Value | Screen Shader |
 | ------------- | ------------- |
 | **0**         | None          |
@@ -77,17 +78,19 @@ Legend for the "Hidden?" columns:
 | **3**         | CRT-Soft      |
 
 ## Audio
-| Setting Name        | Description                                                   | Hidden?                  | Decomp Only?             | Value Type | Default Value |
-| ------------------- | ------------------------------------------------------------- | ------------------------ | ------------------------ | ---------- | ------------- |
-| **streamsEnabled**  | Determines whether background music is enabled.               | :heavy_multiplication_x: | :heavy_multiplication_x: | Boolean    | `y`           |
-| **streamVolume**    | The volume of background music. Range is from `0.0` to `1.0`. | :heavy_multiplication_x: | :heavy_multiplication_x: | Float      | `0.8`         |
-| **sfxVolume**       | The volume of sound effects. Range is from `0.0` to `1.0`.    | :heavy_multiplication_x: | :heavy_multiplication_x: | Float      | `1.0`         |
+
+| Setting Name       | Description                                                   | Hidden?                  | Decomp Only?             | Value Type | Default Value |
+| ------------------ | ------------------------------------------------------------- | ------------------------ | ------------------------ | ---------- | ------------- |
+| **streamsEnabled** | Determines whether background music is enabled.               | :heavy_multiplication_x: | :heavy_multiplication_x: | Boolean    | `y`           |
+| **streamVolume**   | The volume of background music. Range is from `0.0` to `1.0`. | :heavy_multiplication_x: | :heavy_multiplication_x: | Float      | `0.8`         |
+| **sfxVolume**      | The volume of sound effects. Range is from `0.0` to `1.0`.    | :heavy_multiplication_x: | :heavy_multiplication_x: | Float      | `1.0`         |
 
 ## Keyboard Map 1-4
 
 All settings for these categories take an integer value based on virtual-key codes. See [this table](https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes) for a list of usable keys and their corresponding values.
 
 !!! note
+
     Keyboard Map 3 and 4 have no default keyboard bindings.
 
 | Setting Name | Default Value (P1)   | Default Value (P2)           |
@@ -104,3 +107,7 @@ All settings for these categories take an integer value based on virtual-key cod
 | **buttonZ**  | `0x45` ( ++e++ )     | `0x0` (Unbound)              |
 | **start**    | `0xd` ( ++enter++ )  | `0xdb` ( ++bracket-left++ )  |
 | **select**   | `0x9` ( ++tab++ )    | `0xdd` ( ++bracket-right++ ) |
+
+[^1]: Not hidden on the decompilation.
+
+[Dev Menu]: ../Overview/DevMenu.md

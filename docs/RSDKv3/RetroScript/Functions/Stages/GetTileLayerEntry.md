@@ -3,6 +3,7 @@
 Gets the ID of the chunk at `ChunkX`, `ChunkY` in tile layer `Layer` and stores it in `Store`.
 
 ## Parameters
+
 `Store`
 
 :   The variable that will store the chunk.
@@ -20,14 +21,17 @@ Gets the ID of the chunk at `ChunkX`, `ChunkY` in tile layer `Layer` and stores 
 :   Position of the 128x128 chunk in the map on the vertical axis.
 
 ## Return Value
+
 Sets `store` to the chunk ID.
 
 ## Syntax
+
 ```
 GetTileLayerEntry(var Store, int Layer, int ChunkX, int ChunkY)
 ```
 
 ## Example
+
 ```
 GetTileLayerEntry(Object.Value2, 0, 24, 96)
 ```

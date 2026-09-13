@@ -1,10 +1,11 @@
 # Default Menu
 
-![Default Menu](/assets/images/SonicNexus/DefaultMenu/MainMenu-Windows.png){ align=right , width="30%" }
+![Default Menu](../../assets/images/SonicNexus/DefaultMenu/MainMenu-Windows.png){ align=right , width="30%" }
 
 The Default Menu is a debug menu included with [RSDKv2](../index.md), disabled by default. The menu includes several features useful for debugging games in the engine.
 
 ## Enabling
+
 The Default Menu can be enabled by using Data Folder Mode.
 
 In the [decompilation](../Decompilation/index.md), you can also set `DevMenu` to `true` in the settings.ini file, like so:

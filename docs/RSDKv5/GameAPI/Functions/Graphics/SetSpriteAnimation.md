@@ -3,6 +3,7 @@
 Applies a set of frames to an animator.
 
 ## Parameters
+
 `aniFrames`
 
 :   The SpriteAnimation to use frames from. IDs 0-1023 are valid; any other values will clear the existing SpriteFrames.
@@ -26,30 +27,33 @@ Applies a set of frames to an animator.
 :   The index of the frame to set to.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 === "C"
 
-	``` c
-	RSDK.SetSpriteAnimation(uint16 aniFrames, uint16 listID, Animator *animator, bool32 forceApply, int32 frameID);
-	```
+    ``` c
+    RSDK.SetSpriteAnimation(uint16 aniFrames, uint16 listID, Animator *animator, bool32 forceApply, int32 frameID);
+    ```
 
 === "C++"
 
-	``` cpp
-	animator.SetAnimation(SpriteAnimation aniFrames, uint16 listID, bool32 forceApply, int32 frameID);
-	```
+    ``` cpp
+    animator.SetAnimation(SpriteAnimation aniFrames, uint16 listID, bool32 forceApply, int32 frameID);
+    ```
 
 ## Example
+
 === "C"
 
-	``` c
-	RSDK.SetSpriteAnimation(MyObject->aniFrames, 0, &self->animator, true, 0);
-	```
+    ``` c
+    RSDK.SetSpriteAnimation(MyObject->aniFrames, 0, &self->animator, true, 0);
+    ```
 
 === "C++"
 
-	``` cpp
-	this->animator.SetAnimation(sVars->aniFrames, 0, true, 0);
-	```
+    ``` cpp
+    this->animator.SetAnimation(sVars->aniFrames, 0, true, 0);
+    ```

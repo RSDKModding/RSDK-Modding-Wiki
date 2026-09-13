@@ -3,27 +3,33 @@
 Sends a callback to the engine.
 
 !!! note
+
     The names of each callback are not defined by the engine itself; they must be manually defined as aliases or global variables.
 
 ## Parameters
+
 `Callback`
 
 :   The index value of the callback.
 
 ## Return Value
+
 Depends on the callback used.
 
 ## Syntax
+
 ```
 EngineCallback(int Callback)
 ```
 
 ## Example
+
 ```
 EngineCallback(CALLBACK_FINISHGAME_NOTIFY)
 ```
 
 ## Callbacks
+
 | ID   | Callback                                      | Description                                                                                                                                                                                                                                  |
 | ---- | --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 0    | **CALLBACK_DISPLAYLOGOS**                     | In the Blit releases of Sonic CD, displays the splash screens.                                                                                                                                                                               |
@@ -75,4 +81,4 @@ EngineCallback(CALLBACK_FINISHGAME_NOTIFY)
 | 4097 | **CALLBACK_SET1P**                            | Sets `activePlayerCount` to `1`. **Decomp only.**                                                                                                                                                                                            |
 | 4098 | **CALLBACK_SET2P**                            | Sets `activePlayerCount` to `2`. **Decomp only.**                                                                                                                                                                                            |
 
-In Sonic Origins, you can also call NotifyCallback callbacks with this function. For more information, including a list of usable callbacks, see [this page](/Games/SonicOrigins/Documentation/NotifyCallback).
+In Sonic Origins, you can also call NotifyCallback callbacks with this function. For more information, including a list of usable callbacks, see [this page](../../../../Games/SonicOrigins/Documentation/NotifyCallback.md).

@@ -3,6 +3,7 @@
 Sets the value for `infoType` from the tile at `tileX`, `tileY` to `value`.
 
 ## Parameters
+
 `value`
 
 :   The new value for the tile's specified `infoType`.
@@ -30,14 +31,17 @@ Sets the value for `infoType` from the tile at `tileX`, `tileY` to `value`.
 :   - 8 (`TILEINFO_ANGLEB`)
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 ```
 Set16x16TileInfo(int value, int tileX, int tileY, int infoType)
 ```
 
 ## Example
+
 ```
 Set16x16TileInfo(3, temp0, temp1, 7)
 ```
