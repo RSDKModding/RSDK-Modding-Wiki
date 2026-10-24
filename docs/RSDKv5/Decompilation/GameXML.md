@@ -1,24 +1,34 @@
-# GameXML
+# GameXML & StageXML
 
-GameXML is a modding feature included in the [RSDKv5(U) Decompilation](index.md). It uses a file named `Game.xml` to add or replace various elements of the GameConfig of a game without directly modifying the `GameConfig.bin` file, allowing for better compatibility between mods that require modifying the contents of said file.
+GameXML and StageXML are modding features included in the [RSDKv5(U) Decompilation](index.md). It uses files named `Game.xml` and `Stage.xml` to add or replace various elements of the GameConfig of a game and the StageConfig in a stage, respectively.
+Since these features do not directly modify the `GameConfig.bin` or `StageConfig.bin` files, they allow for better compatibility between mods that require modifying the contents of said files.
 
-This feature is only available if the decompilation is built with the Mod Loader, which is included by default when building.
+These features are only available if the decompilation is built with the Mod Loader, which is included by default when building.
 
 ## Usage
 
-To use GameXML, add a file named `Game.xml` in the `Game` directory of the Data folder of your mod. Unlike other Data files, the `Game.xml` file from each mod that includes one will be loaded, rather than only the one with the highest priority.
+To use GameXML, add a file named `Game.xml` in the `Game` directory of the Data folder of your mod. For StageXML, add a file named `Stage.xml` in the folder for the stage you'd like to modify.
+Unlike other Data or script files, the `Game.xml` and `Stage.xml` files from each mod that includes one will be loaded, rather than only the one with the highest priority.
 
-GameXML, as the name and file extension suggest, uses [Extensible Markup Language](https://en.wikipedia.org/wiki/XML) to store and load information. All elements in `Game.xml` must be contained within a root element named `game`, like so:
+GameXML and StageXML, as the names and file extensions suggest, use [Extensible Markup Language](https://en.wikipedia.org/wiki/XML) to store and load information. All elements in `Game.xml` and `Stage.xml` must be contained within a root element named `game` or `stage`, respectively, like so:
 
-``` xml
+``` xml title="Game.xml"
 <game>
 	<!-- elements go here -->
 </game>
 ```
 
+``` xml title="Stage.xml"
+<stage>
+	<!-- elements go here -->
+</stage>
+```
+
 You only need to include elements that you are adding/replacing.
 
 ## Game Title
+
+_This element is only available in GameXML._
 
 The game title that appears in the window title and in the [Dev Menu](../Overview/DevMenu.md) can be overwritten with the `title` element. The `name` attribute contains the name to replace the game title with.
 
@@ -28,7 +38,7 @@ The game title that appears in the window title and in the [Dev Menu](../Overvie
 
 ## Palettes
 
-The global palettes can be modified using the `palette` element. There are two types of child elements that can be used to overwrite colors.
+The palettes can be modified using the `palette` element. There are two types of child elements that can be used to overwrite colors.
 
 ### colors
 
@@ -77,7 +87,7 @@ This element uses the following attributes:
 
 ## Objects
 
-Global objects can be added using the `objects` element. This element should contain an `object` child element for each global object to add, with the `name` attribute containing the name of the object.
+Objects can be added using the `objects` element. This element should contain an `object` child element for each object to add, with the `name` attribute containing the name of the object.
 
 ``` xml
 <objects>
@@ -96,7 +106,22 @@ Sound effects can be added using the `sounds` element. This element should conta
 </sounds>
 ```
 
+## Players
+
+_This element is only available in GameXML using mod loader version 3 or higher._
+
+Players can be added using the `players` element. This element should contain an `player` child element for each player to add, with the `name` attribute containing the name of the player and `id` being their numerical ID.
+
+``` xml
+<players>
+	<player name="Player 1" id="1" />
+	<player name="Player 2" id="2" />
+</players>
+```
+
 ## Stages
+
+_This element is only available in GameXML._
 
 Stages can be added using the `category` element. The `name` attribute of this field contains the name of the stage category to add the stages to. If a category with that name doesn't exist, a new one will be created.
 
