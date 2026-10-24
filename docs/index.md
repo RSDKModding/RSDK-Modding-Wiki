@@ -92,7 +92,7 @@ Welcome to the RSDK Modding Wiki, your one-stop shop for documentation, resource
 
 ## Contributing
 
-We greatly appreciate contributions to the wiki! If you'd like to help out, you can find info on contributing on the wiki's [GitHub repository](https://github.com/RSDKModding/RSDK-Modding-Wiki).
+We greatly appreciate contributions to the wiki! If you'd like to help out, you can check out the contribution guide on the wiki's [GitHub repository](https://github.com/RSDKModding/RSDK-Modding-Wiki?tab=contributing-ov-file#).
 
 ## Join the Discord server!
 
