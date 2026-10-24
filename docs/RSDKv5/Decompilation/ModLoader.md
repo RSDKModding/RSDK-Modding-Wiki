@@ -1,9 +1,10 @@
 # Mod Loader
 
 !!! note
-    This page documents the mod structure and format for mod developers to reference. If you are simply looking to install mods as an end-user, see the [Mod Setup guide](/Guides/RSDKv3/Decompilation/ModSetup.md).
 
-The [RSDKv5 Decompilation](README.md) has a built-in mod loader that allows loading mods that add or replace Data files, as well as loading [GameAPI](TODO) logic files. The mod loader is a custom feature in the decompilation, however you can choose to build without it using the [`RETRO_MOD_LOADER` flag](/Guides/RSDKv5/Decompilation/Building.md#build-flags).
+    This page documents the mod structure and format for mod developers to reference. If you are simply looking to install mods as an end-user, see the [Mod Setup guide](../../Guides/RSDKv5/Decompilation/ModSetup.md).
+
+The [RSDKv5 Decompilation](index.md) has a built-in mod loader that allows loading mods that add or replace Data files, as well as loading [GameAPI](../GameAPI/index.md) logic files. The mod loader is a custom feature in the decompilation, however you can choose to build without it using the [`RETRO_MOD_LOADER` flag](../../Guides/RSDKv5/Decompilation/Building.md#build-flags).
 
 ## Mods Directory
 
@@ -20,7 +21,7 @@ mods/
 
 modconfig.ini is a file that the decompilation automatically creates and updates in the `mods` folder, if it exists. This file is used to store the priority order for mods (mods are loaded from bottom to top), as well as which mods are enabled. Mods are listed by their folder names.
 
-```ini title="Example modconfig.ini"
+``` ini title="Example modconfig.ini"
 [mods]
 SpriteMod=y
 MusicMod=n
@@ -89,7 +90,7 @@ All of these flags take a boolean (`false`/`true`) unless stated otherwise. You 
 
 :   Forces the engine version when used in RSDKv5U. This should normally never be necessary, however. Forces RSDKv5 when set to `5`.
 
-```ini title="Example mod.ini file"
+``` ini title="Example mod.ini file"
 Name=Sprite Mod
 Description=My sprite mod!
 Author=Me

@@ -1,9 +1,9 @@
 # GetTextInfo
 
-## Description
 Gets the data of `type` from `menu` using `index` and stores it in `store`.
 
 ## Parameters
+
 `store`
 
 :   Variable where the data will be saved.
@@ -25,14 +25,17 @@ Gets the data of `type` from `menu` using `index` and stores it in `store`.
 :   Offset for the text at `index`. Only used if `type` is `TEXTINFO_TEXTDATA`.
 
 ## Return Value
+
 Sets `store` to the result.
 
 ## Syntax
+
 ```
 GetTextInfo(var store, int menu, int type, int index, int offset)
 ```
 
 ## Example
+
 ```
 GetTextInfo(temp4, MENU_1, TEXTINFO_TEXTDATA, temp0, 1)
 ```

@@ -1,6 +1,5 @@
 # PlayerObjectCollision
 
-## Description
 Checks for collision of an object with the player, using the hitbox values passed.
 
 

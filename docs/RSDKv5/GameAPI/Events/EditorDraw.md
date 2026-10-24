@@ -1,33 +1,35 @@
 # EditorDraw
 
-## Description
-Similar to [Draw()](Draw.md), though only called when the object class is loaded in via an editor (such as [RetroED](/Tools/RetroED/README.md)). Used to draw sprites in the editor, called once per frame, per entity.
+Similar to [Draw()](Draw.md), though only called when the object class is loaded in via an editor (such as [RetroED](../../../Tools/RetroED/index.md)). Used to draw sprites in the editor, called once per frame, per entity.
 
 ## Parameters
+
 None.
 
 ## Syntax
+
 === "C"
 
-	``` c
-	void EditorDraw();
-	```
+    ``` c
+    void EditorDraw();
+    ```
 
 === "C++"
 
-	``` cpp
-	void EditorDraw();
-	```
+    ``` cpp
+    void EditorDraw();
+    ```
 
 ## Examples
+
 === "C"
 
-	``` c
-	void MyObject_EditorDraw() { }
-	```
+    ``` c
+    void MyObject_EditorDraw() { }
+    ```
 
 === "C++"
 
-	``` cpp
-	void MyObject::EditorDraw() { }
-	```
+    ``` cpp
+    void MyObject::EditorDraw() { }
+    ```

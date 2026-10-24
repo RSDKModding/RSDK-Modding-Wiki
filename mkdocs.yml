@@ -8,6 +8,7 @@ edit_uri: edit/master/docs/
 copyright: Not affiliated with Evening Star or SEGA
 theme:
   name: material
+  variant: classic
   custom_dir: overrides
   logo: assets/icon.png
   favicon: assets/icon.png
@@ -26,6 +27,7 @@ theme:
     - navigation.footer
     - navigation.indexes
     - navigation.instant
+    - navigation.path
     - navigation.sections
     - navigation.tabs
     - navigation.top
@@ -61,11 +63,14 @@ extra_javascript:
   - rsdk_theme/background.js
 
 validation:
-  links:
-    absolute_links: relative_to_docs
-
-watch:
-  - overrides
+  unresolved_references: true
+  unresolved_footnotes: true
+  unused_definitions: true
+  unused_footnotes: true
+  shadowed_definitions: true
+  shadowed_footnotes: true
+  invalid_links: true
+  invalid_link_anchors: true
 
 plugins:
   - search
@@ -83,24 +88,19 @@ plugins:
         - Decompilations
         - RetroED
         - Wiki
-  - glightbox:
-      zoomable: true
-      draggable: true
-      effect: fade
-      width: 100%
   - group:
       enabled: !ENV [CI, false]
       plugins:
         - git-committers:
             repository: RSDKModding/RSDK-Modding-Wiki
             exclude:
-              - README.md
+              - index.md
               - blog/**
         - git-revision-date-localized:
             enable_creation_date: true
             type: timeago
             exclude:
-              - README.md
+              - index.md
               - blog/**
 
 markdown_extensions:
@@ -113,6 +113,7 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
+  - pymdownx.blocks.caption
   - pymdownx.keys
   - pymdownx.details
   - pymdownx.critic
@@ -142,36 +143,44 @@ markdown_extensions:
       options:
         custom_icons:
           - overrides/.icons
+  - zensical.extensions.glightbox
 
 nav:
-  - Home: README.md
+  - Home: index.md
   - Retro Engine:
-    - RSDK/README.md
+    - RSDK/index.md
 
     - RSDKv1:
-      - RSDKv1/README.md
+      - RSDKv1/index.md
 
     - RSDKv2:
-      - RSDKv2/README.md
-      - Decompilation: RSDKv2/Decompilation.md
+      - RSDKv2/index.md
+      - Decompilation:
+          - RSDKv2/Decompilation/index.md
+          - settings.ini: RSDKv2/Decompilation/SettingsINI.md
+          - Mod Loader: RSDKv2/Decompilation/ModLoader.md
+      - Documentation:
+        - Overview:
+          - RSDKv2/Overview/index.md
+          - Default Menu: RSDKv2/Overview/DefaultMenu.md
 
     - RSDKv3:
-      - RSDKv3/README.md
+      - RSDKv3/index.md
       - Decompilation:
-          - RSDKv3/Decompilation/README.md
+          - RSDKv3/Decompilation/index.md
           - settings.ini: RSDKv3/Decompilation/SettingsINI.md
           - Mod Loader: RSDKv3/Decompilation/ModLoader.md
           - GameXML: RSDKv3/Decompilation/GameXML.md
       - Documentation:
         - Overview:
-          - RSDKv3/Overview/README.md
+          - RSDKv3/Overview/index.md
           - Dev Menu: RSDKv3/Overview/DevMenu.md
       - RetroScript:
-        - RSDKv3/RetroScript/README.md
+        - RSDKv3/RetroScript/index.md
         - Subs: RSDKv3/RetroScript/Subs.md
         - Variables: RSDKv3/RetroScript/Variables.md
         - Functions:
-          - RSDKv3/RetroScript/Functions/README.md
+          - RSDKv3/RetroScript/Functions/index.md
           - 3D:
             - Draw3DScene: RSDKv3/RetroScript/Functions/3D/Draw3DScene.md
             - SetIdentityMatrix: RSDKv3/RetroScript/Functions/3D/SetIdentityMatrix.md
@@ -282,22 +291,22 @@ nav:
             - HapticEffect: RSDKv3/RetroScript/Functions/Misc/HapticEffect.md
 
     - RSDKv4:
-      - RSDKv4/README.md
+      - RSDKv4/index.md
       - Decompilation:
-          - RSDKv4/Decompilation/README.md
+          - RSDKv4/Decompilation/index.md
           - settings.ini: RSDKv4/Decompilation/SettingsINI.md
           - Mod Loader: RSDKv4/Decompilation/ModLoader.md
           - GameXML: RSDKv4/Decompilation/GameXML.md
       - Documentation:
         - Overview:
-          - RSDKv4/Overview/README.md
+          - RSDKv4/Overview/index.md
           - Dev Menu: RSDKv4/Overview/DevMenu.md
       - RetroScript:
-        - RSDKv4/RetroScript/README.md
+        - RSDKv4/RetroScript/index.md
         - Events: RSDKv4/RetroScript/Events.md
         - Variables: RSDKv4/RetroScript/Variables.md
         - Functions:
-          - RSDKv4/RetroScript/Functions/README.md
+          - RSDKv4/RetroScript/Functions/index.md
           - 3D:
             - Draw3DScene: RSDKv4/RetroScript/Functions/3D/Draw3DScene.md
             - SetIdentityMatrix: RSDKv4/RetroScript/Functions/3D/SetIdentityMatrix.md
@@ -396,7 +405,7 @@ nav:
             - CheckCurrentStageFolder: RSDKv4/RetroScript/Functions/Stages/CheckCurrentStageFolder.md
           - Miscellaneous:
             - CallNativeFunction:
-              - RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/README.md
+              - RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/index.md
               - Native Functions:
                 - SetAchievement: RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/SetAchievement.md
                 - SetLeaderboard: RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/SetLeaderboard.md
@@ -412,6 +421,7 @@ nav:
                 - NativePlayerWaitingAds: RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/NativePlayerWaitingAds.md
                 - NativeWaterPlayerWaitingAds: RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/NativeWaterPlayerWaitingAds.md
                 - NotifyCallback: RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/NotifyCallback.md
+                - PlayVideo : RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/PlayVideo.md
               - Decomp-Only Native Functions:
                 - SetNetworkGameName: RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/SetNetworkGameName.md
                 - ExitGame: RSDKv4/RetroScript/Functions/Misc/CallNativeFunction/ExitGame.md
@@ -471,20 +481,20 @@ nav:
             - DrawText: RSDKv4/RetroScript/Functions/Deprecated/DrawText.md
 
     - RSDKv5:
-      - RSDKv5/README.md
+      - RSDKv5/index.md
       - Decompilation:
-          - RSDKv5/Decompilation/README.md
+          - RSDKv5/Decompilation/index.md
           - Mod Loader: RSDKv5/Decompilation/ModLoader.md
           - GameXML: RSDKv5/Decompilation/GameXML.md
       - Documentation:
         - Overview:
-          - RSDKv5/Overview/README.md
+          - RSDKv5/Overview/index.md
           - Dev Menu: RSDKv5/Overview/DevMenu.md
           - Settings.ini: RSDKv5/Overview/SettingsINI.md
       - GameAPI:
-        - RSDKv5/GameAPI/README.md
+        - RSDKv5/GameAPI/index.md
         - Events:
-          - RSDKv5/GameAPI/Events/README.md
+          - RSDKv5/GameAPI/Events/index.md
           - Update: RSDKv5/GameAPI/Events/Update.md
           - LateUpdate: RSDKv5/GameAPI/Events/LateUpdate.md
           - StaticUpdate: RSDKv5/GameAPI/Events/StaticUpdate.md
@@ -496,7 +506,7 @@ nav:
           - Serialize: RSDKv5/GameAPI/Events/Serialize.md
           - StaticLoad: RSDKv5/GameAPI/Events/StaticLoad.md
         - Functions:
-          - RSDKv5/GameAPI/Functions/README.md
+          - RSDKv5/GameAPI/Functions/index.md
           - Audio:
             - GetSfx: RSDKv5/GameAPI/Functions/Audio/GetSfx.md
             - PlaySfx: RSDKv5/GameAPI/Functions/Audio/PlaySfx.md
@@ -580,67 +590,34 @@ nav:
             - RSDK_DRAWING_OVERLAY: RSDKv5/GameAPI/Functions/Editor/RSDK_DRAWING_OVERLAY.md
 
   - Games:
-    - Games/README.md
+    - Games/index.md
     - Sonic Origins:
-      - Games/SonicOrigins/README.md
+      - Games/SonicOrigins/index.md
       - Hedgehog Engine 2: Games/SonicOrigins/HedgehogEngine2.md
       - Documentation:
-        - NotifyCallback:
-          - Games/SonicOrigins/Documentation/NotifyCallback/README.md
-          - NOTIFY_DEATH_EVENT: Games/SonicOrigins/Documentation/NotifyCallback/DeathEvent.md
-          - NOTIFY_TOUCH_SIGNPOST: Games/SonicOrigins/Documentation/NotifyCallback/TouchSignPost.md
-          - NOTIFY_HUD_ENABLE: Games/SonicOrigins/Documentation/NotifyCallback/HUDEnable.md
-          - NOTIFY_ADD_COIN: Games/SonicOrigins/Documentation/NotifyCallback/AddCoin.md
-          - NOTIFY_KILL_ENEMY: Games/SonicOrigins/Documentation/NotifyCallback/KillEnemy.md
-          - NOTIFY_SAVESLOT_SELECT: Games/SonicOrigins/Documentation/NotifyCallback/SaveSlotSelect.md
-          - NOTIFY_FUTURE_PAST: Games/SonicOrigins/Documentation/NotifyCallback/FuturePast.md
-          - NOTIFY_GOTO_FUTURE_PAST: Games/SonicOrigins/Documentation/NotifyCallback/GotoFuturePast.md
-          - NOTIFY_BOSS_END: Games/SonicOrigins/Documentation/NotifyCallback/BossEnd.md
-          - NOTIFY_SPECIAL_END: Games/SonicOrigins/Documentation/NotifyCallback/SpecialEnd.md
-          - NOTIFY_KILL_BOSS: Games/SonicOrigins/Documentation/NotifyCallback/KillBoss.md
-          - NOTIFY_TOUCH_EMERALD: Games/SonicOrigins/Documentation/NotifyCallback/TouchEmerald.md
-          - NOTIFY_STATS_ENEMY: Games/SonicOrigins/Documentation/NotifyCallback/StatsEnemy.md
-          - NOTIFY_STATS_CHARA_ACTION: Games/SonicOrigins/Documentation/NotifyCallback/StatsCharaAction.md
-          - NOTIFY_STATS_RING: Games/SonicOrigins/Documentation/NotifyCallback/StatsRing.md
-          - NOTIFY_STATS_MOVIE: Games/SonicOrigins/Documentation/NotifyCallback/StatsMovie.md
-          - NOTIFY_STATS_PARAM_1: Games/SonicOrigins/Documentation/NotifyCallback/StatsParam1.md
-          - NOTIFY_STATS_PARAM_2: Games/SonicOrigins/Documentation/NotifyCallback/StatsParam2.md
-          - NOTIFY_CHARACTER_SELECT: Games/SonicOrigins/Documentation/NotifyCallback/CharacterSelect.md
-          - NOTIFY_SPECIAL_RETRY: Games/SonicOrigins/Documentation/NotifyCallback/SpecialRetry.md
-          - NOTIFY_TOUCH_CHECKPOINT: Games/SonicOrigins/Documentation/NotifyCallback/TouchCheckpoint.md
-          - NOTIFY_ACT_FINISH: Games/SonicOrigins/Documentation/NotifyCallback/ActFinish.md
-          - NOTIFY_1P_VS_SELECT: Games/SonicOrigins/Documentation/NotifyCallback/1PVSSelect.md
-          - NOTIFY_CONTROLLER_SUPPORT: Games/SonicOrigins/Documentation/NotifyCallback/ControllerSupport.md
-          - NOTIFY_STAGE_RETRY: Games/SonicOrigins/Documentation/NotifyCallback/StageRetry.md
-          - NOTIFY_SOUND_TRACK: Games/SonicOrigins/Documentation/NotifyCallback/SoundTrack.md
-          - NOTIFY_GOOD_ENDING: Games/SonicOrigins/Documentation/NotifyCallback/GoodEnding.md
-          - NOTIFY_BACK_TO_MAINMENU: Games/SonicOrigins/Documentation/NotifyCallback/BackToMainMenu.md
-          - NOTIFY_LEVEL_SELECT_MENU: Games/SonicOrigins/Documentation/NotifyCallback/LevelSelectMenu.md
-          - NOTIFY_PLAYER_SET: Games/SonicOrigins/Documentation/NotifyCallback/PlayerSet.md
-          - NOTIFY_EXTRAS_MODE: Games/SonicOrigins/Documentation/NotifyCallback/ExtrasMode.md
-          - NOTIFY_SPIN_DASH_TYPE: Games/SonicOrigins/Documentation/NotifyCallback/SpindashType.md
-          - NOTIFY_TIME_OVER: Games/SonicOrigins/Documentation/NotifyCallback/TimeOver.md
-          - NOTIFY_TIMEATTACK_MODE: Games/SonicOrigins/Documentation/NotifyCallback/TimeAttackMode.md
-          - NOTIFY_STATS_BREAK_OBJECT: Games/SonicOrigins/Documentation/NotifyCallback/StatsBreakObject.md
-          - NOTIFY_STATS_SAVE_FUTURE: Games/SonicOrigins/Documentation/NotifyCallback/StatsSaveFuture.md
-          - NOTIFY_STATS_CHARA_ACTION2: Games/SonicOrigins/Documentation/NotifyCallback/StatsCharaAction2.md
-          - NOTIFY_PLAYER_SAVED_VALUES: Games/SonicOrigins/Documentation/NotifyCallback/PlayerSavedValues.md
-          - NOTIFY_TITLECARD_INIT: Games/SonicOrigins/Documentation/NotifyCallback/TitleCardInit.md
-          - NOTIFY_1007: Games/SonicOrigins/Documentation/NotifyCallback/1007.md
+        - NotifyCallback: Games/SonicOrigins/Documentation/NotifyCallback.md
         - Audio: Games/SonicOrigins/Documentation/Audio.md
+    - Sonic 3 & Knuckles: Games/Sonic3K/index.md
 
   - Tools:
-    - Tools/README.md
+    - Tools/index.md
     - RetroED:
-      - Tools/RetroED/README.md
+      - Tools/RetroED/index.md
       - Documentation:
         - Animation Editor: Tools/RetroED/AnimationEditor.md
         - Scene Editor: Tools/RetroED/SceneEditor.md
-    - S3KOEditorLink: Tools/S3KOEditorLink/README.md
-    - GraphicsGale: Tools/GraphicsGale/README.md
+    - S3KOEditorLink: Tools/S3KOEditorLink.md
+    - GraphicsGale: Tools/GraphicsGale.md
 
   - Guides:
-    - Guides/README.md
+    - Guides/index.md
+    - General:
+      - Editing Spritesheets: Guides/Spritesheets.md
+    - RSDKv2:
+      - Decompilation:
+        - Building: Guides/RSDKv2/Decompilation/Building.md
+        - Setup: Guides/RSDKv2/Decompilation/Setup.md
+        - Mod Setup: Guides/RSDKv2/Decompilation/ModSetup.md
     - RSDKv3:
       - Decompilation:
         - Building: Guides/RSDKv3/Decompilation/Building.md
@@ -651,6 +628,7 @@ nav:
         - Building: Guides/RSDKv4/Decompilation/Building.md
         - Setup: Guides/RSDKv4/Decompilation/Setup.md
         - Mod Setup: Guides/RSDKv4/Decompilation/ModSetup.md
+        - Online Multiplayer: Guides/RSDKv4/Decompilation/OnlineMultiplayer.md
     - RSDKv5:
       - Decompilation:
         - Building: Guides/RSDKv5/Decompilation/Building.md

@@ -1,12 +1,13 @@
 # DrawText
 
 !!! failure "Deprecated"
+
     This function was removed from RSDKv4 in REV02.
 
-## Description
 Draws the contents of `menu`.
 
 ## Parameters
+
 `menu`
 
 :   The menu from where to read the text. `MENU_1` or `MENU_2` are valid.
@@ -36,14 +37,17 @@ Draws the contents of `menu`.
 :   The amount of rows to draw.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 ```
 DrawText(int menu, int xpos, int ypos, int scale, int spacing, int rowStart, int rowCount)
 ```
 
 ## Example
+
 ```
 DrawText(MENU_1, temp0, temp1, 192, 0, 0, 1)
 ```

@@ -1,9 +1,9 @@
 # PlayStream
 
-## Description
 Plays the given music file, looping it if set to do so.
 
 ## Parameters
+
 `filename`
 
 :   The file path to load the music file from, relative to `Data/Music/`. The music file must be in OGG format.
@@ -25,36 +25,41 @@ Plays the given music file, looping it if set to do so.
 :   If true, loads the track asynchronously. This should usually be `true`, unless the track is for a video/image, in which case it should be `false`.
 
 ## Return Value
+
 Returns the ID of the channel the track plays in as an `int32`. The return value will be `-1` if the track failed to play.
 
 ## Syntax
+
 === "C"
 
-	``` c
-	RSDK.PlayStream(const char *filename, uint32 slot, uint32 startPos, uint32 loopPoint, bool32 loadASync);
-	```
+    ``` c
+    RSDK.PlayStream(const char *filename, uint32 slot, uint32 startPos, uint32 loopPoint, bool32 loadASync);
+    ```
 
 === "C++"
 
-	``` cpp
-	channels[uint8 slot].PlayStream(const char *filename, uint32 startPos, uint32 loopPoint, bool32 loadASync);
-	```
+    ``` cpp
+    channels[uint8 slot].PlayStream(const char *filename, uint32 startPos, uint32 loopPoint, bool32 loadASync);
+    ```
 
 ## Examples
+
 === "C"
 
-	``` c
-	RSDK.PlayStream("Test.ogg", 0, 0, 1, true);
-	```
-	``` c
-	int32 channelID = RSDK.PlayStream("Test2.ogg", 0, 0, 202752, true);
-	```
+    ``` c
+    RSDK.PlayStream("Test.ogg", 0, 0, 1, true);
+    ```
+
+    ``` c
+    int32 channelID = RSDK.PlayStream("Test2.ogg", 0, 0, 202752, true);
+    ```
 
 === "C++"
 
-	``` cpp
-	channels[0].PlayStream("Test.ogg", 0, 1, true);
-	```
-	``` cpp
-	int32 channelID = channels[0].PlayStream("Test2.ogg", 0, 202752, true);
-	```
+    ``` cpp
+    channels[0].PlayStream("Test.ogg", 0, 1, true);
+    ```
+
+    ``` cpp
+    int32 channelID = channels[0].PlayStream("Test2.ogg", 0, 202752, true);
+    ```

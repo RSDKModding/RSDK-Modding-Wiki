@@ -1,8 +1,8 @@
 # Dev Menu
 
-![Dev Menu](/assets/images/SonicMania/DevMenu/MainMenu-Steam.png){ align=right , width="50%" }
+![Dev Menu](../../assets/images/SonicMania/DevMenu/MainMenu-Steam.png){ align=right , width="50%" }
 
-The Dev Menu is a debug menu included with [RSDKv5](../README.md), disabled by default. The menu includes several features useful for debugging games in the engine. When the Dev Menu is enabled, other developer features are accessible as well.
+The Dev Menu is a debug menu included with [RSDKv5](../index.md), disabled by default. The menu includes several features useful for debugging games in the engine. When the Dev Menu is enabled, other developer features are accessible as well.
 
 ## Enabling
 
@@ -20,14 +20,16 @@ language=0
 
 1. The setting names in settings.ini are case-sensitive; the Dev Menu setting will not apply if the capitalization is incorrect.
 
-Alternatively, running the game in [Data Folder Mode](TODO) will automatically enable the Dev Menu.
+Alternatively, running the game in Data Folder Mode will automatically enable the Dev Menu.
 
 !!! note
-    The entirety of the Dev Menu was removed in [Sonic Origins](/Games/SonicOrigins/README.md), making it inaccessible.
+
+    The entirety of the Dev Menu was removed in [Sonic Origins](../../Games/SonicOrigins/index.md), making it inaccessible.
 
 ## Debug Controls
 
 ### General
+
 | Key                  | Command                                             |
 | -------------------- | --------------------------------------------------- |
 | ++escape++           | Opens/closes the Dev Menu.                          |
@@ -36,6 +38,7 @@ Alternatively, running the game in [Data Folder Mode](TODO) will automatically e
 | ++f11++ / ++insert++ | If in step-over mode, steps over to the next frame. |
 
 ### Decomp Only
+
 | Key     | Command                                                                                               |
 | ------- | ----------------------------------------------------------------------------------------------------- |
 | ++f1++  | Loads the previous scene in the scene list. If pressed in the first scene, it will load the last one. |
@@ -50,7 +53,7 @@ Alternatively, running the game in [Data Folder Mode](TODO) will automatically e
 
 ## Menu
 
-You can open the Dev Menu at any time in-game by pressing ++escape++. In the [RSDKv5(U) Decompilation](../Decompilation/README.md), you can also tap/click the top left corner of the screen.
+You can open the Dev Menu at any time in-game by pressing ++escape++. In the [RSDKv5(U) Decompilation](../Decompilation/index.md), you can also tap/click the top left corner of the screen.
 
 TODO: explain each submenu
 

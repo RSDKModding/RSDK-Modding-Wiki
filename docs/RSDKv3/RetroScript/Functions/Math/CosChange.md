@@ -1,9 +1,9 @@
 # CosChange
 
-## Description
 Performs [Cos()](Cos.md) on `Angle`, then right shifts, increments, and decrements the result, in that order, before storing the final output in `Store`.
 
 ## Parameters
+
 `Store`
 
 :   The variable to store the result.
@@ -25,14 +25,17 @@ Performs [Cos()](Cos.md) on `Angle`, then right shifts, increments, and decremen
 :   The number to subtract from the result.
 
 ## Return Value
+
 Sets `Store` to the result.
 
 ## Syntax
+
 ```
 CosChange(var Store, int Angle, int RShift, int Inc, int Dec)
 ```
 
 ## Example
+
 ```
 CosChange(CheckResult, 10, 76, 127, 38)
 ```

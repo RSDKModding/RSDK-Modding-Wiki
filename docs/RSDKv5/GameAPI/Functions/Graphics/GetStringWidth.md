@@ -1,9 +1,9 @@
 # GetStringWidth
 
-## Description
-Retrieves the width of a string in pixels when displayed with [DrawText()](TODO).
+Retrieves the width of a string in pixels when displayed with DrawText().
 
 ## Parameters
+
 `aniFrames`
 
 :   The SpriteAnimation to use frames from.
@@ -29,30 +29,33 @@ Retrieves the width of a string in pixels when displayed with [DrawText()](TODO)
 :   The number of pixels between each character.
 
 ## Return Value
-Returns the width of the string in pixels as an `int32`. This width is the same as it would be if [DrawText](TODO) was called with the same parameters.
+
+Returns the width of the string in pixels as an `int32`. This width is the same as it would be if DrawText() was called with the same parameters.
 
 ## Syntax
+
 === "C"
 
-	``` c
-	RSDK.GetStringWidth(uint16 aniFrames, uint16 listID, String *string, int32 startIndex, int32 length, int32 spacing);
-	```
+    ``` c
+    RSDK.GetStringWidth(uint16 aniFrames, uint16 listID, String *string, int32 startIndex, int32 length, int32 spacing);
+    ```
 
 === "C++"
 
-	``` cpp
-	string.GetWidth(SpriteAnimation aniFrames, uint16 listID, int32 startIndex, int32 length, int32 spacing);
-	```
+    ``` cpp
+    string.GetWidth(SpriteAnimation aniFrames, uint16 listID, int32 startIndex, int32 length, int32 spacing);
+    ```
 
 ## Example
+
 === "C"
 
-	``` c
-	int32 width = RSDK.LoadSpriteAnimation(MyObject->aniFrames, 0, &self->string, 0, self->string.length, 1);
-	```
+    ``` c
+    int32 width = RSDK.LoadSpriteAnimation(MyObject->aniFrames, 0, &self->string, 0, self->string.length, 1);
+    ```
 
 === "C++"
 
-	``` cpp
-	int32 width = this->string.GetWidth(sVars->aniFrames, 0, 0, this->string.length, 1);
-	```
+    ``` cpp
+    int32 width = this->string.GetWidth(sVars->aniFrames, 0, 0, this->string.length, 1);
+    ```

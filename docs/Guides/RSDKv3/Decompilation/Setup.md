@@ -1,29 +1,33 @@
 # Setting Up the RSDKv3 Decompilation
 
 ## Prerequisites
-- A build of the RSDKv3 Decompilation for the target platform. You can get one by:
+
+-   A build of the RSDKv3 Decompilation for the target platform. You can get one by:
     - [Building the source code](Building.md) (Recommended)
     - [Downloading the latest release](https://github.com/RSDKModding/RSDKv3-Decompilation/releases/latest) (Origins Plus DLC will not be accessible)
     - [Downloading an autobuild](https://github.com/RSDKModding/RSDKv3-Decompilation/actions) (Must be signed into GitHub to download, Origins Plus DLC will not be accessible)
-- [A datapack (Data.rsdk) for Sonic CD](../../Games/SonicCD/Datapack.md)
-- [Visual C++ Redistributables](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-microsoft-visual-c-redistributable-version) (Windows only)
+-   [A datapack (Data.rsdk) for Sonic CD](../../Games/SonicCD/Datapack.md)
+-   [Visual C++ Redistributables](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-microsoft-visual-c-redistributable-version) (Windows only)
 
 ## Setup
+
 === "Windows"
 
     !!! tip
+
         It's highly recommended to [enable file extensions in File Explorer](https://www.thewindowsclub.com/show-file-extensions-in-windows) to reduce the chance of a file being named incorrectly.
 
     !!! warning
+
         **DO NOT** place the decompilation in a Windows user directory. This includes folders such as Documents, Downloads, and the Desktop. These directories are known to cause issues with the decomp, such as crashes or mods not working. It's recommended to instead place the decomp somewhere in a `Games` folder located in the root of C drive, or another drive entirely if possible.
 
     Place the decompilation EXE file (and any included DLL files) in the target directory.
 
-    ![RSDKv3.exe](/assets/images/Windows/FileExplorer/SonicCD/Setup-EXE.png)
+    ![RSDKv3.exe](../../../assets/images/Windows/FileExplorer/SonicCD/Setup-EXE.png)
 
     Place the `Data.rsdk` file in this directory. If you have the Blit release of Sonic CD, you can copy its `videos` folder here as well.
 
-    ![Data.rsdk](/assets/images/Windows/FileExplorer/SonicCD/Setup-RSDK.png)
+    ![Data.rsdk](../../../assets/images/Windows/FileExplorer/SonicCD/Setup-RSDK.png)
 
 === "Linux"
 
@@ -57,8 +61,6 @@ The Blit release of Sonic CD wasn't fully optimized for widescreen, so issues li
 
 This is an intentional change (made for unknown reasons) in the mobile version of the game. You can [install the decompiled scripts] to fix this.
 
-  [install the decompiled scripts]: ModSetup.md#decompiled-scripts
-
 ### The title screen splash logos and instructions graphics are low resolution when using the mobile version { id="low-res-graphics" }
 
 Enable `HardwareRenderer` in `settings.ini`.
@@ -72,3 +74,5 @@ See [this guide](https://gamebanana.com/tuts/16686) for fixing several Origins r
 ### I don't have access to the Blit release of Sonic CD. Can I use video files from the mobile or Origins versions? { id="blit-cd-videos" }
 
 The decompilation only works with video files from the Blit release of the game. If you don't have this version, you can choose from the [FMV mods](https://gamebanana.com/mods/cats/19077) available on GameBanana and use one of those instead.
+
+[install the decompiled scripts]: ModSetup.md#decompiled-scripts

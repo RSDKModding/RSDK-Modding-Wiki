@@ -1,33 +1,35 @@
 # Draw
 
-## Description
-Called once every frame per entity if Entity::[active](TODO) allows for it. The ordering is based the value of Entity::[drawGroup](TODO).
+Called once every frame per entity if Entity::active allows for it. The ordering is based the value of Entity::drawGroup.
 
 ## Parameters
+
 None.
 
 ## Syntax
+
 === "C"
 
-	``` c
-	void Draw();
-	```
+    ``` c
+    void Draw();
+    ```
 
 === "C++"
 
-	``` cpp
-	void Draw();
-	```
+    ``` cpp
+    void Draw();
+    ```
 
 ## Examples
+
 === "C"
 
-	``` c
-	void MyObject_Draw() { }
-	```
+    ``` c
+    void MyObject_Draw() { }
+    ```
 
 === "C++"
 
-	``` cpp
-	void MyObject::Draw() { }
-	```
+    ``` cpp
+    void MyObject::Draw() { }
+    ```

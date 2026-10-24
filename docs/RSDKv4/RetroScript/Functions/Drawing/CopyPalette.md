@@ -1,9 +1,9 @@
 # CopyPalette
 
-## Description
 Copies `count` colors from `srcBank`, starting from `srcIndex`, to `destBank`, starting at `destIndex`.
 
 ## Parameters
+
 `srcBank`
 
 :   The palette bank to copy. Valid range: 0-7.
@@ -25,14 +25,17 @@ Copies `count` colors from `srcBank`, starting from `srcIndex`, to `destBank`, s
 :   The amount of colors to copy from `srcIndex` to `destIndex`.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 ```
 CopyPalette(int srcBank, int srcIndex, int destBank, int destIndex, int count)
 ```
 
 ## Example
+
 ```
 CopyPalette(1, 1, 0, 1, 4)
 ```

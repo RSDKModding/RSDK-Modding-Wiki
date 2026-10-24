@@ -1,10 +1,11 @@
 # Dev Menu
 
-![Dev Menu](/assets/images/SonicCD/DevMenu/MainMenu-Blit.png){ align=right , width="30%" }
+![Dev Menu](../../assets/images/SonicCD/DevMenu/MainMenu-Blit.png){ align=right , width="30%" }
 
-The Dev Menu is a debug menu included with [RSDKv3](../README.md), disabled by default. The menu includes several features useful for debugging games in the engine.
+The Dev Menu is a debug menu included with [RSDKv3](../index.md), disabled by default. The menu includes several features useful for debugging games in the engine.
 
 ## Enabling
+
 === "Blit"
 
     The Dev Menu can be enabled by editing the game's `GameConfig.bin` file to set the default value of the `Options.DevMenuFlag` global variable to 1 (`true`).
@@ -44,7 +45,7 @@ The Dev Menu is a debug menu included with [RSDKv3](../README.md), disabled by d
 
 ## Menu
 
-You can open the Dev Menu in Sonic CD by selecting it the pause menu, as well as the Help & Options menu in the mobile version. In the [RSDKv3 Decompilation](../Decompilation/README.md), you can also open it at any time by pressing ++escape++.
+You can open the Dev Menu in Sonic CD by selecting it the pause menu, as well as the Help & Options menu in the mobile version. In the [RSDKv3 Decompilation](../Decompilation/index.md), you can also open it at any time by pressing ++escape++.
 
 TODO: explain each submenu
 

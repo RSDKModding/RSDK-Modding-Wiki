@@ -1,9 +1,9 @@
 # DrawRect
 
-## Description
 Draws a rectangle to `ixpos` and `iypos` in screen-space, with a color based on the `r`, `g`, `b`, and `alpha`.
 
 ## Parameters
+
 `ixpos`
 
 :   The position of the rectangle on the horizontal axis in screen-space.
@@ -37,14 +37,17 @@ Draws a rectangle to `ixpos` and `iypos` in screen-space, with a color based on 
 :   A value range of 0-255 for transparency, 255 being no transparency.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 ```
 DrawRect(int ixpos, int iypos, int width, int height, int r, int g, int b, int alpha)
 ```
 
 ## Example
+
 ```
 DrawRect(30, 220, 60, 20, 255, 128, 128, 255)
 ```

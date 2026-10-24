@@ -11,28 +11,33 @@ In addition, refer to these warnings depending on the platform you are compiling
 === "Windows"
 
     !!! warning
+
         Make sure to use Command Prompt when typing commands instead of PowerShell, as PowerShell is known to cause issues.
 
 === "Linux"
 
-    !!! warning "Notice for Steam Deck users"
-        Due to how SteamOS handles packages, building the decompilation on the Steam Deck is highly difficult and not recommended. Instead, consider building it on another Arch Linux device and using that build on the Steam Deck.
+    !!! warning "Notice for SteamOS users"
+
+        Due to how SteamOS handles packages, building the decompilation on devices running SteamOS (such as the Steam Deck) is highly difficult and not recommended. Instead, consider compiling a Windows build and running it on SteamOS using Proton.
 
 === "Android"
 
     TODO
 
 ## Get the source code
+
 **DO NOT** download the source code ZIP archive from GitHub, as they do not include the submodules required to build the decompilation.
 
 Instead, you will need to clone the repository using Git, which you can get [here](https://git-scm.com/downloads).
 
 Clone the repo **recursively** by running this command in the target directory:
+
 ```
 git clone --recursive https://github.com/RSDKModding/RSDKv3-Decompilation
 ```
 
 !!! warning
+
     **DO NOT** clone the repository in a Windows user directory. This includes folders such as Documents, Downloads, and the Desktop. These directories are known to cause issues when building. It's recommended to instead clone the repo somewhere in a `GitHub` folder located in the root of the C drive, or another drive entirely if possible.
 
 If you'd like to update the cloned repository, you can do so by running these commands in it:
@@ -42,6 +47,7 @@ git submodule update --remote --init
 ```
 
 ## Getting dependencies
+
 === "Windows"
 
     [Install CMake](https://cmake.org/download/). **Make sure to enable the feature to add CMake to the system PATH during the installation.**
@@ -49,14 +55,17 @@ git submodule update --remote --init
     To handle dependencies, you'll need to install [Visual Studio Community](https://visualstudio.microsoft.com/downloads/) with the `Desktop development with C++` workload. If you already have Visual Studio installed, you can manage your installed workloads by opening Visual Studio Installer from the Start Menu and clicking the `Modify` button next to your Visual Studio installation.
 
     !!! warning
+
         An installation of Visual Studio with the `Desktop development with C++` workload uses around 8 GB of storage space. Make sure you have the necessary space on your drive before proceeding.
 
     You will also need to [set up vcpkg](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-cmd#1---set-up-vcpkg). You only need to follow `1 - Set up vcpkg` in the guide.
 
     !!! tip
+
         It's recommended to clone vcpkg into a short path such as `C:/src` to avoid potential file path issues.
 
     Run the following command in the vcpkg repository:
+
     === "64-bit"
 
         ```
@@ -70,6 +79,7 @@ git submodule update --remote --init
         ```
 
     Then, add vcpkg to your environment variables by running the following commands in the vcpkg repository:
+
     ```
     set VCPKG_ROOT="%CD%"
     setx VCPKG_ROOT %VCPKG_ROOT%
@@ -127,27 +137,30 @@ git submodule update --remote --init
     | `src`        | Path to `RSDKv3-Decompilation`                           |
 
     !!! question "How do I make a symbolic link?"
+
         You can create a symlink using the appropriate command:
 
         - Windows: `mklink /d "[symlink-name]" "[path]"` (or use [Link Shell Extension](https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html))
         - Linux: `ln -s "[path]" "[symlink-name]"`
 
 ## Compiling
+
 === "Windows"
 
     Enter the following commands in the RSDKv3 decompilation repository directory:
+
     === "64-bit"
 
         ```
-        cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH="%VCPKG_ROOT%/installed/x64-windows-static/"
-        cmake --build build --config release
+        cmake -B build --fresh -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH="%VCPKG_ROOT%/installed/x64-windows-static/"
+        cmake --build build --parallel --config Release
         ```
 
     === "32-bit"
 
         ```
-        cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH="%VCPKG_ROOT%/installed/x86-windows-static/" -A Win32
-        cmake --build build --config release
+        cmake -B build --fresh -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH="%VCPKG_ROOT%/installed/x86-windows-static/" -A Win32
+        cmake --build build --parallel --config Release
         ```
 
     The resulting build will be located somewhere in `build/` depending on your system.
@@ -157,9 +170,10 @@ git submodule update --remote --init
 === "Linux"
 
     Enter the following commands in the RSDKv3 decompilation repository directory:
+
     ```
-    cmake -B build -DCMAKE_BUILD_TYPE=Release
-    cmake --build build --config release
+    cmake -B build --fresh
+    cmake --build build --parallel --config Release
     ```
 
     The resulting build will be located somewhere in `build/` depending on your system.
@@ -173,7 +187,9 @@ git submodule update --remote --init
     Open `RSDKv3-Decompilation/android/` in Android Studio, install the NDK and everything else that it asks for, and build.
 
 ## Build Flags
+
 !!! warning
+
     These build flags modify certain aspects of the decomp; only use these if you know what you're doing!
 
 | Flag                             | Description                                                                                                                                                                                                         | Value Type           | Default Value |
@@ -189,6 +205,7 @@ git submodule update --remote --init
 ### CMake error: "Cannot find source file" { id="cmake-cannot-find-source-file" }
 
 You did not clone the repository recursively, meaning the submodules are missing. You can get them by running the following command in the `RSDKv3-Decompilation` directory:
+
 ```
 git submodule update --remote --init
 ```
@@ -200,3 +217,9 @@ This error occurs if your path is long enough to build, but too long to rebuild.
 ### Android Studio error: "Interrupt/exception caught (code = 0xc0000005)" { id="android-exception-code-05" }
 
 This error occurs if your path is too long. Try moving the repository to a directory with a shorter path, such as a `GitHub` folder located in the root of the drive.
+
+## FAQ
+
+### I've built the decomp in the past and would like to rebuild it with the latest changes. How do I do this? { id="update-build" }
+
+If you still have all of the dependencies and other prerequisites for building the decompilation installed, you can run the command `git pull` in the cloned decompilation repository and then follow the [Compiling](#compiling) steps to update and rebuild the decompilation. If you don't have the prerequisites installed, you will have to start over from the beginning.

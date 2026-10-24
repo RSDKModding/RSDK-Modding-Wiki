@@ -11,12 +11,14 @@ In addition, refer to these warnings depending on the platform you are compiling
 === "Windows"
 
     !!! warning
+
         Make sure to use Command Prompt when typing commands instead of PowerShell, as PowerShell is known to cause issues.
 
 === "Linux"
 
-    !!! warning "Notice for Steam Deck users"
-        Due to how SteamOS handles packages, building the decompilation on the Steam Deck is highly difficult and not recommended. Instead, consider building it on another Arch Linux device and using that build on the Steam Deck.
+    !!! warning "Notice for SteamOS users"
+
+        Due to how SteamOS handles packages, building the decompilation on devices running SteamOS (such as the Steam Deck) is highly difficult and not recommended. Instead, consider compiling a Windows build and running it on SteamOS using Proton.
 
 === "Nintendo Switch"
 
@@ -27,11 +29,13 @@ In addition, refer to these warnings depending on the platform you are compiling
     TODO
 
 ## Get the source code
+
 **DO NOT** download the source code ZIP archive from GitHub, as they do not include the submodules required to build the decompilation.
 
 Instead, you will need to clone the repository using Git, which you can get [here](https://git-scm.com/downloads).
 
 Clone the repo **recursively** by running this command in the target directory:
+
 === "RSDKv5 + Sonic Mania"
 
     ```
@@ -39,9 +43,11 @@ Clone the repo **recursively** by running this command in the target directory:
     ```
 
     !!! warning
+
         **DO NOT** clone the repository in a Windows user directory. This includes folders such as Documents, Downloads, and the Desktop. These directories are known to cause issues when building. It's recommended to instead clone the repo somewhere in a `GitHub` folder located in the root of the C drive, or another drive entirely if possible.
 
     Then, run this command inside of the repository to ensure RSDKv5 is up-to-date:
+
     ```
     git submodule update --remote --init
     ```
@@ -53,6 +59,7 @@ Clone the repo **recursively** by running this command in the target directory:
     ```
 
     !!! warning
+
         **DO NOT** clone the repository in a Windows user directory. This includes folders such as Documents, Downloads, and the Desktop. These directories are known to cause issues when building. It's recommended to instead clone the repo somewhere in a `GitHub` folder located in the root of the C drive, or another drive entirely if possible.
 
 If you'd like to update the cloned repository, you can do so by running these commands in it:
@@ -62,6 +69,7 @@ git submodule update --remote --init
 ```
 
 ## Getting dependencies
+
 === "Windows"
 
     [Install CMake](https://cmake.org/download/). **Make sure to enable the feature to add CMake to the system PATH during the installation.**
@@ -69,14 +77,17 @@ git submodule update --remote --init
     To handle dependencies, you'll need to install [Visual Studio Community](https://visualstudio.microsoft.com/downloads/) with the `Desktop development with C++` workload. If you already have Visual Studio installed, you can manage your installed workloads by opening Visual Studio Installer from the Start Menu and clicking the `Modify` button next to your Visual Studio installation.
 
     !!! warning
+
         An installation of Visual Studio with the `Desktop development with C++` workload uses around 8 GB of storage space. Make sure you have the necessary space on your drive before proceeding.
 
     You will also need to [set up vcpkg](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-cmd#1---set-up-vcpkg). You only need to follow `1 - Set up vcpkg` in the guide.
 
     !!! tip
+
         It's recommended to clone vcpkg into a short path such as `C:/src` to avoid potential file path issues.
 
     Run the following command in the vcpkg repository:
+
     === "64-bit"
 
         ```
@@ -90,6 +101,7 @@ git submodule update --remote --init
         ```
 
     Then, add vcpkg to your environment variables by running the following commands in the vcpkg repository:
+
     ```
     set VCPKG_ROOT="%CD%"
     setx VCPKG_ROOT %VCPKG_ROOT%
@@ -132,6 +144,7 @@ git submodule update --remote --init
 === "Nintendo Switch"
 
     [Set up devKitPro](https://devkitpro.org/wiki/Getting_Started), then run the following command:
+
     ```
     (dkp-)pacman -Syuu switch-dev switch-libogg switch-libtheora switch-sdl2 switch-glad
     ```
@@ -152,33 +165,36 @@ git submodule update --remote --init
 
         Navigate to `RSDKv5-Decompilation/android/app/jni` and create the symbolic links in the following table in that directory:
 
-    | Symlink Name                         | Path                                                                                |
-    | ------------------------------------ | ----------------------------------------------------------------------------------- |
-    | `Game`                               | Path to `Sonic-Mania-Decompilation` (or any other game you'd like to build)         |
-    | Name of any mod(s) you'd like to add | Path to the directory for the mod's code containing a `CMakeLists.txt` file         |
+    | Symlink Name                         | Path                                                                        |
+    | ------------------------------------ | --------------------------------------------------------------------------- |
+    | `Game`                               | Path to `Sonic-Mania-Decompilation` (or any other game you'd like to build) |
+    | Name of any mod(s) you'd like to add | Path to the directory for the mod's code containing a `CMakeLists.txt` file |
 
     !!! question "How do I make a symbolic link?"
+
         You can create a symlink using the appropriate command:
 
         - Windows: `mklink /d "[symlink-name]" "[path]"` (or use [Link Shell Extension](https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html))
         - Linux: `ln -s "[path]" "[symlink-name]"`
 
 ## Compiling
+
 === "Windows"
 
     Enter the following commands in the RSDKv5/Mania decompilation repository directory:
+
     === "64-bit"
 
         ```
-        cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static
-        cmake --build build --config release
+        cmake -B build --fresh -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static
+        cmake --build build --parallel --config Release
         ```
 
     === "32-bit"
 
         ```
-        cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -A Win32
-        cmake --build build --config release
+        cmake -B build --fresh -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -A Win32
+        cmake --build build --parallel --config Release
         ```
 
     The resulting build(s) will be located somewhere in `build/` depending on your system. If you built RSDKv5 and Sonic Mania together, Sonic Mania (`Game.dll`) will be found in `build` while RSDKv5 (`RSDKv5(U).exe`) will be found in `build/dependencies/RSDKv5`.
@@ -188,9 +204,10 @@ git submodule update --remote --init
 === "Linux"
 
     Enter the following commands in the RSDKv5/Mania decompilation repository directory:
+
     ```
-    cmake -B build -DCMAKE_BUILD_TYPE=Release
-    cmake --build build --config release
+    cmake -B build --fresh
+    cmake --build build --parallel --config Release
     ```
 
     The resulting build(s) will be located somewhere in `build/` depending on your system. If you built RSDKv5 and Sonic Mania together, Sonic Mania (`libGame.so`) will be found in `build` while RSDKv5 (`RSDKv5(U)`) will be found in `build/dependencies/RSDKv5`.
@@ -200,9 +217,10 @@ git submodule update --remote --init
 === "Nintendo Switch"
 
     Enter the following commands in the RSDKv5/Mania decompilation repository directory:
+
     ```
-    cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/opt/devkitpro/cmake/Switch.cmake
-    cmake --build build --config release
+    cmake -B build --fresh -DCMAKE_TOOLCHAIN_FILE=/opt/devkitpro/cmake/Switch.cmake
+    cmake --build build --parallel --config Release
     ```
 
     The resulting build will be located somewhere in `build/` depending on your system.
@@ -222,21 +240,25 @@ git submodule update --remote --init
         Open `RSDKv5-Decompilation/android/` in Android Studio, install the NDK and everything else that it asks for, and build.
 
 ## Build Flags
+
 !!! warning
+
     These build flags modify certain aspects of the decomps; only use these if you know what you're doing!
 
 ### RSDKv5
+
 | Flag                      | Description                                                                                                                                                                                                             | Value Type                             | Default Value                                                 |
 | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------- |
 | **RETRO_REVISION**        | The RSDKv5 revision to compile. Datapacks for certain versions of Sonic Mania only work on older revisions. Set to `3` to build RSDKv5U.                                                                                | Integer (See [Revisions](#revisions))  | `3`                                                           |
 | **RETRO_DISABLE_PLUS**    | Disables access to content from Sonic Mania and Sonic Origins' Plus DLC. [**Any publicly distributed builds must have this flag enabled.**](https://github.com/RSDKModding/RSDKv5-Decompilation/blob/master/LICENSE.md) | Boolean                                | `off`                                                         |
 | **RETRO_MOD_LOADER**      | Enables the ability the load mods and certain features related to them.                                                                                                                                                 | Boolean                                | `on`                                                          |
 | **RETRO_MOD_LOADER_VER**  | The revision of the mod loader to build.                                                                                                                                                                                | Integer (`1`, `2`, or `3`)             | `3`                                                           |
-| **RETRO_MOD_LOADER_HOOK** | Enable public function hook functionality in the mod loader. Requires mod loader version 3.                                                                                                                             | Boolean                                | `on` on Windows, Linux, and Android, `off` on other platforms |
+| **RETRO_MOD_LOADER_HOOK** | Enable public function hook functionality in the mod loader. Requires mod loader version 3 or higher.                                                                                                                   | Boolean                                | `on` on Windows, Linux, and Android, `off` on other platforms |
 | **RETRO_DISABLE_LOG**     | Disables the log. Not recommended unless it impacts performance.                                                                                                                                                        | Boolean                                | `off`                                                         |
 | **RETRO_SUBSYSTEM**       | The backend used to handle rendering, controller inputs, etc.                                                                                                                                                           | String (See [Subsystems](#subsystems)) | `DX9` on Windows, `OGL` on other platforms                    |
 
 #### Revisions
+
 | Flag Value | Revision                     |
 | ---------- | ---------------------------- |
 | **1**      | REV01 (Sonic Mania Pre-Plus) |
@@ -244,25 +266,28 @@ git submodule update --remote --init
 | **3**      | REV0U (RSDKv5U)              |
 
 #### Subsystems
-| Flag Value   | Subsystem                 |
-| ------------ | ------------------------- |
-| **DX9**      | DirectX 9 (Windows Only)  |
-| **DX11**     | DirectX 11 (Windows Only) |
-| **OGL**      | OpenGL                    |
-| **SDL2**     | SDL2                      |
-| **VK**       | Vulkan                    |
+
+| Flag Value | Subsystem                 |
+| ---------- | ------------------------- |
+| **DX9**    | DirectX 9 (Windows Only)  |
+| **DX11**   | DirectX 11 (Windows Only) |
+| **OGL**    | OpenGL                    |
+| **SDL2**   | SDL2                      |
+| **VK**     | Vulkan                    |
 
 ### Sonic Mania
+
 | Flag                    | Description                                                                                               | Value Type                                    | Default Value                                      |
 | ----------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------- | -------------------------------------------------- |
 | **WITH_RSDK**           | Builds RSDKv5 alongside Sonic Mania.                                                                      | Boolean                                       | `on`                                               |
 | **GAME_STATIC**         | Builds both RSDKv5 and Sonic Mania into one executable. Has no effect if `WITH_RSDK` is disabled.         | Boolean                                       | `off` on Windows or Linux, `on` on other platforms |
 | **MANIA_FIRST_RELEASE** | Builds the initial console release of Sonic Mania.                                                        | Boolean                                       | `off`                                              |
 | **MANIA_PRE_PLUS**      | Builds the last release of Sonic Mania before the Plus update.                                            | Boolean                                       | `off`                                              |
-| **GAME_INCLUDE_EDITOR** | Includes code for use in editors such as [RetroED](/Tools/RetroED/README.md).                             | Boolean                                       | `on`                                               |
+| **GAME_INCLUDE_EDITOR** | Includes code for use in editors such as [RetroED](../../../Tools/RetroED/index.md).                      | Boolean                                       | `on`                                               |
 | **GAME_VERSION**        | The version of the game to build. Has no effect if `MANIA_FIRST_RELEASE` or `MANIA_PRE_PLUS` are enabled. | Integer (See [Game Versions](#game-versions)) | `6`                                                |
 
 #### Game Versions
+
 | Flag Value | Game Version                                        |
 | ---------- | --------------------------------------------------- |
 | **0**      | 1.00 - 1.02 (Initial console release)               |
@@ -273,7 +298,7 @@ git submodule update --remote --init
 
 ## Troubleshooting
 
-### CMake error: "Cannot find source file" { id="cannot-find-source-file" }
+### CMake error: "Cannot find source file" { id="cmake-cannot-find-source-file" }
 
 === "RSDKv5 + Sonic Mania"
 
@@ -300,3 +325,17 @@ git submodule update --remote --init
 ### Android Studio error: "Interrupt/exception caught (code = 0xc0000005)" { id="android-exception-code-05" }
 
 This error occurs if your path is too long. Try moving the repository to a directory with a shorter path, such as a `GitHub` folder located in the root of the drive.
+
+## FAQ
+
+### I've built the decomp in the past and would like to rebuild it with the latest changes. How do I do this? { id="update-build" }
+
+If you still have all of the dependencies and other prerequisites for building the decompilation installed, you can run the command `git pull` in the cloned decompilation repository and then follow the [Compiling](#compiling) steps to update and rebuild the decompilation. If you don't have the prerequisites installed, you will have to start over from the beginning.
+
+### Which subsystem should I use? { id="which-subsystem" }
+
+If you're building for Windows and would like to use a DirectInput (non-Xbox) controller, you should use OpenGL. Otherwise, just use the default subsystem.
+
+### What's the difference between RSDKv5 and RSDKv5U? { id="v5-vs-v5u" }
+
+RSDKv5U adds compatibility for playing RSDKv3 (i.e. Sonic CD) and RSDKv4 (i.e. Sonic 1 & 2) games, including support for local multiplayer. The v5 side of the engine also recieves minor changes, such as altered collision and additional functionality.

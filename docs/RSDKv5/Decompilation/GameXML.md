@@ -1,6 +1,6 @@
 # GameXML
 
-GameXML is a modding feature included in the [RSDKv5(U) Decompilation](README.md). It uses a file named `Game.xml` to add or replace various elements of the [GameConfig](TODO) of a game without directly modifying the `GameConfig.bin` file, allowing for better compatibility between mods that require modifying the contents of said file.
+GameXML is a modding feature included in the [RSDKv5(U) Decompilation](index.md). It uses a file named `Game.xml` to add or replace various elements of the GameConfig of a game without directly modifying the `GameConfig.bin` file, allowing for better compatibility between mods that require modifying the contents of said file.
 
 This feature is only available if the decompilation is built with the Mod Loader, which is included by default when building.
 
@@ -10,7 +10,7 @@ To use GameXML, add a file named `Game.xml` in the `Game` directory of the Data 
 
 GameXML, as the name and file extension suggest, uses [Extensible Markup Language](https://en.wikipedia.org/wiki/XML) to store and load information. All elements in `Game.xml` must be contained within a root element named `game`, like so:
 
-```xml
+``` xml
 <game>
 	<!-- elements go here -->
 </game>
@@ -22,7 +22,7 @@ You only need to include elements that you are adding/replacing.
 
 The game title that appears in the window title and in the [Dev Menu](../Overview/DevMenu.md) can be overwritten with the `title` element. The `name` attribute contains the name to replace the game title with.
 
-```xml
+``` xml
 <title name="My Game" />
 ```
 
@@ -44,7 +44,7 @@ This element uses the following attributes:
 
 The text value of the element should contain the colors to overwrite the original colors with, starting at the index specified in the `start` attribute. Colors can be defined as either hex (`FFFFFF` or `#FFFFFF`, letters are case-insensitive) or an RGB triplet (`(255, 255, 255)` or `(255 255 255)`).
 
-```xml
+``` xml
 <palette>
 	<colors bank="0" start="2">202080 #4040a0 (96, 96, 192) (128 128 224)</colors>
 </palette>
@@ -66,7 +66,7 @@ This element uses the following attributes:
 
 :   The red, green, and blue values in the RGB value for the color to use.
 
-```xml
+``` xml
 <palette>
 	<color bank="0" index="2" r="32" g="32" b="128" />
 	<color bank="0" index="3" r="64" g="64" b="160" />
@@ -79,7 +79,7 @@ This element uses the following attributes:
 
 Global objects can be added using the `objects` element. This element should contain an `object` child element for each global object to add, with the `name` attribute containing the name of the object.
 
-```xml
+``` xml
 <objects>
 	<object name="MyObject" />
 </objects>
@@ -89,7 +89,7 @@ Global objects can be added using the `objects` element. This element should con
 
 Sound effects can be added using the `sounds` element. This element should contain a `soundfx` child element for each sound effect to add, with the `path` attribute containing the path to the sound effect file.
 
-```xml
+``` xml
 <sounds>
 	<soundfx path="Global/MySFX.wav" />
 	<soundfx path="Global/OtherSFX.wav" />
@@ -118,7 +118,7 @@ Stages can be added using the `category` element. The `name` attribute of this f
 
 :   The stage filter to use. Has no effect on REV01.
 
-```xml
+``` xml
 <category name="My Stages">
 	<stage name="MY STAGE" folder="MyStage" id="1" filter="0" />
 </category>

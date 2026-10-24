@@ -1,8 +1,13 @@
 # settings.ini
 
-settings.ini is the configuration file for the [RSDKv4 Decompilation](README.md). This page lists all of the available options.
+settings.ini is the configuration file for the [RSDKv4 Decompilation](index.md). This page lists all of the available options.
+
+!!! note
+
+    When editing the file, make sure that the decompilation is not running. If it is, any changes made to the file will be reverted when closing the decomp.
 
 ## Dev
+
 | Setting Name         | Description                                                                                                         | Value Type                                                          | Default Value |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ------------- |
 | **DevMenu**          | Determines if the [Dev Menu] is enabled.                                                                            | Boolean                                                             | `false`       |
@@ -24,11 +29,8 @@ The following options aren't written to the file by default, but can be added ma
 | **DataFile3** | The filename of the third datapack to load.  | String     |
 | **DataFile4** | The filename of the fourth datapack to load. | String     |
 
-  [Dev Menu]: ../Overview/DevMenu.md
-
-[^1]: StartingCategory, StartingScene, and StartingPlayer must all be set to `255` in order for the [start menu] to load.
-
 ### StartingSaveFile Options
+
 | Setting Value | Save Slot   |
 | ------------- | ----------- |
 | **0**         | No Save     |
@@ -39,16 +41,16 @@ The following options aren't written to the file by default, but can be added ma
 | **255**       | Disable     |
 
 ## Game
-| Setting Name             | Description                                                                                                                                     | Value Type                                                            | Default Value |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | ------------- |
-| **Language**             | The language the game will use.                                                                                                                 | Integer (See [Languages](#languages))                                 | `0`           |
-| **GameType**             | Determines if scripts will load Standalone (`0`) or Origins (`1`) code.                                                                         | Integer                                                               | `0`           |
-| **SkipStartMenu**        | When enabled, bypasses the [start menu] and instead loads the first scene in the Presentation stage list. This does not disable the pause menu. | Boolean                                                               | `false`       |
-| **DisableFocusPause**    | Determines the pausing behavior when focus is lost.                                                                                             | Integer (See [DisableFocusPause Options](#disablefocuspause-options)) | `0`           |
 
-  [start menu]: TODO
+| Setting Name          | Description                                                                                                                                   | Value Type                                                            | Default Value |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | ------------- |
+| **Language**          | The language the game will use.                                                                                                               | Integer (See [Languages](#languages))                                 | `0`           |
+| **GameType**          | Determines if scripts will load Standalone (`0`) or Origins (`1`) code.                                                                       | Integer                                                               | `0`           |
+| **SkipStartMenu**     | When enabled, bypasses the start menu and instead loads the first scene in the Presentation stage list. This does not disable the pause menu. | Boolean                                                               | `false`       |
+| **DisableFocusPause** | Determines the pausing behavior when focus is lost.                                                                                           | Integer (See [DisableFocusPause Options](#disablefocuspause-options)) | `0`           |
 
 ### Languages
+
 | Setting Value | Language              |
 | ------------- | --------------------- |
 | **0**         | English               |
@@ -64,6 +66,7 @@ The following options aren't written to the file by default, but can be added ma
 | **10**        | Chinese (Simplified)  |
 
 ### DisableFocusPause Options
+
 | Setting Value | Option                                     |
 | ------------- | ------------------------------------------ |
 | **0**         | Game focus enabled, engine focus enabled   |
@@ -72,24 +75,27 @@ The following options aren't written to the file by default, but can be added ma
 | **3**         | Game focus disabled, engine focus disabled |
 
 ## Network
-| Setting Name  | Description                                                          | Value Type | Default Value |
-| ------------- | -------------------------------------------------------------------- | ---------- | ------------- |
-| **Host**      | The host (IP address or "URL") that the game will try to connect to. | String     | `127.0.0.1`   |
-| **Port**      | The port the game will try to connect to.                            | Integer    | `50`          |
+
+| Setting Name | Description                                                          | Value Type | Default Value |
+| ------------ | -------------------------------------------------------------------- | ---------- | ------------- |
+| **Host**     | The host (IP address or "URL") that the game will try to connect to. | String     | `127.0.0.1`   |
+| **Port**     | The port the game will try to connect to.                            | Integer    | `50`          |
 
 ## Window
-| Setting Name         | Description                                                                                                         | Value Type | Default Value |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------- | ---------- | ------------- |
-| **FullScreen**       | Determines if the game will be in fullscreen.                                                                       | Boolean    | `false`       |
-| **Borderless**       | Determines if the game window will be borderless.                                                                   | Boolean    | `false`       |
-| **VSync**            | Determines if VSync will be active. **Not recommended with refresh rates above 60 Hz.**                             | Boolean    | `false`       |
-| **ScalingMode**      | The scaling mode. `0` for Nearest Neighbor, `1` for Linear.                                                         | Integer    | `0`           |
-| **WindowScale**      | The multiplier of the scale of the window.                                                                          | Integer    | `2`           |
-| **ScreenWidth**      | The width of the game's base screen. This does not account for the window scale. This setting is ignored on mobile. | Integer    | `424`         |
-| **RefreshRate**      | The refresh rate used for the screen idle dim.                                                                      | Integer    | `60`          |
-| **DimLimit**         | The amount of time, in seconds, that it takes for the screen idle dim to activate. `-1` will disable the dim.       | Integer    | `300`         |
+
+| Setting Name    | Description                                                                                                         | Value Type | Default Value |
+| --------------- | ------------------------------------------------------------------------------------------------------------------- | ---------- | ------------- |
+| **FullScreen**  | Determines if the game will be in fullscreen.                                                                       | Boolean    | `false`       |
+| **Borderless**  | Determines if the game window will be borderless.                                                                   | Boolean    | `false`       |
+| **VSync**       | Determines if VSync will be active. **Not recommended with refresh rates above 60 Hz.**                             | Boolean    | `false`       |
+| **ScalingMode** | The scaling mode. `0` for Nearest Neighbor, `1` for Linear.                                                         | Integer    | `0`           |
+| **WindowScale** | The multiplier of the scale of the window.                                                                          | Integer    | `2`           |
+| **ScreenWidth** | The width of the game's base screen. This does not account for the window scale. This setting is ignored on mobile. | Integer    | `424`         |
+| **RefreshRate** | The refresh rate used for the screen idle dim.                                                                      | Integer    | `60`          |
+| **DimLimit**    | The amount of time, in seconds, that it takes for the screen idle dim to activate. `-1` will disable the dim.       | Integer    | `300`         |
 
 ## Audio
+
 | Setting Name  | Description                                                   | Value Type | Default Value |
 | ------------- | ------------------------------------------------------------- | ---------- | ------------- |
 | **BGMVolume** | The volume of background music. Range is from `0.0` to `1.0`. | Float      | `1.000000`    |
@@ -98,9 +104,10 @@ The following options aren't written to the file by default, but can be added ma
 ## Keyboard 1
 
 !!! note
+
     Despite what the name of this category may imply, RSDKv4 does not support more than one local player.
 
-All settings for this category take an integer value based on SDL's Scancodes. See [this lookup table](https://wiki.libsdl.org/SDL2/SDLScancodeLookup) for a list of usable keys and their corresponding decimal values.
+All settings for this category take an integer value based on SDL's Scancodes. See [this lookup table](https://wiki.libsdl.org/SDL2/SDL_Scancode) for a list of usable keys and their corresponding decimal values.
 
 | Setting Name | Default Value      |
 | ------------ | ------------------ |
@@ -120,6 +127,7 @@ All settings for this category take an integer value based on SDL's Scancodes. S
 ## Controller 1
 
 !!! note
+
     Despite what the name of this category may imply, RSDKv4 does not support more than one local player.
 
 These controller mapping settings take integer values. See [Controller Buttons](#controller-buttons) for a list of buttons and their corresponding IDs.
@@ -149,6 +157,7 @@ These deadzone settings take floats values. Range is from `0.0` to `1.0`.
 | **RTriggerDeadzone** | `0.300000`    |
 
 ### Controller Buttons
+
 | Setting Value | Controller Button                                                                                                           |
 | ------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | **0**         | A                                                                                                                           |
@@ -182,3 +191,7 @@ These deadzone settings take floats values. Range is from `0.0` to `1.0`.
 | **29**        | Right Stick Down                                                                                                            |
 | **30**        | Right Stick Left                                                                                                            |
 | **31**        | Right Stick Right                                                                                                           |
+
+[^1]: StartingCategory, StartingScene, and StartingPlayer must all be set to `255` in order for the start menu to load.
+
+[Dev Menu]: ../Overview/DevMenu.md

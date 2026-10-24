@@ -1,9 +1,9 @@
 # Get16x16TileInfo
 
-## Description
 Gets the value for `infoType` from the tile at `tileX`, `tileY` and stores it in `store`.
 
 ## Parameters
+
 `store`
 
 :   The variable that will store the tile's specified `infoType` data.
@@ -31,14 +31,17 @@ Gets the value for `infoType` from the tile at `tileX`, `tileY` and stores it in
 :   - 8 (`TILEINFO_ANGLEB`)
 
 ## Return Value
+
 Sets `store` to the chunk ID.
 
 ## Syntax
+
 ```
 Get16x16TileInfo(var store, int tileX, int tileY, int infoType)
 ```
 
 ## Example
+
 ```
 Get16x16TileInfo(object.value2, 25, 24, 8)
 ```

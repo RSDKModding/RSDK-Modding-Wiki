@@ -1,9 +1,9 @@
 # BoxCollisionTest
 
-## Description
 Checks for collision of an object with another, using the hitbox values passed.
 
 ## Parameters
+
 `collisionType`
 
 :   Type of collision with the object. Can be `C_TOUCH`, `C_SOLID`, `C_SOLID2`, or `C_PLATFORM`.
@@ -25,6 +25,7 @@ Checks for collision of an object with another, using the hitbox values passed.
 :   The values for the target's hitbox.
 
 ## Return Value
+
 If there wasn't any collision, `checkResult` will be `false`.
 Depending on the `collisionType` used:
 
@@ -33,11 +34,13 @@ Depending on the `collisionType` used:
 - `C_PLATFORM`: `checkResult` will only be `true` if the top of the object was collided with.
 
 ## Syntax
+
 ```
 BoxCollisionTest(int collisionType, int thisObject, int thisLeft, int thisTop, int thisRight, int thisBottom, int otherObject, int otherLeft, int otherTop, int otherRight, int otherBottom)
 ```
 
 ## Example
+
 ```
 BoxCollisionTest(C_TOUCH, object.entityPos, -24, -8, 24, 8, object[0].entityPos, C_BOX, C_BOX, C_BOX, C_BOX)
 ```
