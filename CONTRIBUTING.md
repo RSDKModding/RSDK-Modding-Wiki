@@ -31,7 +31,7 @@ The served webpage will automatically refresh whenever you make changes to the f
 
 ### Formatting
 
-Documents in this wiki use the default [formatting](https://zensical.org/docs/studio/write/formatting/) rules defined in Zensical Studio. If you're using Studio, you can automatically format the current file you're writing by pressing Shift+Alt+F or by right clicking and selecting `Format Document`.
+Documents in this wiki use the default [formatting](https://zensical.org/docs/studio/write/formatting/) rules defined in Zensical Studio. If you're using Studio, you can automatically format the current file you're writing by pressing Shift+Alt+F or by right clicking and selecting `Format Document`. Make sure to preview the page and check that nothing is broken after doing so.
 
 We currently don't strictly enforce formatting on documents in PRs, however this may change whenever a linter is introduced to Zensical.
 
