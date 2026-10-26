@@ -88,6 +88,11 @@ plugins:
         - Decompilations
         - RetroED
         - Wiki
+        - RSDKv1
+        - RSDKv2
+        - RSDKv3
+        - RSDKv4
+        - RSDKv5
   - group:
       enabled: !ENV [CI, false]
       plugins:
@@ -648,6 +653,8 @@ nav:
       - Extracting a Datapack: Guides/RetroED/ExtractDatapack.md
       - Linking Game Logic: Guides/RetroED/GameLogicLink.md
       - Using S3KOEditorLink: Guides/RetroED/S3KOEditorLink.md
+
+  - Blog: blog/index.md
 
 extra:
   social:

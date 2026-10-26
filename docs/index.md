@@ -80,13 +80,12 @@ Welcome to the RSDK Modding Wiki, your one-stop shop for documentation, resource
     ---
 
     Guides and tutorials for Retro Engine modding
-<!-- 
+
 -   :material-notebook: **[Blog](blog/index.md)**
 
     ---
 
     News from the RSDKModding Team
--->
 
 </div>
 
