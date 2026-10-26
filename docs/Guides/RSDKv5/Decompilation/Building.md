@@ -1,4 +1,4 @@
-# Building the RSDKv5 & Sonic Mania Decompilations
+# Building the RSDKv5 Decompilation
 
 The RSDKv5 and Sonic Mania decompilations use [CMake](https://cmake.org/), a versatile building system that supports many different compilers and platforms.
 
@@ -63,6 +63,7 @@ Clone the repo **recursively** by running this command in the target directory:
         **DO NOT** clone the repository in a Windows user directory. This includes folders such as Documents, Downloads, and the Desktop. These directories are known to cause issues when building. It's recommended to instead clone the repo somewhere in a `GitHub` folder located in the root of the C drive, or another drive entirely if possible.
 
 If you'd like to update the cloned repository, you can do so by running these commands in it:
+
 ```
 git pull
 git submodule update --remote --init
@@ -186,14 +187,14 @@ git submodule update --remote --init
     === "64-bit"
 
         ```
-        cmake -B build --fresh -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static
+        cmake -B build --fresh -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static
         cmake --build build --parallel --config Release
         ```
 
     === "32-bit"
 
         ```
-        cmake -B build --fresh -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -A Win32
+        cmake -B build --fresh -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -A Win32
         cmake --build build --parallel --config Release
         ```
 
@@ -206,7 +207,7 @@ git submodule update --remote --init
     Enter the following commands in the RSDKv5/Mania decompilation repository directory:
 
     ```
-    cmake -B build --fresh
+    cmake -B build --fresh -DCMAKE_BUILD_TYPE=Release
     cmake --build build --parallel --config Release
     ```
 
@@ -219,7 +220,7 @@ git submodule update --remote --init
     Enter the following commands in the RSDKv5/Mania decompilation repository directory:
 
     ```
-    cmake -B build --fresh -DCMAKE_TOOLCHAIN_FILE=/opt/devkitpro/cmake/Switch.cmake
+    cmake -B build --fresh -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/opt/devkitpro/cmake/Switch.cmake
     cmake --build build --parallel --config Release
     ```
 
@@ -249,7 +250,7 @@ git submodule update --remote --init
 
 | Flag                      | Description                                                                                                                                                                                                             | Value Type                             | Default Value                                                 |
 | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------- |
-| **RETRO_REVISION**        | The RSDKv5 revision to compile. Datapacks for certain versions of Sonic Mania only work on older revisions. Set to `3` to build RSDKv5U.                                                                                | Integer (See [Revisions](#revisions))  | `3`                                                           |
+| **RETRO_REVISION**        | The RSDKv5 revision to compile. Certain games or versions of games require a specific revision to work.                                                                                                                 | Integer (See [Revisions](#revisions))  | Depends on repository; `3` for `RSDKv5-Decompilation`         |
 | **RETRO_DISABLE_PLUS**    | Disables access to content from Sonic Mania and Sonic Origins' Plus DLC. [**Any publicly distributed builds must have this flag enabled.**](https://github.com/RSDKModding/RSDKv5-Decompilation/blob/master/LICENSE.md) | Boolean                                | `off`                                                         |
 | **RETRO_MOD_LOADER**      | Enables the ability the load mods and certain features related to them.                                                                                                                                                 | Boolean                                | `on`                                                          |
 | **RETRO_MOD_LOADER_VER**  | The revision of the mod loader to build.                                                                                                                                                                                | Integer (`1`, `2`, or `3`)             | `3`                                                           |
@@ -334,8 +335,8 @@ If you still have all of the dependencies and other prerequisites for building t
 
 ### Which subsystem should I use? { id="which-subsystem" }
 
-If you're building for Windows and would like to use a DirectInput (non-Xbox) controller, you should use OpenGL. Otherwise, just use the default subsystem.
+If you're building for Windows and would like to use a DirectInput (non-Xbox) controller, you should use OpenGL. Otherwise, unless you know what you're doing, just use the default subsystem.
 
 ### What's the difference between RSDKv5 and RSDKv5U? { id="v5-vs-v5u" }
 
-RSDKv5U adds compatibility for playing RSDKv3 (i.e. Sonic CD) and RSDKv4 (i.e. Sonic 1 & 2) games, including support for local multiplayer. The v5 side of the engine also recieves minor changes, such as altered collision and additional functionality.
+RSDKv5U adds compatibility for playing RSDKv3 (i.e. Sonic CD) and RSDKv4 (i.e. Sonic 1 & 2) games, including support for local multiplayer. The v5 side of the engine also recieves minor changes, such as altered collision and additional functionality. Sonic Mania does not work with RSDKv5U due to issues with collision and the way v5U loads static object data.

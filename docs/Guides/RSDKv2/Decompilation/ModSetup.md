@@ -37,4 +37,4 @@ To control the menu, press :material-gamepad-round-up: or :material-gamepad-roun
 
 !!! question "How do I change mod priority?"
 
-    Mod priority is determined based on the order of the mods in the Mod List; mods get loaded from bottom to top. You can shift a mod up or down in the Mod List by holding :material-alpha-c-circle:{ .controller-c } while pressing :material-gamepad-round-up: or :material-gamepad-round-down:.
+    Mod priority is determined based on the order of the mods in the Mod List; mods get loaded from bottom to top. You can shift a mod up or down in the Mod List by holding :material-alpha-c-circle:{ .controller-c } while pressing :material-gamepad-round-up: or :material-gamepad-round-down:. If you don't have access to a controller or keyboard, you will need to manually edit the order in the `modconfig.ini` file in the `mods` folder.

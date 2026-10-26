@@ -1,18 +1,31 @@
-# Setting Up the RSDKv5 & Sonic Mania Decompilations
+# Setting Up the RSDKv5 Decompilation
 
 ## Prerequisites
 
--   A build of the RSDKv5 Decompilation for the target platform. You can get one by:
-    - [Building the source code](Building.md) (Recommended)
-    - [Downloading the latest release](https://github.com/RSDKModding/RSDKv5-Decompilation/releases/latest) (Mania/Origins Plus DLC will not be accessible)
-    - [Downloading an autobuild](https://github.com/RSDKModding/RSDKv5-Decompilation/actions) (Must be signed into GitHub to download, Mania/Origins Plus DLC will not be accessible)
--   A build of the Sonic Mania Decompilation for the target platform. You can get one by:
-    - [Building the source code](Building.md) (Recommended)
-    - [Downloading the latest release](https://github.com/RSDKModding/Sonic-Mania-Decompilation/releases/latest)
-    - [Downloading an autobuild](https://github.com/RSDKModding/Sonic-Mania-Decompilation/actions) (Must be signed into GitHub to download)
--   [A datapack (Data.rsdk) for Sonic Mania](../../Games/SonicMania/Datapack.md)
-    - The decompilations are not compatible with datapacks from the Netflix Games releases of the game.
--   [Visual C++ Redistributables](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-microsoft-visual-c-redistributable-version) (Windows only)
+=== "Sonic Mania"
+
+    -   A build of the RSDKv5 Decompilation for the target platform. Make sure you use a build of standalone v5, not v5U. You can get one by:
+        - [Building the source code](Building.md) (Recommended)
+        - [Downloading the latest release](https://github.com/RSDKModding/RSDKv5-Decompilation/releases/latest) (Mania Plus DLC will not be accessible)
+        - [Downloading an autobuild](https://github.com/RSDKModding/RSDKv5-Decompilation/actions) (Must be signed into GitHub to download, Mania Plus DLC will not be accessible)
+    -   A build of the Sonic Mania Decompilation for the target platform. You can get one by:
+        - [Building the source code](Building.md) (Recommended)
+        - [Downloading the latest release](https://github.com/RSDKModding/Sonic-Mania-Decompilation/releases/latest)
+        - [Downloading an autobuild](https://github.com/RSDKModding/Sonic-Mania-Decompilation/actions) (Must be signed into GitHub to download)
+    -   [A datapack (Data.rsdk) for Sonic Mania](../../Games/SonicMania/Datapack.md)
+        - The decompilations are not compatible with datapacks from the Netflix Games releases of the game.
+    -   [Visual C++ Redistributables](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-microsoft-visual-c-redistributable-version) (Windows only)
+
+=== "Legacy v3/v4 Game"
+
+    -   A build of the RSDKv5U Decompilation for the target platform. Make sure you use a build of v5U, not standalone v5. You can get one by:
+        - [Building the source code](Building.md) (Recommended)
+        - [Downloading the latest release](https://github.com/RSDKModding/RSDKv5-Decompilation/releases/latest) (Origins Plus DLC will not be accessible)
+        - [Downloading an autobuild](https://github.com/RSDKModding/RSDKv5-Decompilation/actions) (Must be signed into GitHub to download, Origins Plus DLC will not be accessible)
+    -   A datapack for the Sonic Origins version of one of the compatible games:
+        - [Sonic 1 / Sonic 2](../../Games/Sonic1-2/Datapack.md)
+        - [Sonic CD](../../Games/SonicCD/Datapack.md)
+    -   [Visual C++ Redistributables](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-microsoft-visual-c-redistributable-version) (Windows only)
 
 ## Setup
 
@@ -22,21 +35,37 @@
 
         It's highly recommended to [enable file extensions in File Explorer](https://www.thewindowsclub.com/show-file-extensions-in-windows) to reduce the chance of a file being named incorrectly.
 
-    Place the decompilation EXE file (and any included DLL files) in the target directory.
+    === "Sonic Mania"
 
-    !!! warning
+        Place the decompilation EXE file (and any included DLL files) in the target directory.
 
-        **DO NOT** place the decompilation in the directory of an official Mania release. Doing this is known to cause issues.
+        !!! warning
 
-    ![RSDKv5(U).exe](../../../assets/images/Windows/FileExplorer/SonicMania/Setup-EXE.png)
+            **DO NOT** place the decompilation in the directory of an official Mania release. Doing this is known to cause issues.
 
-    Place the `Data.rsdk` and `Game.dll` files in this directory.
+        ![RSDKv5.exe](../../../assets/images/Windows/FileExplorer/SonicMania/Setup-EXE.png)
 
-    ![Data.rsdk and Game.dll](../../../assets/images/Windows/FileExplorer/SonicMania/Setup-RSDK-DLL.png)
+        Place the `Data.rsdk` and `Game.dll` files in this directory.
 
-    !!! tip
+        ![Data.rsdk and Game.dll](../../../assets/images/Windows/FileExplorer/SonicMania/Setup-RSDK-DLL.png)
 
-        If you're not using either DirectX subsystem, it's highly recommended to [install the custom shaders mod](ShadersSetup.md).
+        !!! tip
+
+            If you're not using either DirectX subsystem, it's highly recommended to [install the custom shaders mod](ShadersSetup.md).
+
+    === "Legacy v3/v4 Game"
+
+        Place the decompilation EXE file (and any included DLL files) in the target directory.
+
+        ![RSDKv5U.exe](../../../assets/images/Windows/FileExplorer/Sonic1-2/Setup-EXE-v5U.png)
+
+        Place the datapack in this directory and rename it to `Data.rsdk`, if it isn't named that already.
+
+        ![Data.rsdk](../../../assets/images/Windows/FileExplorer/Sonic1-2/Setup-RSDK-v5U.png)
+
+        !!! tip
+
+            It's highly recommended to [install the custom shaders mod](ShadersSetup.md).
 
 === "Linux"
 

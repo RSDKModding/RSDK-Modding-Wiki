@@ -41,6 +41,7 @@ git clone --recursive https://github.com/RSDKModding/RSDKv3-Decompilation
     **DO NOT** clone the repository in a Windows user directory. This includes folders such as Documents, Downloads, and the Desktop. These directories are known to cause issues when building. It's recommended to instead clone the repo somewhere in a `GitHub` folder located in the root of the C drive, or another drive entirely if possible.
 
 If you'd like to update the cloned repository, you can do so by running these commands in it:
+
 ```
 git pull
 git submodule update --remote --init
@@ -152,14 +153,14 @@ git submodule update --remote --init
     === "64-bit"
 
         ```
-        cmake -B build --fresh -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH="%VCPKG_ROOT%/installed/x64-windows-static/"
+        cmake -B build --fresh -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_PREFIX_PATH="%VCPKG_ROOT%/installed/x64-windows-static/"
         cmake --build build --parallel --config Release
         ```
 
     === "32-bit"
 
         ```
-        cmake -B build --fresh -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH="%VCPKG_ROOT%/installed/x86-windows-static/" -A Win32
+        cmake -B build --fresh -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET=x86-windows-static -DCMAKE_PREFIX_PATH="%VCPKG_ROOT%/installed/x86-windows-static/" -A Win32
         cmake --build build --parallel --config Release
         ```
 
@@ -172,7 +173,7 @@ git submodule update --remote --init
     Enter the following commands in the RSDKv3 decompilation repository directory:
 
     ```
-    cmake -B build --fresh
+    cmake -B build --fresh -DCMAKE_BUILD_TYPE=Release
     cmake --build build --parallel --config Release
     ```
 
