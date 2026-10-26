@@ -1,6 +1,6 @@
 # Contributing
 
-The RSDK Modding Wiki wiki is powered by [Zensical](https://zensical.org/), which uses Markdown files - just like GitHub! One of the best ways to write pages for Zensical sites is to use [Visual Studio Code](https://code.visualstudio.com/) with the [Zensical Studio](https://zensical.org/studio/) extension, which allows you to preview the page you are currently typing by clicking the `Open Preview` button on top of the active editor. To see how your changes look on the full website, you absolutely should setup the website locally by following the instructions in the [Testing](#testing) section.
+The RSDK Modding Wiki is powered by [Zensical](https://zensical.org/), which uses Markdown files - just like GitHub! One of the best ways to write pages for Zensical sites is to use [Visual Studio Code](https://code.visualstudio.com/) with the [Zensical Studio](https://zensical.org/studio/) extension, which allows you to preview the page you are currently typing by clicking the `Open Preview` button on top of the active editor. To see how your changes look on the full website, you absolutely should setup the website locally by following the instructions in the [Testing](#testing) section.
 
 We appreciate every contribution that's made to the wiki, as every single one helps the modding community to grow and make better mods.
 
@@ -38,6 +38,11 @@ We currently don't strictly enforce formatting on documents in PRs, however this
 ### Multimedia Files
 
 Multimedia files (images, videos, or audio) should be included in an appropriate location within the `docs/assets` folder. Do not use external links for them.
+
+### Blog Pages
+
+PRs affecting blog pages are only acceptable if they're for minor things such as fixing typos or broken links. Adding, removing, or significantly modifying content in blog pages is not allowed.
+If you do modify a blog post, do not add yourself as an author or include a note detailing your change(s) in the page; just fix the typo and leave it at that.
 
 ### Scope
 
