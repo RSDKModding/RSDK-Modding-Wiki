@@ -46,7 +46,7 @@ If you do modify a blog post, do not add yourself as an author or include a note
 
 ### Scope
 
-This wiki currently covers Retro Engine versions 1-5(U), as well as all games officially released for them. Given the work-in-progress state of the wiki, we would like to focus on finishing documentation for those RSDK versions before expanding to cover later versions of the engine.
+This wiki covers all versions of the Retro Engine, as well as all games officially released for them. This includes technical documentation as well as the history of RSDK and its development. Documenting general gameplay for the applicable games is not normally accepted, and we do not cover unofficial mods or fangames not directly associated with Christian Whitehead or Evening Star.
 
 In addition to the official releases of RSDK games, this wiki covers the decompilations for Retro Engine versions 2-5(U) and Sonic Mania, as well as GameAPI/ModAPI. However, this wiki only documents the master [RSDKModding](https://github.com/RSDKModding) repositories for these projects. Do not add documentation, guides, etc. for any unofficial forks or ports of the decompilations or APIs.
 
