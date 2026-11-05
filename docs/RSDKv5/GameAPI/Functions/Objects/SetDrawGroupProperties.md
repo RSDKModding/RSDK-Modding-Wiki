@@ -24,34 +24,34 @@ None.
 
 === "C"
 
-	``` c
-	RSDK.SetDrawGroupProperties(uint8 drawGroup, bool32 sorted, void (*hookCB)(void));
-	```
+    ``` c
+    RSDK.SetDrawGroupProperties(uint8 drawGroup, bool32 sorted, void (*hookCB)(void));
+    ```
 
 === "C++"
 
-	``` cpp
-	Graphics::SetDrawGroupProperties(uint8 drawGroup, bool32 sorted, void (*hookCB)(void));
-	```
+    ``` cpp
+    Graphics::SetDrawGroupProperties(uint8 drawGroup, bool32 sorted, void (*hookCB)(void));
+    ```
 
 ## Examples
 
 === "C"
 
-	``` c
-	RSDK.SetDrawGroupProperties(6, false, NULL);
-	```
+    ``` c
+    RSDK.SetDrawGroupProperties(6, false, NULL);
+    ```
 
-	``` c
-	RSDK.SetDrawGroupProperties(3, true, MyObject_DrawGroupHookCB);
-	```
+    ``` c
+    RSDK.SetDrawGroupProperties(3, true, MyObject_DrawGroupHookCB);
+    ```
 
 === "C++"
 
-	``` cpp
-	Graphics::SetDrawGroupProperties(6, false, nullptr);
-	```
+    ``` cpp
+    Graphics::SetDrawGroupProperties(6, false, nullptr);
+    ```
 
-	``` cpp
-	Graphics::SetDrawGroupProperties(3, true, MyObject::DrawGroupHookCB);
-	```
+    ``` cpp
+    Graphics::SetDrawGroupProperties(3, true, MyObject::DrawGroupHookCB);
+    ```

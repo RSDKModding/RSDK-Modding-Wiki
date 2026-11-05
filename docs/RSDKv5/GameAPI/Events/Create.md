@@ -12,26 +12,26 @@ Called on engine initialization, or when the game code manually creates an entit
 
 === "C"
 
-	``` c
-	void Create(void *data);
-	```
+    ``` c
+    void Create(void *data);
+    ```
 
 === "C++"
 
-	``` cpp
-	void Create(void *data);
-	```
+    ``` cpp
+    void Create(void *data);
+    ```
 
 ## Examples
 
 === "C"
 
-	``` c
-	void MyObject_Create(void *data) { }
-	```
+    ``` c
+    void MyObject_Create(void *data) { }
+    ```
 
 === "C++"
 
-	``` cpp
-	void MyObject::Create(void *data) { }
-	```
+    ``` cpp
+    void MyObject::Create(void *data) { }
+    ```

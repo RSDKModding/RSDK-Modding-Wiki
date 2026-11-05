@@ -12,7 +12,7 @@ GameXML, as the name and file extension suggest, uses [Extensible Markup Languag
 
 ``` xml
 <game>
-	<!-- elements go here -->
+    <!-- elements go here -->
 </game>
 ```
 
@@ -46,7 +46,7 @@ The text value of the element should contain the colors to overwrite the origina
 
 ``` xml
 <palette>
-	<colors bank="0" start="2">202080 #4040a0 (96, 96, 192) (128 128 224)</colors>
+    <colors bank="0" start="2">202080 #4040a0 (96, 96, 192) (128 128 224)</colors>
 </palette>
 ```
 
@@ -68,10 +68,10 @@ This element uses the following attributes:
 
 ``` xml
 <palette>
-	<color bank="0" index="2" r="32" g="32" b="128" />
-	<color bank="0" index="3" r="64" g="64" b="160" />
-	<color bank="0" index="4" r="96" g="96" b="192" />
-	<color bank="0" index="5" r="128" g="128" b="224" />
+    <color bank="0" index="2" r="32" g="32" b="128" />
+    <color bank="0" index="3" r="64" g="64" b="160" />
+    <color bank="0" index="4" r="96" g="96" b="192" />
+    <color bank="0" index="5" r="128" g="128" b="224" />
 </palette>
 ```
 
@@ -81,7 +81,7 @@ Global objects can be added using the `objects` element. This element should con
 
 ``` xml
 <objects>
-	<object name="MyObject" />
+    <object name="MyObject" />
 </objects>
 ```
 
@@ -91,8 +91,8 @@ Sound effects can be added using the `sounds` element. This element should conta
 
 ``` xml
 <sounds>
-	<soundfx path="Global/MySFX.wav" />
-	<soundfx path="Global/OtherSFX.wav" />
+    <soundfx path="Global/MySFX.wav" />
+    <soundfx path="Global/OtherSFX.wav" />
 </sounds>
 ```
 
@@ -120,29 +120,29 @@ Stages can be added using the `category` element. The `name` attribute of this f
 
 ``` xml
 <category name="My Stages">
-	<stage name="MY STAGE" folder="MyStage" id="1" filter="0" />
+    <stage name="MY STAGE" folder="MyStage" id="1" filter="0" />
 </category>
 
 
 <category name="Levels">
-	<stage name="World 1 Level 1" folder="World1" id="1" filter="0" />
-	<stage name="2" folder="World1" id="2" filter="0" />
-	<stage name="3" folder="World1" id="3" filter="0" />
-	<stage name="World 2 Level 1" folder="World2" id="1" filter="0" />
-	<stage name="2" folder="World2" id="2" filter="0" />
-	<stage name="3" folder="World2" id="3" filter="0" />
+    <stage name="World 1 Level 1" folder="World1" id="1" filter="0" />
+    <stage name="2" folder="World1" id="2" filter="0" />
+    <stage name="3" folder="World1" id="3" filter="0" />
+    <stage name="World 2 Level 1" folder="World2" id="1" filter="0" />
+    <stage name="2" folder="World2" id="2" filter="0" />
+    <stage name="3" folder="World2" id="3" filter="0" />
 </category>
 
 
 <category name="Special Stages">
-	<stage name="SPECIAL 1" folder="Special" id="1" filter="0" />
-	<stage name="2" folder="Special" id="1" filter="1" />
-	<stage name="3" folder="Special" id="1" filter="2" />
-	<stage name="4" folder="Special" id="1" filter="4" />
+    <stage name="SPECIAL 1" folder="Special" id="1" filter="0" />
+    <stage name="2" folder="Special" id="1" filter="1" />
+    <stage name="3" folder="Special" id="1" filter="2" />
+    <stage name="4" folder="Special" id="1" filter="4" />
 </category>
 
 
 <category name="Bonus Levels">
-	<stage name="Bonus" folder="Bonus" id="1" filter="0" />
+    <stage name="Bonus" folder="Bonus" id="1" filter="0" />
 </category>
 ```

@@ -12,7 +12,7 @@ GameXML, as the name and file extension suggest, uses [Extensible Markup Languag
 
 ``` xml
 <game>
-	<!-- elements go here -->
+    <!-- elements go here -->
 </game>
 ```
 
@@ -40,8 +40,8 @@ Global variables can be added using the `variables` element. This element should
 
 ``` xml
 <variables>
-	<variable name="player.collectibles" value="0" />
-	<variable name="options.enableLives" value="1" />
+    <variable name="player.collectibles" value="0" />
+    <variable name="options.enableLives" value="1" />
 </variables>
 ```
 
@@ -69,7 +69,7 @@ The text value of the element should contain the colors to overwrite the origina
 
 ``` xml
 <palette>
-	<colors bank="0" start="2">202080 #4040a0 (96, 96, 192) (128 128 224)</colors>
+    <colors bank="0" start="2">202080 #4040a0 (96, 96, 192) (128 128 224)</colors>
 </palette>
 ```
 
@@ -91,10 +91,10 @@ This element uses the following attributes:
 
 ``` xml
 <palette>
-	<color bank="0" index="2" r="32" g="32" b="128" />
-	<color bank="0" index="3" r="64" g="64" b="160" />
-	<color bank="0" index="4" r="96" g="96" b="192" />
-	<color bank="0" index="5" r="128" g="128" b="224" />
+    <color bank="0" index="2" r="32" g="32" b="128" />
+    <color bank="0" index="3" r="64" g="64" b="160" />
+    <color bank="0" index="4" r="96" g="96" b="192" />
+    <color bank="0" index="5" r="128" g="128" b="224" />
 </palette>
 ```
 
@@ -116,7 +116,7 @@ Global objects can be added using the `objects` element. This element should con
 
 ``` xml
 <objects>
-	<object name="My Object" script="Global/MyObject.txt" forceLoad="true" />
+    <object name="My Object" script="Global/MyObject.txt" forceLoad="true" />
 </objects>
 ```
 
@@ -134,8 +134,8 @@ Sound effects can be added using the `sounds` element. This element should conta
 
 ``` xml
 <sounds>
-	<soundfx name="My SFX" path="Global/MySFX.wav" />
-	<soundfx name="Other SFX" path="Global/OtherSFX.wav" />
+    <soundfx name="My SFX" path="Global/MySFX.wav" />
+    <soundfx name="Other SFX" path="Global/OtherSFX.wav" />
 </sounds>
 ```
 
@@ -145,8 +145,8 @@ Players can be added using the `players` element. This element should contain an
 
 ``` xml
 <players>
-	<player name="PLAYER 1" />
-	<player name="PLAYER 2" />
+    <player name="PLAYER 1" />
+    <player name="PLAYER 2" />
 </players>
 ```
 
@@ -172,29 +172,29 @@ Stages can be added using the `presentationStages`, `regularStages`, `specialSta
 
 ``` xml
 <presentationStages>
-	<stage name="MY STAGE" folder="MyStage" id="1" highlight="true" />
+    <stage name="MY STAGE" folder="MyStage" id="1" highlight="true" />
 </presentationStages>
 
 
 <regularStages>
-	<stage name="WORLD 1 LEVEL 1" folder="World1" id="1" highlight="true" />
-	<stage name="2" folder="World1" id="2" highlight="false" />
-	<stage name="3" folder="World1" id="3" highlight="false" />
-	<stage name="WORLD 2 LEVEL 1" folder="World2" id="1" highlight="true" />
-	<stage name="2" folder="World2" id="2" highlight="false" />
-	<stage name="3" folder="World2" id="3" highlight="false" />
+    <stage name="WORLD 1 LEVEL 1" folder="World1" id="1" highlight="true" />
+    <stage name="2" folder="World1" id="2" highlight="false" />
+    <stage name="3" folder="World1" id="3" highlight="false" />
+    <stage name="WORLD 2 LEVEL 1" folder="World2" id="1" highlight="true" />
+    <stage name="2" folder="World2" id="2" highlight="false" />
+    <stage name="3" folder="World2" id="3" highlight="false" />
 </regularStages>
 
 
 <specialStages>
-	<stage name="SPECIAL 1" folder="Special" id="1" highlight="true" />
-	<stage name="2" folder="Special" id="2" highlight="false" />
-	<stage name="3" folder="Special" id="3" highlight="false" />
-	<stage name="4" folder="Special" id="4" highlight="false" />
+    <stage name="SPECIAL 1" folder="Special" id="1" highlight="true" />
+    <stage name="2" folder="Special" id="2" highlight="false" />
+    <stage name="3" folder="Special" id="3" highlight="false" />
+    <stage name="4" folder="Special" id="4" highlight="false" />
 </specialStages>
 
 
 <bonusStages>
-	<stage name="BONUS" folder="Bonus" id="1" highlight="true" />
+    <stage name="BONUS" folder="Bonus" id="1" highlight="true" />
 </bonusStages>
 ```

@@ -20,37 +20,37 @@ None.
 
 === "C"
 
-	``` c
-	RSDK_ENUM_VAR(const char* varName, int32 varValue);
-	```
+    ``` c
+    RSDK_ENUM_VAR(const char* varName, int32 varValue);
+    ```
 
 === "C++"
 
-	``` cpp
-	RSDK_ENUM_VAR(const char* varName);
-	```
+    ``` cpp
+    RSDK_ENUM_VAR(const char* varName);
+    ```
 
 ## Example
 
 === "C"
 
-	``` c
-	RSDK_ENUM_VAR("Sonic", PLAYER_CHAR_SONIC);
-	```
+    ``` c
+    RSDK_ENUM_VAR("Sonic", PLAYER_CHAR_SONIC);
+    ```
 
 === "C++"
 
-	``` cpp
-	RSDK_ENUM_VAR("Sonic");
-	```
+    ``` cpp
+    RSDK_ENUM_VAR("Sonic");
+    ```
 
 !!! note
 
     This is a macro, which is designed to make programming in RSDK easier. The underlying function is:
 
-	```
-	void (*AddVarEnumValue)(const char *name)
-	```
+    ```
+    void (*AddVarEnumValue)(const char *name)
+    ```
 
-	`name` is the enum var's name as a string.
-	The underlying function should NEVER be called as it's less safe than the macro. This note is here for anyone wishing to learn about the internals or hoping to develop a wrapper for another language that doesn't support macros.
+    `name` is the enum var's name as a string.
+    The underlying function should NEVER be called as it's less safe than the macro. This note is here for anyone wishing to learn about the internals or hoping to develop a wrapper for another language that doesn't support macros.

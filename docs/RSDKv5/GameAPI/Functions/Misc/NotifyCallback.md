@@ -43,14 +43,14 @@ NotifyCallback(NOTIFY_STATS_CHARA_ACTION, 1, 0, 0);
         ``` c
         if (HasNotifyCallback())
             RSDK.NotifyCallback(callback, param1, param2, param3);
-    	```
+        ```
 
     === "C++"
 
         ``` cpp
         if (HasNotifyCallback())
             RSDKTable->NotifyCallback(callback, param1, param2, param3);
-    	```
+        ```
 
     [HasNotifyCallback()](HasNotifyCallback.md) is a macro as well.
     The underlying logic for either macro should NEVER be used as it's less safe than the macros. This note is here for anyone wishing to learn about the internals or hoping to develop a wrapper for another language that doesn't support macros.

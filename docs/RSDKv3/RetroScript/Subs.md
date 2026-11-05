@@ -8,17 +8,17 @@ Called once every frame (if priority allows) to run a general update of the obje
 
 ``` title="Example"
 sub ObjectMain
-	Object.XPos += Object.Value0
-	Object.YPos += Object.Value1
-	
-	Object.AnimationTimer++
-	if Object.AnimationTimer >= 8
-		Object.Frame++
-		if Object.Frame >= 4
-			Object.Frame = 0
-		end if
-		Object.AnimationTimer = 0
-	end if
+    Object.XPos += Object.Value0
+    Object.YPos += Object.Value1
+    
+    Object.AnimationTimer++
+    if Object.AnimationTimer >= 8
+        Object.Frame++
+        if Object.Frame >= 4
+            Object.Frame = 0
+        end if
+        Object.AnimationTimer = 0
+    end if
 end sub
 ```
 
@@ -32,10 +32,10 @@ Called after `ObjectMain` for each active player to handle interactions between 
 
 ``` title="Example"
 sub ObjectPlayerInteraction
-	PlayerObjectCollision(C_TOUCH, -8, -8, 8, 8)
-	if CheckResult == true
-		Object.State = 2
-	end if
+    PlayerObjectCollision(C_TOUCH, -8, -8, 8, 8)
+    if CheckResult == true
+        Object.State = 2
+    end if
 end sub
 ```
 
@@ -45,7 +45,7 @@ Called once every frame (if priority allows) to draw the object. Although some o
 
 ``` title="Example"
 sub ObjectDraw
-	DrawSprite(Object.Frame)
+    DrawSprite(Object.Frame)
 end sub
 ```
 
@@ -55,20 +55,20 @@ Called once per object type on stage startup. Used to load spritesheets and set 
 
 ``` title="Example"
 sub ObjectStartup
-	LoadSpriteSheet("Global/Items.gif")
-	
-	SpriteFrame(-8, -8, 16, 16, 1, 1)
-	SpriteFrame(-8, -8, 16, 16, 1, 18)
-	SpriteFrame(-8, -8, 16, 16, 1, 35)
-	SpriteFrame(-8, -8, 16, 16, 1, 52)
-	
-	TempValue0 = 32
-	while TempValue0 < 1056
-		if Object[ArrayPos0].Type == TypeName[Test Object]
-			Object[ArrayPos0].DrawOrder = 4
-		end if
-		TempValue0++
-	loop
+    LoadSpriteSheet("Global/Items.gif")
+    
+    SpriteFrame(-8, -8, 16, 16, 1, 1)
+    SpriteFrame(-8, -8, 16, 16, 1, 18)
+    SpriteFrame(-8, -8, 16, 16, 1, 35)
+    SpriteFrame(-8, -8, 16, 16, 1, 52)
+    
+    TempValue0 = 32
+    while TempValue0 < 1056
+        if Object[ArrayPos0].Type == TypeName[Test Object]
+            Object[ArrayPos0].DrawOrder = 4
+        end if
+        TempValue0++
+    loop
 end sub
 ```
 
@@ -78,27 +78,27 @@ Called whenever modifying an object's editor variable in an editor. This sub can
 
 ``` title="Example"
 sub RSDKEdit
-	if Editor.ReturnVariable == true
-		switch Editor.VariableID
-		case EDIT_VAR_PROPVAL // Property Value
-			CheckResult = Object.PropertyValue
-			break
-			
-		case 0 // Alignment
-			CheckResult = Object.PropertyValue
-			break
-		end switch
-	else
-		switch Editor.VariableID
-		case EDIT_VAR_PROPVAL // Property Value
-			Object.PropertyValue = Editor.VariableValue
-			break
-			
-		case 0 // Alignment
-			Object.PropertyValue = Editor.VariableValue
-			break
-		end switch
-	end if
+    if Editor.ReturnVariable == true
+        switch Editor.VariableID
+        case EDIT_VAR_PROPVAL // Property Value
+            CheckResult = Object.PropertyValue
+            break
+            
+        case 0 // Alignment
+            CheckResult = Object.PropertyValue
+            break
+        end switch
+    else
+        switch Editor.VariableID
+        case EDIT_VAR_PROPVAL // Property Value
+            Object.PropertyValue = Editor.VariableValue
+            break
+            
+        case 0 // Alignment
+            Object.PropertyValue = Editor.VariableValue
+            break
+        end switch
+    end if
 end sub
 ```
 
@@ -108,10 +108,10 @@ Called once every frame to draw the object in an editor.
 
 ``` title="Example"
 sub RSDKDraw
-	DrawSprite(0)
-	if Editor.ShowGizmos == true
-		DrawSprite(1)
-	end if
+    DrawSprite(0)
+    if Editor.ShowGizmos == true
+        DrawSprite(1)
+    end if
 end sub
 ```
 
@@ -121,16 +121,16 @@ Called once per object type when game logic is (re)loaded in an editor. Used to 
 
 ``` title="Example"
 sub RSDKLoad
-	LoadSpriteSheet("Global/Items.gif")
-	SpriteFrame(-8, -8, 16, 16, 1, 1)
-	SpriteFrame(-8, -8, 16, 16, 1, 18)
+    LoadSpriteSheet("Global/Items.gif")
+    SpriteFrame(-8, -8, 16, 16, 1, 1)
+    SpriteFrame(-8, -8, 16, 16, 1, 18)
 
-	AddEditorVariable("Alignment")
-	SetActiveVariable("Alignment")
-	AddEnumVariable("Left", 0)
-	AddEnumVariable("Center", 1)
-	AddEnumVariable("Right", 2)
-	
-	SetVariableAlias(ALIAS_VAR_VAL0, "Width")
+    AddEditorVariable("Alignment")
+    SetActiveVariable("Alignment")
+    AddEnumVariable("Left", 0)
+    AddEnumVariable("Center", 1)
+    AddEnumVariable("Right", 2)
+    
+    SetVariableAlias(ALIAS_VAR_VAL0, "Width")
 end sub
 ```

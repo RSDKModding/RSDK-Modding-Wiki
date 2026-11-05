@@ -23,6 +23,8 @@ Welcome to the RSDK Modding Wiki, your one-stop shop for documentation, resource
 
     This site is a heavy work-in-progress. Expect missing information and empty/placeholder pages. Everything is subject to change.
 
+    If you'd like to help us work on the wiki, read the contribution guide on the wiki's [GitHub repository](https://github.com/RSDKModding/RSDK-Modding-Wiki?tab=contributing-ov-file#).
+
 ## Contents
 
 <div class="grid cards" markdown>

@@ -42,14 +42,14 @@ RSDK_EDITABLE_VAR(MyObject, VAR_ENUM, size);
 
     === "C"
 
-		``` c
-		RSDK.SetEditableVar(type, #var, (uint8)object->classID, offsetof(Entity##object, var))
-		```
+        ``` c
+        RSDK.SetEditableVar(type, #var, (uint8)object->classID, offsetof(Entity##object, var))
+        ```
 
     === "C++"
 
-    	``` cpp
-    	sVars->EditableVar(type, #var, offsetof(object, var))
-    	```
+        ``` cpp
+        sVars->EditableVar(type, #var, offsetof(object, var))
+        ```
 
-	The underlying function should NEVER be called as it's less safe than the macro. This note is here for anyone wishing to learn about the internals or hoping to develop a wrapper for another language that doesn't support macros.
+    The underlying function should NEVER be called as it's less safe than the macro. This note is here for anyone wishing to learn about the internals or hoping to develop a wrapper for another language that doesn't support macros.

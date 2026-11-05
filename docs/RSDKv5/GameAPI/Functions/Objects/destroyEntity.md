@@ -30,9 +30,9 @@ None.
 
 === "C"
 
-	``` c
-	destroyEntity(self);
-	```
+    ``` c
+    destroyEntity(self);
+    ```
 
     !!! note
 

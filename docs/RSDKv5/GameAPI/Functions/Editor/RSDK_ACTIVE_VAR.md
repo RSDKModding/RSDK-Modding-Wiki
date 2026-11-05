@@ -40,9 +40,9 @@ RSDK_ACTIVE_VAR(sVars, variable);
 
     This is a macro, which is designed to make programming in RSDK easier. The underlying function is:
 
-	```
-	void (*SetActiveVariable)(int32 classID, const char *name)
-	```
+    ```
+    void (*SetActiveVariable)(int32 classID, const char *name)
+    ```
 
     `classID` is the object's classID, and `name` is the variable's name as a string.
     The underlying function should NEVER be called as it's less safe than the macro. This note is here for anyone wishing to learn about the internals or hoping to develop a wrapper for another language that doesn't support macros.

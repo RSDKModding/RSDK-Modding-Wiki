@@ -8,17 +8,17 @@ Called once every frame (if priority allows) to run a general update of the obje
 
 ``` title="Example"
 event ObjectUpdate
-	object.xpos += object.xvel
-	object.ypos += object.yvel
-	
-	object.animationTimer++
-	if object.animationTimer >= 8
-		object.frame++
-		if object.frame >= 4
-			object.frame = 0
-		end if
-		object.animationTimer = 0
-	end if
+    object.xpos += object.xvel
+    object.ypos += object.yvel
+    
+    object.animationTimer++
+    if object.animationTimer >= 8
+        object.frame++
+        if object.frame >= 4
+            object.frame = 0
+        end if
+        object.animationTimer = 0
+    end if
 end event
 ```
 
@@ -32,7 +32,7 @@ Called once every frame (if priority allows) to draw the object. Although some o
 
 ``` title="Example"
 event ObjectDraw
-	DrawSprite(object.frame)
+    DrawSprite(object.frame)
 end event
 ```
 
@@ -42,16 +42,16 @@ Called once per object type on stage startup. Used to load spritesheets and set 
 
 ``` title="Example"
 event ObjectStartup
-	LoadSpriteSheet("Global/Items.gif")
-	
-	SpriteFrame(-8, -8, 16, 16, 1, 1)
-	SpriteFrame(-8, -8, 16, 16, 1, 18)
-	SpriteFrame(-8, -8, 16, 16, 1, 35)
-	SpriteFrame(-8, -8, 16, 16, 1, 52)
-	
-	foreach (TypeName[Test Object], arrayPos0, ALL_ENTITIES)
-		object[arrayPos0].drawOrder = 4
-	next
+    LoadSpriteSheet("Global/Items.gif")
+    
+    SpriteFrame(-8, -8, 16, 16, 1, 1)
+    SpriteFrame(-8, -8, 16, 16, 1, 18)
+    SpriteFrame(-8, -8, 16, 16, 1, 35)
+    SpriteFrame(-8, -8, 16, 16, 1, 52)
+    
+    foreach (TypeName[Test Object], arrayPos0, ALL_ENTITIES)
+        object[arrayPos0].drawOrder = 4
+    next
 end event
 ```
 
@@ -61,27 +61,27 @@ Called whenever modifying an object's editor variable in an editor. This event c
 
 ``` title="Example"
 event RSDKEdit
-	if editor.returnVariable == true
-		switch editor.variableID
-		case EDIT_VAR_PROPVAL // property value
-			checkResult = object.propertyValue
-			break
-			
-		case 0 // alignment
-			checkResult = object.propertyValue
-			break
-		end switch
-	else
-		switch editor.variableID
-		case EDIT_VAR_PROPVAL // property value
-			object.propertyValue = editor.variableValue
-			break
-			
-		case 0 // alignment
-			object.propertyValue = editor.variableValue
-			break
-		end switch
-	end if
+    if editor.returnVariable == true
+        switch editor.variableID
+        case EDIT_VAR_PROPVAL // property value
+            checkResult = object.propertyValue
+            break
+            
+        case 0 // alignment
+            checkResult = object.propertyValue
+            break
+        end switch
+    else
+        switch editor.variableID
+        case EDIT_VAR_PROPVAL // property value
+            object.propertyValue = editor.variableValue
+            break
+            
+        case 0 // alignment
+            object.propertyValue = editor.variableValue
+            break
+        end switch
+    end if
 end event
 ```
 
@@ -91,10 +91,10 @@ Called once every frame to draw the object in an editor.
 
 ``` title="Example"
 event RSDKDraw
-	DrawSprite(0)
-	if editor.showGizmos == true
-		DrawSprite(1)
-	end if
+    DrawSprite(0)
+    if editor.showGizmos == true
+        DrawSprite(1)
+    end if
 end event
 ```
 
@@ -104,16 +104,16 @@ Called once per object type when game logic is (re)loaded in an editor. Used to 
 
 ``` title="Example"
 event RSDKLoad
-	LoadSpriteSheet("Global/Items.gif")
-	SpriteFrame(-8, -8, 16, 16, 1, 1)
-	SpriteFrame(-8, -8, 16, 16, 1, 18)
+    LoadSpriteSheet("Global/Items.gif")
+    SpriteFrame(-8, -8, 16, 16, 1, 1)
+    SpriteFrame(-8, -8, 16, 16, 1, 18)
 
-	AddEditorVariable("alignment")
-	SetActiveVariable("alignment")
-	AddEnumVariable("Left", 0)
-	AddEnumVariable("Center", 1)
-	AddEnumVariable("Right", 2)
-	
-	SetVariableAlias(ALIAS_VAR_VAL0, "width")
+    AddEditorVariable("alignment")
+    SetActiveVariable("alignment")
+    AddEnumVariable("Left", 0)
+    AddEnumVariable("Center", 1)
+    AddEnumVariable("Right", 2)
+    
+    SetVariableAlias(ALIAS_VAR_VAL0, "width")
 end event
 ```

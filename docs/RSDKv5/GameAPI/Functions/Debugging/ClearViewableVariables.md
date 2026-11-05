@@ -18,12 +18,12 @@ None.
 
 === "C"
 
-	``` c
-	RSDK.ClearViewableVariables();
-	```
+    ``` c
+    RSDK.ClearViewableVariables();
+    ```
 
 === "C++"
 
-	``` cpp
-	Dev::ClearViewableVariables();
-	```
+    ``` cpp
+    Dev::ClearViewableVariables();
+    ```
