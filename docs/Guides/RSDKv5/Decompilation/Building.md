@@ -1,6 +1,6 @@
 # Building the RSDKv5 & Sonic Mania Decompilations
 
-The RSDKv5 and Sonic Mania decompilations use [CMake](https://cmake.org/), a versatile building system that supports many different compilers and platforms.
+This guide shows how to build the RSDKv5 Decompilation for use with Sonic Mania (Plus) or other games that use the engine. The decompilation uses [CMake](https://cmake.org/), a versatile building system that supports many different compilers and platforms.
 
 ## Read before proceeding
 

@@ -93,6 +93,7 @@ plugins:
         - RSDKv3
         - RSDKv4
         - RSDKv5
+  - meta-descriptions
   - group:
       enabled: !ENV [CI, false]
       plugins:

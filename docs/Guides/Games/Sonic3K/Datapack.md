@@ -1,6 +1,6 @@
 # Obtaining the Sonic 3 & Knuckles Datapack
 
-The datapack for Sonic 3 & Knuckles is required for both playing and modding the game.
+This guide shows how to obtain the datapack (Data.rsdk) file from Sonic 3 & Knuckles. The datapack is required for both playing and modding the game.
 
 ## Prerequisites
 

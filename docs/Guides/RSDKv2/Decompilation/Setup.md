@@ -1,5 +1,7 @@
 # Setting Up the RSDKv2 Decompilation
 
+This guide shows how to install the RSDKv2 Decompilation for use with Sonic Nexus.
+
 ## Prerequisites
 
 -   A build of the RSDKv2 Decompilation for the target platform. You can get one by:

@@ -1,5 +1,7 @@
 # Linking Game Logic With RetroED
 
+This guide shows how to link game logic or scripts with RetroED to enable viewing editor renders and variables in the scene editor.
+
 ## Prerequisites
 
 === "v3/v4"

@@ -1,6 +1,6 @@
 # Building the RSDKv4 Decompilation
 
-The RSDKv4 Decompilation uses [CMake](https://cmake.org/), a versatile building system that supports many different compilers and platforms.
+This guide shows how to build the RSDKv4 Decompilation for use with Sonic 1 (2013), Sonic 2 (2013), or other games that use the engine. The decompilation uses [CMake](https://cmake.org/), a versatile building system that supports many different compilers and platforms.
 
 ## Read before proceeding
 

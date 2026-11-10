@@ -1,5 +1,7 @@
 # Setting Up the RSDKv4 Decompilation
 
+This guide shows how to install the RSDKv3 Decompilation for use with Sonic 1 (2013) or Sonic 2 (2013).
+
 ## Prerequisites
 
 -   A build of the RSDKv4 Decompilation for the target platform. You can get one by:

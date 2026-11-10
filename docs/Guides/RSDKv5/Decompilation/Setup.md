@@ -1,5 +1,7 @@
 # Setting Up the RSDKv5 & Sonic Mania Decompilations
 
+This guide shows how to install the RSDKv5 Decompilation for use with Sonic Mania (Plus).
+
 ## Prerequisites
 
 -   A build of the RSDKv5 Decompilation for the target platform. You can get one by:

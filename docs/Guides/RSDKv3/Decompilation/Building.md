@@ -1,6 +1,6 @@
 # Building the RSDKv3 Decompilation
 
-The RSDKv3 Decompilation uses [CMake](https://cmake.org/), a versatile building system that supports many different compilers and platforms.
+This guide shows how to build the RSDKv3 Decompilation for use with Sonic CD (2011) or other games that use the engine. The decompilation uses [CMake](https://cmake.org/), a versatile building system that supports many different compilers and platforms.
 
 ## Read before proceeding
 

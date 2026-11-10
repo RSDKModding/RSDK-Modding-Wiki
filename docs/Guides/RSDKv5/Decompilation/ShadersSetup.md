@@ -1,5 +1,7 @@
 # Setting Up the Decompiled RSDKv5 Shaders
 
+This guide shows how to install the shaders mod for the RSDKv5 Decompilation, which are required for screen filters and videos to work properly on most setups.
+
 !!! note
 
     This guide assumes you have already [set up the RSDKv5 decompilation](Setup.md).

@@ -1,6 +1,6 @@
 # Obtaining the Sonic CD Datapack
 
-The datapack for Sonic CD is required for both playing and modding the game.
+This guide shows how to obtain the datapack (Data.rsdk) file from Sonic CD (2011). The datapack is required for both playing and modding the game.
 
 ## Prerequisites
 

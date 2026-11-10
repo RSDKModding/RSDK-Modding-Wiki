@@ -1,5 +1,7 @@
 # Extracting a Datapack With RetroED
 
+This guide shows how to use RetroED to unpack the assets from a datapack (Data.rsdk).
+
 ## Prerequisites
 
 - [RetroED](../../Tools/RetroED/index.md)

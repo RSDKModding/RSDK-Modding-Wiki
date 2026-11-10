@@ -1,5 +1,7 @@
 # Setting Up Mods for the RSDKv4 Decompilation
 
+This guide shows how to install mods for the RSDKv4 Decompilation and use its mod loader.
+
 !!! note
 
     This guide assumes you have already [set up the RSDKv4 Decompilation](Setup.md).

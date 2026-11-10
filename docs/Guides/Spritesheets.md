@@ -1,6 +1,6 @@
 # Editing Spritesheets
 
-This guide shows how to edit RSDK spritesheets and avoid common problems when doing so.
+This guide shows how to edit Retro Engine spritesheets and avoid common problems when doing so.
 
 ## Prerequisites
 

@@ -1,5 +1,7 @@
 # Setting Up Mods for the RSDKv5 & Sonic Mania Decompilations
 
+This guide shows how to install mods for the RSDKv5 Decompilation and use its mod loader.
+
 !!! note
 
     This guide assumes you have already [set up the RSDKv5 & Sonic Mania decompilations](Setup.md).

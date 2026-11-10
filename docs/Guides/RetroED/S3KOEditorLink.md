@@ -1,5 +1,7 @@
 # Using S3KOEditorLink With RetroED
 
+This guide shows how to use S3KOEditorLink to enable object renders and variables for Sonic 3 & Knuckles in RetroED's scene editor.
+
 !!! warning
 
     S3KOEditorLink is only compatible with Windows and requires owning the Steam version of [Sonic Origins](../../Games/SonicOrigins/index.md).

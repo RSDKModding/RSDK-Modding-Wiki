@@ -1,6 +1,6 @@
 # Obtaining the Sonic 1 & 2 Datapacks
 
-The datapacks for Sonic 1 and 2 are required for both playing and modding the games.
+This guide shows how to obtain the datapack (Data.rsdk) files from Sonic 1 (2013) and Sonic 2 (2013). The datapacks are required for both playing and modding the games.
 
 ## Prerequisites
 

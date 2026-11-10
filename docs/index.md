@@ -15,8 +15,6 @@ search:
 
 # RSDK Modding Wiki
 
-TODO: Replace header with logo
-
 Welcome to the RSDK Modding Wiki, your one-stop shop for documentation, resources, and guides for Retro Engine modding!
 
 !!! warning

@@ -1,5 +1,7 @@
 # Setting Up the RSDKv3 Decompilation
 
+This guide shows how to install the RSDKv3 Decompilation for use with Sonic CD (2011).
+
 ## Prerequisites
 
 -   A build of the RSDKv3 Decompilation for the target platform. You can get one by:

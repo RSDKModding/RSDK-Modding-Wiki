@@ -1,6 +1,6 @@
 # Obtaining the Sonic Mania Datapack
 
-The datapack for Sonic Mania is required for both playing and modding the game.
+This guide shows how to obtain the datapack (Data.rsdk) file from Sonic Mania. The datapack is required for both playing and modding the game.
 
 ## Prerequisites
 
